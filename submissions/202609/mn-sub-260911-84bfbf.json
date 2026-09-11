@@ -1,0 +1,43 @@
+{
+ "id": "mn-sub-260911-84bfbf",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "dont-touch-shutdown-guard",
+  "version": "1.0.0",
+  "description": "Skill for the Roblox game DON'T TOUCH!: guards the emergency shutdown button. Arms a two-person confirmation rule, rate-limits activation attempts, logs every press to a DataStore audit trail, and exposes a safe test mode for CI.",
+  "author": "AliceLabs",
+  "category": "Security",
+  "runtime": "luau",
+  "tags": [
+   "mcp",
+   "roblox",
+   "luau",
+   "game-safety",
+   "dont-touch"
+  ],
+  "install": "Rojo: place ShutdownGuard.luau in ServerScriptService/Skills/ (or paste into Studio)",
+  "homepage": "https://www.marketnow.site/submit.html",
+  "repo_url": "https://github.com/alicelabs-llc/marketnow-submissions",
+  "license": "MIT",
+  "price": 0
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-11T23:41:52.299Z",
+  "duration_ms": 94,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 60,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-11T23:41:52.299Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dont-touch-shutdown-guard"
+ }
+}
