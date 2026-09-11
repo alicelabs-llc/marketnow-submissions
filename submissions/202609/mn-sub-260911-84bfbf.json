@@ -1,7 +1,7 @@
 {
  "id": "mn-sub-260911-84bfbf",
  "verdict": "accepted",
- "status": "certified-L1 (auto-scan) — pending L2 review",
+ "status": "certified-L1 (auto-scan) \u2014 pending L2 review",
  "skill": {
   "name": "dont-touch-shutdown-guard",
   "version": "1.0.0",
@@ -20,7 +20,33 @@
   "homepage": "https://www.marketnow.site/submit.html",
   "repo_url": "https://github.com/alicelabs-llc/marketnow-submissions",
   "license": "MIT",
-  "price": 0
+  "price": 0,
+  "capabilities": {
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "text"
+   ],
+   "execution_context": "roblox_server"
+  },
+  "doc": {
+   "usage": "local ShutdownGuard = require(script.Parent.Skills.ShutdownGuard)\nShutdownGuard.arm('main-button', { confirmations = 2, cooldown = 30 })",
+   "system_prompt": "You are assisting with the Roblox game DON'T TOUCH!. This skill guards the emergency shutdown button: it requires two distinct players to confirm within 10 seconds before any shutdown is executed, and logs all attempts.",
+   "setup": {
+    "required_env": [],
+    "install": "Rojo sync or Studio paste",
+    "estimated_cost": "free"
+   }
+  },
+  "test": {
+   "url": "https://www.marketnow.site/api/submit"
+  },
+  "files": {
+   "ShutdownGuard.luau": "-- ShutdownGuard.luau \u2014 DON'T TOUCH! skill (Server)\n-- Arms the emergency shutdown button with two-person confirmation.\nlocal Players = game:GetService('Players')\nlocal DataStoreService = game:GetService('DataStoreService')\nlocal audit = DataStoreService:GetDataStore('DT_audit_v1')\n\nlocal ShutdownGuard = {}\nlocal config = { confirmations = 2, window = 10, cooldown = 30 }\nlocal pending = {}\n\nfunction ShutdownGuard.arm(buttonId, overrides)\n  for k, v in pairs(overrides or {}) do config[k] = v end\n  pending[buttonId] = { votes = {}, armedAt = os.clock() }\n  return ('armed: ' .. buttonId)\nend\n\nfunction ShutdownGuard.attempt(buttonId, player)\n  local state = pending[buttonId]\n  if not state then return 'not-armed' end\n  if os.clock() - state.armedAt > config.window then\n    pending[buttonId] = nil\n    return 'window-expired'\n  end\n  state.votes[player.UserId] = os.clock()\n  local n = 0\n  for _ in pairs(state.votes) do n = n + 1 end\n  if n >= config.confirmations then\n    local ok, err = pcall(function()\n      audit:UpdateAsync(buttonId, function(old)\n        return (old or 0) + 1\n      end)\n    end)\n    pending[buttonId] = nil\n    return 'shutdown-confirmed'\n  end\n  return ('awaiting-confirmation ' .. n .. '/' .. config.confirmations)\nend\n\nreturn ShutdownGuard\n"
+  }
  },
  "sentinel": {
   "scan_version": "L1-sub/1.0",
@@ -39,5 +65,6 @@
  "merge": {
   "eligible": true,
   "catalog_slug": "dont-touch-shutdown-guard"
- }
+ },
+ "record_enriched": "full payload stored for L2 review (files/doc/capabilities)"
 }
