@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-260912-cc87b5",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Knowledge Graph Builder",
+  "version": "1.0.0",
+  "description": "Extract entities and relations from any document corpus into a queryable Neo4j graph\n\nParses PDFs, HTML, and markdown, runs an LLM-assisted entity-relation extractor with a typed schema, deduplicates entities via embedding+string matching, and writes a typed property graph to Neo4j. Supports incremental updates when source docs change, with full provenance back to the source paragraph.\n\nPain point: Agents retrieving from flat chunks miss multi-hop relations like 'which companies did the CEO of the acquiring firm previously work at?' because vector search can't traverse joins. Buil...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "build_graph",
+   "extract_entities_relations",
+   "resolve_entities",
+   "query_graph",
+   "incremental_update"
+  ],
+  "install": "npx -y @marketnow/install knowledge-graph-builder",
+  "homepage": "https://www.marketnow.site/skills/knowledge-graph-builder",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install knowledge-graph-builder\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# Knowledge Graph Builder\nParses PDFs, HTML, and markdown, runs an LLM-assisted entity-relation extractor with a typed schema, deduplicates entities via embedding+string matching, and writes a typed property graph to Neo4j. Supports incremental updates when source docs change, with full provenance back to the source paragraph.\n\n## How it works\n- Define an ontology (Person, Organization, Product, Event, Invests_In, Works_At, Acquires) or auto-infer one from a sample\n- LLM extractor emits (subject, relation, object, span) tuples per paragraph with confidence scores\n- Entity resolver merges 'Apple Inc.', 'Apple', 'AAPL' using a cross-encoder + embedding threshold\n- Writes nodes and edges to Neo4j with provenance metadata (doc_id, page, char_offset, extractor_version)\n\n## Use cases\n- Build a competitive intel graph from 5000 news articles: companies, execs, acquisitions, products\n- Convert a 200-page PDF policy manual into a queryable graph of policies, exceptions, owners\n- Auto-update the graph nightly when Confluence pages change"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:11:07.727Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:11:07.727Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "knowledge-graph-builder"
+ }
+}
