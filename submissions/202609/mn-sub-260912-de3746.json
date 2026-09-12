@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-de3746",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Communication Bus",
+  "version": "1.0.0",
+  "description": "Mensajería asíncrona confiable entre agentes con todos los patrones\n\nBus de mensajería entre agentes con patrones pub/sub, request/reply, work queues y routing por tópicos. Garantiza entrega at-least-once con deduplicación, dead letter queues para mensajes fallidos, y backpressure adaptativo.\n\nPain point: Agentes acoplados vía HTTP directo crean point-to-point spaghetti. Un agente caído rompe la cadena. Sin bus, no hay retry, ni dedup, ni trazabilidad de mensajes entre agentes.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "publish",
+   "subscribe",
+   "request",
+   "reply",
+   "get_dlq",
+   "replay"
+  ],
+  "install": "npx -y @marketnow/install agent-communication-bus",
+  "homepage": "https://www.marketnow.site/skills/agent-communication-bus",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-communication-bus\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Communication Bus\nBus de mensajería entre agentes con patrones pub/sub, request/reply, work queues y routing por tópicos. Garantiza entrega at-least-once con deduplicación, dead letter queues para mensajes fallidos, y backpressure adaptativo.\n\n## How it works\n- Implementado sobre NATS JetStream con streams persistidos y consumers durables\n- Pub/sub: agentes publican a tópicos jerárquicos (agent.research.findings), suscriptores reciben en su queue group\n- Request/reply con correlación ID y timeout; el bus espera respuesta del agente destino o falla con error tipado\n- Dedup por message_id hash en ventana deslizante de 5min, evita procesamiento duplicado en redelivery\n- Dead letter queue: tras 3 retries fallidos, mensaje va a DLQ para inspección manual o routing alternativo\n\n## Use cases\n- Agente detector de eventos que publica a tópico 'alerts.critical', múltiples agentes suscriptores reaccionan\n- Agente orquestador hace request/reply a agente worker con timeout de 30s; si no responde, fallback\n- Replay de mensajes de las últimas 24h para debugging post-mortem de un incidente"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:03:38.506Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:03:38.506Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-communication-bus"
+ }
+}
