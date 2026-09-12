@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-68e082",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Debugging Probe",
+  "version": "1.0.0",
+  "description": "Inspecciona un agente en vivo: state, memoria, razonamiento paso a paso\n\nProbe de debugging en vivo para agentes: atacha a un agente en ejecución e inspecciona state interno, memoria activa, árbol de razonamiento, llamadas a tools en flight, y variables de contexto. Soporta breakpoints, step-through y time-travel debugging.\n\nPain point: Un agente se comporta mal en producción pero no sabes por qué. Los logs son insuficientes: necesitas ver el state interno, el contexto que ve el LLM, qué tools llamó y con qué args. Sin debugger, es adivinar en oscuro.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "attach_agent",
+   "get_state",
+   "set_breakpoint",
+   "step_through",
+   "time_travel",
+   "inspect_memory"
+  ],
+  "install": "npx -y @marketnow/install agent-debugging-probe",
+  "homepage": "https://www.marketnow.site/skills/agent-debugging-probe",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-debugging-probe\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Debugging Probe\nProbe de debugging en vivo para agentes: atacha a un agente en ejecución e inspecciona state interno, memoria activa, árbol de razonamiento, llamadas a tools en flight, y variables de contexto. Soporta breakpoints, step-through y time-travel debugging.\n\n## How it works\n- Injection de un debug agent via ptrace/eBPF que lee la memoria del proceso del agente sin detenerlo\n- Snapshot en tiempo real del context window del LLM (system prompt + messages + tool results) con highlight de tokens relevantes\n- Árbol de razonamiento visualizado: cada decisión del agente como nodo, con children (alternativas consideradas) y rationale\n- Breakpoints semánticos: pausa cuando el agente llama a tool X, cuando menciona término Y en razonamiento, o cuando state cambia\n- Time-travel: graba ejecución completa, permite rebobinar a cualquier punto y re-ejecutar desde ahí con inputs modificados\n\n## Use cases\n- Agente que ocasionalmente alucina: atacha probe, espera el episodio, examina razonamiento previo para encontrar trigger\n- Agente que llama a tool incorrecta: breakpoint en tool calls, inspecciona contexto que llevó a la decisión errónea\n- Time-travel: retrocede 5 pasos, modifica una variable, re-ejecuta para confirmar hipótesis de bug"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:09:58.073Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:09:58.073Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-debugging-probe"
+ }
+}
