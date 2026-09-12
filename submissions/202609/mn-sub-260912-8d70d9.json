@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-260912-8d70d9",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Embedding Router",
+  "version": "1.0.0",
+  "description": "Route each query to the best embedding model for cost-quality tradeoff per query\n\nMaintains a pool of embedding models (OpenAI text-embedding-3-large, Cohere embed-v3, BGE-large, MiniLM) and routes each query to the model that maximizes recall-per-dollar on that query type. Short factual queries go to a cheap model; complex multi-concept queries go to a high-recall model. Cuts embedding cost 40-60% with no recall loss.\n\nPain point: Teams pin one embedding model and pay OpenAI text-embedding-3-large prices for every query, including trivial keyword-like queries where MiniLM would r...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "embed_query",
+   "embed_corpus",
+   "register_model",
+   "build_routing_table",
+   "get_routing_stats"
+  ],
+  "install": "npx -y @marketnow/install embedding-router",
+  "homepage": "https://www.marketnow.site/skills/embedding-router",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install embedding-router\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# Embedding Router\nMaintains a pool of embedding models (OpenAI text-embedding-3-large, Cohere embed-v3, BGE-large, MiniLM) and routes each query to the model that maximizes recall-per-dollar on that query type. Short factual queries go to a cheap model; complex multi-concept queries go to a high-recall model. Cuts embedding cost 40-60% with no recall loss.\n\n## How it works\n- Classifies each query into a complexity bucket (keyword, factual, conceptual, multi-hop) using a lightweight classifier\n- Looks up a per-bucket cost-recall table built from offline evals on your query set\n- Routes to the cheapest model whose recall@10 is within 2% of the best model on that bucket\n- Caches the embedding keyed by (model_id, query_hash) to skip re-embedding identical queries\n\n## Use cases\n- E-commerce search routes 'red shoes' to MiniLM and 'formal leather oxfords under 200 for narrow feet' to text-embedding-3-large\n- Support bot routes FAQ lookups to a cheap model and bug reports to a high-recall model\n- Slash monthly OpenAI embedding bill from $4K to $1.6K with no measurable recall loss"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 8
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:11:31.391Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:11:31.391Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "embedding-router"
+ }
+}
