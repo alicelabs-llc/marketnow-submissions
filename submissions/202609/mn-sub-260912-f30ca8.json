@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-f30ca8",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Multi-Agent Orchestrator",
+  "version": "1.0.0",
+  "description": "100 agentes coordinados como una sola mente colectiva\n\nOrquesta flotas de 100+ agentes con shared memory transaccional, routing de tareas basado en capacidades declaradas, y topología configurable (hierarchical, mesh, ring). Incluye deadlock detection automático y backpressure entre agentes productores y consumidores.\n\nPain point: Coordinar más de 10 agentes manualmente genera cuellos de botella, tareas duplicadas, deadlocks silenciosos, y mensajes perdidos. Los agentes se pisanean o esperan indefinidamente sin saberlo.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "register_agent",
+   "dispatch_task",
+   "broadcast",
+   "get_topology",
+   "kill_agent",
+   "rebalance"
+  ],
+  "install": "npx -y @marketnow/install multi-agent-orchestrator",
+  "homepage": "https://www.marketnow.site/skills/multi-agent-orchestrator",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install multi-agent-orchestrator\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Multi-Agent Orchestrator\nOrquesta flotas de 100+ agentes con shared memory transaccional, routing de tareas basado en capacidades declaradas, y topología configurable (hierarchical, mesh, ring). Incluye deadlock detection automático y backpressure entre agentes productores y consumidores.\n\n## How it works\n- Cada agente publica un manifest de capacidades (input schema, output schema, SLA, costo) en un service registry en memoria\n- El router usa matching semántico con embeddings para asignar tareas al agente más barato-capaz-disponible, con fallback\n- Shared memory transaccional (MVCC) permite que agentes lean/escriban datos compartidos sin race conditions\n- Deadlock detector basado en wait-for graph corre cada 500ms y aborta transacciones cíclicas con prioridad\n- Backpressure propaga presión de carga upstream: si un agente consumidor satura, los productores reducen tasa o encolan\n\n## Use cases\n- Flota de 50 agentes de customer support especializados por producto, con routing por intención detectada\n- Pipeline de análisis donde 20 agentes paralelos procesan documentos y un agente orquestador sintetiza\n- Sistema de trading con agentes de análisis técnico, fundamental y de sentimiento coordinados en mesh"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:02:27.763Z",
+  "duration_ms": 460,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:02:27.763Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "multi-agent-orchestrator"
+ }
+}
