@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-b14f30",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Cost Controller",
+  "version": "1.0.0",
+  "description": "Budgets en tiempo real: ningún agente excede lo que autorizaste\n\nPresupuesto por agente, por sesión, por tenant y por tool con tracking en tiempo real de costos de LLM tokens, API calls, compute y storage. Bloquea ejecución al alcanzar límites, con degradación graceful hacia modelos más baratos o caching agresivo.\n\nPain point: Un agente de investigación consume $80 en una sesión porque exploró recursivamente. Sin budget enforcement, los costos de agentes se disparan sin control, especialmente en self-improving loops.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "set_budget",
+   "get_spend",
+   "block_agent",
+   "get_forecast",
+   "set_degradation_rules",
+   "audit_costs"
+  ],
+  "install": "npx -y @marketnow/install agent-cost-controller",
+  "homepage": "https://www.marketnow.site/skills/agent-cost-controller",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-cost-controller\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Cost Controller\nPresupuesto por agente, por sesión, por tenant y por tool con tracking en tiempo real de costos de LLM tokens, API calls, compute y storage. Bloquea ejecución al alcanzar límites, con degradación graceful hacia modelos más baratos o caching agresivo.\n\n## How it works\n- Meter intercepta cada llamada LLM/API y calcula costo instantáneo usando price tables actualizadas (OpenAI, Anthropic, etc.)\n- Budgets jerárquicos: tenant > project > agent > session, con herencia y overrides. Excederse en nivel bajo no afecta al alto\n- Soft limit (80%): trigger de alerta + switch a modelo más barato (gpt-4o -> gpt-4o-mini) con consentimiento del agente\n- Hard limit (100%): bloqueo inmediato con excepción catcheable, el agente puede fallback a cached responses o terminar gracefully\n- Forecasting: proyecta gasto restante del día/mes basado en velocity actual, alerta si excederá budget proyectado\n\n## Use cases\n- SaaS multi-tenant donde cada cliente tiene $50/mes de agentes, bloqueado al exceder para evitar abuso\n- Agente de análisis financiero que no debe consumir más de $5 por análisis para mantener margen\n- Equipo de dev con budget semanal, alertado al 80% para decidir si sigue o pausa"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:03:26.578Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:03:26.578Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-cost-controller"
+ }
+}
