@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-260912-4c44e1",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Document Chunker Pro",
+  "version": "1.0.0",
+  "description": "Semantic chunking that respects document structure and never cuts mid-sentence\n\nChunks documents using a structure-aware splitter that detects headings, tables, code blocks, and list items, then applies semantic boundary detection within sections. Emits chunks with parent-section metadata, so retrieval can climb back to the heading for context. Reduces mid-sentence cuts to <0.5%.\n\nPain point: RAG retrieves chunks irrelevant or incomplete because RecursiveCharacterTextSplitter cuts at 512 tokens mid-definition, splitting 'The deductible is...' from its value. Half the retrieved chu...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "chunk_document",
+   "chunk_corpus",
+   "validate_chunks",
+   "merge_small_chunks",
+   "get_chunk_metadata"
+  ],
+  "install": "npx -y @marketnow/install document-chunker-pro",
+  "homepage": "https://www.marketnow.site/skills/document-chunker-pro",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install document-chunker-pro\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# Document Chunker Pro\nChunks documents using a structure-aware splitter that detects headings, tables, code blocks, and list items, then applies semantic boundary detection within sections. Emits chunks with parent-section metadata, so retrieval can climb back to the heading for context. Reduces mid-sentence cuts to <0.5%.\n\n## How it works\n- Parses document structure with a layout-aware parser (markdown AST, PDF outline, HTML DOM)\n- Within each section, finds semantic boundaries at paragraph ends, list-item ends, or transition cues\n- If a section exceeds max_chunk_size, splits at the highest-confidence boundary, never mid-sentence\n- Tags every chunk with section_path, doc_id, page, chunk_role (prose|table|code|list) for hybrid filtering\n\n## Use cases\n- Chunk a 500-page employee handbook so policy retrieval returns full clauses, not fragments\n- Chunk API docs so code blocks and their explanations stay together\n- Pre-process 10K legal contracts before embedding without losing clause structure"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:11:19.503Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:11:19.503Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "document-chunker-pro"
+ }
+}
