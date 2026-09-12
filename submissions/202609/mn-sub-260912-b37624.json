@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-b37624",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Health Monitor",
+  "version": "1.0.0",
+  "description": "Detecta agentes zombie, looping o degradados antes que tus usuarios\n\nMonitorea signos vitales de agentes en tiempo real: heartbeat, latency P99, error rate, tool call patterns, token efficiency. Detecta estados degradados (slow drift, partial failure, silent corruption) y ejecuta auto-restart con preservación de estado.\n\nPain point: Agentes que se 'cuelgan' parcialmente: responden pero tarde, o producen outputs degradados sin errores explícitos. Los usuarios sufren 30 minutos antes de que alguien note que algo anda mal.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "register_health_check",
+   "get_status",
+   "list_unhealthy",
+   "restart_agent",
+   "set_alert_rules",
+   "diagnose"
+  ],
+  "install": "npx -y @marketnow/install agent-health-monitor",
+  "homepage": "https://www.marketnow.site/skills/agent-health-monitor",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-health-monitor\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Health Monitor\nMonitorea signos vitales de agentes en tiempo real: heartbeat, latency P99, error rate, tool call patterns, token efficiency. Detecta estados degradados (slow drift, partial failure, silent corruption) y ejecuta auto-restart con preservación de estado.\n\n## How it works\n- Heartbeat bidireccional: el agente ping cada 5s, el monitor responde con ACK; ausencia >30s = sospechoso\n- Anomaly detection sobre métricas con EWMA + Holt-Winters: detecta slow drift cuando latency sube gradualmente sin errores\n- Loop detector: analiza distribución de tool calls en ventana deslizante, flag si entropía < threshold (repetición anómala)\n- Output quality probe: samplea 5% de outputs y los evalúa con LLM-judge contra baseline de calidad; degradación sostenida = alerta\n- Auto-restart graceful: pausa nueva carga, espera in-flight, checkpoint state, mata proceso, levanta nueva instancia, restaura state, reanuda\n\n## Use cases\n- Agente de chat que gradualmente se vuelve más lento por memory leak, detectado antes de que afecte UX\n- Agente de código cuyos outputs decaen en calidad tras 1000 invocaciones (context pollution), auto-restart limpio\n- Flota de 200 agentes donde el monitor identifica los 3 unhealthy en <2s"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:03:14.828Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:03:14.828Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-health-monitor"
+ }
+}
