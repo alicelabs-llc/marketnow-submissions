@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-9f782c",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Configuration Manager",
+  "version": "1.0.0",
+  "description": "Config centralizada con hot-reload y overrides por tenant en tiempo real\n\nGestor de configuración centralizado para flotas de agentes: configs versionadas, hot-reload sin restart, overrides jerárquicos por tenant/ambiente/feature-flag, y validación de schemas antes de aplicar. Cambios propagados a todas las instancias en <1s.\n\nPain point: Cambiar el system prompt de un agente en producción requiere redeploy. Configs hardcoded en código no permiten experimentación. Multi-tenant donde cada cliente quiere prompts personalizados requiere if/else en todas partes.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "set_config",
+   "get_config",
+   "hot_reload",
+   "create_override",
+   "list_versions",
+   "rollback_config"
+  ],
+  "install": "npx -y @marketnow/install agent-configuration-manager",
+  "homepage": "https://www.marketnow.site/skills/agent-configuration-manager",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-configuration-manager\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Configuration Manager\nGestor de configuración centralizado para flotas de agentes: configs versionadas, hot-reload sin restart, overrides jerárquicos por tenant/ambiente/feature-flag, y validación de schemas antes de aplicar. Cambios propagados a todas las instancias en <1s.\n\n## How it works\n- Configs almacenadas como documentos versionados en Postgres con schema JSON-Schema validado en cada commit\n- Jerarquía de overrides: defaults < environment < tenant < agent-instance, merge por precedence configurable\n- Hot-reload via WebSocket: las instancias suscritas reciben diffs en tiempo real, aplican sin reiniciar proceso\n- Feature flags integrados:_rollout gradual de cambios a % de instancias/tenants con kill switch\n- Audit log: quién cambió qué config, cuándo, con qué justificación; rollback instantáneo a versión anterior\n\n## Use cases\n- Cliente enterprise quiere su propio greeting en el agente de soporte; override por tenant sin tocar código\n- Cambiar temperatura del LLM de 0.7 a 0.3 en producción sin redeploy, midiendo impacto en tiempo real\n- Feature flag para habilitar nueva tool solo en 5% de instancias, expandir gradualmente si va bien"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:09:34.774Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:09:34.775Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-configuration-manager"
+ }
+}
