@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-260912-23a2c2",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Vector Store Optimizer",
+  "version": "1.0.0",
+  "description": "Auto-tune HNSW/IVF parameters for 10x faster vector queries without losing recall\n\nContinuously profiles query workloads on Pinecone, Weaviate, Qdrant and Milvus, then auto-tunes HNSW ef, M, and IVF nlist parameters to hit target latency SLOs. Benchmarks show 8-12x query speedup with <1% recall degradation on 10M+ vector indexes.\n\nPain point: RAG agents retrieve in 400-900ms because HNSW ef was set to a default 64 with no profiling, and engineers don't know whether to tune ef_search, ef_construction, M, or switch to IVF-PQ. They either over-provision (expensive) or accept slow que...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "profile_vector_store",
+   "tune_index_params",
+   "benchmark_config",
+   "promote_config",
+   "get_tuning_history"
+  ],
+  "install": "npx -y @marketnow/install vector-store-optimizer",
+  "homepage": "https://www.marketnow.site/skills/vector-store-optimizer",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install vector-store-optimizer\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# Vector Store Optimizer\nContinuously profiles query workloads on Pinecone, Weaviate, Qdrant and Milvus, then auto-tunes HNSW ef, M, and IVF nlist parameters to hit target latency SLOs. Benchmarks show 8-12x query speedup with <1% recall degradation on 10M+ vector indexes.\n\n## How it works\n- Connects to your vector store via native SDK and samples 10K real queries with latency/recall labels\n- Runs Bayesian optimization over ef_search, M, ef_construction, nlist, nprobe in a shadow index\n- Promotes the winning config with a PR-style diff showing projected p50/p99 latency and recall@10 delta\n- Schedules weekly re-tuning when drift > 5% is detected on the query distribution\n\n## Use cases\n- RAG support agent retrieving from 50M-chunk Pinecone index needs p99 < 100ms\n- E-commerce semantic search on Qdrant hitting 600ms p99 wants 80ms without rebuild\n- A/B testing two HNSW configs on Weaviate to choose the cheaper one"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:10:44.314Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:10:44.314Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vector-store-optimizer"
+ }
+}
