@@ -1,0 +1,56 @@
+{
+ "id": "mn-sub-260912-2e9e05",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "RAG Grounding Verifier",
+  "version": "1.0.0",
+  "description": "Verify every claim in a RAG answer is grounded in retrieved context or flag it\n\nRuns a three-pass grounding check on every RAG answer: claim extraction, NLI entailment per claim against retrieved chunks, and contradiction detection. Returns a per-claim grounded/ungrounded/contradicted verdict with the exact supporting span, blocking ungrounded answers before they reach the user.\n\nPain point: RAG agents hallucinate 5-15% of claims even when context is correct, because the LLM paraphrases, over-generalizes, or merges facts from two chunks into a false statement. Engineers can't ship...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "verify_grounding",
+   "extract_claims",
+   "nli_check",
+   "get_grounding_report"
+  ],
+  "install": "npx -y @marketnow/install rag-grounding-verifier",
+  "homepage": "https://www.marketnow.site/skills/rag-grounding-verifier",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install rag-grounding-verifier\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# RAG Grounding Verifier\nRuns a three-pass grounding check on every RAG answer: claim extraction, NLI entailment per claim against retrieved chunks, and contradiction detection. Returns a per-claim grounded/ungrounded/contradicted verdict with the exact supporting span, blocking ungrounded answers before they reach the user.\n\n## How it works\n- Splits the LLM answer into atomic claims using a dependency-parse-based extractor\n- Runs a DeBERTa-NLI model per claim vs each retrieved chunk, scoring entailment/neutral/contradiction\n- Attaches the exact supporting character span from the chunk to each grounded claim\n- Returns a grounding report; agent can retry with top-k=20 or refuse to answer if ungrounded rate > threshold\n\n## Use cases\n- Legal RAG must prove every sentence in a contract summary cites a clause\n- Medical assistant answers must be grounded in the retrieved guidelines or refused\n- Customer support bot blocks answers where grounding rate < 90%"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:10:55.992Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:10:55.992Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rag-grounding-verifier"
+ }
+}
