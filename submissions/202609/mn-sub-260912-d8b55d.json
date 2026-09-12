@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-d8b55d",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Memory Vault",
+  "version": "1.0.0",
+  "description": "Memoria permanente con olvido inteligente, como un cerebro real\n\nAlmacén de memoria long-term para agentes con búsqueda semántica híbrida (vectorial + BM25), decay temporal que degrada recuerdos antiguos no accedidos, y consolidación nocturna que fusiona memorias redundantes usando LLM-as-judge.\n\nPain point: Los agentes acumulan contexto irrelevante hasta exceder tokens, no recuerdan hechos críticos de hace semanas, y duplican memorias contradictorias sin reconciliación. La memoria sin decay se convierte en basura que degrada el razonamiento.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "store_memory",
+   "recall",
+   "consolidate",
+   "forget",
+   "list_episodes",
+   "boost_importance"
+  ],
+  "install": "npx -y @marketnow/install agent-memory-vault",
+  "homepage": "https://www.marketnow.site/skills/agent-memory-vault",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-memory-vault\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Memory Vault\nAlmacén de memoria long-term para agentes con búsqueda semántica híbrida (vectorial + BM25), decay temporal que degrada recuerdos antiguos no accedidos, y consolidación nocturna que fusiona memorias redundantes usando LLM-as-judge.\n\n## How it works\n- Cada memoria se guarda como (embedding, texto, timestamp, access_count, importance_score, type) en pgvector\n- Búsqueda híbrida: combina cosine similarity con BM25 lexical, ponderado por decay = exp(-λ * age_days) * log(1 + access_count)\n- Cron de consolidación corre diariamente: clusteriza memorias similares (>0.92 cosine), usa LLM para fusionarlas en una sola con fuentes citadas\n- Memorias con importance < threshold tras N días se archivean a cold storage (S3) sin borrar, recuperables on-demand\n- API de recall con filtros: por type, importance, recency, tags, y con 'episodios' agrupando memorias temporalmente correlacionadas\n\n## Use cases\n- Asistente personal que recuerda preferencias del usuario de hace meses pero olvida menús de comida específicos irrelevantes\n- Agente de soporte que consolida 50 tickets similares en conocimiento reusable sin contradicciones\n- Agente de investigación que mantiene episodios temporales: 'lo que aprendí en la sesión del 15 de marzo'"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:02:39.546Z",
+  "duration_ms": 2,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:02:39.547Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-memory-vault"
+ }
+}
