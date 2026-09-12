@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-12T00:11:32.089Z",
+ "updated_at": "2026-09-12T00:11:43.650Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -260,6 +260,16 @@
    "trust": 52,
    "submitted_at": "2026-09-12T00:11:31.391Z",
    "path": "submissions/202609/mn-sub-260912-8d70d9.json"
+  },
+  {
+   "id": "mn-sub-260912-43e22e",
+   "name": "Hybrid Search Engine",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1 (auto-scan) — pending L2 review",
+   "trust": 52,
+   "submitted_at": "2026-09-12T00:11:42.932Z",
+   "path": "submissions/202609/mn-sub-260912-43e22e.json"
   }
  ]
 }
