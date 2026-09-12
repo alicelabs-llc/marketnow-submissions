@@ -1,7 +1,7 @@
 {
  "id": "mn-sub-260912-044859",
  "verdict": "accepted",
- "status": "certified-L1 (auto-scan) — pending L2 review",
+ "status": "quarantined-L2: unverified claims (repo does not exist (HTTP 404); install package \"@marketnow/install\" does not exist on npm (HTTP 404)) — claims were probed live and do not resolve. Resubmit with a real repo_url, a real install package, and attached code.",
  "skill": {
   "name": "Agent Sandbox Executor",
   "version": "1.0.0",
@@ -52,7 +52,27 @@
  "submitted_at": "2026-09-12T00:04:20.500Z",
  "submitted_by": "public-api",
  "merge": {
-  "eligible": true,
-  "catalog_slug": "agent-sandbox-executor"
+  "eligible": false,
+  "catalog_slug": "agent-sandbox-executor",
+  "why_not": "L2: claims unverified"
+ },
+ "sentinel_l2": {
+  "claims": {
+   "checked_at": "2026-09-12T00:18:03Z",
+   "repo_url": {
+    "url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+    "status": 404
+   },
+   "install": {
+    "command": "npx -y @marketnow/install agent-sandbox-executor",
+    "registry": "npm",
+    "package": "@marketnow/install",
+    "status": 404
+   }
+  },
+  "blockers": [
+   "repo does not exist (HTTP 404)",
+   "install package \"@marketnow/install\" does not exist on npm (HTTP 404)"
+  ]
  }
 }
