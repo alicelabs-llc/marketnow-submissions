@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-293433",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Workflow Engine",
+  "version": "1.0.0",
+  "description": "DAGs de tareas para agentes con dependencias, paralelismo y retries\n\nMotor de workflows tipo DAG donde cada nodo es una tarea ejecutada por un agente. Soporta dependencias complejas, ejecución paralela, branching condicional, retries con backoff, y compensaciones (sagas) para rollback transaccional distribuido.\n\nPain point: Orquestar pipelines multi-paso de agentes con código ad-hoc genera flujos frágiles: si un paso falla, no hay rollback; si un paso tarda, bloquea todo; no hay visibilidad del estado del workflow.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "create_workflow",
+   "start_workflow",
+   "get_status",
+   "cancel_workflow",
+   "retry_node",
+   "list_workflows"
+  ],
+  "install": "npx -y @marketnow/install agent-workflow-engine",
+  "homepage": "https://www.marketnow.site/skills/agent-workflow-engine",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-workflow-engine\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Workflow Engine\nMotor de workflows tipo DAG donde cada nodo es una tarea ejecutada por un agente. Soporta dependencias complejas, ejecución paralela, branching condicional, retries con backoff, y compensaciones (sagas) para rollback transaccional distribuido.\n\n## How it works\n- Define workflows como DAG en YAML o Python SDK con nodos (agente + tarea), edges (dependencias), conditions (if/else)\n- Ejecución topológica: nodos sin dependencias corren en paralelo, nodos dependientes esperan outputs de predecesores\n- Retry policy por nodo: max_attempts, backoff_type (exponential/linear/fixed), retry_on (exception types)\n- Sagas pattern: si un nodo falla tras retries, ejecuta compensaciones en orden inverso de nodos ya completados\n- Estado persistente en Postgres: workflows pueden pausarse, resumirse, y sobrevivir crashes del engine\n\n## Use cases\n- Pipeline de onboarding: agente KYC -> agente scoring -> agente comunicación, con rollback si scoring rechaza\n- Análisis paralelo de 10 documentos por 10 agentes, luego síntesis por agente orquestador\n- Workflow de deploy: test agents -> security scan -> canary -> rollout, con pausa para aprobación humana"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:06:31.659Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:06:31.659Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-workflow-engine"
+ }
+}
