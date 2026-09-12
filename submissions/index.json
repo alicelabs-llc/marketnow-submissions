@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-12T00:03:39.432Z",
+ "updated_at": "2026-09-12T00:04:21.269Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -90,6 +90,16 @@
    "trust": 52,
    "submitted_at": "2026-09-12T00:03:38.506Z",
    "path": "submissions/202609/mn-sub-260912-de3746.json"
+  },
+  {
+   "id": "mn-sub-260912-044859",
+   "name": "Agent Sandbox Executor",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1 (auto-scan) — pending L2 review",
+   "trust": 52,
+   "submitted_at": "2026-09-12T00:04:20.500Z",
+   "path": "submissions/202609/mn-sub-260912-044859.json"
   }
  ]
 }
