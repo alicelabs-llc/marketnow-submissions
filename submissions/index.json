@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-12T00:09:47.174Z",
+ "updated_at": "2026-09-12T00:09:58.867Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -180,6 +180,16 @@
    "trust": 52,
    "submitted_at": "2026-09-12T00:09:46.332Z",
    "path": "submissions/202609/mn-sub-260912-88b245.json"
+  },
+  {
+   "id": "mn-sub-260912-68e082",
+   "name": "Agent Debugging Probe",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1 (auto-scan) — pending L2 review",
+   "trust": 52,
+   "submitted_at": "2026-09-12T00:09:58.073Z",
+   "path": "submissions/202609/mn-sub-260912-68e082.json"
   }
  ]
 }
