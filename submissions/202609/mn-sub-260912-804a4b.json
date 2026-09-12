@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-804a4b",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Resource Governor",
+  "version": "1.0.0",
+  "description": "Detén agentes runaway antes de que quemen tu cuenta de cloud\n\nAplica límites duros y blandos de CPU, memoria RAM, llamadas API, tokens LLM y tiempo de ejecución por agente. Detecta loops infinitos (repetición de tool calls), recursión descontrolada, y memory leaks, matando procesos antes de que impacten el sistema.\n\nPain point: Un agente en loop infinito llama a una API 10,000 veces en 5 minutos, generando $2,000 en costos y bloqueando el servicio. Sin governor, un solo agente buggy puede tirar todo el cluster abajo.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "set_limits",
+   "get_usage",
+   "kill_agent",
+   "detect_loops",
+   "set_budget",
+   "quarantine"
+  ],
+  "install": "npx -y @marketnow/install agent-resource-governor",
+  "homepage": "https://www.marketnow.site/skills/agent-resource-governor",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-resource-governor\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Resource Governor\nAplica límites duros y blandos de CPU, memoria RAM, llamadas API, tokens LLM y tiempo de ejecución por agente. Detecta loops infinitos (repetición de tool calls), recursión descontrolada, y memory leaks, matando procesos antes de que impacten el sistema.\n\n## How it works\n- Cada agente corre en un cgroup con límites de CPU y memory hard-seteados por configuración (vía systemd o containerd)\n- Proxy sidecar intercepta TODAS las llamadas HTTP del agente y aplica rate limiting por host, con circuit breaker tras N fallos consecutivos\n- Loop detector analiza el patrón de tool calls: si las últimas K llamadas tienen similitud >0.95 en args, marca como loop y pausa\n- Token counter intercepta respuestas LLM y mantiene budget acumulado; al 80% avisa, al 100% bloquea con excepción catcheable\n- Watchdog watchdog mata al agente si excede wall-clock time, RSS memory, o syscall rate anómala\n\n## Use cases\n- Agente de scraping que entra en loop reintentando un sitio caído, debe ser matado antes de generar $500 en proxies\n- Agente de coding que recursivamente edita el mismo archivo, debe detectarse y detenerse en 30s\n- Multi-tenant donde un agente ruidoso no puede consumir CPU que afecte a otros inquilinos"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:02:51.288Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:02:51.288Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-resource-governor"
+ }
+}
