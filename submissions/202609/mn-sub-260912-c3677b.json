@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-c3677b",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Load Balancer",
+  "version": "1.0.0",
+  "description": "Distribuye carga entre instancias de agentes con health-aware routing\n\nLoad balancer L7 específico para agentes: distribuye requests entre múltiples instancias del mismo agente considerando health, latency, capacidad actual y afinidad de sesión. Soporta autoscaling basado en queue depth y cost-aware routing.\n\nPain point: Una sola instancia de agente satura cuando llegan 50 requests concurrentes. Sin LB, latencia se dispara o timeouts. Con LB genérico (nginx), no considera que un agente puede estar 'vivo' pero degraded.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "register_instance",
+   "route_request",
+   "deregister_instance",
+   "get_pool_health",
+   "set_routing_policy",
+   "drain_instance"
+  ],
+  "install": "npx -y @marketnow/install agent-load-balancer",
+  "homepage": "https://www.marketnow.site/skills/agent-load-balancer",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-load-balancer\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Load Balancer\nLoad balancer L7 específico para agentes: distribuye requests entre múltiples instancias del mismo agente considerando health, latency, capacidad actual y afinidad de sesión. Soporta autoscaling basado en queue depth y cost-aware routing.\n\n## How it works\n- Pool de instancias registradas con heartbeat; el LB mantiene vista de capacidad disponible (concurrency slots) por instancia\n- Routing strategies: least_connections, weighted_round_robin, P99_latency_aware, cost_aware (prefer instancias en zonas más baratas)\n- Session affinity: requests de la misma sesión van a la misma instancia para preservar contexto caliente (con fallback si muere)\n- Health-aware: si una instancia reporta degraded, reduce peso gradualmente antes de sacarla del pool\n- Autoscaling hook: cuando queue depth > threshold, llama a API de scaling (K8s HPA, AWS ASG) para levantar instancias\n\n## Use cases\n- Agente de chat con 100 instancias detrás de LB, autoscale basado en conversaciones activas\n- Agente de batch processing donde instancias baratas (spot) son preferidas cuando no hay urgencia\n- Drain graceful de instancias antes de deploy: no acepta nuevas, termina en-flight, se desregistra"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:09:23.098Z",
+  "duration_ms": 392,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:09:23.099Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-load-balancer"
+ }
+}
