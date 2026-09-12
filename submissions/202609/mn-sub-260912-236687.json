@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-236687",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Permission Matrix",
+  "version": "1.0.0",
+  "description": "RBAC granular para agentes: qué tools, qué datos, qué APIs pueden tocar\n\nMatriz de permisos RBAC/ABAC para agentes: define qué tools puede usar cada agente, a qué tablas/columnas tiene acceso, qué endpoints externos puede llamar, y qué acciones (read/write/delete) puede ejecutar. Deniega por defecto, audita todo.\n\nPain point: Agentes con acceso total a herramientas y datos son bombas de seguridad: un prompt injection puede exfiltrar toda la base de datos o ejecutar transfers bancarios. Sin permisos granulares, no se puede desplegar agentes en entornos sensibles.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "create_policy",
+   "check_permission",
+   "list_permissions",
+   "audit_log",
+   "mask_data",
+   "revoke_all"
+  ],
+  "install": "npx -y @marketnow/install agent-permission-matrix",
+  "homepage": "https://www.marketnow.site/skills/agent-permission-matrix",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-permission-matrix\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Permission Matrix\nMatriz de permisos RBAC/ABAC para agentes: define qué tools puede usar cada agente, a qué tablas/columnas tiene acceso, qué endpoints externos puede llamar, y qué acciones (read/write/delete) puede ejecutar. Deniega por defecto, audita todo.\n\n## How it works\n- Políticas declarativas en OPA (Open Policy Agent): reglas tipo 'allow if agent.role==analyst AND action==read AND resource.matches(\"public.*\")'\n- Policy enforcement point intercepta cada tool call y cada query SQL con un sidecar que evalúa la política en <5ms\n- Data-level filtering: agente con permiso 'read customers' pero sin 'read customers.ssn' recibe columnas enmascaradas automáticamente\n- API gateways integrados: cada llamada externa pasa por proxy que valida scope y aplica rate limit por permiso\n- Audit log inmutable en append-only store: cada decisión de permiso (allow/deny) registrada con contexto completo\n\n## Use cases\n- Agente de soporte que solo puede leer tickets del cliente actual, nunca acceder a otros clientes\n- Agente de analytics con acceso a columnas agregadas pero no a PII raw, enmascarado a nivel query\n- Auditoría de compliance: 'qué agente accedió a datos financieros en el último trimestre'"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:08:35.437Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:08:35.437Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-permission-matrix"
+ }
+}
