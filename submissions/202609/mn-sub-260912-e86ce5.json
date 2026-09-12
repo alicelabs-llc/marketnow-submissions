@@ -1,0 +1,56 @@
+{
+ "id": "mn-sub-260912-e86ce5",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Context Compressor",
+  "version": "1.0.0",
+  "description": "Compress retrieved context 70% without dropping facts the answer needs\n\nTakes retrieved chunks and a draft answer plan, runs an extractive-abstractive compressor that keeps named entities, numbers, dates, and causal relations, and drops filler, repetition, and irrelevant sentences. Output is 60-75% shorter but preserves all facts referenced by the answer with a coverage check.\n\nPain point: RAG agents stuff 8K tokens of retrieved context into the prompt, 70% of which is filler, and hit context windows or pay premium token prices. They either truncate (lose facts) or pay full price ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "compress_context",
+   "extract_facts",
+   "coverage_check",
+   "set_compression_profile"
+  ],
+  "install": "npx -y @marketnow/install context-compressor",
+  "homepage": "https://www.marketnow.site/skills/context-compressor",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install context-compressor\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# Context Compressor\nTakes retrieved chunks and a draft answer plan, runs an extractive-abstractive compressor that keeps named entities, numbers, dates, and causal relations, and drops filler, repetition, and irrelevant sentences. Output is 60-75% shorter but preserves all facts referenced by the answer with a coverage check.\n\n## How it works\n- Extracts fact-bearing units: named entities, numbers, dates, quoted statements, causal clauses\n- Drops sentences with low information density (filler, hedging, repetition, boilerplate)\n- Reconstructs a compact paragraph per source preserving the kept facts in order\n- Runs a coverage check: every fact the draft answer needs must be present in the compressed context, else it's restored\n\n## Use cases\n- Compress 12K-token retrieved context for a 4K-context-window model while keeping every cited number\n- Cut GPT-4 token cost 60% on a high-volume RAG pipeline with no answer-quality regression\n- Fit 50 chunks into context instead of 12 by compressing each to ~150 tokens"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:12:04.974Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:12:04.974Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "context-compressor"
+ }
+}
