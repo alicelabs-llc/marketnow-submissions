@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-097de9",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Telemetry Collector",
+  "version": "1.0.0",
+  "description": "Observabilidad completa de agentes: tokens, latencia, calidad, costo\n\nRecolector de telemetría OpenTelemetry-native para agentes: captura traces distribuidas, métricas de tokens/latencia/costo/error rate, logs estructurados, y eventos de razonamiento (chain-of-thought). Dashboards pre-construidos y alertas inteligentes.\n\nPain point: Los agentes son cajas negras: no sabes qué tools llamaron, cuánto costó cada razonamiento, dónde se degradaron. Sin observabilidad, debuggear un agente en producción es考古ología forense.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "trace_agent",
+   "query_metrics",
+   "search_traces",
+   "create_dashboard",
+   "set_alerts",
+   "export_data"
+  ],
+  "install": "npx -y @marketnow/install agent-telemetry-collector",
+  "homepage": "https://www.marketnow.site/skills/agent-telemetry-collector",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-telemetry-collector\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Telemetry Collector\nRecolector de telemetría OpenTelemetry-native para agentes: captura traces distribuidas, métricas de tokens/latencia/costo/error rate, logs estructurados, y eventos de razonamiento (chain-of-thought). Dashboards pre-construidos y alertas inteligentes.\n\n## How it works\n- Auto-instrumentación de frameworks (LangChain, LlamaIndex, custom) via monkey-patching que captura LLM calls, tool calls, retrievals\n- Trace distribuida con spans jerárquicos: agent_run > reasoning_step > llm_call > tool_call, con causal links\n- Métricas agregadas en ClickHouse: tokens por modelo, latency P50/P95/P99, error rate, cost per agent/session/tool\n- Reasoning events capturan chain-of-thought del LLM (con consentimiento) para análisis post-hoc de decisiones\n- Dashboards Grafana pre-construidos: agent overview, cost breakdown, error analysis, reasoning traces\n\n## Use cases\n- Debug de agente que degradó calidad: busca traces con error_rate alto en última hora, examina razonamiento\n- Análisis de costos: qué agente consume más tokens, qué tool es más caro, optimizar prompts\n- SLA reporting: P99 de latency por agente para cumplir contrato con clientes enterprise"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:08:47.123Z",
+  "duration_ms": 2,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:08:47.123Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-telemetry-collector"
+ }
+}
