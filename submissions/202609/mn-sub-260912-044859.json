@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-044859",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Sandbox Executor",
+  "version": "1.0.0",
+  "description": "Ejecuta código de agentes en contenedores aislados sin riesgo\n\nEjecuta código arbitrario generado por agentes en contenedores Docker efímeros con límites estrictos de CPU, memoria, red y filesystem. Soporta Python, Node, Bash, SQL con timeout, captura de stdout/stderr, y filesystem scratch persistente por sesión.\n\nPain point: Agentes que generan código (Python, SQL, bash) y lo ejecutan directamente en el host son un riesgo de seguridad catastrófico: RCE, data exfiltration, cryptominer. Sin sandbox, no puedes habilitar code execution en producción.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "execute_code",
+   "start_session",
+   "end_session",
+   "upload_file",
+   "list_sessions",
+   "get_logs"
+  ],
+  "install": "npx -y @marketnow/install agent-sandbox-executor",
+  "homepage": "https://www.marketnow.site/skills/agent-sandbox-executor",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-sandbox-executor\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Sandbox Executor\nEjecuta código arbitrario generado por agentes en contenedores Docker efímeros con límites estrictos de CPU, memoria, red y filesystem. Soporta Python, Node, Bash, SQL con timeout, captura de stdout/stderr, y filesystem scratch persistente por sesión.\n\n## How it works\n- Cada ejecución levanta un contenedor efímero desde imagen minimal (python:slim, node:alpine) con seccomp profile restrictivo\n- Límites hard: 1 CPU, 512MB RAM, sin network (o con whitelist de dominios), filesystem read-only excepto /scratch\n- Timeout hard kill a los N segundos, captura stdout/stderr/exit_code completos incluso en timeout\n- Sesiones persistentes: el contenedor puede mantenerse vivo entre ejecuciones para preservar estado (archivos, variables)\n- Network policies por agente: algunos tienen acceso a APIs específicas, otros aislados totalmente\n\n## Use cases\n- Agente de data science que genera pandas code y lo ejecuta sobre CSVs del usuario sin riesgo al host\n- Agente de DevOps que ejecuta scripts bash para diagnosticar infraestructura con acceso restringido\n- Agente de coding que prueba su propio código generado antes de proponerlo al usuario"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:04:20.500Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:04:20.500Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-sandbox-executor"
+ }
+}
