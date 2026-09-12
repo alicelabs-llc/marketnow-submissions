@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-a56927",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent State Manager",
+  "version": "1.0.0",
+  "description": "Tu agente recuerda todo, incluso después de un crash\n\nPersiste el estado completo de agentes (variables, contexto, árbol de razonamiento, herramientas pendientes) entre sesiones y procesos. Usa CRDTs para resolver conflictos cuando múltiples ramas de un agente divergen, permitiendo merge determinístico sin pérdida de trabajo.\n\nPain point: Los agentes pierden 2-4 horas de razonamiento acumulado cuando el proceso crashea, el LLM cae, o el contexto excede el límite de tokens. Reconstruir el estado desde logs es manual y propenso a errores.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "save_state",
+   "restore_state",
+   "list_checkpoints",
+   "merge_branches",
+   "diff_states",
+   "export_state"
+  ],
+  "install": "npx -y @marketnow/install agent-state-manager",
+  "homepage": "https://www.marketnow.site/skills/agent-state-manager",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-state-manager\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent State Manager\nPersiste el estado completo de agentes (variables, contexto, árbol de razonamiento, herramientas pendientes) entre sesiones y procesos. Usa CRDTs para resolver conflictos cuando múltiples ramas de un agente divergen, permitiendo merge determinístico sin pérdida de trabajo.\n\n## How it works\n- Serializa el estado del agente como un CRDT (Conflict-free Replicated Data Type) en PostgreSQL con versionado vectorial por sesión\n- Checkpoints incrementales cada N pasos o delta-based con triggers en mutaciones críticas del state tree\n- Al detectar divergencia entre ramas paralelas, aplica merge semántico usando Lamport clocks y heurísticas de LLM-aided conflict resolution\n- Restore transaccional con WAL replay: carga el último snapshot y reaplica deltas de forma idempotente\n- Notifica al agente via hook cuando se restaura estado, permitiéndole re-orientarse sin perder el hilo conversacional\n\n## Use cases\n- Agente de investigación que cae en hora 3 y debe retomar sin repetir 40 llamadas a tools ya ejecutadas\n- Agente de coding con branches paralelas que necesitan fusionar dos caminos de refactor explorados\n- Sesión de agente migrada entre servidores sin perder el contexto de trabajo"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:02:15.348Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:02:15.348Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-state-manager"
+ }
+}
