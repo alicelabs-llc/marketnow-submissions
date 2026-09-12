@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-260912-43e22e",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Hybrid Search Engine",
+  "version": "1.0.0",
+  "description": "Fuse BM25, dense vector, and keyword filters for 30% better recall than vector alone\n\nRuns BM25 (Elasticsearch/OpenSearch), dense vector (your embedding store), and structured keyword filters in parallel, then fuses results with reciprocal rank fusion (RRF) or learned weights. Tunable per-query: exact product codes go BM25-heavy, conceptual queries go vector-heavy. Recall@10 up 25-35% over vector-only.\n\nPain point: Pure vector search misses exact matches like product SKU 'ABC-1234' or error code 'E4021' because the embedding smooths them into semantic neighbors. Pure BM25 misses s...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "hybrid_search",
+   "index_documents",
+   "set_fusion_weights",
+   "detect_query_intent",
+   "get_search_stats"
+  ],
+  "install": "npx -y @marketnow/install hybrid-search-engine",
+  "homepage": "https://www.marketnow.site/skills/hybrid-search-engine",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install hybrid-search-engine\nCategory: Data & Knowledge Management\nPrice: $9.99",
+   "system_prompt": "# Hybrid Search Engine\nRuns BM25 (Elasticsearch/OpenSearch), dense vector (your embedding store), and structured keyword filters in parallel, then fuses results with reciprocal rank fusion (RRF) or learned weights. Tunable per-query: exact product codes go BM25-heavy, conceptual queries go vector-heavy. Recall@10 up 25-35% over vector-only.\n\n## How it works\n- Executes BM25, vector ANN, and metadata-filtered search in parallel against the three backends\n- Fuses ranked lists with reciprocal rank fusion or a learned per-query weight model\n- Detects query intent (exact-match vs conceptual) via regex + classifier and boosts the appropriate backend\n- Returns unified hits with per-backend scores so the agent can explain 'matched on BM25 for SKU, vector for description'\n\n## Use cases\n- E-commerce: 'Sony WH-1000XM5' hits BM25 exact SKU + vector for 'noise cancelling headphones'\n- Support bot: 'error E4021' hits BM25 exact code + vector for similar resolved tickets\n- Legal research: case number exact + conceptual holdings across jurisdictions"
+  },
+  "capabilities": {
+   "category": "Data & Knowledge Management",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:11:42.932Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-12T00:11:42.932Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hybrid-search-engine"
+ }
+}
