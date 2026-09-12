@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-0e2ef9",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Deployment Pipeline",
+  "version": "1.0.0",
+  "description": "CI/CD completo para agentes: test, staging, canary, prod con auto-rollback\n\nPipeline de deployment específico para agentes: corre test suites automatizados (regression, adversarial prompts, performance), deploya a staging, canary con métricas comparativas, rollout progresivo a prod, y auto-rollback si métricas degradan.\n\nPain point: Deployar un agente nuevo es adivinar: no hay tests automatizados de calidad de razonamiento, no hay canary, y si rompe en prod, rollback manual tarda 30 minutos. Los equipos shippean agentes con miedo.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "run_tests",
+   "deploy_canary",
+   "promote_rollout",
+   "rollback",
+   "compare_versions",
+   "create_test_suite"
+  ],
+  "install": "npx -y @marketnow/install agent-deployment-pipeline",
+  "homepage": "https://www.marketnow.site/skills/agent-deployment-pipeline",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-deployment-pipeline\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Deployment Pipeline\nPipeline de deployment específico para agentes: corre test suites automatizados (regression, adversarial prompts, performance), deploya a staging, canary con métricas comparativas, rollout progresivo a prod, y auto-rollback si métricas degradan.\n\n## How it works\n- Test suite agent-specific: regression tests con casos golden, adversarial prompt injection tests, performance benchmarks (latency/cost)\n- Staging deploy automático tras merge: corre agent contra dataset de test, compara métricas vs baseline\n- Canary: 5% de tráfico a nueva versión por 30min, compara error_rate/latency/quality vs control; si delta > threshold, aborta\n- Rollout progresivo: 5% -> 25% -> 50% -> 100% con gates automáticos en cada paso basados en métricas\n- Auto-rollback: si en cualquier momento métricas degradan >X% vs baseline, revierte a versión anterior en <60s\n\n## Use cases\n- Deploy de nueva versión de agente de soporte: canary 5% detecta aumento de alucinaciones, auto-rollback en 60s\n- Test suite adversarial: 1000 prompts de prompt injection antes de deploy, bloquea si algún bypass funciona\n- Rollout progresivo con aprobación manual entre pasos para agentes críticos (financiero, médico)"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:10:20.817Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:10:20.817Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-deployment-pipeline"
+ }
+}
