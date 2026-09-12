@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-245941",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent SLA Enforcer",
+  "version": "1.0.0",
+  "description": "Cumple SLAs de agentes o paga créditos automáticos a tus clientes\n\nMonitorea SLAs contratados con clientes (latency P99, uptime, throughput, quality score) y toma acciones automáticas: auto-scale, auto-restart, alerta, y cálculo de créditos por incumplimiento. Dashboard de compliance en tiempo real para clientes enterprise.\n\nPain point: Clientes enterprise exigen SLAs contratados con penalizaciones. Sin enforcement automático, no sabes si estás cumpliendo hasta que el cliente reclama, y calcular créditos manualmente es error-prone y opaco.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "define_sla",
+   "get_compliance",
+   "trigger_remediation",
+   "calculate_credits",
+   "get_sla_report",
+   "set_remediation_policy"
+  ],
+  "install": "npx -y @marketnow/install agent-sla-enforcer",
+  "homepage": "https://www.marketnow.site/skills/agent-sla-enforcer",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-sla-enforcer\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent SLA Enforcer\nMonitorea SLAs contratados con clientes (latency P99, uptime, throughput, quality score) y toma acciones automáticas: auto-scale, auto-restart, alerta, y cálculo de créditos por incumplimiento. Dashboard de compliance en tiempo real para clientes enterprise.\n\n## How it works\n- Define SLAs por contrato: latency_p99_ms, uptime_pct, throughput_rps, quality_score_min, con ventanas de evaluación (mensual/diaria)\n- Monitoreo continuo: cada request del agente es medida contra SLA, agregada en ventanas deslizantes\n- Auto-remediación: si latency >SLA, escala instancias; si error_rate sube, restart agente; si quality baja, fallback a versión estable\n- Cálculo de créditos: si SLA incumplido en ventana, calcula crédito automáticamente (ej: 10% del monthly fee), notifica al cliente\n- Dashboard customer-facing: cliente ve en tiempo real si SLA se está cumpliendo, historial, y créditos aplicados\n\n## Use cases\n- Cliente enterprise con SLA de P99<2s y 99.9% uptime: monitoreo continuo con auto-scale cuando latency sube\n- SLA de quality score >0.85: si baja, auto-fallback a versión anterior del agente en 30s\n- Cálculo transparente de créditos por SLA breach: cliente ve en dashboard, se aplica automáticamente a próxima factura"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:10:32.520Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:10:32.520Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-sla-enforcer"
+ }
+}
