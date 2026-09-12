@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-8f56bf",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Checkpoint Manager",
+  "version": "1.0.0",
+  "description": "Save game para agentes: pausa sesiones largas y retoma donde quedó\n\nPermite pausar y resumir sesiones de agentes largas (horas o días) como un videojuego. Guarda no solo estado, sino también context window comprimido, cola de tareas pendientes, y snapshots de filesystem sandbox. Resume en <2s exactamente donde se pausó.\n\nPain point: Tareas de agentes que duran horas (análisis profundo, migraciones) pierden todo progreso si hay que reiniciar el servidor o el proceso. No hay forma de 'pausar' un agente sin matarlo.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "checkpoint",
+   "resume",
+   "list_checkpoints",
+   "fork_checkpoint",
+   "merge_progress",
+   "expire_old"
+  ],
+  "install": "npx -y @marketnow/install agent-checkpoint-manager",
+  "homepage": "https://www.marketnow.site/skills/agent-checkpoint-manager",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-checkpoint-manager\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Checkpoint Manager\nPermite pausar y resumir sesiones de agentes largas (horas o días) como un videojuego. Guarda no solo estado, sino también context window comprimido, cola de tareas pendientes, y snapshots de filesystem sandbox. Resume en <2s exactamente donde se pausó.\n\n## How it works\n- Snapshot del state tree (variables, razonamiento acumulado) serializado con pickle comprimido en S3\n- Context window se comprime: últimas N interacciones full, anteriores resumidas por LLM, contexto base preservado\n- Cola de tareas pendientes persistida en Redis Stream para replay exacto al resumir\n- Filesystem del sandbox snapshoteado via overlayfs: diff desde base image guardado como tarball\n- Resume transaccional: carga state, restaura context, replay tasks pendientes, reconecta sandbox, notifica al agente\n\n## Use cases\n- Agente de migración de datos de 8 horas: pausa al final del día, resume al siguiente sin perder progreso\n- Agente de investigación profunda: checkpoint cada hora, permite retroceder a un punto si encuentra camino erróneo\n- Fork de un checkpoint para explorar dos hipótesis alternativas en paralelo desde el mismo punto"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:09:11.024Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-12T00:09:11.024Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-checkpoint-manager"
+ }
+}
