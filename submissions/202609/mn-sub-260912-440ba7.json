@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-260912-440ba7",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Fallback Chain",
+  "version": "1.0.0",
+  "description": "Si el agente A falla, el B intenta, luego el C. Degradación elegante.\n\nDefine cadenas de fallback entre agentes: si el agente primario falla (timeout, error, low-confidence output), el secundario intenta con contexto del fallo. Soporta fallback por tipo de error, circuit breaker, y fusión de outputs de múltiples agentes.\n\nPain point: Un agente de producción depende de un endpoint externo que cae. Sin fallback, todo el servicio se cae. O el agente premium es muy caro; cuando el presupuesto aprieta, no hay degradación elegante a un agente más barato.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "register_chain",
+   "execute_with_fallback",
+   "get_chain_health",
+   "fuse_outputs",
+   "update_circuit_breaker"
+  ],
+  "install": "npx -y @marketnow/install agent-fallback-chain",
+  "homepage": "https://www.marketnow.site/skills/agent-fallback-chain",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-fallback-chain\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Fallback Chain\nDefine cadenas de fallback entre agentes: si el agente primario falla (timeout, error, low-confidence output), el secundario intenta con contexto del fallo. Soporta fallback por tipo de error, circuit breaker, y fusión de outputs de múltiples agentes.\n\n## How it works\n- Cadenas declarativas: [premium_agent, standard_agent, cheap_agent] con condiciones de failover por error_type o confidence\n- Circuit breaker por agente: tras N fallos consecutivos en ventana, marca como 'open' y salta al siguiente por M minutos\n- Context forwarding: el agente fallback recibe el output parcial y el error del anterior, evita recomenzar desde cero\n- Output fusion mode: en lugar de fallback secuencial, ejecuta 3 agentes en paralelo y toma el de mayor confidence (ensemble)\n- Telemetría del fallback: registra qué agente finalmente respondió, latencia total, razón del failover\n\n## Use cases\n- Agente premium GPT-4 con fallback a GPT-4o-mini cuando budget se agota, manteniendo servicio\n- Agente de soporte con fallback a agente especializado cuando confidence del generalista es baja\n- Ensemble de 3 agentes para decisiones críticas: resultado por majority vote con disagreement detection"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 9
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:08:59.234Z",
+  "duration_ms": 0,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:08:59.234Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-fallback-chain"
+ }
+}
