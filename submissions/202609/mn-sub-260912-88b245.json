@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-260912-88b245",
+ "verdict": "accepted",
+ "status": "certified-L1 (auto-scan) — pending L2 review",
+ "skill": {
+  "name": "Agent Secret Vault",
+  "version": "1.0.0",
+  "description": "Secrets para agentes con rotación automática, audit y zero-knowledge\n\nVault de secretos para agentes con arquitectura zero-knowledge: el operador no puede ver los secrets, solo los agentes autorizados. Rotación automática por política, acceso efímero con TTL, audit log inmutable, y revocación instantánea.\n\nPain point: Agentes que necesitan API keys del usuario, tokens OAuth, credenciales DB. Guardarlas en plaintext o env vars es inaceptable. Vault genérico (HashiCorp) no es zero-knowledge y no rota automáticamente.",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "store_secret",
+   "fetch_secret",
+   "rotate_secret",
+   "revoke_access",
+   "audit_access",
+   "create_policy"
+  ],
+  "install": "npx -y @marketnow/install agent-secret-vault",
+  "homepage": "https://www.marketnow.site/skills/agent-secret-vault",
+  "repo_url": "https://github.com/edgarfloresguerra2011-a11y/marketnow-mcp-server",
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "Install: npx -y @marketnow/install agent-secret-vault\nCategory: Agent Infrastructure & Orchestration\nPrice: $9.99",
+   "system_prompt": "# Agent Secret Vault\nVault de secretos para agentes con arquitectura zero-knowledge: el operador no puede ver los secrets, solo los agentes autorizados. Rotación automática por política, acceso efímero con TTL, audit log inmutable, y revocación instantánea.\n\n## How it works\n- Secrets encriptados con envelope encryption: master key en HSM/KMS, data keys efímeras por acceso derivadas con HKDF\n- Zero-knowledge: agente deriva key localmente con su identidad (SPIFFE/mTLS), el vault nunca ve plaintext ni la data key final\n- Rotación automática: cron evalúa políticas (ej: 'rotate every 30d' o 'rotate on employee offboarding'), genera nuevo secret, invalida anterior graciosamente\n- Acceso efímero: agente solicita secret, recibe con TTL de 1h, debe renovar o pierde acceso; ideal para sesiones temporales\n- Audit log con hash chaining (blockchain-like) garantiza tamper-evidence: cada acceso firmado y encadenado al anterior\n\n## Use cases\n- Agente que accede a Salesforce API del cliente: secret rotado cada 30 días automáticamente, revocado al cancelar\n- Credenciales de DB para agente de analytics: acceso efímero de 1h, renovable, con audit completo\n- Offboarding de empleado: rotación instantánea de todos los secrets que tocó, sin interrumpir servicio"
+  },
+  "capabilities": {
+   "category": "Agent Infrastructure & Orchestration",
+   "sentinel_score": 10
+  },
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1-sub/1.0",
+  "scanned_at": "2026-09-12T00:09:46.332Z",
+  "duration_ms": 1,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 52,
+  "risk_level": "yellow"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-12T00:09:46.332Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-secret-vault"
+ }
+}
