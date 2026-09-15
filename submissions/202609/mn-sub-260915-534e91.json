@@ -1,0 +1,68 @@
+{
+ "id": "mn-sub-260915-534e91",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Aria Icons",
+  "version": "1.0.0",
+  "description": "340k SVG icons — browser, CLI that writes icons as source, and MCP for Cursor/Claude.",
+  "author": "Leul Aria",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "icons",
+   "svg",
+   "cli"
+  ],
+  "install": "npx -y aria-icons",
+  "homepage": "https://icons.leularia.com",
+  "repo_url": "https://github.com/LeulAria/Aria-Icons",
+  "license": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-15T08:28:52.535Z",
+  "duration_ms": 156,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-15T08:28:52.535Z",
+  "repo_url": {
+   "url": "https://github.com/LeulAria/Aria-Icons",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y aria-icons",
+   "registry": "npm",
+   "package": "aria-icons",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://icons.leularia.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:c3f1e8165f06",
+ "submitted_at": "2026-09-15T08:28:52.535Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aria-icons"
+ }
+}
