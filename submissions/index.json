@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-12T00:18:06Z",
+ "updated_at": "2026-09-15T08:28:53.423Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -335,6 +335,18 @@
    "path": "submissions/202609/mn-sub-260912-e86ce5.json",
    "eligible": false,
    "from": "ip:d39f09abca92"
+  },
+  {
+   "id": "mn-sub-260915-534e91",
+   "name": "Aria Icons",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 48,
+   "submitted_at": "2026-09-15T08:28:52.535Z",
+   "from": "ip:c3f1e8165f06",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260915-534e91.json"
   }
  ],
  "l2_pass": {
