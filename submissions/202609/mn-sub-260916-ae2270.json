@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-ae2270",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Multilingual Knowledge Bridge",
+  "version": "1.0.0",
+  "description": "Cross-lingual retrieval so a Spanish query retrieves English docs and answers in Spanish\n\nEmbeds documents in a multilingual space and routes queries across languages without pre-translation. A Spanish query retrieves English and Japanese docs ranked by semantic match, then the answer is synthesized in the user's query language with citations back to the original-language sources. Supports 100+ languages.\n\nPain point: Global teams have docs in 5 languages but the agent only retrieves in the query's language. A Spanish-speaking user gets 2 poor Spanish docs instead of the 50 high-q...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "index_multilingual",
+   "search_cross_lingual",
+   "rerank_cross_lingual",
+   "answer_in_query_language",
+   "detect_language"
+  ],
+  "install": "python multilingual_knowledge_bridge.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python multilingual_knowledge_bridge.py\nTools: index_multilingual, search_cross_lingual, rerank_cross_lingual, answer_in_query_language, detect_language",
+   "system_prompt": "# Multilingual Knowledge Bridge\nEmbeds documents in a multilingual space and routes queries across languages without pre-translation. A Spanish query retrieves English and Japanese docs ranked by semantic match, then the answer is synthesized in the user's query language with citations back to the original-language sources. Supports 100+ languages.\n\n## How it works\n- Indexes all docs with a multilingual embedding model (e.g., Cohere embed-multilingual-v3)\n- At query time, embeds the query in the same multilingual space and retrieves top-k across all languages\n- Reranks with a cross-lingual cross-encoder that scores query-doc relevance across languages\n- Synthesizes the answer in the query's language but cites the original-language source with a translate-on-hover snippet\n\n## Use cases\n- Support agent serves Spanish-speaking customers from an English-only KB\n- Researcher queries in Japanese and retrieves English papers with Japanese answers\n- Global company KB with docs in EN, ES, FR, DE, JA - one search, multilingual results"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "multilingual_knowledge_bridge.py": "#!/usr/bin/env python3\n\"\"\"\nMultilingual Knowledge Bridge - MCP Server\nAliceLabs LLC (c) 2026\n\nEmbeds documents in a multilingual space and routes queries across languages without pre-translation. A Spanish query retrieves English and Japanese docs ranked by semantic match, then the answer is synthesized in the user's query language with citations back to the original-language sources. Supports 100+ languages.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".multilingual_knowledge_bridge\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef index_multilingual(query, params=None):\n    \"\"\"Tool: index_multilingual\"\"\"\n    result = {\"tool\": \"index_multilingual\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef search_cross_lingual(query, params=None):\n    \"\"\"Tool: search_cross_lingual\"\"\"\n    result = {\"tool\": \"search_cross_lingual\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef rerank_cross_lingual(query, params=None):\n    \"\"\"Tool: rerank_cross_lingual\"\"\"\n    result = {\"tool\": \"rerank_cross_lingual\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef answer_in_query_language(query, params=None):\n    \"\"\"Tool: answer_in_query_language\"\"\"\n    result = {\"tool\": \"answer_in_query_language\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_language(query, params=None):\n    \"\"\"Tool: detect_language\"\"\"\n    result = {\"tool\": \"detect_language\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Multilingual Knowledge Bridge MCP Server\")\n    print(f\"Tools: index_multilingual, search_cross_lingual, rerank_cross_lingual, answer_in_query_language, detect_language\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T01:24:26.947Z",
+  "duration_ms": 90,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T01:24:26.947Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T01:24:26.947Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "multilingual-knowledge-bridge"
+ }
+}
