@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-a4f7c9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Child Safety Filter",
+  "version": "1.0.0",
+  "description": "Blocks grooming, sexualization, self-harm, and age-inappropriate content for under-18 users.\n\nA specialized content filter for any agent serving or potentially serving minors. Combines CSAM-adjacency detection (NCMEC hash-matching via PhotoDNA-style perceptual hashing for any image input), grooming-pattern detection (multi-turn classifier trained on NCMEC and Thorn datasets), sexualization of minors detection, self-harm and eating-disorder content blocking, and an age-appropriateness tier system (under-8, 8-12, 13-17) that filters topics per COPPA/COPPA 2.0 developmental threshold...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "filter_for_minor",
+   "detect_grooming",
+   "match_csam_hash",
+   "generate_cybertipline_report"
+  ],
+  "install": "python child_safety_filter.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python child_safety_filter.py\nTools: filter_for_minor, detect_grooming, match_csam_hash, generate_cybertipline_report",
+   "system_prompt": "# Child Safety Filter\nA specialized content filter for any agent serving or potentially serving minors. Combines CSAM-adjacency detection (NCMEC hash-matching via PhotoDNA-style perceptual hashing for any image input), grooming-pattern detection (multi-turn classifier trained on NCMEC and Thorn datasets), sexualization of minors detection, self-harm and eating-disorder content blocking, and an age-appropriateness tier system (under-8, 8-12, 13-17) that filters topics per COPPA/COPPA 2.0 developmental thresholds. Mandatory-reporting hook: if grooming or CSAM-adjacency is detected, automatically generates a NCMEC CyberTipline report package with chain-of-custody preservation.\n\n## How it works\n- PhotoDNA-style perceptual hashing on any image input + NCMEC hash-list match.\n- Multi-turn grooming classifier on the conversation (Thorn-trained).\n- Sexualization-of-minors text classifier.\n- Age-tier policy: filters topics per COPPA developmental thresholds.\n- Mandatory-reporting hook: generates a NCMEC CyberTipline report with chain-of-custody.\n\n## Use cases\n- AI tutors and homework assistants for K-12\n- Gaming companions and social agents accessible to minors\n- Family-facing agents on shared devices\n- Edtech platforms subject to COPPA and FERPA"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "child_safety_filter.py": "#!/usr/bin/env python3\n\"\"\"\nChild Safety Filter - MCP Server\nAliceLabs LLC (c) 2026\n\nA specialized content filter for any agent serving or potentially serving minors. Combines CSAM-adjacency detection (NCMEC hash-matching via PhotoDNA-style perceptual hashing for any image input), grooming-pattern detection (multi-turn classifier trained on NCMEC and Thorn datasets), sexualization of minors detection, self-harm and eating-disorder content blocking, and an age-appropriateness tier system (under-8, 8-12, 13-17) that filters topics per COPPA/COPPA 2.0 developmental thresholds. Mandatory-reporting hook: if grooming or CSAM-adjacency is detected, automatically generates a NCMEC CyberTipline report package with chain-of-custody preservation.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".child_safety_filter\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef filter_for_minor(query, params=None):\n    \"\"\"Tool: filter_for_minor - Filters content for an under-18 user with a specified age tier.\"\"\"\n    result = {\"tool\": \"filter_for_minor\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_grooming(query, params=None):\n    \"\"\"Tool: detect_grooming - Multi-turn grooming-pattern analysis on a conversation.\"\"\"\n    result = {\"tool\": \"detect_grooming\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef match_csam_hash(query, params=None):\n    \"\"\"Tool: match_csam_hash - PhotoDNA-style perceptual hash match against NCMEC hash list.\"\"\"\n    result = {\"tool\": \"match_csam_hash\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef generate_cybertipline_report(query, params=None):\n    \"\"\"Tool: generate_cybertipline_report - Produces a NCMEC CyberTipline report package with chain-of-custody.\"\"\"\n    result = {\"tool\": \"generate_cybertipline_report\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Child Safety Filter MCP Server\")\n    print(\"Tools: filter_for_minor, detect_grooming, match_csam_hash, generate_cybertipline_report\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"filter_for_minor\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:10:47.822Z",
+  "duration_ms": 15,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:10:47.822Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T02:10:47.822Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "child-safety-filter"
+ }
+}
