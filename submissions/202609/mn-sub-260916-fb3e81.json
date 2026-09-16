@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-fb3e81",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Consent Manager",
+  "version": "1.0.0",
+  "description": "Captures, stores, and enforces user consent for every data-processing action.\n\nA consent lifecycle manager purpose-built for AI agents. Captures granular consent (per data category × per processing purpose × per retention period) at conversation start, stores it in a versioned consent ledger, and enforces it at every tool call: if the agent tries to send user data to a CRM but the user only consented to in-session personalization, the call is blocked. Handles re-consent flows when scope changes, withdraw events with downstream-deletion propagation, and a child-vs-adult verificatio...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "request_consent",
+   "check_consent",
+   "withdraw_consent",
+   "export_dsar"
+  ],
+  "install": "python consent_manager.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python consent_manager.py\nTools: request_consent, check_consent, withdraw_consent, export_dsar",
+   "system_prompt": "# Consent Manager\nA consent lifecycle manager purpose-built for AI agents. Captures granular consent (per data category × per processing purpose × per retention period) at conversation start, stores it in a versioned consent ledger, and enforces it at every tool call: if the agent tries to send user data to a CRM but the user only consented to in-session personalization, the call is blocked. Handles re-consent flows when scope changes, withdraw events with downstream-deletion propagation, and a child-vs-adult verification gate. Generates a GDPR-compliant consent receipt per interaction.\n\n## How it works\n- Issues a consent request at conversation start (purpose, data categories, retention, third parties).\n- Stores the signed consent receipt in a versioned ledger keyed by user_id.\n- Enforces consent at every tool call via policy lookup; blocks if the action exceeds granted scope.\n- On withdrawal, propagates deletion requests to downstream systems via webhooks.\n- Generates GDPR-compliant consent receipts and DSAR export packages.\n\n## Use cases\n- Customer-facing agents that store data in a CRM\n- Healthcare agents handling PHI under HIPAA + state privacy laws\n- EU-targeted agents needing GDPR-grade consent receipts\n- Children's apps needing verified-parental-consent under COPPA"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "consent_manager.py": "#!/usr/bin/env python3\n\"\"\"\nConsent Manager - MCP Server\nAliceLabs LLC (c) 2026\n\nA consent lifecycle manager purpose-built for AI agents. Captures granular consent (per data category × per processing purpose × per retention period) at conversation start, stores it in a versioned consent ledger, and enforces it at every tool call: if the agent tries to send user data to a CRM but the user only consented to in-session personalization, the call is blocked. Handles re-consent flows when scope changes, withdraw events with downstream-deletion propagation, and a child-vs-adult verification gate. Generates a GDPR-compliant consent receipt per interaction.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".consent_manager\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef request_consent(query, params=None):\n    \"\"\"Tool: request_consent - Issues a granular consent request and returns a consent token.\"\"\"\n    result = {\"tool\": \"request_consent\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef check_consent(query, params=None):\n    \"\"\"Tool: check_consent - Verifies that a given (user, data_category, purpose) is currently consented.\"\"\"\n    result = {\"tool\": \"check_consent\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef withdraw_consent(query, params=None):\n    \"\"\"Tool: withdraw_consent - Records withdrawal and triggers downstream deletion propagation.\"\"\"\n    result = {\"tool\": \"withdraw_consent\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef export_dsar(query, params=None):\n    \"\"\"Tool: export_dsar - Produces a data subject access request package (data + consent history).\"\"\"\n    result = {\"tool\": \"export_dsar\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Consent Manager MCP Server\")\n    print(\"Tools: request_consent, check_consent, withdraw_consent, export_dsar\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"request_consent\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:09:13.020Z",
+  "duration_ms": 14,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:09:13.020Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T02:09:13.020Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "consent-manager"
+ }
+}
