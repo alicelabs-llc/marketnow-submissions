@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-d0d45a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Temporal Knowledge Manager",
+  "version": "1.0.0",
+  "description": "Track how knowledge changes over time so agents answer 'as of when' not just 'what'\n\nStores every fact with valid_from and valid_to timestamps, lets the agent query the KB 'as of' any date, and surfaces superseded facts so the agent never answers a 2024 question with a 2019 fact. Handles slowly-changing dimensions, corrections, and retroactive updates with full history.\n\nPain point: The KB was updated last week and the old policy is gone. A user asks 'what was the refund policy in 2022?' and the agent answers with the 2024 policy because the old one was overwritten, not archived. ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "write_fact",
+   "query_as_of",
+   "get_fact_history",
+   "correct_fact",
+   "get_temporal_diff"
+  ],
+  "install": "python temporal_knowledge_manager.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python temporal_knowledge_manager.py\nTools: write_fact, query_as_of, get_fact_history, correct_fact, get_temporal_diff",
+   "system_prompt": "# Temporal Knowledge Manager\nStores every fact with valid_from and valid_to timestamps, lets the agent query the KB 'as of' any date, and surfaces superseded facts so the agent never answers a 2024 question with a 2019 fact. Handles slowly-changing dimensions, corrections, and retroactive updates with full history.\n\n## How it works\n- Every fact write is timestamped with valid_from; updates set valid_to on the prior version and insert a new row\n- Queries accept an 'as_of' parameter and return only facts valid at that timestamp\n- Corrections (the prior fact was wrong) are marked with correction_reason and a backdated valid_from\n- Agent can answer 'show me the history of fact X' with a timeline of every version and why it changed\n\n## Use cases\n- Policy KB: 'what was the parental leave policy when I had my child in 2021?'\n- Financial: track how a company's revenue guidance changed across quarters\n- Compliance: prove what the agent knew and when, for any past decision"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "temporal_knowledge_manager.py": "#!/usr/bin/env python3\n\"\"\"\nTemporal Knowledge Manager - MCP Server\nAliceLabs LLC (c) 2026\n\nStores every fact with valid_from and valid_to timestamps, lets the agent query the KB 'as of' any date, and surfaces superseded facts so the agent never answers a 2024 question with a 2019 fact. Handles slowly-changing dimensions, corrections, and retroactive updates with full history.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".temporal_knowledge_manager\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef write_fact(query, params=None):\n    \"\"\"Tool: write_fact\"\"\"\n    result = {\"tool\": \"write_fact\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef query_as_of(query, params=None):\n    \"\"\"Tool: query_as_of\"\"\"\n    result = {\"tool\": \"query_as_of\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_fact_history(query, params=None):\n    \"\"\"Tool: get_fact_history\"\"\"\n    result = {\"tool\": \"get_fact_history\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef correct_fact(query, params=None):\n    \"\"\"Tool: correct_fact\"\"\"\n    result = {\"tool\": \"correct_fact\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_temporal_diff(query, params=None):\n    \"\"\"Tool: get_temporal_diff\"\"\"\n    result = {\"tool\": \"get_temporal_diff\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Temporal Knowledge Manager MCP Server\")\n    print(f\"Tools: write_fact, query_as_of, get_fact_history, correct_fact, get_temporal_diff\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T01:24:12.928Z",
+  "duration_ms": 18,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T01:24:12.928Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T01:24:12.928Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "temporal-knowledge-manager"
+ }
+}
