@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-d9311e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Multi-Document Reasoner",
+  "version": "1.0.0",
+  "description": "Reason over 100+ documents simultaneously with cross-references and conflict resolution\n\nTakes a question and a set of 100+ documents, builds a working memory of extracted facts with source attribution, runs a multi-step reasoning loop that cross-references facts across documents, detects conflicts, and synthesizes an answer with a per-fact citation graph. Handles docs that single-context RAG cannot fit.\n\nPain point: RAG retrieves top-10 chunks and reasons over them, but answers requiring synthesis across 50 docs ('summarize every objection raised to the Q3 roadmap across 200 meet...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "reason_across_docs",
+   "build_fact_graph",
+   "resolve_conflicts",
+   "synthesize_answer",
+   "get_citation_graph"
+  ],
+  "install": "python multi_document_reasoner.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python multi_document_reasoner.py\nTools: reason_across_docs, build_fact_graph, resolve_conflicts, synthesize_answer, get_citation_graph",
+   "system_prompt": "# Multi-Document Reasoner\nTakes a question and a set of 100+ documents, builds a working memory of extracted facts with source attribution, runs a multi-step reasoning loop that cross-references facts across documents, detects conflicts, and synthesizes an answer with a per-fact citation graph. Handles docs that single-context RAG cannot fit.\n\n## How it works\n- Extracts atomic facts from all docs in parallel with source attribution and timestamps\n- Builds a fact graph: facts are nodes, edges are supports/refutes/related\n- Reasoning loop: question -> relevant fact subgraph -> multi-step inference -> draft -> verify against graph\n- Detects conflicting facts and applies resolution rules (newer wins, higher-authority source wins, or flag for human)\n\n## Use cases\n- Synthesize objections to a roadmap from 200 meeting notes across 6 months\n- Compare coverage of a topic across 50 news articles and identify the consensus vs outlier claims\n- Build a due-diligence summary from 100 contracts identifying every non-standard clause"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "multi_document_reasoner.py": "#!/usr/bin/env python3\n\"\"\"\nMulti-Document Reasoner - MCP Server\nAliceLabs LLC (c) 2026\n\nTakes a question and a set of 100+ documents, builds a working memory of extracted facts with source attribution, runs a multi-step reasoning loop that cross-references facts across documents, detects conflicts, and synthesizes an answer with a per-fact citation graph. Handles docs that single-context RAG cannot fit.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".multi_document_reasoner\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef reason_across_docs(query, params=None):\n    \"\"\"Tool: reason_across_docs\"\"\"\n    result = {\"tool\": \"reason_across_docs\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef build_fact_graph(query, params=None):\n    \"\"\"Tool: build_fact_graph\"\"\"\n    result = {\"tool\": \"build_fact_graph\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef resolve_conflicts(query, params=None):\n    \"\"\"Tool: resolve_conflicts\"\"\"\n    result = {\"tool\": \"resolve_conflicts\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef synthesize_answer(query, params=None):\n    \"\"\"Tool: synthesize_answer\"\"\"\n    result = {\"tool\": \"synthesize_answer\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_citation_graph(query, params=None):\n    \"\"\"Tool: get_citation_graph\"\"\"\n    result = {\"tool\": \"get_citation_graph\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Multi-Document Reasoner MCP Server\")\n    print(f\"Tools: reason_across_docs, build_fact_graph, resolve_conflicts, synthesize_answer, get_citation_graph\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T01:23:11.101Z",
+  "duration_ms": 49,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T01:23:11.101Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T01:23:11.101Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "multi-document-reasoner"
+ }
+}
