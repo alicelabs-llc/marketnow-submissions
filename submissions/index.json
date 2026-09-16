@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:07:47.392Z",
+ "updated_at": "2026-09-16T02:08:18.260Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -551,6 +551,18 @@
    "from": "ip:d39f09abca92",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-c2b580.json"
+  },
+  {
+   "id": "mn-sub-260916-7cca70",
+   "name": "Content Safety Classifier",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:08:17.449Z",
+   "from": "ip:cc6461088d68",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-7cca70.json"
   }
  ],
  "l2_pass": {
