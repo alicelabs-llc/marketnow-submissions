@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T01:22:44.421Z",
+ "updated_at": "2026-09-16T01:22:58.067Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -359,6 +359,18 @@
    "from": "ip:cc6461088d68",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-c96d3a.json"
+  },
+  {
+   "id": "mn-sub-260916-e176b3",
+   "name": "Knowledge Base Curator",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T01:22:57.315Z",
+   "from": "ip:cc6461088d68",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-e176b3.json"
   }
  ],
  "l2_pass": {
