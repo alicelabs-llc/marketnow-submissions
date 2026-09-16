@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-494767",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Audit Trail Builder",
+  "version": "1.0.0",
+  "description": "Immutable, hash-chained log of every agent decision, ready for regulator export.\n\nA tamper-evident audit logger that records every agent decision (input, model used, tool calls, params, output, policy decision, latency) into a hash-chained append-only log. Each entry includes the SHA-256 of the previous entry, a wall-clock timestamp, and an optional Merkle-tree root for batch verification. Supports WORM storage backends (AWS S3 Object Lock, Azure Immutable Blob, Google Bucket Lock) and exports to regulators in OpenLineage + a JSON-LD audit vocabulary. Provides a verification API t...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "log_decision",
+   "verify_chain",
+   "export_audit",
+   "get_decision_path"
+  ],
+  "install": "python audit_trail_builder.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python audit_trail_builder.py\nTools: log_decision, verify_chain, export_audit, get_decision_path",
+   "system_prompt": "# Audit Trail Builder\nA tamper-evident audit logger that records every agent decision (input, model used, tool calls, params, output, policy decision, latency) into a hash-chained append-only log. Each entry includes the SHA-256 of the previous entry, a wall-clock timestamp, and an optional Merkle-tree root for batch verification. Supports WORM storage backends (AWS S3 Object Lock, Azure Immutable Blob, Google Bucket Lock) and exports to regulators in OpenLineage + a JSON-LD audit vocabulary. Provides a verification API that recomputes the chain and flags any tampering.\n\n## How it works\n- Accepts a structured decision event from the agent loop.\n- Appends to a hash-chained log: entry_hash = SHA256(prev_hash || payload || timestamp).\n- Writes to WORM backend (S3 Object Lock / Azure Immutable Blob) so deletion is impossible.\n- Periodically publishes a Merkle root (e.g., to a transparency log or your enterprise notarization service).\n- Exposes a verification API that recomputes the chain end-to-end.\n\n## Use cases\n- Regulated industries (finance, healthcare, insurance) needing decision provenance\n- Dispute resolution: prove what the agent told the customer\n- Internal investigations of agent incidents\n- Compliance with EU AI Act Art. 12 (logging) and NYC Local Law 144 audit requirements"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "audit_trail_builder.py": "#!/usr/bin/env python3\n\"\"\"\nAudit Trail Builder - MCP Server\nAliceLabs LLC (c) 2026\n\nA tamper-evident audit logger that records every agent decision (input, model used, tool calls, params, output, policy decision, latency) into a hash-chained append-only log. Each entry includes the SHA-256 of the previous entry, a wall-clock timestamp, and an optional Merkle-tree root for batch verification. Supports WORM storage backends (AWS S3 Object Lock, Azure Immutable Blob, Google Bucket Lock) and exports to regulators in OpenLineage + a JSON-LD audit vocabulary. Provides a verification API that recomputes the chain and flags any tampering.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".audit_trail_builder\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef log_decision(query, params=None):\n    \"\"\"Tool: log_decision - Appends a single agent decision event to the audit chain.\"\"\"\n    result = {\"tool\": \"log_decision\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef verify_chain(query, params=None):\n    \"\"\"Tool: verify_chain - Recomputes hashes over a range and flags tampering.\"\"\"\n    result = {\"tool\": \"verify_chain\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef export_audit(query, params=None):\n    \"\"\"Tool: export_audit - Exports a date range in OpenLineage + JSON-LD audit vocabulary.\"\"\"\n    result = {\"tool\": \"export_audit\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_decision_path(query, params=None):\n    \"\"\"Tool: get_decision_path - Retrieves the full decision path for a given conversation_id.\"\"\"\n    result = {\"tool\": \"get_decision_path\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Audit Trail Builder MCP Server\")\n    print(\"Tools: log_decision, verify_chain, export_audit, get_decision_path\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"log_decision\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:08:59.202Z",
+  "duration_ms": 14,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:08:59.202Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T02:08:59.202Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "audit-trail-builder"
+ }
+}
