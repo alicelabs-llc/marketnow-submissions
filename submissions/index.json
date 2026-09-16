@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:55:48.973Z",
+ "updated_at": "2026-09-16T02:56:15.079Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -683,6 +683,18 @@
    "from": "ip:cc6461088d68",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-50a9d8.json"
+  },
+  {
+   "id": "mn-sub-260916-945186",
+   "name": "Threat Intelligence Feed",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:56:14.282Z",
+   "from": "ip:d6454edae0b9",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-945186.json"
   }
  ],
  "l2_pass": {
