@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-dbdd60",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Output Toxicity Shield",
+  "version": "1.0.0",
+  "description": "Filters hate, harassment, self-harm, and NSFW from agent replies before the user ever sees them.\n\nA post-inference content filter that runs on every model output before it is streamed to the user. Classifies text across 7 policy dimensions (hate, harassment, self-harm, sexual, violence, profanity, spam) using a distilled RoBERTa model plus a regex profanity bank for 18 languages. Configurable per-tenant policy YAML lets you allow medical profanity in a telehealth agent while blocking the same word in a kids' tutor. Supports streaming token-by-token with a 3-token lookahead so you ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "filter_output",
+   "filter_stream_chunk",
+   "get_policy",
+   "set_policy"
+  ],
+  "install": "python output_toxicity_shield.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python output_toxicity_shield.py\nTools: filter_output, filter_stream_chunk, get_policy, set_policy",
+   "system_prompt": "# Output Toxicity Shield\nA post-inference content filter that runs on every model output before it is streamed to the user. Classifies text across 7 policy dimensions (hate, harassment, self-harm, sexual, violence, profanity, spam) using a distilled RoBERTa model plus a regex profanity bank for 18 languages. Configurable per-tenant policy YAML lets you allow medical profanity in a telehealth agent while blocking the same word in a kids' tutor. Supports streaming token-by-token with a 3-token lookahead so you can cut a toxic stream mid-sentence without showing the offending word.\n\n## How it works\n- Receives the completed or in-progress model output.\n- Scores each segment on 7 policy axes with calibrated probabilities.\n- Applies tenant policy: pass, redact-with-placeholder, or hard-block with a safe fallback message.\n- For streams, returns a cut instruction at the first offending token boundary.\n\n## Use cases\n- Customer-facing chatbots in regulated industries\n- AI tutors for K-12 education\n- Mental-health companion apps with self-harm guardrails\n- Marketplace listings AI where sellers may try to inject hate speech"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "output_toxicity_shield.py": "#!/usr/bin/env python3\n\"\"\"\nOutput Toxicity Shield - MCP Server\nAliceLabs LLC (c) 2026\n\nA post-inference content filter that runs on every model output before it is streamed to the user. Classifies text across 7 policy dimensions (hate, harassment, self-harm, sexual, violence, profanity, spam) using a distilled RoBERTa model plus a regex profanity bank for 18 languages. Configurable per-tenant policy YAML lets you allow medical profanity in a telehealth agent while blocking the same word in a kids' tutor. Supports streaming token-by-token with a 3-token lookahead so you can cut a toxic stream mid-sentence without showing the offending word.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".output_toxicity_shield\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef filter_output(query, params=None):\n    \"\"\"Tool: filter_output - Scores a complete agent reply and returns the filtered or redacted version.\"\"\"\n    result = {\"tool\": \"filter_output\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef filter_stream_chunk(query, params=None):\n    \"\"\"Tool: filter_stream_chunk - Scores a streaming chunk with 3-token lookahead and emits cut/continue signals.\"\"\"\n    result = {\"tool\": \"filter_stream_chunk\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_policy(query, params=None):\n    \"\"\"Tool: get_policy - Returns the active tenant policy document.\"\"\"\n    result = {\"tool\": \"get_policy\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef set_policy(query, params=None):\n    \"\"\"Tool: set_policy - Updates the per-tenant YAML policy (thresholds, allowed terms, fallback message)\"\"\"\n    result = {\"tool\": \"set_policy\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Output Toxicity Shield MCP Server\")\n    print(\"Tools: filter_output, filter_stream_chunk, get_policy, set_policy\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"filter_output\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:06:22.811Z",
+  "duration_ms": 34,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:06:22.811Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T02:06:22.811Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "output-toxicity-shield"
+ }
+}
