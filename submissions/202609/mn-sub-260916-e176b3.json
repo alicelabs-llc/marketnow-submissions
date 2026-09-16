@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-e176b3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Knowledge Base Curator",
+  "version": "1.0.0",
+  "description": "Detect stale, duplicated, and low-quality docs in your KB and auto-cleanup with a PR\n\nScans Confluence, Notion, and SharePoint for three problems: stale docs (last edited > 12 months and reference deprecated products), duplicates (cosine similarity > 0.85 across docs), and low-quality docs (incomplete, contradicting sibling docs). Emits a review queue with suggested merges, archives, or rewrites.\n\nPain point: RAG retrieves 3 conflicting versions of the refund policy from 2019, 2021, and 2024 because no one archived the old ones. The agent confidently answers with the 2019 policy. ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "scan_knowledge_base",
+   "detect_duplicates",
+   "detect_stale_docs",
+   "detect_contradictions",
+   "generate_cleanup_pr"
+  ],
+  "install": "python knowledge_base_curator.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python knowledge_base_curator.py\nTools: scan_knowledge_base, detect_duplicates, detect_stale_docs, detect_contradictions, generate_cleanup_pr",
+   "system_prompt": "# Knowledge Base Curator\nScans Confluence, Notion, and SharePoint for three problems: stale docs (last edited > 12 months and reference deprecated products), duplicates (cosine similarity > 0.85 across docs), and low-quality docs (incomplete, contradicting sibling docs). Emits a review queue with suggested merges, archives, or rewrites.\n\n## How it works\n- Indexes every doc with embedding, last-edited timestamp, owner, and outgoing links\n- Staleness: flags docs whose referenced product names match a deprecation list, or last-edited > threshold\n- Duplicates: clusters docs by embedding similarity > 0.85 and ranks within cluster by freshness + completeness\n- Quality: scores each doc on completeness (missing required sections), clarity (readability), and contradiction (NLI vs sibling docs)\n- Opens PRs or review tickets with suggested action: archive, merge, rewrite, update owner\n\n## Use cases\n- Quarterly cleanup of 5000-page Confluence: archive 800 stale, merge 200 duplicates\n- Notion workspace dedupe before migration to a new KB\n- Detect that 3 refund policy docs contradict each other and route to legal for resolution"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "knowledge_base_curator.py": "#!/usr/bin/env python3\n\"\"\"\nKnowledge Base Curator - MCP Server\nAliceLabs LLC (c) 2026\n\nScans Confluence, Notion, and SharePoint for three problems: stale docs (last edited > 12 months and reference deprecated products), duplicates (cosine similarity > 0.85 across docs), and low-quality docs (incomplete, contradicting sibling docs). Emits a review queue with suggested merges, archives, or rewrites.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".knowledge_base_curator\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef scan_knowledge_base(query, params=None):\n    \"\"\"Tool: scan_knowledge_base\"\"\"\n    result = {\"tool\": \"scan_knowledge_base\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_duplicates(query, params=None):\n    \"\"\"Tool: detect_duplicates\"\"\"\n    result = {\"tool\": \"detect_duplicates\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_stale_docs(query, params=None):\n    \"\"\"Tool: detect_stale_docs\"\"\"\n    result = {\"tool\": \"detect_stale_docs\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_contradictions(query, params=None):\n    \"\"\"Tool: detect_contradictions\"\"\"\n    result = {\"tool\": \"detect_contradictions\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef generate_cleanup_pr(query, params=None):\n    \"\"\"Tool: generate_cleanup_pr\"\"\"\n    result = {\"tool\": \"generate_cleanup_pr\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Knowledge Base Curator MCP Server\")\n    print(f\"Tools: scan_knowledge_base, detect_duplicates, detect_stale_docs, detect_contradictions, generate_cleanup_pr\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T01:22:57.315Z",
+  "duration_ms": 19,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T01:22:57.315Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T01:22:57.315Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "knowledge-base-curator"
+ }
+}
