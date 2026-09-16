@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-6995eb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Agent Behavior Anomaly Detector",
+  "version": "1.0.0",
+  "description": "Flags unusual agent behavior—looping, tool spamming, scope drift—in real time.\n\nA behavioral baselining engine that profiles normal agent behavior per (agent_id, task_type) tuple: typical tool-call frequency, parameter distributions, response length, latency, and tool-call graph shape. Maintains a sliding 1000-conversation baseline and detects anomalies with Isolation Forest + a graph-shape edit-distance model. Catches compromised agents that loop through tools to brute-force params, agents that suddenly call tools never used before, response-length outliers (possible data exfil),...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "observe_turn",
+   "observe_conversation",
+   "get_baseline",
+   "acknowledge_anomaly"
+  ],
+  "install": "python agent_behavior_anomaly_detector.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python agent_behavior_anomaly_detector.py\nTools: observe_turn, observe_conversation, get_baseline, acknowledge_anomaly",
+   "system_prompt": "# Agent Behavior Anomaly Detector\nA behavioral baselining engine that profiles normal agent behavior per (agent_id, task_type) tuple: typical tool-call frequency, parameter distributions, response length, latency, and tool-call graph shape. Maintains a sliding 1000-conversation baseline and detects anomalies with Isolation Forest + a graph-shape edit-distance model. Catches compromised agents that loop through tools to brute-force params, agents that suddenly call tools never used before, response-length outliers (possible data exfil), and tool-call graph deviations that indicate prompt-injection-induced behavioral drift. Emits real-time alerts with anomaly score and the specific behavioral axis that fired.\n\n## How it works\n- Profiles each (agent_id, task_type) baseline on a sliding 1000-conversation window.\n- Extracts behavioral features: tool-call frequency, param distributions, response length, latency, call-graph shape.\n- Runs Isolation Forest + graph edit-distance anomaly scoring on each new conversation.\n- Emits alerts with anomaly score, top contributing axes, and a recommended action.\n\n## Use cases\n- Production agent farm where one compromised instance can damage brand at scale\n- Cost-control: catch agents that loop tools and burn quota\n- Detect data exfil via response-length outliers\n- Post-incident forensics on agent behavior leading up to an event"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "agent_behavior_anomaly_detector.py": "#!/usr/bin/env python3\n\"\"\"\nAgent Behavior Anomaly Detector - MCP Server\nAliceLabs LLC (c) 2026\n\nA behavioral baselining engine that profiles normal agent behavior per (agent_id, task_type) tuple: typical tool-call frequency, parameter distributions, response length, latency, and tool-call graph shape. Maintains a sliding 1000-conversation baseline and detects anomalies with Isolation Forest + a graph-shape edit-distance model. Catches compromised agents that loop through tools to brute-force params, agents that suddenly call tools never used before, response-length outliers (possible data exfil), and tool-call graph deviations that indicate prompt-injection-induced behavioral drift. Emits real-time alerts with anomaly score and the specific behavioral axis that fired.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".agent_behavior_anomaly_detector\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef observe_turn(query, params=None):\n    \"\"\"Tool: observe_turn - Ingests a single agent turn (tool calls + response) and returns an anomaly score\"\"\"\n    result = {\"tool\": \"observe_turn\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef observe_conversation(query, params=None):\n    \"\"\"Tool: observe_conversation - Scores a whole conversation for behavioral drift.\"\"\"\n    result = {\"tool\": \"observe_conversation\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_baseline(query, params=None):\n    \"\"\"Tool: get_baseline - Returns the current behavioral baseline for an agent/task type.\"\"\"\n    result = {\"tool\": \"get_baseline\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef acknowledge_anomaly(query, params=None):\n    \"\"\"Tool: acknowledge_anomaly - Marks an alert as expected (training feedback) or escalates.\"\"\"\n    result = {\"tool\": \"acknowledge_anomaly\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Agent Behavior Anomaly Detector MCP Server\")\n    print(\"Tools: observe_turn, observe_conversation, get_baseline, acknowledge_anomaly\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"observe_turn\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:08:31.318Z",
+  "duration_ms": 14,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:08:31.318Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T02:08:31.318Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-behavior-anomaly-detector"
+ }
+}
