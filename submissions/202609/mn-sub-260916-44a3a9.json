@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-44a3a9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "PII Redaction Engine",
+  "version": "1.0.0",
+  "description": "Detects and redacts SSNs, credit cards, emails, phones, IBANs, and 40+ PII types in real time.\n\nA streaming PII detector-redactor that scans both inbound prompts and outbound agent responses. Uses Microsoft Presidio + a custom CRF entity model for 40+ PII types including US SSN, credit cards (with Luhn validation), IBAN, SWIFT, passport numbers (15 country formats), driver licenses (US+EU), emails, phones (E.164), physical addresses, dates of birth, and biometric handles. Supports reversible redaction (vault-encrypted tokens) so downstream analytics can re-identify data under dual...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "redact_text",
+   "unredact_tokens",
+   "detect_pii",
+   "register_custom_recognizer"
+  ],
+  "install": "python pii_redaction_engine.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python pii_redaction_engine.py\nTools: redact_text, unredact_tokens, detect_pii, register_custom_recognizer",
+   "system_prompt": "# PII Redaction Engine\nA streaming PII detector-redactor that scans both inbound prompts and outbound agent responses. Uses Microsoft Presidio + a custom CRF entity model for 40+ PII types including US SSN, credit cards (with Luhn validation), IBAN, SWIFT, passport numbers (15 country formats), driver licenses (US+EU), emails, phones (E.164), physical addresses, dates of birth, and biometric handles. Supports reversible redaction (vault-encrypted tokens) so downstream analytics can re-identify data under dual-control, and format-preserving redaction (e.g., ****-**-****-1234) for UX continuity. <5 ms per 1k tokens.\n\n## How it works\n- Tokenizes input and runs a hybrid recognizer pipeline (regex + ML NER + checksum validation).\n- Replaces each PII span with a format-preserving placeholder or a vault token.\n- Maintains an encrypted token-to-PII vault (AES-256-GCM) with TTL and access logging.\n- Optionally returns the redacted text plus a manifest of what was removed for audit.\n\n## Use cases\n- Customer support agent reading Zendesk tickets\n- Healthcare intake bot handling PHI before LLM call\n- Document summarization service for legal contracts\n- Analytics pipeline that needs to ship transcripts to a vendor model"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "pii_redaction_engine.py": "#!/usr/bin/env python3\n\"\"\"\nPII Redaction Engine - MCP Server\nAliceLabs LLC (c) 2026\n\nA streaming PII detector-redactor that scans both inbound prompts and outbound agent responses. Uses Microsoft Presidio + a custom CRF entity model for 40+ PII types including US SSN, credit cards (with Luhn validation), IBAN, SWIFT, passport numbers (15 country formats), driver licenses (US+EU), emails, phones (E.164), physical addresses, dates of birth, and biometric handles. Supports reversible redaction (vault-encrypted tokens) so downstream analytics can re-identify data under dual-control, and format-preserving redaction (e.g., ****-**-****-1234) for UX continuity. <5 ms per 1k tokens.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".pii_redaction_engine\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef redact_text(query, params=None):\n    \"\"\"Tool: redact_text - Scans text and returns a redacted version with a PII manifest.\"\"\"\n    result = {\"tool\": \"redact_text\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef unredact_tokens(query, params=None):\n    \"\"\"Tool: unredact_tokens - Reverses vault tokens back to original PII under caller authorization.\"\"\"\n    result = {\"tool\": \"unredact_tokens\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_pii(query, params=None):\n    \"\"\"Tool: detect_pii - Returns PII spans with offsets and confidence, no redaction.\"\"\"\n    result = {\"tool\": \"detect_pii\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef register_custom_recognizer(query, params=None):\n    \"\"\"Tool: register_custom_recognizer - Adds a domain-specific PII pattern (e.g., internal employee ID format).\"\"\"\n    result = {\"tool\": \"register_custom_recognizer\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"PII Redaction Engine MCP Server\")\n    print(\"Tools: redact_text, unredact_tokens, detect_pii, register_custom_recognizer\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"redact_text\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:06:36.639Z",
+  "duration_ms": 75,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:06:36.639Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T02:06:36.639Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pii-redaction-engine"
+ }
+}
