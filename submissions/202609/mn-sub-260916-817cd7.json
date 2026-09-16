@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-817cd7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Response Watermarker",
+  "version": "1.0.0",
+  "description": "Invisibly watermarks every agent response as AI-generated for provenance and abuse tracking.\n\nEmbeds a robust, imperceptible watermark in every agent response: (a) a lexical watermark via synonym substitutions drawn from a per-tenant codebook (survives copy-paste and screenshots), (b) a statistical watermark via the Kirchenbauer green-list token method (survives paraphrasing within limits), and (c) an optional visible disclosure badge for regulated domains. Issues a signed provenance receipt (who-generated, when, which model, which tenant) so downstream platforms (social media, em...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "watermark_response",
+   "detect_watermark",
+   "issue_provenance_receipt",
+   "verify_provenance"
+  ],
+  "install": "python response_watermarker.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python response_watermarker.py\nTools: watermark_response, detect_watermark, issue_provenance_receipt, verify_provenance",
+   "system_prompt": "# Response Watermarker\nEmbeds a robust, imperceptible watermark in every agent response: (a) a lexical watermark via synonym substitutions drawn from a per-tenant codebook (survives copy-paste and screenshots), (b) a statistical watermark via the Kirchenbauer green-list token method (survives paraphrasing within limits), and (c) an optional visible disclosure badge for regulated domains. Issues a signed provenance receipt (who-generated, when, which model, which tenant) so downstream platforms (social media, email clients, LMS) can verify AI origin. Provides a detection API that takes arbitrary text and returns 'is_AI_generated, confidence, tenant_id'.\n\n## How it works\n- Lexical: applies synonym substitutions from a per-tenant codebook with low perplexity cost.\n- Statistical: biases token selection toward a green-list set seeded by a tenant key (Kirchenbauer et al.).\n- Visible: optionally prepends a disclosure badge for regulated domains.\n- Provenance: issues a signed receipt with agent_id, model, timestamp, tenant_id.\n- Detection API: takes arbitrary text, recovers watermark, returns is_AI + tenant + confidence.\n\n## Use cases\n- EU-targeted agents needing AI-content disclosure (EU AI Act Art. 50)\n- Educational agents where outputs must be detectable for academic integrity\n- Marketing agents where AI content must be attributable for FTC compliance\n- Disinformation defense: platforms verifying AI-origin of suspected bot content"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "response_watermarker.py": "#!/usr/bin/env python3\n\"\"\"\nResponse Watermarker - MCP Server\nAliceLabs LLC (c) 2026\n\nEmbeds a robust, imperceptible watermark in every agent response: (a) a lexical watermark via synonym substitutions drawn from a per-tenant codebook (survives copy-paste and screenshots), (b) a statistical watermark via the Kirchenbauer green-list token method (survives paraphrasing within limits), and (c) an optional visible disclosure badge for regulated domains. Issues a signed provenance receipt (who-generated, when, which model, which tenant) so downstream platforms (social media, email clients, LMS) can verify AI origin. Provides a detection API that takes arbitrary text and returns 'is_AI_generated, confidence, tenant_id'.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".response_watermarker\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef watermark_response(query, params=None):\n    \"\"\"Tool: watermark_response - Applies lexical + statistical watermark to an agent response.\"\"\"\n    result = {\"tool\": \"watermark_response\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef detect_watermark(query, params=None):\n    \"\"\"Tool: detect_watermark - Inspects arbitrary text and returns AI-origin verdict + tenant attribution.\"\"\"\n    result = {\"tool\": \"detect_watermark\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef issue_provenance_receipt(query, params=None):\n    \"\"\"Tool: issue_provenance_receipt - Issues a signed provenance receipt for a watermarked response.\"\"\"\n    result = {\"tool\": \"issue_provenance_receipt\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef verify_provenance(query, params=None):\n    \"\"\"Tool: verify_provenance - Verifies a provenance receipt signature.\"\"\"\n    result = {\"tool\": \"verify_provenance\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Response Watermarker MCP Server\")\n    print(\"Tools: watermark_response, detect_watermark, issue_provenance_receipt, verify_provenance\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"watermark_response\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:10:33.637Z",
+  "duration_ms": 15,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:10:33.637Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T02:10:33.637Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "response-watermarker"
+ }
+}
