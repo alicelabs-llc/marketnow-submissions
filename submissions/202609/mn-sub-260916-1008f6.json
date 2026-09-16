@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-1008f6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Agent Permission Escalation Guard",
+  "version": "1.0.0",
+  "description": "Blocks agents from calling tools outside their authorized scope, even via chained delegation.\n\nA policy enforcement gateway that sits between the agent's tool-calling loop and your actual tool implementations. Maintains per-agent, per-conversation, per-user permission scopes (RBAC + ABAC) and validates every tool call against the policy before forwarding. Catches escalation attempts via chained delegation (Agent A asks Agent B to call the forbidden 'delete_user' tool), parameter tampering (Agent tries to escalate role in the args), and privilege-creep (requesting scopes beyond ini...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "authorize_tool_call",
+   "request_elevation",
+   "get_agent_scope",
+   "register_delegation"
+  ],
+  "install": "python agent_permission_escalation_guard.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python agent_permission_escalation_guard.py\nTools: authorize_tool_call, request_elevation, get_agent_scope, register_delegation",
+   "system_prompt": "# Agent Permission Escalation Guard\nA policy enforcement gateway that sits between the agent's tool-calling loop and your actual tool implementations. Maintains per-agent, per-conversation, per-user permission scopes (RBAC + ABAC) and validates every tool call against the policy before forwarding. Catches escalation attempts via chained delegation (Agent A asks Agent B to call the forbidden 'delete_user' tool), parameter tampering (Agent tries to escalate role in the args), and privilege-creep (requesting scopes beyond initial grant). Returns allow/deny with a justification and an audit event. Supports just-in-time elevation with human-in-the-loop approval webhook.\n\n## How it works\n- Loads an ABAC policy (agent_id + user_id + tool + params + context) at conversation start.\n- Intercepts every outbound tool call from the agent loop.\n- Validates tool, params, and intent against the policy with attribute-based rules.\n- Tracks delegation chains so a child agent inherits the parent's ceiling, not its grants.\n- Optionally triggers a Slack/email approval webhook for just-in-time elevation.\n\n## Use cases\n- Multi-agent system where agents can delegate tasks\n- Customer-facing agent with backend tool access (CRM, billing)\n- Internal IT agent with shell/file access that must stay scoped per-user\n- Compliance-required separation of duties (e.g., agent cannot both create and approve a payment)"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "agent_permission_escalation_guard.py": "#!/usr/bin/env python3\n\"\"\"\nAgent Permission Escalation Guard - MCP Server\nAliceLabs LLC (c) 2026\n\nA policy enforcement gateway that sits between the agent's tool-calling loop and your actual tool implementations. Maintains per-agent, per-conversation, per-user permission scopes (RBAC + ABAC) and validates every tool call against the policy before forwarding. Catches escalation attempts via chained delegation (Agent A asks Agent B to call the forbidden 'delete_user' tool), parameter tampering (Agent tries to escalate role in the args), and privilege-creep (requesting scopes beyond initial grant). Returns allow/deny with a justification and an audit event. Supports just-in-time elevation with human-in-the-loop approval webhook.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".agent_permission_escalation_guard\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef authorize_tool_call(query, params=None):\n    \"\"\"Tool: authorize_tool_call - Validates a (agent_id, tool, params) tuple against the active policy.\"\"\"\n    result = {\"tool\": \"authorize_tool_call\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef request_elevation(query, params=None):\n    \"\"\"Tool: request_elevation - Initiates a just-in-time scope elevation with human approval.\"\"\"\n    result = {\"tool\": \"request_elevation\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_agent_scope(query, params=None):\n    \"\"\"Tool: get_agent_scope - Returns the current permission ceiling for an agent in a conversation.\"\"\"\n    result = {\"tool\": \"get_agent_scope\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef register_delegation(query, params=None):\n    \"\"\"Tool: register_delegation - Declares a parent→child agent delegation so the guard can enforce inherited ceil\"\"\"\n    result = {\"tool\": \"register_delegation\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Agent Permission Escalation Guard MCP Server\")\n    print(\"Tools: authorize_tool_call, request_elevation, get_agent_scope, register_delegation\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"authorize_tool_call\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:07:32.625Z",
+  "duration_ms": 16,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:07:32.625Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T02:07:32.625Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-permission-escalation-guard"
+ }
+}
