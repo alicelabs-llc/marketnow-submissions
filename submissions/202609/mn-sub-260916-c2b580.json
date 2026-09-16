@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-c2b580",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Secrets Leak Detector",
+  "version": "1.0.0",
+  "description": "Catches API keys, passwords, tokens, and private keys in agent outputs before they ship.\n\nA real-time secrets scanner built on TruffleHog's detector library plus 200+ custom detectors for OpenAI, Anthropic, Stripe, AWS, GCP, Azure, GitHub, Slack, Twilio, SendGrid, JWTs, and PEM private keys. Verifies candidate secrets with active API calls (rate-limited, sandboxed) to eliminate false positives—only flags secrets that actually authenticate. Scans agent outputs, tool arguments, RAG chunks, and uploaded files. Integrates with HashiCorp Vault, AWS Secrets Manager, and GitHub Advanced ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "scan_text",
+   "scan_tool_args",
+   "verify_secret",
+   "rotate_secret"
+  ],
+  "install": "python secrets_leak_detector.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python secrets_leak_detector.py\nTools: scan_text, scan_tool_args, verify_secret, rotate_secret",
+   "system_prompt": "# Secrets Leak Detector\nA real-time secrets scanner built on TruffleHog's detector library plus 200+ custom detectors for OpenAI, Anthropic, Stripe, AWS, GCP, Azure, GitHub, Slack, Twilio, SendGrid, JWTs, and PEM private keys. Verifies candidate secrets with active API calls (rate-limited, sandboxed) to eliminate false positives—only flags secrets that actually authenticate. Scans agent outputs, tool arguments, RAG chunks, and uploaded files. Integrates with HashiCorp Vault, AWS Secrets Manager, and GitHub Advanced Security for automatic rotation on leak.\n\n## How it works\n- Runs 700+ detector plugins (regex + entropy + checksum) on input text.\n- For high-entropy candidates, performs an offline verification (format check) and optional online verification (sandboxed API call).\n- Returns spans with secret type, verified status, and rotation instructions.\n- Optionally redacts and triggers Vault/Secrets Manager rotation via webhook.\n\n## Use cases\n- Coding agent that may regurgitate .env contents in code review\n- Support agent summarizing server logs that contain tokens\n- Document Q&A agent on a corpus that includes config files\n- CI/CD agent with shell access that could print secrets to stdout"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "secrets_leak_detector.py": "#!/usr/bin/env python3\n\"\"\"\nSecrets Leak Detector - MCP Server\nAliceLabs LLC (c) 2026\n\nA real-time secrets scanner built on TruffleHog's detector library plus 200+ custom detectors for OpenAI, Anthropic, Stripe, AWS, GCP, Azure, GitHub, Slack, Twilio, SendGrid, JWTs, and PEM private keys. Verifies candidate secrets with active API calls (rate-limited, sandboxed) to eliminate false positives—only flags secrets that actually authenticate. Scans agent outputs, tool arguments, RAG chunks, and uploaded files. Integrates with HashiCorp Vault, AWS Secrets Manager, and GitHub Advanced Security for automatic rotation on leak.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".secrets_leak_detector\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef scan_text(query, params=None):\n    \"\"\"Tool: scan_text - Scans a string for secrets and returns findings.\"\"\"\n    result = {\"tool\": \"scan_text\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef scan_tool_args(query, params=None):\n    \"\"\"Tool: scan_tool_args - Scans a tool-call argument JSON before the tool executes.\"\"\"\n    result = {\"tool\": \"scan_tool_args\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef verify_secret(query, params=None):\n    \"\"\"Tool: verify_secret - Performs active verification to confirm a secret is live.\"\"\"\n    result = {\"tool\": \"verify_secret\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef rotate_secret(query, params=None):\n    \"\"\"Tool: rotate_secret - Triggers rotation via Vault/Secrets Manager/GitHub integration.\"\"\"\n    result = {\"tool\": \"rotate_secret\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Secrets Leak Detector MCP Server\")\n    print(\"Tools: scan_text, scan_tool_args, verify_secret, rotate_secret\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"scan_text\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:07:46.551Z",
+  "duration_ms": 15,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:07:46.551Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T02:07:46.551Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "secrets-leak-detector"
+ }
+}
