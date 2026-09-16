@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-b03646",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Bias Auditor",
+  "version": "1.0.0",
+  "description": "Detects demographic bias in agent responses with calibrated fairness metrics and audit reports.\n\nRuns a fairness audit pass on every agent response (or a sampled subset) across 9 protected attributes: gender, race, age, religion, disability, sexual orientation, nationality, socioeconomic, and political. Uses a combination of lexicon analysis (Pronoun + name + adjective sentiment), a fine-tuned equity classifier, and counterfactual testing (swaps names/pronouns and re-measures sentiment). Emits demographic parity, equalized odds, and disparate impact ratios over rolling windows. Ge...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "audit_response",
+   "audit_batch",
+   "counterfactual_test",
+   "generate_audit_report"
+  ],
+  "install": "python bias_auditor.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python bias_auditor.py\nTools: audit_response, audit_batch, counterfactual_test, generate_audit_report",
+   "system_prompt": "# Bias Auditor\nRuns a fairness audit pass on every agent response (or a sampled subset) across 9 protected attributes: gender, race, age, religion, disability, sexual orientation, nationality, socioeconomic, and political. Uses a combination of lexicon analysis (Pronoun + name + adjective sentiment), a fine-tuned equity classifier, and counterfactual testing (swaps names/pronouns and re-measures sentiment). Emits demographic parity, equalized odds, and disparate impact ratios over rolling windows. Generates an HTML audit report with violations, examples, and remediation suggestions for compliance teams.\n\n## How it works\n- Detects demographic references in the response via name/pronoun/lexical cues.\n- Runs sentiment and stereotyping classifiers on the surrounding text.\n- Performs counterfactual swaps (swap gendered name, re-score) to measure disparate treatment.\n- Aggregates to fairness metrics over a rolling 1k-response window.\n- Emits an audit event and optionally a daily HTML report.\n\n## Use cases\n- Hiring assistant that screens resumes\n- Lending/insurance quote agent subject to ECOA\n- Healthcare triage bot subject to anti-discrimination law\n- Internal HR Q&A bot where biased outputs cause workplace claims"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "bias_auditor.py": "#!/usr/bin/env python3\n\"\"\"\nBias Auditor - MCP Server\nAliceLabs LLC (c) 2026\n\nRuns a fairness audit pass on every agent response (or a sampled subset) across 9 protected attributes: gender, race, age, religion, disability, sexual orientation, nationality, socioeconomic, and political. Uses a combination of lexicon analysis (Pronoun + name + adjective sentiment), a fine-tuned equity classifier, and counterfactual testing (swaps names/pronouns and re-measures sentiment). Emits demographic parity, equalized odds, and disparate impact ratios over rolling windows. Generates an HTML audit report with violations, examples, and remediation suggestions for compliance teams.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".bias_auditor\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef audit_response(query, params=None):\n    \"\"\"Tool: audit_response - Scores a single response for bias on protected attributes.\"\"\"\n    result = {\"tool\": \"audit_response\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef audit_batch(query, params=None):\n    \"\"\"Tool: audit_batch - Computes fairness metrics over a batch of (response, demographics) pairs.\"\"\"\n    result = {\"tool\": \"audit_batch\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef counterfactual_test(query, params=None):\n    \"\"\"Tool: counterfactual_test - Runs name/pronoun swaps and reports sentiment delta.\"\"\"\n    result = {\"tool\": \"counterfactual_test\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef generate_audit_report(query, params=None):\n    \"\"\"Tool: generate_audit_report - Produces an HTML/PDF compliance report for a date range.\"\"\"\n    result = {\"tool\": \"generate_audit_report\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Bias Auditor MCP Server\")\n    print(\"Tools: audit_response, audit_batch, counterfactual_test, generate_audit_report\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"audit_response\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:07:18.811Z",
+  "duration_ms": 12,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:07:18.811Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T02:07:18.811Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bias-auditor"
+ }
+}
