@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:08:18.260Z",
+ "updated_at": "2026-09-16T02:08:32.250Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -563,6 +563,18 @@
    "from": "ip:cc6461088d68",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-7cca70.json"
+  },
+  {
+   "id": "mn-sub-260916-6995eb",
+   "name": "Agent Behavior Anomaly Detector",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:08:31.318Z",
+   "from": "ip:d39f09abca92",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-6995eb.json"
   }
  ],
  "l2_pass": {
