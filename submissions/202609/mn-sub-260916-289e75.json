@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-289e75",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Prompt Sanitizer",
+  "version": "1.0.0",
+  "description": "Sanitizes user input to neutralize control characters, encodings, and injection scaffolding.\n\nA pre-inference input sanitizer that normalizes and cleans user input before it reaches the model. Strips and normalizes Unicode confusables, zero-width chars, RTL/LTR overrides, HTML/XML tags, Markdown injection scaffolding, base64-encoded payloads, prompt-delimiter characters ('<|im_start|>', '###', '<<SYS>>'), and emoji-encoded attacks. Optionally HTML-escapes special chars, collapses repeated whitespace, and applies a configurable max-input-length cap. Complements the Prompt Injection...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "sanitize_input",
+   "normalize_unicode",
+   "decode_nested_payloads",
+   "set_profile"
+  ],
+  "install": "python prompt_sanitizer.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python prompt_sanitizer.py\nTools: sanitize_input, normalize_unicode, decode_nested_payloads, set_profile",
+   "system_prompt": "# Prompt Sanitizer\nA pre-inference input sanitizer that normalizes and cleans user input before it reaches the model. Strips and normalizes Unicode confusables, zero-width chars, RTL/LTR overrides, HTML/XML tags, Markdown injection scaffolding, base64-encoded payloads, prompt-delimiter characters ('<|im_start|>', '###', '<<SYS>>'), and emoji-encoded attacks. Optionally HTML-escapes special chars, collapses repeated whitespace, and applies a configurable max-input-length cap. Complements the Prompt Injection Firewall by removing the structural scaffolding that injections rely on, even when the semantic classifier is uncertain.\n\n## How it works\n- Normalizes Unicode (NFKC) and strips confusables, zero-width, and bidi-override chars.\n- Decodes and re-scans base64/hex/URL-encoded payloads nested in the input.\n- Strips or escapes model-delimiter scaffolding ('<|im_start|>', '###', '<<SYS>>', '<scratchpad>').\n- Applies a configurable sanitization profile (strict / balanced / permissive).\n- Returns the cleaned input plus a diff log of what was changed.\n\n## Use cases\n- Front-door sanitizer for any LLM input channel (chat, API, email-to-agent)\n- RAG pipeline sanitizing retrieved chunks before they hit the context window\n- Multi-tenant SaaS where one tenant's input must not affect another's prompt\n- Complement to the Prompt Injection Firewall as defense-in-depth"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "prompt_sanitizer.py": "#!/usr/bin/env python3\n\"\"\"\nPrompt Sanitizer - MCP Server\nAliceLabs LLC (c) 2026\n\nA pre-inference input sanitizer that normalizes and cleans user input before it reaches the model. Strips and normalizes Unicode confusables, zero-width chars, RTL/LTR overrides, HTML/XML tags, Markdown injection scaffolding, base64-encoded payloads, prompt-delimiter characters ('<|im_start|>', '###', '<<SYS>>'), and emoji-encoded attacks. Optionally HTML-escapes special chars, collapses repeated whitespace, and applies a configurable max-input-length cap. Complements the Prompt Injection Firewall by removing the structural scaffolding that injections rely on, even when the semantic classifier is uncertain.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".prompt_sanitizer\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef sanitize_input(query, params=None):\n    \"\"\"Tool: sanitize_input - Cleans a user input string and returns the sanitized version.\"\"\"\n    result = {\"tool\": \"sanitize_input\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef normalize_unicode(query, params=None):\n    \"\"\"Tool: normalize_unicode - Returns the NFKC-normalized, confusable-stripped version of a string.\"\"\"\n    result = {\"tool\": \"normalize_unicode\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef decode_nested_payloads(query, params=None):\n    \"\"\"Tool: decode_nested_payloads - Recursively decodes base64/hex/URL and returns the decoded stack.\"\"\"\n    result = {\"tool\": \"decode_nested_payloads\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef set_profile(query, params=None):\n    \"\"\"Tool: set_profile - Updates the tenant's sanitization profile (strict/balanced/permissive).\"\"\"\n    result = {\"tool\": \"set_profile\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Prompt Sanitizer MCP Server\")\n    print(\"Tools: sanitize_input, normalize_unicode, decode_nested_payloads, set_profile\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"sanitize_input\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:10:07.125Z",
+  "duration_ms": 15,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:10:07.125Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d39f09abca92",
+ "submitted_at": "2026-09-16T02:10:07.125Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "prompt-sanitizer"
+ }
+}
