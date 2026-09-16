@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T01:23:45.456Z",
+ "updated_at": "2026-09-16T01:23:59.660Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -407,6 +407,18 @@
    "from": "ip:d6454edae0b9",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-ca3f04.json"
+  },
+  {
+   "id": "mn-sub-260916-131087",
+   "name": "Entity Resolution Engine",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T01:23:58.705Z",
+   "from": "ip:cc6461088d68",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-131087.json"
   }
  ],
  "l2_pass": {
