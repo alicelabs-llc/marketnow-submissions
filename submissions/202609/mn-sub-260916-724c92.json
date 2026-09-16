@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-724c92",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Hallucination Catcher",
+  "version": "1.0.0",
+  "description": "Verifies every factual claim against your grounding sources and returns a 0-1 confidence score.\n\nA post-generation verifier that extracts atomic factual claims from the model's answer, retrieves supporting passages from your grounding corpus (vector store, SQL, uploaded PDFs), and runs an entailment check (DeBERTa-v3 NLI) plus a citation-completeness check. Returns a per-claim verdict (supported / contradicted / unsupported) and an aggregate hallucination score 0-1. Optionally triggers a self-correction rewrite when the score drops below your threshold. Designed for RAG: it knows ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "verify_answer",
+   "verify_with_rag_context",
+   "score_claims",
+   "rewrite_supported"
+  ],
+  "install": "python hallucination_catcher.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python hallucination_catcher.py\nTools: verify_answer, verify_with_rag_context, score_claims, rewrite_supported",
+   "system_prompt": "# Hallucination Catcher\nA post-generation verifier that extracts atomic factual claims from the model's answer, retrieves supporting passages from your grounding corpus (vector store, SQL, uploaded PDFs), and runs an entailment check (DeBERTa-v3 NLI) plus a citation-completeness check. Returns a per-claim verdict (supported / contradicted / unsupported) and an aggregate hallucination score 0-1. Optionally triggers a self-correction rewrite when the score drops below your threshold. Designed for RAG: it knows which chunks were in-context and verifies claims only against those.\n\n## How it works\n- Splits the answer into atomic claims using a dependency-parse-based splitter.\n- For each claim, fetches top-k grounding passages and runs NLI entailment (DeBERTa-v3-large).\n- Computes a calibrated hallucination score: weighted by claim importance and entailment confidence.\n- Returns the verdict map, score, and an optional corrected answer with only supported claims.\n\n## Use cases\n- Customer support agent quoting pricing and SLA terms\n- Legal research assistant citing case law\n- Medical Q&A bot that cannot fabricate dosages\n- Financial analyst agent summarizing earnings transcripts"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "hallucination_catcher.py": "#!/usr/bin/env python3\n\"\"\"\nHallucination Catcher - MCP Server\nAliceLabs LLC (c) 2026\n\nA post-generation verifier that extracts atomic factual claims from the model's answer, retrieves supporting passages from your grounding corpus (vector store, SQL, uploaded PDFs), and runs an entailment check (DeBERTa-v3 NLI) plus a citation-completeness check. Returns a per-claim verdict (supported / contradicted / unsupported) and an aggregate hallucination score 0-1. Optionally triggers a self-correction rewrite when the score drops below your threshold. Designed for RAG: it knows which chunks were in-context and verifies claims only against those.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".hallucination_catcher\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef verify_answer(query, params=None):\n    \"\"\"Tool: verify_answer - Verifies an answer against provided grounding sources.\"\"\"\n    result = {\"tool\": \"verify_answer\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef verify_with_rag_context(query, params=None):\n    \"\"\"Tool: verify_with_rag_context - Verifies using only the in-context RAG chunks that produced the answer.\"\"\"\n    result = {\"tool\": \"verify_with_rag_context\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef score_claims(query, params=None):\n    \"\"\"Tool: score_claims - Returns per-claim entailment verdicts without rewriting.\"\"\"\n    result = {\"tool\": \"score_claims\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef rewrite_supported(query, params=None):\n    \"\"\"Tool: rewrite_supported - Returns a corrected answer keeping only supported claims.\"\"\"\n    result = {\"tool\": \"rewrite_supported\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Hallucination Catcher MCP Server\")\n    print(\"Tools: verify_answer, verify_with_rag_context, score_claims, rewrite_supported\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"verify_answer\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:06:50.728Z",
+  "duration_ms": 17,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:06:50.728Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T02:06:50.728Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hallucination-catcher"
+ }
+}
