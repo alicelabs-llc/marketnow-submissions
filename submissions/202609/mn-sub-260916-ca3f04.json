@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-ca3f04",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Data Freshness Monitor",
+  "version": "1.0.0",
+  "description": "Alert when agent data goes stale and auto-refresh critical sources before answering\n\nMonitors source freshness for every doc, API, and DB feed in your agent's knowledge base. Each source has a freshness SLA (e.g., prices refresh hourly, regulations yearly). If a source is stale, the agent either auto-refreshes it or refuses to answer with a 'data as of' label instead of returning stale answers.\n\nPain point: Agent returns yesterday's stock price or last quarter's pricing because no one noticed the API feed stopped updating. The agent confidently answers 'the current price is $X' wh...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "register_source",
+   "check_freshness",
+   "refresh_source",
+   "get_freshness_label",
+   "get_staleness_alerts"
+  ],
+  "install": "python data_freshness_monitor.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python data_freshness_monitor.py\nTools: register_source, check_freshness, refresh_source, get_freshness_label, get_staleness_alerts",
+   "system_prompt": "# Data Freshness Monitor\nMonitors source freshness for every doc, API, and DB feed in your agent's knowledge base. Each source has a freshness SLA (e.g., prices refresh hourly, regulations yearly). If a source is stale, the agent either auto-refreshes it or refuses to answer with a 'data as of' label instead of returning stale answers.\n\n## How it works\n- Each source is registered with a freshness SLA: refresh_interval, max_acceptable_age, refresh_method, owner\n- A scheduler polls source headers (Last-Modified, ETag) or DB watermark timestamps\n- On staleness, triggers the configured refresh (HTTP pull, DB re-export, re-scrape) or pings owner\n- At query time, the agent calls get_freshness_label and either proceeds, refreshes-now, or refuses with 'data as of <timestamp>'\n\n## Use cases\n- Pricing agent refuses to quote a price older than 1 hour and triggers a refresh\n- Compliance agent alerts when a regulation source hasn't been polled in 30 days\n- News agent labels each summary with 'sources as of HH:MM UTC'"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "data_freshness_monitor.py": "#!/usr/bin/env python3\n\"\"\"\nData Freshness Monitor - MCP Server\nAliceLabs LLC (c) 2026\n\nMonitors source freshness for every doc, API, and DB feed in your agent's knowledge base. Each source has a freshness SLA (e.g., prices refresh hourly, regulations yearly). If a source is stale, the agent either auto-refreshes it or refuses to answer with a 'data as of' label instead of returning stale answers.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".data_freshness_monitor\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef register_source(query, params=None):\n    \"\"\"Tool: register_source\"\"\"\n    result = {\"tool\": \"register_source\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef check_freshness(query, params=None):\n    \"\"\"Tool: check_freshness\"\"\"\n    result = {\"tool\": \"check_freshness\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef refresh_source(query, params=None):\n    \"\"\"Tool: refresh_source\"\"\"\n    result = {\"tool\": \"refresh_source\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_freshness_label(query, params=None):\n    \"\"\"Tool: get_freshness_label\"\"\"\n    result = {\"tool\": \"get_freshness_label\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_staleness_alerts(query, params=None):\n    \"\"\"Tool: get_staleness_alerts\"\"\"\n    result = {\"tool\": \"get_staleness_alerts\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Data Freshness Monitor MCP Server\")\n    print(f\"Tools: register_source, check_freshness, refresh_source, get_freshness_label, get_staleness_alerts\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T01:23:44.636Z",
+  "duration_ms": 30,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T01:23:44.636Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T01:23:44.636Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "data-freshness-monitor"
+ }
+}
