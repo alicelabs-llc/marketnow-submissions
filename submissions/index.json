@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:10:08.129Z",
+ "updated_at": "2026-09-16T02:10:34.567Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -647,6 +647,18 @@
    "from": "ip:d39f09abca92",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-289e75.json"
+  },
+  {
+   "id": "mn-sub-260916-817cd7",
+   "name": "Response Watermarker",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:10:33.637Z",
+   "from": "ip:d6454edae0b9",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-817cd7.json"
   }
  ],
  "l2_pass": {
