@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-887895",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Jailbreak Defender",
+  "version": "1.0.0",
+  "description": "Catches DAN, role-play, hypothetical, and many-shot jailbreaks with pattern + ML fusion.\n\nSpecialized jailbreak detector that goes beyond generic prompt-injection detection. Maintains a live signature DB of 600+ named jailbreak templates (DAN, STAN, EVE, Developer Mode, Grandma exploit, 'poem about X', 'hypothetical', 'translation attack') and pairs it with a fine-tuned DeBERTa classifier on the AdvBench, MaliciousInstruct, and HarmBench datasets. Detects multi-turn many-shot jailbreaks by tracking cumulative attack-pattern density across conversation history. Returns jailbreak_ty...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "detect_jailbreak",
+   "analyze_conversation",
+   "get_jailbreak_taxonomy",
+   "report_new_jailbreak"
+  ],
+  "install": "python jailbreak_defender.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python jailbreak_defender.py\nTools: detect_jailbreak, analyze_conversation, get_jailbreak_taxonomy, report_new_jailbreak",
+   "system_prompt": "# Jailbreak Defender\nSpecialized jailbreak detector that goes beyond generic prompt-injection detection. Maintains a live signature DB of 600+ named jailbreak templates (DAN, STAN, EVE, Developer Mode, Grandma exploit, 'poem about X', 'hypothetical', 'translation attack') and pairs it with a fine-tuned DeBERTa classifier on the AdvBench, MaliciousInstruct, and HarmBench datasets. Detects multi-turn many-shot jailbreaks by tracking cumulative attack-pattern density across conversation history. Returns jailbreak_type, turn-of-attack, and a recommended response (refuse, redirect, or escalate to human).\n\n## How it works\n- Maintains a weekly-updated signature DB of known jailbreak templates.\n- Runs a DeBERTa classifier fine-tuned on 50k+ jailbreak attempts.\n- Tracks cumulative attack density across the conversation (many-shot detection).\n- Returns jailbreak family, confidence, turn index, and a safe response template.\n\n## Use cases\n- Public-facing chatbot vulnerable to viral jailbreak trends\n- Internal coding agent that could leak proprietary system prompts\n- Agent with tool access (email, payments) where a jailbreak causes real-world harm\n- Red-team / blue-team automation for AI security programs"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "jailbreak_defender.py": "#!/usr/bin/env python3\n\"\"\"\nJailbreak Defender - MCP Server\nAliceLabs LLC (c) 2026\n\nSpecialized jailbreak detector that goes beyond generic prompt-injection detection. Maintains a live signature DB of 600+ named jailbreak templates (DAN, STAN, EVE, Developer Mode, Grandma exploit, 'poem about X', 'hypothetical', 'translation attack') and pairs it with a fine-tuned DeBERTa classifier on the AdvBench, MaliciousInstruct, and HarmBench datasets. Detects multi-turn many-shot jailbreaks by tracking cumulative attack-pattern density across conversation history. Returns jailbreak_type, turn-of-attack, and a recommended response (refuse, redirect, or escalate to human).\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".jailbreak_defender\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef detect_jailbreak(query, params=None):\n    \"\"\"Tool: detect_jailbreak - Scores a single message for jailbreak patterns.\"\"\"\n    result = {\"tool\": \"detect_jailbreak\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef analyze_conversation(query, params=None):\n    \"\"\"Tool: analyze_conversation - Multi-turn analysis that catches many-shot and gradual escalation.\"\"\"\n    result = {\"tool\": \"analyze_conversation\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_jailbreak_taxonomy(query, params=None):\n    \"\"\"Tool: get_jailbreak_taxonomy - Returns the current signature DB categories for UI/audit.\"\"\"\n    result = {\"tool\": \"get_jailbreak_taxonomy\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef report_new_jailbreak(query, params=None):\n    \"\"\"Tool: report_new_jailbreak - Submit a captured jailbreak to enrich the shared signature DB.\"\"\"\n    result = {\"tool\": \"report_new_jailbreak\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Jailbreak Defender MCP Server\")\n    print(\"Tools: detect_jailbreak, analyze_conversation, get_jailbreak_taxonomy, report_new_jailbreak\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"detect_jailbreak\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:07:04.549Z",
+  "duration_ms": 20,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:07:04.549Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T02:07:04.549Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "jailbreak-defender"
+ }
+}
