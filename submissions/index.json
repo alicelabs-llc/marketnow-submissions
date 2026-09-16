@@ -713,7 +713,7 @@
    "name": "humanmirror-x402-catalog",
    "version": "1.3.0",
    "verdict": "accepted",
-   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "status": "merged + certified-L2 (L2 review: live endpoint verified) — live at /s/humanmirror-x402-catalog",
    "trust": 50,
    "submitted_at": "2026-09-16T04:44:50.323Z",
    "from": "ip:02247449281a",
