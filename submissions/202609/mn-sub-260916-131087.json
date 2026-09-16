@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-131087",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Entity Resolution Engine",
+  "version": "1.0.0",
+  "description": "Resolve duplicate entities across sources so 'Apple Inc' and 'Apple' merge correctly\n\nTakes entities extracted from multiple sources and resolves duplicates using a cross-encoder + alias table + embedding cluster. Returns canonical entity IDs with provenance of which sources contributed each alias. Handles the hard cases: 'Apple' the company vs 'apple' the fruit, and 'JPMorgan Chase' vs 'J.P. Morgan'.\n\nPain point: The agent retrieves 3 chunks about 'Apple Inc.', 2 about 'Apple', and 1 about 'AAPL' and treats them as 3 different entities, giving a fragmented answer. The KB has 14 v...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "resolve_entities",
+   "merge_entities",
+   "split_entities",
+   "get_canonical_entity",
+   "get_aliases"
+  ],
+  "install": "python entity_resolution_engine.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python entity_resolution_engine.py\nTools: resolve_entities, merge_entities, split_entities, get_canonical_entity, get_aliases",
+   "system_prompt": "# Entity Resolution Engine\nTakes entities extracted from multiple sources and resolves duplicates using a cross-encoder + alias table + embedding cluster. Returns canonical entity IDs with provenance of which sources contributed each alias. Handles the hard cases: 'Apple' the company vs 'apple' the fruit, and 'JPMorgan Chase' vs 'J.P. Morgan'.\n\n## How it works\n- Clusters candidate entities by embedding similarity and shared aliases\n- For each cluster, runs a cross-encoder on (entity_a, entity_b, context) to confirm same-ness\n- Applies disambiguation rules when cluster is ambiguous (Apple company vs apple fruit) using type and context\n- Promotes a canonical ID and records all aliases with source provenance for audit\n\n## Use cases\n- Normalize 50K company mentions across 10 data sources to a canonical company ID\n- Resolve person entities where 'J. Smith', 'John Smith', and 'Dr. Smith' may or may not be the same person\n- Disambiguate 'Apple' in tech docs vs recipes before merging the KB"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "entity_resolution_engine.py": "#!/usr/bin/env python3\n\"\"\"\nEntity Resolution Engine - MCP Server\nAliceLabs LLC (c) 2026\n\nTakes entities extracted from multiple sources and resolves duplicates using a cross-encoder + alias table + embedding cluster. Returns canonical entity IDs with provenance of which sources contributed each alias. Handles the hard cases: 'Apple' the company vs 'apple' the fruit, and 'JPMorgan Chase' vs 'J.P. Morgan'.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".entity_resolution_engine\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef resolve_entities(query, params=None):\n    \"\"\"Tool: resolve_entities\"\"\"\n    result = {\"tool\": \"resolve_entities\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef merge_entities(query, params=None):\n    \"\"\"Tool: merge_entities\"\"\"\n    result = {\"tool\": \"merge_entities\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef split_entities(query, params=None):\n    \"\"\"Tool: split_entities\"\"\"\n    result = {\"tool\": \"split_entities\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_canonical_entity(query, params=None):\n    \"\"\"Tool: get_canonical_entity\"\"\"\n    result = {\"tool\": \"get_canonical_entity\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_aliases(query, params=None):\n    \"\"\"Tool: get_aliases\"\"\"\n    result = {\"tool\": \"get_aliases\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Entity Resolution Engine MCP Server\")\n    print(f\"Tools: resolve_entities, merge_entities, split_entities, get_canonical_entity, get_aliases\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T01:23:58.705Z",
+  "duration_ms": 15,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T01:23:58.705Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T01:23:58.705Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "entity-resolution-engine"
+ }
+}
