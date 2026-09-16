@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:08:32.250Z",
+ "updated_at": "2026-09-16T02:08:46.286Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -575,6 +575,18 @@
    "from": "ip:d39f09abca92",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-6995eb.json"
+  },
+  {
+   "id": "mn-sub-260916-72eda3",
+   "name": "Output Encryption Layer",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:08:45.368Z",
+   "from": "ip:cc6461088d68",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-72eda3.json"
   }
  ],
  "l2_pass": {
