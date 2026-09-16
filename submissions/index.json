@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T01:23:26.621Z",
+ "updated_at": "2026-09-16T01:23:45.456Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -395,6 +395,18 @@
    "from": "ip:d39f09abca92",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-b0ee98.json"
+  },
+  {
+   "id": "mn-sub-260916-ca3f04",
+   "name": "Data Freshness Monitor",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T01:23:44.636Z",
+   "from": "ip:d6454edae0b9",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-ca3f04.json"
   }
  ],
  "l2_pass": {
