@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:06:51.616Z",
+ "updated_at": "2026-09-16T02:07:05.558Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -503,6 +503,18 @@
    "from": "ip:cc6461088d68",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-724c92.json"
+  },
+  {
+   "id": "mn-sub-260916-887895",
+   "name": "Jailbreak Defender",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:07:04.549Z",
+   "from": "ip:d6454edae0b9",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-887895.json"
   }
  ],
  "l2_pass": {
