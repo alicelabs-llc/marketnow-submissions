@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T03:51:19.283Z",
+ "updated_at": "2026-09-16T04:44:51.183Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -707,6 +707,18 @@
    "from": "ip:d6454edae0b9",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-33acc1.json"
+  },
+  {
+   "id": "mn-sub-260916-0358c0",
+   "name": "humanmirror-x402-catalog",
+   "version": "1.3.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 50,
+   "submitted_at": "2026-09-16T04:44:50.323Z",
+   "from": "ip:02247449281a",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-0358c0.json"
   }
  ],
  "l2_pass": {
