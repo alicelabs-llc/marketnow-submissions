@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:07:19.620Z",
+ "updated_at": "2026-09-16T02:07:33.519Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -527,6 +527,18 @@
    "from": "ip:d6454edae0b9",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-b03646.json"
+  },
+  {
+   "id": "mn-sub-260916-1008f6",
+   "name": "Agent Permission Escalation Guard",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:07:32.625Z",
+   "from": "ip:d39f09abca92",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-1008f6.json"
   }
  ],
  "l2_pass": {
