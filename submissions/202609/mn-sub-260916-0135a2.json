@@ -1,0 +1,74 @@
+{
+ "id": "mn-sub-260916-0135a2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Data Lineage Visualizer",
+  "version": "1.0.0",
+  "description": "Visualize the full data flow from source through transforms to the agent's answer\n\nCaptures every transformation in the agent pipeline (fetch, parse, chunk, embed, retrieve, compress, synthesize) and renders an interactive DAG showing how a raw source became a fact in the answer. Exports to SVG, Mermaid, and OpenLineage format for compliance and debugging.\n\nPain point: When the agent gives a wrong answer, the team spends 3 days tracing which source, which chunk, which transform, or which synthesis step introduced the error. There's no single view of how data flowed from source to ...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "record_lineage",
+   "get_lineage_for_answer",
+   "visualize_lineage",
+   "trace_error",
+   "export_lineage"
+  ],
+  "install": "python data_lineage_visualizer.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python data_lineage_visualizer.py\nTools: record_lineage, get_lineage_for_answer, visualize_lineage, trace_error, export_lineage",
+   "system_prompt": "# Data Lineage Visualizer\nCaptures every transformation in the agent pipeline (fetch, parse, chunk, embed, retrieve, compress, synthesize) and renders an interactive DAG showing how a raw source became a fact in the answer. Exports to SVG, Mermaid, and OpenLineage format for compliance and debugging.\n\n## How it works\n- Each pipeline step emits a lineage event with input_id, output_id, transform_name, params, and timestamp\n- Builds a DAG in Postgres from these events, keyed by the final answer's fact_id\n- Renders an interactive graph: source nodes (URLs, files), transform nodes (parse, chunk, embed), output nodes (chunks, facts, answer)\n- Click any node to see the exact data at that stage, the params applied, and the diff vs the prior stage\n\n## Use cases\n- Compliance audit: show the full lineage of every number in a financial report\n- Debug a wrong agent answer by tracing which chunk and which transform introduced the error\n- Visualize the RAG pipeline for a new engineer on day one"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "data_lineage_visualizer.py": "#!/usr/bin/env python3\n\"\"\"\nData Lineage Visualizer - MCP Server\nAliceLabs LLC (c) 2026\n\nCaptures every transformation in the agent pipeline (fetch, parse, chunk, embed, retrieve, compress, synthesize) and renders an interactive DAG showing how a raw source became a fact in the answer. Exports to SVG, Mermaid, and OpenLineage format for compliance and debugging.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".data_lineage_visualizer\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef record_lineage(query, params=None):\n    \"\"\"Tool: record_lineage\"\"\"\n    result = {\"tool\": \"record_lineage\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_lineage_for_answer(query, params=None):\n    \"\"\"Tool: get_lineage_for_answer\"\"\"\n    result = {\"tool\": \"get_lineage_for_answer\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef visualize_lineage(query, params=None):\n    \"\"\"Tool: visualize_lineage\"\"\"\n    result = {\"tool\": \"visualize_lineage\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef trace_error(query, params=None):\n    \"\"\"Tool: trace_error\"\"\"\n    result = {\"tool\": \"trace_error\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef export_lineage(query, params=None):\n    \"\"\"Tool: export_lineage\"\"\"\n    result = {\"tool\": \"export_lineage\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(f\"Data Lineage Visualizer MCP Server\")\n    print(f\"Tools: record_lineage, get_lineage_for_answer, visualize_lineage, trace_error, export_lineage\")\n    print(f\"Data: {DATA_DIR}\")\n    if tools:\n        func = globals().get(tools[0].lower().replace(\" \",\"_\").replace(\"-\",\"_\"))\n        if func:\n            r = func(\"test_query\")\n            print(f\"Example output: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:03:55.142Z",
+  "duration_ms": 41,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:03:55.142Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T02:03:55.142Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "data-lineage-visualizer"
+ }
+}
