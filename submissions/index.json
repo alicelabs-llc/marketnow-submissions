@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T02:08:46.286Z",
+ "updated_at": "2026-09-16T02:08:59.937Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -587,6 +587,18 @@
    "from": "ip:cc6461088d68",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-72eda3.json"
+  },
+  {
+   "id": "mn-sub-260916-494767",
+   "name": "Audit Trail Builder",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T02:08:59.202Z",
+   "from": "ip:cc6461088d68",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-494767.json"
   }
  ],
  "l2_pass": {
