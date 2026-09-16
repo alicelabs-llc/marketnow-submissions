@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-16T01:24:13.719Z",
+ "updated_at": "2026-09-16T01:24:27.747Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -431,6 +431,18 @@
    "from": "ip:d39f09abca92",
    "eligible": true,
    "path": "submissions/202609/mn-sub-260916-d0d45a.json"
+  },
+  {
+   "id": "mn-sub-260916-ae2270",
+   "name": "Multilingual Knowledge Bridge",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 49,
+   "submitted_at": "2026-09-16T01:24:26.947Z",
+   "from": "ip:d39f09abca92",
+   "eligible": true,
+   "path": "submissions/202609/mn-sub-260916-ae2270.json"
   }
  ],
  "l2_pass": {
