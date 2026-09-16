@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-803ded",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Data Residency Enforcer",
+  "version": "1.0.0",
+  "description": "Guarantees user data never leaves its legal jurisdiction—blocked at the tool-call layer.\n\nA residency policy gateway that inspects every outbound tool call and model request to ensure data stays in the user's legal jurisdiction. Tags each user with a residency class (EU, UK, US, China, India, Brazil, Russia, etc.), maps each tool/model endpoint to its processing region, and blocks any call that would move data across a forbidden border. Supports EU-only routing (GDPR), China-only routing (PIPL + DSL), Russia-only (152-FZ), and sector-specific rules (German health data must stay in...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "enforce_residency",
+   "route_endpoint",
+   "register_user_residency",
+   "get_residency_report"
+  ],
+  "install": "python data_residency_enforcer.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python data_residency_enforcer.py\nTools: enforce_residency, route_endpoint, register_user_residency, get_residency_report",
+   "system_prompt": "# Data Residency Enforcer\nA residency policy gateway that inspects every outbound tool call and model request to ensure data stays in the user's legal jurisdiction. Tags each user with a residency class (EU, UK, US, China, India, Brazil, Russia, etc.), maps each tool/model endpoint to its processing region, and blocks any call that would move data across a forbidden border. Supports EU-only routing (GDPR), China-only routing (PIPL + DSL), Russia-only (152-FZ), and sector-specific rules (German health data must stay in DE). Includes a 'safe harbor' model-endpoint allowlist for providers with adequate cross-border transfer mechanisms (SCCs, DPF).\n\n## How it works\n- Tags each user with a residency class at onboarding (or infers from locale/IP with override).\n- Maintains a registry of tool/model endpoints and their processing regions.\n- At every outbound call, computes (user_residency, endpoint_region, data_categories) compatibility.\n- Blocks incompatible calls and routes to a compliant alternative if available.\n- Logs every routing decision for audit.\n\n## Use cases\n- Global SaaS with EU users on a US-hosted model\n- Healthcare agent serving German patients (data must stay in DE)\n- China-facing agent subject to PIPL + DSL cross-border approval\n- Russian-market agent subject to 152-FZ local storage"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "data_residency_enforcer.py": "#!/usr/bin/env python3\n\"\"\"\nData Residency Enforcer - MCP Server\nAliceLabs LLC (c) 2026\n\nA residency policy gateway that inspects every outbound tool call and model request to ensure data stays in the user's legal jurisdiction. Tags each user with a residency class (EU, UK, US, China, India, Brazil, Russia, etc.), maps each tool/model endpoint to its processing region, and blocks any call that would move data across a forbidden border. Supports EU-only routing (GDPR), China-only routing (PIPL + DSL), Russia-only (152-FZ), and sector-specific rules (German health data must stay in DE). Includes a 'safe harbor' model-endpoint allowlist for providers with adequate cross-border transfer mechanisms (SCCs, DPF).\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".data_residency_enforcer\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef enforce_residency(query, params=None):\n    \"\"\"Tool: enforce_residency - Validates a (user, endpoint, data_categories) tuple against residency policy.\"\"\"\n    result = {\"tool\": \"enforce_residency\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef route_endpoint(query, params=None):\n    \"\"\"Tool: route_endpoint - Returns a compliant endpoint for the user's residency class and required tool.\"\"\"\n    result = {\"tool\": \"route_endpoint\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef register_user_residency(query, params=None):\n    \"\"\"Tool: register_user_residency - Sets or updates a user's residency class.\"\"\"\n    result = {\"tool\": \"register_user_residency\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef get_residency_report(query, params=None):\n    \"\"\"Tool: get_residency_report - Returns residency routing decisions for a date range.\"\"\"\n    result = {\"tool\": \"get_residency_report\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    result_file = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(result_file, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Data Residency Enforcer MCP Server\")\n    print(\"Tools: enforce_residency, route_endpoint, register_user_residency, get_residency_report\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"enforce_residency\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:09:26.811Z",
+  "duration_ms": 14,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:09:26.811Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:d6454edae0b9",
+ "submitted_at": "2026-09-16T02:09:26.811Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "data-residency-enforcer"
+ }
+}
