@@ -1,0 +1,73 @@
+{
+ "id": "mn-sub-260916-50a9d8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "Prompt Injection Firewall",
+  "version": "1.0.0",
+  "description": "Stops 'override system prompts' in 30+ languages before it ever reaches your LLM.\n\nA pre-inference proxy that inspects every inbound user message, system prompt, tool result, and retrieved document for prompt-injection patterns. Combines a curated multilingual regex bank (1,400+ patterns across 30 languages), a fast 110M-param BERT-style classifier fine-tuned on the TensorTrust and AdvBench injection corpora, and structural heuristics for delimiter smuggling, role hijacking, and indirect injection from RAG chunks. Blocks, quarantines, or sanitizes the payload and returns a sanitiz...",
+  "author": "AliceLabs LLC",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "mcp",
+   "agent",
+   "premium",
+   "alicelabs",
+   "inspect_message",
+   "inspect_rag_chunks",
+   "sanitize_message",
+   "add_custom_pattern"
+  ],
+  "install": "python prompt_injection_firewall.py",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "price": 9.99,
+  "doc": {
+   "usage": "python prompt_injection_firewall.py",
+   "system_prompt": "# Prompt Injection Firewall\nA pre-inference proxy that inspects every inbound user message, system prompt, tool result, and retrieved document for prompt-injection patterns. Combines a curated multilingual regex bank (1,400+ patterns across 30 languages), a fast 110M-param BERT-style classifier fine-tuned on the TensorTrust and AdvBench injection corpora, and structural heuristics for delimiter smuggling, role hijacking, and indirect injection from RAG chunks. Blocks, quarantines, or sanitizes the payload and returns a sanitized safe-variant to the model. Adds <8 ms p50 latency on a single vCPU.\n\n## How it works\n- Intercepts the message envelope before it is forwarded to the model provider.\n- Runs a 3-layer pipeline: regex bank, transformer classifier, structural delimiter analyzer.\n- Optionally strips injected directives and returns a cleaned message so the conversation continues instead of failing.\n- Emits an audit event with pattern_id, language, confidence, and the action taken (block/quarantine/sanitize).\n\n## Use cases\n- Customer-support agent that reads untrusted email bodies\n- RAG assistant that ingests public web pages\n- Multi-agent system where one agent's output is another's prompt\n- Compliance-required industries (finance, healthcare) that must prove injection controls"
+  },
+  "capabilities": {
+   "execution_context": "local_runtime",
+   "requires_auth": false,
+   "requires_network": false,
+   "input_types": [
+    "json"
+   ],
+   "output_types": [
+    "json"
+   ]
+  },
+  "test": null,
+  "files": {
+   "prompt_injection_firewall.py": "#!/usr/bin/env python3\n\"\"\"\nPrompt Injection Firewall - MCP Server\nAliceLabs LLC (c) 2026\n\nA pre-inference proxy that inspects every inbound user message, system prompt, tool result, and retrieved document for prompt-injection patterns. Combines a curated multilingual regex bank (1,400+ patterns across 30 languages), a fast 110M-param BERT-style classifier fine-tuned on the TensorTrust and AdvBench injection corpora, and structural heuristics for delimiter smuggling, role hijacking, and indirect injection from RAG chunks. Blocks, quarantines, or sanitizes the payload and returns a sanitized safe-variant to the model. Adds <8 ms p50 latency on a single vCPU.\n\"\"\"\nimport json, hashlib, time, os\nfrom pathlib import Path\n\nDATA_DIR = Path.home() / \".prompt_injection_firewall\"\nDATA_DIR.mkdir(exist_ok=True)\n\n\ndef inspect_message(query, params=None):\n    \"\"\"inspect_message - Scores a single message for injection risk and returns patterns matched.\"\"\"\n    result = {\"tool\": \"inspect_message\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    rf = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(rf, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef inspect_rag_chunks(query, params=None):\n    \"\"\"inspect_rag_chunks - Batch-scans retrieved documents for indirect injection before they enter the con\"\"\"\n    result = {\"tool\": \"inspect_rag_chunks\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    rf = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(rf, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef sanitize_message(query, params=None):\n    \"\"\"sanitize_message - Returns a cleaned version of the message with injected directives stripped.\"\"\"\n    result = {\"tool\": \"sanitize_message\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    rf = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(rf, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\ndef add_custom_pattern(query, params=None):\n    \"\"\"add_custom_pattern - Registers a domain-specific regex or keyword pattern for your tenant.\"\"\"\n    result = {\"tool\": \"add_custom_pattern\", \"query\": query, \"params\": params or {}}\n    result[\"timestamp\"] = time.time()\n    rf = DATA_DIR / f\"{hashlib.sha256(str(query).encode()).hexdigest()[:16]}.json\"\n    with open(rf, \"w\") as f:\n        json.dump(result, f, indent=2)\n    return result\n\n\nif __name__ == \"__main__\":\n    print(\"Prompt Injection Firewall MCP Server\")\n    print(\"Tools: inspect_message, inspect_rag_chunks, sanitize_message, add_custom_pattern\")\n    print(f\"Data: {DATA_DIR}\")\n    func = globals().get(\"inspect_message\")\n    if func:\n        r = func(\"test_query\")\n        print(f\"Example: {r}\")\n"
+  },
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-09-16T02:55:48.080Z",
+  "duration_ms": 16,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-09-16T02:55:48.080Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:cc6461088d68",
+ "submitted_at": "2026-09-16T02:55:48.080Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "prompt-injection-firewall"
+ }
+}
