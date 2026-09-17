@@ -1,11 +1,11 @@
 {
  "id": "mn-sub-260915-534e91",
  "verdict": "accepted",
- "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "status": "merged + certified-L2 (L2 review: claims re-verified live, static + dynamic clean, MCP server 12 tools verified) \u2014 live at /s/aria-icons",
  "skill": {
   "name": "Aria Icons",
   "version": "1.0.0",
-  "description": "340k SVG icons — browser, CLI that writes icons as source, and MCP for Cursor/Claude.",
+  "description": "340k SVG icons \u2014 browser, CLI that writes icons as source, and MCP for Cursor/Claude.",
   "author": "Leul Aria",
   "category": "Developer Tools",
   "runtime": "other",
@@ -63,6 +63,22 @@
  "submitted_by": "public-api",
  "merge": {
   "eligible": true,
-  "catalog_slug": "aria-icons"
+  "catalog_slug": "aria-icons",
+  "merged_at": "2026-09-17T03:10:59Z",
+  "catalog_commit": "e1c21ded",
+  "catalog_version": "5.9.3"
+ },
+ "sentinel_l2": {
+  "checked_at": "2026-09-17T03:10:59Z",
+  "verdict": "certified",
+  "reviewer": "AliceLabs L2 (catalog merge from authorized review session)",
+  "evidence": {
+   "claims_reverified": "repo github.com/LeulAria/Aria-Icons HTTP 200; npm registry aria-icons HTTP 200 (sole version 0.1.0, published 2026-08-28, maintainer leularia <leulsegedtariku@gmail.com>); homepage icons.leularia.com HTTP 200",
+   "static": "npm tarball aria-icons-0.1.0.tgz (sha256 6a0f75ebdd7f, 185,304 B, unpacked 656,128 B in 5 files) downloaded and scanned \u2014 no install scripts (only build/dev/test/prepublishOnly/release); dependencies bundled and legitimate (commander, zod, chalk, @clack/prompts, @modelcontextprotocol/sdk); child_process limited to commander --fork self re-exec (node binary + same args, no arbitrary commands); single env var read (ARIA_ICONS_API, API origin override); single network call site \u2014 the author's own API at icons.leularia.com (icon catalog); filesystem writes confined to the project tree (icon source files, cwd-relative) plus ~/.aria-icons/preferences.json (local usage history, no telemetry, no PII); no obfuscation, no credential harvesting, no typosquat dependencies; bin shim is a clean ESM import",
+   "dynamic": "isolated cwd+HOME sandbox (no inherited env, fake HOME): CLI --version OK (aria-icons 0.1.0); search 'house' --json OK (2,518 icons via live API); get lucide:house OK (valid SVG); add house OK (writes house.tsx 503 B + index.ts 79 B, clean React component with real lucide paths); doctor OK; MCP stdio server: initialize OK (serverInfo aria-icons 0.1.0, protocol 2024-11-05), tools/list 12 tools (search_icons, get_icon, get_icon_svg, get_icon_component, get_icons, list_collections, find_similar_icons, find_equivalent_icon, recommend_icons, get_recent_icons, add_icon_to_project, scan_project_icons), ping pong, tools/call search_icons returns live results",
+   "version_note": "submission declared skill version 1.0.0; the live npm artifact is 0.1.0 (the only version ever published) \u2014 the catalog records the artifact version. Remote hosted MCP disclosed at icons.leularia.com/api/mcp",
+   "artifacts": "L2 working files preserved at scripts/l2-aria/ (phase1_claims.json, phase2_static.json, phase3_dynamic.json, tarball + extracted sources)"
+  },
+  "note": "first EXTERNAL submitter \u2014 Leul Aria (leularia.com) via the public POST /api/submit endpoint; replaces the auto-indexed npm entry mn-npm2-18344; catalog total stays 68,387 (replacement, not addition); trust 48 -> 62"
  }
 }
