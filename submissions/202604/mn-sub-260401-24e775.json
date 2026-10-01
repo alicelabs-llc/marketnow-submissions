@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260401-24e775",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "namera",
+  "version": "1.0.0",
+  "description": "Namera — Check startup name availability across domains, trademarks (12.7M USPTO records), and social handles. Scores and ranks candidates with configurable profiles. https://github.com/siddmax/Namera Install: `pip install namera[mcp]` then run `namera-mcp` Two MCP tools: - `check_name` — single name check (domain + trademark + social) - `find_names` — batch check with business context, scoring, and ranking Python, stdio transport, works with Claude Desktop / Claude Code / Codex.",
+  "author": "solozerolabs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/siddmax/Namera",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:19.992242Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:19.992267Z",
+  "repo_url": {
+   "url": "https://github.com/siddmax/Namera",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-01T05:19:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4167529558,
+  "comment_author": "solozerolabs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "namera"
+ }
+}
