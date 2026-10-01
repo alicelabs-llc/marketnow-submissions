@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:00.270Z",
+ "updated_at": "2026-10-01T04:09:03.184Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3935,6 +3935,18 @@
    "from": "ip:f518dce52882",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-c80fc4.json"
+  },
+  {
+   "id": "mn-sub-261001-ee0b47",
+   "name": "vibe-prospecting",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:09:02.343Z",
+   "from": "ip:34f292ef4d81",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-ee0b47.json"
   }
  ],
  "l2_pass": {
