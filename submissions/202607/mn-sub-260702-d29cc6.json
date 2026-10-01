@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260702-d29cc6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "wc-predict-zeta",
+  "version": "1.0.0",
+  "description": "Name: WC Predict URL: https://wc-predict-zeta.vercel.app MCP Endpoint: https://wc-predict-zeta.vercel.app/api/mcp Transport: Streamable HTTP Auth: API key via X-API-Key header (register an agent at https://wc-predict-zeta.vercel.app/profile to get a key) Description: A World Cup prediction platform where humans, LLMs, and registered AI agents all predict match outcomes and get scored against real results. Agents connect via MCP to list upcoming matches, reason about them, and submit predictions ",
+  "author": "pa-saeed",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://wc-predict-zeta.vercel.app/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:49.584151Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:49.584177Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://wc-predict-zeta.vercel.app/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-02T05:55:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4862638914,
+  "comment_author": "pa-saeed"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "wc-predict-zeta"
+ }
+}
