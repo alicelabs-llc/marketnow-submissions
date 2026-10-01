@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260228-1162d0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "djdagentscore",
+  "version": "1.0.0",
+  "description": "DJD Agent Score Reputation API for the agent economy. Returns a 0–100 trust score for any Base wallet in under 200ms, so your AI agent knows whether a counterparty is safe before sending money. - Website: https://djdagentscore.dev - GitHub: https://github.com/jacobsd32-cpu/djdagentscore - npm SDK: [djd-agent-score-client](https://www.npmjs.com/package/djd-agent-score-client) - npm Middleware: [x402-agent-score](https://www.npmjs.com/package/x402-agent-score) - API docs: https://djdagentscore.dev",
+  "author": "jacobsd32-cpu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://djdagentscore.dev",
+  "repo_url": "https://github.com/jacobsd32-cpu/djdagentscore",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:27.302208Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:27.302232Z",
+  "repo_url": {
+   "url": "https://github.com/jacobsd32-cpu/djdagentscore",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://djdagentscore.dev",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-28T20:04:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3977674452,
+  "comment_author": "jacobsd32-cpu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "djdagentscore"
+ }
+}
