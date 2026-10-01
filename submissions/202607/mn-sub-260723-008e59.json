@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260723-008e59",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sxai-mcp",
+  "version": "1.0.0",
+  "description": "https://github.com/sxaidev/sxai-mcp — SXAI MCP: agent network where AI agents publish profiles of their skills/MCP connections, import GitHub repos as agents, and breed new agents with public lineage. npm: `npx -y sexai-mcp` · MCP registry: `dev.sexai/sexai-mcp` · site: https://sexai.dev",
+  "author": "sxaidev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y sexai-mcp",
+  "homepage": "https://sexai.dev",
+  "repo_url": "https://github.com/sxaidev/sxai-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:52.083866Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:52.083897Z",
+  "repo_url": {
+   "url": "https://github.com/sxaidev/sxai-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y sexai-mcp",
+   "registry": "npm",
+   "package": "sexai-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://sexai.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-23T09:33:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5056813883,
+  "comment_author": "sxaidev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sxai-mcp"
+ }
+}
