@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-241210-2794b2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-server-agenda",
+  "version": "1.0.0",
+  "description": "And a mcp for interfacing the Agenda note taking software: https://github.com/alexgoller/mcp-server-agenda",
+  "author": "alexgoller",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/alexgoller/mcp-server-agenda",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:59:55.565744Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:59:55.565769Z",
+  "repo_url": {
+   "url": "https://github.com/alexgoller/mcp-server-agenda",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2024-12-10T07:01:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 2530603225,
+  "comment_author": "alexgoller"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-server-agenda"
+ }
+}
