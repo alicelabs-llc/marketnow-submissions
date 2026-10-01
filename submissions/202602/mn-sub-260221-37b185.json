@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260221-37b185",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "prose-lint-mcp",
+  "version": "1.0.0",
+  "description": "# prose-lint-mcp GitHub: https://github.com/moth-asa/prose-lint-mcp MCP server for writing quality analysis. Detects AI slop, analyzes readability, checks sentence variety, finds weak writing patterns. Zero dependencies, pure Python. 5 tools: detect_slop, analyze_readability, check_variety, find_weak_writing, full_audit Transport: stdio | Runtime: Python 3.10+",
+  "author": "moth-asa",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/moth-asa/prose-lint-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:02.312527Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 38,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:02.312548Z",
+  "repo_url": {
+   "url": "https://github.com/moth-asa/prose-lint-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-21T09:04:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3938485279,
+  "comment_author": "moth-asa"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "prose-lint-mcp"
+ }
+}
