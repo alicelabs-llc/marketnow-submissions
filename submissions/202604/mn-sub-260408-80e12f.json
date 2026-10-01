@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260408-80e12f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "deepalpha",
+  "version": "1.0.0",
+  "description": "One thing I learned the hard way: regular train/test split massively overestimates real performance for time series. Walk-forward validation (train on past, test on future) cut my 'accuracy' from 70% to 60% but the 60% actually works in live trading. Built a whole framework around this: https://github.com/stefanoviana/deepalpha",
+  "author": "stefanoviana",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/stefanoviana/deepalpha",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:50.317203Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:50.317228Z",
+  "repo_url": {
+   "url": "https://github.com/stefanoviana/deepalpha",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T19:09:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4208912274,
+  "comment_author": "stefanoviana"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "deepalpha"
+ }
+}
