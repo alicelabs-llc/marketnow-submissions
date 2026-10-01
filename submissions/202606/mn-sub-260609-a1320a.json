@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260609-a1320a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "selloracle",
+  "version": "1.0.0",
+  "description": "SellOracle — https://selloracle.com Pre-computed Etsy market data for AI agents. Blue Ocean niche scores, demand & competition signals, top shops, plus live Etsy lookups and AI seller tools — 17 tools over one remote MCP server (Streamable HTTP) or REST. - MCP endpoint: `https://selloracle.com/mcp` - Free tier: 100 calls/day, no card. Get a key at https://selloracle.com/dashboard - Auth: `Authorization: Bearer <key>` header, or `?key=<key>` in the URL. Discovery (`initialize` / `tools/list`) is ",
+  "author": "simonlin1212",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://selloracle.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:04.377202Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:04.377227Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://selloracle.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-09T06:53:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4656957376,
+  "comment_author": "simonlin1212"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "selloracle"
+ }
+}
