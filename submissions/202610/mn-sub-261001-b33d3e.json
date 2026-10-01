@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-261001-b33d3e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "[mcp-stealth-browser](",
+  "version": "1.0.0",
+  "description": "# [mcp-stealth-browser](https://github.com/AntonLi-PM/mcp-stealth-browser) - Repository: https://github.com/AntonLi-PM/mcp-stealth-browser - Author: [@AntonLi-PM](https://github.com/AntonLi-PM) - Category: Web Browsing / Scraping / Anti-Bot - Protocol: FastMCP 2.x (Stdio / SSE) - Supported Clients: Claude Desktop, Cursor, Windsurf, Open-WebUI Description: Production-ready stealth browser automation and web search MCP server. Provides AI agents with bot-detection-resistant web search and scraping",
+  "author": "AntonLi-PM",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ropond.com/",
+  "repo_url": "https://github.com/AntonLi-PM/mcp-stealth-browser",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:24.929796Z",
+  "duration_ms": 1316,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:24.929841Z",
+  "repo_url": {
+   "url": "https://github.com/AntonLi-PM/mcp-stealth-browser",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ropond.com/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:24.929845Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "mcp-stealth-browser"
+ }
+}
