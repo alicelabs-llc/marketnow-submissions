@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-18ab06",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "briefing-service-hourly-llm-ranked-news-briefings-ai-frontie",
+  "version": "1.0.0",
+  "description": "Briefing Service — hourly LLM-ranked news briefings (AI, frontier labs, markets, US sports, European football, US and world news) as structured JSON and 480x800 e-ink pages. - MCP (streamable HTTP): https://briefing-service.wholemind.workers.dev/mcp — tools: `list_briefings`, `get_briefing`, `get_page`, `render_briefing` - Server card: https://briefing-service.wholemind.workers.dev/.well-known/mcp/server-card.json - Site / llms.txt / OpenAPI: https://briefing-service.wholemind.workers.dev - Pric",
+  "author": "jshelley",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://briefing-service.wholemind.workers.dev/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:52.635Z",
+  "duration_ms": 956,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:52.635Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://briefing-service.wholemind.workers.dev/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:f518dce52882",
+ "submitted_at": "2026-10-01T04:08:52.635Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "briefing-service-hourly-llm-ranked-news-briefings-ai-frontie"
+ }
+}
