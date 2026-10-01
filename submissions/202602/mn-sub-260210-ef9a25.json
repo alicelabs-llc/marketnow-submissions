@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260210-ef9a25",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dtelecom-stt",
+  "version": "1.0.0",
+  "description": "Server Name: dTelecom STT npm: @dtelecom/stt-mcp GitHub: https://github.com/dTelecom/stt-mcp Description: Real-time speech-to-text for AI assistants. Transcribe audio files with production-grade audio pipeline (VAD, noise reduction, dual-engine transcription, hallucination filtering). Pay per use with USDC via x402 — no API keys needed. Category: multimedia Tools: transcribe_file, stt_pricing, stt_health Server Config: \\`\\`\\`json { \"mcpServers\": { \"dtelecom-stt\": { \"command\": \"npx\", \"args\": [\"-y",
+  "author": "fffilimonov",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://x402stt.dtelecom.org",
+  "repo_url": "https://github.com/dTelecom/stt-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:37.819318Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:37.819349Z",
+  "repo_url": {
+   "url": "https://github.com/dTelecom/stt-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://x402stt.dtelecom.org",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-10T15:04:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3878298873,
+  "comment_author": "fffilimonov"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dtelecom-stt"
+ }
+}
