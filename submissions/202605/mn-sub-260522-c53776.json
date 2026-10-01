@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260522-c53776",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "primacoda-mcp",
+  "version": "1.0.0",
+  "description": "PrimaCoda Transaction Coordinator AI transaction coordinator + legal-matters platform for real estate agents and law firms. 11 tools — no-auth marketing tools + `pck_*` API-key-gated product tools (contract extraction from URL, deadlines, motion drafting, case-law search via CourtListener). - Endpoint: https://primacoda.halinc.tech/mcp (streamable-http) - Server card: https://primacoda.halinc.tech/.well-known/mcp/server-card.json - Smithery: https://smithery.ai/servers/primacoda/transaction-coor",
+  "author": "GordonHal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://primacoda.halinc.tech/mcp",
+  "repo_url": "https://github.com/GordonHal/primacoda-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:39.241192Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:39.241218Z",
+  "repo_url": {
+   "url": "https://github.com/GordonHal/primacoda-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://primacoda.halinc.tech/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-22T18:34:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4521764559,
+  "comment_author": "GordonHal"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "primacoda-mcp"
+ }
+}
