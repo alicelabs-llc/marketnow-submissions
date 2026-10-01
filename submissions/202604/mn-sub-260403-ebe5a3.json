@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260403-ebe5a3",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "blindoracle-mcp-server",
+  "version": "1.0.0",
+  "description": "# BlindOracle MCP Server Repo: https://github.com/craigmbrown/chainlink-prediction-markets-mcp-enhanced Description: DeFi stress-testing, compliance monitoring, and prediction market analysis via MCP. 9 tools including market analysis, risk scoring, cross-protocol contagion detection, and security audits. Production system with 408 agents, x402 micropayments, and CaMel 4-layer security. Homepage: https://craigmbrown.com/blindoracle/ MCP Listing JSON: https://craigmbrown.com/blindoracle/.well-kno",
+  "author": "craigmbrown",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://craigmbrown.com/blindoracle/",
+  "repo_url": "https://github.com/craigmbrown/chainlink-prediction-markets-mcp-enhanced",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:30.136991Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:30.137020Z",
+  "repo_url": {
+   "url": "https://github.com/craigmbrown/chainlink-prediction-markets-mcp-enhanced",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://craigmbrown.com/blindoracle/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-03T21:36:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4185302649,
+  "comment_author": "craigmbrown"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "blindoracle-mcp-server"
+ }
+}
