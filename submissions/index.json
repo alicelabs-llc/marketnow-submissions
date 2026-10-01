@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:08:34.488Z",
+ "updated_at": "2026-10-01T04:08:37.015Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3875,6 +3875,18 @@
    "from": "ip:73012dfb0542",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-a64470.json"
+  },
+  {
+   "id": "mn-sub-261001-101e71",
+   "name": "mcp-governance-gap-provider-liability-under-tool-drift",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 38,
+   "submitted_at": "2026-10-01T04:08:36.184Z",
+   "from": "ip:dcba9c7a69e9",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-101e71.json"
   }
  ],
  "l2_pass": {
