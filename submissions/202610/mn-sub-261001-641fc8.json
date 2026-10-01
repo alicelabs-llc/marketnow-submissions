@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-641fc8",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "helpmyagent",
+  "version": "1.0.0",
+  "description": "HelpMyAgent Remote MCP endpoint: https://api.helpmyagent.com/mcp Website: https://helpmyagent.com/ Agent-ready data and services for AI agents over REST and MCP. Each published capability exposes schemas, pricing, provenance, coverage and limitations. Paid execution uses x402 without subscriptions or API keys. Transport: Streamable HTTP Authentication: No API key required for x402 execution",
+  "author": "helpmyagent",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.helpmyagent.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:06.395Z",
+  "duration_ms": 417,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:06.395Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.helpmyagent.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:f518dce52882",
+ "submitted_at": "2026-10-01T04:09:06.395Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "helpmyagent"
+ }
+}
