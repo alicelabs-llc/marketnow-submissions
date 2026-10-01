@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-379298",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "drgsystem-german-medical-coding-catalogs-remote-server-nothi",
+  "version": "1.0.0",
+  "description": "DRGSystem — German medical coding catalogs (remote server, nothing to install) - Server URL: `https://www.drgsystem.de/mcp` - Docs / landing page: https://www.drgsystem.de/mcp-service - Official MCP Registry: `de.drgsystem/medical-catalogs` - Transport: Streamable HTTP · no authentication · free (fair use: 60 requests/hour per IP) Lookup tools for the official German medical coding catalogs, every catalog year from 2010 to 2027: ICD-10-GM (systematic catalog + alphabetical index), OPS (systemati",
+  "author": "SamProf",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.drgsystem.de/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:05:47.293Z",
+  "duration_ms": 449,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:05:47.293Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.drgsystem.de/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:407199849397",
+ "submitted_at": "2026-10-01T04:05:47.293Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "drgsystem-german-medical-coding-catalogs-remote-server-nothi"
+ }
+}
