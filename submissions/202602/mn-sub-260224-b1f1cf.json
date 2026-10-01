@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260224-b1f1cf",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "theagora-mcp",
+  "version": "1.0.0",
+  "description": "@theagora/mcp Agent-to-agent service exchange with atomic escrow, cryptographic verification, and per-function reputation. 27 MCP tools. Fiat-native (Stripe). npm: https://www.npmjs.com/package/@theagora/mcp | GitHub: https://github.com/theagoralabs/theagora-mcp",
+  "author": "amargotta",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@theagora/mcp",
+  "repo_url": "https://github.com/theagoralabs/theagora-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:16.842766Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:16.842788Z",
+  "repo_url": {
+   "url": "https://github.com/theagoralabs/theagora-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@theagora/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-24T20:57:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3954687782,
+  "comment_author": "amargotta"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "theagora-mcp"
+ }
+}
