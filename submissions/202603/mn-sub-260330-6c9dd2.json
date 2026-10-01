@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260330-6c9dd2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "datris-platform-oss",
+  "version": "1.0.0",
+  "description": "Datris — AI Agent-Native Data Platform https://github.com/datris/datris-platform-oss MCP server with 32 tools for ETL, data quality validation, vector search, and SQL queries. Ingest CSV/JSON/Parquet, validate with AI-generated rules, transform data, and search with embeddings. - PyPI: `pip install datris-mcp-server` - Docker: `datrisai/datris-mcp-server` - MCP Registry: `io.github.datris/datris`",
+  "author": "datris",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/datris/datris-platform-oss",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:10.140106Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:10.140145Z",
+  "repo_url": {
+   "url": "https://github.com/datris/datris-platform-oss",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T19:13:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4157510357,
+  "comment_author": "datris"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "datris-platform-oss"
+ }
+}
