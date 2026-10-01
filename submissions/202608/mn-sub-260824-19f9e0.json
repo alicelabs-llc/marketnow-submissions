@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260824-19f9e0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apocdata-a-mcp-server",
+  "version": "1.0.0",
+  "description": "# ApocData - A股数据 MCP Server Repository: https://github.com/ApocData/ApocData-skill npm: @apocdata-info/mcp-server 免鉴权 A 股数据查询，46 个接口覆盖行情、财务、资金流、涨跌停、板块、公告、宏观等。零鉴权开箱即用，支持 Claude/Cursor/ChatGPT/DeepSeek/Kimi/Qwen。 安装: `npx -y @apocdata-info/mcp-server` HTTP: `https://www.apocdata.com/api/blade-dataplatform/open/data/mcp` 发现文件: https://www.apocdata.com/.well-known/mcp.json",
+  "author": "hanjialeGit",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @apocdata-info/mcp-server",
+  "homepage": "https://www.apocdata.com/api/blade-dataplatform/open/data/mcp",
+  "repo_url": "https://github.com/ApocData/ApocData-skill",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:51.049689Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:51.049714Z",
+  "repo_url": {
+   "url": "https://github.com/ApocData/ApocData-skill",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @apocdata-info/mcp-server",
+   "registry": "npm",
+   "package": "@apocdata-info/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.apocdata.com/api/blade-dataplatform/open/data/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T06:05:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5391337707,
+  "comment_author": "hanjialeGit"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apocdata-a-mcp-server"
+ }
+}
