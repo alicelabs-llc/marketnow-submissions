@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-3ba632",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-trendpulse",
+  "version": "1.0.0",
+  "description": "TrendPulse — Google News & Google Trends MCP Repository: https://github.com/AKzar1el/mcp-trendpulse PyPI: https://pypi.org/project/mcp-trendpulse/ Official MCP Registry: io.github.AKzar1el/mcp-trendpulse Install: `uvx mcp-trendpulse` Transport: local stdio License: MIT Open-source MCP server for current Google News research and Google Trends analysis, including article discovery/extraction, interest over time, growth/momentum, regional interest, related queries/topics, suggestions, and trending ",
+  "author": "AKzar1el",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/mcp-trendpulse/",
+  "repo_url": "https://github.com/AKzar1el/mcp-trendpulse",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:27.161099Z",
+  "duration_ms": 780,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:27.161138Z",
+  "repo_url": {
+   "url": "https://github.com/AKzar1el/mcp-trendpulse",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/mcp-trendpulse/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:27.161142Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-trendpulse"
+ }
+}
