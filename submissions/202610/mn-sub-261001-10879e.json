@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-10879e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "robot-speed",
+  "version": "1.0.0",
+  "description": "Robot Speed Name: Robot Speed GitHub: https://github.com/robot-speed/mcp Website / landing: https://www.robot-speed.com/mcp Description: SEO tools for AI agents — audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, content/CMS publishing. 39 tools (12 free, no auth). Connection (remote): - Remote MCP URL: `https://www.robot-speed.com/api/mcp` (streamable HTTP) - Auth: Open for 12 free tools; OAuth 2.1 for paid tools - Glama: https://glama.ai/mcp/connectors/com.robot-speed/robot",
+  "author": "Eliottdupuy",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/robot-speed/mcp",
+  "repo_url": "https://github.com/robot-speed/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:27.974383Z",
+  "duration_ms": 1630,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:27.974415Z",
+  "repo_url": {
+   "url": "https://github.com/robot-speed/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/robot-speed/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:27.974419Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "robot-speed"
+ }
+}
