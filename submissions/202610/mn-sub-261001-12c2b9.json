@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-12c2b9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "4bl1ty-hire-verified",
+  "version": "1.0.0",
+  "description": "# 4bl1ty — hire verified humans for physical-world tasks Hosted MCP server that lets AI agents hand a task that software cannot do alone (be somewhere, check, collect, sign) to a verified human, with proof submitted and payment held in euro escrow (Stripe) until validation. - Public repo: https://github.com/Brissux-Labs/4bl1ty-mcp - Endpoint: `https://mcp.4bl1ty.com/mcp` — Streamable HTTP, stateless - Auth: API key per request (`Authorization: Bearer 4bl_…`) - 12 tools: missions (list, get, crea",
+  "author": "Brissux",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.4bl1ty.com/mcp",
+  "repo_url": "https://github.com/Brissux-Labs/4bl1ty-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:28:57.628429Z",
+  "duration_ms": 1147,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:28:57.628453Z",
+  "repo_url": {
+   "url": "https://github.com/Brissux-Labs/4bl1ty-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.4bl1ty.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:28:57.628456Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "4bl1ty-hire-verified"
+ }
+}
