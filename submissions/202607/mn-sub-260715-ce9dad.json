@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260715-ce9dad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vibatchium",
+  "version": "1.0.0",
+  "description": "vibatchium — stealth browser automation for AI agents - Repository: https://github.com/trueoriginlabs/vibatchium - PyPI: https://pypi.org/project/vibatchium - License: Apache-2.0 One MCP server driving N parallel, persistent real Google Chrome sessions (patchright stealth) — not a headless/fake-Chrome fingerprint. Clears Cloudflare/DataDome, per-session credential vault, vision-based clicking, LLM-friendly compact DOM snapshots, and a built-in prompt-injection safety scanner on scraped output. R",
+  "author": "monodev-eth",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/vibatchium",
+  "repo_url": "https://github.com/trueoriginlabs/vibatchium",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:39.663729Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:39.663752Z",
+  "repo_url": {
+   "url": "https://github.com/trueoriginlabs/vibatchium",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/vibatchium",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-15T02:45:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4976347276,
+  "comment_author": "monodev-eth"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vibatchium"
+ }
+}
