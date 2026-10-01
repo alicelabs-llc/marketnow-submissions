@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-ad7341",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "invoicebloom-mcp",
+  "version": "1.0.0",
+  "description": "InvoiceBloom — hosted (remote) MCP server for invoicing: create, send and track invoices for freelancers and small businesses from Claude, Cursor or any MCP client. - Repo: https://github.com/theasteve/invoicebloom-mcp - Endpoint: `https://invoicebloom.io/mcp` (Streamable HTTP, bearer API token) - Docs: https://invoicebloom.io/developers Thanks!",
+  "author": "theasteve",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://invoicebloom.io/mcp",
+  "repo_url": "https://github.com/theasteve/invoicebloom-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:00.289095Z",
+  "duration_ms": 1157,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:00.289142Z",
+  "repo_url": {
+   "url": "https://github.com/theasteve/invoicebloom-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://invoicebloom.io/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:00.289146Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "invoicebloom-mcp"
+ }
+}
