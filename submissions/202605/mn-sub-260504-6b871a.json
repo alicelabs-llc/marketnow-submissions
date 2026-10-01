@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260504-6b871a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sherlock-homes-mcp",
+  "version": "1.0.0",
+  "description": "https://github.com/RomainLaffitau/sherlock-homes-mcp French real estate data platform for AI agents. Identifies property owners likely to sell (patrimonial scoring) and tracks behavioral signals on active listings (price drops, agency changes). Remote HTTP MCP server. Coverage: metropolitan France.",
+  "author": "RomainLaffitau",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/RomainLaffitau/sherlock-homes-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:27.665982Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:27.666007Z",
+  "repo_url": {
+   "url": "https://github.com/RomainLaffitau/sherlock-homes-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-04T17:38:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4373133105,
+  "comment_author": "RomainLaffitau"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sherlock-homes-mcp"
+ }
+}
