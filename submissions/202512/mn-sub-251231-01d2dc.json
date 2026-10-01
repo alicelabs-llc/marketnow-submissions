@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-251231-01d2dc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "two-faf-mcp-servers-different-audiences",
+  "version": "1.0.0",
+  "description": "# Two FAF MCP Servers - Different Audiences 1. claude-faf-mcp (AI CLIs) Repository: https://github.com/Wolfe-Jam/claude-faf-mcp npm: https://www.npmjs.com/package/claude-faf-mcp (8,200 downloads) Persistent project context for AI CLIs: Claude Code, Gemini CLI, OpenAI Codex, Grok. - 33+ tools, Podium scoring (0-100%) - Official Anthropic MCP Registry (PR #2759 merged) - IANA-registered format (application/vnd.faf+yaml) --- 2. faf-mcp (Universal - IDEs) Repository: https://github.com/Wolfe-Jam/faf",
+  "author": "Wolfe-Jam",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/claude-faf-mcp",
+  "repo_url": "https://github.com/Wolfe-Jam/claude-faf-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:18.372387Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:18.372415Z",
+  "repo_url": {
+   "url": "https://github.com/Wolfe-Jam/claude-faf-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/claude-faf-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-12-31T03:35:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3701359905,
+  "comment_author": "Wolfe-Jam"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "two-faf-mcp-servers-different-audiences"
+ }
+}
