@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260227-1f56f1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gitrama-mcp-ai-git-workflow-intelligence",
+  "version": "1.0.0",
+  "description": "Gitrama MCP — AI Git Workflow Intelligence GitHub: https://github.com/ahmaxdev/gitrama-mcp PyPI: https://pypi.org/project/gitrama-mcp/ Website: https://gitrama.ai Install: `pip install gitrama-mcp` Transport: stdio AI-powered Git workflow intelligence for MCP clients. 10 tools across 4 domains: Commit Intelligence - `gitrama_commit` — AI commit message generation + execution - `gitrama_stage_and_commit` — Stage all + AI commit in one shot - `gitrama_commit_quality` — Score commit messages 0–100 ",
+  "author": "amaxgtr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/gitrama-mcp/",
+  "repo_url": "https://github.com/ahmaxdev/gitrama-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:21.022718Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:21.022743Z",
+  "repo_url": {
+   "url": "https://github.com/ahmaxdev/gitrama-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/gitrama-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T16:25:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3973844393,
+  "comment_author": "amaxgtr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gitrama-mcp-ai-git-workflow-intelligence"
+ }
+}
