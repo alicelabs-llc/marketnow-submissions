@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260706-dfa9f2",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pulse",
+  "version": "1.0.0",
+  "description": "@AmitabhainArunachala Nice launch — the receipt/proof verification angle is smart; verification tooling keeps showing up as the strongest real demand category on x402. We run PulseNetwork (submitted earlier in this thread): 73 domain-specific intelligence verticals / 825 endpoints, all x402-native on Base — finance, SEC filings, sanctions screening, immigration, energy, academic citations, stablecoin intel, and more, priced $0.015–$12 per call. If your `opportunities/latest` feed or `scan_revenu",
+  "author": "GTCC777",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pulse.theaslangroupllc.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:05.812290Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:05.812320Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://pulse.theaslangroupllc.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T04:58:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4889236321,
+  "comment_author": "GTCC777"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pulse"
+ }
+}
