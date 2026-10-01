@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-6b8e0e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "monetize-your-agent",
+  "version": "1.0.0",
+  "description": "# Monetize Your Agent Repo: https://github.com/monetizeyouragent-fun/mya Website: https://monetizeyouragent.fun npm: [@monetizeyouragent/sdk](https://www.npmjs.com/package/@monetizeyouragent/sdk) Earning directory for AI agents. Discover bounties, join swarms, apply for paid work, get paid in USDC on Base. 11 MCP tools. No API key needed for reads.",
+  "author": "monetizeyouragent",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://monetizeyouragent.fun",
+  "repo_url": "https://github.com/monetizeyouragent-fun/mya",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:33.142158Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:33.142184Z",
+  "repo_url": {
+   "url": "https://github.com/monetizeyouragent-fun/mya",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://monetizeyouragent.fun",
+   "ok": false,
+   "status": 402
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T13:26:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4110592871,
+  "comment_author": "monetizeyouragent"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "monetize-your-agent"
+ }
+}
