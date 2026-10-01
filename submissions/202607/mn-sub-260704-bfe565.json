@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260704-bfe565",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "japan-toilet-accessibility-mcp",
+  "version": "1.0.0",
+  "description": "Japan Toilet & Accessibility MCP GitHub: https://github.com/eng213035/japan-data-mcp Homepage / get a free key: https://api.gachi-tokusuru.com Endpoint (remote, Streamable HTTP): https://api.gachi-tokusuru.com/mcp Auth: `Authorization: Bearer <API_KEY>` Structured data on wheelchair-accessible & public toilets across Japan, for AI agents and travel / accessibility apps. 526 Tokyo stations (each mapped to its nearest station exit — an original first-party value) + 612 municipalities nationwide. S",
+  "author": "eng213035",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.gachi-tokusuru.com/mcp",
+  "repo_url": "https://github.com/eng213035/japan-data-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:00.862303Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:00.862334Z",
+  "repo_url": {
+   "url": "https://github.com/eng213035/japan-data-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.gachi-tokusuru.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-04T11:14:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4881764604,
+  "comment_author": "eng213035"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "japan-toilet-accessibility-mcp"
+ }
+}
