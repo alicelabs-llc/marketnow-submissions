@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-914976",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "vouch-httpsvouchtools",
+  "version": "1.0.0",
+  "description": "Vouch — https://vouch.tools/ An independent trust index for MCP tools. Vouch runs real invocation trials against MCP servers and publishes a measured behaviour score for each tool — reliability, schema conformance, failure handling, latency — with the full methodology and the per-trial evidence behind every number. Measured, not self-reported. - Remote MCP endpoint (Streamable HTTP, nothing to install): https://vouch.tools/api/mcp - Tools: vouch_check (a tool's independently-measured score befor",
+  "author": "eljbutler",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vouch.tools/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:05:56.903Z",
+  "duration_ms": 66,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:05:56.903Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://vouch.tools/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:407199849397",
+ "submitted_at": "2026-10-01T04:05:56.903Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "vouch-httpsvouchtools"
+ }
+}
