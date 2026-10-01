@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260814-25fbdb",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agenttask",
+  "version": "1.0.0",
+  "description": "Name: AgentTask Type: Remote / hosted server (streamable HTTP) Endpoint: `https://app.agent-task.com/v1/public/mcp` Website: https://www.agent-task.com Repo: https://github.com/alireza1220/agent-task-plugin Description: AgentTask is a governed work platform where people and AI agents share the same backlog — tasks, plans, runs, and audit trails in one multi-tenant system of record. It speaks MCP in both directions: your backlog is a remote MCP server any AI client can drive, over OAuth 2.1 or AP",
+  "author": "alireza1220",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.agent-task.com/v1/public/mcp",
+  "repo_url": "https://github.com/alireza1220/agent-task-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:31.337713Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:31.337734Z",
+  "repo_url": {
+   "url": "https://github.com/alireza1220/agent-task-plugin",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.agent-task.com/v1/public/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-14T20:06:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5297666268,
+  "comment_author": "alireza1220"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agenttask"
+ }
+}
