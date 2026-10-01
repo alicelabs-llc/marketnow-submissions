@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-8a7926",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "webmcp-eval",
+  "version": "1.0.0",
+  "description": "# Submit: WebMCP Eval (remote MCP) Name: WebMCP Eval One-liner: MCP tool to evaluate if a client webpage is agent-ready (WebMCP). About: Use `evaluate_webmcp` on a single public URL. Get a JSON readiness brief: what the page is for, which tools are already registered, what to add, and what must never be exposed to agents. Built for agencies and consultants putting WebMCP on client sites. Connection: - MCP URL: `https://mcp.webmcp-eval.com/mcp` - Auth: OAuth consent with `usr_live_` key, or `Auth",
+  "author": "fxops-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.webmcp-eval.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:29.681147Z",
+  "duration_ms": 408,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:29.681175Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.webmcp-eval.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:29.681178Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "webmcp-eval"
+ }
+}
