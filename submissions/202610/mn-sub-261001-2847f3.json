@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-2847f3",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "name-db-planner",
+  "version": "1.0.0",
+  "description": "Name: DB Planner Website: https://dbplanner.io/features MCP endpoint: https://api.dbplanner.io/mcp Transport: streamable-http Auth: OAuth 2.1 (authorization code + PKCE, dynamic client registration) Also listed: official registry as io.dbplanner/db-planner, Smithery as dbplanner/db-planner Description: Read and edit DB Planner database schemas (DBML/SQL), Mermaid diagrams and board layouts. 40 tools. Read and write are separate OAuth scopes enforced server-side.",
+  "author": "capow20",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.dbplanner.io/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:55.638Z",
+  "duration_ms": 65,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:55.638Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.dbplanner.io/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:73012dfb0542",
+ "submitted_at": "2026-10-01T04:06:55.638Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "name-db-planner"
+ }
+}
