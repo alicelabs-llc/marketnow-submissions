@@ -1,0 +1,54 @@
+{
+ "id": "mn-sub-261001-e38c1e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "macaroon-network-mcp-server-discovers-and-buys-from-a-live-m",
+  "version": "1.0.0",
+  "description": "https://github.com/kevmoz/macaroonnetwork/tree/main/mcp-distribution Macaroon Network MCP server — discovers and buys from a live marketplace of 70+ agent-payable data APIs (public records, compliance checks, scientific/open-science search) settling in USDC on Base mainnet via x402. Also published on PyPI (`pip install macaroonnetwork-mcp`) and the official MCP registry.",
+  "author": "kevmoz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:45.271Z",
+  "duration_ms": 4,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 38,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:45.271Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:f518dce52882",
+ "submitted_at": "2026-10-01T04:09:45.271Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "macaroon-network-mcp-server-discovers-and-buys-from-a-live-m"
+ }
+}
