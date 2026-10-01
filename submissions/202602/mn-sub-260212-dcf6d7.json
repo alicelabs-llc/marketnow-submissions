@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260212-dcf6d7",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "zerodust-mcp-server",
+  "version": "1.0.0",
+  "description": "# @zerodust/mcp-server ZeroDust - Sweep native gas tokens to exactly zero across 25+ EVM chains. - npm: https://www.npmjs.com/package/@zerodust/mcp-server - GitHub: https://github.com/zerodustxyz/zerodust/tree/main/packages/mcp-server - Website: https://zerodust.xyz - Docs: https://zerodust.xyz/docs/integrations/mcp Tools provided: - `zerodust_info` - Information about ZeroDust and supported chains - `zerodust_get_chains` - List all supported EVM chains - `zerodust_get_balances` - Check balances",
+  "author": "zerodustxyz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://zerodust.xyz/docs/integrations/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:40.412001Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:40.412026Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://zerodust.xyz/docs/integrations/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-12T14:11:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3891185085,
+  "comment_author": "zerodustxyz"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "zerodust-mcp-server"
+ }
+}
