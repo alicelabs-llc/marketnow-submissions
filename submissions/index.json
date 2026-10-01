@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:08:01.158Z",
+ "updated_at": "2026-10-01T04:08:04.346Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3815,6 +3815,18 @@
    "from": "ip:34f292ef4d81",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-06ab85.json"
+  },
+  {
+   "id": "mn-sub-261001-6159ed",
+   "name": "submitting-connections-for-the-directory",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:08:03.534Z",
+   "from": "ip:f82a54bdcf73",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-6159ed.json"
   }
  ],
  "l2_pass": {
