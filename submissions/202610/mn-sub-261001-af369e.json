@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-af369e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "contractorroster-verified-us-licensed-contractor-data-for-ai",
+  "version": "1.0.0",
+  "description": "ContractorRoster — Verified US licensed-contractor data for AI agents - Type: Remote MCP server (Streamable HTTP) - Endpoint: https://contractorroster.com/api/mcp - Website / setup guide: https://contractorroster.com/mcp - Description: 879,000+ active US licensed-contractor records (24+ states, 33 trades) as paid MCP tools. Every record carries public-record provenance: the issuing state board, the license number, and the date it was last re-checked. Discovery is free (list states/trades, count ",
+  "author": "TheTalentCat",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://contractorroster.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:53.090Z",
+  "duration_ms": 107,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:53.090Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://contractorroster.com/api/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:dcba9c7a69e9",
+ "submitted_at": "2026-10-01T04:06:53.090Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "contractorroster-verified-us-licensed-contractor-data-for-ai"
+ }
+}
