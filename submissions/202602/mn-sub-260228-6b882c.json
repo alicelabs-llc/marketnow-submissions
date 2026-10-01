@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260228-6b882c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sparkforge-mcp-server",
+  "version": "1.0.0",
+  "description": "# SparkForge MCP Server 🔥 GitHub: https://github.com/henry-ships/sparkforge Website: https://sparkforge.sh MCP SSE Endpoint: https://sparkforge.sh/api/sse Docs: https://sparkforge.sh/docs Description: SparkForge is a 20-endpoint utility API platform for AI agents. One MCP server, 20 tools: 🎨 Image gen (Flux), Meme gen, Video gen (fal.ai), TTS (ElevenLabs) ₿ BTC signals, Crypto prices (CoinGecko), Token research, Wallet analysis 🌐 Web screenshots, JS scraping, Page extraction, URL metadata 📄 PDF-",
+  "author": "henry-ships",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sparkforge.sh",
+  "repo_url": "https://github.com/henry-ships/sparkforge",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:26.179271Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:26.179296Z",
+  "repo_url": {
+   "url": "https://github.com/henry-ships/sparkforge",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sparkforge.sh",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-28T15:54:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3977341536,
+  "comment_author": "henry-ships"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sparkforge-mcp-server"
+ }
+}
