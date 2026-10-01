@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260506-c9f56d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ticketdesk-mcp",
+  "version": "1.0.0",
+  "description": "[Ticketdesk AI](https://ticketdesk.ai/) - Customer support automations and tickets management. Github - https://github.com/ticketdesk-ai/ticketdesk-mcp ``` { \"mcpServers\": { \"ticketdesk\": { \"type\": \"http\", \"url\": \"https://api.ticketdesk.ai/mcp?apikey={env.TICKETDESK_AI_KEY}\" } } } ``` Docs - https://ticketdesk.ai/docs/mcp-server-automate-customer-support-with-ai/533",
+  "author": "vickyRathee",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ticketdesk.ai/",
+  "repo_url": "https://github.com/ticketdesk-ai/ticketdesk-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:28.958512Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:28.958534Z",
+  "repo_url": {
+   "url": "https://github.com/ticketdesk-ai/ticketdesk-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ticketdesk.ai/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-06T12:32:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4387963488,
+  "comment_author": "vickyRathee"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ticketdesk-mcp"
+ }
+}
