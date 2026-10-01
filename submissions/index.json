@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:10.684Z",
+ "updated_at": "2026-10-01T04:06:13.806Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3599,6 +3599,18 @@
    "from": "ip:b52a1bd5fbeb",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-d70ea3.json"
+  },
+  {
+   "id": "mn-sub-261001-be30dc",
+   "name": "doc-scraper-self-hosted-go-mcp-server-that-crawls-documentat",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:06:12.973Z",
+   "from": "ip:da528cc7cb87",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-be30dc.json"
   }
  ],
  "l2_pass": {
