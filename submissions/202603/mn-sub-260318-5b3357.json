@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-5b3357",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "1stay-mcp",
+  "version": "1.0.0",
+  "description": "1Stay — Hotel Booking MCP Server https://github.com/STAYKER-COM/1Stay-mcp Hotel booking MCP server by Stayker. Search, book, and manage real hotel reservations across 250K+ properties in 140+ countries. Set your own booking service fee via Stripe Connect. 7 tools: search_hotels, get_hotel_details, book_hotel, get_booking, retrieve_booking, cancel_booking, search_tools. Streamable HTTP at https://mcp.stayker.com/mcp Docs: https://1stay.ai/docs",
+  "author": "vroomz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.stayker.com/mcp",
+  "repo_url": "https://github.com/STAYKER-COM/1Stay-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:18.416653Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:18.416678Z",
+  "repo_url": {
+   "url": "https://github.com/STAYKER-COM/1Stay-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.stayker.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T16:10:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4083757175,
+  "comment_author": "vroomz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "1stay-mcp"
+ }
+}
