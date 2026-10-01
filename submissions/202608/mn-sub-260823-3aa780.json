@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260823-3aa780",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "true-solar-time-mcp",
+  "version": "1.0.0",
+  "description": "true-solar-time-mcp — True solar time correction for BaZi / Four Pillars charts: the step most calculators skip. Converts a recorded birth time (wall clock + IANA time zone + longitude) into true solar time — historical DST included (e.g. China 1986–91), with an exact DST + longitude + equation-of-time breakdown, hour-branch boundary distance, and detection of clock times that never existed (spring-forward gaps). Deterministic; golden-tested against published worked examples. GitHub: https://git",
+  "author": "Shann5",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://auspiceoracle.com/en/method",
+  "repo_url": "https://github.com/Shann5/true-solar-time-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:47.047043Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:47.047070Z",
+  "repo_url": {
+   "url": "https://github.com/Shann5/true-solar-time-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://auspiceoracle.com/en/method",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-23T06:09:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5384552688,
+  "comment_author": "Shann5"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "true-solar-time-mcp"
+ }
+}
