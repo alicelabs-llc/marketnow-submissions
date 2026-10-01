@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260301-394c45",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "openclaw-mcp-servers",
+  "version": "1.0.0",
+  "description": "# OpenClaw MCP Servers 49 tools across 9 servers on Cloudflare Workers. Streamable HTTP transport — connect in seconds. Servers | Server | URL | Tools | |--------|-----|-------| | JSON Toolkit | https://json-toolkit-mcp.yagami8095.workers.dev/mcp | 6 | | Regex Engine | https://regex-engine-mcp.yagami8095.workers.dev/mcp | 5 | | Color Palette | https://color-palette-mcp.yagami8095.workers.dev/mcp | 5 | | Timestamp Converter | https://timestamp-converter-mcp.yagami8095.workers.dev/mcp | 5 | | Prom",
+  "author": "yedanyagamiai-cmd",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://json-toolkit-mcp.yagami8095.workers.dev/mcp",
+  "repo_url": "https://github.com/yedanyagamiai-cmd/openclaw-mcp-servers",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:30.119027Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:30.119055Z",
+  "repo_url": {
+   "url": "https://github.com/yedanyagamiai-cmd/openclaw-mcp-servers",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://json-toolkit-mcp.yagami8095.workers.dev/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-01T13:49:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3979990025,
+  "comment_author": "yedanyagamiai-cmd"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "openclaw-mcp-servers"
+ }
+}
