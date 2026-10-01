@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-e4331c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "prompt-switchboard-mcp-sidecar",
+  "version": "1.0.0",
+  "description": "** Compare-first, local-first MCP sidecar for Prompt Switchboard browser workflows across ChatGPT, Gemini, Perplexity, Qwen, and Grok.",
+  "author": "xiaojiou176",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://xiaojiou176-open.github.io/multi-ai-sidepanel/",
+  "repo_url": "https://github.com/xiaojiou176-open/multi-ai-sidepanel",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585787Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585788Z",
+  "repo_url": {
+   "url": "https://github.com/xiaojiou176-open/multi-ai-sidepanel",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://xiaojiou176-open.github.io/multi-ai-sidepanel/",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T09:12:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1560,
+  "comment_author": "xiaojiou176"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "prompt-switchboard-mcp-sidecar"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260403-36ab78",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "solematica-mcp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: @solematica/mcp-server - GitHub: https://github.com/n3m1/solematica-mcp - npm: https://www.npmjs.com/package/@solematica/mcp-server - Website: https://www.solematica.it/sviluppatori - License: MIT Description MCP server for Italian solar energy. Enables AI assistants (Claude, Cursor, Windsurf, etc.) to: - Generate solar estimates for Italian addresses (Google Solar API + PVGIS) - Compare 11 national solar providers (prices, warranties, components) - Check current energy pric",
+  "author": "hanicker",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@solematica/mcp-server",
+  "repo_url": "https://github.com/n3m1/solematica-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586572Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586574Z",
+  "repo_url": {
+   "url": "https://github.com/n3m1/solematica-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@solematica/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-03T09:20:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1479,
+  "comment_author": "hanicker"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "solematica-mcp"
+ }
+}

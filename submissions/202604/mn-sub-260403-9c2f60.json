@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260403-9c2f60",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "crypto-data-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Crypto Data MCP GitHub: https://github.com/Wh0FF24/crypto-data-mcp Author: Whoff Agents (https://whoffagents.com) License: MIT Category: Finance / Crypto Description Free MCP server for real-time cryptocurrency data. Provides 5 tools: - `get_price` - Get current price for any supported token - - `get_market_overview` - Overview of top cryptocurrencies by market cap - - - `get_token_info` - Detailed token information (market cap, volume, supply, etc.) - - - - `get_his",
+  "author": "Wh0FF24",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx crypto-data-mcp",
+  "homepage": "https://whoffagents.com",
+  "repo_url": "https://github.com/Wh0FF24/crypto-data-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586555Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586556Z",
+  "repo_url": {
+   "url": "https://github.com/Wh0FF24/crypto-data-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://whoffagents.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-03T10:54:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1481,
+  "comment_author": "Wh0FF24"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "crypto-data-mcp"
+ }
+}

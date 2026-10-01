@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260410-41374e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mail-mcp-production",
+  "version": "1.0.0",
+  "description": "Server Name mail-mcp GitHub Repository https://github.com/tecnologicachile/mail-mcp Description Most email MCP servers only read from IMAP. mail-mcp does everything: 30 tools for reading, searching, sending, replying, forwarding, and bulk operations across IMAP, SMTP, Microsoft Graph API, and Exchange Web Services. Multi-account, native OAuth2, built in Rust. Works with Gmail, Microsoft 365, Hotmail/Outlook.com, Zoho, and any standard IMAP/SMTP server. Features - 30 MCP tools (8 read, 11 write,",
+  "author": "tecnologicachile",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/tecnologicachile/mail-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585257Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585259Z",
+  "repo_url": {
+   "url": "https://github.com/tecnologicachile/mail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T18:25:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1619,
+  "comment_author": "tecnologicachile"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mail-mcp-production"
+ }
+}

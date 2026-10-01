@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260404-06ca39",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "newsletter-commerce",
+  "version": "1.0.0",
+  "description": "Newsletter Commerce MCP GitHub: https://github.com/teamsincetoday/newsletter-commerce-mcp npm: [newsletter-commerce-mcp](https://www.npmjs.com/package/newsletter-commerce-mcp) Smithery: https://smithery.ai/server/newsletter-commerce-mcp License: MIT Description Extracts product mentions, sponsored content, and affiliate opportunities from newsletter content (Beehiiv, Substack, and generic formats). Returns structured product data with confidence scores, recommendation context, and monetization",
+  "author": "teamsincetoday",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/newsletter-commerce-mcp",
+  "repo_url": "https://github.com/teamsincetoday/newsletter-commerce-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586279Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586281Z",
+  "repo_url": {
+   "url": "https://github.com/teamsincetoday/newsletter-commerce-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/newsletter-commerce-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-04T23:45:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1504,
+  "comment_author": "teamsincetoday"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "newsletter-commerce"
+ }
+}

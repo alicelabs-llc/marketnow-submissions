@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260410-7ae879",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gavelin-state",
+  "version": "1.0.0",
+  "description": "Server Name Gavelin GitHub URL https://github.com/gavelin-ai/mcp Description State legislative intelligence for AI agents. The only MCP server with speaker-attributed hearing transcripts from US state legislatures. Search bills across all 50 states, find what legislators said in hearings, get full committee hearing transcripts with speaker attribution — all via the Model Context Protocol. Live endpoint: `https://mcp.gavelin.ai/mcp` (Streamable HTTP, bearer token auth) Category Government & Poli",
+  "author": "joelmcclurg-personal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/gavelin-ai/mcp",
+  "repo_url": "https://github.com/gavelin-ai/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585358Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585360Z",
+  "repo_url": {
+   "url": "https://github.com/gavelin-ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/gavelin-ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T04:07:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1609,
+  "comment_author": "joelmcclurg-personal"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gavelin-state"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260409-4b7b0a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "lucasandersen-api-mlp-tax-computation",
+  "version": "1.0.0",
+  "description": "MCP Server Submission - Name: lucasandersen-api - MCP URL: https://api.lucasandersen.ai/mcp - Category: Finance - Description: MLP tax computation for AI assistants — basis erosion projections, §751 recapture, estate planning (§1014 step-up), sell-vs-hold analysis. 6 tools targeting MLP investors, CPAs, and financial advisors. Tools - `mlp_projection` — Multi-year tax projection with basis erosion and §751 accumulation - `mlp_estate_planning` — §1014 stepped-up basis and estate planning analysi",
+  "author": "luc253",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.lucasandersen.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585457Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585459Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.lucasandersen.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T15:05:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1599,
+  "comment_author": "luc253"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "lucasandersen-api-mlp-tax-computation"
+ }
+}

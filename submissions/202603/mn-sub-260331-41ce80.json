@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260331-41ce80",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "glp1search-mcp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: glp1search-mcp - GitHub: https://github.com/Sndevore77/glp1search-mcp - Website: https://glp1search.com - Category: Health / Medical - License: MIT Description MCP server for GLP-1 medication data and the largest provider directory in the US. Search 18,344 verified clinics, telehealth programs, and pharmacies. Tools (8) | Tool | Description | |------|-------------| | `search_providers` | Search 18,344 GLP-1 providers by name, city, state, type, or medication | | `get_provide",
+  "author": "Sndevore77",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://glp1search.com",
+  "repo_url": "https://github.com/Sndevore77/glp1search-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586776Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586777Z",
+  "repo_url": {
+   "url": "https://github.com/Sndevore77/glp1search-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://glp1search.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-31T22:27:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1422,
+  "comment_author": "Sndevore77"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "glp1search-mcp"
+ }
+}

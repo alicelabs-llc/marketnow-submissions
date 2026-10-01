@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260401-562829",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aeo-scanner-ai-search-visibility-audit",
+  "version": "1.0.0",
+  "description": "Server Info - Name: AEO Scanner - Repository: https://github.com/Convrgent/aeo-scanner-mcp - PyPI: https://pypi.org/project/aeo-scanner/ - Install: `uvx aeo-scanner` or `claude mcp add aeo-scanner -- uvx aeo-scanner` - Author: [Convrgent](https://convrgent.ai) - Category: Web Development / SEO / AI Visibility Description MCP server for AI search visibility auditing. Two scores for any website: - AEO Score (0-100): How well AI search engines (ChatGPT, Perplexity, Google AI Overviews) can find an",
+  "author": "Convrgent",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx aeo-scanner",
+  "homepage": "https://pypi.org/project/aeo-scanner/",
+  "repo_url": "https://github.com/Convrgent/aeo-scanner-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586729Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586731Z",
+  "repo_url": {
+   "url": "https://github.com/Convrgent/aeo-scanner-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/aeo-scanner/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-01T11:51:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1431,
+  "comment_author": "Convrgent"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aeo-scanner-ai-search-visibility-audit"
+ }
+}

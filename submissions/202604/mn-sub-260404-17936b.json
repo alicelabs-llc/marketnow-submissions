@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260404-17936b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "forgem-generate",
+  "version": "1.0.0",
+  "description": "Forgem From API to MCP server in 6 seconds. Forgem reads any OpenAPI spec and generates a production-ready MCP server with smart caching, retry, rate limiting, and auto-pagination. Links - Website: https://forgem.dev - npm: https://www.npmjs.com/package/@forgem/cli - GitHub: https://github.com/marcos99b/forgem Install ```bash npx -y @forgem/cli ``` Features - Auto-discovers endpoints from OpenAPI specs (JSON + YAML) - Smart Runtime: LRU cache, exponential backoff retry, rate limit detection, au",
+  "author": "marcos99b",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @forgem/cli",
+  "homepage": "https://forgem.dev",
+  "repo_url": "https://github.com/marcos99b/forgem",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586523Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586524Z",
+  "repo_url": {
+   "url": "https://github.com/marcos99b/forgem",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @forgem/cli",
+   "registry": "npm",
+   "package": "@forgem/cli",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://forgem.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-04T04:21:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1494,
+  "comment_author": "marcos99b"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "forgem-generate"
+ }
+}

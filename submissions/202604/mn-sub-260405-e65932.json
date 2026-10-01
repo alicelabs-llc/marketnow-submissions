@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260405-e65932",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "obaron-aeo-audit",
+  "version": "1.0.0",
+  "description": "** Scan any website for AI engine readiness — get a 0-100 score in seconds, right from your IDE. Analyzes how visible a website is to AI agents (ChatGPT, Claude, Perplexity, Google AI Overviews) across 6 categories: AI Crawlability, Structured Data, SSR/Rendering, Page Health, Trust, and Discovery. Results include top issues with priority levels and platform-specific fix recommendations. Free to scan.",
+  "author": "adkinn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.obaron.ai/aeo/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586201Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586202Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.obaron.ai/aeo/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-05T05:21:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1509,
+  "comment_author": "adkinn"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "obaron-aeo-audit"
+ }
+}

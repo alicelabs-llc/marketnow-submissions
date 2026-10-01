@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260409-ec78b8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "adops-mcp-cross",
+  "version": "1.0.0",
+  "description": "AdOps MCP AI-powered cross-platform ad management for Google Ads and Meta Ads. - npm: `adops-mcp-server` - GitHub: https://github.com/enzoemir1/adops-mcp - MCP Registry: `io.github.enzoemir1/adops-mcp` Features - 14 MCP tools + 4 MCP resources - Campaign CRUD across Google Ads and Meta Ads - Cross-platform unified performance reporting (ROAS, CPC, CTR, CPA) - AI-powered budget optimization with reallocation recommendations - Statistical anomaly detection (CPC spikes, CTR drops) - A/B test analy",
+  "author": "enzoemir1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/enzoemir1/adops-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585473Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585475Z",
+  "repo_url": {
+   "url": "https://github.com/enzoemir1/adops-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T10:56:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1598,
+  "comment_author": "enzoemir1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "adops-mcp-cross"
+ }
+}

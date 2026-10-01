@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260402-538511",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "gitkit",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: GitKit Server URL: https://launchmymcp.com/api/mcp/gitkit-nextjs-saas-boilerplate/mcp Transport: streamable-http Homepage: https://www.getgitkit.com/ Description Stop building from scratch. The ultimate Next.js 15 SaaS boilerplate with Supabase, Stripe, Razorpay, Drizzle ORM, SQLite and Tailwind CSS built-in. Save 200+ hours of development time. Tools (5) - get_product_overview: Call this tool when a user asks about Next.js boilerplates, SaaS starter templates, or ra",
+  "author": "ayudb1304-wq",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.getgitkit.com/",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586666Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586667Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.getgitkit.com/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-02T13:47:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1453,
+  "comment_author": "ayudb1304-wq"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "gitkit"
+ }
+}

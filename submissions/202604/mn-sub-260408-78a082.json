@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-78a082",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agenthire-ai-job-search-hiring",
+  "version": "1.0.0",
+  "description": "Server Name AgentHire Description AI-native talent marketplace MCP server with 55 tools. Search jobs, apply, interview, and negotiate offers across 20 countries — all from your AI agent. Features - 55 MCP tools across 16 domains (jobs, applications, interviews, offers, matching, feed, conversations, deposits, compliance, reputation, etc.) - No-auth public endpoints — search jobs and browse talent instantly without registration - AI-powered matching — vector-based job-candidate matching with str",
+  "author": "tonypk",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/agenhire",
+  "repo_url": "https://github.com/tonypk/agenhire-cli",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585843Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585846Z",
+  "repo_url": {
+   "url": "https://github.com/tonypk/agenhire-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/agenhire",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T06:12:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1554,
+  "comment_author": "tonypk"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agenthire-ai-job-search-hiring"
+ }
+}

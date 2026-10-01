@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260405-0392e3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "iot-device",
+  "version": "1.0.0",
+  "description": "Server Details Name: iot-device-mcp-server PyPI: https://pypi.org/project/iot-device-mcp-server/ GitHub: https://github.com/AiAgentKarl/iot-device-mcp-server Author: AiAgentKarl Description Generic, open-source MCP Server for IoT Device Management. Register, monitor, and control IoT devices via AI agents. No cloud API key required — all data stored locally. Tools (9) - `register_device` — Register IoT devices (sensors, actuators, gateways, cameras) - `list_devices` — List devices with filters (",
+  "author": "AiAgentKarl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/iot-device-mcp-server/",
+  "repo_url": "https://github.com/AiAgentKarl/iot-device-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586183Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586185Z",
+  "repo_url": {
+   "url": "https://github.com/AiAgentKarl/iot-device-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/iot-device-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-05T10:06:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1511,
+  "comment_author": "AiAgentKarl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "iot-device"
+ }
+}

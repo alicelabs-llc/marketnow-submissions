@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260404-e7bc74",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "respira-wordpress",
+  "version": "1.0.0",
+  "description": "Respira WordPress MCP GitHub: https://github.com/webmyc/respira-wordpress-mcp npm: [@respira/wordpress-mcp-server](https://www.npmjs.com/package/@respira/wordpress-mcp-server) Website: https://respira.press MCP Registry: https://registry.modelcontextprotocol.io/servers/io.github.webmyc/respira-wordpress License: MIT Description The only MCP server with native page builder support. 172 tools for WordPress — element-level editing, full page creation, HTML-to-builder conversion, WCAG accessibility",
+  "author": "webmyc",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @respira/wordpress-mcp-server",
+  "homepage": "https://www.npmjs.com/package/@respira/wordpress-mcp-server",
+  "repo_url": "https://github.com/webmyc/respira-wordpress-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586330Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586340Z",
+  "repo_url": {
+   "url": "https://github.com/webmyc/respira-wordpress-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @respira/wordpress-mcp-server",
+   "registry": "npm",
+   "package": "@respira/wordpress-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@respira/wordpress-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-04T14:44:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1499,
+  "comment_author": "webmyc"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "respira-wordpress"
+ }
+}

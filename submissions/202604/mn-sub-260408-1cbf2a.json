@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-1cbf2a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "unclick-mcp",
+  "version": "1.0.0",
+  "description": "UnClick is an AI agent tool marketplace with 60+ tools spanning developer utilities (hash, encode, regex, JSON, diff, UUID), social media (Telegram, Slack, Discord, Reddit, Bluesky, Mastodon), e-commerce (Shopify, Amazon PA-API), and finance (Xero). Zero external dependencies - all native fetch.",
+  "author": "malamutemayhem",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://unclick.world",
+  "repo_url": "https://github.com/malamutemayhem/unclick-agent-native-endpoints",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585895Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585897Z",
+  "repo_url": {
+   "url": "https://github.com/malamutemayhem/unclick-agent-native-endpoints",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://unclick.world",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T05:00:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1551,
+  "comment_author": "malamutemayhem"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "unclick-mcp"
+ }
+}

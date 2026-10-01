@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-42046d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "profitplay",
+  "version": "1.0.0",
+  "description": "** MCP server for AI agents to compete in real-time prediction markets (BTC, ETH, SOL, S&P 500, Gold, and more).",
+  "author": "jarvismaximum-hue",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://profitplay-1066795472378.us-east1.run.app/agents",
+  "repo_url": "https://github.com/jarvismaximum-hue/profitplay-starter",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585667Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585669Z",
+  "repo_url": {
+   "url": "https://github.com/jarvismaximum-hue/profitplay-starter",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://profitplay-1066795472378.us-east1.run.app/agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T20:48:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1580,
+  "comment_author": "jarvismaximum-hue"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "profitplay"
+ }
+}

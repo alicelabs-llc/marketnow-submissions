@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-01545a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cortexpilot-read-only-mcp",
+  "version": "1.0.0",
+  "description": "** Read-only CortexPilot MCP server for workflows, queue state, proof, replay, and incident summaries.",
+  "author": "xiaojiou176",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/cortexpilot-orchestrator/",
+  "repo_url": "https://github.com/xiaojiou176-open/CortexPilot-public",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585804Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585805Z",
+  "repo_url": {
+   "url": "https://github.com/xiaojiou176-open/CortexPilot-public",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/cortexpilot-orchestrator/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T08:43:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1559,
+  "comment_author": "xiaojiou176"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cortexpilot-read-only-mcp"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260330-c47d81",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mooring",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Mooring Repository: https://github.com/seayniclabs/mooring Author: Seaynic Labs Description Git and GitHub operations from any MCP client — repo status, log, diff, stash, branches, PR management, issues, and GitHub Actions. Details | Field | Value | |-------|-------| | Transport | stdio | | Tools | 12 | | Auth | None | | Category | Developer Tools | | License | MIT | Installation ```bash pip install mooring-mcp ```",
+  "author": "charlieseay",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/seayniclabs/mooring",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586960Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586962Z",
+  "repo_url": {
+   "url": "https://github.com/seayniclabs/mooring",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T20:09:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1398,
+  "comment_author": "charlieseay"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mooring"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260410-9039a0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "playwright-sessions",
+  "version": "1.0.0",
+  "description": "** Persistent browser sessions for AI agents — save/restore auth across restarts, clone safely, detect expired logins from cookie metadata, manage multiple isolated contexts. Fork of microsoft/playwright-mcp with session management layer.",
+  "author": "gabrielantonyxaviour",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/playwright-sessions",
+  "repo_url": "https://github.com/gabrielantonyxaviour/playwright-sessions",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585325Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585326Z",
+  "repo_url": {
+   "url": "https://github.com/gabrielantonyxaviour/playwright-sessions",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/playwright-sessions",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T07:23:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1612,
+  "comment_author": "gabrielantonyxaviour"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "playwright-sessions"
+ }
+}

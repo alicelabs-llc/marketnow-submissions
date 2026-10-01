@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260408-04d71f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "slm-mesh",
+  "version": "1.0.0",
+  "description": "Name: SLM Mesh Repo: https://github.com/qualixar/slm-mesh npm: slm-mesh | PyPI: slm-mesh | License: MIT Install: `npx slm-mesh` Peer-to-peer communication for AI coding agents. 8 MCP tools for peer discovery, messaging, broadcast, shared state, file locking, and real-time events. Works with any MCP agent (Claude Code, Cursor, Aider, Windsurf, Codex). 480 tests, 100% line coverage, bearer token auth.",
+  "author": "varun369",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/qualixar/slm-mesh",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585706Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585708Z",
+  "repo_url": {
+   "url": "https://github.com/qualixar/slm-mesh",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T11:35:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1565,
+  "comment_author": "varun369"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "slm-mesh"
+ }
+}

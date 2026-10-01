@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260404-dd768e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agntk-zero-config",
+  "version": "1.0.0",
+  "description": "agntk GitHub: https://github.com/Phoenixrr2113/agntk npm: `npx agntk` License: MIT Description Zero-config AI agent CLI. Install and point at problems — no API keys required. Hardware-aware local model detection, persistent named agents, and 20+ built-in tools out of the box. Features - Zero config — works immediately with `npx agntk`, no API keys needed - Hardware-aware local models — auto-detects Ollama and selects appropriate models - Persistent named agents — create agents that remember con",
+  "author": "Phoenixrr2113",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Phoenixrr2113/agntk",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586470Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586472Z",
+  "repo_url": {
+   "url": "https://github.com/Phoenixrr2113/agntk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-04T13:18:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1498,
+  "comment_author": "Phoenixrr2113"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agntk-zero-config"
+ }
+}

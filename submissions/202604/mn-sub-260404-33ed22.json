@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260404-33ed22",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "auto-dev",
+  "version": "1.0.0",
+  "description": "** VIN decode, vehicle listings, payments, recalls, specs, and more — via MCP tools, CLI, SDK, or direct API. One install covers everything.",
+  "author": "bryant22",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/drivly/auto-dev-skill",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586293Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586295Z",
+  "repo_url": {
+   "url": "https://github.com/drivly/auto-dev-skill",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-04T19:38:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1503,
+  "comment_author": "bryant22"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "auto-dev"
+ }
+}

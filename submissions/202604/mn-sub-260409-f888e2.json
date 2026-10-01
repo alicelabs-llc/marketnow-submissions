@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260409-f888e2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sourcebook",
+  "version": "1.0.0",
+  "description": "** Live codebase intelligence for AI agents — conventions, blast radius, import graphs, git insights. 8 MCP tools.",
+  "author": "rharper105",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y sourcebook",
+  "homepage": "https://sourcebook.run",
+  "repo_url": "https://github.com/maroondlabs/sourcebook",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585425Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585426Z",
+  "repo_url": {
+   "url": "https://github.com/maroondlabs/sourcebook",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y sourcebook",
+   "registry": "npm",
+   "package": "sourcebook",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://sourcebook.run",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T20:46:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1605,
+  "comment_author": "rharper105"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sourcebook"
+ }
+}

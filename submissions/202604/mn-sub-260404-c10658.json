@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260404-c10658",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "spawnpay-mcp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Spawnpay - npm: [spawnpay-mcp](https://www.npmjs.com/package/spawnpay-mcp) - GitHub: [github.com/Robocular/spawnpay](https://github.com/Robocular/spawnpay) - Website: [spawnpay.ai](https://spawnpay.ai) - MCP Registry: `io.github.Robocular/spawnpay` - Install: `npx spawnpay-mcp` Description Spawnpay is an MCP server that gives AI agents crypto wallets, payments, and 3-level referral earnings on Base L2. It enables any AI agent to create wallets, send/receive USDC, check balan",
+  "author": "Robocular",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/spawnpay-mcp",
+  "repo_url": "https://github.com/Robocular/spawnpay",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586232Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586233Z",
+  "repo_url": {
+   "url": "https://github.com/Robocular/spawnpay",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/spawnpay-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-04T23:57:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1507,
+  "comment_author": "Robocular"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "spawnpay-mcp"
+ }
+}

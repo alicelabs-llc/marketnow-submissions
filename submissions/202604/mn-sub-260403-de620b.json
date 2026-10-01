@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260403-de620b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialbu",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: SocialBu MCP Server Server URL: https://socialbu.com/mcp Transport: streamable-http Homepage: https://socialbu.com/mcp-server Description SocialBu MCP lets AI assistants create, schedule, publish, approve, and analyze social media content directly from chat across connected social accounts. It supports both OAuth-capable clients and bearer-token authentication for teams that want to automate publishing and analytics workflows inside their MCP clients. Connection Info",
+  "author": "usamaejaz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://socialbu.com/mcp-server",
+  "repo_url": "https://github.com/usamaejaz/socialbu-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586587Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586589Z",
+  "repo_url": {
+   "url": "https://github.com/usamaejaz/socialbu-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://socialbu.com/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-03T02:57:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1478,
+  "comment_author": "usamaejaz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialbu"
+ }
+}

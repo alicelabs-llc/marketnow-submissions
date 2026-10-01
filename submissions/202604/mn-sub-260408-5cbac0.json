@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-5cbac0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "qr-business-cards",
+  "version": "1.0.0",
+  "description": "Server Name QR Business Cards Server URL https://qr-business-cards.com/api/mcp GitHub Repository https://github.com/ajfrai/qr-business-cards-mcp Description Create professional QR business cards through any MCP-compatible AI assistant. No API key required. Tools: - `create_profile` — Create a QR business card profile with name, title, email, phone, bio, social links, and theme - `get_profile` — Look up an existing profile by ID - `get_packages` — Get available packages and pricing Each profile",
+  "author": "ajfrai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://qr-business-cards.com/api/mcp",
+  "repo_url": "https://github.com/ajfrai/qr-business-cards-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585755Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585757Z",
+  "repo_url": {
+   "url": "https://github.com/ajfrai/qr-business-cards-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://qr-business-cards.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T10:03:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1562,
+  "comment_author": "ajfrai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "qr-business-cards"
+ }
+}

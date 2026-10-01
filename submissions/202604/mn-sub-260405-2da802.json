@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260405-2da802",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "voidly-mcp-email",
+  "version": "1.0.0",
+  "description": "** Agent-native encrypted email MCP server. Create @voidmail.ai inboxes with one API call, send/receive, full-text search, disposable aliases, webhooks. No phone, no CAPTCHA. E2E encryption option.",
+  "author": "EmperorMew",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@voidly/mcp-email",
+  "repo_url": "https://github.com/voidly-ai/mcp-email",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586079Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586081Z",
+  "repo_url": {
+   "url": "https://github.com/voidly-ai/mcp-email",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@voidly/mcp-email",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-05T16:41:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1522,
+  "comment_author": "EmperorMew"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "voidly-mcp-email"
+ }
+}

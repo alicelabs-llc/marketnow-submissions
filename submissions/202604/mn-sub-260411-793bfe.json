@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260411-793bfe",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "skilldrunk-reddit",
+  "version": "1.0.0",
+  "description": "skilldrunk is the Reddit for AI skills — a community-driven catalog of Claude Skills, GPTs, MCP servers, Cursor rules, and prompts with upvotes, reviews, and discussion. This MCP server lets Claude Desktop, Cursor, Windsurf, and other MCP-compatible clients search, inspect, rate, and discuss skills directly from the chat.",
+  "author": "LuciFeRADoNiS",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @skilldrunk/mcp",
+  "homepage": "https://skilldrunk.com",
+  "repo_url": "https://github.com/LuciFeRADoNiS/skilldrunk",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585022Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585024Z",
+  "repo_url": {
+   "url": "https://github.com/LuciFeRADoNiS/skilldrunk",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @skilldrunk/mcp",
+   "registry": "npm",
+   "package": "@skilldrunk/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://skilldrunk.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-11T20:58:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1641,
+  "comment_author": "LuciFeRADoNiS"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "skilldrunk-reddit"
+ }
+}

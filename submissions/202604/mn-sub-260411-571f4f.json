@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260411-571f4f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "doktor-mx-medical-directory-for-mexico",
+  "version": "1.0.0",
+  "description": "Add Doktor.mx MCP Server - Name: Doktor.mx - Description: MCP Server for searching verified doctors in Mexico. Search by specialty, city, state and book appointments. - GitHub: https://github.com/VanguardiaAI/doktor-mcp-server - Endpoint: https://api.doktor.mx/mcp - Category: Healthcare - Tools: buscar_doctor, ver_perfil, especialidades_disponibles, ciudades_disponibles, estados_disponibles - Website: https://doktor.mx",
+  "author": "VanguardiaAI",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.doktor.mx/mcp",
+  "repo_url": "https://github.com/VanguardiaAI/doktor-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585057Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585059Z",
+  "repo_url": {
+   "url": "https://github.com/VanguardiaAI/doktor-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.doktor.mx/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-11T15:19:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1637,
+  "comment_author": "VanguardiaAI"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "doktor-mx-medical-directory-for-mexico"
+ }
+}

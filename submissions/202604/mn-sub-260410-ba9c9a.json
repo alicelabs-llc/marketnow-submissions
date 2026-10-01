@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260410-ba9c9a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pay-usdc-payments-for-ai-agents-on-base",
+  "version": "1.0.0",
+  "description": "** USDC payments for AI agents on Base. Direct payments, metered tabs, x402 HTTP paywalls, service discovery.",
+  "author": "pay-skill",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pay-skill.com",
+  "repo_url": "https://github.com/pay-skill/pay-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585241Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585242Z",
+  "repo_url": {
+   "url": "https://github.com/pay-skill/pay-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pay-skill.com",
+   "ok": false,
+   "status": 530
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T18:32:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1620,
+  "comment_author": "pay-skill"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pay-usdc-payments-for-ai-agents-on-base"
+ }
+}

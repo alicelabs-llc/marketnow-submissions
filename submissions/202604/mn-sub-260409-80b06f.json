@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260409-80b06f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "code-analyze",
+  "version": "1.0.0",
+  "description": "Server Name code-analyze-mcp GitHub URL https://github.com/clouatre-labs/code-analyze-mcp Description Standalone MCP server for code structure analysis using tree-sitter. Gives AI agents precise structural context about a codebase: directory trees, symbol definitions, and call graphs, without reading raw source files. Supports Rust, Python, Go, Java, TypeScript, Fortran, JavaScript, C/C++, and C. Benchmarked up to 68% fewer tokens than native tools (Claude Code against OpenFAST Fortran source t",
+  "author": "clouatre",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/clouatre-labs/code-analyze-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585374Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585376Z",
+  "repo_url": {
+   "url": "https://github.com/clouatre-labs/code-analyze-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T22:34:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1608,
+  "comment_author": "clouatre"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "code-analyze"
+ }
+}

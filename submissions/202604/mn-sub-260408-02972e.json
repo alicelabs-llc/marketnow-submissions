@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-02972e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "paidsync-ai",
+  "version": "1.0.0",
+  "description": "Server Details Name: PaidSync.ai URL: https://paidsync.ai GitHub: https://github.com/traffiycom-ui/paidsync-mcp-server Author: Ahmed Ashraf Description PaidSync.ai is an MCP server that gives AI assistants (Claude, ChatGPT, Gemini) full read and write access to Google Ads, Meta Ads, and LinkedIn Ads. 200+ tools across three platforms. Create campaigns, adjust budgets, pull reports, manage audiences, run audits, and optimize performance — all through natural conversation. Key Features - Google A",
+  "author": "traffiy",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://paidsync.ai",
+  "repo_url": "https://github.com/traffiycom-ui/paidsync-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585723Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585725Z",
+  "repo_url": {
+   "url": "https://github.com/traffiycom-ui/paidsync-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://paidsync.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T11:30:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1564,
+  "comment_author": "traffiy"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "paidsync-ai"
+ }
+}

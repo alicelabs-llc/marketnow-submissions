@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260401-e1dadc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "toreva-durable",
+  "version": "1.0.0",
+  "description": "Server information - Name: Toreva - GitHub: https://github.com/toreva/kit - npm: `@toreva/mcp@0.2.0` - Official MCP Registry: `io.github.toreva/kit` - Hosted connector: https://gateway.toreva.com/mcp - Claude install: https://toreva.com/connect-claude?utm_source=github&utm_medium=mcpso&utm_campaign=first_real_goal&utm_content=mcpso_issue_1424 - Website: https://toreva.com - License: MIT What is usable now Toreva Kit is a public thin MCP client for policy-checked, user-controlled actions. Its cu",
+  "author": "gapview01",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gateway.toreva.com/mcp",
+  "repo_url": "https://github.com/toreva/kit",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.586746Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.586747Z",
+  "repo_url": {
+   "url": "https://github.com/toreva/kit",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gateway.toreva.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-01T02:49:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1424,
+  "comment_author": "gapview01"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "toreva-durable"
+ }
+}

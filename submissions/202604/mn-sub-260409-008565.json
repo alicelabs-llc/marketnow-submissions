@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260409-008565",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "siliq",
+  "version": "1.0.0",
+  "description": "Verified computation marketplace for AI agents. 23 services: constraint solving (OR-Tools CP-SAT), FHE encryption (TFHE + CKKS), private set intersection (ECDH + ZK), schedule optimization, quality oracles, Shapley attribution. Pay per invocation via x402 USDC on Base.",
+  "author": "Euda1mon1a",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://siliq.io",
+  "repo_url": "https://github.com/Euda1mon1a/siliq",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585391Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585392Z",
+  "repo_url": {
+   "url": "https://github.com/Euda1mon1a/siliq",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://siliq.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T22:33:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1607,
+  "comment_author": "Euda1mon1a"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "siliq"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260409-180ce9",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "razuna-and-helpmonks-hosted-mcp-servers",
+  "version": "1.0.0",
+  "description": "Submit MCP Servers: Razuna and Helpmonks Razuna MCP Server - Name: Razuna - URL: https://razuna.com - MCP Server URL: https://mcp.razuna.com/mcp - Transport: Streamable HTTP - Auth: `access-token` header - Description: Digital asset management platform with AI-powered file search, semantic similarity, workspace management, folder trees, notes, and memory. 59 tools. - Category: Knowledge & Memory / File Management Helpmonks MCP Server - Name: Helpmonks - URL: https://helpmonks.com - MCP Server U",
+  "author": "thenitai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.razuna.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585622Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585623Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.razuna.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T00:36:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1584,
+  "comment_author": "thenitai"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "razuna-and-helpmonks-hosted-mcp-servers"
+ }
+}

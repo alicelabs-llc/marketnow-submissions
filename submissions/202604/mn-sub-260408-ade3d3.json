@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260408-ade3d3",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "minha-morada",
+  "version": "1.0.0",
+  "description": "Server Name Minha Morada Description Search Portuguese real estate — apartments and houses for sale or rent across all 18 districts of Portugal. Aggregates ~10,500 properties from Imovirtual, Idealista, and RE/MAX, updated weekly. MCP Endpoint - URL: https://minhamorada.pt/api/mcp - Transport: Streamable HTTP - Discovery: https://minhamorada.pt/.well-known/mcp.json Tools | Tool | Description | |------|-------------| | `search_properties` | Search properties with filters (district, typology, pri",
+  "author": "rafaellopes",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://minhamorada.pt/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585689Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585691Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://minhamorada.pt/api/mcp",
+   "ok": false,
+   "status": 410
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T18:16:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1574,
+  "comment_author": "rafaellopes"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "minha-morada"
+ }
+}

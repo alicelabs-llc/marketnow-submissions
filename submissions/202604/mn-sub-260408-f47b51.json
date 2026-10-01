@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260408-f47b51",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "leadpipe-invoiceflow",
+  "version": "1.0.0",
+  "description": "Hi! I'd like to submit 3 MCP servers for listing on mcp.so: 1. LeadPipe MCP — AI-powered CRM & Lead Pipeline - GitHub: https://github.com/enzoemir1/leadpipe-mcp - npm: `leadpipe-mcp-server` - Registry: `io.github.enzoemir1/leadpipe-mcp` - Category: CRM / Sales - Tools: 8 (lead ingestion, batch import, AI enrichment, scoring 0-100, search, export to HubSpot/Pipedrive/Sheets, pipeline stats, scoring config) - Resources: 3 2. InvoiceFlow MCP — Invoice & Financial Management - GitHub: https://github",
+  "author": "enzoemir1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/enzoemir1/leadpipe-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585739Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585741Z",
+  "repo_url": {
+   "url": "https://github.com/enzoemir1/leadpipe-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T11:23:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1563,
+  "comment_author": "enzoemir1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "leadpipe-invoiceflow"
+ }
+}

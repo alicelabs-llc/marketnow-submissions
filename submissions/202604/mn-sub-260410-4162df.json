@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260410-4162df",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "bytario-mcp-file-utility-api",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Bytario - npm: [@bytario/mcp](https://www.npmjs.com/package/@bytario/mcp) - Homepage: https://api.bytario.com - Author: DMG L&D, LLC Description 40 MCP tools for image conversion (JPEG/PNG/WebP/AVIF), PDF operations (merge, split, rotate, watermark, extract text, fill forms, compress, protect), QR/barcode generation and reading, data encoding (Base64, URL, JSON, CSV), file hashing and type detection, text processing (word count, diff, Markdown→HTML), color conversion, and SV",
+  "author": "helloderekg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@bytario/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:14.585194Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:14.585195Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@bytario/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T22:36:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1625,
+  "comment_author": "helloderekg"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "bytario-mcp-file-utility-api"
+ }
+}
