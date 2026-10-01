@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-3d5582",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "markuprplus-visual-feedback-for-ai-coding-agents",
+  "version": "1.0.0",
+  "description": "# MarkuprPlus — visual feedback for AI coding agents Repository: https://github.com/hashfunction/MarkuprPlus Website and walkthrough: https://markuprplus.com MarkuprPlus records screen and voice, then turns a narrated UI review into structured Markdown with screenshots and timestamps. The desktop workflow lets you mark problems on a live window and saves each mark as a separate finding with its own annotated image. The local MCP server exposes nine tools for screenshots, screen-and-voice recordi",
+  "author": "hashfunction",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://markuprplus.com",
+  "repo_url": "https://github.com/hashfunction/MarkuprPlus",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:44.017903Z",
+  "duration_ms": 1200,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:44.017926Z",
+  "repo_url": {
+   "url": "https://github.com/hashfunction/MarkuprPlus",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://markuprplus.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:44.017929Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "markuprplus-visual-feedback-for-ai-coding-agents"
+ }
+}
