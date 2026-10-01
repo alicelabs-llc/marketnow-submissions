@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-ee0b47",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vibe-prospecting",
+  "version": "1.0.0",
+  "description": "Vibe Prospecting Name: Vibe Prospecting Description: B2B company and contact intelligence for prospecting workflows. Power your chat with live B2B data to create lead lists, research companies, enrich contacts, personalize outreach, and inspect business signals, technology stacks, events, and website changes. MCP URL: https://vibeprospecting.explorium.ai/mcp Category: Marketing / Sales / Data Homepage: https://vibeprospecting.ai Repository: https://github.com/explorium-ai/vibeprospecting-mcp Aut",
+  "author": "shaharluftig-exp",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vibeprospecting.explorium.ai/mcp",
+  "repo_url": "https://github.com/explorium-ai/vibeprospecting-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:02.343Z",
+  "duration_ms": 457,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:02.343Z",
+  "repo_url": {
+   "url": "https://github.com/explorium-ai/vibeprospecting-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vibeprospecting.explorium.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:34f292ef4d81",
+ "submitted_at": "2026-10-01T04:09:02.343Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vibe-prospecting"
+ }
+}
