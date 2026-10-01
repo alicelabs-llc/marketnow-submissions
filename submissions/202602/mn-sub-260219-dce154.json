@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260219-dce154",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "better-mcp-notion",
+  "version": "1.0.0",
+  "description": "# better-mcp-notion GitHub: https://github.com/ai-aviate/better-mcp-notion npm: https://www.npmjs.com/package/better-mcp-notion MCP Registry: io.github.ai-aviate/better-notion An MCP server that lets you operate Notion with a single Markdown document (YAML frontmatter + body). Read, create, and update pages in a single call — no more multiple round-trips. Features - 9 tools (read, write, search, list, update, schema, comment, delete, move) - Markdown-first: frontmatter for properties, body for c",
+  "author": "takumi-zer0",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/better-mcp-notion",
+  "repo_url": "https://github.com/ai-aviate/better-mcp-notion",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:53.657602Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:53.657626Z",
+  "repo_url": {
+   "url": "https://github.com/ai-aviate/better-mcp-notion",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/better-mcp-notion",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-19T11:58:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3926805534,
+  "comment_author": "takumi-zer0"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "better-mcp-notion"
+ }
+}
