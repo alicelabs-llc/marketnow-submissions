@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260410-19f2ff",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "xenarch-agent-mcp",
+  "version": "1.0.0",
+  "description": "Server Name: Xenarch Agent MCP Description: MCP server for AI agents to discover and pay for content via USDC micropayments on Base. Three tools: check_gate (discover pricing), pay (execute payment), get_history (view past payments). No API keys, no signup — agents pay directly on-chain. GitHub: https://github.com/xenarch-ai/xenarch-mcp npm: @xenarch/agent-mcp Install: npx @xenarch/agent-mcp Tags: payments, micropayments, USDC, x402, ai-agent, Base blockchain Website: https://xenarch.com",
+  "author": "mihneadevries",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://xenarch.com",
+  "repo_url": "https://github.com/xenarch-ai/xenarch-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:01.209659Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:01.209684Z",
+  "repo_url": {
+   "url": "https://github.com/xenarch-ai/xenarch-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://xenarch.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T06:05:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4221347176,
+  "comment_author": "mihneadevries"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "xenarch-agent-mcp"
+ }
+}
