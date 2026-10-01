@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:07:26.227Z",
+ "updated_at": "2026-10-01T04:07:38.939Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3755,6 +3755,18 @@
    "from": "ip:e0fe80bab20a",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-be928d.json"
+  },
+  {
+   "id": "mn-sub-261001-c8d094",
+   "name": "vikasny30aletheia-mcp",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 38,
+   "submitted_at": "2026-10-01T04:07:38.174Z",
+   "from": "ip:e0fe80bab20a",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-c8d094.json"
   }
  ],
  "l2_pass": {
