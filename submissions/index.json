@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:10.572Z",
+ "updated_at": "2026-10-01T04:09:14.093Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3971,6 +3971,18 @@
    "from": "ip:34f292ef4d81",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-291dc3.json"
+  },
+  {
+   "id": "mn-sub-261001-c3a339",
+   "name": "synapselayersynapse-layer-httpsgithubcomsynapselayersynapse-",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:09:13.116Z",
+   "from": "ip:217a7483d6ba",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-c3a339.json"
   }
  ],
  "l2_pass": {
