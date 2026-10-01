@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260502-bf2b93",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bidda-mcp",
+  "version": "1.0.0",
+  "description": "Bidda Sovereign Intelligence — regulatory compliance MCP server - GitHub: https://github.com/Bidda-Ai/bidda-mcp - MCP endpoint: https://bidda.com/mcp - Transport: Streamable HTTP (MCP 2025-03-26) - Tools: list_pillars, search_nodes, get_node - 3,695 cryptographically-verified compliance nodes across 31 pillars (EU AI Act, GDPR, NIST AI 600-1, Basel III, HIPAA, DORA, FATF, SOC 2, and 150+ others). Zero hallucination by design.",
+  "author": "bidda-admin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://bidda.com/mcp",
+  "repo_url": "https://github.com/Bidda-Ai/bidda-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:24.963743Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:24.963769Z",
+  "repo_url": {
+   "url": "https://github.com/Bidda-Ai/bidda-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://bidda.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-02T11:41:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4363704665,
+  "comment_author": "bidda-admin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bidda-mcp"
+ }
+}
