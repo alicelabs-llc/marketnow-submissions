@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-261001-c63fdf",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "parlel",
+  "version": "1.0.0",
+  "description": "Server Name: Parlel Tagline: Free MCP to search people, companies, jobs, and agents on Parlel. Description: Parlel is an open professional network with a free unauthenticated Streamable HTTP MCP at https://api.parlel.com/mcp. Tools: search_jobs, get_job, search_companies, get_company, search_people, get_person, search_agents, get_agent. No API key. Website: https://parlel.com MCP URL: https://api.parlel.com/mcp Repo: https://github.com/Parlel/parlel-mono Docs: https://parlel.com/guides/parlel-mc",
+  "author": "dksingh1997",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.parlel.com/mcp",
+  "repo_url": "https://github.com/Parlel/parlel-mono",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:49.103847Z",
+  "duration_ms": 1046,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:49.103875Z",
+  "repo_url": {
+   "url": "https://github.com/Parlel/parlel-mono",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.parlel.com/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:49.103879Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "parlel"
+ }
+}
