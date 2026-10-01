@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260621-30f4a9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-osascript",
+  "version": "1.0.0",
+  "description": "Server Info - Name: mcp-osascript - Repository: https://github.com/m0rvayne/mcp-osascript - npm: https://www.npmjs.com/package/mcp-osascript - Install: `npx mcp-osascript` - Category: OS Automation - Platform: macOS Description MCP server for macOS automation via AppleScript and JXA. 12 typed tools with input validation and security guardrails: - Clipboard (get/set) - Window management (list/move/resize/minimize/fullscreen/close) - App menu navigation with self-correcting click - Keyboard input",
+  "author": "m0rvayne",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/mcp-osascript",
+  "repo_url": "https://github.com/m0rvayne/mcp-osascript",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981697Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981698Z",
+  "repo_url": {
+   "url": "https://github.com/m0rvayne/mcp-osascript",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mcp-osascript",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-21T09:52:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2864,
+  "comment_author": "m0rvayne"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-osascript"
+ }
+}

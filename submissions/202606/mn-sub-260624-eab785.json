@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260624-eab785",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "notarize",
+  "version": "1.0.0",
+  "description": "** Canonical trace format and verifier for agent execution attestation",
+  "author": "sandeep-alluru",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx notarize-mcp",
+  "homepage": "https://pypi.org/project/notarize-ai/",
+  "repo_url": "https://github.com/sandeep-alluru/notarize",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981468Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981469Z",
+  "repo_url": {
+   "url": "https://github.com/sandeep-alluru/notarize",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/notarize-ai/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-24T22:33:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2904,
+  "comment_author": "sandeep-alluru"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "notarize"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260614-7597d1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "caelus-mcp-astrology-ephemeris",
+  "version": "1.0.0",
+  "description": "Project: caelus-mcp Repo: https://github.com/heavyblotto/caelus npm: https://www.npmjs.com/package/caelus-mcp Official MCP Registry: `io.github.heavyblotto/caelus-mcp` — https://registry.modelcontextprotocol.io/v0/servers?search=io.github.heavyblotto/caelus-mcp GitHub Release: https://github.com/heavyblotto/caelus/releases/tag/v0.12.1 Homepage: https://ephemengine.com License: MIT Category: Science / Research / Data & Analytics Description caelus-mcp serves a clean-room astrological ephemeris en",
+  "author": "heavyblotto",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/caelus-mcp",
+  "repo_url": "https://github.com/heavyblotto/caelus",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982250Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982251Z",
+  "repo_url": {
+   "url": "https://github.com/heavyblotto/caelus",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/caelus-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-14T15:11:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2810,
+  "comment_author": "heavyblotto"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "caelus-mcp-astrology-ephemeris"
+ }
+}

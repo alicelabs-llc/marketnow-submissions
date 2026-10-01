@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260702-41a763",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "fitfly-engine",
+  "version": "1.0.0",
+  "description": "** A real training + nutrition brain your AI agent can call. Deterministic engine (not an LLM wrapper): personalized programs, double-progression/e1RM tracking with PR detection, daily readiness autoregulation (energy/sleep/soreness reshapes the session), same-muscle exercise swaps, calorie/macro targets, USDA-truth-checked meal plans, and an auditable 'what changed & why' changelog. 10 tools. The engine does the math, rules, and safety — the agent does the conversation.",
+  "author": "dropflyai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://workout-engine-production-5dd7.up.railway.app/mcp",
+  "repo_url": "https://github.com/dropflyai/fitfly-engine",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980861Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980863Z",
+  "repo_url": {
+   "url": "https://github.com/dropflyai/fitfly-engine",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://workout-engine-production-5dd7.up.railway.app/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-02T04:46:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2980,
+  "comment_author": "dropflyai"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "fitfly-engine"
+ }
+}

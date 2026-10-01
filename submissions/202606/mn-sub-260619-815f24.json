@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260619-815f24",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "public-grants",
+  "version": "1.0.0",
+  "description": "Server name: Public Grants MCP endpoint: https://grants.mrchief.ai/mcp/ Transport: Streamable HTTP (remote) Grants advisor for French startups and AI agents. Traditional grant consultants charge EUR 2,000-5,000 + success fees. Public Grants: free discovery, EUR 49/dossier. 21 tools + 3 guided prompts: - Onboarding: profile pre-fill (SIRENE registry), profile enrichment (auto-enrichment + customisable input), guided questions - Discovery: search 49 programmes, per-rule eligibility check (pass/fai",
+  "author": "Peiyaooooo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://grants.mrchief.ai/mcp/",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981796Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981797Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://grants.mrchief.ai/mcp/",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-19T11:50:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2855,
+  "comment_author": "Peiyaooooo"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "public-grants"
+ }
+}

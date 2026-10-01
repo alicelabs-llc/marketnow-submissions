@@ -1,0 +1,68 @@
+{
+ "id": "mn-sub-260614-1569f3",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "exactpdf",
+  "version": "1.0.0",
+  "description": "Server ExactPDF MCP Package `@exactpdf/mcp` Install `npx -y @exactpdf/mcp` Repository https://github.com/smmallya/ExactPDF/tree/main/packages/exactpdf-mcp Website https://exactpdf.com/mcp Demo - GIF: https://exactpdf.com/demos/exactpdf-mcp-demo.gif - MP4: https://exactpdf.com/demos/exactpdf-mcp-demo.mp4 - Logo: https://exactpdf.com/demos/exactpdf-mcp-logo.png Description ExactPDF MCP gives Claude, Cursor, Cline, VS Code, Codex, and other AI agents private PDF workflows: compress, merge, split,",
+  "author": "smmallya",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @exactpdf/mcp",
+  "homepage": "https://exactpdf.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982218Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982220Z",
+  "repo_url": null,
+  "install": {
+   "command": "npx -y @exactpdf/mcp",
+   "registry": "npm",
+   "package": "@exactpdf/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://exactpdf.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-14T15:42:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2812,
+  "comment_author": "smmallya"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "exactpdf"
+ }
+}

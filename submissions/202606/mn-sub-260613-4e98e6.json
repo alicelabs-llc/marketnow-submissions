@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260613-4e98e6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ophis-mcp",
+  "version": "1.0.0",
+  "description": "** Agent-first intent-based DEX aggregator (a self-hosted CoW Protocol fork). Parse a plain-English swap into a structured intent, fetch a best-execution quote, build a bounded ready-to-sign EIP-712 CoW order (the receiver is pinned to the owner so proceeds cannot leave the account), relay a pre-signed order, and look up a wallet's fee-rebate tier. The server holds no keys and never signs: the calling agent signs locally. Live on Optimism (own GPv2Settlement) and routes Ethereum, Base, Arbitrum,",
+  "author": "san-npm",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.ophis.fi/mcp",
+  "repo_url": "https://github.com/ophis-fi/ophis",
+  "license": "GPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982368Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982369Z",
+  "repo_url": {
+   "url": "https://github.com/ophis-fi/ophis",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.ophis.fi/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-13T00:01:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2786,
+  "comment_author": "san-npm"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ophis-mcp"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260630-925125",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "loop-mcp",
+  "version": "1.0.0",
+  "description": "Type MCP Server Name loop-mcp URL https://github.com/Loop-XXI/loop-mcp Remote endpoint https://mcp.loopxxi.com/mcp Description L402-native MCP server for AI agents. Five Bitcoin/Lightning tools priced 10-25 sats per call, plus fiat credit keys. Categories / tags mcp, lightning, bitcoin, l402, micropayments, agent-payments, finance, developer-tools Server config ```json { \"mcpServers\": { \"loop-mcp\": { \"type\": \"streamable-http\", \"url\": \"https://mcp.loopxxi.com/mcp\" } } } ``` Notes Official MCP Re",
+  "author": "Loop-XXI",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.loopxxi.com/mcp",
+  "repo_url": "https://github.com/Loop-XXI/loop-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981022Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981023Z",
+  "repo_url": {
+   "url": "https://github.com/Loop-XXI/loop-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.loopxxi.com/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-30T14:54:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2962,
+  "comment_author": "Loop-XXI"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "loop-mcp"
+ }
+}

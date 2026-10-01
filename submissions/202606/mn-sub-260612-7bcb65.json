@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260612-7bcb65",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aetherwave-studio-mcp",
+  "version": "1.0.0",
+  "description": "Please add the following MCP server to mcp.so: - Name: AetherWave Studio - GitHub: https://github.com/AetherWave-Studio/aetherwave-mcp - npm: `@aetherwave-studio/mcp` - Category: AI / Media Generation - License: MIT - Official MCP Registry: io.github.AetherWave-Studio/aetherwave-mcp - Description: One MCP tool surface (16 tools) for music, image, video, and audio generation across Suno, Grok Imagine, Seedance, Kling, Hailuo, Wan, VEO, Ideogram, and GPT Image 2. Generate, edit, upscale, reframe,",
+  "author": "AetherWave-Studio",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @aetherwave-studio/mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/AetherWave-Studio/aetherwave-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982384Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982386Z",
+  "repo_url": {
+   "url": "https://github.com/AetherWave-Studio/aetherwave-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @aetherwave-studio/mcp",
+   "registry": "npm",
+   "package": "@aetherwave-studio/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-12T22:21:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2785,
+  "comment_author": "AetherWave-Studio"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aetherwave-studio-mcp"
+ }
+}

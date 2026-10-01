@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260617-1536b7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "io-github-frumane-gecko",
+  "version": "1.0.0",
+  "description": "An MCP server that lets AI assistants drive Firefox-based browsers — Floorp, LibreWolf, Waterfox, Zen, Mullvad, Firefox — over Floorp's automation API or Marionette/WebDriver. Read pages, screenshot, click, fill forms and manage tabs in your real, logged-in session. \"Claude in Chrome\", but for the whole Gecko family.",
+  "author": "Frumane",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Frumane/gecko-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982035Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982037Z",
+  "repo_url": {
+   "url": "https://github.com/Frumane/gecko-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-17T18:53:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2835,
+  "comment_author": "Frumane"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "io-github-frumane-gecko"
+ }
+}

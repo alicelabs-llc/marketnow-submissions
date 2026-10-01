@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260616-fce8e6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "fivecoins-validation",
+  "version": "1.0.0",
+  "description": "﻿ FiveCoins Validation Plan No-signup validation planner for tiny paid offers. Creates a practical plan with offer, free asset, distribution, measurement, and stop rules. - GitHub: https://github.com/AndreuSerraSastre/fivecoins-ai-profit-experiment - MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers/io.github.AndreuSerraSastre%2Ffivecoins-validation-plan/versions/0.6.0 - Remote endpoint: https://fivecoins.app.tipdata.es/mcp - License: MIT - Transport: streamable-http - Auth: no",
+  "author": "AndreuSerraSastre",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://fivecoins.app.tipdata.es/mcp",
+  "repo_url": "https://github.com/AndreuSerraSastre/fivecoins-ai-profit-experiment",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982103Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982104Z",
+  "repo_url": {
+   "url": "https://github.com/AndreuSerraSastre/fivecoins-ai-profit-experiment",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://fivecoins.app.tipdata.es/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-16T16:39:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2826,
+  "comment_author": "AndreuSerraSastre"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "fivecoins-validation"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260701-8b24d0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "network-sketcher-local-mcp",
+  "version": "1.0.0",
+  "description": "Type MCP Server Name Network Sketcher (Local MCP) URL https://github.com/cisco-open/network-sketcher Server config ```json { mcpServers: { network-sketcher: { command: python, args: [ /path/to/network-sketcher/network-sketcher_local_mcp/ns_mcp_server.py ] } } } ``` Description Network Sketcher Local MCP is a local-first, AI-native MCP server for network design automation. It lets LLM clients such as Cursor and Claude Code create Cisco-style network designs, manage device data, and generate L1/L",
+  "author": "yuhsukeogawa",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://lobehub.com/mcp/cisco-open-network-sketcher",
+  "repo_url": "https://github.com/cisco-open/network-sketcher",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980991Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980992Z",
+  "repo_url": {
+   "url": "https://github.com/cisco-open/network-sketcher",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://lobehub.com/mcp/cisco-open-network-sketcher",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-01T07:04:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2968,
+  "comment_author": "yuhsukeogawa"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "network-sketcher-local-mcp"
+ }
+}

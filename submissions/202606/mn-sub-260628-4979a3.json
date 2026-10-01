@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260628-4979a3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "refinery-mcp-html-cleaner-for-rag-pipelines",
+  "version": "1.0.0",
+  "description": "Server submission - Name: refinery-mcp - GitHub: https://github.com/LareLabs/refinery-mcp - Homepage: https://larelabs.github.io/refinery-mcp/ - npm: `@larelabs/refinery-mcp` - Official MCP Registry: `io.github.LareLabs/refinery-mcp` Description Clean raw HTML into LLM-ready text before agents spend tokens. Three MCP tools: `clean_url`, `clean_html`, `estimate_savings`. Wraps the Refinery Apify Actor for RAG / web-scraping pipelines. Categories developer-tools, rag, html-cleaner, llm Requiremen",
+  "author": "cameronlares",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://larelabs.github.io/refinery-mcp/",
+  "repo_url": "https://github.com/LareLabs/refinery-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981208Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981209Z",
+  "repo_url": {
+   "url": "https://github.com/LareLabs/refinery-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://larelabs.github.io/refinery-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-28T00:49:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2933,
+  "comment_author": "cameronlares"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "refinery-mcp-html-cleaner-for-rag-pipelines"
+ }
+}

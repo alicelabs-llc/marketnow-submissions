@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260705-ec9c99",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "xbbg-mcp",
+  "version": "1.0.0",
+  "description": "Local stdio MCP server for authorized Bloomberg/xbbg users. Provides bounded Bloomberg request/response tools and requires the user's own Bloomberg runtime, credentials, licenses, and entitlements. Does not bundle Bloomberg SDK/runtime libraries, credentials, or market data.",
+  "author": "m3ridian-zero",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/xbbg-org/xbbg",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980718Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980720Z",
+  "repo_url": {
+   "url": "https://github.com/xbbg-org/xbbg",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-05T00:17:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3017,
+  "comment_author": "m3ridian-zero"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "xbbg-mcp"
+ }
+}

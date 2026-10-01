@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260701-c3f8ec",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "backtest360-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server exposing the Backtest360 engine API as tools for AI agents — discover indicators, build and validate strategies, run and compare historical backtests, and read shaped results, all against the deterministic Backtest360 engine. The server contains no AI and computes no numbers of its own. API-key auth; get a free key at https://backtest360.com/api-access",
+  "author": "backtest360-developers",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.backtest360.com/mcp",
+  "repo_url": "https://github.com/Backtest360/backtest360-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980928Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980930Z",
+  "repo_url": {
+   "url": "https://github.com/Backtest360/backtest360-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.backtest360.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-01T18:29:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2974,
+  "comment_author": "backtest360-developers"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "backtest360-mcp"
+ }
+}

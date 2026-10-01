@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260626-f56e69",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentic-task-system-ats",
+  "version": "1.0.0",
+  "description": "Type MCP Server Name Agentic Task System (ATS) URL https://github.com/renezander030/agentic-task-system Server config ```json { \"mcpServers\": { \"ats\": { \"command\": \"ats-mcp\", \"env\": { \"ATS_ADAPTER\": \"@reneza/ats-adapter-ticktick\" } } } } ``` Description MCP server for AI agent task memory and execution context. Gives Claude Code, Cursor, and Claude Desktop persistent memory from the task manager you already use — TickTick, Notion, GitHub Issues, Linear, Beads, or an Obsidian vault. Cross-source",
+  "author": "renezander030",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@reneza/ats-cli",
+  "repo_url": "https://github.com/renezander030/agentic-task-system",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981271Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981273Z",
+  "repo_url": {
+   "url": "https://github.com/renezander030/agentic-task-system",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@reneza/ats-cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-26T08:12:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2921,
+  "comment_author": "renezander030"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentic-task-system-ats"
+ }
+}

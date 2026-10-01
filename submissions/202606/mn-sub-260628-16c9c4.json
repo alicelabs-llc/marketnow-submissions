@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260628-16c9c4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "imatza-rh-mcp",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/imatza-rh/mcp-zuul Package: https://pypi.org/project/mcp-zuul/ Category: CI/CD & DevOps MCP server for Zuul CI — 38 tools (31 read-only + 5 write + 1 LogJuicer + 1 console stream), 3 prompt templates, and 3 resources. Key features: - Structured failure analysis (parses job-output.json for exact failed task, host, error) - Smart log grep with regex and context lines - Live pipeline status with job progress and ETA - Flaky job detection with pass/fail statistics - Ke",
+  "author": "imatza-rh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx mcp-zuul",
+  "homepage": "https://pypi.org/project/mcp-zuul/",
+  "repo_url": "https://github.com/imatza-rh/mcp-zuul",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981117Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981119Z",
+  "repo_url": {
+   "url": "https://github.com/imatza-rh/mcp-zuul",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/mcp-zuul/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-28T19:39:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2943,
+  "comment_author": "imatza-rh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "imatza-rh-mcp"
+ }
+}

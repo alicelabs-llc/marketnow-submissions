@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260612-5a5f1f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "llmrank",
+  "version": "1.0.0",
+  "description": "LLMRank is an AI SEO platform that tracks and improves your website's visibility in AI search results (LLM rankings, AI Overviews, ChatGPT Search). Provides MCP tools for checking AI search visibility, analyzing LLM-indexed pages, and generating SEO reports for AI-powered search engines.",
+  "author": "yuexiaoliang",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://llmrank.top",
+  "repo_url": "https://github.com/yuexiaoliang/llmrank-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982477Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982478Z",
+  "repo_url": {
+   "url": "https://github.com/yuexiaoliang/llmrank-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://llmrank.top",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-12T07:23:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2777,
+  "comment_author": "yuexiaoliang"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "llmrank"
+ }
+}

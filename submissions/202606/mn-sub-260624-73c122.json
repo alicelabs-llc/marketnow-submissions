@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260624-73c122",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "groundcrew",
+  "version": "1.0.0",
+  "description": "** Deterministic state oracle and semantic action codec for computer-use agents",
+  "author": "sandeep-alluru",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx groundcrew-mcp",
+  "homepage": "https://pypi.org/project/groundcrew/",
+  "repo_url": "https://github.com/sandeep-alluru/groundcrew",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981482Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981483Z",
+  "repo_url": {
+   "url": "https://github.com/sandeep-alluru/groundcrew",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/groundcrew/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-24T22:33:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2903,
+  "comment_author": "sandeep-alluru"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "groundcrew"
+ }
+}

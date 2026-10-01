@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260705-88f2e1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tunova",
+  "version": "1.0.0",
+  "description": "** Generate Suno AI music (v5.5) from any MCP client. Full-song generation over a hosted, remote MCP server — async, with tokens **billed only on successful renders** (a failed render auto-refunds). Same server backs a REST API; agents and humans use the same `X-API-Key`.",
+  "author": "erliona",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tunova.ai",
+  "repo_url": "https://github.com/erliona/tunova-sdk",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980666Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980668Z",
+  "repo_url": {
+   "url": "https://github.com/erliona/tunova-sdk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://tunova.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-05T09:59:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3025,
+  "comment_author": "erliona"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tunova"
+ }
+}

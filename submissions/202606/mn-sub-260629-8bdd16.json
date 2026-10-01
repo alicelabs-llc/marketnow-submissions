@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260629-8bdd16",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "genflowai",
+  "version": "1.0.0",
+  "description": "GenflowAI is a remote MCP server for ecommerce product photography, product visuals, UGC video ads, image-to-video, text-to-video, creator content, asset uploads, async generation jobs, and saved creative workflow runs.",
+  "author": "cwjgege",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.genflowai.io",
+  "repo_url": "https://github.com/cwjgege/genflowai-codex-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981070Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981071Z",
+  "repo_url": {
+   "url": "https://github.com/cwjgege/genflowai-codex-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.genflowai.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-29T06:28:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2950,
+  "comment_author": "cwjgege"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "genflowai"
+ }
+}

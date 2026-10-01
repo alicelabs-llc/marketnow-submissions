@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260613-7eaeeb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mindcore-memory-mcp",
+  "version": "1.0.0",
+  "description": "Server Name MindCore Memory MCP Description AI long-term memory MCP server with importance scoring and confidence calibration. Enables AI agents to store, search, and retrieve long-term memories with semantic similarity and importance-weighted recall. Homepage https://github.com/woshilaohei/mindcore-memory-mcp GitHub Stars https://github.com/woshilaohei/mindcore-memory-mcp/stargazers PyPI https://pypi.org/project/mindcore-memory/ Installation pip install mindcore-memory Registry https://modelco",
+  "author": "woshilaohei",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/mindcore-memory/",
+  "repo_url": "https://github.com/woshilaohei/mindcore-memory-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982319Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982320Z",
+  "repo_url": {
+   "url": "https://github.com/woshilaohei/mindcore-memory-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/mindcore-memory/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-13T14:22:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2798,
+  "comment_author": "woshilaohei"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mindcore-memory-mcp"
+ }
+}

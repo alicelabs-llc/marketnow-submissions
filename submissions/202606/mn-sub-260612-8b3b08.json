@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260612-8b3b08",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "world-cup-mcp",
+  "version": "1.0.0",
+  "description": "Live FIFA World Cup 2026 data (<20s) + every match since 1930 + the marketing & money layer nobody else has: sponsors by tier, kit deals for all 48 teams, prize money, TV rights. 17 task-shaped tools for AI agents. $99 one-time for the tournament; free inside Juma.",
+  "author": "SimonPP123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://worldcupmcp.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982462Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982463Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://worldcupmcp.com/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-12T08:40:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2778,
+  "comment_author": "SimonPP123"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "world-cup-mcp"
+ }
+}

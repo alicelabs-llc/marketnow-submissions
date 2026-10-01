@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260619-233c6e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nocrash",
+  "version": "1.0.0",
+  "description": "NoCrash — Know when your n8n workflows, URLs, and AI apps break, before your customers do. - Server URL (remote, Streamable HTTP): https://nocrash.io/mcp - Homepage: https://nocrash.io - Official MCP Registry: `io.nocrash/nocrash` (v1.0.1) — https://registry.modelcontextprotocol.io/v0/servers?search=io.nocrash - Icon: https://nocrash.io/icon.png (1024x1024 PNG) / https://nocrash.io/icon.svg - Auth: API key as a Bearer token. Header `Authorization: Bearer YOUR_NOCRASH_API_KEY`. Create a key at ht",
+  "author": "kharitonovevgeny",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nocrash.io/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981781Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981783Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://nocrash.io/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-19T20:53:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2858,
+  "comment_author": "kharitonovevgeny"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nocrash"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260629-776f78",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "website-toolbox-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Website Toolbox MCP GitHub: https://github.com/webtoolbox/websitetoolbox-mcp Language: TypeScript npm: websitetoolbox-mcp (publishing soon) Category: Development Tools, Communication Description MCP server for the Website Toolbox forum platform — exposes Categories, Topics, Posts, Users, User Groups, Conversations, Messages, Moderators, Tags, and Page Views via the Forum REST API. Features - Categories — list, get, create, update, delete forum categories - Topics — l",
+  "author": "webtoolbox",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/webtoolbox/websitetoolbox-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981055Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981057Z",
+  "repo_url": {
+   "url": "https://github.com/webtoolbox/websitetoolbox-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-29T18:30:42Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2953,
+  "comment_author": "webtoolbox"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "website-toolbox-mcp"
+ }
+}

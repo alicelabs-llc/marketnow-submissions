@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260626-5e5cf6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "quotor",
+  "version": "1.0.0",
+  "description": "** Real, bindable home & auto insurance quotes via MCP (Texas, expanding); human-completed bind.",
+  "author": "Libertas-cloud",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.quotor.ai",
+  "repo_url": "https://github.com/quotor/home-auto-insurance-quotes",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981256Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981257Z",
+  "repo_url": {
+   "url": "https://github.com/quotor/home-auto-insurance-quotes",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.quotor.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-26T17:00:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2926,
+  "comment_author": "Libertas-cloud"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "quotor"
+ }
+}

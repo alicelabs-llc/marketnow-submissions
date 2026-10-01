@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260612-35060b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "forge-knowledge-engine",
+  "version": "1.0.0",
+  "description": "Forge Knowledge Engine exposes public MCP, A2A, and x402 discovery metadata for verified knowledge workflows and agent commerce. It is designed around source-grounded answers, public marketplace/capsule discovery, and Base USDC x402 payment metadata.",
+  "author": "SunFlash12",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://forgecascade.org/",
+  "repo_url": "https://github.com/SunFlash12/ForgeV3",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982414Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982415Z",
+  "repo_url": {
+   "url": "https://github.com/SunFlash12/ForgeV3",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://forgecascade.org/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-12T19:34:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2782,
+  "comment_author": "SunFlash12"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "forge-knowledge-engine"
+ }
+}

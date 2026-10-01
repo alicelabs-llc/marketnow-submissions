@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260618-f96977",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "sorted-event-registration-queue-management",
+  "version": "1.0.0",
+  "description": "Server Details Name: Sorted — Event Registration & Queue Management URL: https://sorted.fast/mcp Transport: Streamable HTTP (remote) MCP Registry: https://registry.modelcontextprotocol.io/servers/fast.sorted/event-registration Description MCP server for event registration at scale. Create events, manage registrations and waitlists, run virtual queues, and handle dynamic pricing. Designed for thousands of concurrent registrants. Agents can self-register as a provider via `POST /api/providers/reg",
+  "author": "josefrichter",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sorted.fast/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981870Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981871Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://sorted.fast/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-18T15:25:27Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2848,
+  "comment_author": "josefrichter"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "sorted-event-registration-queue-management"
+ }
+}

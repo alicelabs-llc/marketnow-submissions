@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260613-7decfd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "github-repo-health-check",
+  "version": "1.0.0",
+  "description": "** Is this dependency still maintained? An MCP server that returns a deterministic, opinionated verdict for any GitHub repo — Actively maintained, Slowing, At-risk, or Likely abandoned — across 5 agent-callable tools, with the metrics and pinned thresholds behind every call.",
+  "author": "digitalgremlin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://apify.com/joeslade/github-repo-intelligence-mcp",
+  "repo_url": "https://github.com/digitalgremlin/github-repo-intelligence-mcp",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982272Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982273Z",
+  "repo_url": {
+   "url": "https://github.com/digitalgremlin/github-repo-intelligence-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://apify.com/joeslade/github-repo-intelligence-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-13T22:05:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2805,
+  "comment_author": "digitalgremlin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "github-repo-health-check"
+ }
+}

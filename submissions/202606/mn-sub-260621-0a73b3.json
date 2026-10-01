@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260621-0a73b3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "prowodo",
+  "version": "1.0.0",
+  "description": "Server ProWoDo Package `prowodo-tasks` (Claude Code plugin, via the `i3idea` marketplace) Install Hosted connector — add the MCP endpoint to your client (OAuth 2.0, no token needed on Claude.ai web): ``` https://backend.prowodo.com/mcp/ ``` Optional Claude Code plugin: ``` /plugin marketplace add https://github.com/i3idea/claude-plugins /plugin install prowodo-tasks@i3idea ``` MCP endpoint (Streamable HTTP) https://backend.prowodo.com/mcp/ (OAuth 2.0 / DCR) Repository https://github.com/i3idea/",
+  "author": "sajlx",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://backend.prowodo.com/mcp/",
+  "repo_url": "https://github.com/i3idea/claude-plugins",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981680Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981681Z",
+  "repo_url": {
+   "url": "https://github.com/i3idea/claude-plugins",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://backend.prowodo.com/mcp/",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-21T14:20:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2865,
+  "comment_author": "sajlx"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "prowodo"
+ }
+}

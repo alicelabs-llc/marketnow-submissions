@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260622-780400",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "license-guardian",
+  "version": "1.0.0",
+  "description": "** Audits the licenses of an npm dependency tree BEFORE you ship. Resolves the exact license string per-version from the live npm registry, classifies via a curated SPDX knowledge base (permissive / weak-copyleft / strong-copyleft / network-copyleft / source-available / proprietary), and judges compatibility for your context (proprietary, SaaS-backend, permissive, copyleft-OK) — catching AGPL/BUSL/SSPL relicensings agents miss. 3 tools: `audit_package_json`, `audit_dependencies`, `explain_licens",
+  "author": "Baneado98",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y license-guardian-mcp",
+  "homepage": "https://www.npmjs.com/package/license-guardian-mcp",
+  "repo_url": "https://github.com/Baneado98/license-guardian",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981610Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981611Z",
+  "repo_url": {
+   "url": "https://github.com/Baneado98/license-guardian",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y license-guardian-mcp",
+   "registry": "npm",
+   "package": "license-guardian-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/license-guardian-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-22T16:15:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2871,
+  "comment_author": "Baneado98"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "license-guardian"
+ }
+}

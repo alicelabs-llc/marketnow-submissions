@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260624-d6ff5a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentcrdt",
+  "version": "1.0.0",
+  "description": "** Semantic-causal CRDT for agent-mutable world state",
+  "author": "sandeep-alluru",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx agentcrdt-mcp",
+  "homepage": "https://pypi.org/project/agentcrdt/",
+  "repo_url": "https://github.com/sandeep-alluru/agentcrdt",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981413Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981414Z",
+  "repo_url": {
+   "url": "https://github.com/sandeep-alluru/agentcrdt",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/agentcrdt/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-24T22:33:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2908,
+  "comment_author": "sandeep-alluru"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentcrdt"
+ }
+}

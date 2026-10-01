@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260616-1416da",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "opentalk2html",
+  "version": "1.0.0",
+  "description": "opentalk2html-notmd Convert meeting transcripts and audio to clean, structured HTML. Process Zoom, Google Meet, Teams recordings into readable documents. - GitHub: https://github.com/Aimino-Tech/OpenTalk2HTML-NotMD - npm: https://www.npmjs.com/package/@aimino/opentalk2html-notmd - PyPI: https://pypi.org/project/opentalk2html-notmd/ - License: MIT - Transport: stdio MCP client config ```json { \"mcpServers\": { \"opentalk2html\": { \"command\": \"npx\", \"args\": [\"-y\", \"@aimino/opentalk2html-notmd\"] } }",
+  "author": "xdnaimino",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@aimino/opentalk2html-notmd",
+  "repo_url": "https://github.com/Aimino-Tech/OpenTalk2HTML-NotMD",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982118Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982119Z",
+  "repo_url": {
+   "url": "https://github.com/Aimino-Tech/OpenTalk2HTML-NotMD",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@aimino/opentalk2html-notmd",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-16T14:07:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2825,
+  "comment_author": "xdnaimino"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "opentalk2html"
+ }
+}

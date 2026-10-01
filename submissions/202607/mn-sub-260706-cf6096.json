@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-cf6096",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aiservices",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission: AIServices Server Name: AIServices Author: vbkotecha GitHub: https://github.com/vbkotecha/aiservices-api License: MIT Live URL: https://api.aiservices.to MCP Endpoint: https://api.aiservices.to/mcp (SSE transport) Description AIServices is the monetized API layer for AI agents — 16 endpoints across crypto data, market intelligence, DeFi, and dispute resolution. Agents pay per-request with USDC on Base using the x402 payment protocol (HTTP 402). No API keys, no subscri",
+  "author": "vbkotecha",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.aiservices.to/mcp",
+  "repo_url": "https://github.com/vbkotecha/aiservices-api",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980633Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980634Z",
+  "repo_url": {
+   "url": "https://github.com/vbkotecha/aiservices-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.aiservices.to/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T02:04:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3030,
+  "comment_author": "vbkotecha"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aiservices"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-8420b5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialdatax-weibo-mcp",
+  "version": "1.0.0",
+  "description": "SocialDataX 微博 Weibo MCP is a hosted read-only streamable HTTP MCP service for Weibo / 微博 social media research workflows. It supports hot search, post search, post details, comments, comment replies, post likers, reposts, user profiles, user posts, and speech-to-text transcript workflows.",
+  "author": "DevinChen2014",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.socialdatax.com/weibo/mcp",
+  "repo_url": "https://github.com/DevinChen2014/weibo-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980616Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980617Z",
+  "repo_url": {
+   "url": "https://github.com/DevinChen2014/weibo-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.socialdatax.com/weibo/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T08:04:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3034,
+  "comment_author": "DevinChen2014"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialdatax-weibo-mcp"
+ }
+}

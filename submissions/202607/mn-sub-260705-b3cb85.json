@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260705-b3cb85",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "anamnesis",
+  "version": "1.0.0",
+  "description": "Server name Anamnesis Repository https://github.com/oscardvs/anamnesis Official MCP Registry ID io.github.oscardvs/anamnesis (v0.1.2) Website https://oscardvs.github.io/anamnesis/ PyPI anamnesis-memory Description Anamnesis is a local-first, cross-machine memory layer for Claude Code. Markdown notes are the source of truth, SQLite FTS5 does recall, git syncs the store across a developer's own machines (e.g. over Tailscale), and an MCP server plus SessionStart/SessionEnd hooks make it hands-off:",
+  "author": "oscardvs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx anamnesis-memory",
+  "homepage": "https://oscardvs.github.io/anamnesis/",
+  "repo_url": "https://github.com/oscardvs/anamnesis",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980705Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980706Z",
+  "repo_url": {
+   "url": "https://github.com/oscardvs/anamnesis",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://oscardvs.github.io/anamnesis/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-05T08:18:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3023,
+  "comment_author": "oscardvs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "anamnesis"
+ }
+}

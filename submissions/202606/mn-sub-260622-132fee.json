@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260622-132fee",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "polygraph-grade",
+  "version": "1.0.0",
+  "description": "Server Info - Name: polygraph (litmus) - Repository: https://github.com/polygraphso/litmus - npm: https://www.npmjs.com/package/@polygraphso/litmus - Install: `npx -y -p @polygraphso/litmus polygraphso-litmus-mcp` - Website: https://polygraph.so - Category: Security - Platform: cross-platform (macOS / Windows / Linux) - License: Apache-2.0 - Official MCP registry: `io.github.polygraphso/litmus` Description polygraph is the open behavioral litmus for MCP servers. It connects to a server the way",
+  "author": "RubenSousaDinis",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y -p",
+  "homepage": "https://www.npmjs.com/package/@polygraphso/litmus",
+  "repo_url": "https://github.com/polygraphso/litmus",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981664Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981665Z",
+  "repo_url": {
+   "url": "https://github.com/polygraphso/litmus",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y -p",
+   "registry": "npm",
+   "package": "-p",
+   "ok": false,
+   "status": 0
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@polygraphso/litmus",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-22T11:11:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2866,
+  "comment_author": "RubenSousaDinis"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "polygraph-grade"
+ }
+}

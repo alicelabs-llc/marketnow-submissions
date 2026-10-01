@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260624-8b9e26",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "falconer",
+  "version": "1.0.0",
+  "description": "** MCP server that gives AI coding agents trusted access to a company's living documentation. Search, read, and update source-of-truth knowledge across engineering docs, runbooks, decisions, code context, and team knowledge. Works with Claude Code, Cursor, Codex, and other MCP clients.",
+  "author": "maxijb",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://falconer.com/api/mcp",
+  "repo_url": "https://github.com/FalconerAI/agent-integrations",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981542Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981544Z",
+  "repo_url": {
+   "url": "https://github.com/FalconerAI/agent-integrations",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://falconer.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-24T00:40:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2893,
+  "comment_author": "maxijb"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "falconer"
+ }
+}

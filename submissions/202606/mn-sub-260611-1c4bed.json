@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260611-1c4bed",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nipregon-polish",
+  "version": "1.0.0",
+  "description": "Server URL (streamable HTTP): https://api.nipregon.pl/mcp Tools: - `search_company` - fuzzy company search - `get_company` - full registry data by NIP (address, KRS, REGON, PKD, board members, VAT status) - `get_financials` - yearly statements (revenue, profit, assets, equity) - `check_vat_whitelist` - VAT status + bank account on the white list before payments Repo: https://github.com/AMR-DEV-PS/nipregon-mcp Docs: https://nipregon.pl/mcp Official MCP registry: `pl.nipregon/nipregon` Read-only,",
+  "author": "AMR-DEV-PS",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.nipregon.pl/mcp",
+  "repo_url": "https://github.com/AMR-DEV-PS/nipregon-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.982524Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.982526Z",
+  "repo_url": {
+   "url": "https://github.com/AMR-DEV-PS/nipregon-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.nipregon.pl/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-11T23:13:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2762,
+  "comment_author": "AMR-DEV-PS"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nipregon-polish"
+ }
+}

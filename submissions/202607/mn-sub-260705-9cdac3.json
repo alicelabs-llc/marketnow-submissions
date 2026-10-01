@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260705-9cdac3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "filingrail-mcp-sec-edgar-data",
+  "version": "1.0.0",
+  "description": "Please add filingrail-mcp to mcp.so. - Name: filingrail-mcp - One-line: SEC EDGAR filings, financials, insider trades, 8-K events, and 13F holdings as MCP tools — normalized JSON, every number traceable to its sec.gov source filing. - GitHub repo: https://github.com/adamhudson777/filingrail-mcp - PyPI: https://pypi.org/project/filingrail-mcp/ — `pip install filingrail-mcp` - Homepage: https://filingrail.hudsonenterprisesllc.com - Official MCP registry name: `io.github.adamhudson777/filingrail-mc",
+  "author": "adamhudson777",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/filingrail-mcp/",
+  "repo_url": "https://github.com/adamhudson777/filingrail-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.980649Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.980651Z",
+  "repo_url": {
+   "url": "https://github.com/adamhudson777/filingrail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/filingrail-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-05T17:54:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3026,
+  "comment_author": "adamhudson777"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "filingrail-mcp-sec-edgar-data"
+ }
+}

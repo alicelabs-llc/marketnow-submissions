@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260619-3fc5f8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shipmail-mcp-io-github-jcoulaud-shipmail-mcp",
+  "version": "1.0.0",
+  "description": "Shipmail MCP Server - official Model Context Protocol server for Shipmail, a business email provider with REST API, webhooks, and custom-domain inboxes for AI agents. - Repository: https://github.com/jcoulaud/shipmail-mcp - NPM package: https://www.npmjs.com/package/shipmail-mcp - Official MCP Registry: `io.github.jcoulaud/shipmail-mcp` - https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.jcoulaud/shipmail-mcp - Website / docs: https://shipmail.to/docs/mcp - Glama listing: ht",
+  "author": "jcoulaud",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y shipmail-mcp",
+  "homepage": "https://shipmail.to/docs/mcp",
+  "repo_url": "https://github.com/jcoulaud/shipmail-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981764Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981765Z",
+  "repo_url": {
+   "url": "https://github.com/jcoulaud/shipmail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y shipmail-mcp",
+   "registry": "npm",
+   "package": "shipmail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://shipmail.to/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-19T21:18:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2859,
+  "comment_author": "jcoulaud"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shipmail-mcp-io-github-jcoulaud-shipmail-mcp"
+ }
+}

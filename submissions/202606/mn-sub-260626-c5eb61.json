@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260626-c5eb61",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pubfi-mcp",
+  "version": "1.0.0",
+  "description": "Type MCP Server Name PubFi MCP URL https://github.com/helixbox/pubfi-docs Hosted MCP endpoint https://mcp.pubfi.ai Server config ```json { \"mcpServers\": { \"pubfi\": { \"type\": \"streamable-http\", \"url\": \"https://mcp.pubfi.ai\", \"headers\": { \"Authorization\": \"Bearer <PUBFI_API_KEY>\" } } } } ``` Description PubFi MCP is an authenticated hosted Streamable HTTP MCP server for crypto data routing. It exposes generic route and capability tools for capability search, route planning, route execution, route",
+  "author": "acgxv",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.pubfi.ai",
+  "repo_url": "https://github.com/helixbox/pubfi-docs",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:21.981289Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:21.981291Z",
+  "repo_url": {
+   "url": "https://github.com/helixbox/pubfi-docs",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.pubfi.ai",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-26T07:39:27Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2920,
+  "comment_author": "acgxv"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pubfi-mcp"
+ }
+}
