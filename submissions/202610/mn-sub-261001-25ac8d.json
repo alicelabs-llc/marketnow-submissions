@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-25ac8d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "capes",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Capes Repository: https://github.com/Dipeshpal/capes Deploy: [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDipeshpal%2Fcapes) — deploys to the user's own Vercel account Transport: Streamable HTTP (`POST /mcp`), Bearer key auth Glama: https://glama.ai/mcp/servers/Dipeshpal/capes (rated A) License: MIT Runtime: Python (FastAPI), Vercel serverless Description: Capes is a free, self-hosted MCP ser",
+  "author": "Dipeshpal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vercel.com/button",
+  "repo_url": "https://github.com/Dipeshpal/capes",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:17.855984Z",
+  "duration_ms": 490,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:17.856005Z",
+  "repo_url": {
+   "url": "https://github.com/Dipeshpal/capes",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vercel.com/button",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:17.856009Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "capes"
+ }
+}
