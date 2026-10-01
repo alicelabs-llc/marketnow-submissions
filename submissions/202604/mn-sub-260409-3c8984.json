@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260409-3c8984",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "cachetank-mcp",
+  "version": "1.0.0",
+  "description": "Website:https://cachetank.com Repository: https://github.com/July-Blue-Sky-LLC/cachetank-mcp npm: https://www.npmjs.com/package/cachetank-mcp Smithery: https://smithery.ai/servers/@cachetank/cachetank-mcp MCP Name: io.github.jacobsilver7-art/cachetank-mcp Category: Productivity / Memory / Personal Context CacheTank is a personal context layer for AI tools. Every time you open Claude, ChatGPT, Cursor, or Copilot — you start from zero. You re-explain who you are, what your project is, what decisio",
+  "author": "jacobsilver7-art",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @smithery/cli",
+  "homepage": "https://cachetank.com",
+  "repo_url": "https://github.com/July-Blue-Sky-LLC/cachetank-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:57.443885Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:57.443911Z",
+  "repo_url": {
+   "url": "https://github.com/July-Blue-Sky-LLC/cachetank-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @smithery/cli",
+   "registry": "npm",
+   "package": "@smithery/cli",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://cachetank.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T14:50:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4215175818,
+  "comment_author": "jacobsilver7-art"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "cachetank-mcp"
+ }
+}
