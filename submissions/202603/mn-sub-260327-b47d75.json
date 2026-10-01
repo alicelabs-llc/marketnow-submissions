@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-b47d75",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "psyche-ai-emotional",
+  "version": "1.0.0",
+  "description": "# psyche-ai — Emotional Intelligence Engine for AI Agents GitHub: https://github.com/Shangri-la-0428/psyche-ai npm: https://www.npmjs.com/package/psyche-ai MCP Registry: `io.github.Shangri-la-0428/psyche-ai` Description Neurotransmitter-based mood system for AI agents — 6 neurotransmitters (dopamine, serotonin, norepinephrine, GABA, endorphin, cortisol), MBTI personality, empathy, attachment dynamics, trait drift, and energy budgets. Gives AI agents genuine emotional depth rather than simulated ",
+  "author": "Shangri-la-0428",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/psyche-ai",
+  "repo_url": "https://github.com/Shangri-la-0428/psyche-ai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:51.191796Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:51.191821Z",
+  "repo_url": {
+   "url": "https://github.com/Shangri-la-0428/psyche-ai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/psyche-ai",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T01:40:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4139466237,
+  "comment_author": "Shangri-la-0428"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "psyche-ai-emotional"
+ }
+}
