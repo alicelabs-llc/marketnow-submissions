@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260325-cb9f16",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "x402-mcp-gateway",
+  "version": "1.0.0",
+  "description": "Server name: x402 MCP Gateway URL: `https://mcp-gateway.hugen.tokyo/mcp` Transport: Streamable HTTP (remote, no install needed) 58 pay-per-call API tools across DeFi security, weather, domain analysis, content extraction, email validation, visual capture, FX calendar, and token intelligence. Supports API keys (free signup with trial credit), AgentKit, and direct x402 wallet payments. Also includes a broker tool (`call_api`) that can proxy requests to ~2,300 third-party x402 APIs and handle payme",
+  "author": "bartonguestier1725-collab",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp-gateway.hugen.tokyo/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947237Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947239Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp-gateway.hugen.tokyo/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-25T08:12:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1272,
+  "comment_author": "bartonguestier1725-collab"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "x402-mcp-gateway"
+ }
+}

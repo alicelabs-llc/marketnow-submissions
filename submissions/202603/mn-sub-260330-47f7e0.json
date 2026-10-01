@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260330-47f7e0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "signalstack",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: SignalStack GitHub: https://github.com/ud4090v/signalstack-mcp SSE Endpoint: http://96.126.106.225:3458/mcp OpenAPI: http://96.126.106.225:3458/openapi.yaml Description Daily crypto market intelligence for AI agents. Composite 0-100 Candle Review score from live data across 7 market categories: price action, on-chain activity, derivatives, ETF flows, macro, dominance, and sentiment. Updated daily at 06:00 UTC from DefiLlama, CoinGecko, and Dune Analytics. Key Feature",
+  "author": "ud4090v",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://96.126.106.225:3458/mcp",
+  "repo_url": "https://github.com/ud4090v/signalstack-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946554Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946555Z",
+  "repo_url": {
+   "url": "https://github.com/ud4090v/signalstack-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://96.126.106.225:3458/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T04:51:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1375,
+  "comment_author": "ud4090v"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "signalstack"
+ }
+}

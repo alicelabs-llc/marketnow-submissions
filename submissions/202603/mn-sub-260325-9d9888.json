@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260325-9d9888",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mars",
+  "version": "1.0.0",
+  "description": "mars-mcp-server MCP server that dynamically discovers tools from the [MARS mesh network](https://github.com/mellowmarshall/mars-protocol) — a decentralized Kademlia DHT with 65+ AI services. npm: https://www.npmjs.com/package/mars-mcp-server ```json { \"mcpServers\": { \"mars-mesh\": { \"command\": \"npx\", \"args\": [\"-y\", \"mars-mcp-server\", \"--gateway\", \"http://localhost:3000\"] } } } ``` Tools: mars_discover, mars_publish, mars_call Live network with 4 hubs (US, EU, Singapore). Services include: Tavily",
+  "author": "mellowmarshall",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/mars-mcp-server",
+  "repo_url": "https://github.com/mellowmarshall/mars-protocol",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947157Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947159Z",
+  "repo_url": {
+   "url": "https://github.com/mellowmarshall/mars-protocol",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mars-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-25T22:32:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1284,
+  "comment_author": "mellowmarshall"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mars"
+ }
+}

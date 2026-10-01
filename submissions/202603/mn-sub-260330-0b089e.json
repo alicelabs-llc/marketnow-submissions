@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260330-0b089e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nostr",
+  "version": "1.0.0",
+  "description": "nostr-mcp-server A Model Context Protocol (MCP) server that provides Nostr capabilities to AI agents. Features NIP-46 remote signing so private keys never touch the AI context window. - GitHub: https://github.com/jorgenclaw/nostr-mcp-server - Live endpoint: https://nostr.jorgenclaw.ai/mcp (Streamable HTTP — no local install needed) - Legacy SSE: https://nostr.jorgenclaw.ai/sse - Transport: Streamable HTTP (MCP spec 2025-03-26) + stdio - Authentication: Optional — NIP-46 bunker URI via `NOSTR_BU",
+  "author": "jorgenclaw",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nostr.jorgenclaw.ai/mcp",
+  "repo_url": "https://github.com/jorgenclaw/nostr-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946400Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946401Z",
+  "repo_url": {
+   "url": "https://github.com/jorgenclaw/nostr-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nostr.jorgenclaw.ai/mcp",
+   "ok": false,
+   "status": 502
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T16:59:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1390,
+  "comment_author": "jorgenclaw"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nostr"
+ }
+}

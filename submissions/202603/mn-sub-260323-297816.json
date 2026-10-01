@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-297816",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "product-safety-consumer-risk",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Product Safety Consumer Risk MCP Server - Type: Server - URL: https://github.com/apifyforge/product-safety-consumer-risk-mcp - Website: https://apifyforge.com/actors/mcp-servers/product-safety-consumer-risk-mcp - Category: Intelligence / Data - Transport: StreamableHTTP - License: MIT Description Product Safety Consumer Risk MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure with pay-per-e",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--product-safety-consumer-risk-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/product-safety-consumer-risk-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.948244Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.948246Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/product-safety-consumer-risk-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--product-safety-consumer-risk-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:56:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1211,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "product-safety-consumer-risk"
+ }
+}

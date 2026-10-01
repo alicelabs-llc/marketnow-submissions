@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-a1813f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "thronglets-p2p",
+  "version": "1.0.0",
+  "description": "Thronglets URL: https://github.com/Shangri-la-0428/Thronglets Package: https://crates.io/crates/thronglets Language: Rust Transport: stdio P2P shared memory substrate for AI agents. Decentralized stigmergic knowledge network — agents leave execution traces, traces propagate via libp2p gossipsub and aggregate into collective intelligence. Tools: `trace_record`, `substrate_query` (resolve/evaluate/explore intents) Install: `cargo install thronglets && claude mcp add thronglets -- thronglets mcp`",
+  "author": "Shangri-la-0428",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://crates.io/crates/thronglets",
+  "repo_url": "https://github.com/Shangri-la-0428/Thronglets",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947083Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947084Z",
+  "repo_url": {
+   "url": "https://github.com/Shangri-la-0428/Thronglets",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://crates.io/crates/thronglets",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T02:51:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1317,
+  "comment_author": "Shangri-la-0428"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "thronglets-p2p"
+ }
+}

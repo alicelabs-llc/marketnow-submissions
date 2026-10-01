@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260330-17fd89",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-checkup-mcp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: mcp-checkup - Description: MCP server that analyzes your MCP setup — measures token cost of every installed server and tool, finds duplicates, grades efficiency (A-F), and generates optimization reports. - npm: [mcp-checkup](https://www.npmjs.com/package/mcp-checkup) - GitHub: https://github.com/yifanyifan897645/mcp-checkup - Install: `npx mcp-checkup` - License: MIT Problem it solves Every MCP tool costs 550-1,400 tokens just for its schema. A server with 50 tools eats 30K+",
+  "author": "yifanyifan897645",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/mcp-checkup",
+  "repo_url": "https://github.com/yifanyifan897645/mcp-checkup",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946471Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946472Z",
+  "repo_url": {
+   "url": "https://github.com/yifanyifan897645/mcp-checkup",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mcp-checkup",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T10:26:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1382,
+  "comment_author": "yifanyifan897645"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-checkup-mcp"
+ }
+}

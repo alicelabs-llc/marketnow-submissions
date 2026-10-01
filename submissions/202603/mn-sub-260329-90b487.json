@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260329-90b487",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pitchable",
+  "version": "1.0.0",
+  "description": "Name: Pitchable URL: https://pitch-able.ai/mcp Repo: https://github.com/AnthonyAlcaraz/pitchable Transport: Streamable HTTP Auth: API key (self-service) Tools: 8 (generate, list, get, fork, export, briefs, lenses, credits) Pricing: Free (10 credits) / Pro ($29/mo) Docs: https://pitch-able.ai/llms.txt | https://pitch-able.ai/api/v1/mcp-info",
+  "author": "AnthonyAlcaraz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pitch-able.ai/llms.txt",
+  "repo_url": "https://github.com/AnthonyAlcaraz/pitchable",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946625Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946626Z",
+  "repo_url": {
+   "url": "https://github.com/AnthonyAlcaraz/pitchable",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pitch-able.ai/llms.txt",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-29T19:32:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1369,
+  "comment_author": "AnthonyAlcaraz"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pitchable"
+ }
+}

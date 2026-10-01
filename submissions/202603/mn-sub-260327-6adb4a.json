@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-6adb4a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "credit-optimizer-for-manus-ai",
+  "version": "1.0.0",
+  "description": "** Save 47% on Manus AI credits automatically with intelligent model routing. Zero quality loss — 53 scenarios audited with Quality Veto Rule. Pays for itself in ~27 prompts.",
+  "author": "rafsilva85",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/manus-credit-optimizer/",
+  "repo_url": "https://github.com/rafsilva85/credit-optimizer-v5",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947066Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947067Z",
+  "repo_url": {
+   "url": "https://github.com/rafsilva85/credit-optimizer-v5",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/manus-credit-optimizer/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T03:57:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1321,
+  "comment_author": "rafsilva85"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "credit-optimizer-for-manus-ai"
+ }
+}

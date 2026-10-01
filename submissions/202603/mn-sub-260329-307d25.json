@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260329-307d25",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "africa-api",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission - Server name: Africa API - GitHub: https://github.com/africa-api/africa-api-mcp - npm: africa-api-mcp - Description: MCP server providing access to structured data on all 54 African countries — 40 tools across 9 domains including indicators, markets, trade, government, elections, policies, and more. - Category: Research & Data - Transport: stdio - License: MIT - MCP Registry: io.github.africa-api/africa-api-mcp",
+  "author": "youngbobby",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/africa-api/africa-api-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946744Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946745Z",
+  "repo_url": {
+   "url": "https://github.com/africa-api/africa-api-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-29T03:46:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1358,
+  "comment_author": "youngbobby"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "africa-api"
+ }
+}

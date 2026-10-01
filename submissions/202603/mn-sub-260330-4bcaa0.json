@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260330-4bcaa0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "coda-mcp-mcp-server-for-the-coda-io-api",
+  "version": "1.0.0",
+  "description": "coda-mcp MCP server for the [Coda.io](https://coda.io) API. Gives Claude and other MCP clients direct read/write access to Coda docs, tables and rows, with built-in auto-pagination, bulk upsert, and 429 retry handling. - GitHub: https://github.com/BlaisedEstais/coda-mcp - Transport: stdio (local) - Authentication: CODA_API_TOKEN env var - Category: Productivity / Data - License: MIT Why it exists Coda has a write trap: upsert row-by-row (PUT /rows/{id} in a loop) burns through rate limits and t",
+  "author": "BlaisedEstais",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://coda.io",
+  "repo_url": "https://github.com/BlaisedEstais/coda-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946415Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946417Z",
+  "repo_url": {
+   "url": "https://github.com/BlaisedEstais/coda-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://coda.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T14:28:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1388,
+  "comment_author": "BlaisedEstais"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "coda-mcp-mcp-server-for-the-coda-io-api"
+ }
+}

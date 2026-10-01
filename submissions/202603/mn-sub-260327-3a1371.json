@@ -1,0 +1,68 @@
+{
+ "id": "mn-sub-260327-3a1371",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "clarvia-ai-agent",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Clarvia - Repository: https://github.com/clarvia-project/scanner/tree/main/mcp-server - npm: https://www.npmjs.com/package/clarvia-mcp-server - Website: https://clarvia.art - Install: `npx -y clarvia-mcp-server` - Remote endpoint: `https://clarvia-api.onrender.com/mcp/` (streamable-http) Description Clarvia is an MCP server that enables AI agents to discover and evaluate tools from a catalog of 15,400+ indexed tools (MCP servers, APIs, CLIs, Skills). Each tool is scored on a",
+  "author": "digitamaz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y clarvia-mcp-server",
+  "homepage": "https://clarvia-api.onrender.com/mcp/",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946932Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946933Z",
+  "repo_url": null,
+  "install": {
+   "command": "npx -y clarvia-mcp-server",
+   "registry": "npm",
+   "package": "clarvia-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://clarvia-api.onrender.com/mcp/",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T17:26:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1334,
+  "comment_author": "digitamaz"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "clarvia-ai-agent"
+ }
+}

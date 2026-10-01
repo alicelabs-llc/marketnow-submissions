@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-2bd2fa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "neurostack-token",
+  "version": "1.0.0",
+  "description": "Server Information - Name: NeuroStack - GitHub: https://github.com/raphasouthall/neurostack - Website: https://neurostack.sh - PyPI: https://pypi.org/project/neurostack/ - npm: https://www.npmjs.com/package/neurostack - License: Apache-2.0 - Language: Python Description NeuroStack is a neuroscience-grounded MCP server providing token-efficient retrieval for AI agents over existing Markdown vaults (Obsidian, Logseq, plaintext). Zero file modification. Features: - 9 MCP tools (vault_search, vault",
+  "author": "raphasouthall",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://neurostack.sh",
+  "repo_url": "https://github.com/raphasouthall/neurostack",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947462Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947463Z",
+  "repo_url": {
+   "url": "https://github.com/raphasouthall/neurostack",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://neurostack.sh",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T08:12:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1252,
+  "comment_author": "raphasouthall"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "neurostack-token"
+ }
+}

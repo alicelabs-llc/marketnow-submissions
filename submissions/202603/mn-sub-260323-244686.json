@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-244686",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "higher-education-risk",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Higher Education Risk MCP Server - Type: Server - URL: https://github.com/apifyforge/higher-education-risk-mcp - Website: https://apifyforge.com/actors/mcp-servers/higher-education-risk-mcp - Category: Research / Academic - Transport: StreamableHTTP - License: MIT Description Higher Education Risk MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure with pay-per-event pricing. No subscriptio",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--higher-education-risk-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/higher-education-risk-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.948260Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.948261Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/higher-education-risk-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--higher-education-risk-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:56:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1210,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "higher-education-risk"
+ }
+}

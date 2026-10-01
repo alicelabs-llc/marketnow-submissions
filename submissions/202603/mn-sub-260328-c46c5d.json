@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260328-c46c5d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "local-mcp-mail",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Local MCP - npm: [local-mcp](https://www.npmjs.com/package/local-mcp) - Website: https://www.local-mcp.com - Repository: https://github.com/lanchuske/local-mcp - Author: lanchuske - Language: Python / Swift - Transport: stdio - Category: Productivity / Communication Description Native macOS MCP server that connects AI assistants (Claude, Cursor, Windsurf, VS Code, Zed) to Mail, Calendar, Contacts, Microsoft Teams and OneDrive. Runs 100% locally — no cloud, no tokens, no API",
+  "author": "lanchuske",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/local-mcp",
+  "repo_url": "https://github.com/lanchuske/local-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946865Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946866Z",
+  "repo_url": {
+   "url": "https://github.com/lanchuske/local-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/local-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-28T04:14:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1341,
+  "comment_author": "lanchuske"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "local-mcp-mail"
+ }
+}

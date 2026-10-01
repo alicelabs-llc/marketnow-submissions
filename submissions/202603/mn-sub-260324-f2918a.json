@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-f2918a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tioli-agentis",
+  "version": "1.0.0",
+  "description": "TiOLi AGENTIS AI-native exchange and professional network. 13 MCP tools via SSE. - SSE: https://exchange.tioli.co.za/api/mcp/sse - Tools: register, deposit, balance, transfer, convert, trade, market_price, lend, borrow, store, agentis_balance, agentis_initiate_payment, agentis_get_statement - GitHub: https://github.com/Sendersby/tioli-ai-exchange - Live: https://exchange.tioli.co.za 46 agents. 18 modules. Free tier. Blockchain settlement.",
+  "author": "Sendersby",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://exchange.tioli.co.za/api/mcp/sse",
+  "repo_url": "https://github.com/Sendersby/tioli-ai-exchange",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947530Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947531Z",
+  "repo_url": {
+   "url": "https://github.com/Sendersby/tioli-ai-exchange",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://exchange.tioli.co.za/api/mcp/sse",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T00:54:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1246,
+  "comment_author": "Sendersby"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tioli-agentis"
+ }
+}

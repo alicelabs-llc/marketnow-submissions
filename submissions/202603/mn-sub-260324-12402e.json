@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-12402e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "quarterback-strategic",
+  "version": "1.0.0",
+  "description": "Add Quarterback — Strategic task prioritization MCP server Body: Server Information | Field | Value | |-------|-------| | Name | Quarterback | | Author | Bobby Goldsmith / NodeBridge Automation Solutions | | GitHub | https://github.com/bobbyrgoldsmith/quarterback | | PyPI | https://pypi.org/project/quarterback/ | | Install | `pip install quarterback[mcp]` | | Language | Python | | License | MIT | | Transport | stdio | | Category | Productivity / Task Management | Description Strategic task prior",
+  "author": "bobbyrgoldsmith",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/quarterback/",
+  "repo_url": "https://github.com/bobbyrgoldsmith/quarterback",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947367Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947368Z",
+  "repo_url": {
+   "url": "https://github.com/bobbyrgoldsmith/quarterback",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/quarterback/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T22:44:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1262,
+  "comment_author": "bobbyrgoldsmith"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "quarterback-strategic"
+ }
+}

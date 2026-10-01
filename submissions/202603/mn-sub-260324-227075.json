@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-227075",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ai-diagram-maker",
+  "version": "1.0.0",
+  "description": "MCP server for [AI Diagram Maker](https://aidiagrammaker.com) — generate software engineering diagrams from natural language, code, ASCII diagram images (URL or base64), or Mermaid definitions. Responses include a diagram URL and inline viewing via MCP Apps UI (zoom-friendly viewer). Supports optional icons when user prompt says \"include icons\"",
+  "author": "erajasekar",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.aidiagrammaker.com/mcp",
+  "repo_url": "https://github.com/erajasekar/ai-diagram-maker-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947512Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947514Z",
+  "repo_url": {
+   "url": "https://github.com/erajasekar/ai-diagram-maker-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.aidiagrammaker.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T01:24:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1247,
+  "comment_author": "erajasekar"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ai-diagram-maker"
+ }
+}

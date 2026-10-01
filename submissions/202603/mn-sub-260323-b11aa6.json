@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260323-b11aa6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "economic-indicators",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Economic Indicators MCP Server - Type: Server - URL: https://github.com/apifyforge/economic-indicators-mcp - Website: https://apifyforge.com/actors/mcp-servers/economic-indicators-mcp - Category: Intelligence / Data - Transport: StreamableHTTP - License: MIT Description Economic Indicators MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure with pay-per-event pricing. No subscription requir",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--economic-indicators-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/economic-indicators-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947630Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947635Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/economic-indicators-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--economic-indicators-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:59:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1239,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "economic-indicators"
+ }
+}

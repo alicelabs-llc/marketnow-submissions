@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260325-69d900",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "frihet-erp-ai",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Frihet ERP - Description: AI-native ERP with 52 tools for invoicing, expenses, clients, products, quotes, accounting, tax compliance (VeriFactu, EN16931 e-invoicing, EU VAT), and open banking (Tink, 6,000+ banks). Remote server with OAuth 2.0. Works with Claude, Cursor, Windsurf, Cline. - GitHub: https://github.com/Frihet-io/frihet-mcp - npm: `@frihet/mcp-server` (v1.5.0) - Remote URL: https://mcp.frihet.io - Website: https://frihet.io - Docs: https://docs.frihet.io - Instal",
+  "author": "berthelius",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.frihet.io",
+  "repo_url": "https://github.com/Frihet-io/frihet-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947334Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947335Z",
+  "repo_url": {
+   "url": "https://github.com/Frihet-io/frihet-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.frihet.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-25T00:46:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1264,
+  "comment_author": "berthelius"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "frihet-erp-ai"
+ }
+}

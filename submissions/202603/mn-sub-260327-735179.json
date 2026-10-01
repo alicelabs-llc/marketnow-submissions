@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260327-735179",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "quantum-shield-security-suite-6-mcp-servers",
+  "version": "1.0.0",
+  "description": "Quantum Shield Security Suite 6 MCP servers covering the full spectrum of blockchain security. All published on npm and the official MCP Registry. Servers | Server | npm | Description | |--------|-----|-------------| | [quantumguard-mcp](https://www.npmjs.com/package/quantumguard-mcp) | `npx -y quantumguard-mcp` | Post-quantum cryptography security scanner (9 tools) | | [smartguard-mcp](https://www.npmjs.com/package/smartguard-mcp) | `npx -y smartguard-mcp` | Smart contract vulnerability audit",
+  "author": "kota1026",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y quantumguard-mcp",
+  "homepage": "https://www.npmjs.com/package/quantumguard-mcp",
+  "repo_url": "https://github.com/kota1026/quantum-shield",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946964Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946965Z",
+  "repo_url": {
+   "url": "https://github.com/kota1026/quantum-shield",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y quantumguard-mcp",
+   "registry": "npm",
+   "package": "quantumguard-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/quantumguard-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T14:34:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1332,
+  "comment_author": "kota1026"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "quantum-shield-security-suite-6-mcp-servers"
+ }
+}

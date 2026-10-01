@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-9f953b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "allgoodinsp",
+  "version": "1.0.0",
+  "description": "AllGoodInsp - Design Reference MCP Server Server Name: AllGoodInsp Author: AllGoodInsp Team GitHub: https://github.com/SawadaGoki/allgoodinsp-mcp Server URL: https://mcp.allgoodinsp.com/mcp Website: https://allgoodinsp.com Description A curated design reference database for AI agents. Retrieve structured design data from 736+ websites — real CSS values, typography specs, color palettes, and design rationale — to generate better web designs. Instead of generating from generic prompts, your AI re",
+  "author": "SawadaGoki",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://allgoodinsp.com",
+  "repo_url": "https://github.com/SawadaGoki/allgoodinsp-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947038Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947039Z",
+  "repo_url": {
+   "url": "https://github.com/SawadaGoki/allgoodinsp-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://allgoodinsp.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T09:13:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1326,
+  "comment_author": "SawadaGoki"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "allgoodinsp"
+ }
+}

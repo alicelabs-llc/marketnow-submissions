@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260328-39bb9c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pagebolt-hosted-web-capture",
+  "version": "1.0.0",
+  "description": "Server Info - Name: PageBolt - Repository: https://github.com/Custodia-Admin/pagebolt-mcp - Website: https://pagebolt.dev - Description: Hosted web capture MCP server: screenshots, PDFs, narrated video recording, and page inspection. No infrastructure required. - License: MIT - Author: Custodia-Admin What it does PageBolt is a hosted MCP server for browser automation and web capture. Connect once, then use AI tools to take screenshots of any URL, generate PDFs, record narrated video demos, and",
+  "author": "Custodia-Admin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pagebolt.dev",
+  "repo_url": "https://github.com/Custodia-Admin/pagebolt-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946848Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946850Z",
+  "repo_url": {
+   "url": "https://github.com/Custodia-Admin/pagebolt-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pagebolt.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-28T06:27:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1342,
+  "comment_author": "Custodia-Admin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pagebolt-hosted-web-capture"
+ }
+}

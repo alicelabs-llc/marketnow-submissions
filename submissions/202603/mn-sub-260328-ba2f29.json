@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260328-ba2f29",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "memoir-persistent",
+  "version": "1.0.0",
+  "description": "Server Info - Name: memoir-cli - Repository: https://github.com/camgitt/memoir - npm: https://www.npmjs.com/package/memoir-cli - Website: https://memoir.sh - Author: camgitt - License: MIT - Language: JavaScript (ESM) - Transport: stdio Description MCP server that gives AI coding tools persistent memory across sessions. Your AI can search, read, and save memories automatically — no manual steps. Works with Claude Code, Cursor, Windsurf, and any MCP-compatible client. Also includes a CLI for cro",
+  "author": "camgitt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/memoir-cli",
+  "repo_url": "https://github.com/camgitt/memoir",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946897Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946899Z",
+  "repo_url": {
+   "url": "https://github.com/camgitt/memoir",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/memoir-cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-28T00:03:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1339,
+  "comment_author": "camgitt"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "memoir-persistent"
+ }
+}

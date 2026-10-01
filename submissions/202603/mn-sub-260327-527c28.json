@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-527c28",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pensyve-mcp",
+  "version": "1.0.0",
+  "description": "Pensyve MCP Server Name: pensyve-mcp Repository: https://github.com/major7apps/pensyve Website: https://pensyve.com Author: Major 7 Apps, LLC License: Apache-2.0 Language: Rust Transport: stdio Description Pensyve is a universal memory runtime for AI agents. The MCP server exposes 6 memory tools over stdio so any MCP-compatible client (Claude, Cursor, Cline, Windsurf, etc.) can store, search, and manage episodic, semantic, and procedural memories. Features - 8-signal hybrid retrieval — semantic",
+  "author": "wshobson",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pensyve.com",
+  "repo_url": "https://github.com/major7apps/pensyve",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946915Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946917Z",
+  "repo_url": {
+   "url": "https://github.com/major7apps/pensyve",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pensyve.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T20:54:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1337,
+  "comment_author": "wshobson"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pensyve-mcp"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260330-831b41",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "webcheck-mcp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: webcheck-mcp - Description: MCP server for website health analysis — SEO scoring, accessibility audit, performance timing, security headers, broken link detection, and page comparison. Zero config, no API keys needed. - npm: [webcheck-mcp](https://www.npmjs.com/package/webcheck-mcp) - GitHub: https://github.com/yifanyifan897645/webcheck-mcp - Install: `npx webcheck-mcp` - License: MIT Tools | Tool | Description | |------|-------------| | `check_website` | Full health check:",
+  "author": "yifanyifan897645",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/webcheck-mcp",
+  "repo_url": "https://github.com/yifanyifan897645/webcheck-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946489Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946491Z",
+  "repo_url": {
+   "url": "https://github.com/yifanyifan897645/webcheck-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/webcheck-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T10:10:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1380,
+  "comment_author": "yifanyifan897645"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "webcheck-mcp"
+ }
+}

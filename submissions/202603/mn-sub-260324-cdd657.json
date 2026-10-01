@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-cdd657",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "archetypal-ai-persistent-memory-for-ai-agents",
+  "version": "1.0.0",
+  "description": "Server Information - Name: archetypal-ai - GitHub Repository: https://github.com/archetypal-ai/archetypal-ai - npm Package: https://www.npmjs.com/package/archetypal-ai - Install: `npx archetypal-ai` - Transport: stdio - Category: Knowledge & Memory Description Give your AI agent persistent memory across every session. Install once with `npx archetypal-ai`, and your agent carries what it has learned into every future session. No account needed. No auth required. Tools | Tool | Description | |---",
+  "author": "bsharvey",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/archetypal-ai",
+  "repo_url": "https://github.com/archetypal-ai/archetypal-ai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947476Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947478Z",
+  "repo_url": {
+   "url": "https://github.com/archetypal-ai/archetypal-ai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/archetypal-ai",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T04:59:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1250,
+  "comment_author": "bsharvey"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "archetypal-ai-persistent-memory-for-ai-agents"
+ }
+}

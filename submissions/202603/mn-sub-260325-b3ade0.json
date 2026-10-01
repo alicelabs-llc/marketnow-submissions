@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260325-b3ade0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "property-comps",
+  "version": "1.0.0",
+  "description": "Property Comps MCP Server GitHub: https://github.com/Tianning-lab/property-comps-mcp-server API Docs: https://api.nwc-advisory.com/docs Description MCP server providing real estate comparable sales data across 11 global markets with 4.2M+ government-recorded transactions. Works with Claude Desktop and Claude Code. Markets UK, France, Singapore, NYC, Dubai, Chicago, Miami, Philadelphia, Connecticut, Ireland, Taiwan Tools - `search_property_comps` — Find recent sales near a location - `get_area_s",
+  "author": "Tianning-lab",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.nwc-advisory.com/docs",
+  "repo_url": "https://github.com/Tianning-lab/property-comps-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947222Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947224Z",
+  "repo_url": {
+   "url": "https://github.com/Tianning-lab/property-comps-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.nwc-advisory.com/docs",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-25T09:26:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1274,
+  "comment_author": "Tianning-lab"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "property-comps"
+ }
+}

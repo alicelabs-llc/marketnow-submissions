@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260327-63d534",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "company-diligence",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Company Diligence MCP - URL: https://company-diligence-mcp.two-hundred-ok.workers.dev/mcp - GitHub: https://github.com/Two-Hundred-OK/API-Factory (under `apis/company-diligence-mcp`) - Author: [Two Hundred OK](https://twohundredok.com) Description AI-agent company due diligence from free U.S. government sources. Remote MCP server — no local install, no API keys needed. Tools (6) | Tool | Description | |------|-------------| | `search_company` | Search by name, ticker, CIK, o",
+  "author": "tomer-bdbd",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://company-diligence-mcp.two-hundred-ok.workers.dev/mcp",
+  "repo_url": "https://github.com/Two-Hundred-OK/API-Factory",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947019Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947020Z",
+  "repo_url": {
+   "url": "https://github.com/Two-Hundred-OK/API-Factory",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://company-diligence-mcp.two-hundred-ok.workers.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T13:15:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1329,
+  "comment_author": "tomer-bdbd"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "company-diligence"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260326-bf97b0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "online-pr-mcp",
+  "version": "1.0.0",
+  "description": "Server Name Online.PR MCP Server Repository https://github.com/onlineprfoundation/online-pr-mcp npm Package `online-pr-mcp` → `npx online-pr-mcp` Website https://online.pr Description MCP server for [Online.PR](https://online.pr) — the global platform for PR agencies, press release distribution, and media placements. 11 tools for AI agents to search agencies, browse publications, order PR distribution, request quotes, and submit press releases. All search/browse endpoints are public (no API key",
+  "author": "onlineprfoundation",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://online.pr",
+  "repo_url": "https://github.com/onlineprfoundation/online-pr-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947139Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947141Z",
+  "repo_url": {
+   "url": "https://github.com/onlineprfoundation/online-pr-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://online.pr",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-26T06:50:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1303,
+  "comment_author": "onlineprfoundation"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "online-pr-mcp"
+ }
+}

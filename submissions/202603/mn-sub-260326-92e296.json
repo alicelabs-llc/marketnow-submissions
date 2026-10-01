@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260326-92e296",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "uimax-mcp-frontend",
+  "version": "1.0.0",
+  "description": "Server Name UIMax MCP npm Package `uimax-mcp` GitHub Repository https://github.com/prembobby39-gif/uimax-mcp Install Command ```bash claude mcp add uimax -- npx -y uimax-mcp ``` Description Turns Claude Code into a frontend expert that reviews and fixes your UI automatically. Free for all Pro plan users — no API keys needed. Features (12 tools) - review_ui — Full automated pipeline: screenshot + Lighthouse + axe-core + code analysis + expert review + auto-fix - lighthouse_audit — Real Google Li",
+  "author": "prembobby39-gif",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y uimax-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/prembobby39-gif/uimax-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947117Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947118Z",
+  "repo_url": {
+   "url": "https://github.com/prembobby39-gif/uimax-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y uimax-mcp",
+   "registry": "npm",
+   "package": "uimax-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-26T13:07:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1311,
+  "comment_author": "prembobby39-gif"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "uimax-mcp-frontend"
+ }
+}

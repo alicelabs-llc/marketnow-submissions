@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260330-56f6db",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "truss-mcp-server-suite-8-servers",
+  "version": "1.0.0",
+  "description": "TRUSS is a suite of 8 production-grade MCP servers from [claw-factory](https://github.com/claw-factory). Submitting for inclusion in mcp.so: - truss-mcp — AI-native developer tools for Claude Code (CLAUDE.md generation, prompt library, workflow builder): https://github.com/claw-factory/truss-mcp - truss-seo-mcp — SEO Command Center (keyword research, site audits, content briefs, schema markup, SERP previews): https://github.com/claw-factory/truss-seo-mcp - truss-shopify-mcp — Shopify store manag",
+  "author": "ghost",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://claw-factory.github.io/truss-site",
+  "repo_url": "https://github.com/claw-factory/truss-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946592Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946593Z",
+  "repo_url": {
+   "url": "https://github.com/claw-factory/truss-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://claw-factory.github.io/truss-site",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T01:49:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1371,
+  "comment_author": "ghost"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "truss-mcp-server-suite-8-servers"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260329-ff969b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shippost-mcp-twitter-x-tools-for-ai-agents",
+  "version": "1.0.0",
+  "description": "Server Details - Name: shippost-mcp - Description: Twitter/X tools for AI agents — read timelines, post tweets, search, and engage. Includes optional AI-powered reply drafting and opportunity scoring. - Category: Social Media - GitHub: https://github.com/RyanKramer/shippost-mcp - PyPI: https://pypi.org/project/shippost-mcp/ - Install: `pip install shippost-mcp` - Transport: stdio Tools (17 total) Free (11): get_my_profile, get_timeline, get_mentions, get_user_profile, get_tweet, search_tweets,",
+  "author": "RyanKramer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/shippost-mcp/",
+  "repo_url": "https://github.com/RyanKramer/shippost-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946657Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946659Z",
+  "repo_url": {
+   "url": "https://github.com/RyanKramer/shippost-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/shippost-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-29T15:24:41Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1366,
+  "comment_author": "RyanKramer"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shippost-mcp-twitter-x-tools-for-ai-agents"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-16afbe",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sats4ai-mcp-bitcoin",
+  "version": "1.0.0",
+  "description": "Server Information - Name: sats4ai-mcp - npm: https://www.npmjs.com/package/sats4ai-mcp - Repository: https://github.com/cnghockey/sats4ai-mcp-server - Website: https://sats4ai.com - Remote endpoint: https://sats4ai.com/api/mcp (streamable-http) Description 25+ AI tools paid via Bitcoin Lightning Network micropayments (L402). Image generation, text generation, TTS, video, document conversion, web search, phone calls, audiobook creation. No signup, no KYC, pay-per-call. Install ```json { \"mcpSer",
+  "author": "cnghockey",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sats4ai.com/api/mcp",
+  "repo_url": "https://github.com/cnghockey/sats4ai-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.947495Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.947497Z",
+  "repo_url": {
+   "url": "https://github.com/cnghockey/sats4ai-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sats4ai.com/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T03:24:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1249,
+  "comment_author": "cnghockey"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sats4ai-mcp-bitcoin"
+ }
+}

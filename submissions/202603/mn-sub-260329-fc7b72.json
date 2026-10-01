@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260329-fc7b72",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-staking",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: agent-staking-mcp-server PyPI: https://pypi.org/project/agent-staking-mcp-server/ GitHub: https://github.com/AiAgentKarl/agent-staking-mcp-server Category: Agent Economy / Trust Description MCP server for agent reputation staking — trust through skin-in-the-game. Agents deposit stakes as trust collateral. Bad behavior gets slashed. Good actors build reputation over time. Creates a self-regulating trust layer for multi-agent systems. Tools (7) - `tool_stake_deposit` —",
+  "author": "AiAgentKarl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/agent-staking-mcp-server/",
+  "repo_url": "https://github.com/AiAgentKarl/agent-staking-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:27.946695Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:27.946696Z",
+  "repo_url": {
+   "url": "https://github.com/AiAgentKarl/agent-staking-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/agent-staking-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-29T12:06:41Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1362,
+  "comment_author": "AiAgentKarl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-staking"
+ }
+}
