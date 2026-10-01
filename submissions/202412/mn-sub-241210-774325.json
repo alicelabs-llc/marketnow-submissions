@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-241210-774325",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "illumio-mcp-server",
+  "version": "1.0.0",
+  "description": "Illumio Core MCP server to interface the Illumio Core microsegmentation solution. https://github.com/alexgoller/illumio-mcp-server",
+  "author": "alexgoller",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/alexgoller/illumio-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:59:54.398884Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:59:54.398912Z",
+  "repo_url": {
+   "url": "https://github.com/alexgoller/illumio-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2024-12-10T07:00:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 2530601843,
+  "comment_author": "alexgoller"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "illumio-mcp-server"
+ }
+}
