@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260306-a6a822",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "azeth-mcp-server",
+  "version": "1.0.0",
+  "description": "Azeth MCP Server npm: `npx @azeth/mcp-server` GitHub: https://github.com/azeth-protocol/mcp-server Trust infrastructure for the machine economy — 32 MCP tools for AI agents: - Smart Accounts — ERC-4337 accounts with guardian-enforced spending limits - x402 Payments — Pay for any x402-gated API with on-chain USDC settlement - On-Chain Reputation — Payment-gated, USD-weighted trust scores via ERC-8004 - Service Discovery — Find services by capability and reputation - Encrypted Messaging — Agent-to",
+  "author": "0xtus",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://azeth.ai",
+  "repo_url": "https://github.com/azeth-protocol/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:47.713218Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:47.713245Z",
+  "repo_url": {
+   "url": "https://github.com/azeth-protocol/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://azeth.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-06T16:54:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4012874152,
+  "comment_author": "0xtus"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "azeth-mcp-server"
+ }
+}
