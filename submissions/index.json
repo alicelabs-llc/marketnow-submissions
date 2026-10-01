@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:17.184Z",
+ "updated_at": "2026-10-01T04:06:20.284Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3623,6 +3623,18 @@
    "from": "ip:dcba9c7a69e9",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-0faf51.json"
+  },
+  {
+   "id": "mn-sub-261001-7a5493",
+   "name": "google-maps-mcp-server-standalone-mcp-server-exposing-google",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:06:19.339Z",
+   "from": "ip:b52a1bd5fbeb",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-7a5493.json"
   }
  ],
  "l2_pass": {
