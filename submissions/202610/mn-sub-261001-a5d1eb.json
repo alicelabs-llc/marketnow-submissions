@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-a5d1eb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "3gpp-scout-(hosted-3gpp-mcp-server)",
+  "version": "1.0.0",
+  "description": "3GPP Scout (hosted 3GPP MCP server) Remote Streamable HTTP MCP server for semantic search over Rel-15 through Rel-20 TS/TR. Index stays current as 3GPP publishes. Independent product. Not affiliated with, endorsed by, or a partner of 3GPP or ETSI. - Name: 3GPP Scout - GitHub: https://github.com/carrotlabsai/3gpp-scout-mcp - MCP: https://api.3gppscout.com/mcp/ - Homepage: https://3gppscout.com/mcp/?src=mcpso - Docs: https://api.3gppscout.com/docs - Official registry: com.3gppscout/scout - Contact",
+  "author": "christopher18",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.3gppscout.com/mcp/",
+  "repo_url": "https://github.com/carrotlabsai/3gpp-scout-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:12.111404Z",
+  "duration_ms": 913,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:12.111428Z",
+  "repo_url": {
+   "url": "https://github.com/carrotlabsai/3gpp-scout-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.3gppscout.com/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:12.111431Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "3gpp-scout-hosted-3gpp-mcp-server"
+ }
+}
