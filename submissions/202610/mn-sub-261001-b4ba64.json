@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-b4ba64",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agentmarginrouter",
+  "version": "1.0.0",
+  "description": "Agent Margin Router - Pay-per-call data & web tools for AI agents https://github.com/AgentMarginRouter/AgentMarginRouter - 30 endpoints for crypto, web, SEO, DNS, PDF, search and more - - USDC/USDT micropayments on Base via x402 protocol - - - $0.005-$0.05 per call, 3 free calls per wallet - - - - Remote MCP server (Streamable HTTP) - - - - - Category: Finance, Web Tools, Data Analysis",
+  "author": "AgentMarginRouter",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/AgentMarginRouter/AgentMarginRouter",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:58.724577Z",
+  "duration_ms": 400,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 38,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:58.724600Z",
+  "repo_url": {
+   "url": "https://github.com/AgentMarginRouter/AgentMarginRouter",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:58.724603Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agentmarginrouter"
+ }
+}
