@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260516-36eba5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "saihm",
+  "version": "1.0.0",
+  "description": "** Sovereign, encrypted, persistent memory for AI agents. Eight MCP tools — remember, recall, forget (GDPR Art. 17 erasure), share, governance. Anchored on COTI V2 mainnet. Apache-2.0.",
+  "author": "SAIHM-Admin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@saihm/mcp-server",
+  "repo_url": "https://github.com/SAIHM-Admin/saihm-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504672Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504676Z",
+  "repo_url": {
+   "url": "https://github.com/SAIHM-Admin/saihm-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@saihm/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-16T06:17:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2321,
+  "comment_author": "SAIHM-Admin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "saihm"
+ }
+}

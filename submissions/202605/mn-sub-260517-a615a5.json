@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260517-a615a5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "click-to-mcp",
+  "version": "1.0.0",
+  "description": "** Auto-wrap any Click/typer CLI as an MCP server. Introspects CLI commands and options at runtime and maps them to MCP tools. Supports stdio and HTTP+SSE transport.",
+  "author": "Coding-Dev-Tools",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://coding-dev-tools.github.io/revenueholdings.dev/click-to-mcp/",
+  "repo_url": "https://github.com/Coding-Dev-Tools/click-to-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504608Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504610Z",
+  "repo_url": {
+   "url": "https://github.com/Coding-Dev-Tools/click-to-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://coding-dev-tools.github.io/revenueholdings.dev/click-to-mcp/",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-17T05:28:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2329,
+  "comment_author": "Coding-Dev-Tools"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "click-to-mcp"
+ }
+}

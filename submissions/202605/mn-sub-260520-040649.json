@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260520-040649",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "melis-x402-tools",
+  "version": "1.0.0",
+  "description": "** Production MCP server exposing 23 pay-per-call utility tools for AI agents — web scraping (Playwright), HTML-to-markdown token reduction, structured HTML extraction, cached fetch, format conversion (md/html/txt/csv/json + html→pdf), notifications (email/Telegram/HMAC webhook), JSON Schema validation, prompt-injection screening, URL safety (lightweight + Playwright+VirusTotal), embeddings, vector memory (write/query), image moderation, wallet trust scoring, response auditing, and multi-agent o",
+  "author": "mizukaizen",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agents.melis.ai",
+  "repo_url": "https://github.com/mizukaizen/x402-tools-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503256Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503258Z",
+  "repo_url": {
+   "url": "https://github.com/mizukaizen/x402-tools-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agents.melis.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-20T20:58:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2441,
+  "comment_author": "mizukaizen"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "melis-x402-tools"
+ }
+}

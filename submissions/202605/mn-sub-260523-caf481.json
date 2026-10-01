@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260523-caf481",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nifty-mcp-nifty-50-mcp-server-for-claude",
+  "version": "1.0.0",
+  "description": "Server details - Name: nifty-mcp - GitHub: https://github.com/vishalmdi/nifty-mcp - PyPI: https://pypi.org/project/nifty-mcp/ (publish in progress) - Description: Local MCP server for NIFTY 50 stock and index data — query OHLCV candles, list symbols, run backtests, and compare strategies. Works with Claude Desktop, VS Code, Cursor, and any MCP client. - Category: Finance / Data Install ```json { \"mcpServers\": { \"nifty\": { \"command\": \"uvx\", \"args\": [\"nifty-mcp\", \"serve\"] } } } ``` Tools | Tool |",
+  "author": "vishalmdi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/nifty-mcp/",
+  "repo_url": "https://github.com/vishalmdi/nifty-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.502930Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.502931Z",
+  "repo_url": {
+   "url": "https://github.com/vishalmdi/nifty-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/nifty-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-23T06:37:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2474,
+  "comment_author": "vishalmdi"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nifty-mcp-nifty-50-mcp-server-for-claude"
+ }
+}

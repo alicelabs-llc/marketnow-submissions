@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260518-ad8a15",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "e2easy-client-mcp-for-e2e-testing",
+  "version": "1.0.0",
+  "description": "MCP Client Submission - Name: E2Easy - Category: Development tools, testing, e2e - Works with: Claude Desktop - Support: info@e2easy.app Links: - Website: https://e2easy.app/ - Logo: https://e2easy.app/logo.svg/ - Privacy Policy: https://e2easy.app/privacy-policy/ - MCP: https://e2easy-claude-production.up.railway.app/mcp - Documentation: https://e2easy.app/docs/ Overview What is E2Easy? E2Easy is a codeless end-to-end testing platform that lets non-technical users and founders create, manage,",
+  "author": "twainprod",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://e2easy-claude-production.up.railway.app/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504399Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504401Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://e2easy-claude-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-18T12:15:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2351,
+  "comment_author": "twainprod"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "e2easy-client-mcp-for-e2e-testing"
+ }
+}

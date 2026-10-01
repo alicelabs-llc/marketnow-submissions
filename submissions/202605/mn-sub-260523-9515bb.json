@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260523-9515bb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "piia-engram-ai-identity-layer",
+  "version": "1.0.0",
+  "description": "Server Information - Name: piia-engram - GitHub: https://github.com/Patdolitse/piia-engram - PyPI: https://pypi.org/project/piia-engram/ - Category: Knowledge & Memory - Language: Python - License: Apache 2.0 Description AI identity layer that syncs who you are across Claude Code, Codex, Cursor, and 10+ MCP tools. Stores your profile, preferences, lessons learned, and key decisions as local JSON files on your machine. 43 MCP tools (10 Tier-1 default), knowledge health scoring, near-duplicate de",
+  "author": "Patdolitse",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/piia-engram/",
+  "repo_url": "https://github.com/Patdolitse/piia-engram",
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.502949Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.502951Z",
+  "repo_url": {
+   "url": "https://github.com/Patdolitse/piia-engram",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/piia-engram/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-23T00:47:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2472,
+  "comment_author": "Patdolitse"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "piia-engram-ai-identity-layer"
+ }
+}

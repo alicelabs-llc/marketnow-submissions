@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260520-3d5eb7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-skill-update-gate-mcp",
+  "version": "1.0.0",
+  "description": "MCP server Agent Skill Update Gate MCP Description Paid remote MCP for Claude Code skill update gate MCP, structured receipts, audit logs, and reviewer-ready evidence. Links - Website: https://agentskillupdategate.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://agentskillupdategate.clauxel.com/mcp - Public docs: https://github.com/clauxel/agent-skill-update-gate-mcp - Server card: https://agentskillupdategate.clauxel.com/server-card.json Access Pai",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentskillupdategate.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/agent-skill-update-gate-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503399Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503401Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/agent-skill-update-gate-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentskillupdategate.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-20T13:21:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2428,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-skill-update-gate-mcp"
+ }
+}

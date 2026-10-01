@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260515-f58448",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dr-mcp-clean-and-audit-messy-mcp-setups",
+  "version": "1.0.0",
+  "description": "Clean your MCP setup. dr-mcp audits Claude/Codex/Cursor/Windsurf/VS Code MCP configs, finds stale or abandoned servers, spots unused and context-heavy MCPs, flags outdated packages, and creates safe repair plans.",
+  "author": "prasad-kumkar",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @inferensys/dr-mcp",
+  "homepage": "https://inferensys.github.io/dr-mcp/",
+  "repo_url": "https://github.com/Inferensys/dr-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504708Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504709Z",
+  "repo_url": {
+   "url": "https://github.com/Inferensys/dr-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @inferensys/dr-mcp",
+   "registry": "npm",
+   "package": "@inferensys/dr-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://inferensys.github.io/dr-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-15T17:32:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2319,
+  "comment_author": "prasad-kumkar"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dr-mcp-clean-and-audit-messy-mcp-setups"
+ }
+}

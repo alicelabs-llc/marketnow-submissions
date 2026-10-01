@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260519-fd9cac",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "safety-replay-gate-mcp",
+  "version": "1.0.0",
+  "description": "MCP server Safety Replay Gate MCP Description Paid remote MCP for AI agent safety replay checks, policy gates, eval receipts, control-fix suggestions, and release evidence exports. Links - Website: https://safetyreplay.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://safetyreplay.clauxel.com/mcp - Public docs: https://github.com/clauxel/safety-replay-gate-mcp - Server card: https://safetyreplay.clauxel.com/server-card.json Access Paid hosted remote",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://safetyreplay.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/safety-replay-gate-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504006Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504008Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/safety-replay-gate-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://safetyreplay.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-19T10:16:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2385,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "safety-replay-gate-mcp"
+ }
+}

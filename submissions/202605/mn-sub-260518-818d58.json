@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260518-818d58",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "xzenia-x402-mcp",
+  "version": "1.0.0",
+  "description": "** Xzenia x402 MCP Server is a paid, x402-compliant MCP bridge that lets AI agents buy on-chain contract analysis and company enrichment with autonomous USDC settlement on Base Mainnet. It wraps a live x402 HTTP surface behind an MCP interface so Claude, Cursor, Codex, and other MCP clients can call paid tools without custom payment plumbing.",
+  "author": "prettybusysolutions-eng",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @xzenithai/x402-mcp-server",
+  "homepage": "https://www.npmjs.com/package/@xzenithai/x402-mcp-server",
+  "repo_url": "https://github.com/prettybusysolutions-eng/x402-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504299Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504301Z",
+  "repo_url": {
+   "url": "https://github.com/prettybusysolutions-eng/x402-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @xzenithai/x402-mcp-server",
+   "registry": "npm",
+   "package": "@xzenithai/x402-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@xzenithai/x402-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-18T21:52:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2371,
+  "comment_author": "prettybusysolutions-eng"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "xzenia-x402-mcp"
+ }
+}

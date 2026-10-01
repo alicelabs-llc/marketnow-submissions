@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260521-0f0806",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "codegraph-context-mcp",
+  "version": "1.0.0",
+  "description": "MCP server CodeGraph Context MCP Description Paid remote MCP for code graph MCP for AI coding, structured receipts, usage logs, and audit-ready evidence for agent and CI workflows. Links - Website: https://codegraphcontext.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://codegraphcontext.clauxel.com/mcp - Public docs: https://github.com/clauxel/codegraph-context-mcp - Server card: https://codegraphcontext.clauxel.com/server-card.json Access Paid hos",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://codegraphcontext.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/codegraph-context-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503201Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503203Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/codegraph-context-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://codegraphcontext.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T06:40:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2444,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "codegraph-context-mcp"
+ }
+}

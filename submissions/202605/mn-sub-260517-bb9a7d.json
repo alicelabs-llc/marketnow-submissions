@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260517-bb9a7d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "card-links-mcp",
+  "version": "1.0.0",
+  "description": "Credit card data MCP covering US, UK, AU, and EU markets — 82 cards across 9 providers. Tools for comparing cards, ranking welcome bonuses, analyzing spending to find the best-earning card, and exploring transfer partners.",
+  "author": "jackculpan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.milesandpointsdaily.com/mcp",
+  "repo_url": "https://github.com/jackculpan/card-links-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504626Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504627Z",
+  "repo_url": {
+   "url": "https://github.com/jackculpan/card-links-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.milesandpointsdaily.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-17T05:25:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2328,
+  "comment_author": "jackculpan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "card-links-mcp"
+ }
+}

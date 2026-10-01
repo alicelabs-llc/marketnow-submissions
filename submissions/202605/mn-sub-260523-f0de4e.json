@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260523-f0de4e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vessel-traffic",
+  "version": "1.0.0",
+  "description": "Server Name Vessel Traffic MCP Description Read-only MCP server for vessel identity lookup, AIS-style positions, tracks, port calls, carrier schedules, vessel schedules, and delay heuristics with source attribution and BYOK provider support. GitHub https://github.com/tools-mcp/vessel-traffic-mcp npm https://www.npmjs.com/package/@tools-mcp/vessel-traffic-mcp MCP Registry io.github.tools-mcp/vessel-traffic-mcp Category Maritime / Logistics / Data Tools (14) - `provider_status` - Check configured",
+  "author": "seokmogu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @tools-mcp/vessel-traffic-mcp",
+  "homepage": "https://www.npmjs.com/package/@tools-mcp/vessel-traffic-mcp",
+  "repo_url": "https://github.com/tools-mcp/vessel-traffic-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.502868Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.502870Z",
+  "repo_url": {
+   "url": "https://github.com/tools-mcp/vessel-traffic-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @tools-mcp/vessel-traffic-mcp",
+   "registry": "npm",
+   "package": "@tools-mcp/vessel-traffic-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@tools-mcp/vessel-traffic-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-23T15:05:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2482,
+  "comment_author": "seokmogu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vessel-traffic"
+ }
+}

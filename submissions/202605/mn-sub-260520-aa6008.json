@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260520-aa6008",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "webmcp-action-receipt-gate-mcp",
+  "version": "1.0.0",
+  "description": "MCP server WebMCP Action Receipt Gate MCP Description Paid remote MCP for WebMCP action receipt MCP, structured receipts, audit logs, and reviewer-ready evidence. Links - Website: https://webmcpactionreceipt.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://webmcpactionreceipt.clauxel.com/mcp - Public docs: https://github.com/clauxel/webmcp-action-receipt-gate-mcp - Server card: https://webmcpactionreceipt.clauxel.com/server-card.json Access Paid hos",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://webmcpactionreceipt.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/webmcp-action-receipt-gate-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503434Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503435Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/webmcp-action-receipt-gate-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://webmcpactionreceipt.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-20T13:20:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2426,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "webmcp-action-receipt-gate-mcp"
+ }
+}

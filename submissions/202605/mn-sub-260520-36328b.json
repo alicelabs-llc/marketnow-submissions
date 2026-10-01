@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260520-36328b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "android-cli-agent-gate-mcp",
+  "version": "1.0.0",
+  "description": "MCP server Android CLI Agent Gate MCP Description Paid remote MCP for Android CLI agent build gate, structured receipts, audit logs, and reviewer-ready evidence. Links - Website: https://androidcliagentgate.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://androidcliagentgate.clauxel.com/mcp - Public docs: https://github.com/clauxel/android-cli-agent-gate-mcp - Server card: https://androidcliagentgate.clauxel.com/server-card.json Access Paid hosted r",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://androidcliagentgate.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/android-cli-agent-gate-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503559Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503560Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/android-cli-agent-gate-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://androidcliagentgate.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-20T11:48:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2419,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "android-cli-agent-gate-mcp"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260521-698660",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "io-github-aimino",
+  "version": "1.0.0",
+  "description": "Lightning-fast HTML generation from AI agents with 15 tools, 22 components, and 25 templates.",
+  "author": "nguyenxuanduc1999",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Aimino-Tech/fast-html-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503120Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503121Z",
+  "repo_url": {
+   "url": "https://github.com/Aimino-Tech/fast-html-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T09:38:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2449,
+  "comment_author": "nguyenxuanduc1999"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "io-github-aimino"
+ }
+}

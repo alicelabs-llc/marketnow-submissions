@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260519-5156db",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentdata-boundary-mcp",
+  "version": "1.0.0",
+  "description": "MCP server AgentData Boundary MCP Description Paid hosted remote MCP published for Round12 TrendRadar demand capture. Links - Website: https://agentdataboundary.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://agentdataboundary.clauxel.com/mcp - Public docs: https://github.com/clauxel/agent-data-boundary-mcp - Server card: https://agentdataboundary.clauxel.com/server-card.json Access Paid hosted remote MCP. Production calls require a bearer token fr",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentdataboundary.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/agent-data-boundary-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504087Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504089Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/agent-data-boundary-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentdataboundary.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-19T03:31:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2377,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentdata-boundary-mcp"
+ }
+}

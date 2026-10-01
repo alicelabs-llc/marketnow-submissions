@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260519-0d6484",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "browserspend-guard-mcp",
+  "version": "1.0.0",
+  "description": "MCP server BrowserSpend Guard MCP Description Paid hosted remote MCP published for Round12 TrendRadar demand capture. Links - Website: https://browserspendguard.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://browserspendguard.clauxel.com/mcp - Public docs: https://github.com/clauxel/browser-spend-guard-mcp - Server card: https://browserspendguard.clauxel.com/server-card.json Access Paid hosted remote MCP. Production calls require a bearer token fr",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://browserspendguard.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/browser-spend-guard-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504101Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504103Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/browser-spend-guard-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://browserspendguard.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-19T03:30:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2376,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "browserspend-guard-mcp"
+ }
+}

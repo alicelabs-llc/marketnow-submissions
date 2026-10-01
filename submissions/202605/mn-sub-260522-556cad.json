@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260522-556cad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "orizn-visa",
+  "version": "1.0.0",
+  "description": "[Submit] Orizn Visa MCP Server — https://github.com/MattJeff/orizn-mcp-server",
+  "author": "MattJeff",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y orizn-visa-mcp",
+  "homepage": "https://www.npmjs.com/package/orizn-visa-mcp",
+  "repo_url": "https://github.com/MattJeff/orizn-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503019Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503021Z",
+  "repo_url": {
+   "url": "https://github.com/MattJeff/orizn-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y orizn-visa-mcp",
+   "registry": "npm",
+   "package": "orizn-visa-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/orizn-visa-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-22T03:06:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2461,
+  "comment_author": "MattJeff"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "orizn-visa"
+ }
+}

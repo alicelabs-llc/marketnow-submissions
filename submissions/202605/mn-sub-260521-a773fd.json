@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260521-a773fd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mttrly-ai-incident",
+  "version": "1.0.0",
+  "description": "MCP Server submission mttrly — AI-powered incident management and server monitoring via MCP. mttrly is a remote MCP server for AI SRE workflows: server health, alerts, diagnostics, playbooks, approval flows, audit history, deploy verification, and safe server inspection. - Type: Remote — Streamable HTTP + OAuth 2.1 (PKCE) - MCP endpoint: https://api.mttrly.com/mcp - Repository: https://github.com/mttrly-hq/mttrly-mcp - Website: https://mttrly.com/mcp - Tools: 40 (21 read, 19 execute) - Official",
+  "author": "dvmaslennikov",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.mttrly.com/mcp",
+  "repo_url": "https://github.com/mttrly-hq/mttrly-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503088Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503089Z",
+  "repo_url": {
+   "url": "https://github.com/mttrly-hq/mttrly-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.mttrly.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T11:14:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2452,
+  "comment_author": "dvmaslennikov"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mttrly-ai-incident"
+ }
+}

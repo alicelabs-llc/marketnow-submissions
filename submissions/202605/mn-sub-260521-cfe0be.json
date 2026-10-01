@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260521-cfe0be",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fastmcp-runtime-mcp",
+  "version": "1.0.0",
+  "description": "MCP server FastMCP Runtime MCP Description Paid remote MCP for hosted MCP server, structured receipts, usage logs, and audit-ready evidence for agent and CI workflows. Links - Website: https://fastmcpruntime.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://fastmcpruntime.clauxel.com/mcp - Public docs: https://github.com/clauxel/fastmcp-runtime-mcp - Server card: https://fastmcpruntime.clauxel.com/server-card.json Access Paid hosted remote MCP. Produ",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://fastmcpruntime.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/fastmcp-runtime-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503183Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503185Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/fastmcp-runtime-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://fastmcpruntime.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T06:40:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2445,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fastmcp-runtime-mcp"
+ }
+}

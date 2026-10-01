@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260521-ac7273",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "url-content-extractor",
+  "version": "1.0.0",
+  "description": "** Extract clean, readable content from any webpage URL. Removes ads, nav, scripts — returns just the text. Built for AI agents with x402 payment support via Nevermined.",
+  "author": "Drip3m",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Drip3m/url-content-extractor",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503240Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503242Z",
+  "repo_url": {
+   "url": "https://github.com/Drip3m/url-content-extractor",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T02:47:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2442,
+  "comment_author": "Drip3m"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "url-content-extractor"
+ }
+}

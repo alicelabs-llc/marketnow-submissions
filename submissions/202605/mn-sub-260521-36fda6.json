@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260521-36fda6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "thecrawler",
+  "version": "1.0.0",
+  "description": "Web crawler/extractor MCP server for agent workflows. Exposes crawl, crawl_markdown, search_and_crawl, crawl_sitemap, and extract_structured. Supports markdown extraction, PDF/DOCX parsing, structured metadata extraction, structured error types, optional OpenAI-compatible LLM extraction, and current GitHub-source validated extraction contracts/diagnostics.",
+  "author": "Rashadamom",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/manchittlab/TheCrawler",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503102Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503104Z",
+  "repo_url": {
+   "url": "https://github.com/manchittlab/TheCrawler",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T10:33:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2451,
+  "comment_author": "Rashadamom"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "thecrawler"
+ }
+}

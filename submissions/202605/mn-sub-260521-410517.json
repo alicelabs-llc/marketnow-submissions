@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260521-410517",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentmemory-mesh-mcp",
+  "version": "1.0.0",
+  "description": "MCP server AgentMemory Mesh MCP Description Paid remote MCP for agent memory MCP, structured receipts, usage logs, and audit-ready evidence for agent and CI workflows. Links - Website: https://agentmemorymcp.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://agentmemorymcp.clauxel.com/mcp - Public docs: https://github.com/clauxel/agentmemory-mesh-mcp - Server card: https://agentmemorymcp.clauxel.com/server-card.json Access Paid hosted remote MCP. Prod",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentmemorymcp.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/agentmemory-mesh-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.503158Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.503160Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/agentmemory-mesh-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentmemorymcp.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T06:41:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2446,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentmemory-mesh-mcp"
+ }
+}

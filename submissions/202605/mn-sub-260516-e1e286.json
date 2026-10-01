@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260516-e1e286",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mailsink",
+  "version": "1.0.0",
+  "description": "Programmatic temporary email inboxes for QA test automation and AI agents. Create disposable addresses, capture incoming mail, extract OTPs and verification links via 8 MCP tools. Built on Cloudflare Workers (edge). Free tier 50 inboxes/month, MCP server published as `@mailsink/mcp` on npm.",
+  "author": "heocoi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @mailsink/mcp",
+  "homepage": "https://mailsink.dev",
+  "repo_url": "https://github.com/heocoi/mailsink-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:48.504656Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:48.504658Z",
+  "repo_url": {
+   "url": "https://github.com/heocoi/mailsink-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @mailsink/mcp",
+   "registry": "npm",
+   "package": "@mailsink/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mailsink.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-16T09:58:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2323,
+  "comment_author": "heocoi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mailsink"
+ }
+}
