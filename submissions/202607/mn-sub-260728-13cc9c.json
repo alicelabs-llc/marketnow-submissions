@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260728-13cc9c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "legalaimcp",
+  "version": "1.0.0",
+  "description": "LegalAIMCP — curated directory of AI tools and MCP servers for law firms, with its own remote MCP server. - Server URL (streamable HTTP, free, read-only, no auth): https://legalaimcp.com/api/mcp - Install/docs page: https://legalaimcp.com/mcp - GitHub: https://github.com/gbrussich52/legalaimcp - Official MCP registry: `com.legalaimcp/directory` - Tools: `search_legal_ai_tools` (free text + practice-area + pricing filters), `get_legal_ai_tool`, `list_legal_ai_categories` - Category: legal / resea",
+  "author": "gbrussich52",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://legalaimcp.com/api/mcp",
+  "repo_url": "https://github.com/gbrussich52/legalaimcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:03.785927Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:03.785954Z",
+  "repo_url": {
+   "url": "https://github.com/gbrussich52/legalaimcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://legalaimcp.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-28T17:09:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5107319336,
+  "comment_author": "gbrussich52"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "legalaimcp"
+ }
+}
