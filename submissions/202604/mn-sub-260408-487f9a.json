@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-487f9a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "smara",
+  "version": "1.0.0",
+  "description": "Smara — Persistent memory MCP server with Ebbinghaus decay scoring - GitHub: https://github.com/smara-io/smara - npm: `@smara/mcp-server` (v2.2.0) - Website: https://smara.io - Category: Memory / Context Management - Install: `npx @smara/mcp-server --init` 7 MCP tools: `smara_store`, `smara_search`, `smara_recall`, `smara_forget`, `smara_list`, `smara_tag`, `smara_relate` Persistent, searchable memory across AI coding sessions. Uses Ebbinghaus forgetting curve decay so frequently-used knowledge ",
+  "author": "parallelromb",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://smara.io",
+  "repo_url": "https://github.com/smara-io/smara",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:47.920166Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:47.920197Z",
+  "repo_url": {
+   "url": "https://github.com/smara-io/smara",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://smara.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T15:05:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4207264547,
+  "comment_author": "parallelromb"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "smara"
+ }
+}
