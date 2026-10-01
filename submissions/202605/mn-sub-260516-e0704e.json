@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260516-e0704e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "ai-crawler-policy",
+  "version": "1.0.0",
+  "description": "ai-crawler-policy Cloudflare Workers MCP server - URL: https://api.lazy-mac.com/ai-crawler-policy/mcp - Health: https://api.lazy-mac.com/ai-crawler-policy/health - npm: https://www.npmjs.com/package/lazymac-mcp-ai-crawler-policy - Transport: streamable-http",
+  "author": "lazymac2x",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.lazy-mac.com/ai-crawler-policy/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:57.515048Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:57.515075Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.lazy-mac.com/ai-crawler-policy/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-16T11:52:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4466768666,
+  "comment_author": "lazymac2x"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "ai-crawler-policy"
+ }
+}
