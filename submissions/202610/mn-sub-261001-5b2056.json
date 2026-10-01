@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-5b2056",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mysql-legacy-mcp",
+  "version": "1.0.0",
+  "description": "mysql-legacy-mcp - Name: mysql-legacy-mcp - Author: Rufflet - GitHub: https://github.com/Rufflet/mysql-legacy-mcp - npm: https://www.npmjs.com/package/mysql-legacy-mcp - Official MCP Registry: `io.github.Rufflet/mysql-legacy-mcp` - License: MIT - Transport: stdio (`npx -y mysql-legacy-mcp`) - Description: MCP server for legacy MySQL 5.0–5.6: schema inspection and SELECT by default, with opt-in INSERT/UPDATE/DELETE/DDL. Live-verified against MySQL 5.0–8.0. - Tags: mysql, database, schema-inspecti",
+  "author": "Rufflet",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mysql-legacy-mcp",
+  "homepage": "https://www.npmjs.com/package/mysql-legacy-mcp",
+  "repo_url": "https://github.com/Rufflet/mysql-legacy-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:03.638848Z",
+  "duration_ms": 703,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:03.638878Z",
+  "repo_url": {
+   "url": "https://github.com/Rufflet/mysql-legacy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mysql-legacy-mcp",
+   "registry": "npm",
+   "package": "mysql-legacy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mysql-legacy-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:03.638881Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mysql-legacy-mcp"
+ }
+}
