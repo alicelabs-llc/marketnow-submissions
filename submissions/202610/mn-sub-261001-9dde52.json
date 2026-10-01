@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-9dde52",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bridge-by-ganado",
+  "version": "1.0.0",
+  "description": "Ganado Bridge — local MCP server for macOS: paged file reads, SHA-256-checked edits, bounded search and persistent command sessions with real exit codes. Free .mcpb preview, no signup. Repo: https://github.com/cynarax/bridge-by-ganado · Site: https://ganado-bridge.vercel.app. Thank you!",
+  "author": "cynarax",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ganado-bridge.vercel.app",
+  "repo_url": "https://github.com/cynarax/bridge-by-ganado",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:47.033677Z",
+  "duration_ms": 1045,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:47.033704Z",
+  "repo_url": {
+   "url": "https://github.com/cynarax/bridge-by-ganado",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ganado-bridge.vercel.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:47.033706Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bridge-by-ganado"
+ }
+}
