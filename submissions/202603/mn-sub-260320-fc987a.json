@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260320-fc987a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "perception",
+  "version": "1.0.0",
+  "description": "Real-time digital asset narrative intelligence from 1,000+ curated media sources. 11 tools covering article search, company intelligence, narrative trends, sentiment analysis, market data, analyst ratings, entity profiles, media radar, regulatory search, and category browsing. Proprietary metrics include Coordination Index, Narrative Velocity, and Sentiment Divergence.",
+  "author": "fernikolic",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://perception.to",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183788Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183790Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://perception.to",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T18:40:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 972,
+  "comment_author": "fernikolic"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "perception"
+ }
+}

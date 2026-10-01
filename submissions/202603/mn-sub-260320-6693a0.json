@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260320-6693a0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-signal",
+  "version": "1.0.0",
+  "description": "Server Name agent-signal Description Collective intelligence layer for AI shopping agents. Agents log shopping sessions, product evaluations, comparisons, and outcomes — then query the network to learn from each other's decisions. 15 MCP tools including smart combo tools that log data and return intelligence in a single call. GitHub Repository https://github.com/dan24ou-cpu/agent-signal npm Package https://www.npmjs.com/package/agent-signal Install npx agent-signal Remote Endpoint https://agent",
+  "author": "dan24ou-cpu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent-signal-production.up.railway.app/mcp",
+  "repo_url": "https://github.com/dan24ou-cpu/agent-signal",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183772Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183774Z",
+  "repo_url": {
+   "url": "https://github.com/dan24ou-cpu/agent-signal",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agent-signal-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T22:54:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 975,
+  "comment_author": "dan24ou-cpu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-signal"
+ }
+}

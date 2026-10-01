@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-2591fd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "critical-infrastructure",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Critical Infrastructure Interdependency MCP Server - Type: Server - URL: https://github.com/apifyforge/critical-infrastructure-interdependency-mcp - Website: https://apifyforge.com/actors/mcp-servers/critical-infrastructure-interdependency-mcp - Category: Intelligence / Data - Transport: StreamableHTTP - License: MIT Description Critical Infrastructure Interdependency MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence.",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--critical-infrastructure-interdependency-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/critical-infrastructure-interdependency-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183068Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183069Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/critical-infrastructure-interdependency-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--critical-infrastructure-interdependency-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:50:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1149,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "critical-infrastructure"
+ }
+}

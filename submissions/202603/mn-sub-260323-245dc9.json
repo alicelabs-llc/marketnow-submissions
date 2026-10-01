@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-245dc9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "academic-commercialization",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Academic Commercialization Pipeline MCP Server - Type: Server - URL: https://github.com/apifyforge/academic-commercialization-pipeline-mcp - Website: https://apifyforge.com/actors/mcp-servers/academic-commercialization-pipeline-mcp - Category: Research / Academic - Transport: StreamableHTTP - License: MIT Description Academic Commercialization Pipeline MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify i",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--academic-commercialization-pipeline-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/academic-commercialization-pipeline-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.182296Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.182297Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/academic-commercialization-pipeline-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--academic-commercialization-pipeline-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:55:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1195,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "academic-commercialization"
+ }
+}

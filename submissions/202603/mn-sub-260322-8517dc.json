@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260322-8517dc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "linkedin",
+  "version": "1.0.0",
+  "description": "Server Name LinkedIn MCP Server Description MCP server for LinkedIn's official REST API v2. Create posts, manage events, upload images, and interact with LinkedIn through any MCP-compatible AI assistant (Claude Code, Claude Desktop, etc.). Official API only - no scraping, no unofficial endpoints, no account risk. Features - OAuth 2.0 authentication with persistent session (survives server restarts) - Create, list, and delete LinkedIn posts - Create and manage LinkedIn events - Comment on and re",
+  "author": "souravdasbiswas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/souravdasbiswas/linkedin-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183345Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183347Z",
+  "repo_url": {
+   "url": "https://github.com/souravdasbiswas/linkedin-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-22T19:50:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1111,
+  "comment_author": "souravdasbiswas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "linkedin"
+ }
+}

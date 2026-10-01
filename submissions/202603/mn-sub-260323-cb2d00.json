@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-cb2d00",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cognitive-warfare-psyops",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Cognitive Warfare Psyops MCP Server - Type: Server - URL: https://github.com/apifyforge/cognitive-warfare-psyops-mcp - Website: https://apifyforge.com/actors/mcp-servers/cognitive-warfare-psyops-mcp - Category: Intelligence / Data - Transport: StreamableHTTP - License: MIT Description Cognitive Warfare Psyops MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure with pay-per-event pricing. No",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--cognitive-warfare-psyops-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/cognitive-warfare-psyops-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.182678Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.182680Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/cognitive-warfare-psyops-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--cognitive-warfare-psyops-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:52:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1172,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cognitive-warfare-psyops"
+ }
+}

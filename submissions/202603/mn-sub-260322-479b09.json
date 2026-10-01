@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260322-479b09",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bitatlas-mcp",
+  "version": "1.0.0",
+  "description": "@bitatlas/mcp-server npm: https://www.npmjs.com/package/@bitatlas/mcp-server GitHub: https://github.com/bitatlas-group/bitatlas Website: https://bitatlas.com Description BitAtlas MCP Server — Zero-Knowledge Cloud Drive for Humans and Agents. Client-side AES-256-GCM encryption, presigned S3 uploads, 7 MCP tools. Tools - `bitatlas_vault_status` — Vault health, file count, storage usage - `bitatlas_list_files` — List/filter/search files - `bitatlas_search` — Search by name or category - `bitatlas_",
+  "author": "stephenballot-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@bitatlas/mcp-server",
+  "repo_url": "https://github.com/bitatlas-group/bitatlas",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183399Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183400Z",
+  "repo_url": {
+   "url": "https://github.com/bitatlas-group/bitatlas",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@bitatlas/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-22T12:34:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1106,
+  "comment_author": "stephenballot-ai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bitatlas-mcp"
+ }
+}

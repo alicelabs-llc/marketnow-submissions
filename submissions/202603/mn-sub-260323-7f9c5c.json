@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-7f9c5c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "causal-panopticon",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Causal Panopticon MCP Server - Type: Server - URL: https://github.com/apifyforge/causal-panopticon-mcp - Website: https://apifyforge.com/actors/mcp-servers/causal-panopticon-mcp - Category: Intelligence / Data - Transport: StreamableHTTP - License: MIT Description Causal Panopticon MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure with pay-per-event pricing. No subscription required. Serv",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--causal-panopticon-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/causal-panopticon-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183207Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183209Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/causal-panopticon-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--causal-panopticon-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:49:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1141,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "causal-panopticon"
+ }
+}

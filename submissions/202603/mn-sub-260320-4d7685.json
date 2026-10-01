@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260320-4d7685",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "knowledgine-developer",
+  "version": "1.0.0",
+  "description": "knowledgine MCP Server GitHub: https://github.com/3062-in-zamud/knowledgine npm: https://www.npmjs.com/package/@knowledgine/cli License: MIT Description knowledgine extracts structured knowledge from your markdown notes and exposes it to MCP-compatible AI coding tools. It scans markdown files, detects patterns (problem-solution pairs, code snippets, debugging sessions, architectural decisions), and stores them in a local SQLite database with FTS5 full-text search and sqlite-vec semantic search.",
+  "author": "3062-in-zamud",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@knowledgine/cli",
+  "repo_url": "https://github.com/3062-in-zamud/knowledgine",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183916Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183918Z",
+  "repo_url": {
+   "url": "https://github.com/3062-in-zamud/knowledgine",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@knowledgine/cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T10:09:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 964,
+  "comment_author": "3062-in-zamud"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "knowledgine-developer"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-329ca8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "elder-care-facility-intelligence",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Elder Care Facility Intelligence MCP Server - Type: Server - URL: https://github.com/apifyforge/elder-care-facility-intelligence-mcp - Website: https://apifyforge.com/actors/mcp-servers/elder-care-facility-intelligence-mcp - Category: Healthcare - Transport: StreamableHTTP - License: MIT Description Elder Care Facility Intelligence MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure with pa",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--elder-care-facility-intelligence-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/elder-care-facility-intelligence-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.182397Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.182399Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/elder-care-facility-intelligence-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--elder-care-facility-intelligence-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:54:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1189,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "elder-care-facility-intelligence"
+ }
+}

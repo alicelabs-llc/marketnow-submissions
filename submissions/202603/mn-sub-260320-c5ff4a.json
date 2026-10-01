@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260320-c5ff4a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "letsfg-agent",
+  "version": "1.0.0",
+  "description": "LetsFG — Flight Search MCP Server Website: https://letsfg.co GitHub: https://github.com/LetsFG/LetsFG npm: https://www.npmjs.com/package/letsfg-mcp PyPI: https://pypi.org/project/letsfg/ MCP Endpoint: https://api.letsfg.co/mcp (Streamable HTTP) License: LetsFG Dual License (free for personal use, commercial booking requires agreement) Description LetsFG is an agent-native flight search and booking MCP server. It connects AI assistants to real airline pricing data from 400+ airlines via GDS/NDC",
+  "author": "Efistoffeles",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://letsfg.co",
+  "repo_url": "https://github.com/LetsFG/LetsFG",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183949Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183950Z",
+  "repo_url": {
+   "url": "https://github.com/LetsFG/LetsFG",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://letsfg.co",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T09:01:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 959,
+  "comment_author": "Efistoffeles"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "letsfg-agent"
+ }
+}

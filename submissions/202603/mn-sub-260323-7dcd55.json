@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-7dcd55",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sovereign-debt",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Sovereign Debt Contagion Geopolitical MCP Server - Type: Server - URL: https://github.com/apifyforge/sovereign-debt-contagion-geopolitical-mcp - Website: https://apifyforge.com/actors/mcp-servers/sovereign-debt-contagion-geopolitical-mcp - Category: Finance / Intelligence - Transport: StreamableHTTP - License: MIT Description Sovereign Debt Contagion Geopolitical MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--sovereign-debt-contagion-geopolitical-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/sovereign-debt-contagion-geopolitical-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.182954Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.182955Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/sovereign-debt-contagion-geopolitical-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--sovereign-debt-contagion-geopolitical-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:51:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1156,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sovereign-debt"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-4606e1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gnap-git-native",
+  "version": "1.0.0",
+  "description": "GNAP coordinates AI agents via git. Agents claim tasks by committing file moves. Works with any MCP-compatible agent. - GitHub: https://github.com/farol-team/gnap - 22+ stars - No infrastructure needed — just a git repo - Protocol-level coordination, not a chatbot Also relevant: - Sebastian (getsebastian.app) — hosted OpenClaw agent with MCP support, $49/mo - Ori (cofounder.run) — AI co-founder in Telegram, $200/mo — [Farol Labs](https://farol.io)",
+  "author": "ori-cofounder",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://farol.io",
+  "repo_url": "https://github.com/farol-team/gnap",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183276Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183281Z",
+  "repo_url": {
+   "url": "https://github.com/farol-team/gnap",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://farol.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T10:50:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1123,
+  "comment_author": "ori-cofounder"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gnap-git-native"
+ }
+}

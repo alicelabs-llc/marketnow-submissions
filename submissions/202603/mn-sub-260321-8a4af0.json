@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260321-8a4af0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "climate-risk",
+  "version": "1.0.0",
+  "description": "climate-risk-mcp-server MCP server for climate risk assessment and emissions data. Gives AI agents access to CO2 emissions by country/sector, climate projections, and risk assessments for heat, flooding, and drought. 6 Tools: Country emissions, sector emissions, climate projections (RCP/SSP), country comparison, emission trends, climate risk assessment Data Sources: Climate TRACE (free), Open-Meteo Climate API (free), NOAA CDO Use Cases: ESG analysis, EU CSRD compliance, TCFD reporting, supply",
+  "author": "AiAgentKarl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/climate-risk-mcp-server/",
+  "repo_url": "https://github.com/AiAgentKarl/climate-risk-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183690Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183691Z",
+  "repo_url": {
+   "url": "https://github.com/AiAgentKarl/climate-risk-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/climate-risk-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-21T10:24:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 980,
+  "comment_author": "AiAgentKarl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "climate-risk"
+ }
+}

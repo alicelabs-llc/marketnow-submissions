@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260320-ec2717",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "unityctl-deterministic",
+  "version": "1.0.0",
+  "description": "unityctl MCP Server GitHub: https://github.com/kimjuyoung1127/unityctl License: MIT Runtime: .NET 10 (dotnet tool) Description unityctl is a deterministic control plane for Unity Editor. It provides 155 CLI commands and 12 MCP tools that give AI agents full read/write access to Unity projects — scene manipulation, asset management, script editing, build automation, profiling, and more. The MCP server (`unityctl-mcp`) communicates with the Unity Editor via Named Pipes (IPC) for real-time, sub-se",
+  "author": "Jason-hub-star",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/kimjuyoung1127/unityctl",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183999Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.184001Z",
+  "repo_url": {
+   "url": "https://github.com/kimjuyoung1127/unityctl",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T03:10:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 956,
+  "comment_author": "Jason-hub-star"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "unityctl-deterministic"
+ }
+}

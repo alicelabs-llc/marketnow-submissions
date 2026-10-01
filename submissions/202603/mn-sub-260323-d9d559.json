@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-d9d559",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "open-source-software-supply-chain",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Open Source Software Supply Chain MCP Server - Type: Server - URL: https://github.com/apifyforge/open-source-software-supply-chain-mcp - Website: https://apifyforge.com/actors/mcp-servers/open-source-software-supply-chain-mcp - Category: Supply Chain - Transport: StreamableHTTP - License: MIT Description Open Source Software Supply Chain MCP Server aggregates data from multiple public APIs in parallel and returns structured intelligence. Runs on Apify infrastructure w",
+  "author": "Ryan-Clinton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ryanclinton--open-source-software-supply-chain-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/apifyforge/open-source-software-supply-chain-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.182343Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.182345Z",
+  "repo_url": {
+   "url": "https://github.com/apifyforge/open-source-software-supply-chain-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ryanclinton--open-source-software-supply-chain-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T22:54:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1192,
+  "comment_author": "Ryan-Clinton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "open-source-software-supply-chain"
+ }
+}

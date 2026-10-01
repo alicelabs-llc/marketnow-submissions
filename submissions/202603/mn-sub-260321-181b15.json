@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260321-181b15",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ai-huebot-philips",
+  "version": "1.0.0",
+  "description": "Server Name AI HueBot GitHub URL https://github.com/EthanSK/hue-vibes-mcp npm Package https://www.npmjs.com/package/ai-huebot Description MCP server for controlling Philips Hue lights via the Hue Remote API (CLIP v2). Set vibes, control individual lights, activate scenes, and save/recall mood presets through any MCP-compatible AI client. Features - OAuth authentication with automatic token refresh - Individual and bulk light control (on/off, brightness, color) - Scene activation by name - Vibe",
+  "author": "EthanSK",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/ai-huebot",
+  "repo_url": "https://github.com/EthanSK/hue-vibes-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183552Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183553Z",
+  "repo_url": {
+   "url": "https://github.com/EthanSK/hue-vibes-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/ai-huebot",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-21T22:14:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1098,
+  "comment_author": "EthanSK"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ai-huebot-philips"
+ }
+}

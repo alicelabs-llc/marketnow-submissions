@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-b76226",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentfolio-mcp",
+  "version": "1.0.0",
+  "description": "Server Information Name: agentfolio-mcp npm: https://www.npmjs.com/package/agentfolio-mcp GitHub: https://github.com/0xbrainkid/satp-mcp Category: Finance & Fintech / Blockchain / AI Agent Identity Description MCP server for AI agent trust verification via SATP (Solana Agent Trust Protocol). Query 100+ AI agent trust scores, verifications, and reputation data from AgentFolio. Tools (8) | Tool | Description | |------|-------------| | check_trust | Trust score + verification level by wallet | | v",
+  "author": "0xbrainkid",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/agentfolio-mcp",
+  "repo_url": "https://github.com/0xbrainkid/satp-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183327Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183329Z",
+  "repo_url": {
+   "url": "https://github.com/0xbrainkid/satp-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/agentfolio-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T07:20:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1117,
+  "comment_author": "0xbrainkid"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentfolio-mcp"
+ }
+}

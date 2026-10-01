@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260320-119c82",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "arch-tools",
+  "version": "1.0.0",
+  "description": "** 116+ AI tools (Claude, GPT-4o, Gemini, Grok, DALL-E, Runway, Whisper, Tavily, Exa) behind a single API key via MCP. Connect any MCP-compatible client to all 116 tools instantly. x402 micropayment support.",
+  "author": "Deesmo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://archtools.dev",
+  "repo_url": "https://github.com/Deesmo/Arch-AI-Tools",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183882Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183883Z",
+  "repo_url": {
+   "url": "https://github.com/Deesmo/Arch-AI-Tools",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://archtools.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T10:13:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 966,
+  "comment_author": "Deesmo"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "arch-tools"
+ }
+}

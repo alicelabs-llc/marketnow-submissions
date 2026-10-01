@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260320-cd6155",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "llm-benchmark",
+  "version": "1.0.0",
+  "description": "** MCP Server for LLM comparison, benchmarks, and pricing — find the best model for any task",
+  "author": "AiAgentKarl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/llm-benchmark-mcp-server/",
+  "repo_url": "https://github.com/AiAgentKarl/llm-benchmark-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183897Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183898Z",
+  "repo_url": {
+   "url": "https://github.com/AiAgentKarl/llm-benchmark-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/llm-benchmark-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T10:09:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 965,
+  "comment_author": "AiAgentKarl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "llm-benchmark"
+ }
+}

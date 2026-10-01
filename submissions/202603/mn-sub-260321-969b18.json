@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260321-969b18",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "patent-intelligence",
+  "version": "1.0.0",
+  "description": "MCP Server Info - Name: patent-intelligence-mcp-server - GitHub: https://github.com/AiAgentKarl/patent-intelligence-mcp-server - PyPI: https://pypi.org/project/patent-intelligence-mcp-server/ - Description: MCP server giving AI agents access to US patent data — search patents, explore citation networks, analyze technology trends via free USPTO PatentsView API. Tools (6) | Tool | Description | |------|-------------| | search_patents | Search patents by keyword | | get_patent_details | Full paten",
+  "author": "AiAgentKarl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/patent-intelligence-mcp-server/",
+  "repo_url": "https://github.com/AiAgentKarl/patent-intelligence-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:41.183706Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:41.183707Z",
+  "repo_url": {
+   "url": "https://github.com/AiAgentKarl/patent-intelligence-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/patent-intelligence-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-21T10:23:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 979,
+  "comment_author": "AiAgentKarl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "patent-intelligence"
+ }
+}
