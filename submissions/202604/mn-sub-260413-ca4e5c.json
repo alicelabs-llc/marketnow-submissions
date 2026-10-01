@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260413-ca4e5c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "financekit-mcp-financial-market-intelligence",
+  "version": "1.0.0",
+  "description": "# financekit-mcp — Financial Market Intelligence 12 MCP tools for stock quotes, technical analysis, crypto prices, and portfolio analysis. No API keys required. - Install: `pip install financekit-mcp` or `uvx financekit-mcp` - Tools: stock quotes, RSI, MACD, Bollinger Bands, SMA/EMA, ADX, Stochastic, ATR, OBV, crypto prices (CoinGecko), market overview (S&P 500/NASDAQ/DOW/VIX), portfolio analysis - GitHub: https://github.com/vdalhambra/financekit-mcp - PyPI: https://pypi.org/project/financekit-m",
+  "author": "vdalhambra",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/financekit-mcp/",
+  "repo_url": "https://github.com/vdalhambra/financekit-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:10.994091Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:10.994116Z",
+  "repo_url": {
+   "url": "https://github.com/vdalhambra/financekit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/financekit-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-13T17:10:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4238249256,
+  "comment_author": "vdalhambra"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "financekit-mcp-financial-market-intelligence"
+ }
+}
