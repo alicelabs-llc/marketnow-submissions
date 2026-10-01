@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:08:16.310Z",
+ "updated_at": "2026-10-01T04:08:29.813Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3851,6 +3851,18 @@
    "from": "ip:e0fe80bab20a",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-25933b.json"
+  },
+  {
+   "id": "mn-sub-261001-e25be3",
+   "name": "sentinel-washington-real-estate-mcp-source-dated-washington-",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:08:28.862Z",
+   "from": "ip:73012dfb0542",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-e25be3.json"
   }
  ],
  "l2_pass": {
