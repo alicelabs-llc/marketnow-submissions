@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260521-aff11f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pipeworx",
+  "version": "1.0.0",
+  "description": "Name: pipeworx Repo: https://github.com/pipeworx-io/pipeworx Hosted endpoint: https://gateway.pipeworx.io/pipeworx-catalog/mcp Homepage: https://pipeworx.io Smithery: https://smithery.ai/server/pipeworx/gateway Transport: streamable-http Pipeworx is a live data gateway connecting AI agents to 2,500+ tools across 575+ verified sources — SEC EDGAR, FDA, FRED, BLS, Census, USPTO patents, ATTOM real estate, ClinicalTrials.gov, EPA, weather, and more. The gateway exposes ~17 meta-tools (ask_pipeworx,",
+  "author": "b-gutman",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gateway.pipeworx.io/pipeworx-catalog/mcp",
+  "repo_url": "https://github.com/pipeworx-io/pipeworx",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:30.337015Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:30.337040Z",
+  "repo_url": {
+   "url": "https://github.com/pipeworx-io/pipeworx",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gateway.pipeworx.io/pipeworx-catalog/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-21T22:02:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4513132736,
+  "comment_author": "b-gutman"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pipeworx"
+ }
+}
