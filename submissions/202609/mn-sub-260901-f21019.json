@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260901-f21019",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "imba-agent-mcp-docs-spend",
+  "version": "1.0.0",
+  "description": "# IMBA Agent MCP (docs + spend) Public GitHub: https://github.com/IMBAwallet/agent-mcp License: MIT Two Official MCP Registry servers (v0.1.4): - Docs (policy/HowTo, no money): `com.imbawallet/agent-docs` - Hosted: https://imbawallet.com/mcp/docs - npm: `@imba_wallet/agent-mcp-docs` - Spend (USDT TRC-20 deposit + catalog buy with the operator Ed25519 key; no withdraw): `com.imbawallet/agent` - Hosted: https://imbawallet.com/mcp/spend - npm: `@imba_wallet/agent-mcp` Not a ChatGPT money plugin. Ra",
+  "author": "clnt2021",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://imbawallet.com/mcp/docs",
+  "repo_url": "https://github.com/IMBAwallet/agent-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:18.779889Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:18.779917Z",
+  "repo_url": {
+   "url": "https://github.com/IMBAwallet/agent-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://imbawallet.com/mcp/docs",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T08:20:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5491059133,
+  "comment_author": "clnt2021"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "imba-agent-mcp-docs-spend"
+ }
+}
