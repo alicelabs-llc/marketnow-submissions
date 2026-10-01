@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260602-4262ac",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "mosta-orm-mcp",
+  "version": "1.0.0",
+  "description": "@mostajs/orm-mcp — MCP server for @mostajs/orm - GitHub: https://github.com/apolocine/mosta-orm-mcp - npm: https://www.npmjs.com/package/@mostajs/orm-mcp - Official MCP Registry: `io.github.apolocine/orm-mcp` - Hosted: https://orm-mcp.amia.fr/mcp - Homepage: https://mostajs.dev Generate `@mostajs/orm` EntitySchemas, lint them (24 rules), and produce SQL migrations from AI dev tools (Claude, Cursor, Cline). 3 tools — transports: stdio + Streamable HTTP.",
+  "author": "apolocine",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://orm-mcp.amia.fr/mcp",
+  "repo_url": "https://github.com/apolocine/mosta-orm-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:19.496968Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:19.496999Z",
+  "repo_url": {
+   "url": "https://github.com/apolocine/mosta-orm-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://orm-mcp.amia.fr/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-02T21:45:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4607259671,
+  "comment_author": "apolocine"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "mosta-orm-mcp"
+ }
+}
