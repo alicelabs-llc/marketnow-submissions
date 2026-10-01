@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260223-d5e958",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "shelter",
+  "version": "1.0.0",
+  "description": "Server Name: Shelter GitHub repo: https://github.com/nextauralabs/wealth-vault/tree/main/packages/mcp npm: @shelter.money/mcp Category: Finance Description: MCP server for Shelter — AI financial coaching with 10 tools (safe-to-spend, cash runway, forecast, alerts, savings opportunities, affordability checks, Guardian AI) powered by real bank data via Plaid. Works with Claude Desktop, Cursor, Windsurf, and any MCP client. Demo mode available without API key.",
+  "author": "code-with-brian",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/nextauralabs/wealth-vault/tree/main/packages/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:11.333598Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:11.333623Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/nextauralabs/wealth-vault/tree/main/packages/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-23T09:40:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3943657828,
+  "comment_author": "code-with-brian"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "shelter"
+ }
+}
