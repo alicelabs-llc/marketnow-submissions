@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260219-17440d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "shipkit-unified-app-publishing-mcp-server",
+  "version": "1.0.0",
+  "description": "# ShipKit — Unified App Publishing MCP Server Repository: https://github.com/readmigo/shipkit npm: https://www.npmjs.com/package/@readmigo/shipkit-mcp AI Agent-friendly unified app publishing for Google Play, Apple App Store, and 10+ Chinese Android stores (Huawei, Xiaomi, OPPO, vivo, Honor, Tencent MyApp). Features - Unified multi-store publishing with a single MCP connection - Full artifact upload (AAB/IPA) to Google Play and Apple App Store - Built-in compliance engine with ICP, PIPL, and sto",
+  "author": "logan676",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@readmigo/shipkit-mcp",
+  "repo_url": "https://github.com/readmigo/shipkit",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:54.915038Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:54.915063Z",
+  "repo_url": {
+   "url": "https://github.com/readmigo/shipkit",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@readmigo/shipkit-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-19T16:45:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3928457756,
+  "comment_author": "logan676"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "shipkit-unified-app-publishing-mcp-server"
+ }
+}
