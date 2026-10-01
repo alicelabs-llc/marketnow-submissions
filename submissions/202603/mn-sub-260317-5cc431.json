@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260317-5cc431",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "megachad",
+  "version": "1.0.0",
+  "description": "Name: MegaChad URL: https://megachad.xyz/api/mcp Description: Burn-to-create looksmaxxing engine on MegaETH. 13 MCP tools: token price, swap quotes, wallet balance checks, orchestrated burn-to-NFT flow with pre-built calldata, gallery, leaderboard with ERC-8004 reputation, early access registration, bridge info, NFT metadata, and more. ERC-8004 registered on-chain agent (ID #12408) with x402 payment support via Meridian. Logo: https://megachad.xyz/images/megachad-logo.png GitHub: https://github.",
+  "author": "megachadxyz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://megachad.xyz/api/mcp",
+  "repo_url": "https://github.com/megachadxyz/mega-chad",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:16.007976Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:16.008003Z",
+  "repo_url": {
+   "url": "https://github.com/megachadxyz/mega-chad",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://megachad.xyz/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-17T11:25:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4074275410,
+  "comment_author": "megachadxyz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "megachad"
+ }
+}
