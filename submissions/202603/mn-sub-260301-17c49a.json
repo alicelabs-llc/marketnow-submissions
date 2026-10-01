@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260301-17c49a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "mycloudclaw",
+  "version": "1.0.0",
+  "description": "CloudClaw MCP Server CloudClaw is an AI agent hosting platform with 37+ connectors (Slack, GitHub, HubSpot, Stripe, Google Calendar, Twilio, and more), a built-in MCP server, BYOK credential vault, and agent marketplace. Deploy AI agents with full tool access in seconds. - Website: https://mycloudclaw.com - MCP Endpoint (public discovery): https://mycloudclaw.com/api/mcp/discover - MCP Endpoint (authenticated): https://mycloudclaw.com/api/agents/{id}/mcp - Protocol: MCP 2025-11-25 - Transport: S",
+  "author": "mkc909",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mycloudclaw.com/api/agents/{id}/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:31.479744Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:31.479768Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mycloudclaw.com/api/agents/{id}/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-01T15:20:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3980278065,
+  "comment_author": "mkc909"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "mycloudclaw"
+ }
+}
