@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260223-bfb72e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "midos-mcp-server-for-developer-knowledge",
+  "version": "1.0.0",
+  "description": "# MidOS — MCP Server for Developer Knowledge Repository: https://github.com/MidOSresearch/midos-mcp Website: https://midos.dev License: MIT Curated, validated knowledge for AI coding agents. 48 MCP tools, 104 skill packs across 20+ tech stacks, semantic vector search, 5-layer validation pipeline. Works with Claude Code, Cursor, Cline, Windsurf, and any MCP-compatible client. Transport: stdio + streamable HTTP Install: `uvx midos-mcp` or add to MCP config Categories: Knowledge Management, Develop",
+  "author": "MidOSresearch",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://midos.dev",
+  "repo_url": "https://github.com/MidOSresearch/midos-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:12.950852Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:12.950881Z",
+  "repo_url": {
+   "url": "https://github.com/MidOSresearch/midos-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://midos.dev",
+   "ok": false,
+   "status": 521
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-23T21:32:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3947447194,
+  "comment_author": "MidOSresearch"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "midos-mcp-server-for-developer-knowledge"
+ }
+}
