@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260706-e06c47",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ratary-memory-mcp",
+  "version": "1.0.0",
+  "description": "# Ratary Memory MCP Server name: Ratary Memory MCP Author: Ontorata GitHub: https://github.com/ontorata/ratary MCP docs: https://github.com/ontorata/ratary/tree/main/MCP Install: https://github.com/ontorata/ratary/tree/main/docs/install npm: @ratary/mcp-server (1.1.1) Official registry: io.github.ontorata/ratary License: MIT Category: Memory / Development Description: Persistent coding memory for AI assistants — save, search, hybrid retrieval, knowledge graph, token-efficient context. MCP stdio ",
+  "author": "ontorata",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @ratary/mcp-server",
+  "homepage": "https://github.com/ontorata/ratary/tree/main/MCP",
+  "repo_url": "https://github.com/ontorata/ratary",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:06.930904Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:06.930930Z",
+  "repo_url": {
+   "url": "https://github.com/ontorata/ratary",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @ratary/mcp-server",
+   "registry": "npm",
+   "package": "@ratary/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://github.com/ontorata/ratary/tree/main/MCP",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T08:35:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4890737288,
+  "comment_author": "ontorata"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ratary-memory-mcp"
+ }
+}
