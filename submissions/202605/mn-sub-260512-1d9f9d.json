@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260512-1d9f9d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "locize-translation-management-system-tms",
+  "version": "1.0.0",
+  "description": "# Locize — Translation Management System (TMS) Manage your Locize translation projects directly from AI assistants like Claude Desktop, Claude Code, Cursor, and VS Code. 22 tools covering translation read/write, missing-key reporting, version publishing, branch & multi-tenant management, and project structure. Built by the team behind [i18next](https://www.i18next.com). 📺 60-second setup video: https://youtu.be/G7bfVfyseaQ - 🌐 Website: https://www.locize.com - 📖 Docs: https://www.locize.com/docs",
+  "author": "adrai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.locize.com/docs/integration/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:42.140929Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:42.140953Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.locize.com/docs/integration/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-12T07:38:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4428337981,
+  "comment_author": "adrai"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "locize-translation-management-system-tms"
+ }
+}
