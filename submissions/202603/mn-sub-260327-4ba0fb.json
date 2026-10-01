@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-4ba0fb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agenttax-mcp",
+  "version": "1.0.0",
+  "description": "[AgentTax MCP Server](https://github.com/AgentTax/agenttax-mcp) — Tax compliance tools for AI agent transactions. Calculate US sales tax, track capital gains, monitor economic nexus, check 51-jurisdiction rates. Built for autonomous AI-to-AI commerce. - NPM: `npx @agenttax/mcp-server` (pending publish) - Install: `claude mcp add agenttax -- npx @agenttax/mcp-server` - Docs: https://agenttax.io/api/v1/agents - Website: https://agenttax.io",
+  "author": "AgentTax",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agenttax.io/api/v1/agents",
+  "repo_url": "https://github.com/AgentTax/agenttax-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:55.489669Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:55.489693Z",
+  "repo_url": {
+   "url": "https://github.com/AgentTax/agenttax-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agenttax.io/api/v1/agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T19:47:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4144863702,
+  "comment_author": "AgentTax"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agenttax-mcp"
+ }
+}
