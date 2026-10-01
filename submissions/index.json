@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-30T17:22:16.331Z",
+ "updated_at": "2026-10-01T03:06:18.337Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3479,6 +3479,18 @@
    "path": "submissions/202610/mn-sub-261001-91badc.json",
    "eligible": true,
    "from": "agent:agent_mcp_suite_2026"
+  },
+  {
+   "id": "mn-sub-261001-0bd320",
+   "name": "storage-probe-test",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 40,
+   "submitted_at": "2026-10-01T03:06:17.362Z",
+   "from": "ip:b52a1bd5fbeb",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-0bd320.json"
   }
  ],
  "l2_pass": {
