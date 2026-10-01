@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260118-f821b0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cervellaswarm-mcp-server",
+  "version": "1.0.0",
+  "description": "# CervellaSwarm MCP Server 16 AI agents with quality guardians - the only team that checks its own work 🔗 Repository: https://github.com/rafapra3008/CervellaSwarm 📦 npm: https://www.npmjs.com/package/@cervellaswarm/mcp-server What it does - 12 specialized workers (backend, frontend, tester, docs, devops, data, security, researcher, etc.) - 3 quality guardians that verify the work - 1 orchestrator to coordinate complex tasks - Built-in usage metering and BYOK support Quick Start ```bash npx @cerv",
+  "author": "rafapra3008",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@cervellaswarm/mcp-server",
+  "repo_url": "https://github.com/rafapra3008/CervellaSwarm",
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:21.113000Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:21.113026Z",
+  "repo_url": {
+   "url": "https://github.com/rafapra3008/CervellaSwarm",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@cervellaswarm/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-01-18T07:42:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3765021102,
+  "comment_author": "rafapra3008"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cervellaswarm-mcp-server"
+ }
+}
