@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260614-d7922d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hebrew-bible",
+  "version": "1.0.0",
+  "description": "hebrew-bible Read Hebrew Bible (Tanakh) verses & chapters in Hebrew + 10 languages, plus browse guided study plans. Public, no-auth, read-only. Served by [hebrewbible.app](https://hebrewbible.app). - URL: https://hebrewbible.app/mcp - Transport: streamable-http (JSON-RPC 2.0) - Auth: none - Server card: https://hebrewbible.app/.well-known/mcp/server-card.json - Repository: https://github.com/moshecohen90/hebrew-bible-mcp - Official registry: `io.github.moshecohen90/hebrew-bible` - Tools: list_bo",
+  "author": "moshecohen90",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://hebrewbible.app/mcp",
+  "repo_url": "https://github.com/moshecohen90/hebrew-bible-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:32.292524Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:32.292547Z",
+  "repo_url": {
+   "url": "https://github.com/moshecohen90/hebrew-bible-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://hebrewbible.app/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-14T12:31:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4701751230,
+  "comment_author": "moshecohen90"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hebrew-bible"
+ }
+}
