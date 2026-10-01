@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260808-4f9a91",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pollen-mcp",
+  "version": "1.0.0",
+  "description": "Pollen — make your store discoverable and buyable by AI agents - Website / docs: https://github.com/elytronlabs/pollen-mcp - Management server (OAuth 2.1 / API key): `https://pollen.elytron.in/mcp` - Public storefront catalog (read-only): `https://pollen.elytron.in/mcp/store/{shop}` - Official MCP Registry: `in.elytron/pollen`, `in.elytron/pollen-store` Connect Shopify or WooCommerce, then from chat: score products for agent-readiness, run multimodal enrichment, apply fixes, and publish to Googl",
+  "author": "elytronlabs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pollen.elytron.in/mcp",
+  "repo_url": "https://github.com/elytronlabs/pollen-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:19.369874Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:19.369894Z",
+  "repo_url": {
+   "url": "https://github.com/elytronlabs/pollen-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pollen.elytron.in/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-08T23:03:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5228620008,
+  "comment_author": "elytronlabs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pollen-mcp"
+ }
+}
