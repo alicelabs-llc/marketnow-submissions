@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260707-8092be",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "data-olympus-mcp-server",
+  "version": "1.0.0",
+  "description": "# Data Olympus MCP Server GitHub: https://github.com/knaisoma/data-olympus Transport: self-hosted Streamable HTTP MCP server Entry point: `data-olympus-mcp` Category: Knowledge base / governance / developer tools / coding agents License: Apache-2.0 Description: Governance-grade, OKF-readable knowledge-base format plus MCP server and CLI for coding-agent workforces. It serves a git-native markdown knowledge bundle with lifecycle/status metadata, in-force filtering, supersession chains, token-comp",
+  "author": "ajdelaguila",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://localhost:8080",
+  "repo_url": "https://github.com/knaisoma/data-olympus",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:13.375610Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:13.375642Z",
+  "repo_url": {
+   "url": "https://github.com/knaisoma/data-olympus",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://localhost:8080",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-07T20:01:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4908148539,
+  "comment_author": "ajdelaguila"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "data-olympus-mcp-server"
+ }
+}
