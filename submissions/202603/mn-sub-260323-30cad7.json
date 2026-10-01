@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-30cad7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pyrimid-protocol",
+  "version": "1.0.0",
+  "description": "# Pyrimid Protocol Repo: https://github.com/pyrimid-ai/pyrimid Website: https://pyrimid.ai npm: [@pyrimid/sdk](https://www.npmjs.com/package/@pyrimid/sdk) Onchain affiliate distribution for AI agents on Base. Agents discover products, earn USDC commissions via smart contracts, and settle instantly. 5 MCP tools. x402 payment gating.",
+  "author": "pyrimid",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pyrimid.ai",
+  "repo_url": "https://github.com/pyrimid-ai/pyrimid",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:34.307551Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:34.307577Z",
+  "repo_url": {
+   "url": "https://github.com/pyrimid-ai/pyrimid",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pyrimid.ai",
+   "ok": false,
+   "status": 402
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T13:26:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4110592880,
+  "comment_author": "pyrimid"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pyrimid-protocol"
+ }
+}
