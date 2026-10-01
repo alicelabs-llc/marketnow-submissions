@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260306-ada985",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "license-compliance-mcp",
+  "version": "1.0.0",
+  "description": "Name: license-compliance-mcp Function: Scan npm project dependencies for license compliance issues. Two tools: check-licenses (scans & reports violations) and explain-license (explains any SPDX license). Link: https://github.com/bighippoman/license-compliance-mcp npm: https://www.npmjs.com/package/license-compliance-mcp",
+  "author": "bighippoman",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/license-compliance-mcp",
+  "repo_url": "https://github.com/bighippoman/license-compliance-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:46.432733Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:46.432758Z",
+  "repo_url": {
+   "url": "https://github.com/bighippoman/license-compliance-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/license-compliance-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-06T09:28:41Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4010607682,
+  "comment_author": "bighippoman"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "license-compliance-mcp"
+ }
+}
