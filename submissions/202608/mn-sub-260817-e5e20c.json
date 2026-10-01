@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260817-e5e20c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "adcopilot-mcp",
+  "version": "1.0.0",
+  "description": "AdCopilot — hosted, write-capable Google Ads MCP server (by Atromx) - Homepage: https://adcopilot.cloud - Docs / repo: https://github.com/AtromxIntelligence/adcopilot-mcp - Transport: HTTP (streamable), remote / hosted · Tools: 32 (read + write) · Auth: per-user Google OAuth, private per-tenant connector URL Connect the Claude, ChatGPT or Copilot you already use to Google Ads under your own Google login. It audits wasted spend, builds campaigns, and adjusts budgets, bids, keywords and negatives ",
+  "author": "SaiSatya16",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://adcopilot.cloud",
+  "repo_url": "https://github.com/AtromxIntelligence/adcopilot-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:37.464928Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:37.464950Z",
+  "repo_url": {
+   "url": "https://github.com/AtromxIntelligence/adcopilot-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://adcopilot.cloud",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-17T12:36:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5316120273,
+  "comment_author": "SaiSatya16"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "adcopilot-mcp"
+ }
+}
