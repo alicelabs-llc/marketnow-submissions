@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260901-3e9a36",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "fastcrawl",
+  "version": "1.0.0",
+  "description": "** Cloud scraping & crawling API for AI agents. Turn any URL into clean, LLM-ready markdown, or crawl/map/search/extract a whole site. JavaScript rendering included. Free tier with 2× the credits of Firecrawl.",
+  "author": "ming997hk",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://fastcrawl.net/app",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994727Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994728Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://fastcrawl.net/app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T04:23:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3865,
+  "comment_author": "ming997hk"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "fastcrawl"
+ }
+}

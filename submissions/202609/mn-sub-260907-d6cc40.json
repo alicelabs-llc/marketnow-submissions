@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260907-d6cc40",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ninjaede-optigate",
+  "version": "1.0.0",
+  "description": "** Self-hosted MCP gateway and registry with token-sparing tool retrieval. Search tools across all upstream servers with lexical scoring (constant context cost, regardless of registry size). Per-tenant credential isolation, SSRF allowlist, rate limiting, full audit trail, approval workflow. The registry itself is an MCP server exposing search_tools + execute_tool at /mcp.",
+  "author": "NinjaEde",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/NinjaEde/optigate",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993658Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993660Z",
+  "repo_url": {
+   "url": "https://github.com/NinjaEde/optigate",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-07T16:32:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3989,
+  "comment_author": "NinjaEde"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ninjaede-optigate"
+ }
+}

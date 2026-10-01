@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260906-bec545",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "ambassly-hosted",
+  "version": "1.0.0",
+  "description": "Server Ambassly — a hosted MCP server for affiliate program operations and creator referral workflows. I maintain Ambassly and am submitting its official hosted server for the directory's standard review queue. - Website: https://ambassly.com - Public documentation: https://ambassly.com/docs/mcp - Remote endpoint: https://ambassly.com/api/mcp - Transport: Streamable HTTP - Authentication: scoped company or affiliate API key, sent as an Authorization bearer token. Users create their own key in D",
+  "author": "MelMayssonOwen",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ambassly.com/docs/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993803Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993805Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://ambassly.com/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-06T14:23:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3969,
+  "comment_author": "MelMayssonOwen"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "ambassly-hosted"
+ }
+}

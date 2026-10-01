@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260904-76244f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pickleball3-paddle-catalog",
+  "version": "1.0.0",
+  "description": "** Read-only pickleball paddle review catalogue — search, compare and inspect 152 reviewed paddles scored on one published 100-point methodology, with measured specs (static weight, swingweight, spin RPM, balance) and verified sponsored purchase links.",
+  "author": "gospodindark-stack",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pickleball3.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994162Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994164Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://pickleball3.com/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-04T12:49:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3924,
+  "comment_author": "gospodindark-stack"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pickleball3-paddle-catalog"
+ }
+}

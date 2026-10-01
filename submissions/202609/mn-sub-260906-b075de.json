@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260906-b075de",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentbit-router",
+  "version": "1.0.0",
+  "description": "Router-proxy + 79 keyless pay-per-call x402 tools for AI agents on Base. Pay AgentBIT once and agentbit_route runs the best x402 tool for your task — including external sellers, paid from our treasury — and returns the result (POST /v1/route/execute). agentbit_discover (free) searches 14,000+ indexed x402 services. Web search & extraction, structured data & RSS, academic search, company research, DNS/domain/IP intelligence, URL threat checks, sanctions & wallet screening, ERC-20 token audits, EU",
+  "author": "socialbitro",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentbit.app",
+  "repo_url": "https://github.com/socialbitro/agentbit-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993819Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993820Z",
+  "repo_url": {
+   "url": "https://github.com/socialbitro/agentbit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentbit.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-06T14:10:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3968,
+  "comment_author": "socialbitro"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentbit-router"
+ }
+}

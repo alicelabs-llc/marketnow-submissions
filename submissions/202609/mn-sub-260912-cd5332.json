@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260912-cd5332",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sato-hub-onchain",
+  "version": "1.0.0",
+  "description": "** Official remote MCP server for satohub.ai, a daily-rebuilt index of onchain AI-agent tooling — agent frameworks, MCP servers, wallets and key management, x402 and stablecoin payment rails, ERC-8004 identity registries, trading venues and data feeds. 26 read-only tools: search and fetch listings, deploy specs, agent passports, wiki pages, news, recent changes, measured agent-economy numbers by venue/chain/stage, and a preflight check on a repo, package, MCP endpoint, ERC-8004 agent or ERC-20 t",
+  "author": "satohubai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://satohub.ai/mcp",
+  "repo_url": "https://github.com/satohubai/onchain-agents",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.992952Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.992954Z",
+  "repo_url": {
+   "url": "https://github.com/satohubai/onchain-agents",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://satohub.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-12T22:23:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4089,
+  "comment_author": "satohubai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sato-hub-onchain"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260901-1b0f7d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "layers-mcp",
+  "version": "1.0.0",
+  "description": "** The endpoint a coding agent calls to run growth for a product: onboarding, the competitive map, what to post, the plan, the persona, the render, delivery, the review, paid campaigns, Layers-operated accounts, and halt on one call. Twenty-seven tools and fourteen resource families. Every tool carries its price in credits, and credits come out of the organization's balance when the tool runs.",
+  "author": "mikekhristo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://growth.layers.com",
+  "repo_url": "https://github.com/layers/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994637Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994639Z",
+  "repo_url": {
+   "url": "https://github.com/layers/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://growth.layers.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T20:43:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3882,
+  "comment_author": "mikekhristo"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "layers-mcp"
+ }
+}

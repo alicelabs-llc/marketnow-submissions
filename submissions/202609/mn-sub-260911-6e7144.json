@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260911-6e7144",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "piazza-in-festa",
+  "version": "1.0.0",
+  "description": "** Local events in Italian towns: village feasts (sagre), patron saint festivals, food and wine fairs, street markets, concerts and exhibitions. The catalogue is rebuilt every day from the notices that Italian town halls are legally required to publish on their official register (albo pretorio), so it also covers very small towns that no other calendar lists.",
+  "author": "thisloke",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://piazzainfesta.it/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993213Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993214Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://piazzainfesta.it/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T09:05:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4062,
+  "comment_author": "thisloke"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "piazza-in-festa"
+ }
+}

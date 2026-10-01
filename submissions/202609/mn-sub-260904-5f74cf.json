@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260904-5f74cf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ddmarketer",
+  "version": "1.0.0",
+  "description": "Name: ddmarketer Transport: Streamable HTTP (remote, no install) URL: https://www.ddmarketer.com/api/mcp Auth: none - public, read-only, rate limited Client repo: https://github.com/CodePhantom-1/ddmarketer-mcp Validated SaaS opportunities from real user complaints, mined across eight public sources (Reddit, Hacker News, GitHub, Stack Exchange, Trustpilot, app store reviews, product forums, X) and scored 0-100 for commercial intent. Three tools, no API key and no account: - `search_gaps` - find",
+  "author": "CodePhantom-1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.ddmarketer.com/api/mcp",
+  "repo_url": "https://github.com/CodePhantom-1/ddmarketer-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994107Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994108Z",
+  "repo_url": {
+   "url": "https://github.com/CodePhantom-1/ddmarketer-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.ddmarketer.com/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-04T17:53:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3932,
+  "comment_author": "CodePhantom-1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ddmarketer"
+ }
+}

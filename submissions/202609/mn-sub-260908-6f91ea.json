@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260908-6f91ea",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "emailchaser",
+  "version": "1.0.0",
+  "description": "** Emailchaser is a cold email platform. This hosted MCP server exposes the Emailchaser public API as 86 tools, so an agent can run the whole outbound motion in natural language instead of HTTP calls: build an ICP and size the audience, create a campaign and its sequence, add up to 1,000 leads at a time, attach sending accounts, launch, then read reply categories and campaign stats and act on them. It also covers inbox placement and mailbox health, prospect sourcing, AI reply drafts, done-for-yo",
+  "author": "afaqez",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.emailchaser.com/mcp-server",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993557Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993559Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.emailchaser.com/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-08T10:25:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4000,
+  "comment_author": "afaqez"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "emailchaser"
+ }
+}

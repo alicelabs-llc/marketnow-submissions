@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260908-b26813",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "3d-visualizer",
+  "version": "1.0.0",
+  "description": "Server submission Name: 3D Visualizer Registry name: io.github.kleinicke/3d-visualizer Repository: https://github.com/kleinicke/ply-visualizer Documentation: https://github.com/kleinicke/ply-visualizer/blob/main/packages/python/MCP.md PyPI: https://pypi.org/project/3d-visualizer/0.4.2/ Website/demo: https://3d.f-kleinicke.de Type: Local stdio MCP server; authenticated Streamable HTTP available for self-hosting. License: MIT Category: Data Visualization Inspect, compare and export point clouds,",
+  "author": "kleinicke",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/3d-visualizer/0.4.2/",
+  "repo_url": "https://github.com/kleinicke/ply-visualizer",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993466Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993468Z",
+  "repo_url": {
+   "url": "https://github.com/kleinicke/ply-visualizer",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/3d-visualizer/0.4.2/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-08T22:28:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4009,
+  "comment_author": "kleinicke"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "3d-visualizer"
+ }
+}

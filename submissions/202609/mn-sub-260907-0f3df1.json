@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260907-0f3df1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "antwork",
+  "version": "1.0.0",
+  "description": "Manage social media from inside your MCP client. Antwork drafts, schedules and publishes posts to LinkedIn, X, Instagram, TikTok, YouTube, Facebook, Threads and Pinterest, and reports engagement back. It drafts in the voice of each account's own recent posts rather than from a generic prompt, and ships MCP-App UI resources so the content calendar and post cards render as interactive panels in clients that support them. Published in the official MCP registry as `io.antwork/social`. Two social acc",
+  "author": "iker-gonzalez",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://antwork.io/docs/mcp",
+  "repo_url": "https://github.com/iker-gonzalez/antwork-skills",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993675Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993677Z",
+  "repo_url": {
+   "url": "https://github.com/iker-gonzalez/antwork-skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://antwork.io/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-07T13:00:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3986,
+  "comment_author": "iker-gonzalez"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "antwork"
+ }
+}

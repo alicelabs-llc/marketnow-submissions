@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260905-86b828",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "propraven",
+  "version": "1.0.0",
+  "description": "Submit server: PropRaven — https://github.com/jdw2111/propraven-mcp",
+  "author": "jdw2111",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://propraven.com/docs/mcp",
+  "repo_url": "https://github.com/jdw2111/propraven-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993936Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993938Z",
+  "repo_url": {
+   "url": "https://github.com/jdw2111/propraven-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://propraven.com/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-05T17:13:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3953,
+  "comment_author": "jdw2111"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "propraven"
+ }
+}

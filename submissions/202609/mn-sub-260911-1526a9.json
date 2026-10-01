@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260911-1526a9",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "regevidencehub-premises",
+  "version": "1.0.0",
+  "description": "RegEvidenceHub Premises RegEvidenceHub Premises provides deterministic UK premises-licensing preflight workflows for supported authorities. - Website: https://premises.regevidencehub.com - Remote MCP endpoint: https://premises.regevidencehub.com/ai/mcp - Transport: Streamable HTTP - Authentication: None - Documentation / OpenAPI: https://premises.regevidencehub.com/openapi.json - Official Registry identity: `io.github.ChanghuLiu/uk-premises-licence-mcp` - Glama connector: https://glama.ai/mcp/c",
+  "author": "ChanghuLiu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://premises.regevidencehub.com/ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993095Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993097Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://premises.regevidencehub.com/ai/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T23:45:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4076,
+  "comment_author": "ChanghuLiu"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "regevidencehub-premises"
+ }
+}

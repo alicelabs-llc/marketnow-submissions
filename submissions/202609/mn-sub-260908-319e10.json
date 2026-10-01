@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260908-319e10",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "scoopkit",
+  "version": "1.0.0",
+  "description": "Submission type: Remote server (Streamable HTTP, JSON-RPC 2.0). Hosted, no local install. Name: ScoopKit Website: https://scoopkit.dev Docs / agent canon: https://scoopkit.dev/llms.txt API docs: https://api.scoopkit.dev/docs Official MCP Registry: `dev.scoopkit/mcp` (already published; active) Reference repository (public): https://github.com/nateslabach/scoopkit-cli (CLI + MCP client config; examples: https://github.com/nateslabach/scoopkit-examples) Server URL: `https://api.scoopkit.dev/mcp` D",
+  "author": "nateslabach",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://scoopkit.dev",
+  "repo_url": "https://github.com/nateslabach/scoopkit-cli",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993641Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993643Z",
+  "repo_url": {
+   "url": "https://github.com/nateslabach/scoopkit-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://scoopkit.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-08T01:42:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3992,
+  "comment_author": "nateslabach"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "scoopkit"
+ }
+}

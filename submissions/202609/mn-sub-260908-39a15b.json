@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260908-39a15b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "veriton-htmljson-remote-x402-mcp",
+  "version": "1.0.0",
+  "description": "* Name: Veriton HTML→JSON * Repository: https://github.com/veriton-dev/veriton-micro-dev * Category: Developer Tools / Data Extraction * Type: Remote MCP server (HTTP JSON-RPC) * Endpoint: https://veriton-html-json-api.netlify.app/mcp * Description: Metered HTML→structured JSON for agents. Free demo tool + paid html_to_json ($0.02 USDC) and fetch_to_json ($0.05 USDC) on Base via x402 HTTP 402 accepts and prepaid credits. No signup. Manifest at /.well-known/x402. OpenAPI at /v1/openapi.json. * La",
+  "author": "veriton-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://veriton-html-json-api.netlify.app/mcp",
+  "repo_url": "https://github.com/veriton-dev/veriton-micro-dev",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993578Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993579Z",
+  "repo_url": {
+   "url": "https://github.com/veriton-dev/veriton-micro-dev",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://veriton-html-json-api.netlify.app/mcp",
+   "ok": false,
+   "status": 502
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-08T08:43:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3999,
+  "comment_author": "veriton-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "veriton-htmljson-remote-x402-mcp"
+ }
+}

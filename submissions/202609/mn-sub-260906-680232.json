@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260906-680232",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "brode-io",
+  "version": "1.0.0",
+  "description": "** Brode.io converts any image into machine embroidery files (DST, PES, JEF, VP3, EXP, U01, XXX) or vector graphics (SVG, PDF, EPS, DXF) — the same engine and free account as the brode.io web app (5 vectorizations + 2 embroideries per month). Local files are uploaded once via `POST /api/mcp/upload` and converted by `input_key` reference.",
+  "author": "mobzapp-code",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://brode.io/app/settings",
+  "repo_url": "https://github.com/brode-io/brode-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993772Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993774Z",
+  "repo_url": {
+   "url": "https://github.com/brode-io/brode-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://brode.io/app/settings",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-06T16:11:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3971,
+  "comment_author": "mobzapp-code"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "brode-io"
+ }
+}

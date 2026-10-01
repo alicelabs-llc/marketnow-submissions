@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260911-a3b666",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "resell-pro-official-remote-oauth",
+  "version": "1.0.0",
+  "description": "Resell Pro Resell Pro provides observed Vinted market analytics for resale research. Users can explore market activity, compare brands, analyze keyword niches, and discover emerging trends. - Remote MCP endpoint: https://resellpro.com/mcp - Transport: Streamable HTTP - Authentication: OAuth with Dynamic Client Registration; a Resell Pro account is required. - Documentation: https://resellpro.com/tools/mcp - Public client plugin: https://github.com/flipradar/resell-pro-claude-plugin - Support: h",
+  "author": "QuentinDela",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://resellpro.com/mcp",
+  "repo_url": "https://github.com/flipradar/resell-pro-claude-plugin",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993185Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993186Z",
+  "repo_url": {
+   "url": "https://github.com/flipradar/resell-pro-claude-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://resellpro.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T16:23:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4068,
+  "comment_author": "QuentinDela"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "resell-pro-official-remote-oauth"
+ }
+}

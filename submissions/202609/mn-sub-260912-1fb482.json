@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260912-1fb482",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mutalaamcp",
+  "version": "1.0.0",
+  "description": "** Local open-source MCP server for researching official Turkish legal sources — search legislation, court decisions, and Constitutional Court rulings, fetch documents and articles, and get direct links to official sources. Free (MIT); requires a free Mütalaa account for activation.",
+  "author": "hburaktasyurek",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mutalaa.tr",
+  "repo_url": "https://github.com/hburaktasyurek/MutalaaMCP",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993001Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993002Z",
+  "repo_url": {
+   "url": "https://github.com/hburaktasyurek/MutalaaMCP",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mutalaa.tr",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-12T15:53:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4085,
+  "comment_author": "hburaktasyurek"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mutalaamcp"
+ }
+}

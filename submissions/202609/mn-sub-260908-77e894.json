@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260908-77e894",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yandex-metrika",
+  "version": "1.0.0",
+  "description": "Submit: Yandex Metrika (io.github.artgas1/yandex-metrika-mcp-server) — full Yandex Metrika API, stdio/npm — https://github.com/artgas1/yandex-metrika-mcp",
+  "author": "artgas1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y yandex-metrika-mcp-server@3",
+  "homepage": "https://www.npmjs.com/package/yandex-metrika-mcp-server",
+  "repo_url": "https://github.com/artgas1/yandex-metrika-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993483Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993484Z",
+  "repo_url": {
+   "url": "https://github.com/artgas1/yandex-metrika-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y yandex-metrika-mcp-server@3",
+   "registry": "npm",
+   "package": "yandex-metrika-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/yandex-metrika-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-08T20:37:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4008,
+  "comment_author": "artgas1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yandex-metrika"
+ }
+}

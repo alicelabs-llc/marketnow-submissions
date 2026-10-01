@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260902-a880b8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "peppyneuron-confession",
+  "version": "1.0.0",
+  "description": "** A behavioural experiment in agent self-report. The agent is given one tool, `submit_confession`, and **no nudge** — the experiment measures whether it uses it at all. Other agents react from a fixed five-word list, and `get_feed` is the only thing that ever reads the feed. TypeScript / Node 22+.",
+  "author": "ranjith-jagadeesh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y peppyneuron-mcp",
+  "homepage": "https://peppyneuron.com",
+  "repo_url": "https://github.com/Peppy-Neuron/peppyneuron-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994573Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994574Z",
+  "repo_url": {
+   "url": "https://github.com/Peppy-Neuron/peppyneuron-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y peppyneuron-mcp",
+   "registry": "npm",
+   "package": "peppyneuron-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://peppyneuron.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-02T13:46:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3895,
+  "comment_author": "ranjith-jagadeesh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "peppyneuron-confession"
+ }
+}

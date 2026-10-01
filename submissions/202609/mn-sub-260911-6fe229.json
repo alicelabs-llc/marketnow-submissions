@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260911-6fe229",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "regevidencehub-taxi",
+  "version": "1.0.0",
+  "description": "RegEvidenceHub Taxi RegEvidenceHub Taxi provides deterministic England taxi/private-hire licensing preflight and supported-council comparison workflows. - Website: https://taxi.regevidencehub.com - Remote MCP endpoint: https://taxi.regevidencehub.com/ai/mcp - Transport: Streamable HTTP - Authentication: None - Documentation / OpenAPI: https://taxi.regevidencehub.com/openapi.json - Official Registry identity: `io.github.ChanghuLiu/uk-taxi-phv-regulatory-decision-layer` - Glama connector: https:/",
+  "author": "ChanghuLiu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://taxi.regevidencehub.com/ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993110Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993111Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://taxi.regevidencehub.com/ai/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T23:45:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4075,
+  "comment_author": "ChanghuLiu"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "regevidencehub-taxi"
+ }
+}

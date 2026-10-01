@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260903-606508",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "asyntai-ai-support-agent-for-websites",
+  "version": "1.0.0",
+  "description": "** Asyntai puts an AI support agent on a website that answers visitors from the site's own content. This MCP server gives any client 54 tools for that agent: manage the knowledge base (add pages, text, crawl a site), read and edit the agent's instructions, read conversations and leads, find questions the agent could not answer, take over a live chat and reply to a visitor yourself, and check plan usage. OAuth 2.1 sign-in with dynamic client registration; no API key. Free with every Asyntai accou",
+  "author": "asyntai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@asyntai/mcp",
+  "repo_url": "https://github.com/asyntai/mcp-bridge",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994436Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994437Z",
+  "repo_url": {
+   "url": "https://github.com/asyntai/mcp-bridge",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@asyntai/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-03T07:40:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3907,
+  "comment_author": "asyntai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "asyntai-ai-support-agent-for-websites"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260911-e2b04b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "deliverkit-community-stdio",
+  "version": "1.0.0",
+  "description": "DeliverKit is an AI delivery brain: it turns packaging, signing, and notarization knowledge for Linux (deb/rpm/AppImage), Windows (MSI), macOS, and HarmonyOS into plans an agent can execute and verify, then builds each artifact in the environment where it is legally valid and returns install/run verification evidence. - Install (stdio): `npx -y deliverkit-mcp` (npm, MIT) — https://www.npmjs.com/package/deliverkit-mcp - Transport: stdio; 11 tools (inspect_project, generate_packaging_plan, get_eco",
+  "author": "muzimu217",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y deliverkit-mcp",
+  "homepage": "https://www.npmjs.com/package/deliverkit-mcp",
+  "repo_url": "https://github.com/muzimu217/DeliverKit",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993169Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993170Z",
+  "repo_url": {
+   "url": "https://github.com/muzimu217/DeliverKit",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y deliverkit-mcp",
+   "registry": "npm",
+   "package": "deliverkit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/deliverkit-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T16:35:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4070,
+  "comment_author": "muzimu217"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "deliverkit-community-stdio"
+ }
+}

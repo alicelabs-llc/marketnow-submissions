@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260902-0291b1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "santismm-knowledge",
+  "version": "1.0.0",
+  "description": "** Read-only knowledge platform for Harness Engineering, agentic AI patterns, reference architectures, AI governance, first-party essays, executable Labs, Homeric data and epistemic claims. Version 0.4.1 currently exposes 30 typed, structured-output tools and 424 resources in English, Spanish and Portuguese.",
+  "author": "santismm",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://santismm.com/en/mcp",
+  "repo_url": "https://github.com/santismm/santismm-knowledge-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994503Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994505Z",
+  "repo_url": {
+   "url": "https://github.com/santismm/santismm-knowledge-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://santismm.com/en/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-02T23:22:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3901,
+  "comment_author": "santismm"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "santismm-knowledge"
+ }
+}

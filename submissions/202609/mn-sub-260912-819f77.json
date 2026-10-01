@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260912-819f77",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "voyagehacks",
+  "version": "1.0.0",
+  "description": "** Official remote MCP server for VoyageHacks.com: full-text search over fact-checked travel guides in 11 languages, article retrieval as Markdown with real publication dates, packing-kit recommendations from an editorial travel gear catalog, and flight, hotel, car rental, airport transfer, eSIM, VPN and travel credit card link tools. Twelve read-only tools, stateless, no account. Some returned links are affiliate links and every commercial tool says so in its description.",
+  "author": "wajdikhattel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://voyagehacks.com/en/mcp-server/",
+  "repo_url": "https://github.com/voyagehacks-com/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.992986Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.992988Z",
+  "repo_url": {
+   "url": "https://github.com/voyagehacks-com/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://voyagehacks.com/en/mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-12T19:08:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4087,
+  "comment_author": "wajdikhattel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "voyagehacks"
+ }
+}

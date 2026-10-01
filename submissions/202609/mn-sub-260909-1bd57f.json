@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260909-1bd57f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sift",
+  "version": "1.0.0",
+  "description": "Submit: sift (io.github.slymnysr/sift) — runs your command, returns only the lines that matter, stdio/PyPI — https://github.com/slymnysr/sift",
+  "author": "slymnysr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx --from",
+  "homepage": "https://pypi.org/project/sift-cli/",
+  "repo_url": "https://github.com/slymnysr/sift",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993449Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993450Z",
+  "repo_url": {
+   "url": "https://github.com/slymnysr/sift",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/sift-cli/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-09T01:11:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4010,
+  "comment_author": "slymnysr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sift"
+ }
+}

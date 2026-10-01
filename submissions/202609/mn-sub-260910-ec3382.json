@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260910-ec3382",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-x-x-twitter",
+  "version": "1.0.0",
+  "description": "Submit: mcp-x — X (Twitter) API v2 over the official OAuth 1.0a user context, 42 tools — https://github.com/Role1776/mcp-x",
+  "author": "Role1776",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://varmcp.com/mcp-x",
+  "repo_url": "https://github.com/Role1776/mcp-x",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993324Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993326Z",
+  "repo_url": {
+   "url": "https://github.com/Role1776/mcp-x",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://varmcp.com/mcp-x",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-10T09:22:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4031,
+  "comment_author": "Role1776"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-x-x-twitter"
+ }
+}

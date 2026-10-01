@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260911-d37467",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "regevidencehub-sponsor",
+  "version": "1.0.0",
+  "description": "RegEvidenceHub Sponsor RegEvidenceHub Sponsor provides evidence-backed Skilled Worker sponsor-duty change-impact decisions for England. - Website: https://works.regevidencehub.com - Remote MCP endpoint: https://works.regevidencehub.com/ai/mcp - Transport: Streamable HTTP - Authentication: None - Documentation / OpenAPI: https://works.regevidencehub.com/openapi.json - Repository: https://github.com/ChanghuLiu/england-works-watch - Official Registry identity: `io.github.ChanghuLiu/england-works-w",
+  "author": "ChanghuLiu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://works.regevidencehub.com/ai/mcp",
+  "repo_url": "https://github.com/ChanghuLiu/england-works-watch",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993152Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993153Z",
+  "repo_url": {
+   "url": "https://github.com/ChanghuLiu/england-works-watch",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://works.regevidencehub.com/ai/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T23:44:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4073,
+  "comment_author": "ChanghuLiu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "regevidencehub-sponsor"
+ }
+}

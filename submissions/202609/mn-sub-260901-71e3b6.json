@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260901-71e3b6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "devopam-mcpg",
+  "version": "1.0.0",
+  "description": "A production-grade [Model Context Protocol](https://modelcontextprotocol.io) server for PostgreSQL. Lets AI agents safely inspect, query, operate, and tune a Postgres database — 254 tools spanning catalog introspection, query intelligence, natural-language SQL, structural diffs, hybrid search, graph queries, data movement, and live ops. - GitHub: https://github.com/devopam/MCPg - PyPI: https://pypi.org/project/mcpg/ - Transport: stdio + HTTP/SSE (remote-capable) - Safety: read-only by default, A",
+  "author": "devopam",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://devopam-mcpg-demo.hf.space/mcp",
+  "repo_url": "https://github.com/devopam/MCPg",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994742Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994743Z",
+  "repo_url": {
+   "url": "https://github.com/devopam/MCPg",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://devopam-mcpg-demo.hf.space/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T04:04:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3864,
+  "comment_author": "devopam"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "devopam-mcpg"
+ }
+}

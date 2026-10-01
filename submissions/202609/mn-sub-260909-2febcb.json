@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260909-2febcb",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "atako-mcp",
+  "version": "1.0.0",
+  "description": "Atako MCP Name: Atako MCP One-liner: Manage your Atako AI agents from Claude, Cursor or ChatGPT. Description (300 chars): Remote MCP server for Atako, an AI agent platform. 30 tools to list, create, message, and manage your Atako agents, their files and integrations, plus 3 public tools (pricing, use cases, integrations) with no auth required. Streamable HTTP, Bearer token (`aik_...`) auth for the authenticated endpoint. Endpoints | | URL | Auth | Tools | |---|---|---|---| | Authenticated | `ht",
+  "author": "romlao",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.atako.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993418Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993419Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.atako.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-09T20:11:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4019,
+  "comment_author": "romlao"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "atako-mcp"
+ }
+}

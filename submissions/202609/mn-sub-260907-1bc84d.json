@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260907-1bc84d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pain-in-the-agent",
+  "version": "1.0.0",
+  "description": "Please add Pain in the Agent MCP to the server directory. - Repository: https://github.com/krllagent/painintheagent-mcp - Setup and API keys: https://painintheagent.com/integrations/ - Release: https://github.com/krllagent/painintheagent-mcp/releases/tag/v0.1.0 - Maintainer: Kirill Balakhonov - License: MIT - Transport: local stdio, Node.js 22 or later The client connects an AI writing workflow to the free Pain in the Agent text watermark rewrite service. It returns revised prose with fidelity n",
+  "author": "krllagent",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://painintheagent.com/integrations/",
+  "repo_url": "https://github.com/krllagent/painintheagent-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993706Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993708Z",
+  "repo_url": {
+   "url": "https://github.com/krllagent/painintheagent-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://painintheagent.com/integrations/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-07T08:33:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3983,
+  "comment_author": "krllagent"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pain-in-the-agent"
+ }
+}

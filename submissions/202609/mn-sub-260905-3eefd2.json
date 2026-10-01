@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260905-3eefd2",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pingroom-mobile",
+  "version": "1.0.0",
+  "description": "Please add PingRoom as a remote MCP server through the community submission route described in the MCP.so FAQ. PingRoom lets agents send mobile notifications, ask a human a question and read the answer, request approvals, and hand off decisions to the person who connected them. It also supports shared rooms, attachments, and live progress updates. The public catalog contains 41 tools, including gifted and promotional Pro code redemption. - Website: https://pingroom.io - Documentation: https://pi",
+  "author": "mahdi-salmanzade",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.pingroom.io/api/agent/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994059Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994061Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.pingroom.io/api/agent/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-05T01:09:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3937,
+  "comment_author": "mahdi-salmanzade"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pingroom-mobile"
+ }
+}

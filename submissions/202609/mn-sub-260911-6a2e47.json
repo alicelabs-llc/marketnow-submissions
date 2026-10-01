@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260911-6a2e47",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clauseai-mcp",
+  "version": "1.0.0",
+  "description": "Server Name ClauseAI - Startup legal documents GitHub Repository https://github.com/wasauce/clauseai Description Generate startup legal documents from attorney-drafted templates: NDAs, MSAs, DPAs, privacy policies, offer letters, and more. Download PDF, ODT, or Markdown. You can download at any time — even with nothing filled in. No account required. MCP https://clauseai.exe.xyz/mcp Category Legal contact: Clauseai@wasauce.com",
+  "author": "wasauce",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://clauseai.exe.xyz/mcp",
+  "repo_url": "https://github.com/wasauce/clauseai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993081Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993083Z",
+  "repo_url": {
+   "url": "https://github.com/wasauce/clauseai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://clauseai.exe.xyz/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-11T23:45:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4077,
+  "comment_author": "wasauce"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clauseai-mcp"
+ }
+}

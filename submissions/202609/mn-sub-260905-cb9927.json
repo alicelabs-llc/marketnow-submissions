@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260905-cb9927",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gofact",
+  "version": "1.0.0",
+  "description": "Creates compliant French electronic invoices locally. Takes an HTML invoice and structured data, produces a Factur-X file: a PDF/A-3 with the EN 16931 CII XML embedded byte for byte, self-checked against the EN 16931 rules before it is written. Legal invoice numbering — a continuous, gap-free, never-reused sequence — is held by the server in a locked registry, never by the language model: the model writes a `{{NUMERO}}` token and the server allocates the real number transactionally. Ships a defa",
+  "author": "btouchard",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://kolapsis.github.io/gofact/",
+  "repo_url": "https://github.com/kOlapsis/gofact",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994077Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994078Z",
+  "repo_url": {
+   "url": "https://github.com/kOlapsis/gofact",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://kolapsis.github.io/gofact/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-05T00:09:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3936,
+  "comment_author": "btouchard"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gofact"
+ }
+}

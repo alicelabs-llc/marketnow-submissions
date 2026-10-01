@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260905-40dcad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "assistant-mail",
+  "version": "1.0.0",
+  "description": "Submit MCP server Name: Assistant Mail (`@assistantmail/assistantmail-mcp`) GitHub: https://github.com/AssistantMail/assistantmail-mcp npm: `@assistantmail/assistantmail-mcp` Official MCP Registry: `io.github.AssistantMail/assistantmail-mcp` Docs: https://assistant-mail.ai/docs Free signup: https://app.assistant-mail.ai/?utm_source=mcpso&utm_medium=listing&utm_campaign=mcpso_to_free One-liner: Agent email with recipient allowlist and consent before send — for personal and small-team OpenClaw/He",
+  "author": "dmcrider",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://assistant-mail.ai/docs",
+  "repo_url": "https://github.com/AssistantMail/assistantmail-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993952Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993954Z",
+  "repo_url": {
+   "url": "https://github.com/AssistantMail/assistantmail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://assistant-mail.ai/docs",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-05T16:55:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3952,
+  "comment_author": "dmcrider"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "assistant-mail"
+ }
+}

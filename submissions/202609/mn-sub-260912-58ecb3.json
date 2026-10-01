@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260912-58ecb3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "recipebee-mcp",
+  "version": "1.0.0",
+  "description": "** RecipeBee remote MCP server for searching public recipes, previewing complete recipes and meal plans, and privately saving them after user consent. Preview tools are anonymous. Saving uses OAuth.",
+  "author": "praisondani",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://recipebee.app/.well-known/mcp/server-card.json",
+  "repo_url": "https://github.com/praisondani/recipebee-cursor-plugin",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993016Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993017Z",
+  "repo_url": {
+   "url": "https://github.com/praisondani/recipebee-cursor-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://recipebee.app/.well-known/mcp/server-card.json",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-12T13:26:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4084,
+  "comment_author": "praisondani"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "recipebee-mcp"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260908-cd58f2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shar-production-metadata-mcp",
+  "version": "1.0.0",
+  "description": "** SHAR Production provides AI-hybrid video-production services. This read-only utility validates rights-aware production metadata manifests. It exposes one tool, `validate_production_manifest`, which accepts a manifest object and returns a releasability result.",
+  "author": "Ares3333333",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sharprod.com/",
+  "repo_url": "https://github.com/SHARProduction/production-metadata-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993525Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993527Z",
+  "repo_url": {
+   "url": "https://github.com/SHARProduction/production-metadata-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sharprod.com/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-08T13:33:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4003,
+  "comment_author": "Ares3333333"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shar-production-metadata-mcp"
+ }
+}

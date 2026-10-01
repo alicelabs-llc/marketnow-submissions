@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260901-d2d791",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hesper-atlas-evidence",
+  "version": "1.0.0",
+  "description": "** Hesper Atlas is a read-only MCP server for independently",
+  "author": "SimonMaj",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://hesperatlas.com/mcp",
+  "repo_url": "https://github.com/SimonMaj/hesper-atlas-agent-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994684Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994685Z",
+  "repo_url": {
+   "url": "https://github.com/SimonMaj/hesper-atlas-agent-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://hesperatlas.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T18:15:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3877,
+  "comment_author": "SimonMaj"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hesper-atlas-evidence"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260901-086f9a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "sync-day",
+  "version": "1.0.0",
+  "description": "** sync.day is a free group scheduling tool with no sign-up. This remote MCP server (Streamable HTTP at https://sync.day/mcp/mcp) lets an assistant run the full flow: turn a one-sentence plan into event settings, create the event and get a short link like sync.day/hazel-orchid, read back who has answered and which start times rank highest, submit availability or approval votes for a participant, and record or update the final decision. Participants use the web page as usual; the assistant only n",
+  "author": "gfwfail",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sync.day",
+  "repo_url": "https://github.com/HemuduLabs/syncday-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.994669Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.994671Z",
+  "repo_url": {
+   "url": "https://github.com/HemuduLabs/syncday-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sync.day",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T18:44:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3878,
+  "comment_author": "gfwfail"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "sync-day"
+ }
+}

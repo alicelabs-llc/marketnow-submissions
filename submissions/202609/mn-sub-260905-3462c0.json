@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260905-3462c0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "veriroute-intel",
+  "version": "1.0.0",
+  "description": "Server Information - Name: VeriRoute Intel Lookup - Type: MCP Server (npm, stdio) — companion to our existing Remote Server listing (`veriroute-intel-lookup`) - GitHub: https://github.com/verirouteintel/veriroute-intel-mcp - npm: https://www.npmjs.com/package/veriroute-intel-mcp - Official MCP Registry: `com.verirouteintel/lookup` - Website / docs: https://verirouteintel.com/api-docs/mcp Description Tells your agent whether a number is safe to call or text right now. Live reads of the U.S. and",
+  "author": "iamdavid-vaughan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://verirouteintel.com/api-docs/mcp",
+  "repo_url": "https://github.com/verirouteintel/veriroute-intel-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.993906Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.993908Z",
+  "repo_url": {
+   "url": "https://github.com/verirouteintel/veriroute-intel-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://verirouteintel.com/api-docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-05T23:33:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3959,
+  "comment_author": "iamdavid-vaughan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "veriroute-intel"
+ }
+}

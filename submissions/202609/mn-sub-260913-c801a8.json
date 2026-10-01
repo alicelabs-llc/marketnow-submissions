@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260913-c801a8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hicortex",
+  "version": "1.0.0",
+  "description": "** Shared fleet memory for AI agents — what one agent learns, the whole fleet knows. The store corrects itself nightly: stale facts are rewritten in place, duplicates merged, and recall is injected into every prompt in supported coding agents. Works with Claude Code, Hermes, OpenClaw, Pi, and opencode. Self-hosted — raw sessions never leave your machine.",
+  "author": "mha33",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @gamaze/hicortex",
+  "homepage": "https://claude.com/claude-code",
+  "repo_url": "https://github.com/gamaze-labs/hicortex",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:13.992919Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:13.992921Z",
+  "repo_url": {
+   "url": "https://github.com/gamaze-labs/hicortex",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @gamaze/hicortex",
+   "registry": "npm",
+   "package": "@gamaze/hicortex",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://claude.com/claude-code",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-13T05:01:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4091,
+  "comment_author": "mha33"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hicortex"
+ }
+}
