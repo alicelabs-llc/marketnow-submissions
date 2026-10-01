@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260627-8a7fec",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "project-telos-mcp-pack",
+  "version": "1.0.0",
+  "description": "Project Telos MCP pack GitHub: https://github.com/HarperZ9/telos Integration docs: https://github.com/HarperZ9/telos/tree/main/demo/integrations Field guide: https://harperz9.github.io/field-guide.html Local-first MCP surfaces for agent work receipts, source intake, workspace maps, routing ledgers, and claim checks. The pack exposes 22 currently available tools across five stdio MCP servers: - gather: `gather.status`, `gather.doctor`, `gather.docs`, `gather.arxiv`, `gather.run` - index: `index.m",
+  "author": "HarperZ9",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://harperz9.github.io/field-guide.html",
+  "repo_url": "https://github.com/HarperZ9/telos",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:40.441545Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:40.441570Z",
+  "repo_url": {
+   "url": "https://github.com/HarperZ9/telos",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://harperz9.github.io/field-guide.html",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-27T17:22:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4819682723,
+  "comment_author": "HarperZ9"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "project-telos-mcp-pack"
+ }
+}
