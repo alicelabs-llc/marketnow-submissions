@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260606-38996e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "iwantfyi-spec",
+  "version": "1.0.0",
+  "description": "iwant.fyi -- reference implementation of the iwant.fyi demand-side protocol v1.0. AI agents express structured purchase intent (price, condition, location, specs) and receive ranked supply matches across connected commerce sources. MCP-native (https://iwant.fyi/api/mcp) with HTTP fallback. Apache-2.0. Repo: https://github.com/staugs/iwantfyi-spec",
+  "author": "staugs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://iwant.fyi/api/mcp",
+  "repo_url": "https://github.com/staugs/iwantfyi-spec",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:42.302691Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:42.302715Z",
+  "repo_url": {
+   "url": "https://github.com/staugs/iwantfyi-spec",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://iwant.fyi/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-06T17:03:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4639781244,
+  "comment_author": "staugs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "iwantfyi-spec"
+ }
+}
