@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260606-ef77cd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "akb-agent-knowledge-base",
+  "version": "1.0.0",
+  "description": "AKB — Agent Knowledge Base Git-backed organizational memory for AI agents — hybrid semantic + keyword search, structured tables, files, and a URI knowledge graph, served over MCP. A drop-in Confluence/Notion alternative for agents. - Repo: https://github.com/dnotitia/akb - npm: [`akb-mcp`](https://www.npmjs.com/package/akb-mcp) (stdio proxy; backend speaks Streamable HTTP) - Official MCP Registry: `io.github.dnotitia/akb` - Connect: `npx akb-mcp --url <AKB_MCP_URL> --pat <AKB_PAT>` (or set env `",
+  "author": "byongjohnhan-oss",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/akb-mcp",
+  "repo_url": "https://github.com/dnotitia/akb",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:40.895109Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:40.895154Z",
+  "repo_url": {
+   "url": "https://github.com/dnotitia/akb",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/akb-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-06T15:24:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4639413952,
+  "comment_author": "byongjohnhan-oss"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "akb-agent-knowledge-base"
+ }
+}
