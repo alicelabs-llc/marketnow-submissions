@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-1ab822",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "patlas-ai-assisted-patent-prior-art-search-over-real-uspto-a",
+  "version": "1.0.0",
+  "description": "Patlas — AI-assisted patent prior-art search over real USPTO and EPO/Espacenet patent data via MCP. Don't know what to search for yet? The `patent_scan` prompt scans your own codebase and docs, surfaces the distinct technical mechanisms in it, and checks each one against prior art automatically. Also does direct query-based search_prior_art (ranked similar patents for an invention description), element-by-element compare_claims against a specific patent, and landscape_summary (assignee/filing-tr",
+  "author": "yodhasystems-crypto",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://patlas.dev/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:07:51.804Z",
+  "duration_ms": 49,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:07:51.804Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://patlas.dev/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:73012dfb0542",
+ "submitted_at": "2026-10-01T04:07:51.804Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "patlas-ai-assisted-patent-prior-art-search-over-real-uspto-a"
+ }
+}
