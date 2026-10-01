@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-efbc36",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "penniless-json-repair",
+  "version": "1.0.0",
+  "description": "Penniless Data Utilities — 9 deterministic data/lookup tools for AI agents (JSON repair, YAML→JSON, cron next-run, diff, HTML/text extract, whois/RDAP, DNS lookup, GitHub repo-stats, email-validate). Available as a paid MCP server. - MCP: https://penniless-json-repair.sjaman.workers.dev/mcp - Discovery (x402, USDC on Base): https://penniless-json-repair.sjaman.workers.dev/.well-known/x402 - Agent manifest: https://penniless-json-repair.sjaman.workers.dev/.well-known/agent.json - Price: $0.001 US",
+  "author": "danielarif26",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://penniless-json-repair.sjaman.workers.dev/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:09.319638Z",
+  "duration_ms": 535,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:09.319663Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://penniless-json-repair.sjaman.workers.dev/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:09.319667Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "penniless-json-repair"
+ }
+}
