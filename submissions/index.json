@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:43.632Z",
+ "updated_at": "2026-10-01T04:09:46.131Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -4055,6 +4055,18 @@
    "from": "ip:20fc69af7312",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-2c557c.json"
+  },
+  {
+   "id": "mn-sub-261001-e38c1e",
+   "name": "macaroon-network-mcp-server-discovers-and-buys-from-a-live-m",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 38,
+   "submitted_at": "2026-10-01T04:09:45.271Z",
+   "from": "ip:f518dce52882",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-e38c1e.json"
   }
  ],
  "l2_pass": {
