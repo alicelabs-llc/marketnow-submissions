@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:41.035Z",
+ "updated_at": "2026-10-01T04:06:53.978Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3671,6 +3671,18 @@
    "from": "ip:dcba9c7a69e9",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-085d8f.json"
+  },
+  {
+   "id": "mn-sub-261001-af369e",
+   "name": "contractorroster-verified-us-licensed-contractor-data-for-ai",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 39,
+   "submitted_at": "2026-10-01T04:06:53.090Z",
+   "from": "ip:dcba9c7a69e9",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-af369e.json"
   }
  ],
  "l2_pass": {
