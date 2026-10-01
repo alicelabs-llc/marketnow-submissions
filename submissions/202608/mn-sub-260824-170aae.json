@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-170aae",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "zooq-linkedin-data-for-ai-agents",
+  "version": "1.0.0",
+  "description": "# ZOOQ — LinkedIn Data for AI Agents Repository: https://github.com/baldiga/zooq-mcp Endpoint: `https://zooq.dev/api/mcp` (streamable HTTP, `X-API-Key` header) Official registry: `io.github.baldiga/zooq` (v1.0.1, active) Site: https://zooq.dev Live LinkedIn data for AI agents — 44 tools across profiles, companies, jobs, posts, people search, job-change signals, and email finding. Unlike cookie/session-based LinkedIn servers, ZOOQ runs on its own infrastructure: the user's own LinkedIn account is",
+  "author": "baldiga",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://zooq.dev/api/mcp",
+  "repo_url": "https://github.com/baldiga/zooq-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:52.381299Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:52.381325Z",
+  "repo_url": {
+   "url": "https://github.com/baldiga/zooq-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://zooq.dev/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T19:21:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5400168393,
+  "comment_author": "baldiga"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "zooq-linkedin-data-for-ai-agents"
+ }
+}
