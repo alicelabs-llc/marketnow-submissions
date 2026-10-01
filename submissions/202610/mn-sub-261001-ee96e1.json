@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-ee96e1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bhoonidhi-mcp",
+  "version": "1.0.0",
+  "description": "https://github.com/geovicco-dev/bhoonidhi-mcp - MCP server for ISRO's Bhoonidhi Earth-observation portal. Lets an AI agent search the satellite archive in natural language, resolve place names, report scene availability, and (with a login) save queries, download open-access scenes, and stage scenes to the cart.",
+  "author": "geovicco-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/geovicco-dev/bhoonidhi-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:14.584744Z",
+  "duration_ms": 475,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:14.584774Z",
+  "repo_url": {
+   "url": "https://github.com/geovicco-dev/bhoonidhi-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:14.584778Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bhoonidhi-mcp"
+ }
+}
