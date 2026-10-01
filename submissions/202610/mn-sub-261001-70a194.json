@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-70a194",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agent-control",
+  "version": "1.0.0",
+  "description": "Name: Agent Control — Agent Meter MCP: https://agent-control.net/api/v1/mcp Homepage: https://agent-control.net Brief: https://agent-control.net/llms.txt Registry: net.agent-control/agent-control Can I pay this address? ok · new · warn · sink. First 5 free. Then $0.02 USDC per look. No inbox. No email. No API key. Public tools: meter_pricing, meter_buy_pass, meter_watch, meter_scan, meter_preflight, meter_scan_batch, meter_stamp, meter_verify_stamp.",
+  "author": "Cobra-bit-prog",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent-control.net/api/v1/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:39.615998Z",
+  "duration_ms": 653,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:39.616024Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://agent-control.net/api/v1/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:39.616027Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agent-control"
+ }
+}
