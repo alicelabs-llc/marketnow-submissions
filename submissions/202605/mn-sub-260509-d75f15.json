@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260509-d75f15",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "embercore-local",
+  "version": "1.0.0",
+  "description": "Server: embercore GitHub: https://github.com/embercore-labs/embercore Type: Marketing / Planning Language: Go Local-first MCP server that turns a one-page product brief into a complete marketing plan with human checkpoints. Key capabilities: - Plan-first workflow with human approval gates between stages - 8 MCP tools covering PM planning, research, brand, UX, GTM, approval, and plan assembly - Local-first / BYOK setup with Anthropic-compatible configuration - Streamable HTTP and stdio support i",
+  "author": "tamish-max",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/embercore-labs/embercore",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869299Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 40,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869301Z",
+  "repo_url": {
+   "url": "https://github.com/embercore-labs/embercore",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-09T11:24:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2256,
+  "comment_author": "tamish-max"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "embercore-local"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260418-32a329",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "thunderbird-cli",
+  "version": "1.0.0",
+  "description": "Submission for mcp.so Server name: thunderbird-cli MCP Registry name: `io.github.vitalio-sh/thunderbird-cli` Repo: https://github.com/vitalio-sh/thunderbird-cli npm: https://www.npmjs.com/package/thunderbird-cli-mcp License: MIT Author: Vitalii Ionov (@vitalio-sh) Category: Communication / Email Description Give AI agents full read/write access to email through Mozilla Thunderbird. Zero credentials ever touch the agent — all IMAP/SMTP stays in Thunderbird where it always was. 12 MCP tools: `ema",
+  "author": "vitalio-sh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/thunderbird-cli-mcp",
+  "repo_url": "https://github.com/vitalio-sh/thunderbird-cli",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870532Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870533Z",
+  "repo_url": {
+   "url": "https://github.com/vitalio-sh/thunderbird-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/thunderbird-cli-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-18T17:35:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2107,
+  "comment_author": "vitalio-sh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "thunderbird-cli"
+ }
+}

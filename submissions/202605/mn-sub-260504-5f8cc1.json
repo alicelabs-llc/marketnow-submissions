@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260504-5f8cc1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "synter",
+  "version": "1.0.0",
+  "description": "Submit: Synter MCP Server — Cross-platform ad management across Google, Meta, LinkedIn, Reddit, TikTok — https://github.com/Synter-Media-AI/mcp-server",
+  "author": "yukthi-byte",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.syntermedia.ai/mcp/",
+  "repo_url": "https://github.com/Synter-Media-AI/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869643Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869644Z",
+  "repo_url": {
+   "url": "https://github.com/Synter-Media-AI/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.syntermedia.ai/mcp/",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-04T10:24:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2224,
+  "comment_author": "yukthi-byte"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "synter"
+ }
+}

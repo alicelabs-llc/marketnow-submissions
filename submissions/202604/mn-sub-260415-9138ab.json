@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260415-9138ab",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "servicepal",
+  "version": "1.0.0",
+  "description": "** AI phone answering tools for service businesses — ROI analysis, missed call calculations, solution comparisons, custom demos, and industry use cases across 18 industries.",
+  "author": "RewardsPal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://servicepal.cloud/mcp/",
+  "repo_url": "https://github.com/RewardsPal/servicepal-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870729Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870730Z",
+  "repo_url": {
+   "url": "https://github.com/RewardsPal/servicepal-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://servicepal.cloud/mcp/",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T15:48:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2074,
+  "comment_author": "RewardsPal"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "servicepal"
+ }
+}

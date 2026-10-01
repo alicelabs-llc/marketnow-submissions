@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260512-2dda60",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "onplana",
+  "version": "1.0.0",
+  "description": "** Connect Claude, ChatGPT, Cursor, Gemini, and GitHub Copilot to your Onplana project portfolio. 27 tools, OAuth + PAT auth, full audit trail.",
+  "author": "SaimaOnplana",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://onplana.com",
+  "repo_url": "https://github.com/Onplana/onplana-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869120Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869122Z",
+  "repo_url": {
+   "url": "https://github.com/Onplana/onplana-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://onplana.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-12T01:55:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2281,
+  "comment_author": "SaimaOnplana"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "onplana"
+ }
+}

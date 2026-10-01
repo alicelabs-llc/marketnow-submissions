@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260415-ac2b31",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "proven-mcp-certified",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Proven MCP Server - GitHub URL: https://github.com/Proven-sh/proven - Website: https://proven.dev - Category: AI Agent Tools / Developer Tools / Playbooks Description Proven provides a library of certified playbooks for AI agents, each tested and validated against real agent execution. Instead of guessing at prompts, use playbooks with documented success rates, edge case handling, and agent-specific optimizations. Each law/playbook was discovered empirically: run an instruct",
+  "author": "atlas1m",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://proven.dev",
+  "repo_url": "https://github.com/Proven-sh/proven",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870710Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870711Z",
+  "repo_url": {
+   "url": "https://github.com/Proven-sh/proven",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://proven.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T19:12:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2076,
+  "comment_author": "atlas1m"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "proven-mcp-certified"
+ }
+}

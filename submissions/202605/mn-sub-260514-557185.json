@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260514-557185",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "suppr",
+  "version": "1.0.0",
+  "description": "MCP Server Name: Suppr MCP Server GitHub: https://github.com/zjg678/suppr-mcp Docs/API: https://openapi.suppr.wilddata.cn/introduction.html Related product: https://suppr.wilddata.cn/ What it does Suppr MCP exposes academic literature and document-processing workflows to MCP-compatible agents. It is aimed at research assistants and knowledge-work agents that need to work with papers, PDFs, and structured research tasks. Capabilities - Academic literature search and retrieval workflows - AI docu",
+  "author": "zjg678",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://openapi.suppr.wilddata.cn/introduction.html",
+  "repo_url": "https://github.com/zjg678/suppr-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.868975Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.868976Z",
+  "repo_url": {
+   "url": "https://github.com/zjg678/suppr-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://openapi.suppr.wilddata.cn/introduction.html",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-14T01:57:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2299,
+  "comment_author": "zjg678"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "suppr"
+ }
+}

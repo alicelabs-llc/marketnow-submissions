@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260510-1bb56b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ashlr-stack",
+  "version": "1.0.0",
+  "description": "Server name: ashlr-stack Repository: https://github.com/ashlrai/ashlr-stack Category: Developer Tools Language: TypeScript License: MIT Install: \\`brew install ashlrai/ashlr/stack\\` Description Control plane for your entire dev stack. CLI + MCP server + Claude Code plugin that provisions, wires, and operates 23 third-party services in your project with one command. Phantom-gated secrets (no plaintext tokens leak to your AI agent). Tags: dev-tools, infrastructure, mcp, claude-code, devops, cli",
+  "author": "masonwyatt23",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/ashlrai/ashlr-stack",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869231Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869233Z",
+  "repo_url": {
+   "url": "https://github.com/ashlrai/ashlr-stack",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-10T05:24:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2261,
+  "comment_author": "masonwyatt23"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ashlr-stack"
+ }
+}

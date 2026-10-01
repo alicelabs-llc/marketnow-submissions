@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260428-446512",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "neonia-io-neonia",
+  "version": "1.0.0",
+  "description": "Neonia MCP Gateway (neonia.io) - The ultimate platform for Autonomous AI Agents. Killer features include Autonomous Tool Discovery (dynamically finds and executes missing capabilities), Stateful Cloud Memory (remembers cross-session context), Context Packing (saves LLM tokens), and 20+ specialized dev tools. Get your API Key and configure settings at https://neonia.io.",
+  "author": "olex-green",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://neonia.io",
+  "repo_url": "https://github.com/Neonia-io/agent-mcp-examples",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869968Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869970Z",
+  "repo_url": {
+   "url": "https://github.com/Neonia-io/agent-mcp-examples",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://neonia.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-28T05:46:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2182,
+  "comment_author": "olex-green"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "neonia-io-neonia"
+ }
+}

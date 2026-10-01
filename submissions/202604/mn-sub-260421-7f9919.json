@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260421-7f9919",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "allratestoday",
+  "version": "1.0.0",
+  "description": "Real-time mid-market currency exchange rates for AI coding tools. Powered by the AllRatesToday API: 160+ currencies, Reuters/Refinitiv data, historical rates (1d/7d/30d/1y), currency list, and financial news. Five tools exposed; four work without an API key. Written in TypeScript using @modelcontextprotocol/sdk.",
+  "author": "cahthuranag",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://allratestoday.com",
+  "repo_url": "https://github.com/cahthuranag/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870299Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870301Z",
+  "repo_url": {
+   "url": "https://github.com/cahthuranag/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://allratestoday.com",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-21T10:08:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2132,
+  "comment_author": "cahthuranag"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "allratestoday"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260510-591d90",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "contextmcp-self",
+  "version": "1.0.0",
+  "description": "Server Name ContextMCP Tagline Self-hosted MCP server that turns your docs into a searchable knowledge base for AI assistants. Description ContextMCP is an open-source MCP server that indexes documentation from multiple formats — Mintlify, Fumadocs, Docusaurus, plain Markdown, and OpenAPI specs — into Pinecone using OpenAI embeddings, then serves it to AI assistants (Claude, Cursor, Continue, etc.) via the Model Context Protocol and a REST API. It ships with a CLI scaffold (`npx contextmcp init",
+  "author": "aagarwal1012",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://contextmcp.ai",
+  "repo_url": "https://github.com/dodopayments/context-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869266Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869267Z",
+  "repo_url": {
+   "url": "https://github.com/dodopayments/context-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://contextmcp.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-10T04:13:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2258,
+  "comment_author": "aagarwal1012"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "contextmcp-self"
+ }
+}

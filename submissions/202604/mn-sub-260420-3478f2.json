@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260420-3478f2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kuriflow-make",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Kuriflow - URL: https://mcp.kuriflow.com - Github Repo: https://github.com/sGuNk13/kuriflow-mcp - Type: Remote (streamable-http) - Auth: Bearer token (API key) Description Claude solves problems. Kuriflow makes them repeat. Stop spending AI tokens on the same task every week — let Claude solve it once, then Kuriflow runs it automatically with new data. Zero token cost per run. Server Config ```json { \"mcpServers\": { \"kuriflow\": { \"command\": \"uvx\", \"args\": [\"kuriflow-mcp\"], \"",
+  "author": "sGuNk13",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.kuriflow.com",
+  "repo_url": "https://github.com/sGuNk13/kuriflow-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870329Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870331Z",
+  "repo_url": {
+   "url": "https://github.com/sGuNk13/kuriflow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.kuriflow.com",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-20T05:56:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2123,
+  "comment_author": "sGuNk13"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kuriflow-make"
+ }
+}

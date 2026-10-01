@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260415-7c3145",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "trident-mcp-multi",
+  "version": "1.0.0",
+  "description": "Server Info - Name: trident-mcp - GitHub URL: https://github.com/mordor-forge/trident-mcp - Category: image-and-video-processing - License: Apache 2.0 - Language: Go Description MCP server for AI-assisted 3D model generation and post-processing. Single binary, no runtime dependencies. Tools (10) | Tool | Description | |------|-------------| | `text_to_3d` | Generate 3D model from text description | | `image_to_3d` | Generate 3D model from reference image | | `multiview_to_3d` | Generate 3D mode",
+  "author": "Gdetrane",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/mordor-forge/trident-mcp",
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870761Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870762Z",
+  "repo_url": {
+   "url": "https://github.com/mordor-forge/trident-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T10:21:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2069,
+  "comment_author": "Gdetrane"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "trident-mcp-multi"
+ }
+}

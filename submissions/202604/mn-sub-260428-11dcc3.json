@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260428-11dcc3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentfetch-token",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission | Field | Value | |---|---| | Name | AgentFetch | | URL | https://github.com/bch1212/agentfetch-mcp | | Homepage | https://www.agentfetch.dev | | Type | MCP Server (stdio) + hosted REST API | | Category | Web / Research / Data | Server Config ```json { \"mcpServers\": { \"agentfetch\": { \"command\": \"python\", \"args\": [\"-m\", \"agentfetch.mcp.server\"], \"env\": { \"JINA_API_KEY\": \"jina_xxx\", \"FIRECRAWL_API_KEY\": \"fc-xxx\" } } } } ``` Description AgentFetch is an MCP-native web fet",
+  "author": "bch1212",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.agentfetch.dev",
+  "repo_url": "https://github.com/bch1212/agentfetch-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869954Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869956Z",
+  "repo_url": {
+   "url": "https://github.com/bch1212/agentfetch-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.agentfetch.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-28T14:10:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2184,
+  "comment_author": "bch1212"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentfetch-token"
+ }
+}

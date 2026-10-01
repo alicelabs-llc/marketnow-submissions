@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260427-1d1695",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "daedalmap-geographic-data",
+  "version": "1.0.0",
+  "description": "Geographic interoperability infrastructure for agents and researchers. Identify reference systems, transform coordinates and boundaries, build crosswalks, assign stable loc_id values, prepare your own data, discover available geography dynamically, and connect compatible datasets. Discovery and selected execution lanes are free; commercial lanes return an x402 price challenge before any charge.",
+  "author": "xyver",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.daedalmap.com/mcp?registry=mcpso",
+  "repo_url": "https://github.com/xyver/daedal-map",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870054Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870055Z",
+  "repo_url": {
+   "url": "https://github.com/xyver/daedal-map",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.daedalmap.com/mcp?registry=mcpso",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-27T01:46:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2175,
+  "comment_author": "xyver"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "daedalmap-geographic-data"
+ }
+}

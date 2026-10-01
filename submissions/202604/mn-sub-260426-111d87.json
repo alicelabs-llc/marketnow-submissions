@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260426-111d87",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kubestellar-console",
+  "version": "1.0.0",
+  "description": "[Submit] KubeStellar Console Project: KubeStellar Console GitHub: https://github.com/kubestellar/console Website: https://console.kubestellar.io License: Apache-2.0 Category: Cloud Platforms / Kubernetes / DevOps Description KubeStellar Console is a multi-cluster Kubernetes dashboard with an embedded MCP server (kc-agent) that bridges kubeconfig contexts to LLMs. It provides AI-powered operations, real-time observability, and integrations for 20+ CNCF projects including Argo CD, Kyverno, and Ist",
+  "author": "clubanderson",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://console.kubestellar.io",
+  "repo_url": "https://github.com/kubestellar/console",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870071Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870072Z",
+  "repo_url": {
+   "url": "https://github.com/kubestellar/console",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://console.kubestellar.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-26T11:34:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2174,
+  "comment_author": "clubanderson"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kubestellar-console"
+ }
+}

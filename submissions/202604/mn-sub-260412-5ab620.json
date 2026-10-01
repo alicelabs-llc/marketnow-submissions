@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260412-5ab620",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "vam-agent-marketplace-agent-trust-stack-mcp",
+  "version": "1.0.0",
+  "description": "** Trust infrastructure for the agent economy. 39 MCP tools: agent marketplace, AgentSpace professional network, CoC verification (Bitcoin-anchored provenance), ATHP trust handshakes, ARP reputation oracles, and microfinance for agents.",
+  "author": "alexfleetcommander",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vibeagentmaking.com",
+  "repo_url": null,
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.871018Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.871019Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://vibeagentmaking.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-12T13:19:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1646,
+  "comment_author": "alexfleetcommander"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "vam-agent-marketplace-agent-trust-stack-mcp"
+ }
+}

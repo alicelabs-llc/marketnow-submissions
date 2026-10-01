@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260415-443b4b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-seo-seo",
+  "version": "1.0.0",
+  "description": "Server Info - Name: agent-seo - URL: https://chic-empathy-production-7c2e.up.railway.app/mcp - GitHub: https://github.com/manavaga/agent-seo - Description: How do you know if an AI agent is any good before you use it? And if you're building one, how do you know it's discoverable? agent-seo scores any AI agent on 5 trust dimensions (Schema Quality, Reliability, Developer Experience, Ecosystem Signal, Maintenance Health) and returns a 0-100 score with prioritized fix recommendations. Tools (3) |",
+  "author": "manavaga",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://chic-empathy-production-7c2e.up.railway.app/mcp",
+  "repo_url": "https://github.com/manavaga/agent-seo",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870812Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870814Z",
+  "repo_url": {
+   "url": "https://github.com/manavaga/agent-seo",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://chic-empathy-production-7c2e.up.railway.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T06:55:41Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2065,
+  "comment_author": "manavaga"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-seo-seo"
+ }
+}

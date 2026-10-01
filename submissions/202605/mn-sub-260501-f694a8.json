@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260501-f694a8",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "da-vinci-bets",
+  "version": "1.0.0",
+  "description": "Da Vinci Bets MCP Server npm: [@davincibets/mcp-server](https://www.npmjs.com/package/@davincibets/mcp-server) Repository: https://github.com/DaVinciPicks/davincibets-mcp Website: https://www.davincibets.io AI-powered sports betting predictions for NBA, NFL, NHL & MLB. 9 tools covering predictions, game lookup, team search (124 teams), pick card rendering, verified track record, and game schedules. Uses 15+ factor ML models with transparent, verified win rates. Install ```bash npx -y @davincibe",
+  "author": "DaVinciPicks",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @davincibets/mcp-server@latest",
+  "homepage": "https://www.npmjs.com/package/@davincibets/mcp-server",
+  "repo_url": "https://github.com/DaVinciPicks/davincibets-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869846Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869848Z",
+  "repo_url": {
+   "url": "https://github.com/DaVinciPicks/davincibets-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @davincibets/mcp-server@latest",
+   "registry": "npm",
+   "package": "@davincibets/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@davincibets/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-01T00:52:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2195,
+  "comment_author": "DaVinciPicks"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "da-vinci-bets"
+ }
+}

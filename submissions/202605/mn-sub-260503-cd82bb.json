@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260503-cd82bb",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "entia-entity-verification",
+  "version": "1.0.0",
+  "description": "MCP Server Submission: ENTIA Entity Verification Name: ENTIA Entity Verification Type: MCP Server (Streamable HTTP — MCP spec 2025-03-26) URL: https://github.com/ENTIA-IA/ENTIA_DAHE MCP Endpoint: https://mcp.entia.systems/mcp/ Setup Page: https://entia.systems/mcp-setup Docs: https://entia.systems/mcp-docs Free Tier: 5 requests/day (TRACE plan) Description 52M+ verified business records across 34 countries. Spain's BORME (40M mercantile acts since 2009), EU VAT validation (VIES, 27 states), GLE",
+  "author": "entia-systems-core",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://entia.systems/mcp-docs",
+  "repo_url": "https://github.com/ENTIA-IA/ENTIA_DAHE",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869712Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869714Z",
+  "repo_url": {
+   "url": "https://github.com/ENTIA-IA/ENTIA_DAHE",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://entia.systems/mcp-docs",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-03T19:45:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2213,
+  "comment_author": "entia-systems-core"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "entia-entity-verification"
+ }
+}

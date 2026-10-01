@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260419-d0353d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mrc-data-chinese",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MRC Data - Repository: https://github.com/meacheal-ai/mrc-data - Homepage: https://meacheal.ai - API Endpoint: https://api.meacheal.ai/mcp - License: MIT (npm wrapper package) - Smithery Score: 96/100 — https://smithery.ai/server/@meacheal-ai/mrc-data Description MRC Data is an MCP server providing verified Chinese apparel supply chain intelligence to AI agents: - 3,000+ verified manufacturers across 31 provinces - 350+ lab-tested fabric specifications (AATCC / ISO /",
+  "author": "meacheal-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mrc-data",
+  "homepage": "https://api.meacheal.ai/mcp",
+  "repo_url": "https://github.com/meacheal-ai/mrc-data",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870495Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870497Z",
+  "repo_url": {
+   "url": "https://github.com/meacheal-ai/mrc-data",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mrc-data",
+   "registry": "npm",
+   "package": "mrc-data",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://api.meacheal.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-19T18:39:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2117,
+  "comment_author": "meacheal-ai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mrc-data-chinese"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260507-a246c1",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "wwa-mcp-agent",
+  "version": "1.0.0",
+  "description": "wwa-mcp — Agent Infrastructure MCP Server Package: pip install wwa-mcp Repo: https://github.com/vystartasv/wwa-mcp Live dashboard: https://workswithagents.dev/trust-scores What it does 14 MCP tools for AI agent infrastructure — agents discover shared knowledge without knowing URLs or endpoints. Tools - Tier 1 (Discovery): Facts, Pitfalls, Skills — shared agent knowledge base - Tier 2 (Protocols): Handoff Protocol (create/verify/validate), Blueprint specs - Tier 3 (Trust and Compliance): Trust S",
+  "author": "vystartasv",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://workswithagents.dev/trust-scores",
+  "repo_url": "https://github.com/vystartasv/wwa-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869407Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869408Z",
+  "repo_url": {
+   "url": "https://github.com/vystartasv/wwa-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://workswithagents.dev/trust-scores",
+   "ok": false,
+   "status": 502
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-07T23:52:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2247,
+  "comment_author": "vystartasv"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "wwa-mcp-agent"
+ }
+}

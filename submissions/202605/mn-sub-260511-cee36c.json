@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260511-cee36c",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "sakina-islamic-knowledge",
+  "version": "1.0.0",
+  "description": "** Scholar-reviewed Quran verses, du'as, 99 Names of Allah, and prophets. Verified across Hanafi, Shafi'i, Maliki, and Hanbali schools. Privacy-first, no tracking.",
+  "author": "yserrag",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sakina-mcp.fly.dev/sse",
+  "repo_url": "https://github.com/yserrag/sakina-v3",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869144Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869146Z",
+  "repo_url": {
+   "url": "https://github.com/yserrag/sakina-v3",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sakina-mcp.fly.dev/sse",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-11T11:14:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2275,
+  "comment_author": "yserrag"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "sakina-islamic-knowledge"
+ }
+}

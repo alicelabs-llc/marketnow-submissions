@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260505-4e21dc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "atlas-mcp-yaml",
+  "version": "1.0.0",
+  "description": "Atlas Server name (canonical): `io.github.AtlasDevHQ/atlas` Version: `0.0.2` Website: https://useatlas.dev Docs: https://docs.useatlas.dev/guides/mcp GitHub: https://github.com/AtlasDevHQ/atlas npm: https://www.npmjs.com/package/@useatlas/mcp Remote SSE endpoint: `https://mcp.useatlas.dev/{workspace_id}/sse` (OAuth 2.1 + DCR + PKCE) Description Atlas is a YAML-defined semantic layer for analytics — authored by humans, consumed by AI agents. Entities, glossary, and metrics live in the user's rep",
+  "author": "msywulak",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://useatlas.dev",
+  "repo_url": "https://github.com/AtlasDevHQ/atlas",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869612Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869614Z",
+  "repo_url": {
+   "url": "https://github.com/AtlasDevHQ/atlas",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://useatlas.dev",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-05T01:26:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2228,
+  "comment_author": "msywulak"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "atlas-mcp-yaml"
+ }
+}

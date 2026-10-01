@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260414-d0636b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "botspot-ai-trading-bots-backtesting",
+  "version": "1.0.0",
+  "description": "** Full-lifecycle algorithmic trading MCP server. Describe a trading strategy in plain English → AI generates code → backtest on real historical data → deploy live to 10+ brokers (Schwab, IBKR, Alpaca, Tradier, Coinbase, Binance, Kraken). Supports stocks, options, crypto, futures, and prediction markets. 32 tools. Free tier available.",
+  "author": "grzesir",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://botspot.trade",
+  "repo_url": "https://github.com/Lumiwealth/botspot-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870899Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870900Z",
+  "repo_url": {
+   "url": "https://github.com/Lumiwealth/botspot-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://botspot.trade",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-14T03:24:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1834,
+  "comment_author": "grzesir"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "botspot-ai-trading-bots-backtesting"
+ }
+}

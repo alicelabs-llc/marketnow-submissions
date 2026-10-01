@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260421-2355d3",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "prexist-product-skill-research",
+  "version": "1.0.0",
+  "description": "Prexist npm: https://www.npmjs.com/package/prexist GitHub: https://github.com/RishabhKodes/prexist MCP Registry: io.github.RishabhKodes/prexist Description MCP server for product and agent skill research. Search across 9 platforms (App Store, Google Play, Product Hunt, GitHub, Y Combinator, Twitter, LinkedIn, Crunchbase, and web) to find existing products similar to your idea. Also searches agent skill directories (ClawHub, Skills Directory). Install ```bash claude mcp add prexist -- npx -y pre",
+  "author": "RishabhKodes",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y prexist",
+  "homepage": "https://www.npmjs.com/package/prexist",
+  "repo_url": "https://github.com/RishabhKodes/prexist",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870282Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870284Z",
+  "repo_url": {
+   "url": "https://github.com/RishabhKodes/prexist",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y prexist",
+   "registry": "npm",
+   "package": "prexist",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/prexist",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-21T13:29:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2133,
+  "comment_author": "RishabhKodes"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "prexist-product-skill-research"
+ }
+}

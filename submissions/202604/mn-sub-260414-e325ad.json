@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260414-e325ad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "acr-agent-composition-records",
+  "version": "1.0.0",
+  "description": "Server Information - Name: ACR — Agent Composition Records - npm: [@tethral/acr-mcp](https://www.npmjs.com/package/@tethral/acr-mcp) - Repository: https://github.com/Tethral-Inc/AgentRegistry - Website: https://acr.nfkey.ai - MCP Registry: io.github.TethralAI/acr Description Interaction profile registry for AI agents. Log interactions to build a behavioral profile, then query it through lenses: friction (bottlenecks, chain overhead, retry waste), coverage (signal completeness), stable corridors",
+  "author": "theAnthropol",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@tethral/acr-mcp",
+  "repo_url": "https://github.com/Tethral-Inc/AgentRegistry",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870879Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870881Z",
+  "repo_url": {
+   "url": "https://github.com/Tethral-Inc/AgentRegistry",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@tethral/acr-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-14T06:37:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 1847,
+  "comment_author": "theAnthropol"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "acr-agent-composition-records"
+ }
+}

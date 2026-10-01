@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260416-71f122",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "megaswap-mcp-and-megalaunch-mcp",
+  "version": "1.0.0",
+  "description": "1. megaswap-mcp - GitHub: https://github.com/jacksun911/megaswap-mcp - npm: megaswap-mcp - Description: AI-native DEX on MegaETH. 9 MCP tools for token swaps, price quotes, liquidity management. Supports ETH, MEGAS, USDM, USDT0, and any ERC-20. - Category: Finance / DeFi 2. megalaunch-mcp - GitHub: https://github.com/jacksun911/megalaunch-mcp - npm: megalaunch-mcp - Description: AI-powered meme token launch on Solana/pump.fun. 6 MCP tools. Glama A/A/A rated. - Category: Finance / Token Launch",
+  "author": "jacksun911",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/jacksun911/megaswap-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870669Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870674Z",
+  "repo_url": {
+   "url": "https://github.com/jacksun911/megaswap-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-16T15:23:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2087,
+  "comment_author": "jacksun911"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "megaswap-mcp-and-megalaunch-mcp"
+ }
+}

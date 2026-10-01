@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260427-8102df",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "korture-hiring",
+  "version": "1.0.0",
+  "description": "Server name Korture Hiring Description Korture Hiring is a remote MCP server for hiring managers. Paste a job description into Claude, ChatGPT, or Cursor, and get back the 5 behaviours that actually matter for the role, the evidence each was picked from, demand levels from 1 to 5, interview questions tied to every behaviour, and a population reality check on how rare this hire really is in the labour market. Built on Korture Science. Free with a Korture account. Endpoint `https://mcp.korture.co",
+  "author": "skprasad-korture",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.korture.com/api/mcp",
+  "repo_url": "https://github.com/skprasad-korture/korture-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870039Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870041Z",
+  "repo_url": {
+   "url": "https://github.com/skprasad-korture/korture-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.korture.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-27T07:04:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2176,
+  "comment_author": "skprasad-korture"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "korture-hiring"
+ }
+}

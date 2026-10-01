@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260511-1c8eee",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "jpcite-japanese",
+  "version": "1.0.0",
+  "description": "Hi @chatmcp team — would like to submit jpcite (`autonomath-mcp` on PyPI) to mcp.so. Server details - Name: jpcite - Slug: autonomath-mcp - Repository: https://github.com/shigetosidumeda-cyber/autonomath-mcp - Homepage: https://jpcite.com - Package: `autonomath-mcp` on PyPI (current version v0.3.4) - Install: `uvx autonomath-mcp` or `pip install autonomath-mcp` - Transport: stdio - MCP Protocol: 2025-06-18 - Tools: 139 - License: MIT - Maintainer: Bookyou株式会社 (適格請求書発行事業者番号 T8010001213708), info@",
+  "author": "shigetosidumeda-cyber",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx autonomath-mcp",
+  "homepage": "https://jpcite.com",
+  "repo_url": "https://github.com/shigetosidumeda-cyber/autonomath-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869166Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869168Z",
+  "repo_url": {
+   "url": "https://github.com/shigetosidumeda-cyber/autonomath-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://jpcite.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-11T10:42:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2273,
+  "comment_author": "shigetosidumeda-cyber"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "jpcite-japanese"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260507-eda74a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "misarblog",
+  "version": "1.0.0",
+  "description": "** MisarBlog MCP Server lets AI assistants publish, draft, and manage blog posts on the MisarBlog platform. Writers can use Claude or any MCP-compatible AI to generate article titles, conduct research, generate images, and publish directly to their misar.blog profile.",
+  "author": "mrgulshanyadav",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.misar.blog",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869457Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869459Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.misar.blog",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-07T03:31:42Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2244,
+  "comment_author": "mrgulshanyadav"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "misarblog"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260424-03a0b3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "domain-expertise-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server providing structured professional domain expertise across 15+ industries including healthcare, legal, finance, real estate, logistics, construction, education, and more. Delivers industry-specific terminology, regulatory frameworks, best practices, and decision trees that give AI agents domain-qualified reasoning capabilities.",
+  "author": "mdfifty50-boop",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@anthropic-model-context-protocol/domain-expertise-mcp",
+  "repo_url": "https://github.com/mdfifty50-boop/domain-expertise-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870162Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870163Z",
+  "repo_url": {
+   "url": "https://github.com/mdfifty50-boop/domain-expertise-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@anthropic-model-context-protocol/domain-expertise-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-24T13:48:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2155,
+  "comment_author": "mdfifty50-boop"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "domain-expertise-mcp"
+ }
+}

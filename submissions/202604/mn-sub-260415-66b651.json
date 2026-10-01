@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260415-66b651",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "giveready-mcp",
+  "version": "1.0.0",
+  "description": "Search 41,000+ verified nonprofits across 29 cause areas, submit enrichments back to thin profiles, and donate via x402 + USDC on Solana. Zero fees — 100% reaches the nonprofit.",
+  "author": "gswardman",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/giveready-mcp",
+  "repo_url": "https://github.com/gswardman/giveready",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870775Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870777Z",
+  "repo_url": {
+   "url": "https://github.com/gswardman/giveready",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/giveready-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T09:43:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2068,
+  "comment_author": "gswardman"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "giveready-mcp"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260415-72ceac",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clip-a-canvas",
+  "version": "1.0.0",
+  "description": "** Render HTML/CSS/JS animations to MP4 video locally via MCP tools.",
+  "author": "mechreaper007x",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/clipacanvas-mcp/",
+  "repo_url": "https://github.com/mechreaper007x/ClipACanvas",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870745Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870747Z",
+  "repo_url": {
+   "url": "https://github.com/mechreaper007x/ClipACanvas",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/clipacanvas-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T15:18:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2073,
+  "comment_author": "mechreaper007x"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clip-a-canvas"
+ }
+}

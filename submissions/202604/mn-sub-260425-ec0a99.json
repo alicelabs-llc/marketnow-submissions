@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260425-ec0a99",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "casemgr-mcp-shared",
+  "version": "1.0.0",
+  "description": "[Submit] casemgr-mcp — Shared workspace your AI agent writes to (184 tools, persistent memory, semantic search) — https://github.com/mstang/casemgr-mcp",
+  "author": "mstang",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://casemgr.systems/mcp",
+  "repo_url": "https://github.com/mstang/casemgr-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.870086Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.870087Z",
+  "repo_url": {
+   "url": "https://github.com/mstang/casemgr-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://casemgr.systems/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-25T22:30:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2168,
+  "comment_author": "mstang"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "casemgr-mcp-shared"
+ }
+}

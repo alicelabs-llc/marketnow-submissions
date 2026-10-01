@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260513-b15c54",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "chart-library",
+  "version": "1.0.0",
+  "description": "** Historical chart-pattern intelligence for AI agents. 9 tools (decision_brief, search, cohort, discover, analyze, context, narrative, explain, portfolio) backed by 25M+ embeddings across 19K+ symbols and 10 years of US equity history.",
+  "author": "grahammccain",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://chartlibrary.io",
+  "repo_url": "https://github.com/grahammccain/chart-library-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869010Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869011Z",
+  "repo_url": {
+   "url": "https://github.com/grahammccain/chart-library-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://chartlibrary.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-13T20:55:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2297,
+  "comment_author": "grahammccain"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "chart-library"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260429-8232de",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-server-kdp",
+  "version": "1.0.0",
+  "description": "** MCP server for Kindle Direct Publishing niche research intelligence. Provides demand scores, competition analysis, BSR ranges, revenue estimates, and pricing data for KDP niches. Uses x402 micropayments (0.03 USDC per query on Base network) — no API keys, no subscriptions.",
+  "author": "simul813",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx mcp-server-kdp-niche",
+  "homepage": "https://kdp-intelligence.vercel.app",
+  "repo_url": "https://github.com/coinbase/x402",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869917Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869919Z",
+  "repo_url": {
+   "url": "https://github.com/coinbase/x402",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://kdp-intelligence.vercel.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-29T18:57:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2186,
+  "comment_author": "simul813"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-server-kdp"
+ }
+}

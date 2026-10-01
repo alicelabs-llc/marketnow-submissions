@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260427-847fc3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "meelion-mcp-brazilian",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission | Field | Value | |---|---| | Name | Meelion MCP | | URL | https://github.com/Meelion-com/meelion-mcp | | Endpoint | https://mcp.meelion.com/ | | Type | MCP Server | | Category | Finance | Server Config ```json { \"mcpServers\": { \"meelion\": { \"type\": \"http\", \"url\": \"https://mcp.meelion.com/\" } } } ``` Description Meelion MCP connects AI assistants to structured Brazilian financial data via JSON-RPC: - 📈 `get_financial_indicators` — Selic, CDI/DI, IPCA, savings rate - 💱",
+  "author": "danmarkprintes",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.meelion.com/",
+  "repo_url": "https://github.com/Meelion-com/meelion-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:00.869988Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:00.869990Z",
+  "repo_url": {
+   "url": "https://github.com/Meelion-com/meelion-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.meelion.com/",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-27T23:30:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2180,
+  "comment_author": "danmarkprintes"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "meelion-mcp-brazilian"
+ }
+}
