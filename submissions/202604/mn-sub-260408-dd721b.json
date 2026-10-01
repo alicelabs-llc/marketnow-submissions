@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260408-dd721b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nexus-finance-mcp",
+  "version": "1.0.0",
+  "description": "nexus-finance-mcp — Finance & Research Intelligence Platform GitHub: https://github.com/pollmap/nexus-finance-mcp 396 tools across 64 MCP servers for comprehensive financial data analysis including DART (Korean corporate filings), FRED, ECOS, SEC EDGAR, crypto exchange data (CCXT), macroeconomic indicators, and academic research (arXiv, CrossRef, CORE). Transport: streamable-http Endpoint: http://62.171.141.206/mcp Category: Finance",
+  "author": "pollmap",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://62.171.141.206/mcp",
+  "repo_url": "https://github.com/pollmap/nexus-finance-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:40.407884Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:40.407907Z",
+  "repo_url": {
+   "url": "https://github.com/pollmap/nexus-finance-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://62.171.141.206/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T04:03:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4203736232,
+  "comment_author": "pollmap"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nexus-finance-mcp"
+ }
+}
