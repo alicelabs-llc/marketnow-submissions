@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-77e2c9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "unified-ai-system",
+  "version": "1.0.0",
+  "description": "Submit: Unified AI System (self-hosted AI gateway + reverse MCP gateway) Name: Unified AI System Repo: https://github.com/happy520ai/unified-ai-system Registry id: `io.github.happy520ai/unified-ai-system` (published on the official MCP Registry, version `0.8.0`) Transport: stdio (and Streamable HTTP for upstream servers it fronts) Install: `docker run --rm -i ghcr.io/happy520ai/unified-ai-system/mcp-server:0.8.0` License: Apache-2.0 Type: local (`🏠`) - self-hosted by default; can front cloud pro",
+  "author": "happy520ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/happy520ai/unified-ai-system",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:14.055309Z",
+  "duration_ms": 426,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:14.055335Z",
+  "repo_url": {
+   "url": "https://github.com/happy520ai/unified-ai-system",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:14.055338Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "unified-ai-system"
+ }
+}
