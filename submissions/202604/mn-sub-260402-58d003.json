@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260402-58d003",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "revenuecat-mcp-server",
+  "version": "1.0.0",
+  "description": "# RevenueCat MCP Server Name: RevenueCat MCP Server URL: https://mcp.revenuecat.ai/mcp Transport: Streamable HTTP Auth: Bearer token (RevenueCat v2 secret API key) Description: Official RevenueCat MCP server for subscription management. 66 tools across 11 categories covering: projects, apps, entitlements, products, offerings, packages, customers, webhooks, charts (21 types), experiments, virtual currencies, audit logs, and collaborators. Includes tool annotations (readOnlyHint/destructiveHint/id",
+  "author": "KitDevRel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.revenuecat.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:24.782355Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:24.782381Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.revenuecat.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-02T04:11:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4174507941,
+  "comment_author": "KitDevRel"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "revenuecat-mcp-server"
+ }
+}
