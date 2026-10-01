@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-ee6117",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "docsmint",
+  "version": "1.0.0",
+  "description": "DocsMint - Name: DocsMint - Website: https://docsmint.com - GitHub: https://github.com/HiAi-gg/docsmint - Category: Memory & Knowledge / MCP - Description: Self-hosted AI-native document/knowledge workspace (second brain, team knowledge, agent memory) with hybrid search, GraphRAG, REST, SDK, CLI, and MCP (17 tools). Hosted Streamable HTTP: https://docsmint.com/mcp - Install (stdio): `npx -y @hiai-gg/docsmint docsmint-mcp` with `HIAI_DOCS_URL` + `HIAI_DOCS_API_KEY` - Contact: docs@webs.cool",
+  "author": "vlgalib",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @hiai-gg/docsmint",
+  "homepage": "https://docsmint.com/mcp",
+  "repo_url": "https://github.com/HiAi-gg/docsmint",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:22.173342Z",
+  "duration_ms": 1802,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:22.173365Z",
+  "repo_url": {
+   "url": "https://github.com/HiAi-gg/docsmint",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @hiai-gg/docsmint",
+   "registry": "npm",
+   "package": "@hiai-gg/docsmint",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://docsmint.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:22.173368Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "docsmint"
+ }
+}
