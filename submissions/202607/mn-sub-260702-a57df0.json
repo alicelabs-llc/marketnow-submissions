@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260702-a57df0",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "workara",
+  "version": "1.0.0",
+  "description": "Workara — AI freelance proposal generator - Name: Workara - URL: https://workara.ncide.com - MCP Endpoint: `POST https://workara.ncide.com/mcp` - Transport: Streamable HTTP (JSON-RPC 2.0) - Auth: API key via `X-API-Key` header (get one at https://workara.ncide.com/app → Settings → API Keys, requires the Agency plan; a dev bearer token also works for quick testing) Description: Generates a personalized freelance proposal for any job posting (Upwork, Fiverr, Freelancer and 7+ other platforms) in o",
+  "author": "team500-top",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://workara.ncide.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:52.120401Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:52.120432Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://workara.ncide.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-02T19:18:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4869683561,
+  "comment_author": "team500-top"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "workara"
+ }
+}
