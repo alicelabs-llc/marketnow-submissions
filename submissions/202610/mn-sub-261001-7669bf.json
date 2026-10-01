@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-7669bf",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "aiworker-data",
+  "version": "1.0.0",
+  "description": "Submit: aiworker-data (official, remote) - Name: aiworker-data - Remote MCP URL (streamable HTTP): https://aiworker.duckdns.org/mcp - Website / docs: https://aiworker.duckdns.org — catalogue https://aiworker.duckdns.org/llms.txt, tool schemas in `tools/list` - Also in the official MCP registry: `aiworker-data` - Description: 18 data tools for agents, each paid per call in USDC over x402 v2 ($0.005–$1; the tool answers with the exact price when unpaid): DeFi yields and protocol snapshots (DefiLla",
+  "author": "ai-worker227",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://aiworker.duckdns.org/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:51.816360Z",
+  "duration_ms": 1100,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:51.816381Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://aiworker.duckdns.org/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:51.816384Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "aiworker-data"
+ }
+}
