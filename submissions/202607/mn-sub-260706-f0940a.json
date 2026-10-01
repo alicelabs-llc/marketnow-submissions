@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-f0940a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-pulsenetwork",
+  "version": "1.0.0",
+  "description": "PulseNetwork MCP Server - What it does: One MCP server fronting 71 live intelligence verticals (785+ paid endpoints) — token safety scanners, prediction-market & sports intel, RWA/tokenized-asset data, macro, geopolitics, travel, legal, health and more. Tools discover verticals, quote prices, and execute x402 USDC micropayments on Base per call (BYO agent wallet). - Transport: streamable-http - Server URL: https://pulse.theaslangroupllc.com/api/mcp - GitHub: https://github.com/GTCC777/mcp-pulsen",
+  "author": "GTCC777",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pulse.theaslangroupllc.com/api/mcp",
+  "repo_url": "https://github.com/GTCC777/mcp-pulsenetwork",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:03.287256Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:03.287282Z",
+  "repo_url": {
+   "url": "https://github.com/GTCC777/mcp-pulsenetwork",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pulse.theaslangroupllc.com/api/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T01:34:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4888396212,
+  "comment_author": "GTCC777"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-pulsenetwork"
+ }
+}
