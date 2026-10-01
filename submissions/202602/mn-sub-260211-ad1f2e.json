@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260211-ad1f2e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wc26-mcp-fifa-world-cup-2026-ai-companion",
+  "version": "1.0.0",
+  "description": "# wc26-mcp — FIFA World Cup 2026 AI Companion GitHub: https://github.com/jordanlyall/wc26-mcp npm: `npx wc26-mcp` Website: https://wc26.ai ChatGPT GPT: [World Cup 2026 Companion](https://chatgpt.com/g/g-698d038f171481919ada44947304a196-world-cup-2026-companion) Interactive Playground: https://wc26.ai/try 12 MCP tools for FIFA World Cup 2026 — matches, teams, venues, city guides, fan zones, visa requirements, historical matchups, smart briefings, and more. Zero API keys, works with Claude, ChatGP",
+  "author": "jordanlyall",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://wc26.ai",
+  "repo_url": "https://github.com/jordanlyall/wc26-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:39.105317Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:39.105346Z",
+  "repo_url": {
+   "url": "https://github.com/jordanlyall/wc26-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://wc26.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-11T19:37:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3886597785,
+  "comment_author": "jordanlyall"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wc26-mcp-fifa-world-cup-2026-ai-companion"
+ }
+}
