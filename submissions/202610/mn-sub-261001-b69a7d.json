@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-b69a7d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "open-economics",
+  "version": "1.0.0",
+  "description": "Open Economics — free, no-auth remote MCP server for official Brazilian economic data. - Repository: https://github.com/felipegambettadesouza6-jpg/open-economics - Streamable HTTP endpoint: https://open-economics-data.knbf982hkn.chatgpt.site/api/mcp - Official MCP Registry: `io.github.felipegambettadesouza6-jpg/open-economics` - Browser demo: https://open-economics-data.knbf982hkn.chatgpt.site/en/ask It exposes 19 read-only tools for semantic discovery, schema inspection, and source-preserving q",
+  "author": "felipegambettadesouza6-jpg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://open-economics-data.knbf982hkn.chatgpt.site/api/mcp",
+  "repo_url": "https://github.com/felipegambettadesouza6-jpg/open-economics",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:41.489551Z",
+  "duration_ms": 485,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:41.489573Z",
+  "repo_url": {
+   "url": "https://github.com/felipegambettadesouza6-jpg/open-economics",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://open-economics-data.knbf982hkn.chatgpt.site/api/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:41.489578Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "open-economics"
+ }
+}
