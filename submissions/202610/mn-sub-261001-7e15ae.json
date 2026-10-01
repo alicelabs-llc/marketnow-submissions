@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-7e15ae",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lbrain-local-first-memory-for-ai-agents-source-date-bindabst",
+  "version": "1.0.0",
+  "description": "LBrain — local-first memory for AI agents (source, date, bind/abstain). - Official MCP Registry: `ai.lbrain/lbrain` - PyPI: https://pypi.org/project/lbrain-coding-agents/ (`pip install \"lbrain[local]\" lbrain-coding-agents`) - GitHub: https://github.com/metavolve-labs/lbrain-coding-agents - Site: https://lbrain.ai - Transport: stdio (`lbrain mcp`) - Claim your agent identity free at https://lbrain.ai",
+  "author": "keel-cio-metavolve",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/lbrain-coding-agents/",
+  "repo_url": "https://github.com/metavolve-labs/lbrain-coding-agents",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:07:05.756Z",
+  "duration_ms": 373,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:07:05.756Z",
+  "repo_url": {
+   "url": "https://github.com/metavolve-labs/lbrain-coding-agents",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/lbrain-coding-agents/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:b52a1bd5fbeb",
+ "submitted_at": "2026-10-01T04:07:05.756Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lbrain-local-first-memory-for-ai-agents-source-date-bindabst"
+ }
+}
