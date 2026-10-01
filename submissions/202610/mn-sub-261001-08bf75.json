@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-261001-08bf75",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "post-reset-e2e-probe",
+  "version": "1.0.0",
+  "description": "Prueba end-to-end post-reset: verificacion en vivo de que el storage GitHub de submissions funciona tras el fix de credenciales del Task 119.",
+  "author": "internal-verify",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "verification"
+  ],
+  "install": "npx marketnow-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/eddyflores100-lang/marketnow",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T03:26:00.096Z",
+  "duration_ms": 885,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T03:26:00.096Z",
+  "repo_url": {
+   "url": "https://github.com/eddyflores100-lang/marketnow",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx marketnow-mcp",
+   "registry": "npm",
+   "package": "marketnow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:da528cc7cb87",
+ "submitted_at": "2026-10-01T03:26:00.096Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "post-reset-e2e-probe"
+ }
+}
