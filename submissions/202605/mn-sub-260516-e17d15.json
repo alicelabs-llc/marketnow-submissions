@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260516-e17d15",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "base-l2-agent-kit",
+  "version": "1.0.0",
+  "description": "Server Name: Base L2 Agent Kit Repository: https://github.com/manteclaw/base-l2-mcp-server Author: Manteclaw (manteclaw@proton.me) Description: MCP server providing agent-native tools for Base L2 operations. Includes wallet management (ETH/USDC balance, send), Litcoiin mining status, 0xWork task discovery, Nookplot agent profile, arbitrage dashboard, gas price estimation, multi-provider AI routing, and full health scorecard. Built for autonomous AI agents earning on Base L2. Transport: stdio + S",
+  "author": "manteclaw",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/manteclaw/base-l2-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:45.788856Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:45.788884Z",
+  "repo_url": {
+   "url": "https://github.com/manteclaw/base-l2-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-16T02:53:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4465241825,
+  "comment_author": "manteclaw"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "base-l2-agent-kit"
+ }
+}
