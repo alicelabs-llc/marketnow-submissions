@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260617-4a535f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "anyapi",
+  "version": "1.0.0",
+  "description": "AnyAPI One key for hundreds of scraping & data APIs, paid in USD. AnyAPI gives AI agents one API key and one USD wallet to call hundreds of scraping and data APIs — Instagram, TikTok, YouTube, Reddit, Facebook, Google search results, general web scraping, and more — through a single normalized interface. Every API exposes a normalized input/output JSON Schema, so an agent discovers, inspects, and runs any of them with the same loop. Pricing is real-dollar pay-per-request with no subscriptions; f",
+  "author": "kev1n",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.getanyapi.com/mcp",
+  "repo_url": "https://github.com/getanyapi-com/skills",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:51.427354Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:51.427379Z",
+  "repo_url": {
+   "url": "https://github.com/getanyapi-com/skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.getanyapi.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-17T04:54:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4726140735,
+  "comment_author": "kev1n"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "anyapi"
+ }
+}
