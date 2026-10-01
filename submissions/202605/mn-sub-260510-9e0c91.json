@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260510-9e0c91",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentfi",
+  "version": "1.0.0",
+  "description": "Update — AgentFi MCP Server - Listing: https://mcp.so/server/agentfi-mcp-server/felippeyann - GitHub: https://github.com/felippeyann/agentfi - npm: `@agent_fi/mcp-server@0.4.0` (atualizar de 0.2.0) - Install: `npx -y @agent_fi/mcp-server` - Required env: `AGENTFI_API_KEY` - Tools: 28 (DeFi swaps/yield/transfers + A2A jobs/trust/policy + agent profile + P&L) - Networks: Ethereum, Base, Arbitrum, Polygon Config JSON: { \"mcpServers\": { \"agentfi\": { \"command\": \"npx\", \"args\": [\"-y\", \"@agent_fi/mcp-se",
+  "author": "felippeyann",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @agent_fi/mcp-server",
+  "homepage": null,
+  "repo_url": "https://github.com/felippeyann/agentfi",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:37.021315Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:37.021343Z",
+  "repo_url": {
+   "url": "https://github.com/felippeyann/agentfi",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @agent_fi/mcp-server",
+   "registry": "npm",
+   "package": "@agent_fi/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-10T14:29:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4415526897,
+  "comment_author": "felippeyann"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentfi"
+ }
+}
