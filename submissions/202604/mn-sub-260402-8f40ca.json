@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260402-8f40ca",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "tlv-mcp-server",
+  "version": "1.0.0",
+  "description": "3AM Decoder — Sleep Cause Classifier MCP server that identifies the biological cause behind sleep disruption using a 5-cause framework. Server URL: https://tlv-mcp-server.katfu111111.workers.dev/mcp Smithery: https://smithery.ai/server/thelongevityvault/decoder-3am Homepage: https://sleep.thelongevityvault.com/decoder",
+  "author": "pine-harbor",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tlv-mcp-server.katfu111111.workers.dev/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:27.511599Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:27.511622Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://tlv-mcp-server.katfu111111.workers.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-02T16:45:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4179118948,
+  "comment_author": "pine-harbor"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "tlv-mcp-server"
+ }
+}
