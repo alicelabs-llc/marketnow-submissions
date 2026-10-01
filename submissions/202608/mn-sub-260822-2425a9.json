@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260822-2425a9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "animica-mcp",
+  "version": "1.0.0",
+  "description": "# Animica MCP - Repository: https://github.com/animicaorg/animica-mcp - PyPI: `animica-mcp` (`pip install animica-mcp` / `uvx animica-mcp`) - Remote MCP endpoint (streamable HTTP): https://mcp.animica.org/mcp - Docs: https://animica.org/blockchain-mcp-server/ - Official registry id: `io.github.animicaorg/animica` - 16 read-only tools: post-quantum chain reads (head, blocks, transactions, balances, richlist), free OpenAI-compatible AI inference, quantum RNG beacon, mining-pool stats, x402 paid-AP",
+  "author": "animicaorg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.animica.org/mcp",
+  "repo_url": "https://github.com/animicaorg/animica-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:45.680769Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:45.680796Z",
+  "repo_url": {
+   "url": "https://github.com/animicaorg/animica-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.animica.org/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-22T23:59:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5383255940,
+  "comment_author": "animicaorg"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "animica-mcp"
+ }
+}
