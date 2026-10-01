@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:28.843Z",
+ "updated_at": "2026-10-01T04:09:43.632Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -4043,6 +4043,18 @@
    "from": "ip:da528cc7cb87",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-3d9ef4.json"
+  },
+  {
+   "id": "mn-sub-261001-2c557c",
+   "name": "qveris-agent-toolkitnnrepository-httpsgithubcomqverisaiqveri",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:09:42.838Z",
+   "from": "ip:20fc69af7312",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-2c557c.json"
   }
  ],
  "l2_pass": {
