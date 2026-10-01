@@ -1,0 +1,64 @@
+{
+ "id": "mn-sub-261001-2c557c",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "qveris-agent-toolkitnnrepository-httpsgithubcomqverisaiqveri",
+  "version": "1.0.0",
+  "description": "QVeris Agent Toolkit\\n\\nRepository: https://github.com/QVerisAI/qveris-agent-toolkit\\nDescription: Cross-client MCP toolkit for discovering, inspecting, preflighting, and calling external capabilities, with usage and credit-settlement audits.\\nHosted MCP: https://mcp.qveris.ai/mcp (Streamable HTTP; OAuth discovery where supported, with Bearer API-key fallback)\\nLocal MCP: npx -y @qverisai/mcp with QVERIS_API_KEY\\nDocumentation: https://qveris.ai/hosted-mcp\\nLicense: MIT\\nCanonical tools: discove",
+  "author": "linfangw",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @qverisai/mcp",
+  "homepage": "https://mcp.qveris.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:42.838Z",
+  "duration_ms": 1092,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:42.838Z",
+  "repo_url": null,
+  "install": {
+   "command": "npx -y @qverisai/mcp",
+   "registry": "npm",
+   "package": "@qverisai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.qveris.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:20fc69af7312",
+ "submitted_at": "2026-10-01T04:09:42.838Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "qveris-agent-toolkitnnrepository-httpsgithubcomqverisaiqveri"
+ }
+}
