@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260303-b5c4ea",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agora402",
+  "version": "1.0.0",
+  "description": "agora402 — MCP server for agent-to-agent escrow protection and trust scoring on Base (x402 protocol). Provides tools: `trust_score_query` (composite 0-100 trust scores from 4 on-chain sources), `escrow_create`, `escrow_release`, `escrow_dispute`, `x402_protected_call`. Also runs as an x402-gated HTTP API at https://agora402.fly.dev ($0.001 USDC per trust query). - npm: https://www.npmjs.com/package/agora402 - GitHub: https://github.com/michu5696/agora402 - Usage: `npx agora402`",
+  "author": "michu5696",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agora402.fly.dev",
+  "repo_url": "https://github.com/michu5696/agora402",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:36.501622Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:36.501651Z",
+  "repo_url": {
+   "url": "https://github.com/michu5696/agora402",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agora402.fly.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-03T22:12:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3993890315,
+  "comment_author": "michu5696"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agora402"
+ }
+}
