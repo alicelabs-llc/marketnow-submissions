@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260829-dde3c7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "humanizer-pro-mcp",
+  "version": "1.0.0",
+  "description": "Humanizer PRO MCP Repository: https://github.com/khadinakbarlabs/humanizer-pro-mcp Hosted MCP endpoint: https://texthumanizer.pro/mcp Documentation: https://texthumanizer.pro/mcp-docs Category: Marketing / Productivity Transport & auth: Streamable HTTP with OAuth Humanizer PRO is a hosted OAuth MCP for rewriting authorized draft text with natural readability, scanning AI-style signals, and checking word-balance patterns. Public tools - `humanize_text` — rewrite user-authorized draft text while",
+  "author": "khadinakbarlabs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://texthumanizer.pro/mcp",
+  "repo_url": "https://github.com/khadinakbarlabs/humanizer-pro-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681689Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681690Z",
+  "repo_url": {
+   "url": "https://github.com/khadinakbarlabs/humanizer-pro-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://texthumanizer.pro/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T10:40:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3817,
+  "comment_author": "khadinakbarlabs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "humanizer-pro-mcp"
+ }
+}

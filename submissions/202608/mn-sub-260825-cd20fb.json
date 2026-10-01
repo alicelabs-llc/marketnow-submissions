@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260825-cd20fb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "transcodely",
+  "version": "1.0.0",
+  "description": "** Transcodely is agent-native video infrastructure: transcode, host, and get a playable link back from one natural-language prompt. Connect with one OAuth click, then hand your agent a video URL — it creates a transcode-and-host job, polls until ready, and hands back a durable player URL. Seven deliberate tools, including AI-generated captions. The MCP server is free to connect; work an agent starts is billed at ordinary Transcodely rates (read-only tools are free to call).",
+  "author": "zerefel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.transcodely.com/contact",
+  "repo_url": "https://github.com/transcodely/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682444Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682445Z",
+  "repo_url": {
+   "url": "https://github.com/transcodely/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.transcodely.com/contact",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-25T21:33:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3753,
+  "comment_author": "zerefel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "transcodely"
+ }
+}

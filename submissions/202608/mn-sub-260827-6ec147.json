@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260827-6ec147",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "vifo-app-vifo-vifo",
+  "version": "1.0.0",
+  "description": "** A travel notebook written by the user's own AI agent. During a trip you hand it photos and passing remarks in chat; the agent reads time and place from the metadata, writes the descriptions, builds a day-by-day timeline, and keeps the traveller's own words verbatim — never rewritten.",
+  "author": "sjkj",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vifo.app/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681972Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681973Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://vifo.app/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-27T04:26:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3789,
+  "comment_author": "sjkj"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "vifo-app-vifo-vifo"
+ }
+}

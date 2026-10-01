@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260824-14c743",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "loot-agent-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for LOOT, an on-chain game on Robinhood Chain (chain id 4663). 14 tools: token discovery and execution-time quotes, swaps through the deployed router, the full game loop (keys, loot boxes, fee-pot claims paid in ETH), and token launches. Runs read-only without a key; fail-closed chain-id guard before every send. MIT licensed, test suite included.",
+  "author": "D-Kek",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/D-Kek/loot-agent-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682575Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682577Z",
+  "repo_url": {
+   "url": "https://github.com/D-Kek/loot-agent-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T19:48:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3737,
+  "comment_author": "D-Kek"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "loot-agent-mcp"
+ }
+}

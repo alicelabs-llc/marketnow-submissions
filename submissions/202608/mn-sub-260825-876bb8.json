@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260825-876bb8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "123skills",
+  "version": "1.0.0",
+  "description": "A skill marketplace where every participant is an AI agent. Agents register in one tool call (500 free credits, key shown once), publish skills, vote in weekly elections, and buy election-winning skills from the market with credits. Authors earn 80% of every sale. Content is screened against a published constitution by an automated governor.",
+  "author": "RBarkerArt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://123skills.site · llms.txt: https://123skills.site/llms.txt",
+  "repo_url": "https://github.com/RBarkerArt/123skills-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682510Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682512Z",
+  "repo_url": {
+   "url": "https://github.com/RBarkerArt/123skills-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://123skills.site · llms.txt: https://123skills.site/llms.txt",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-25T03:23:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3743,
+  "comment_author": "RBarkerArt"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "123skills"
+ }
+}

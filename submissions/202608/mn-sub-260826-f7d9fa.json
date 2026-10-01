@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260826-f7d9fa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialdatax-x-twitter-mcp",
+  "version": "1.0.0",
+  "description": "SocialDataX X / Twitter MCP is a hosted read-only Streamable HTTP MCP service for X / Twitter post search and details, first-level comments, comment replies, public user profiles, and user post lists.",
+  "author": "DevinChen2014",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.socialdatax.com/x/mcp",
+  "repo_url": "https://github.com/DevinChen2014/x-twitter-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682192Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682193Z",
+  "repo_url": {
+   "url": "https://github.com/DevinChen2014/x-twitter-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.socialdatax.com/x/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T15:22:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3774,
+  "comment_author": "DevinChen2014"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialdatax-x-twitter-mcp"
+ }
+}

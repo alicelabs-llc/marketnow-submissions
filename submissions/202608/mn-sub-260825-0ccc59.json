@@ -1,0 +1,68 @@
+{
+ "id": "mn-sub-260825-0ccc59",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "spoolis",
+  "version": "1.0.0",
+  "description": "Name: Spoolis MCP server (`com.spoolis/mcp`, npm `@spoolis/mcp`) Short description: Compile economic intent into verifiable acceptance criteria, verify fulfillment, and determine what was earned. Use Spoolis when payment depends on whether work actually passed. Long description: Spoolis verifies outcomes for result-shaped purchases, where delivery alone does not prove the agreement was satisfied. An agent states what must be true, Spoolis compiles it into acceptance criteria, evidence is checked",
+  "author": "jsfranklin221",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @spoolis/mcp",
+  "homepage": "https://spoolis.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682459Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682463Z",
+  "repo_url": null,
+  "install": {
+   "command": "npx -y @spoolis/mcp",
+   "registry": "npm",
+   "package": "@spoolis/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://spoolis.com/api/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-25T19:51:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3752,
+  "comment_author": "jsfranklin221"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "spoolis"
+ }
+}

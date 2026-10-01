@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260826-73ca98",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "security-recipes",
+  "version": "1.0.0",
+  "description": "Security Recipes - Official Registry: `io.github.stevologic/security-recipes` (v1.0.0) - Endpoint: `https://security-recipes.ai/mcp` - Transport: Streamable HTTP - Authentication: None - Website: https://security-recipes.ai - Docs: https://security-recipes.ai/mcp-servers/ - Source: https://github.com/stevologic/security-recipes.ai Read-only CVE intelligence, remediation playbooks, and agent setup guides. Not a scanner. The hosted MCP is public Streamable HTTP. Tools are read-first recipe and ca",
+  "author": "stevologic",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://security-recipes.ai/mcp",
+  "repo_url": "https://github.com/stevologic/security-recipes.ai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682040Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682042Z",
+  "repo_url": {
+   "url": "https://github.com/stevologic/security-recipes.ai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://security-recipes.ai/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T22:13:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3783,
+  "comment_author": "stevologic"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "security-recipes"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260826-be5e10",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "3dlogo-io",
+  "version": "1.0.0",
+  "description": "Design 3D logos and 3D coins from an AI assistant. Public tools list the material catalogue (chrome, gold, glass, holographic, neon, and more), coin looks, plans, and build studio deep links that open 3dlogo.io preconfigured. Authenticated tools create and manage logo/coin projects, publish share pages, create invite links, and run AI image-to-3D-model generation with status polling. All tools carry titles and read-only/destructive annotations.",
+  "author": "cottom",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://3dlogo.io/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682099Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682100Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://3dlogo.io/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T19:08:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3779,
+  "comment_author": "cottom"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "3dlogo-io"
+ }
+}

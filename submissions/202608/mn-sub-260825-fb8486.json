@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260825-fb8486",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "korea-business-verify-kbv",
+  "version": "1.0.0",
+  "description": "** Verify any Korean company by its 10-digit business registration number (사업자등록번호): active/closed status, tax type, and KYB identity match. Data comes live from the Korea National Tax Service (NTS) official open-data API and is returned as clean, English-normalized JSON. No account, no API key, no installation — 10 free calls/day, then pay-per-call via x402.",
+  "author": "Wonderfulian",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://kbv-server-f7vfitmlkq-du.a.run.app/mcp",
+  "repo_url": "https://github.com/Wonderfulian/kbv-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682527Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682529Z",
+  "repo_url": {
+   "url": "https://github.com/Wonderfulian/kbv-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://kbv-server-f7vfitmlkq-du.a.run.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-25T00:33:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3741,
+  "comment_author": "Wonderfulian"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "korea-business-verify-kbv"
+ }
+}

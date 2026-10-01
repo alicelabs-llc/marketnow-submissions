@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260829-d85517",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "plyo-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server for Plyo, the home for AI-built projects. Gives agents save_checkpoint, publish, restore, start_draft, backup_data and build-error tools: every work session becomes a checkpoint, one click to undo, one click to publish to a live URL, plus plain-English build-error fixes and database snapshots. Built for people who build with AI and don't code.",
+  "author": "plyo-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/plyo-mcp",
+  "repo_url": "https://github.com/plyo-dev/plyo-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681584Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681586Z",
+  "repo_url": {
+   "url": "https://github.com/plyo-dev/plyo-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/plyo-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T19:05:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3829,
+  "comment_author": "plyo-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "plyo-mcp"
+ }
+}

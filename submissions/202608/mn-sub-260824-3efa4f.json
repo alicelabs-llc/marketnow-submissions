@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-3efa4f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "quantum-readiness",
+  "version": "1.0.0",
+  "description": "Server - Name: Quantum Readiness Scan (`qrp-mcp`) - Publisher: `StanimirTenev` - Official MCP Registry name: `eu.quantumreadiness/qrp-mcp` - Repository: https://github.com/StanimirTenev/qrp-mcp - PyPI: https://pypi.org/project/qrp-mcp/ - Website: https://quantumreadiness.eu - License: Apache-2.0 - Transport: stdio Description Finds quantum-vulnerable cryptography in a local codebase — secp256k1, Ed25519, BLS12-381, Schnorr, RSA, DSA, DH — plus weak primitives (MD5, SHA-1, RC4, DES/3DES) and CI/",
+  "author": "StanimirTenev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/qrp-mcp/",
+  "repo_url": "https://github.com/StanimirTenev/qrp-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682882Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682883Z",
+  "repo_url": {
+   "url": "https://github.com/StanimirTenev/qrp-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/qrp-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T08:42:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3722,
+  "comment_author": "StanimirTenev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "quantum-readiness"
+ }
+}

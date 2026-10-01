@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260826-39fecd",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "omnikit-mcp",
+  "version": "1.0.0",
+  "description": "The Rookery's MCP server - 10 free, fully-offline utility tools for AI agents (base64, uuid, json validate, sha hash, timestamps, url codec, case convert, secure passwords) plus a citizenship info tool. No API keys, no tracking, works offline. Stdlib-only stdio transport.",
+  "author": "vikash-b5",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx --from",
+  "homepage": "https://rookery.online",
+  "repo_url": "https://github.com/vikash-b5/omnikit-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682305Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682308Z",
+  "repo_url": {
+   "url": "https://github.com/vikash-b5/omnikit-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://rookery.online",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T08:57:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3763,
+  "comment_author": "vikash-b5"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "omnikit-mcp"
+ }
+}

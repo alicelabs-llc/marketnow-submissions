@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260827-201d56",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "focuh-io-github",
+  "version": "1.0.0",
+  "description": "** ADHD system of record for coding agents. Same tasks, loops, calendar, goals, and focus stats as the free Focuh Mac/web app, exposed as MCP tools for Claude, Cursor, and other clients.",
+  "author": "maxxthedeveloper",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @focuh/mcp-server",
+  "homepage": "https://www.focuh.com/api/mcp",
+  "repo_url": "https://github.com/maxxthedeveloper/focuh",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681950Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681951Z",
+  "repo_url": {
+   "url": "https://github.com/maxxthedeveloper/focuh",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @focuh/mcp-server",
+   "registry": "npm",
+   "package": "@focuh/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.focuh.com/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-27T08:31:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3791,
+  "comment_author": "maxxthedeveloper"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "focuh-io-github"
+ }
+}

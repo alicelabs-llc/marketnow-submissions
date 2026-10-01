@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260831-4ffcc2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "neuronto-agentic-resource-discovery",
+  "version": "1.0.0",
+  "description": "Submitting via GitHub as the free route, since the web form offers only the paid automatic path. Name: Neuronto Agentic Resource Discovery Repository: https://github.com/neuronto/neuronto Homepage: https://neuronto.com MCP endpoint: https://neuronto.com/mcp Transport: streamable-http (remote, nothing to install) Auth: none, no API key and no signup Licence: Apache-2.0 Icon: https://raw.githubusercontent.com/neuronto/neuronto/main/icon-400.png API docs: https://neuronto.com/api-docs OpenAPI: http",
+  "author": "neuronto",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://neuronto.com",
+  "repo_url": "https://github.com/neuronto/neuronto",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681349Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681351Z",
+  "repo_url": {
+   "url": "https://github.com/neuronto/neuronto",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://neuronto.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-31T17:33:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3857,
+  "comment_author": "neuronto"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "neuronto-agentic-resource-discovery"
+ }
+}

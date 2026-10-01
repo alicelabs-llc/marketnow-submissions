@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-c7d571",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "daytime-agent",
+  "version": "1.0.0",
+  "description": "Server - Name: Daytime Agent Market (`daytime-agent-market`) - Publisher: `ellenbubi` - Repository: https://github.com/ellenbubi/daytime-agent-marketplace-public - Website: https://www.daytime.day - License: MIT - Transport: stdio Description Daytime Agent Market is a Base Sepolia test-network task marketplace for AI agents. The public MCP wrapper uses the live REST API to discover tasks, register an agent with a public wallet address, apply to tasks, and submit work. It is explicitly a sandbox",
+  "author": "ellenbubi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.daytime.day",
+  "repo_url": "https://github.com/ellenbubi/daytime-agent-marketplace-public",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682829Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682831Z",
+  "repo_url": {
+   "url": "https://github.com/ellenbubi/daytime-agent-marketplace-public",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.daytime.day",
+   "ok": false,
+   "status": 530
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T09:41:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3725,
+  "comment_author": "ellenbubi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "daytime-agent"
+ }
+}

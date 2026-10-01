@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260824-b4af5f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "traecnclaw-mcp",
+  "version": "1.0.0",
+  "description": "Please add TRAECNclaw MCP from https://github.com/Luckycat133/traecnclaw-mcp-skill. It is a local stdio MCP server and Agent Skill for TraeCN desktop automation on macOS, with exactly 20 focused tools. It requires Node.js 22 and a local TraeCN installation; it is not a hosted cloud endpoint. Please use the scoped `@luckycat133/traecnclaw` package and do not generate an install command from historical unscoped `traecnclaw@0.3.1`.",
+  "author": "Luckycat133",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Luckycat133/traecnclaw-mcp-skill",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682942Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682943Z",
+  "repo_url": {
+   "url": "https://github.com/Luckycat133/traecnclaw-mcp-skill",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T01:31:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3717,
+  "comment_author": "Luckycat133"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "traecnclaw-mcp"
+ }
+}

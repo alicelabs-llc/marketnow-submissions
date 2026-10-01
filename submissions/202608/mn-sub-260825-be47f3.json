@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260825-be47f3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dsh-verify-witness",
+  "version": "1.0.0",
+  "description": "** The quality gate for agent-built web apps. You write a JSON acceptance spec (the same checks a human would do in a browser); a real browser executes it and returns a PASS/FAIL verdict with screenshot + diff receipts. No LLM judges the outcome — the browser is the judge.",
+  "author": "263311487-ux",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/dsh-verify",
+  "repo_url": "https://github.com/263311487-ux/dsh-verify",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682479Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682480Z",
+  "repo_url": {
+   "url": "https://github.com/263311487-ux/dsh-verify",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/dsh-verify",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-25T15:05:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3748,
+  "comment_author": "263311487-ux"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dsh-verify-witness"
+ }
+}

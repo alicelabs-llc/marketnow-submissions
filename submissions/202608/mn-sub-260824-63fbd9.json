@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-63fbd9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sudnokontrol",
+  "version": "1.0.0",
+  "description": "SudnoKontrol MCP MCP server for the Ukrainian national vessel registry: search vessels by registration number, name or owner, look up full registry records, and query aggregate statistics. Read-only public data — no API key required. Connection - GitHub: https://github.com/ailubes/sudnokontrol-mcp - Hosted endpoint: `https://api.sk.ukrfish.org/mcp` (Streamable HTTP) - How to connect: `claude mcp add --transport http sudnokontrol https://api.sk.ukrfish.org/mcp` Tools | Tool | Description | |---|",
+  "author": "ailubes",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.sk.ukrfish.org/mcp",
+  "repo_url": "https://github.com/ailubes/sudnokontrol-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682727Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682728Z",
+  "repo_url": {
+   "url": "https://github.com/ailubes/sudnokontrol-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.sk.ukrfish.org/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T17:35:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3733,
+  "comment_author": "ailubes"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sudnokontrol"
+ }
+}

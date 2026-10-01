@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260830-cc6c59",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yotta-verify-mcp-mcp",
+  "version": "1.0.0",
+  "description": "Submitting via GitHub as the free route (the web form on mcp.so offers only the paid \"Pay and submit automatically\" path). Name: yotta-verify-mcp (元信MCP) Repository: https://github.com/YottaMeta/yotta-verify-mcp npm: https://www.npmjs.com/package/@yottameta/yotta-verify-mcp (`npx -y @yottameta/yotta-verify-mcp`, stdio, zero-dependency Python) License: MIT Description YuanXinMCP (元信MCP) is the pre-install security scanner for Agent skills, exposed as a stdio MCP server. Before you install any ski",
+  "author": "GoN-Kvs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @yottameta/yotta-verify-mcp",
+  "homepage": "https://www.npmjs.com/package/@yottameta/yotta-verify-mcp",
+  "repo_url": "https://github.com/YottaMeta/yotta-verify-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681530Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681532Z",
+  "repo_url": {
+   "url": "https://github.com/YottaMeta/yotta-verify-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @yottameta/yotta-verify-mcp",
+   "registry": "npm",
+   "package": "@yottameta/yotta-verify-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@yottameta/yotta-verify-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-30T06:17:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3833,
+  "comment_author": "GoN-Kvs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yotta-verify-mcp-mcp"
+ }
+}

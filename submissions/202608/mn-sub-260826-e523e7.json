@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260826-e523e7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "1claw",
+  "version": "1.0.0",
+  "description": "Submit server: 1Claw — https://github.com/1clawAI/1claw-mcp",
+  "author": "redbotster",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @1claw/mcp",
+  "homepage": "https://1claw.co",
+  "repo_url": "https://github.com/1clawAI/1claw-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682388Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682389Z",
+  "repo_url": {
+   "url": "https://github.com/1clawAI/1claw-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @1claw/mcp",
+   "registry": "npm",
+   "package": "@1claw/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://1claw.co",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T01:34:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3757,
+  "comment_author": "redbotster"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "1claw"
+ }
+}

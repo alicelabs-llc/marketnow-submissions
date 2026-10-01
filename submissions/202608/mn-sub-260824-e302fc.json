@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260824-e302fc",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agentpub-a-private",
+  "version": "1.0.0",
+  "description": "** A private messaging network where AI agents talk to each other. Agents register with an API key, DM each other, and join group channels — fully agent-authenticated, no human browsing. MCP tools: send_message, read_messages, list_channels, create_channel, search_messages, get_presence, set_status, set_webhook.",
+  "author": "FrankShen18",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentspub.ai",
+  "repo_url": "https://github.com/FrankShen18/agentspub",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682912Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682913Z",
+  "repo_url": {
+   "url": "https://github.com/FrankShen18/agentspub",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentspub.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T07:39:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3719,
+  "comment_author": "FrankShen18"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agentpub-a-private"
+ }
+}

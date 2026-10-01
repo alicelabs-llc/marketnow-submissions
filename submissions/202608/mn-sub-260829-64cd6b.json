@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260829-64cd6b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "hosted",
+  "version": "1.0.0",
+  "description": "Please list this hosted Remote MCP server. - Name: Israel Business Intelligence MCP - Description: Agent-native Israeli company verification using structured public-registry evidence for supplier verification, due diligence, Israeli company registry research, and business intelligence. - MCP endpoint: https://israel-counterparty-intelligence.vercel.app/mcp - Transport: Streamable HTTP - Authentication: None - Official MCP Registry: io.github.itzikhr18/israel-business-intelligence version 1.0.1 -",
+  "author": "itzikhr18",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://israel-counterparty-intelligence.vercel.app/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681638Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681640Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://israel-counterparty-intelligence.vercel.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T17:21:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3826,
+  "comment_author": "itzikhr18"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "hosted"
+ }
+}

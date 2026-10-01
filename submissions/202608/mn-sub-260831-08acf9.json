@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260831-08acf9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "projectlaunch",
+  "version": "1.0.0",
+  "description": "- Name: projectlaunch.ai - Endpoint: `https://projectlaunch.ai/mcp` (Streamable HTTP, stateless, no auth required) - Repo: https://github.com/projectlaunchai-sys/projectlaunch-mcp - What it is: Front door to projectlaunch.ai, an agent-facing site in pre-launch. Tools: `get_site_overview`, `get_pricing` (all prices currently zero), `whoami` (Web Bot Auth / RFC 9421 identity), and `submit_intent` — optional, disclosed intent capture: max 4096 bytes, stored verbatim for at most 90 days, human-revie",
+  "author": "projectlaunchai-sys",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://projectlaunch.ai/mcp",
+  "repo_url": "https://github.com/projectlaunchai-sys/projectlaunch-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681439Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681440Z",
+  "repo_url": {
+   "url": "https://github.com/projectlaunchai-sys/projectlaunch-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://projectlaunch.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-31T00:38:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3844,
+  "comment_author": "projectlaunchai-sys"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "projectlaunch"
+ }
+}

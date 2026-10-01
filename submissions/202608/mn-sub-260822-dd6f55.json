@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260822-dd6f55",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "staddress-ai",
+  "version": "1.0.0",
+  "description": "Staddress AI (`@staddress/mcp`) AI-powered MCP server that normalizes and parses Japanese addresses. Returns structured components, latitude/longitude, and a confidence score. Also supports batch parsing and API usage checks. - Name: Staddress AI / `@staddress/mcp` - Website: https://staddress.com/api - Repository: https://github.com/StaddressAI/staddress-tools - npm: https://www.npmjs.com/package/@staddress/mcp - License: MIT - Transport: stdio (`npx -y @staddress/mcp`) - Auth: required — `STA",
+  "author": "nexus-changchun",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @staddress/mcp",
+  "homepage": "https://www.npmjs.com/package/@staddress/mcp",
+  "repo_url": "https://github.com/StaddressAI/staddress-tools",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.683156Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.683158Z",
+  "repo_url": {
+   "url": "https://github.com/StaddressAI/staddress-tools",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @staddress/mcp",
+   "registry": "npm",
+   "package": "@staddress/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@staddress/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-22T05:07:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3686,
+  "comment_author": "nexus-changchun"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "staddress-ai"
+ }
+}

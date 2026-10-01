@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260901-d3b28f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vulx-watch",
+  "version": "1.0.0",
+  "description": "Name: VulX Watch Namespace: `ai.vulx/watch` Endpoint: `https://mcp.vulx.ai/mcp` Transport: streamable-http (remote, no install) Auth: OAuth (GitHub). No API key. Official MCP registry: `ai.vulx/watch` (v1.0.0, active) Website: https://vulx.ai/connect Repository: https://github.com/NgoTomek/vulx-watch-cursor Icon: https://raw.githubusercontent.com/NgoTomek/vulx-watch-cursor/main/assets/logo.png Independent security review for AI-built apps. Watch a GitHub repo. Never a patch. The agent connects,",
+  "author": "NgoTomek",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vulx.ai/connect",
+  "repo_url": "https://github.com/NgoTomek/vulx-watch-cursor",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681255Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681257Z",
+  "repo_url": {
+   "url": "https://github.com/NgoTomek/vulx-watch-cursor",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vulx.ai/connect",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-01T02:49:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3863,
+  "comment_author": "NgoTomek"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vulx-watch"
+ }
+}

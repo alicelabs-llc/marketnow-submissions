@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260830-097721",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "laver",
+  "version": "1.0.0",
+  "description": "Submitting via GitHub as the free route, since the web form offers only the paid \"Pay and submit automatically\" path. Name: Laver Registry name: `io.github.Developyn/laver-mcp` Repository: https://github.com/Developyn/laver-mcp npm: https://www.npmjs.com/package/@laver/mcp (`npx -y @laver/mcp`, stdio) Homepage: https://laver.app Official MCP registry: listed at 0.5.0 — https://registry.modelcontextprotocol.io/v0/servers?search=laver&version=latest Licence: MIT Transport: stdio Category: Workplac",
+  "author": "melvyn-developyn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @laver/mcp",
+  "homepage": "https://laver.app",
+  "repo_url": "https://github.com/Developyn/laver-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681503Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681505Z",
+  "repo_url": {
+   "url": "https://github.com/Developyn/laver-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @laver/mcp",
+   "registry": "npm",
+   "package": "@laver/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://laver.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-30T13:54:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3835,
+  "comment_author": "melvyn-developyn"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "laver"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-724f12",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "xrocket-exchange",
+  "version": "1.0.0",
+  "description": "Server - Name: xRocket Exchange MCP - Repository: https://github.com/nakazanie-ton/myrocket - Hosted endpoint: https://xrocket-mcp-production.up.railway.app/mcp - Landing and setup: https://xrocket-mcp-production.up.railway.app/ - Release: https://github.com/nakazanie-ton/myrocket/releases/tag/v0.6.0 - License: MIT - Transports: Streamable HTTP for hosted public market data; stdio for local account access and trading Description An unofficial open-source MCP server for xRocket Exchange. The hos",
+  "author": "nakazanie-ton",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://xrocket-mcp-production.up.railway.app/mcp",
+  "repo_url": "https://github.com/nakazanie-ton/myrocket",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682607Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682609Z",
+  "repo_url": {
+   "url": "https://github.com/nakazanie-ton/myrocket",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://xrocket-mcp-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T19:19:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3735,
+  "comment_author": "nakazanie-ton"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "xrocket-exchange"
+ }
+}

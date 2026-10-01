@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260828-be7744",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "hosted-mcp-server-askline",
+  "version": "1.0.0",
+  "description": "Please list this hosted (remote) MCP server. - Name: Askline - Description: Askline shows what ChatGPT says about a brand, then the SEO that feeds it. Hosted MCP for Claude + Cursor. $35/mo. - MCP URL: https://askline.ai/mcp - Transport: streamable HTTP / hosted connector - Website: https://askline.ai - Docs / setup: https://askline.ai/connect - Server card: https://askline.ai/.well-known/mcp/server-card.json - Manifest: https://askline.ai/mcp.json Notes: GET https://askline.ai/mcp returns 200.",
+  "author": "drharish14-tech",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://askline.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681838Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681841Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://askline.ai/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-28T17:50:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3807,
+  "comment_author": "drharish14-tech"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "hosted-mcp-server-askline"
+ }
+}

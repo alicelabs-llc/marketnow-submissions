@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260829-1d5897",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sourcey-evidence",
+  "version": "1.0.0",
+  "description": "Please list Sourcey as both a hosted Streamable HTTP MCP server and an installable stdio bridge. - Name: Sourcey - Hosted MCP endpoint: https://mcp.sourcey.com/mcp - Authentication: none for public Catalog reads - Website: https://sourcey.com - Repository: https://github.com/sourcey/mcp-server - npm: https://www.npmjs.com/package/@sourcey/mcp-server - Container: https://github.com/sourcey/mcp-server/pkgs/container/mcp-server - Official hosted registry identity: `com.sourcey/sourcey@1.2.0` - Offi",
+  "author": "auscaster",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @sourcey/mcp-server",
+  "homepage": "https://mcp.sourcey.com/mcp",
+  "repo_url": "https://github.com/sourcey/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681653Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681655Z",
+  "repo_url": {
+   "url": "https://github.com/sourcey/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @sourcey/mcp-server",
+   "registry": "npm",
+   "package": "@sourcey/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.sourcey.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T13:46:42Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3823,
+  "comment_author": "auscaster"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sourcey-evidence"
+ }
+}

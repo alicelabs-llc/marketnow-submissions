@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260826-b36f45",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apple-mail-mcp-apple-mail-mcp",
+  "version": "1.0.0",
+  "description": "Local MCP server for Apple Mail. Reads Mail's own SQLite Envelope Index instead of looping AppleScript, so addressing a message takes 0.1 ms instead of 7-10 s, and full-text search (FTS5) over a 300k-message store returns in under a millisecond. Backfills message bodies Mail never downloaded (Exchange), verifies every send by reading back the Sent copy, and supports server-side Exchange scheduled sends with cancel.",
+  "author": "parasxos",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx apple-mailbox-mcp",
+  "homepage": "https://pypi.org/project/apple-mailbox-mcp/",
+  "repo_url": "https://github.com/parasxos/apple-mail-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682140Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682142Z",
+  "repo_url": {
+   "url": "https://github.com/parasxos/apple-mail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/apple-mailbox-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T17:11:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3777,
+  "comment_author": "parasxos"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apple-mail-mcp-apple-mail-mcp"
+ }
+}

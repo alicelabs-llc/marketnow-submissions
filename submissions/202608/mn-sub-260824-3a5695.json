@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-3a5695",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lavox-memory",
+  "version": "1.0.0",
+  "description": "Server - Name: Lavox Memory (`lavox`) - Publisher: `lavox-app` - Repository: https://github.com/lavox-app/lavox - Website: https://lavox.app - License: MIT - Transport: stdio Description Lavox is a local-first macOS meeting recorder and dictation app that turns everything the user says into a structured memory any AI can read. Recording, Whisper transcription, speaker identification and embeddings all run on-device; the memory is a single SQLite file the user owns. The memory is two-layer and b",
+  "author": "dudlika9",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://lavox.app",
+  "repo_url": "https://github.com/lavox-app/lavox",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682849Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682850Z",
+  "repo_url": {
+   "url": "https://github.com/lavox-app/lavox",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://lavox.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T09:01:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3724,
+  "comment_author": "dudlika9"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lavox-memory"
+ }
+}

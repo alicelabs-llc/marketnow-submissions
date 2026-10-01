@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260826-ed82be",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "legalize-mcp",
+  "version": "1.0.0",
+  "description": "Legalize publishes consolidated legislation as data: every law is a Markdown file, every reform a git commit carrying its real publication date. It covers every country in the Legalize corpus. The connector exposes read-only tools — `list_countries`, `search_laws`, `get_law`, `law_at_date`, `diff_law`, `reform_history`, `law_stats`.",
+  "author": "EnriqueLop",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://legalize.dev/mcp",
+  "repo_url": "https://github.com/legalize-dev/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682077Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682079Z",
+  "repo_url": {
+   "url": "https://github.com/legalize-dev/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://legalize.dev/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T20:58:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3781,
+  "comment_author": "EnriqueLop"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "legalize-mcp"
+ }
+}

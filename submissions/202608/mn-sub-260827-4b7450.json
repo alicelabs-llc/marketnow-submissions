@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260827-4b7450",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "qorenext-crm-mcp",
+  "version": "1.0.0",
+  "description": "Submit: QoreNext CRM MCP — https://github.com/QoreNext/qorenext-crm-mcp",
+  "author": "Qorenext1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.qorenext.com/crm",
+  "repo_url": "https://github.com/QoreNext/qorenext-crm-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681934Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681936Z",
+  "repo_url": {
+   "url": "https://github.com/QoreNext/qorenext-crm-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.qorenext.com/crm",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-27T21:08:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3797,
+  "comment_author": "Qorenext1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "qorenext-crm-mcp"
+ }
+}

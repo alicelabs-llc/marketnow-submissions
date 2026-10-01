@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260826-4257ad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "korea-ground",
+  "version": "1.0.0",
+  "description": "Korea Ground-Truth (KGT) is official Korean data for AI agents — one API, one MCP. Instead of integrating five government APIs (National Tax Service, DART, road-name address, MOLIT, National Law Information Center) separately, agents get 8 tools:",
+  "author": "ChloePark85",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://kr-groundtruth-mcp.vercel.app/api/mcp",
+  "repo_url": "https://github.com/ChloePark85/kr-groundtruth-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682159Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682161Z",
+  "repo_url": {
+   "url": "https://github.com/ChloePark85/kr-groundtruth-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://kr-groundtruth-mcp.vercel.app/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T15:39:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3776,
+  "comment_author": "ChloePark85"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "korea-ground"
+ }
+}

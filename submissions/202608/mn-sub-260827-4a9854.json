@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260827-4a9854",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "intesta",
+  "version": "1.0.0",
+  "description": "** Intesta is a registry of attested business fact passports with a trust ladder (A0 claimed → A1 domain-verified → A2 payment-verified → A3/A4). Tools: `search_entities`, `get_passport`, `ask`, `list_entities`, `get_trust_ladder`. Answers are built ONLY from an entity's attested passport — if no matching fact exists, the agent gets an honest refusal instead of a guess. Every response carries a `passport_hash` (opaque passport version id) and a detached Ed25519 registry signature verifiable agai",
+  "author": "agentlabbusiness",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://intesta.io",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681904Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681906Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://intesta.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-27T22:29:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3801,
+  "comment_author": "agentlabbusiness"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "intesta"
+ }
+}

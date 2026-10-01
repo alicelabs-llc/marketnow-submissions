@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260828-ccf500",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vocaneo-french",
+  "version": "1.0.0",
+  "description": "Vocaneo - Official Registry: `com.vocaneo/vocaneo` (1.0.1) - Endpoint: https://mcp.vocaneo.com/mcp - Transport: Streamable HTTP - Authentication: None - Website: https://vocaneo.com/connecteur - Repository: https://github.com/CIB-PROD/vocaneo-mcp-connector - Claude Directory: https://claude.ai/directory/connectors/vocaneo - Smithery: https://smithery.ai/servers/vocaneo/vocaneo French job profiles, RNCP diplomas and 135,000 training programs. Read-only, no account. Vocaneo is the career-guidance",
+  "author": "wsauvage",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.vocaneo.com/mcp",
+  "repo_url": "https://github.com/CIB-PROD/vocaneo-mcp-connector",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681874Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681875Z",
+  "repo_url": {
+   "url": "https://github.com/CIB-PROD/vocaneo-mcp-connector",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.vocaneo.com/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-28T10:20:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3804,
+  "comment_author": "wsauvage"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vocaneo-french"
+ }
+}

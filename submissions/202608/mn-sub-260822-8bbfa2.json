@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260822-8bbfa2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "secret-mcp-evidence",
+  "version": "1.0.0",
+  "description": "Server Name Secret MCP Repository https://github.com/yyeongjin/secret_mcp npm package `secret-design-mcp` (v0.6.0, MIT) Description Evidence-grounded web design analysis that searches recent GDWEB references, sends each result through a separate MCP sampling request, and produces one implementation-ready DESIGN_INDEX specification per reference. Features - Recent design-reference discovery from GDWEB - One isolated sampling/createMessage request per reference - Measured layout, coordinate, colo",
+  "author": "yyeongjin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y secret-design-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/yyeongjin/secret_mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.683086Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.683088Z",
+  "repo_url": {
+   "url": "https://github.com/yyeongjin/secret_mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y secret-design-mcp",
+   "registry": "npm",
+   "package": "secret-design-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-22T15:58:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3694,
+  "comment_author": "yyeongjin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "secret-mcp-evidence"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260822-5fd519",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "adtivity-analytics",
+  "version": "1.0.0",
+  "description": "Server Name Adtivity Repository https://github.com/adtivity/mcp npm package `adtivity-mcp` (v1.1.0, MIT) Description Adtivity is Founder OS — the analytics + churn-prediction layer for founders. Ask Claude or Cursor to \"connect analytics\" and the Adtivity MCP detects your framework, installs the SDK, writes the init code, wraps key events, and confirms data is flowing, in under 10 minutes with no manual SDK wrestling. It then reads your data back in plain English: MRR, lifecycle, retention, and",
+  "author": "jaethecreator",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/adtivity/mcp",
+  "repo_url": "https://github.com/adtivity/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.683102Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.683105Z",
+  "repo_url": {
+   "url": "https://github.com/adtivity/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/adtivity/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-22T15:13:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3693,
+  "comment_author": "jaethecreator"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "adtivity-analytics"
+ }
+}

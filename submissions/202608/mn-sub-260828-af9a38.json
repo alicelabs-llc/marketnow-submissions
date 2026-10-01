@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260828-af9a38",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "safe-mind",
+  "version": "1.0.0",
+  "description": "** Run the legally required psychological risk assessment (Gefährdungsbeurteilung psychischer Belastung, GBU Psyche) for German companies. 12 tools: onboard an account, set up departments and locations, create survey drafts, and read anonymity-protected aggregated results. Segmented analytics never return groups below the minimum group size.",
+  "author": "flowluap",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y safe-mind-mcp",
+  "homepage": "https://www.safe-mind.de/developers",
+  "repo_url": "https://github.com/lewo-media/safe-mind-tools",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681858Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681859Z",
+  "repo_url": {
+   "url": "https://github.com/lewo-media/safe-mind-tools",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y safe-mind-mcp",
+   "registry": "npm",
+   "package": "safe-mind-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.safe-mind.de/developers",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-28T16:00:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3806,
+  "comment_author": "flowluap"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "safe-mind"
+ }
+}

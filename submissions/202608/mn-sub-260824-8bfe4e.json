@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-8bfe4e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sentinel-scan",
+  "version": "1.0.0",
+  "description": "Server - Name: Sentinel Scan (`sentinel-scan-cli`) - Publisher: `Ventrova` - Repository: https://github.com/Ventrova/sentinel-scan-cli - Website: https://ventrova.dev/audit - License: MIT - Transport: stdio (local CLI, not a hosted MCP server) Description Sentinel Scan is a free, open-source CLI that audits MCP server configs and live tool behavior for security issues. It has two modes: (1) a static manifest scanner that checks `mcp.json`/`server.json` for OWASP-mapped misconfigurations - hardc",
+  "author": "Ventrova",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ventrova.dev/audit",
+  "repo_url": "https://github.com/Ventrova/sentinel-scan-cli",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682806Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682808Z",
+  "repo_url": {
+   "url": "https://github.com/Ventrova/sentinel-scan-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ventrova.dev/audit",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T10:50:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3726,
+  "comment_author": "Ventrova"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sentinel-scan"
+ }
+}

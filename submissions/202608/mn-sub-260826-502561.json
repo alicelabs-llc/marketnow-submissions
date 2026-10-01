@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260826-502561",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ugc-vz",
+  "version": "1.0.0",
+  "description": "[Submit] UGC VZ — find real UGC creators in DACH (remote Streamable HTTP, no API key) — https://github.com/ugcvz/ugc-vz-mcp",
+  "author": "shufflethis",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y ugc-vz-mcp",
+  "homepage": "https://ugc-vz.de/api/mcp",
+  "repo_url": "https://github.com/ugcvz/ugc-vz-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682358Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682360Z",
+  "repo_url": {
+   "url": "https://github.com/ugcvz/ugc-vz-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y ugc-vz-mcp",
+   "registry": "npm",
+   "package": "ugc-vz-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://ugc-vz.de/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-26T04:23:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3759,
+  "comment_author": "shufflethis"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ugc-vz"
+ }
+}

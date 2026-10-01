@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260829-2750d9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "io-github-aurelio",
+  "version": "1.0.0",
+  "description": "point an MCP client (Claude Desktop, Cursor, VS Code) at your local data files and it can describe schema, preview rows, run structured read-only queries, diff two files, and — the differentiator — produce ONE self-contained offline interactive HTML explorer (zero external network requests, test-enforced) that you can double-click, email, or commit. All processing is local; nothing is uploaded. Optional `DATALOUPE_MCP_ROOT` confines file access, with a per-file size cap and read-only mode availa",
+  "author": "aurelio-nakamura",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y github",
+  "homepage": "https://aurelio-nakamura.github.io/dataloupe/",
+  "repo_url": "https://github.com/aurelio-nakamura/dataloupe",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681758Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681760Z",
+  "repo_url": {
+   "url": "https://github.com/aurelio-nakamura/dataloupe",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y github",
+   "registry": "npm",
+   "package": "github",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://aurelio-nakamura.github.io/dataloupe/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T07:25:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3813,
+  "comment_author": "aurelio-nakamura"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "io-github-aurelio"
+ }
+}

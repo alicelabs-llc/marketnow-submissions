@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260824-37fc9e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "social-glass",
+  "version": "1.0.0",
+  "description": "** Social Glass helps authorized brand and research teams explore live culture and consumer insights. Agents can search evidence-backed Insights, Posts, Creators, and Audiences within the signed-in user's permitted Social Glass organizations. The server exposes read tools by default and checks authenticated organization membership for private data.",
+  "author": "ianwatts22",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.socialglass.ai/landing",
+  "repo_url": "https://github.com/Social-Glass-AI/social-glass-agent-plugins",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.682623Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.682626Z",
+  "repo_url": {
+   "url": "https://github.com/Social-Glass-AI/social-glass-agent-plugins",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.socialglass.ai/landing",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-24T17:48:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3734,
+  "comment_author": "ianwatts22"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "social-glass"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260829-011553",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "noodle-biomedical-literature-discovery-mcp",
+  "version": "1.0.0",
+  "description": "Noodle Biomedical Literature Discovery MCP A public, read-only MCP server from Helena Bioinformatics for discovering biomedical literature even when an agent or user does not know the Noodle name. - Source: https://github.com/helena-bioinformatics/noodle-mcp - Remote endpoint: https://api.helena.bio/noodle/v1/mcp - Website and integrations: https://noodle.helena.bio/integrations - Official MCP Registry: `io.github.helena-bioinformatics/noodle` - Version: `0.2.0` - Transport: Streamable HTTP - A",
+  "author": "vladimir-mitev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.helena.bio/noodle/v1/mcp",
+  "repo_url": "https://github.com/helena-bioinformatics/noodle-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:27.681568Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:27.681570Z",
+  "repo_url": {
+   "url": "https://github.com/helena-bioinformatics/noodle-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.helena.bio/noodle/v1/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T20:57:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3830,
+  "comment_author": "vladimir-mitev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "noodle-biomedical-literature-discovery-mcp"
+ }
+}
