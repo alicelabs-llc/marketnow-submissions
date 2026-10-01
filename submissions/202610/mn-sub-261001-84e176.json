@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-84e176",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "birkinbagstock",
+  "version": "1.0.0",
+  "description": "Please add BirkinBagStock, an independent Hermès resale index, not affiliated with Hermès. - Website: https://birkinbagstock.com - Remote MCP endpoint: https://birkinbagstock.com/mcp - Transport: Streamable HTTP - Authentication: none; public endpoint, no account or API key - Official MCP Registry: `com.birkinbagstock/mcp` (version 1.1.0) - Documentation: https://birkinbagstock.com/llms.txt - Public REST API / OpenAPI: https://birkinbagstock.com/.well-known/openapi.json The 13 MCP tools cover in",
+  "author": "softdevfz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://birkinbagstock.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:41.618714Z",
+  "duration_ms": 250,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:41.618740Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://birkinbagstock.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:41.618743Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "birkinbagstock"
+ }
+}
