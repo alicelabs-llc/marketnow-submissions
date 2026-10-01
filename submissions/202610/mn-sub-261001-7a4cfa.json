@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-7a4cfa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clickwise-api",
+  "version": "1.0.0",
+  "description": "Clickwise — affiliate programs, tracked links and GTIN product search over remote MCP - Repository: https://github.com/softdevfz/clickwise-api (MIT; SDKs and client configs) - Remote MCP endpoint: https://partners.clickwise.net/api/v1/mcp - Transport: Streamable HTTP - Authentication: optional. Header `X-API-Key: <key>` (or `Authorization: Bearer <key>`); program discovery, deals, catalog stats and instant tracked links work without it - Official MCP Registry: `net.clickwise/mcp` - Glama: https:",
+  "author": "softdevfz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://partners.clickwise.net/api/v1/mcp",
+  "repo_url": "https://github.com/softdevfz/clickwise-api",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:30.558814Z",
+  "duration_ms": 824,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:30.558856Z",
+  "repo_url": {
+   "url": "https://github.com/softdevfz/clickwise-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://partners.clickwise.net/api/v1/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:30.558859Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clickwise-api"
+ }
+}
