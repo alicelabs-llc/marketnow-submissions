@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260827-b6b706",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "rosettafolio",
+  "version": "1.0.0",
+  "description": "Rosetta PDF (rosetta-mcp) Remote MCP and REST for digital PDFs in Cursor, Claude Desktop, and agent pipelines. Text-layer PDFs only, no OCR. Tools: pdf_parse, pdf_extract, pdf_split, pdf_ask, pdf_credit_usage, pdf_delete Please list it on mcp.so. extra docs https://rosettafolio.com/mcp remote https://rosettafolio.com/api/mcp site https://rosettafolio.com package https://www.npmjs.com/package/rosetta-mcp",
+  "author": "Jcjimenezglez",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://rosettafolio.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:02.833622Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:02.833650Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://rosettafolio.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-27T18:16:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5443357723,
+  "comment_author": "Jcjimenezglez"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "rosettafolio"
+ }
+}
