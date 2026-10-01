@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260328-32dadd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "formfill-mcp",
+  "version": "1.0.0",
+  "description": "# FormFill MCP GitHub: https://github.com/knportal/formfill-mcp Homepage: https://formfill.plenitudo.ai License: MIT An MCP server for Claude, Cursor, and any AI agent — fill any PDF form in one tool call. Tools: - `list_form_fields` — inspect a PDF and return every fillable field - `fill_form` — fill a PDF form and save the result - `fill_form_multipage` — optimized for large/multi-page PDFs (5+ pages) Features: - Remote MCP endpoint via Cloudflare Workers (Streamable HTTP) - Free tier (50 fill",
+  "author": "knportal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://formfill.plenitudo.ai",
+  "repo_url": "https://github.com/knportal/formfill-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:00.431420Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:00.431444Z",
+  "repo_url": {
+   "url": "https://github.com/knportal/formfill-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://formfill.plenitudo.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-28T19:14:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4148646276,
+  "comment_author": "knportal"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "formfill-mcp"
+ }
+}
