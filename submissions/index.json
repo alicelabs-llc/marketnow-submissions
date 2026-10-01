@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:07:06.670Z",
+ "updated_at": "2026-10-01T04:07:10.587Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3731,6 +3731,18 @@
    "from": "ip:b52a1bd5fbeb",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-7e15ae.json"
+  },
+  {
+   "id": "mn-sub-261001-7564c7",
+   "name": "ark-forgemcp-eu-ai-act",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:07:09.718Z",
+   "from": "ip:20fc69af7312",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-7564c7.json"
   }
  ],
  "l2_pass": {
