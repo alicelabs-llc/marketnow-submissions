@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260222-12cc8c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "servicialo-mcp-server",
+  "version": "1.0.0",
+  "description": "# Servicialo MCP Server npm: `@servicialo/mcp-server` (`npx -y @servicialo/mcp-server`) GitHub: https://github.com/servicialo/mcp-server Website: https://servicialo.ai Open protocol for professional service delivery. Enables AI agents to discover, schedule, verify and settle professional services (healthcare, legal, home services) through a standardized 8-dimension model and 9-state lifecycle. - 4 public tools (no auth): service discovery, availability check - 19 authenticated tools: scheduling,",
+  "author": "danioni",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @servicialo/mcp-server",
+  "homepage": "https://servicialo.ai",
+  "repo_url": "https://github.com/servicialo/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:06.290785Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:06.290810Z",
+  "repo_url": {
+   "url": "https://github.com/servicialo/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @servicialo/mcp-server",
+   "registry": "npm",
+   "package": "@servicialo/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://servicialo.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-22T17:03:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3941373046,
+  "comment_author": "danioni"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "servicialo-mcp-server"
+ }
+}
