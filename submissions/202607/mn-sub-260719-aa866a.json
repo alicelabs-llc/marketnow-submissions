@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260719-aa866a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "denpyo-api",
+  "version": "1.0.0",
+  "description": "Name: denpyo-mcp Repo: https://github.com/vladic-corp/denpyo-api (MCP in /mcp) npm: denpyo-mcp Description: OCR a Japanese invoice (請求書) or receipt (領収書) into structured JSON — vendor, line items, 8%/10% consumption-tax breakdown — and verify the qualified-invoice registration number (インボイス登録番号 / T番号) against Japan's National Tax Agency registry, in one call. Pay-per-call via x402 (USDC on Base/Solana), no API keys. Free `/sample` to preview the output. Tags: invoice, ocr, japan, tax, x402 Confi",
+  "author": "vladic-corp",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/vladic-corp/denpyo-api",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:47.219369Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:47.219393Z",
+  "repo_url": {
+   "url": "https://github.com/vladic-corp/denpyo-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-19T16:01:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5016393592,
+  "comment_author": "vladic-corp"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "denpyo-api"
+ }
+}
