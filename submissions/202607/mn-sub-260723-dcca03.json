@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260723-dcca03",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cmdop-care-mcp",
+  "version": "1.0.0",
+  "description": "cmdop-care — read-only fleet health and storage diagnostics for enrolled CMDOP machines. - Repository: https://github.com/commandoperator/cmdop-care-mcp - Official MCP Registry: `io.github.commandoperator/cmdop-care` - Transport: stdio - License: Apache-2.0 - Tools: 4 read-only tools — `list_machines`, `care_status`, `care_diagnose`, `care_storage_inventory` - Current version: `v0.1.2` Description: `cmdop-care` lets an MCP-aware assistant inspect an already-enrolled CMDOP machine fleet without e",
+  "author": "markolofsen",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/commandoperator/cmdop-care-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:53.423084Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:53.423109Z",
+  "repo_url": {
+   "url": "https://github.com/commandoperator/cmdop-care-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-23T16:24:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5060826887,
+  "comment_author": "markolofsen"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cmdop-care-mcp"
+ }
+}
