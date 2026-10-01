@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-129e89",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yueying",
+  "version": "1.0.0",
+  "description": "yueying — let AI watch videos (offline) - Repo: https://github.com/vsh5dvsch7-png/yueying - PyPI: https://pypi.org/project/yueying/ · Official MCP Registry: `io.github.vsh5dvsch7-png/yueying` - Install: `uvx yueying mcp` (Python, stdio) · License: MIT Turns a local video file or a YouTube/Bilibili/Douyin/TikTok URL into a timestamped transcript plus scene-change keyframe contact sheets, so an agent can actually watch a video. Fully offline: platform subtitles first, local faster-whisper otherwis",
+  "author": "vsh5dvsch7-png",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/yueying/",
+  "repo_url": "https://github.com/vsh5dvsch7-png/yueying",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:49.314554Z",
+  "duration_ms": 856,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:49.314577Z",
+  "repo_url": {
+   "url": "https://github.com/vsh5dvsch7-png/yueying",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/yueying/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:49.314580Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yueying"
+ }
+}
