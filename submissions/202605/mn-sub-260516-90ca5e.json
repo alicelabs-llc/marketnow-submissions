@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260516-90ca5e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "korean-sns-trend",
+  "version": "1.0.0",
+  "description": "korean-sns-trend Cloudflare Workers MCP server - URL: https://api.lazy-mac.com/korean-sns-trend/mcp - Health: https://api.lazy-mac.com/korean-sns-trend/health - npm: https://www.npmjs.com/package/lazymac-mcp-korean-sns-trend - Transport: streamable-http",
+  "author": "lazymac2x",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.lazy-mac.com/korean-sns-trend/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:07.073677Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:07.073705Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.lazy-mac.com/korean-sns-trend/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-16T12:03:41Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4466791072,
+  "comment_author": "lazymac2x"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "korean-sns-trend"
+ }
+}
