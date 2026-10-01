@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-251018-27f318",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dollhousemcp",
+  "version": "1.0.0",
+  "description": "DollhouseMCP NPM Package: @dollhousemcp/mcp-server Version: 1.9.20 Registry Name: io.github.DollhouseMCP/mcp-server Description: Open source, platform agnostic, AI customization tools. Create your own customization elements to modify any AI to behave how you want it too. - Personas: Define how your AI behaves - from creative writer to technical analyst - Skills: Give your AI new capabilities like code review, research, or data analysis - Templates: Get consistent, repeatable outputs for reports,",
+  "author": "mickdarling",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://dollhousemcp.com",
+  "repo_url": "https://github.com/DollhouseMCP/mcp-server",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:13.063653Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:13.063678Z",
+  "repo_url": {
+   "url": "https://github.com/DollhouseMCP/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://dollhousemcp.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-10-18T00:08:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3417546534,
+  "comment_author": "mickdarling"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dollhousemcp"
+ }
+}
