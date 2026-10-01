@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-2af262",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "architecture-viewer-(-arch-viewer-av-guard-)",
+  "version": "1.0.0",
+  "description": "Architecture Viewer Name: Architecture Viewer (`arch-viewer` / `av_guard`) Description: Local MCP + CLI architecture gate: after AI edits, diff vs git HEAD for new cross-layer deps / structural changes. Offline; Apache-2.0. Pilot pin `arch-viewer@0.12.2-rc.3`. Link: https://github.com/tomyangod/architecture_viewer Glama: https://glama.ai/mcp/servers/tomyangod/architecture_viewer (quality B) Category: Architecture / Developer Tools Stack: Node.js, JavaScript/TypeScript, Python/Go/Java parsers Ins",
+  "author": "tomyangod",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/tomyangod/architecture_viewer",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:05.381997Z",
+  "duration_ms": 435,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:05.382019Z",
+  "repo_url": {
+   "url": "https://github.com/tomyangod/architecture_viewer",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:05.382022Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "architecture-viewer-arch-viewer-av-guard"
+ }
+}
