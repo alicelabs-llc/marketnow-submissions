@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260401-ba62c2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentic-control-plane-acp",
+  "version": "1.0.0",
+  "description": "# Agentic Control Plane (ACP) GitHub: https://github.com/davidcrowe/gatewaystack Live endpoint: https://api.agenticcontrolplane.com Website: https://agenticcontrolplane.com Description: Open-source MCP gateway that adds identity verification, scoped authorization, PII detection, rate limiting, and audit logging to every tool call. MIT licensed. Features: - JWT-verified identity on every request (Auth0, Okta, Entra ID, Firebase, Keycloak) - Deny-by-default policy enforcement - PII detection and r",
+  "author": "davidcrowe",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.agenticcontrolplane.com",
+  "repo_url": "https://github.com/davidcrowe/gatewaystack",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:22.357444Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:22.357471Z",
+  "repo_url": {
+   "url": "https://github.com/davidcrowe/gatewaystack",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.agenticcontrolplane.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-01T20:26:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4172773103,
+  "comment_author": "davidcrowe"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentic-control-plane-acp"
+ }
+}
