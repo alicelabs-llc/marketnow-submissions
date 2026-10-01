@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260715-60ee3f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "muovi",
+  "version": "1.0.0",
+  "description": "Server Name: Muovi Repository: https://github.com/mmiani/mcp-server npm: [@muovi/mcp-server](https://www.npmjs.com/package/@muovi/mcp-server) Website: https://muovi.com.ar Description: Argentina's trust-first local services marketplace. Six read-only tools to search verified professionals, list services and cities, read reviews, and deep-link into on-platform task creation. A trust-first anti-leakage policy is enforced twice (server-side + agent boundary), so provider contact data (phone/email/W",
+  "author": "mmiani",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @muovi/mcp-server",
+  "homepage": "https://mcp.muovi.com.ar/mcp",
+  "repo_url": "https://github.com/mmiani/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:42.030769Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:42.030794Z",
+  "repo_url": {
+   "url": "https://github.com/mmiani/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @muovi/mcp-server",
+   "registry": "npm",
+   "package": "@muovi/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.muovi.com.ar/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-15T17:52:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4983693532,
+  "comment_author": "mmiani"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "muovi"
+ }
+}
