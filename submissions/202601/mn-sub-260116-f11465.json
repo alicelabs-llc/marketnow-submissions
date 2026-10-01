@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260116-f11465",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lightning-faucet-mcp-server",
+  "version": "1.0.0",
+  "description": "# Lightning Faucet MCP Server Repository: https://github.com/lightningfaucet/mcp-server npm Package: https://www.npmjs.com/package/lightning-faucet-mcp Description: Give your AI agent a Bitcoin wallet. This MCP server enables AI agents to send and receive Bitcoin via Lightning Network with: - L402 Protocol Support - Access pay-per-request APIs automatically - Operator/Agent Hierarchy - Manage multiple agents with budget limits - Webhooks - Real-time payment notifications - Keysend - Send payment",
+  "author": "pfergi42",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/lightning-faucet-mcp",
+  "repo_url": "https://github.com/lightningfaucet/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:19.850099Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:19.850134Z",
+  "repo_url": {
+   "url": "https://github.com/lightningfaucet/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/lightning-faucet-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-01-16T19:13:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3761428669,
+  "comment_author": "pfergi42"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lightning-faucet-mcp-server"
+ }
+}
