@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-75c185",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "motion-menu-597-working-interactive-motion-patterns-webgl-gl",
+  "version": "1.0.0",
+  "description": "Motion Menu — 597 working interactive-motion patterns (WebGL, GLSL, springs, view transitions, WebGPU) delivered to agents over MCP and plain HTTPS URLs. - MCP endpoint: https://www.motionmenu.ca/api/mcp - Site / live demo: https://motionmenu.ca - Docs: https://motionmenu.ca/kit.md Motion Menu is the motion layer for agent-built sites: an agent fetches a pattern by number (`https://www.motionmenu.ca/p/<n>.md` or `.json`), transplants the HTML/CSS/JS, and the runtime enforces the physics. Free ti",
+  "author": "dev55acc-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.motionmenu.ca/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:38.760Z",
+  "duration_ms": 89,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:38.760Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.motionmenu.ca/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:dcba9c7a69e9",
+ "submitted_at": "2026-10-01T04:08:38.760Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "motion-menu-597-working-interactive-motion-patterns-webgl-gl"
+ }
+}
