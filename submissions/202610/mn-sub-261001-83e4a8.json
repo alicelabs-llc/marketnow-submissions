@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-83e4a8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "reaper-daemon",
+  "version": "1.0.0",
+  "description": "Reaper Daemon: a REAPER MCP server that lets Claude or any MCP client drive the REAPER DAW. It reads every plugin and parameter, sets FX values, writes automation, and measures a mix move before and after. Local stdio, no network port, no pip dependencies, and every change runs inside a REAPER undo block. - GitHub: https://github.com/wretcher207/reaper-daemon - Official registry: `io.github.wretcher207/reaper-daemon` - Website: https://www.deadpixeldesign.com/workflows/reaper-daemon/ - License: ",
+  "author": "wretcher207",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.deadpixeldesign.com/workflows/reaper-daemon/",
+  "repo_url": "https://github.com/wretcher207/reaper-daemon",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:57.056278Z",
+  "duration_ms": 1537,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:57.056302Z",
+  "repo_url": {
+   "url": "https://github.com/wretcher207/reaper-daemon",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.deadpixeldesign.com/workflows/reaper-daemon/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:57.056305Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "reaper-daemon"
+ }
+}
