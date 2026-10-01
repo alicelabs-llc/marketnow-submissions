@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260812-dace5d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tools-berry-mcp",
+  "version": "1.0.0",
+  "description": "Tools Berry Paycheck — live US paycheck and payroll-tax math for 2026, all 50 states and DC - Endpoint: `https://mcp.tools-berry.com` (remote, Streamable HTTP, no auth) - Repo: https://github.com/edyda99/tools-berry-mcp - Official MCP Registry: `com.tools-berry/paycheck` (active, v1.0.0) - Homepage: https://tools-berry.com/mcp/ - Tools (4): `compute_take_home`, `compute_bonus_withholding`, `compare_states`, `get_state_rates` — the same engine and data that power tools-berry.com, so answers match",
+  "author": "edyda99",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tools-berry.com/mcp/",
+  "repo_url": "https://github.com/edyda99/tools-berry-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:28.823913Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:28.823939Z",
+  "repo_url": {
+   "url": "https://github.com/edyda99/tools-berry-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://tools-berry.com/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-12T09:29:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5264905497,
+  "comment_author": "edyda99"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tools-berry-mcp"
+ }
+}
