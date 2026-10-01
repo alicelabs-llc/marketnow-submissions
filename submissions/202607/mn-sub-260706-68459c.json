@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260706-68459c",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pindrop",
+  "version": "1.0.0",
+  "description": "PinDrop MCP server submission Name: PinDrop Website: https://www.pindrop.page/mcp MCP endpoint: https://mcp.pindrop.page/mcp Protocol: streamable-http Auth: Bearer API key Repository: https://github.com/Quirk2237/pindrop Package: https://www.npmjs.com/package/@pindrop-page/mcp Icon: https://www.pindrop.page/favicon.svg PinDrop gives coding agents full visual feedback context for pinned UI bugs and review notes, including open/resolved pins, comment threads, screenshots, and resolve/comment actio",
+  "author": "Quirk2237",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.pindrop.page/mcp",
+  "repo_url": "https://github.com/Quirk2237/pindrop",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:09.454492Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:09.454520Z",
+  "repo_url": {
+   "url": "https://github.com/Quirk2237/pindrop",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.pindrop.page/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T13:25:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4893323386,
+  "comment_author": "Quirk2237"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pindrop"
+ }
+}
