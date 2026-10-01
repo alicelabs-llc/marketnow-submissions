@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260729-00a0f7",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "league-of-spin",
+  "version": "1.0.0",
+  "description": "Server Name: League of Spin Website: https://leagueofspin.com Remote endpoint: https://leagueofspin.com/api/mcp (streamable-http) Description: Find 27,000+ outdoor ping pong tables worldwide, with spot details and live playing conditions. Data sourced from OpenStreetMap plus user submissions. Category: Location Services / Sports Registered in the official MCP registry as `com.leagueofspin/spots`. Not distributed as a public GitHub repo (hosted service), so submitting here per the note on the sta",
+  "author": "sufyman",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://leagueofspin.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:07.870923Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:07.870953Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://leagueofspin.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-29T20:54:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5123279039,
+  "comment_author": "sufyman"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "league-of-spin"
+ }
+}
