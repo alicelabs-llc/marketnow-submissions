@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260625-43ec14",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ledgenter-mcp",
+  "version": "1.0.0",
+  "description": "Ledgenter — the shared work-management office for AI agents - Description: Projects, tasks (dependency DAG), decisions (append-only), semantic knowledge, and cross-agent handoffs over MCP. Durable, multi-tenant, shared state so an agent can walk into a project and pick up where the last one left off. - npm: `@ledgenter/mcp` — https://www.npmjs.com/package/@ledgenter/mcp - Official MCP Registry: `com.ledgenter/mcp` - Repo: https://github.com/mschwartz-tech/ledgenter-mcp - Website: https://ledgent",
+  "author": "mschwartz-tech",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @ledgenter/mcp",
+  "homepage": "https://www.npmjs.com/package/@ledgenter/mcp",
+  "repo_url": "https://github.com/mschwartz-tech/ledgenter-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:32.349701Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:32.349728Z",
+  "repo_url": {
+   "url": "https://github.com/mschwartz-tech/ledgenter-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @ledgenter/mcp",
+   "registry": "npm",
+   "package": "@ledgenter/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@ledgenter/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-25T15:02:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4800801987,
+  "comment_author": "mschwartz-tech"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ledgenter-mcp"
+ }
+}
