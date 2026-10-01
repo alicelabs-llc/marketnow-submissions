@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260401-5c093f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pymaia-skills",
+  "version": "1.0.0",
+  "description": "Pymaia Skills — https://github.com/Pymaia-ok/pymaia-skills MCP Endpoint: https://mcp.pymaia.com (Streamable HTTP) The largest curated AI skill directory as an MCP server. 35,000+ skills, 500+ MCP connectors, 100+ plugins. 27 MCP tools including search_skills, solve_goal, get_role_kit, compare_skills, and generate_custom_skill. - Transport: Streamable HTTP - License: MIT - Quick start: `{\"mcpServers\":{\"pymaia-skills\":{\"type\":\"streamable-http\",\"url\":\"https://mcp.pymaia.com\"}}}`",
+  "author": "Pymaia-ok",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.pymaia.com",
+  "repo_url": "https://github.com/Pymaia-ok/pymaia-skills",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:17.531202Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:17.531227Z",
+  "repo_url": {
+   "url": "https://github.com/Pymaia-ok/pymaia-skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.pymaia.com",
+   "ok": false,
+   "status": 530
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-01T00:28:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4166580022,
+  "comment_author": "Pymaia-ok"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pymaia-skills"
+ }
+}
