@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260415-68c69a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "detectzestack-mcp",
+  "version": "1.0.0",
+  "description": "DetectZeStack MCP Server - Name: detectzestack-mcp - GitHub: https://github.com/mlugo-apx/detectzestack-mcp - npm: https://www.npmjs.com/package/detectzestack-mcp - Install: `npx detectzestack-mcp` - Website: https://detectzestack.com - License: MIT Description: MCP server that lets AI agents detect technology stacks, analyze security headers, inspect SSL certificates, look up DNS records, and scan for vulnerabilities on any website. 9 tools available. Tools: - `detect_tech_stack` — Detect all t",
+  "author": "mlugo-apx",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/detectzestack-mcp",
+  "repo_url": "https://github.com/mlugo-apx/detectzestack-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:14.549674Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:14.549697Z",
+  "repo_url": {
+   "url": "https://github.com/mlugo-apx/detectzestack-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/detectzestack-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-15T18:37:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4254542064,
+  "comment_author": "mlugo-apx"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "detectzestack-mcp"
+ }
+}
