@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260216-fe3e9d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "torrentclaw-mcp-server",
+  "version": "1.0.0",
+  "description": "# TorrentClaw MCP Server MCP server for searching and discovering movies and TV shows with torrent downloads, quality scoring, streaming availability, and cast/crew metadata. - GitHub: https://github.com/torrentclaw/torrentclaw-mcp - NPM: https://www.npmjs.com/package/@torrentclaw/mcp - Install: `npx -y @torrentclaw/mcp` (no API key required) Server config ```json { \"mcpServers\": { \"torrentclaw\": { \"command\": \"npx\", \"args\": [\"-y\", \"@torrentclaw/mcp\"] } } } ``` Tools (10) - `search_content` — Sea",
+  "author": "buryni",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @torrentclaw/mcp",
+  "homepage": "https://www.npmjs.com/package/@torrentclaw/mcp",
+  "repo_url": "https://github.com/torrentclaw/torrentclaw-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:46.648144Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:46.648172Z",
+  "repo_url": {
+   "url": "https://github.com/torrentclaw/torrentclaw-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @torrentclaw/mcp",
+   "registry": "npm",
+   "package": "@torrentclaw/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@torrentclaw/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-16T21:22:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3910571805,
+  "comment_author": "buryni"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "torrentclaw-mcp-server"
+ }
+}
