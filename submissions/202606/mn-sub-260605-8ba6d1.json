@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260605-8ba6d1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "skinknowledgebase-skincare-question-and-answer-mcp",
+  "version": "1.0.0",
+  "description": "# SkinKnowledgeBase Skincare Question and Answer MCP Repository: https://github.com/fulcrai/skb-mcp SkinKnowledgeBase MCP is a public, unauthenticated, read-only remote MCP server for source-backed skincare question-answering. It helps AI assistants answer cosmetic-skincare and skincare-product questions with cited context for questions, concerns, ingredients, products, side effects, sources, and supporting comparison pages. Connection information: - MCP endpoint: https://mcp.skinknowledgebase.c",
+  "author": "fulcrai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.skinknowledgebase.com/mcp",
+  "repo_url": "https://github.com/fulcrai/skb-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:34.450963Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:34.450984Z",
+  "repo_url": {
+   "url": "https://github.com/fulcrai/skb-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.skinknowledgebase.com/mcp",
+   "ok": false,
+   "status": 530
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-05T20:45:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4635400346,
+  "comment_author": "fulcrai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "skinknowledgebase-skincare-question-and-answer-mcp"
+ }
+}
