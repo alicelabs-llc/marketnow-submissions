@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260707-37b2bb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "terrarium-plugin",
+  "version": "1.0.0",
+  "description": "Terrarium — human visual review for agent-built HTML Terrarium hosts the HTML your agent builds; humans review it in the browser with comments anchored to exact text; the agent pulls that feedback over MCP, pushes fixed versions, and repeats until approved. - Remote server (Streamable HTTP): `https://www.tryterrarium.com/api/mcp` (auth: `Authorization: Bearer <PAT>`, minted at https://www.tryterrarium.com/connect) - Tools (7): `list_artifacts`, `publish_artifact`, `get_artifact`, `pull_comments`",
+  "author": "nelsonsantryhkd",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.tryterrarium.com/api/mcp",
+  "repo_url": "https://github.com/nelsonsantryhkd/terrarium-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:12.147687Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:12.147713Z",
+  "repo_url": {
+   "url": "https://github.com/nelsonsantryhkd/terrarium-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.tryterrarium.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-07T13:34:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4904386154,
+  "comment_author": "nelsonsantryhkd"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "terrarium-plugin"
+ }
+}
