@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260818-33f768",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "placeroot-keyless",
+  "version": "1.0.0",
+  "description": "- Name: PlaceRoot - Repository: https://github.com/chuofringer/placeroot - Website: https://placeroot.dev - Why page: https://placeroot.dev/why-placeroot - Official MCP registry: `io.github.chuofringer/placeroot` (published 2026-08-14, v0.9.6+) - Glama: https://glama.ai/mcp/servers/chuofringer/placeroot - Install: `uvx placeroot` (stdio) or `uvx placeroot --http`; also `npx placeroot`. Listed in the official MCP registry. Description PlaceRoot is a free, keyless MCP server that grounds AI agents",
+  "author": "chuofringer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx placeroot",
+  "homepage": "https://placeroot.dev",
+  "repo_url": "https://github.com/chuofringer/placeroot",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471593Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471594Z",
+  "repo_url": {
+   "url": "https://github.com/chuofringer/placeroot",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://placeroot.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T20:41:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3631,
+  "comment_author": "chuofringer"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "placeroot-keyless"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260819-baa495",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vibes-coded-agent-tools",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: Vibes-Coded — x402 USDC agent tools (remote streamable HTTP) — https://github.com/doteyeso-ops/mcp-server-vibes-coded",
+  "author": "doteyeso-ops",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp-vibes-coded-production.up.railway.app/mcp",
+  "repo_url": "https://github.com/doteyeso-ops/mcp-server-vibes-coded",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471399Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471401Z",
+  "repo_url": {
+   "url": "https://github.com/doteyeso-ops/mcp-server-vibes-coded",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp-vibes-coded-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-19T21:30:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3652,
+  "comment_author": "doteyeso-ops"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vibes-coded-agent-tools"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260817-660723",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cute-web-scraper",
+  "version": "1.0.0",
+  "description": "name: cute-web-scraper repo: https://github.com/maccydee/cute-web-scraper cute-web-scraper gives an MCP client web scraping powers, locally and with no API key or cloud account. 24 tools: fetch pages as clean markdown, crawl a whole site from its sitemap, run a web search, extract products, contacts, links and Shopify catalogues, read PDFs as text, drive a page (click, scroll, fill, wait), inspect the network requests a page makes, look up places via OpenStreetMap, and track pages for changes ov",
+  "author": "maccydee",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/maccydee/cute-web-scraper",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471724Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471725Z",
+  "repo_url": {
+   "url": "https://github.com/maccydee/cute-web-scraper",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-17T23:38:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3620,
+  "comment_author": "maccydee"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cute-web-scraper"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260811-f9a6d6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "folklore-clinical-variant-interpretation-mcp",
+  "version": "1.0.0",
+  "description": "** Folklore Clinical Variant Interpretation MCP is the official public, read-only MCP server from Helena Bioinformatics. It interprets supported GRCh38 germline variants using structured Folklore evidence, automated ACMG/AMP variant-level decision support, transparent provenance, variant-focused literature and semantic search across the public Literature Corpus using natural language plus PMID, DOI and PMCID anchors. The server does not provide patient diagnoses or treatment recommendations. Its",
+  "author": "vladimir-mitev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://folklore.helena.bio",
+  "repo_url": "https://github.com/helena-bioinformatics/folklore-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472538Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472539Z",
+  "repo_url": {
+   "url": "https://github.com/helena-bioinformatics/folklore-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://folklore.helena.bio",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-11T23:54:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3525,
+  "comment_author": "vladimir-mitev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "folklore-clinical-variant-interpretation-mcp"
+ }
+}

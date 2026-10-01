@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260817-a082dc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dizko-mcp",
+  "version": "1.0.0",
+  "description": "** Live event discovery for AI agents across 32 cities. Eighteen tools cover concerts, club nights, art, comedy, festivals, date ranges, genres, moods, venues, organizers, neighborhoods, trip planning, and shareable event links. Results come from Dizko's current event index rather than a static catalog.",
+  "author": "ZakKrevitt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y dizko-events",
+  "homepage": "https://mcp.dizko.app/install",
+  "repo_url": "https://github.com/Dizko-Labs/dizko-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471776Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471777Z",
+  "repo_url": {
+   "url": "https://github.com/Dizko-Labs/dizko-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y dizko-events",
+   "registry": "npm",
+   "package": "dizko-events",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.dizko.app/install",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-17T08:32:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3608,
+  "comment_author": "ZakKrevitt"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dizko-mcp"
+ }
+}

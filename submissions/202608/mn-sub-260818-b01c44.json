@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260818-b01c44",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "feedrecall",
+  "version": "1.0.0",
+  "description": "MCP server Name: FeedRecall Website: https://github.com/Paoladev45/feedrecall GitHub: https://github.com/Paoladev45/feedrecall Docs: https://github.com/Paoladev45/feedrecallreadme NPM / command: `pnpm --config.ignore-scripts=true dlx https://github.com/Paoladev45/feedrecall/releases/latest/download/feedrecall.tgz mcp` Transport: stdio Category: Knowledge & Memory / local-first / project memory Description FeedRecall is a local-first, project-aware memory server for AI agents. It turns saved lik",
+  "author": "Paoladev45",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/Paoladev45/feedrecall",
+  "repo_url": "https://github.com/Paoladev45/feedrecall",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471643Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471644Z",
+  "repo_url": {
+   "url": "https://github.com/Paoladev45/feedrecall",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/Paoladev45/feedrecall",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T19:22:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3627,
+  "comment_author": "Paoladev45"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "feedrecall"
+ }
+}

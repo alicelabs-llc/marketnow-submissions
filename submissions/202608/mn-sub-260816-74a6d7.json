@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260816-74a6d7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "otto",
+  "version": "1.0.0",
+  "description": "name: otto repo: https://github.com/0Smallcat0/otto Paper-only market terminal for AI agents. Every call is pre-registered and machine-graded. otto gives an agent market data, backtesting, and portfolio state through one safety-gated MCP surface — live trading, credential entry, and code execution are structurally unreachable through the tool surface (`pytest tests/test_m16_live_safety.py` verifies every live-action endpoint is rejected with no side effects and the disabled-endpoint registry cov",
+  "author": "0Smallcat0",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx --from",
+  "homepage": null,
+  "repo_url": "https://github.com/0Smallcat0/otto",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471851Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471854Z",
+  "repo_url": {
+   "url": "https://github.com/0Smallcat0/otto",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-16T19:25:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3600,
+  "comment_author": "0Smallcat0"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "otto"
+ }
+}

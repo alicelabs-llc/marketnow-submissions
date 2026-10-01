@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260810-c6a606",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "strimzi-kafka",
+  "version": "1.0.0",
+  "description": "MCP server for managing Apache Kafka on Kubernetes via Strimzi operator. 30+ tools for clusters, topics, users, connectors, MirrorMaker2, and node pools.",
+  "author": "mabulgu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://strimzi-cli.dev",
+  "repo_url": "https://github.com/SystemCraftsman/strimzi-kafka-cli",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472770Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472772Z",
+  "repo_url": {
+   "url": "https://github.com/SystemCraftsman/strimzi-kafka-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://strimzi-cli.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-10T15:22:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3510,
+  "comment_author": "mabulgu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "strimzi-kafka"
+ }
+}

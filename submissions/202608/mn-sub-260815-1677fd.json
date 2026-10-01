@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260815-1677fd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "photos",
+  "version": "1.0.0",
+  "description": "** Cross-platform batch photo processing toolbox — \"CLI for AI agents, GUI for humans\". Compress to a target file size, convert formats (JPEG/PNG/WebP/TIFF/HEIC/AVIF, 22+ camera RAW via rawpy/libraw), read & write EXIF (make/model/lens/ISO/shutter/aperture/focal/rating/keywords/title), template-based rename with live preview, perceptual dedup (keep-sharpest), exposure/sharpness culling, checksum manifests, contact sheets, HTML galleries, folder watch automation, and benchmarks. Optional SCUNet s",
+  "author": "Dongwu259",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx --from",
+  "homepage": null,
+  "repo_url": "https://github.com/Dongwu259/photo_s",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472151Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472152Z",
+  "repo_url": {
+   "url": "https://github.com/Dongwu259/photo_s",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-15T03:46:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3570,
+  "comment_author": "Dongwu259"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "photos"
+ }
+}

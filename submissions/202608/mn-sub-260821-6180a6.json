@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260821-6180a6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "newsmind-rss",
+  "version": "1.0.0",
+  "description": "- Name: Newsmind - Description: RSS for ChatGPT, Claude & Gemini: semantic search, story clustering, keyword watches with scheduled email digests, OPML import. Hosted — no local process; works on web, desktop, and mobile. - Server URL: `https://newsmind.app/mcp` (remote, streamable-http) - Auth: OAuth 2.1 (automatic in Claude/ChatGPT/Gemini); Bearer PATs for other clients via https://newsmind.app/auth/tokens - Tools: 29 — read/brief, full-text + semantic search, story clustering, watches, subscr",
+  "author": "rdowty",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://newsmind.app/mcp",
+  "repo_url": "https://github.com/rdowty/newsmind",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471176Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471178Z",
+  "repo_url": {
+   "url": "https://github.com/rdowty/newsmind",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://newsmind.app/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-21T07:29:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3670,
+  "comment_author": "rdowty"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "newsmind-rss"
+ }
+}

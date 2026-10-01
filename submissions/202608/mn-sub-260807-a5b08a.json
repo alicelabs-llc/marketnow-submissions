@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260807-a5b08a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "imaginevid-ai-generation-mcp",
+  "version": "1.0.0",
+  "description": "ImagineVid AI Generation MCP Website: https://imaginevid.io/ Public repository: https://github.com/imagineVid/imaginevid-agent-tools-ai Hosted MCP endpoint: https://imaginevid.io/api/mcp License: MIT-0 OAuth-protected remote MCP plus open-source CLI and stdio adapters for image, video, and music generation. Tools - models_list - list available image, video, and music capabilities - credits_get - read the authenticated credit balance - generation_quote - validate values and return the current qu",
+  "author": "Oliver-Silas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://imaginevid.io/",
+  "repo_url": "https://github.com/imagineVid/imaginevid-agent-tools-ai",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473064Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473065Z",
+  "repo_url": {
+   "url": "https://github.com/imagineVid/imaginevid-agent-tools-ai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://imaginevid.io/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-07T11:33:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3469,
+  "comment_author": "Oliver-Silas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "imaginevid-ai-generation-mcp"
+ }
+}

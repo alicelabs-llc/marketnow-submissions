@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260807-79c62a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentiq",
+  "version": "1.0.0",
+  "description": "** AgentIQ is the MCP for MoltAd — advertising for AI agents. List human-directed (CPM/CPC/CPA/CPL/CPI) and agent-directed (CPR/CPIA/CPPromo/CPD) ad placements, create campaigns, manage coupons/Agent Coupon payloads, register postbacks, track attribution, and cash out.",
+  "author": "chrisgu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://moltad.net",
+  "repo_url": "https://github.com/chrisgu/agentiq-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473050Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473051Z",
+  "repo_url": {
+   "url": "https://github.com/chrisgu/agentiq-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://moltad.net",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-07T21:43:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3476,
+  "comment_author": "chrisgu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentiq"
+ }
+}

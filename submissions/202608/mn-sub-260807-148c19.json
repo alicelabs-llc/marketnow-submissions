@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260807-148c19",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nexus-shell-agent",
+  "version": "1.0.0",
+  "description": "Nexus Shell Agent Bridge Website / documentation: https://nexusshell.app/agent-bridge?utm_source=mcpso&utm_medium=directory&utm_campaign=agentbridge Public releases: https://github.com/viewer12/Nexus-Shell-Releases Type: local MCP server via bundled stdio shim Platform: Apple Silicon Mac, macOS 14.2+ Distribution: signed and notarized direct download or Homebrew Cask License / source: proprietary; the linked repository contains public binary releases and release notes, not the application sourc",
+  "author": "viewer12",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/viewer12/Nexus-Shell-Releases",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473032Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473034Z",
+  "repo_url": {
+   "url": "https://github.com/viewer12/Nexus-Shell-Releases",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-07T23:10:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3477,
+  "comment_author": "viewer12"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nexus-shell-agent"
+ }
+}

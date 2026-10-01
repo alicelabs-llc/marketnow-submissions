@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260819-6d377a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wavespeed",
+  "version": "1.0.0",
+  "description": "WaveSpeed One-liner: Official WaveSpeed AI MCP server — run any model on the live wavespeed.ai catalog (image, video, audio, 3D) with catalog search, per-model schema introspection, local-file upload, and price quotes before running. Links - Website: https://wavespeed.ai - GitHub (MCP server): https://github.com/WaveSpeedAI/mcp-server - npm: https://www.npmjs.com/package/@wavespeed/mcp (`npx -y @wavespeed/mcp`) - Official MCP Registry: `ai.wavespeed/mcp` - Glama: https://glama.ai/mcp/servers/Wa",
+  "author": "chengzeyi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @wavespeed/mcp",
+  "homepage": "https://www.npmjs.com/package/@wavespeed/mcp",
+  "repo_url": "https://github.com/WaveSpeedAI/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471489Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471491Z",
+  "repo_url": {
+   "url": "https://github.com/WaveSpeedAI/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @wavespeed/mcp",
+   "registry": "npm",
+   "package": "@wavespeed/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@wavespeed/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-19T14:13:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3647,
+  "comment_author": "chengzeyi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wavespeed"
+ }
+}

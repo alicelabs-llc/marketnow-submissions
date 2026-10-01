@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260810-b6d76e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gandr-mcp-text",
+  "version": "1.0.0",
+  "description": "gandr-mcp Text to speech inside any MCP-compatible agent (Claude Desktop, Cursor, and similar hosts). Three tools: render audio from text, list voices, and check API key usage. Tools - `synthesize`: render text to WAV audio, base64-encoded. Accepts voice id, sample rate (8000-48000), pitch and pacing parameters. - `list_voices`: return the six available voice ids. - `get_usage`: tokens used vs quota for the configured API key. Install ```bash pip install gandr-mcp ``` Claude Desktop config: ```",
+  "author": "AALG123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gandr.ai",
+  "repo_url": "https://github.com/Gandr-AI/gandr-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472819Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472826Z",
+  "repo_url": {
+   "url": "https://github.com/Gandr-AI/gandr-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gandr.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-10T06:50:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3505,
+  "comment_author": "AALG123"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gandr-mcp-text"
+ }
+}

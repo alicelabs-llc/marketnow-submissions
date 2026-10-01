@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260818-66012d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fillo-headless-forms",
+  "version": "1.0.0",
+  "description": "- Name: Fillo - Repository: https://github.com/jacobfunch/usefillo - Website: https://fillo.so - Documentation: https://fillo.so/docs - npm: https://www.npmjs.com/package/@usefillo/mcp - License: MIT - Transport: streamable HTTP (remote: `https://fillo.so/api/mcp`) and stdio (`npx -y @usefillo/mcp`) - Official MCP Registry: `io.github.jacobfunch/usefillo` Description Official MCP server for Fillo, a headless form infrastructure product. It lets a coding agent provision a workspace, build and pub",
+  "author": "jacobfunch",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @usefillo/mcp",
+  "homepage": "https://www.npmjs.com/package/@usefillo/mcp",
+  "repo_url": "https://github.com/jacobfunch/usefillo",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471609Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471610Z",
+  "repo_url": {
+   "url": "https://github.com/jacobfunch/usefillo",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @usefillo/mcp",
+   "registry": "npm",
+   "package": "@usefillo/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@usefillo/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T20:12:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3629,
+  "comment_author": "jacobfunch"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fillo-headless-forms"
+ }
+}

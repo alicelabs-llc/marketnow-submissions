@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260817-664a7e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "atono",
+  "version": "1.0.0",
+  "description": "name: atono-mcp-server repo: https://github.com/atono-io/atono-mcp-server docker: https://hub.docker.com/repository/docker/atonoio/atono-mcp-server docs: https://docs.atono.io/docs/mcp-server-for-atono MCP server for Atono, a project management / agile tooling platform. Gives AI agents direct access to your team's backlog, bugs, sprints, and AI-generated investigation context — create and update stories/bugs, manage epics and timeboxes, link related work, attach files, and pull team workflow/glo",
+  "author": "gabie-giraffe",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://docs.atono.io/docs/mcp-server-for-atono",
+  "repo_url": "https://github.com/atono-io/atono-mcp-server",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471709Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471711Z",
+  "repo_url": {
+   "url": "https://github.com/atono-io/atono-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://docs.atono.io/docs/mcp-server-for-atono",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-17T23:57:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3621,
+  "comment_author": "gabie-giraffe"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "atono"
+ }
+}

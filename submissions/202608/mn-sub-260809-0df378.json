@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260809-0df378",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "whats-allowed-mcp",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission: What's Allowed Server Name: whats-allowed-mcp Author: Shift The Culture (`stcmain`) Repository: https://github.com/stcmain/whats-allowed-mcp npm: https://www.npmjs.com/package/whats-allowed-mcp Official MCP Registry: `io.github.stcmain/whats-allowed-mcp` (active) License: MIT Transport: stdio (local) Platforms: macOS, Linux, Windows (pure Node — no child processes) Description You wrote a deny rule. Did it do anything? Permission rules for a coding agent are not in on",
+  "author": "stcmain",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y whats-allowed-mcp",
+  "homepage": "https://www.npmjs.com/package/whats-allowed-mcp",
+  "repo_url": "https://github.com/stcmain/whats-allowed-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473000Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473001Z",
+  "repo_url": {
+   "url": "https://github.com/stcmain/whats-allowed-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y whats-allowed-mcp",
+   "registry": "npm",
+   "package": "whats-allowed-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/whats-allowed-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-09T02:07:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3487,
+  "comment_author": "stcmain"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "whats-allowed-mcp"
+ }
+}

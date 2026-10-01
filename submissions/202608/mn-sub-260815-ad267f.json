@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260815-ad267f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "koma-core-mcp",
+  "version": "1.0.0",
+  "description": "[Submit]Koma-core — Protected RAG retrieval, search without authorization, content only by token — https://github.com/swnotmetal/Project-Koma",
+  "author": "swnotmetal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/koma-core-mcp",
+  "repo_url": "https://github.com/swnotmetal/Project-Koma",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472129Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472131Z",
+  "repo_url": {
+   "url": "https://github.com/swnotmetal/Project-Koma",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/koma-core-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-15T05:11:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3573,
+  "comment_author": "swnotmetal"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "koma-core-mcp"
+ }
+}

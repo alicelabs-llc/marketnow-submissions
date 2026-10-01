@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260810-cb4c57",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "uapdrop-research-archive",
+  "version": "1.0.0",
+  "description": "A read-only remote MCP server over an archive of declassified UAP/UFO government records — 13,929 documents (Project Blue Book, the FBI Vault and national-archive releases, with extracted PDF text), 28,314 geocoded sighting records from four vetted government sources (US NARA, the UK National Archives, France's CNES/GEIPAN, and the Hatch catalogue), plus news coverage and cited entity profiles. Offers both keyword and embedding-based semantic search, and every result links back to its originatin",
+  "author": "spedmo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.uapdrop.com/the-truth-is-in-here",
+  "repo_url": "https://github.com/spedmo/uapdrop-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472733Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472735Z",
+  "repo_url": {
+   "url": "https://github.com/spedmo/uapdrop-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.uapdrop.com/the-truth-is-in-here",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-10T19:18:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3515,
+  "comment_author": "spedmo"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "uapdrop-research-archive"
+ }
+}

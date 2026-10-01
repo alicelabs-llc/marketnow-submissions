@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260819-f7d1e7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "abapilot",
+  "version": "1.0.0",
+  "description": "** MCP server for SAP ECC and on-premise S/4HANA — natural-language SAP data queries and ABAP dev tooling, with no ADT, BTP or RISE dependency. Runs as a pure-ABAP add-on behind a single ICF node inside the SAP system; every call executes under the calling user's SAP authorizations and is written to an in-system audit log.",
+  "author": "NicoHern",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y abapilot",
+  "homepage": "https://crimsonconsultingsl.com/abapilot/",
+  "repo_url": "https://github.com/NicoHern/abapilot-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471559Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471560Z",
+  "repo_url": {
+   "url": "https://github.com/NicoHern/abapilot-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y abapilot",
+   "registry": "npm",
+   "package": "abapilot",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://crimsonconsultingsl.com/abapilot/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-19T01:18:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3638,
+  "comment_author": "NicoHern"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "abapilot"
+ }
+}

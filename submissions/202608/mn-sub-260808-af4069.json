@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260808-af4069",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "real-estate-capitale-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server for real estate in Morocco (Rabat, Sale, Temara) - 17 tools for property search, price valuation, market analytics, rental yield, liquidity, investor alerts, and lead capture. Level 5 Agent-Native: streamable HTTP + A2A agent + OAuth.",
+  "author": "allamiwayl-27",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://realestatecapitale.ma",
+  "repo_url": "https://github.com/allamiwayl-27/rabatrealestate",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473018Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473019Z",
+  "repo_url": {
+   "url": "https://github.com/allamiwayl-27/rabatrealestate",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://realestatecapitale.ma",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-08T23:02:27Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3484,
+  "comment_author": "allamiwayl-27"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "real-estate-capitale-mcp"
+ }
+}

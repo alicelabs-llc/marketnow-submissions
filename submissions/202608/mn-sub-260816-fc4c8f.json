@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260816-fc4c8f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "caribooks",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Caribooks URL: https://caribooks.com Server URL: https://caribooks.com/api/mcp License: Commercial (14-day free trial, per-company subscription) Type: MCP Server (Remote/Hosted, Streamable HTTP, OAuth 2.1) Description Hosted MCP server that connects QuickBooks Online companies to Claude, ChatGPT and any MCP client. No developer keys, nothing to install: sign in, connect one or more QuickBooks companies with Intuit's OAuth flow, then add the server URL to your assista",
+  "author": "xavierpeich",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://caribooks.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471872Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471874Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://caribooks.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-16T16:57:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3598,
+  "comment_author": "xavierpeich"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "caribooks"
+ }
+}

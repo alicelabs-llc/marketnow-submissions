@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260820-96710c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "2anki",
+  "version": "1.0.0",
+  "description": "Name: 2anki URL: https://2anki.net/mcp GitHub: https://github.com/2anki/server Transport: Streamable HTTP (remote), OAuth 2.1 Docs: https://2anki.net/documentation/reference/mcp Setup guide: https://2anki.net/documentation/start-here/use-in-claude 2anki turns what you're studying into Anki flashcards. The MCP server exposes the full converter to any MCP client: hand it a Notion page, pasted text, a PDF, or a photo of your notes, and it returns a ready .apkg deck. Six tools: `convert_to_deck`, `c",
+  "author": "aalemayhu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://2anki.net/documentation/start-here/use-in-claude",
+  "repo_url": "https://github.com/2anki/server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471277Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471278Z",
+  "repo_url": {
+   "url": "https://github.com/2anki/server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://2anki.net/documentation/start-here/use-in-claude",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-20T16:10:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3661,
+  "comment_author": "aalemayhu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "2anki"
+ }
+}

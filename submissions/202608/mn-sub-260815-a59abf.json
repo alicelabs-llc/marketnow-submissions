@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260815-a59abf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mywebsearch",
+  "version": "1.0.0",
+  "description": "** Multi-engine web search MCP server, CLI and local daemon — no API keys or registration required. Searches bing, baidu, csdn, juejin, sogou (domestic, no proxy needed from mainland China) and duckduckgo, exa, brave, startpage (overseas, proxy-configurable via `USE_PROXY`/`PROXY_URL`/`PROXY_ENGINES`). Also fetches full article content from CSDN, Juejin, GitHub/Gitee READMEs, and generic web pages, plus Context7-powered library docs lookup (`resolveLibraryId`/`queryDocs`). Configurable result co",
+  "author": "wtznicy",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y my-websearch@latest",
+  "homepage": "http://localhost:3211/sse",
+  "repo_url": "https://github.com/wtznicy/my-websearch",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472167Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472169Z",
+  "repo_url": {
+   "url": "https://github.com/wtznicy/my-websearch",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y my-websearch@latest",
+   "registry": "npm",
+   "package": "my-websearch",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "http://localhost:3211/sse",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-15T03:08:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3569,
+  "comment_author": "wtznicy"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mywebsearch"
+ }
+}

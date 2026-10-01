@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260807-1be509",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "frankki",
+  "version": "1.0.0",
+  "description": "** FrankKi lets an AI agent send a real, printed letter to a physical address anywhere in the world in one tool call. Compose, price, send, track. The document is printed, franked and delivered by postal partners worldwide. Built for B2B and developer use, DACH native, with German compliance (Pflichtangaben, AVV, GoBD archive) built in. Hosted and remote: nothing to install, nothing to self host.",
+  "author": "datPascal",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.frankki.app",
+  "repo_url": "https://github.com/datPascal/frankki-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473115Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473116Z",
+  "repo_url": {
+   "url": "https://github.com/datPascal/frankki-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.frankki.app",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-07T05:10:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3465,
+  "comment_author": "datPascal"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "frankki"
+ }
+}

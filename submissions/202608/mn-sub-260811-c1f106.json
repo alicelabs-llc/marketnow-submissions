@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260811-c1f106",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-tool-finder",
+  "version": "1.0.0",
+  "description": "Free plain-language search across ~35,000 agent-callable tools — the entire x402 bazaar (which has no search) plus the official MCP registry (substring match only) in one ranked index. Ask for what you need (\"convert pdf to text\", \"send sms\") and get ranked matches with install/call info and per-call USD prices where paid.",
+  "author": "ciinkwia",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://clink-lithium-vault.fly.dev/find",
+  "repo_url": "https://github.com/ciinkwia/agent-tool-finder",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472700Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472701Z",
+  "repo_url": {
+   "url": "https://github.com/ciinkwia/agent-tool-finder",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://clink-lithium-vault.fly.dev/find",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-11T04:18:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3517,
+  "comment_author": "ciinkwia"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-tool-finder"
+ }
+}

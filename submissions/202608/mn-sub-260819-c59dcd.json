@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260819-c59dcd",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "mcpgram-connectivity",
+  "version": "1.0.0",
+  "description": "MCPGRAM One-liner: Connectivity layer for AI agents — connect Slack, GitHub, Google, Salesforce, and 30+ apps through one secure OAuth + MCP gateway. Links - Website: https://mcpgram.vercel.app - Docs: https://mcpgram.vercel.app/docs - MCP endpoint (OAuth / Claude / Cursor): https://mcpgram-mcp-server.vercel.app/mcp - MCP endpoint (API key / Manus): https://mcpgram.vercel.app/api/mcp - Smithery: https://smithery.ai/server/@aaryanverma4326/Mcpgram - GitHub (dashboard): https://github.com/Aryan41",
+  "author": "Aryan418-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y smithery",
+  "homepage": "https://mcpgram-mcp-server.vercel.app/mcp",
+  "repo_url": "https://github.com/Aryan418-dev/mcpgram-dashboard",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471506Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471507Z",
+  "repo_url": {
+   "url": "https://github.com/Aryan418-dev/mcpgram-dashboard",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y smithery",
+   "registry": "npm",
+   "package": "smithery",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcpgram-mcp-server.vercel.app/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-19T13:27:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3646,
+  "comment_author": "Aryan418-dev"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "mcpgram-connectivity"
+ }
+}

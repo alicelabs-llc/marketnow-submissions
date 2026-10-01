@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260817-a82fce",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "storepilot-run",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/sonlenef/storepilot-mcp PyPI: https://pypi.org/project/storepilot/ Official registry: `io.github.sonlenef/storepilot-mcp` License: MIT Language: Python 3.11+ · local stdio server What it does One MCP server for a whole app portfolio across Google Play and App Store Connect, rather than one store or one app at a time. 34 tools. - Google Play — crash/ANR vitals compared against Google's own bad-behaviour thresholds, Google's anomaly detections, installs, ratings and",
+  "author": "sonlenef",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx storepilot",
+  "homepage": "https://pypi.org/project/storepilot/",
+  "repo_url": "https://github.com/sonlenef/storepilot-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471791Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471793Z",
+  "repo_url": {
+   "url": "https://github.com/sonlenef/storepilot-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/storepilot/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-17T07:43:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3607,
+  "comment_author": "sonlenef"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "storepilot-run"
+ }
+}

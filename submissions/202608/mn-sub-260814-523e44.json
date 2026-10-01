@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260814-523e44",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "context-ctxt-io",
+  "version": "1.0.0",
+  "description": "Name: Context — ctxt.io Server URL: `https://ctxt.io/mcp` (remote, streamable HTTP, no auth, no account) Docs: https://ctxt.io/mcp/docs Repo: https://github.com/ctxt-io/ctxt-agents Registry: published in the official MCP registry as `io.ctxt/mcp` Description Turn anything your agent produces — diffs, logs, reports, HTML — into a shareable link that expires on its own. Content renders as plain text, markdown, syntax-highlighted code, or sanitized HTML. HTML is the interesting one: inline CSS and",
+  "author": "ctxtio",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ctxt.io/mcp/docs",
+  "repo_url": "https://github.com/ctxt-io/ctxt-agents",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472182Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472184Z",
+  "repo_url": {
+   "url": "https://github.com/ctxt-io/ctxt-agents",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ctxt.io/mcp/docs",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-14T22:12:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3566,
+  "comment_author": "ctxtio"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "context-ctxt-io"
+ }
+}

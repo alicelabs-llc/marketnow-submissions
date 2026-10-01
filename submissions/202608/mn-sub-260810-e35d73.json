@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260810-e35d73",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "xpoz",
+  "version": "1.0.0",
+  "description": "** Social media intelligence for AI agents: search and analyze Twitter/X, Instagram, Reddit, and TikTok posts, profiles, comments, and engagement data through natural language. Billions of posts indexed, including historical data. Remote streamable-HTTP server, no social media API keys required. 48+ tools: keyword and hashtag search, user lookups, comments, follower connections, subreddit search, TikTok sounds, tracking, CSV export.",
+  "author": "IdoXpoz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.xpoz.ai/",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472785Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472786Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.xpoz.ai/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-10T08:36:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3507,
+  "comment_author": "IdoXpoz"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "xpoz"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260821-e62131",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "klo-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server for klo, a native macOS video editor driven by an agent. Gives Claude Code, Codex, Cursor, or Claude Desktop 83 real timeline tools: cutting in word gaps, karaoke captions, color grading, generated music and voiceover, voice-cloned line fixes, and ProRes export. Media never leaves the user's machine; the server exposes semantic timeline operations instead of piping video bytes through the protocol. Token-gated, off by default. Requires the klo app (free tier available).",
+  "author": "elvniv",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://getklo.com",
+  "repo_url": "https://github.com/elvniv/klo-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471213Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471215Z",
+  "repo_url": {
+   "url": "https://github.com/elvniv/klo-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://getklo.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-21T00:45:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3667,
+  "comment_author": "elvniv"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "klo-mcp"
+ }
+}

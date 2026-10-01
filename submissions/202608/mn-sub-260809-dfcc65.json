@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260809-dfcc65",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "verdoc",
+  "version": "1.0.0",
+  "description": "** Give your coding agent the context of a repository it has never seen, for two cents, without an account or an API key. Two tools: `verdoc_agents_md` returns a ready-to-commit AGENTS.md, `verdoc_scan` returns the same analysis as structured JSON. Commands and paths are quoted from the repository's own manifests and verified against its git tree - nothing is guessed by a model, and the same commit always returns the same answer.",
+  "author": "verdochello",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y github",
+  "homepage": "https://verdoc.dev",
+  "repo_url": "https://github.com/verdochello/verdoc-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472985Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472986Z",
+  "repo_url": {
+   "url": "https://github.com/verdochello/verdoc-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y github",
+   "registry": "npm",
+   "package": "github",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://verdoc.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-09T08:38:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3489,
+  "comment_author": "verdochello"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "verdoc"
+ }
+}

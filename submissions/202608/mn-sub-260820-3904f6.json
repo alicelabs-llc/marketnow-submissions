@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260820-3904f6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ai-developer-toolkit-mcp",
+  "version": "1.0.0",
+  "description": "Name: AI Developer Toolkit MCP URL: https://developertoolkit.ai/mcp GitHub: https://github.com/mjaskolski/developer-toolkit-mcp Transport: Streamable HTTP (remote), read-only tools, no auth, no API key Info page: https://developertoolkit.ai/en/mcp/ Your agent already guesses at Cursor flags, Claude Code hooks and Codex config. Point it here instead and it reads the guide mid-prompt. A public, read-only MCP endpoint over 950+ guides on AI-assisted development (Cursor, Claude Code, Codex), in EN a",
+  "author": "mjaskolski",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://developertoolkit.ai/mcp",
+  "repo_url": "https://github.com/mjaskolski/developer-toolkit-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471292Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471293Z",
+  "repo_url": {
+   "url": "https://github.com/mjaskolski/developer-toolkit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://developertoolkit.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-20T16:07:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3660,
+  "comment_author": "mjaskolski"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ai-developer-toolkit-mcp"
+ }
+}

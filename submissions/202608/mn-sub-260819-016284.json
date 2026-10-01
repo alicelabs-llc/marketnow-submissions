@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260819-016284",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "analytics-legends",
+  "version": "1.0.0",
+  "description": "Server - Name: Analytics Legends — SAP Analytics Intelligence - Registry name: `ai.analyticslegends/sap-analytics` (Official MCP Registry, v1.0.6, `isLatest`) - Type: remote server — hosted, nothing to install - Endpoint: `https://analyticslegends.ai/mcp` (streamable-http) - Website / docs: https://analyticslegends.ai/mcp-server/ - Repository: https://github.com/analyticslegends/analytics-legends-mcp - Category: Research / Data Description Read-only market intelligence for the SAP analytics ser",
+  "author": "cedricmary1973",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://analyticslegends.ai/mcp",
+  "repo_url": "https://github.com/analyticslegends/analytics-legends-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471418Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471420Z",
+  "repo_url": {
+   "url": "https://github.com/analyticslegends/analytics-legends-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://analyticslegends.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-19T21:23:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3651,
+  "comment_author": "cedricmary1973"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "analytics-legends"
+ }
+}

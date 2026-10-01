@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260809-da8fec",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "img-forge-production",
+  "version": "1.0.0",
+  "description": "img-forge img-forge is production image-generation infrastructure for agents, applications, and MCP workflows. One hosted OAuth MCP endpoint exposes model discovery, generation, editing, job polling, and credit controls across 11 models and five quality tiers. What it does - Generate images from text prompts with `generate_image` - Discover available models and quality tiers with `list_models` - Poll asynchronous jobs and receive an `asset_url` with `check_job` - Restyle source images with img2",
+  "author": "stackbilt-admin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://docs.stackbilder.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472931Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472932Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://docs.stackbilder.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-09T15:50:42Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3494,
+  "comment_author": "stackbilt-admin"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "img-forge-production"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260818-00d8ef",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "unrealugc",
+  "version": "1.0.0",
+  "description": "** Create and manage AI UGC video ads through eleven typed MCP tools. Browse available video models, creators, voices, projects, and prior generations; estimate credit cost before spending; start asynchronous generations; and poll for completed output.",
+  "author": "vadymzh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @unrealugc/mcp",
+  "homepage": "https://github.com/UnrealUGC/mcp",
+  "repo_url": "https://github.com/UnrealUGC/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471674Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471676Z",
+  "repo_url": {
+   "url": "https://github.com/UnrealUGC/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @unrealugc/mcp",
+   "registry": "npm",
+   "package": "@unrealugc/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://github.com/UnrealUGC/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T11:54:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3623,
+  "comment_author": "vadymzh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "unrealugc"
+ }
+}

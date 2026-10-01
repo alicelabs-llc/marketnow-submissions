@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260818-85925c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "polyrama-polymarket-and-kalshi-research-mcp",
+  "version": "1.0.0",
+  "description": "Project - Name: Polyrama - Repository: https://github.com/Polyrama/mcp - Website: https://polyrama.io/ - Documentation: https://polyrama.io/mcp - npm: https://www.npmjs.com/package/@polyrama/mcp - License: MIT - Transport: stdio via `npx -y @polyrama/mcp` Description Polyrama is an official, open-source MCP server for researching Polymarket and Kalshi. Its ten typed tools cover live market search and odds, market details, public-wallet analytics, trader leaderboards, whale and mispricing signal",
+  "author": "vadymzh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @polyrama/mcp",
+  "homepage": "https://github.com/Polyrama/mcp",
+  "repo_url": "https://github.com/Polyrama/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471624Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471625Z",
+  "repo_url": {
+   "url": "https://github.com/Polyrama/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @polyrama/mcp",
+   "registry": "npm",
+   "package": "@polyrama/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://github.com/Polyrama/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T20:01:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3628,
+  "comment_author": "vadymzh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "polyrama-polymarket-and-kalshi-research-mcp"
+ }
+}

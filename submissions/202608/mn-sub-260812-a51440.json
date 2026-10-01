@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260812-a51440",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "manilo-formerly",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/harholinsky/manilo-mcp Name: Manilo (formerly Ledgy — the product was renamed in August 2026) Category: Finance (personal finance / expense tracking) Type: MCP server (remote, Streamable HTTP) Log, query, and edit your expenses, budgets, and accounts in plain English from Claude, ChatGPT, Cursor, or any MCP client. Drop in a bank statement (PDF, CSV, or a screenshot) and it gets imported and categorized; ask \"how much did I spend on groceries this month\" and get re",
+  "author": "harholinsky",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://manilo.app/integrations",
+  "repo_url": "https://github.com/harholinsky/manilo-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472489Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472490Z",
+  "repo_url": {
+   "url": "https://github.com/harholinsky/manilo-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://manilo.app/integrations",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-12T08:41:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3531,
+  "comment_author": "harholinsky"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "manilo-formerly"
+ }
+}

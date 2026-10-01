@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260810-bd393d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "data-studio-agent",
+  "version": "1.0.0",
+  "description": "** Unified MCP server that gives AI coding agents (Claude Code, Cursor, Windsurf, OpenCode, Codex) direct access to all your databases. 70+ SQL databases via SqlKit (PostgreSQL, MySQL, SQL Server, SQLite, Oracle, ClickHouse, Snowflake, BigQuery) and NoSQL via DocKit (Elasticsearch, MongoDB, DynamoDB). Local-first: bridge binds 127.0.0.1 only, credentials never leave your machine, read-only by default, 79 tools.",
+  "author": "Blankll",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @geek-fun/data-studio-mcp",
+  "homepage": "https://www.geekfun.club/products/data-studio-agent/",
+  "repo_url": "https://github.com/geek-fun/data-studio-agent",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472800Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472802Z",
+  "repo_url": {
+   "url": "https://github.com/geek-fun/data-studio-agent",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @geek-fun/data-studio-mcp",
+   "registry": "npm",
+   "package": "@geek-fun/data-studio-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.geekfun.club/products/data-studio-agent/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-10T07:16:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3506,
+  "comment_author": "Blankll"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "data-studio-agent"
+ }
+}

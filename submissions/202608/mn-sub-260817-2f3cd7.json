@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260817-2f3cd7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "awardcast",
+  "version": "1.0.0",
+  "description": "** Public US federal contracting data for AI agents. Eight tools cover open solicitations from SAM.gov, buying profiles for federal agencies, award history for contractors, contracts heading to recompete with the incumbent, historical closing-price ranges by agency and NAICS, and a forecast accuracy scorecard. `search` and `fetch` follow the ChatGPT deep-research contract, so results carry citable URLs. Data comes from USASpending/FPDS and SAM.gov.",
+  "author": "laespina",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://awardcast.ai",
+  "repo_url": "https://github.com/ChosingDept/awardcast-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471760Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471761Z",
+  "repo_url": {
+   "url": "https://github.com/ChosingDept/awardcast-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://awardcast.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-17T11:39:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3609,
+  "comment_author": "laespina"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "awardcast"
+ }
+}

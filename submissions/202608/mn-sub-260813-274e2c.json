@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260813-274e2c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mi-fitness-data",
+  "version": "1.0.0",
+  "description": "** Local-first bridge that exports your own Mi Fitness (Xiaomi) health data — daily activity, sleep, workouts, body measurements, heart rate, SpO2, stress, abnormal heart beats — into a local SQLite database, with portable JSON/CSV exports and local MCP query tools (stdio). Includes an agent-safe auto-downsampled `workout_series` tool (contract `agent-safe-series/v1`) with honest downsampling metadata.",
+  "author": "shkyyy18",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/shkyyy18/mi-fitness-data-bridge",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472336Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472338Z",
+  "repo_url": {
+   "url": "https://github.com/shkyyy18/mi-fitness-data-bridge",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-13T18:57:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3550,
+  "comment_author": "shkyyy18"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mi-fitness-data"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260813-742c4d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-traffic-lab",
+  "version": "1.0.0",
+  "description": "Find the right provider for your task. Need a tool, MCP server, or reliable executable provider but don't know which one to use? Call ATL.",
+  "author": "wenhua6666668-oss",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agenttrafficlab.com",
+  "repo_url": "https://github.com/wenhua6666668-oss/agent-traffic-lab-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472354Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472356Z",
+  "repo_url": {
+   "url": "https://github.com/wenhua6666668-oss/agent-traffic-lab-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agenttrafficlab.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-13T18:52:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3549,
+  "comment_author": "wenhua6666668-oss"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-traffic-lab"
+ }
+}

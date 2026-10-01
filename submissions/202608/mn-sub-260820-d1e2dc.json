@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260820-d1e2dc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "no-human",
+  "version": "1.0.0",
+  "description": "Name: no_human URL: https://getnohuman.com GitHub: https://github.com/no-human-ai/no_human Transport: stdio (local) Info page: https://pypi.org/project/no-human/ · official MCP Registry: `io.github.no-human-ai/no_human` Disclosure: I'm the author. no_human is an open-source (MIT) coding agent that takes a ticket to a reviewed pull request on the developer's own machine: it plans, implements, runs the tests, passes a tamper guard, gets an independent second-model review with file:line evidence, o",
+  "author": "eyalgolan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://getnohuman.com",
+  "repo_url": "https://github.com/no-human-ai/no_human",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471261Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471263Z",
+  "repo_url": {
+   "url": "https://github.com/no-human-ai/no_human",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://getnohuman.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-20T20:13:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3665,
+  "comment_author": "eyalgolan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "no-human"
+ }
+}

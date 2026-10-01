@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260818-bb66de",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tokportal-managed",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Repository: https://github.com/tokportal/tokportal-mcp npm package: https://www.npmjs.com/package/tokportal-mcp MCP Registry: `com.tokportal/mcp` (https://registry.modelcontextprotocol.io/v0/servers?search=tokportal) Remote endpoint (streamable HTTP, OAuth 2.1): https://app.tokportal.com/api/ext/mcp Docs: https://developers.tokportal.com/mcp Description TokPortal is the managed social infrastructure API: real TikTok, Instagram and YouTube accounts created, warmed and opera",
+  "author": "naybu256",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y tokportal-mcp",
+  "homepage": "https://www.npmjs.com/package/tokportal-mcp",
+  "repo_url": "https://github.com/tokportal/tokportal-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.471659Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.471660Z",
+  "repo_url": {
+   "url": "https://github.com/tokportal/tokportal-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y tokportal-mcp",
+   "registry": "npm",
+   "package": "tokportal-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/tokportal-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T13:28:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3625,
+  "comment_author": "naybu256"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tokportal-managed"
+ }
+}

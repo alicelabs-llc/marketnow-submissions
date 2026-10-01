@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260810-dc5679",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sv-number",
+  "version": "1.0.0",
+  "description": "MCP server for AI agents that hit a signup wall. It orders a private phone number in the country the service expects, reads the SMS verification code straight from the API, and hands the number back. 200+ countries, the widest coverage in this category — and you do not have to take that on faith: `list_countries` returns the list, count it yourself.",
+  "author": "sv-number",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y sv-number-mcp",
+  "homepage": "https://sms-verification-number.com/en/number-for-ai-agents/",
+  "repo_url": "https://github.com/sv-number/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472754Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472755Z",
+  "repo_url": {
+   "url": "https://github.com/sv-number/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y sv-number-mcp",
+   "registry": "npm",
+   "package": "sv-number-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://sms-verification-number.com/en/number-for-ai-agents/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-10T17:35:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3514,
+  "comment_author": "sv-number"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sv-number"
+ }
+}

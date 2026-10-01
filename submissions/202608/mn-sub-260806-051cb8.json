@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260806-051cb8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "1password-agent-mcp",
+  "version": "1.0.0",
+  "description": "** A local-first MCP server that lets AI agents use only explicitly approved fields from a dedicated 1Password vault. Secrets are resolved locally at copy or paste time, while agents receive opaque encrypted handles instead of plaintext values. It includes a local admin UI, per-field and per-site approvals, audit history, credential creation, profile data, and setup commands for Claude Code, Claude Desktop, Codex, GitHub Copilot/VS Code, Xcode coding agents, and Raycast AI. MIT licensed.",
+  "author": "gambadio",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y onepassword-agent-mcp",
+  "homepage": "https://datenkraft.ch/#/apps",
+  "repo_url": "https://github.com/gambadio/onepassword-agent-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.473173Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.473174Z",
+  "repo_url": {
+   "url": "https://github.com/gambadio/onepassword-agent-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y onepassword-agent-mcp",
+   "registry": "npm",
+   "package": "onepassword-agent-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://datenkraft.ch/#/apps",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-06T18:44:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3460,
+  "comment_author": "gambadio"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "1password-agent-mcp"
+ }
+}

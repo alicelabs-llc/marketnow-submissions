@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260812-e2d830",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "picoberry",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/UModeler/picoberry-mcp Name: PicoBerry Category: Design Type: MCP server (stdio, local) An AI 3D workspace for games, VR, and beyond. Generate 3D models and images from a text prompt or reference images, then remesh to a target polycount, retexture, auto-rig, animate, and export GLB/FBX/OBJ — all from your agent. Generating a mesh is only the first step; what usually stalls a project is everything after it, so the server exposes the whole pipeline rather than gener",
+  "author": "JaesikHwang",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @picoberry/mcp-server",
+  "homepage": "https://picoberry.ai",
+  "repo_url": "https://github.com/UModeler/picoberry-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:42.472454Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:42.472455Z",
+  "repo_url": {
+   "url": "https://github.com/UModeler/picoberry-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @picoberry/mcp-server",
+   "registry": "npm",
+   "package": "@picoberry/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://picoberry.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-12T14:47:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3533,
+  "comment_author": "JaesikHwang"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "picoberry"
+ }
+}
