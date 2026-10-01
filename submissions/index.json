@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:07.261Z",
+ "updated_at": "2026-10-01T04:09:10.572Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3959,6 +3959,18 @@
    "from": "ip:f518dce52882",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-641fc8.json"
+  },
+  {
+   "id": "mn-sub-261001-291dc3",
+   "name": "gearotonsservomotor-mcp-httpsgithubcomgearotonsservomotor-mc",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:09:09.501Z",
+   "from": "ip:34f292ef4d81",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-291dc3.json"
   }
  ],
  "l2_pass": {
