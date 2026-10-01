@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260409-2c8957",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "speclock-ai-constraint-engine",
+  "version": "1.0.0",
+  "description": "# SpecLock — AI Constraint Engine GitHub: https://github.com/sgroy10/speclock npm: speclock Author: Sandeep Roy Description: AI Constraint Engine that enforces CLAUDE.md, .cursorrules, and AGENTS.md rules as laws — not just suggestions. 51 MCP tools for semantic conflict detection, patch review, drift scoring, pre-commit hooks, and Guardian Mode. Catches euphemisms, temporal evasion, and hidden violations that keyword matching misses. Install: ```json { \"mcpServers\": { \"speclock\": { \"command\": \"",
+  "author": "sgroy10",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/sgroy10/speclock",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:51.560049Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:51.560077Z",
+  "repo_url": {
+   "url": "https://github.com/sgroy10/speclock",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T05:19:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4211621703,
+  "comment_author": "sgroy10"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "speclock-ai-constraint-engine"
+ }
+}
