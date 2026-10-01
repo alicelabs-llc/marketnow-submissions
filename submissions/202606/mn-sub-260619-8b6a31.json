@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260619-8b6a31",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "daxoom-mcp",
+  "version": "1.0.0",
+  "description": "Daxoom — AI-Visibility Business Data The owner-verified local business data + service & menu-price layer for AI agents. Every response carries provenance, completeness, and freshness metadata. - Server name: `com.daxoom/daxoom` (also live in the official MCP Registry) - Repository: https://github.com/CITROOT/daxoom-mcp - Homepage: https://daxoom.com · Docs: https://daxoom.com/docs - Transport: Streamable HTTP (remote) — `https://mcp.daxoom.com/` - Auth: `X-API-Key` header (`dxm_` prefix); free t",
+  "author": "mariana-vygoda",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://daxoom.com",
+  "repo_url": "https://github.com/CITROOT/daxoom-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:06.455601Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:06.455627Z",
+  "repo_url": {
+   "url": "https://github.com/CITROOT/daxoom-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://daxoom.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-19T03:43:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4748311489,
+  "comment_author": "mariana-vygoda"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "daxoom-mcp"
+ }
+}
