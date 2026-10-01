@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-d5ae0b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "mcp",
+  "version": "1.0.0",
+  "description": "GoodLeads — Reach the owner of a newly formed US business the morning after the state posts it. Count, price, buy. - Server (remote, Streamable HTTP, no auth): https://mcp.goodleads.club/mcp - Homepage: https://goodleads.club - Docs / connect page: https://app.goodleads.club/connect.html - Icon: https://goodleads.club/favicon.png - Official registry name: `club.goodleads/new-business-owner-contacts` - 13 tools, all annotated (read-only / write hints). Browse real masked records, count and price ",
+  "author": "Goproductmgt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.goodleads.club/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:29.344748Z",
+  "duration_ms": 849,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:29.344773Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.goodleads.club/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:29.344776Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "mcp"
+ }
+}
