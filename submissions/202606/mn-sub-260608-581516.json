@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260608-581516",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lion-mcp-public",
+  "version": "1.0.0",
+  "description": "LION (lion-x402) — https://lionx402.com Keyless, account-less data & compliance for AI agents. Pay-per-call in USDC on Base (x402) — no API key, no signup. Every response is Ed25519-attested for offline integrity verification. - MCP endpoint (remote, Streamable HTTP): `https://lionx402.com/api/mcp` - GitHub: https://github.com/8dp6brm9hp-svg/lion-mcp-public - 20 tools — incl. real retail prices (cpg-product-intel), on-chain token risk (token-risk-indicators), OFAC sanctions + EU VAT validation, ",
+  "author": "8dp6brm9hp-svg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://lionx402.com/api/mcp",
+  "repo_url": "https://github.com/8dp6brm9hp-svg/lion-mcp-public",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:56.092671Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:56.092699Z",
+  "repo_url": {
+   "url": "https://github.com/8dp6brm9hp-svg/lion-mcp-public",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://lionx402.com/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-08T03:20:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4645150489,
+  "comment_author": "8dp6brm9hp-svg"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lion-mcp-public"
+ }
+}
