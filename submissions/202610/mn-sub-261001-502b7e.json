@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-502b7e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentic-services",
+  "version": "1.0.0",
+  "description": "Please add Web Evidence to mcp.so. - Repository: https://github.com/impanyu/agentic_services - Remote MCP endpoint: https://api.aisoup.net/mcp - Official MCP Registry name: `io.github.impanyu/web-evidence` - Description: Paid claim verification for agents with cited web evidence, complete provider-source provenance, snapshots, and SHA-256 hashes. - Transport: Streamable HTTP - Tools: one free tier-discovery tool plus four x402-paid verification tiers.",
+  "author": "impanyu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.aisoup.net/mcp",
+  "repo_url": "https://github.com/impanyu/agentic_services",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:46.769004Z",
+  "duration_ms": 1119,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:46.769028Z",
+  "repo_url": {
+   "url": "https://github.com/impanyu/agentic_services",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.aisoup.net/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:46.769031Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentic-services"
+ }
+}
