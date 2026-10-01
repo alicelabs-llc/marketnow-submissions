@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-25933b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "invoicein-read-and-validate-any-european-e-invoice-a-busines",
+  "version": "1.0.0",
+  "description": "InvoiceIn — read and validate any European e-invoice a business receives (XRechnung, UBL, CII, ZUGFeRD/Factur-X PDF, Peppol BIS 3, FatturaPA, KSeF FA(3)) into canonical EN 16931 JSON with plain-language fix hints in EN/DE/PL/IT/FR, plus PDF, CSV and DATEV export. Remote, streamable HTTP, nothing stored; works without a key on a small daily quota. - MCP: https://invoicein-api.peculiar.systems/mcp - Examples + manifest: https://github.com/peculiar-systems/invoicein-examples - Site: https://invoice",
+  "author": "peculiar-systems",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://invoicein-api.peculiar.systems/mcp",
+  "repo_url": "https://github.com/peculiar-systems/invoicein-examples",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:15.306Z",
+  "duration_ms": 6308,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:15.306Z",
+  "repo_url": {
+   "url": "https://github.com/peculiar-systems/invoicein-examples",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://invoicein-api.peculiar.systems/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:e0fe80bab20a",
+ "submitted_at": "2026-10-01T04:08:15.306Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "invoicein-read-and-validate-any-european-e-invoice-a-busines"
+ }
+}
