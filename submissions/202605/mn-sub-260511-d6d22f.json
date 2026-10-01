@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260511-d6d22f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "emblemai-mcp",
+  "version": "1.0.0",
+  "description": "Name: EmblemAI MCP Repository: https://github.com/EmblemCompany/Agent-skills Hosted endpoint: https://emblemvault.ai/api/mcp (Streamable HTTP) Stdio bridge: \\`npx -y @emblemvault/mcp\\` (npm publish in progress) Description: 200+ crypto tools for AI agents across 7 blockchains (Solana, Ethereum, Base, BSC, Polygon, Hedera, Bitcoin). Swaps, DeFi yield, conditional orders, NFTs, cross-chain bridges, and market intelligence. Hosted MCP with OAuth 2.0 + PKCE for one-line install in Claude Code, Curso",
+  "author": "decentraliser",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @emblemvault/mcp",
+  "homepage": "https://emblemvault.ai/api/mcp",
+  "repo_url": "https://github.com/EmblemCompany/Agent-skills",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:38.157839Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:38.157864Z",
+  "repo_url": {
+   "url": "https://github.com/EmblemCompany/Agent-skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @emblemvault/mcp",
+   "registry": "npm",
+   "package": "@emblemvault/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "homepage": {
+   "url": "https://emblemvault.ai/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-11T06:36:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4418120606,
+  "comment_author": "decentraliser"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "emblemai-mcp"
+ }
+}
