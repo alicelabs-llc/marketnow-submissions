@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:23.162Z",
+ "updated_at": "2026-10-01T04:06:38.009Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3647,6 +3647,18 @@
    "from": "ip:407199849397",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-0a55a4.json"
+  },
+  {
+   "id": "mn-sub-261001-edf580",
+   "name": "settra-is-a-self-hosted-google-sheets-and-google-drive-mcp-s",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:06:37.110Z",
+   "from": "ip:20fc69af7312",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-edf580.json"
   }
  ],
  "l2_pass": {
