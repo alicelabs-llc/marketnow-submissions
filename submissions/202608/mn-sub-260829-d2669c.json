@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260829-d2669c",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "zaoqiniao-verification",
+  "version": "1.0.0",
+  "description": "# Zaoqiniao Verification (早起鸟儿喊真人干事) MCP endpoint: https://zaoqiniaoerhannile.com/api/mcp (Streamable HTTP) What it does: Human-in-the-loop verification for e-commerce in China. Your agent describes what needs checking — is this supplier real, is this store actually operating, does this product match the listing — and a real local person goes and checks it in person, then files a photo-backed report. Built for AI agents/buyers sourcing from China who can't verify claims from a screenshot alone. ",
+  "author": "wangjingjing1026uwh-hub",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://zaoqiniaoerhannile.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:05.464134Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:05.464161Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://zaoqiniaoerhannile.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-29T03:13:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5459986283,
+  "comment_author": "wangjingjing1026uwh-hub"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "zaoqiniao-verification"
+ }
+}
