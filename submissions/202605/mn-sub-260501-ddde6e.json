@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260501-ddde6e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-backlink-for-seo",
+  "version": "1.0.0",
+  "description": "Backlink MCP — free backlink discovery and link-building MCP server for Claude & Cursor. - GitHub: https://github.com/vipul510-web/mcp-backlink-for-seo - Docs: https://www.sellonllm.com/backlink-mcp.html Tools: find unlinked mentions, discover guest post / resource page prospects, research competitor backlink sources, verify links on pages, extract contact info for outreach, check Wayback Machine history. Stack: DuckDuckGo + Wayback Machine CDX API + web scraping. No paid APIs, no API keys neede",
+  "author": "vipulawl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.sellonllm.com/backlink-mcp.html",
+  "repo_url": "https://github.com/vipul510-web/mcp-backlink-for-seo",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:23.726797Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:23.726828Z",
+  "repo_url": {
+   "url": "https://github.com/vipul510-web/mcp-backlink-for-seo",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.sellonllm.com/backlink-mcp.html",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-01T20:25:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4361465820,
+  "comment_author": "vipulawl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-backlink-for-seo"
+ }
+}
