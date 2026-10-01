@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260805-10f8cc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "channel-brains-local-youtube-caption-search",
+  "version": "1.0.0",
+  "description": "# Channel Brains — Local YouTube Caption Search Repository: https://github.com/Pu11en/channel-brains Index any YouTube channel's public captions into a local searchable SQLite FTS5 database, then query it with timestamped citations back to the exact second of video. Runs entirely locally — no API key, no cloud, no account. Install: `uvx --from \"git+https://github.com/Pu11en/channel-brains@v0.1.4\" channel-brains-mcp` Language: Python (3.10–3.14) Transport: stdio Tools: 6 (create_brain, get_brain_",
+  "author": "Pu11en",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Pu11en/channel-brains",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:17.343729Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:17.343753Z",
+  "repo_url": {
+   "url": "https://github.com/Pu11en/channel-brains",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-05T23:54:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5198746584,
+  "comment_author": "Pu11en"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "channel-brains-local-youtube-caption-search"
+ }
+}
