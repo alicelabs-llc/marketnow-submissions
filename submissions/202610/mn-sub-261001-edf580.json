@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-edf580",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "settra-is-a-self-hosted-google-sheets-and-google-drive-mcp-s",
+  "version": "1.0.0",
+  "description": "Settra is a self-hosted Google Sheets and Google Drive MCP server for querying spreadsheet data with AI. Connect Google Sheets, CSV, Excel, and Parquet files, keep durable snapshots synchronized, and let MCP clients safely discover datasets and run governed analytics, without exposing raw SQL or Google credentials. https://github.com/omhq/settra https://settra.io/",
+  "author": "corpulent",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://settra.io/",
+  "repo_url": "https://github.com/omhq/settra",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:37.110Z",
+  "duration_ms": 1070,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:37.110Z",
+  "repo_url": {
+   "url": "https://github.com/omhq/settra",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://settra.io/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:20fc69af7312",
+ "submitted_at": "2026-10-01T04:06:37.110Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "settra-is-a-self-hosted-google-sheets-and-google-drive-mcp-s"
+ }
+}
