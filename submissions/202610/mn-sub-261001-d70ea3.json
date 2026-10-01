@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-d70ea3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "purrplan-mcp-server-social-media-scheduler-your-ai-agent-can",
+  "version": "1.0.0",
+  "description": "PurrPlan MCP Server — social media scheduler your AI agent can drive (plan, publish, inbox, analytics across 12+ networks: LinkedIn, X, Instagram, TikTok, Facebook, YouTube, Threads, Bluesky…). - Remote server (Streamable HTTP): `https://app.purrplan.ai/api/mcp` - GitHub: https://github.com/sebastiendb/purrplan-mcp - Official registry: `ai.purrplan/purrplan` - Website & docs: https://purrplan.ai/en/developpeurs 18 tools, scoped tokens (read / write / ai / media / inbox / analytics), OAuth 2.0 DC",
+  "author": "sebastiendb",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.purrplan.ai/api/mcp",
+  "repo_url": "https://github.com/sebastiendb/purrplan-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:09.571Z",
+  "duration_ms": 815,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:09.571Z",
+  "repo_url": {
+   "url": "https://github.com/sebastiendb/purrplan-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.purrplan.ai/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:b52a1bd5fbeb",
+ "submitted_at": "2026-10-01T04:06:09.571Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "purrplan-mcp-server-social-media-scheduler-your-ai-agent-can"
+ }
+}
