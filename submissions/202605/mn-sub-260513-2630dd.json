@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260513-2630dd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-server-document-conversion-server",
+  "version": "1.0.0",
+  "description": "# MCP Server: Document Conversion Server Converts PDF, DOCX, HTML, EPUB, CSV, Excel, PowerPoint, JSON, XML to Markdown with 6 MCP tools. Repository: https://github.com/demo112/mcp-server-convert Tools: - `convert_file` — Convert any supported format to Markdown - `convert_batch` — Batch convert multiple files - `extract_metadata` — Extract file metadata - `list_supported_formats` — List all supported formats Formats: PDF, DOCX, HTML, EPUB, CSV, XLSX, PPTX, JSON, XML, TXT, MD, Images (OCR) Instal",
+  "author": "demo112",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/demo112/mcp-server-convert",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:43.357986Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:43.358017Z",
+  "repo_url": {
+   "url": "https://github.com/demo112/mcp-server-convert",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-13T18:55:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4444301430,
+  "comment_author": "demo112"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-server-document-conversion-server"
+ }
+}
