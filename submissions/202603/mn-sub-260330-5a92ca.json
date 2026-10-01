@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260330-5a92ca",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "veroq-mcp-server",
+  "version": "1.0.0",
+  "description": "# VEROQ MCP Server Verified financial intelligence for AI agents — 52 tools covering market data, trading signals, crypto, SEC filings, screening, and more. - npm: https://www.npmjs.com/package/veroq-mcp - GitHub: https://github.com/Veroq-api/veroq-mcp - Website: https://veroq.ai Install: `npm install -g veroq-mcp` Key tools: `veroq_ask` (natural language financial queries), `veroq_verify` (fact-check claims), `veroq_full` (full ticker profile), `veroq_screener` (multi-criteria stock screener), ",
+  "author": "JohnnyTarrr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/veroq-mcp",
+  "repo_url": "https://github.com/Veroq-api/veroq-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:08.779579Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:08.779604Z",
+  "repo_url": {
+   "url": "https://github.com/Veroq-api/veroq-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/veroq-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-30T18:45:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4157326733,
+  "comment_author": "JohnnyTarrr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "veroq-mcp-server"
+ }
+}
