@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-a64470",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "signdocs-brasil-brazilian-electronic-and-digital-signatures-",
+  "version": "1.0.0",
+  "description": "SignDocs Brasil — Brazilian electronic and digital signatures (ICP-Brasil) from any MCP client. https://github.com/signdocsbrasil/signdocs-mcp-server Create signing sessions and multi-signer envelopes, upload and download documents, verify signatures, and manage webhooks over the SignDocs Brasil e-signature API. Supports ICP-Brasil digital certificates (A1 via API, A3 via desktop signer), facial biometrics with liveness detection, and OTP by email or SMS — under Brazil's MP 2.200-2/2001 and Lei ",
+  "author": "signdocsbrasil",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @signdocs-brasil/mcp-server",
+  "homepage": "https://mcp.signdocs.com.br/mcp",
+  "repo_url": "https://github.com/signdocsbrasil/signdocs-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:33.667Z",
+  "duration_ms": 2081,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:33.667Z",
+  "repo_url": {
+   "url": "https://github.com/signdocsbrasil/signdocs-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @signdocs-brasil/mcp-server",
+   "registry": "npm",
+   "package": "@signdocs-brasil/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.signdocs.com.br/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:73012dfb0542",
+ "submitted_at": "2026-10-01T04:08:33.667Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "signdocs-brasil-brazilian-electronic-and-digital-signatures"
+ }
+}
