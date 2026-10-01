@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260302-0bcf64",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kevinbot-mcp",
+  "version": "1.0.0",
+  "description": "# KevinBot MCP - GitHub: https://github.com/baitoxkevin/kevinbot-mcp - npm: @baitoxkevin/kevinbot-mcp - Install: `npx @baitoxkevin/kevinbot-mcp` 20 AI-powered utility APIs + live NostalgiaForInfinityX7 crypto trading signals via x402 USDC micropayments on Base mainnet. Tools include: web search, URL crawling, SEO analysis, AI code review, email validation, DNS lookup, QR generation, HTML-to-markdown, AI summarization, structured data extraction, plus 8 real-time trading signal endpoints (open po",
+  "author": "baitoxkevin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/baitoxkevin/kevinbot-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:32.559846Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:32.559875Z",
+  "repo_url": {
+   "url": "https://github.com/baitoxkevin/kevinbot-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-02T04:54:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3982067160,
+  "comment_author": "baitoxkevin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kevinbot-mcp"
+ }
+}
