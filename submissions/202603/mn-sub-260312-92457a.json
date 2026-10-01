@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260312-92457a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "novyx-mcp-desktop",
+  "version": "1.0.0",
+  "description": "[Novyx MCP](https://github.com/novyxlabs/novyx-mcp-desktop) Persistent memory for AI agents with rollback, audit trails, semantic search, and knowledge graph. Zero-config local SQLite or cloud API. 23 tools, 6 resources, 3 prompts. - PyPI: https://pypi.org/project/novyx-mcp/ - npm: https://www.npmjs.com/package/novyx-mcp-desktop - Docs: https://docs.novyxlabs.com",
+  "author": "novyxlabs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/novyx-mcp/",
+  "repo_url": "https://github.com/novyxlabs/novyx-mcp-desktop",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:07.026581Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:07.026608Z",
+  "repo_url": {
+   "url": "https://github.com/novyxlabs/novyx-mcp-desktop",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/novyx-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-12T15:39:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4047783394,
+  "comment_author": "novyxlabs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "novyx-mcp-desktop"
+ }
+}
