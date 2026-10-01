@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-c15c16",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kolmo-construction",
+  "version": "1.0.0",
+  "description": "Updating existing listing: [Kolmo Construction](https://mcp.so/server/kolmo-construction) Type: MCP Server (Remote Streamable HTTP, no auth required) Name: Kolmo Construction URL: https://www.kolmo.io/mcp GitHub repo: https://github.com/Kolmo-Construction/kolmo-mcp-server Description: 18-tool MCP server for Seattle-area home remodeling. Real-time cost estimates across 8 project types, Seattle weather scheduling for exterior projects, renovation ROI (Cost vs Value data), permit requirements, cust",
+  "author": "Kolmo-Construction",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.kolmo.io/mcp",
+  "repo_url": "https://github.com/Kolmo-Construction/kolmo-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:30.744633Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:30.744662Z",
+  "repo_url": {
+   "url": "https://github.com/Kolmo-Construction/kolmo-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.kolmo.io/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T07:10:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4108480836,
+  "comment_author": "Kolmo-Construction"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kolmo-construction"
+ }
+}
