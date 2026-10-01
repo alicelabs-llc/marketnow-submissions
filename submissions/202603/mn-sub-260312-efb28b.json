@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260312-efb28b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lazyants-transkribus",
+  "version": "1.0.0",
+  "description": "- Name: Transkribus MCP Server - Description: MCP server for the Transkribus REST API — manage collections, documents, HTR/OCR recognition, models, and more. 290 tools across 22 resource domains with 8 entry points. - GitHub: https://github.com/lazyants/transkribus-mcp-server - npm: https://www.npmjs.com/package/@lazyants/transkribus-mcp-server",
+  "author": "lazyants",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@lazyants/transkribus-mcp-server",
+  "repo_url": "https://github.com/lazyants/transkribus-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.251017Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.251018Z",
+  "repo_url": {
+   "url": "https://github.com/lazyants/transkribus-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@lazyants/transkribus-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-12T13:39:27Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 779,
+  "comment_author": "lazyants"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lazyants-transkribus"
+ }
+}

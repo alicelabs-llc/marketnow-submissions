@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260311-e17732",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ovh-api-mcp-code",
+  "version": "1.0.0",
+  "description": "ovh-api-mcp Repository: https://github.com/davidlandais/ovh-api-mcp Docker image: `ghcr.io/davidlandais/ovh-api-mcp:latest` MCP Registry: `io.github.davidlandais/ovh-api-mcp` License: MIT Language: Rust Description A native MCP server that gives LLMs full access to the entire OVH API using the Code Mode pattern [introduced by Cloudflare](https://blog.cloudflare.com/code-mode-mcp/). Instead of defining thousands of tools (one per endpoint), the server exposes just two tools — `search` and `execu",
+  "author": "davidlandais",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://localhost:3104/mcp",
+  "repo_url": "https://github.com/davidlandais/ovh-api-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.251155Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.251157Z",
+  "repo_url": {
+   "url": "https://github.com/davidlandais/ovh-api-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://localhost:3104/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-11T22:28:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 769,
+  "comment_author": "davidlandais"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ovh-api-mcp-code"
+ }
+}

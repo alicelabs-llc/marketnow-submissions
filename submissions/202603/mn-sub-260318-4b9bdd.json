@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-4b9bdd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "karrito-mcp-whatsapp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: karrito-mcp - Description: MCP server for Karrito — digital catalog builder with WhatsApp checkout for LATAM entrepreneurs. 30 tools + 5 resources. - GitHub: https://github.com/curetcore/karrito-mcp - npm: https://www.npmjs.com/package/karrito-mcp - Website: https://karrito.shop - Author: Ronaldo Paulino - Category: E-Commerce / Business Tools - Tags: whatsapp, catalog, ecommerce, latam, products, orders Install ```bash npx karrito-mcp ``` Tools (30) Products (CRUD), Categor",
+  "author": "curetcore",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/karrito-mcp",
+  "repo_url": "https://github.com/curetcore/karrito-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249711Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249712Z",
+  "repo_url": {
+   "url": "https://github.com/curetcore/karrito-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/karrito-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T19:10:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 897,
+  "comment_author": "curetcore"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "karrito-mcp-whatsapp"
+ }
+}

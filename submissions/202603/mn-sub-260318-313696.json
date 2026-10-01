@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260318-313696",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "newsoracle-news",
+  "version": "1.0.0",
+  "description": "NewsOracle — News & Trends Intelligence MCP Endpoint: `https://tooloracle.io/news/mcp/` GitHub: https://github.com/ToolOracle/newsoracle Tools: 9 | Transport: StreamableHTTP Tools `top_news` (3u) · `search_news` (5u) · `trending_topics` (3u) · `topic_deep_dive` (8u) · `compare_coverage` (8u) · `trend_over_time` (5u) · `related_queries` (3u) · `breaking_now` (5u) · `health_check` (free) Connect ``` npx -y mcp-remote https://tooloracle.io/news/mcp/ ``` Google News + Google Trends · Headlines, tre",
+  "author": "ToolOracle",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mcp-remote",
+  "homepage": "https://tooloracle.io/news/mcp/",
+  "repo_url": "https://github.com/ToolOracle/newsoracle",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249899Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249901Z",
+  "repo_url": {
+   "url": "https://github.com/ToolOracle/newsoracle",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mcp-remote",
+   "registry": "npm",
+   "package": "mcp-remote",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://tooloracle.io/news/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T12:42:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 883,
+  "comment_author": "ToolOracle"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "newsoracle-news"
+ }
+}

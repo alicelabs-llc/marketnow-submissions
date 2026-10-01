@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-863885",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "livepilot",
+  "version": "1.0.0",
+  "description": "LivePilot Name: LivePilot URL: https://github.com/dreamrec/LivePilot npm: https://www.npmjs.com/package/livepilot Author: Pilot Studio License: MIT Description AI copilot for Ableton Live 12 — 104 MCP tools for music production, sound design, and mixing. Talk to your DAW through natural language. Create tracks, program MIDI, load instruments, tweak parameters, arrange songs, and mix. Features - 104 MCP tools across 10 domains: transport, tracks, clips, notes, devices, scenes, mixing, browser, a",
+  "author": "dreamrec",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/livepilot",
+  "repo_url": "https://github.com/dreamrec/LivePilot",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249764Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249766Z",
+  "repo_url": {
+   "url": "https://github.com/dreamrec/LivePilot",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/livepilot",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T15:54:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 890,
+  "comment_author": "dreamrec"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "livepilot"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260315-56be9f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dc-hub",
+  "version": "1.0.0",
+  "description": "** Data center intelligence MCP server — a global data-center facility map across 170+ countries, M&A tracking ($185B+), capacity pipeline (21+ GW), market analytics, site scoring, and energy grid data.",
+  "author": "azmartone67",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://dchub.cloud",
+  "repo_url": "https://github.com/azmartone67/dchub-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250646Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250648Z",
+  "repo_url": {
+   "url": "https://github.com/azmartone67/dchub-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://dchub.cloud",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-15T00:14:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 816,
+  "comment_author": "azmartone67"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dc-hub"
+ }
+}

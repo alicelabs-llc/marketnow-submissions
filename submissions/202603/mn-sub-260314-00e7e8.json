@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260314-00e7e8",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "panchangaapi-vedic-astrology",
+  "version": "1.0.0",
+  "description": "Server Info - Name: PanchangaAPI - URL: https://github.com/degen0root/panchangaAPI - Website: https://api.moon-bot.cc - MCP Manifest: https://api.moon-bot.cc/.well-known/mcp.json - OpenAPI: https://api.moon-bot.cc/openapi.json - Logo: https://api.moon-bot.cc/static/logo.png - Author: moon-bot - Category: Data & Analytics Description The most complete Vedic astrology (Jyotish) API, purpose-built for AI agents. 12 MCP tools covering every branch of Vedic astrology: - Panchanga — daily almanac (ti",
+  "author": "degen0root",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.moon-bot.cc",
+  "repo_url": "https://github.com/degen0root/panchangaAPI",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250729Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250730Z",
+  "repo_url": {
+   "url": "https://github.com/degen0root/panchangaAPI",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.moon-bot.cc",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-14T02:23:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 802,
+  "comment_author": "degen0root"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "panchangaapi-vedic-astrology"
+ }
+}

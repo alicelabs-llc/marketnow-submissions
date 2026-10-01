@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260318-6d162a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "voidly",
+  "version": "1.0.0",
+  "description": "@voidly/mcp-server npm: `@voidly/mcp-server` ([npm link](https://www.npmjs.com/package/@voidly/mcp-server)) GitHub: https://github.com/voidly-ai/mcp-server Website: https://voidly.ai Run: `npx @voidly/mcp-server` Description 83-tool MCP server providing two capabilities: Censorship Intelligence (27 tools) - Real-time censorship data across 119 countries (19.6M+ measurements) - ML-powered incident classification (99.8% F1) - 7-day shutdown risk forecasting - Platform risk scores, ISP risk index,",
+  "author": "EmperorMew",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://voidly.ai",
+  "repo_url": "https://github.com/voidly-ai/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249746Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249748Z",
+  "repo_url": {
+   "url": "https://github.com/voidly-ai/mcp-server",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://voidly.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T16:17:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 891,
+  "comment_author": "EmperorMew"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "voidly"
+ }
+}

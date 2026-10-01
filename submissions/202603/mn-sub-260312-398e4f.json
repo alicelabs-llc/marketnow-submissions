@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260312-398e4f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ipgeolocation-io",
+  "version": "1.0.0",
+  "description": "Add IPGeolocation.io MCP Server — https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+  "author": "MudassarTariq",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ipgeolocation.io",
+  "repo_url": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250983Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250984Z",
+  "repo_url": {
+   "url": "https://github.com/IPGeolocation/ipgeolocation-io-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ipgeolocation.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-12T18:49:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 781,
+  "comment_author": "MudassarTariq"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ipgeolocation-io"
+ }
+}

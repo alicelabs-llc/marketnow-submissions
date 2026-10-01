@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260319-4f5724",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "widemem",
+  "version": "1.0.0",
+  "description": "Add widemem MCP Server - Persistent Memory Layer for AI Agents — https://github.com/remete618/widemem-ai",
+  "author": "remete618",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://widemem.ai",
+  "repo_url": "https://github.com/remete618/widemem-ai",
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249422Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249423Z",
+  "repo_url": {
+   "url": "https://github.com/remete618/widemem-ai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://widemem.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-19T15:56:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 926,
+  "comment_author": "remete618"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "widemem"
+ }
+}

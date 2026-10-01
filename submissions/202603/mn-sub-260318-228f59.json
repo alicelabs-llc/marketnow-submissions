@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-228f59",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "serp-google-search-serp",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MCP Serp - Description: MCP server for Google SERP search via AceDataCloud API. Supports web, image, news, video, places, and maps search with structured results. - Repository: https://github.com/AceDataCloud/MCPSerp - Server URL: https://serp.mcp.acedata.cloud/mcp - Website: https://platform.acedata.cloud - PyPI: https://pypi.org/project/mcp-serp/ MCP Tools 1. google_search - Search Google with support for web, images, news, video, places, maps, and more Additional I",
+  "author": "acedatacloud-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://serp.mcp.acedata.cloud/mcp",
+  "repo_url": "https://github.com/AceDataCloud/MCPSerp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250175Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250178Z",
+  "repo_url": {
+   "url": "https://github.com/AceDataCloud/MCPSerp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://serp.mcp.acedata.cloud/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T07:29:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 865,
+  "comment_author": "acedatacloud-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "serp-google-search-serp"
+ }
+}

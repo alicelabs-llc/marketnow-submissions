@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-37f12b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shorturl-url-shortening",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MCP ShortURL - Description: MCP server for URL shortening via AceDataCloud API. Shorten URLs with custom aliases, batch support, and QR code generation. - Repository: https://github.com/AceDataCloud/MCPShortURL - Server URL: https://shorturl.mcp.acedata.cloud/mcp - Website: https://platform.acedata.cloud - PyPI: https://pypi.org/project/mcp-shorturl/ MCP Tools 1. shorten_url - Shorten a URL with optional custom alias 2. shorten_urls_batch - Shorten multiple URLs at on",
+  "author": "acedatacloud-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://shorturl.mcp.acedata.cloud/mcp",
+  "repo_url": "https://github.com/AceDataCloud/MCPShortURL",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250033Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250034Z",
+  "repo_url": {
+   "url": "https://github.com/AceDataCloud/MCPShortURL",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://shorturl.mcp.acedata.cloud/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T07:31:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 873,
+  "comment_author": "acedatacloud-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shorturl-url-shortening"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-723cc0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "flux-flux-ai-image-generation",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MCP Flux - Description: MCP server for Flux AI image generation via AceDataCloud API. Supports 6 Flux models for high-quality image creation. - Repository: https://github.com/AceDataCloud/MCPFlux - Server URL: https://flux.mcp.acedata.cloud/mcp - Website: https://platform.acedata.cloud - PyPI: https://pypi.org/project/mcp-flux-pro/ MCP Tools 1. generate_image - Generate images using Flux AI models 2. get_task - Query image generation task status Additional Info - Lang",
+  "author": "acedatacloud-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://flux.mcp.acedata.cloud/mcp",
+  "repo_url": "https://github.com/AceDataCloud/MCPFlux",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250084Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250085Z",
+  "repo_url": {
+   "url": "https://github.com/AceDataCloud/MCPFlux",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://flux.mcp.acedata.cloud/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T07:31:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 870,
+  "comment_author": "acedatacloud-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "flux-flux-ai-image-generation"
+ }
+}

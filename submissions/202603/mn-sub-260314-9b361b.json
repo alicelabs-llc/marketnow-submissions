@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260314-9b361b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "omega-persistent-memory-for-ai-coding-agents",
+  "version": "1.0.0",
+  "description": "OMEGA — Persistent memory for AI coding agents - GitHub: https://github.com/omega-memory/omega-memory - PyPI: https://pypi.org/project/omega-memory/ - Website: https://omegamax.co Stores decisions, lessons, and context across sessions with semantic search, auto-capture, and intelligent forgetting. 25 MCP tools, local-first, Apache-2.0.",
+  "author": "singularityjason",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/omega-memory/",
+  "repo_url": "https://github.com/omega-memory/omega-memory",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250749Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250751Z",
+  "repo_url": {
+   "url": "https://github.com/omega-memory/omega-memory",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/omega-memory/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-14T02:01:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 801,
+  "comment_author": "singularityjason"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "omega-persistent-memory-for-ai-coding-agents"
+ }
+}

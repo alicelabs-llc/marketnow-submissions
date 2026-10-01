@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260319-12a583",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mikusnuz-npm-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: @mikusnuz/npm-mcp URL: https://github.com/mikusnuz/npm-mcp npm: https://www.npmjs.com/package/@mikusnuz/npm-mcp License: MIT Type: MCP Server Description MCP server for npm package management — 36 tools for publish, version, search, audit, install, and more from your AI assistant. Server Config ```json { \"mcpServers\": { \"npm-mcp\": { \"command\": \"npx\", \"args\": [\"-y\", \"@mikusnuz/npm-mcp\"], \"env\": { \"NPM_TOKEN\": \"npm_xxxxxxxxxxxx\" } } } } ``` Features - 36 tools — Publis",
+  "author": "mikusnuz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@mikusnuz/npm-mcp",
+  "repo_url": "https://github.com/mikusnuz/npm-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249355Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249357Z",
+  "repo_url": {
+   "url": "https://github.com/mikusnuz/npm-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@mikusnuz/npm-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-19T17:40:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 933,
+  "comment_author": "mikusnuz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mikusnuz-npm-mcp"
+ }
+}

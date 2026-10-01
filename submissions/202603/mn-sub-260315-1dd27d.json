@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260315-1dd27d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "foglift-mcp-server-foglift-mcp",
+  "version": "1.0.0",
+  "description": "** Scan any website for SEO, GEO (AI search readiness), performance, security, and accessibility. Returns scores and actionable issues. Perfect for web developers, agencies, and AI agents that need to audit websites.",
+  "author": "banant2",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://foglift.io",
+  "repo_url": "https://github.com/banant2/Foglift",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250500Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250501Z",
+  "repo_url": {
+   "url": "https://github.com/banant2/Foglift",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://foglift.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-15T07:16:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 820,
+  "comment_author": "banant2"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "foglift-mcp-server-foglift-mcp"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260312-e058f2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pm33",
+  "version": "1.0.0",
+  "description": "- Name: PM33 MCP Server - Description: AI-native product management MCP server with 17 tools and 11 resources. Gives AI assistants access to real product data: backlog items, strategic objectives, velocity metrics, competitive intelligence, sprint planning, and delivery forecasting. WSJF-based prioritization, Monte Carlo forecasting, AI-powered PRD generation, scenario planning. Integrates with Jira, Linear, and Asana. - GitHub: https://github.com/b33-steve/pm33-mcp - Website: https://pm-33.com",
+  "author": "b33-steve",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pm-33.io/mcp",
+  "repo_url": "https://github.com/b33-steve/pm33-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250998Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.251000Z",
+  "repo_url": {
+   "url": "https://github.com/b33-steve/pm33-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pm-33.io/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-12T17:55:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 780,
+  "comment_author": "b33-steve"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pm33"
+ }
+}

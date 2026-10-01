@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260318-c206bb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yieldoracle-defi",
+  "version": "1.0.0",
+  "description": "YieldOracle — DeFi Yield Intelligence MCP Endpoint: `https://tooloracle.io/yield/mcp/` GitHub: https://github.com/ToolOracle/yieldoracle Tools: 8 | Transport: StreamableHTTP Tools `risk_adjusted` (10u) · `yield_compare` (8u) · `rwa_yield` (5u) · `top_yields` (3u) · `stablecoin_yield` (3u) · `chain_yields` (3u) · `yield_scan` (2u) · `health_check` (free) Connect ``` npx -y mcp-remote https://tooloracle.io/yield/mcp/ ``` 19K+ pools · 100+ chains · DeFiLlama · x402 USDC on Base · Part of [ToolOrac",
+  "author": "ToolOracle",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mcp-remote",
+  "homepage": "https://tooloracle.io/yield/mcp/",
+  "repo_url": "https://github.com/ToolOracle/yieldoracle",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249964Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249965Z",
+  "repo_url": {
+   "url": "https://github.com/ToolOracle/yieldoracle",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mcp-remote",
+   "registry": "npm",
+   "package": "mcp-remote",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://tooloracle.io/yield/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T12:08:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 879,
+  "comment_author": "ToolOracle"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yieldoracle-defi"
+ }
+}

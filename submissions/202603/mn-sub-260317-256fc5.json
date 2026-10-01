@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260317-256fc5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "supplement-advisor",
+  "version": "1.0.0",
+  "description": "Server Name supplement-advisor-mcp Description Evidence-based supplement recommendation MCP server providing clinical dosing, form quality analysis, medication interaction checking, and product comparisons for 17 supplement categories. Data sourced from NIH DSLD (207K+ products), PubMed systematic reviews, NSF/USP certification databases, and Amazon pricing. GitHub Repository https://github.com/erinheit451/supplement-advisor-mcp Website https://verifiedsupplementdata.com Tools (5) - recommend_s",
+  "author": "erinheit451",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://verifiedsupplementdata.com",
+  "repo_url": "https://github.com/erinheit451/supplement-advisor-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250345Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250347Z",
+  "repo_url": {
+   "url": "https://github.com/erinheit451/supplement-advisor-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://verifiedsupplementdata.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-17T04:04:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 844,
+  "comment_author": "erinheit451"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "supplement-advisor"
+ }
+}

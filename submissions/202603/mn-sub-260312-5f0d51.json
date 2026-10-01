@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260312-5f0d51",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "gia-mcp",
+  "version": "1.0.0",
+  "description": "GIA MCP Server Name: gia-mcp-server GitHub: https://github.com/knowledgepa3/gia-mcp-server npm: https://www.npmjs.com/package/gia-mcp-server Website: https://gia.aceadvising.com Glama: https://glama.ai/mcp/servers/@knowledgepa3/gia-mcp-server Description Governance Intelligence Architecture (GIA) — the governance layer for Claude AI agents. Enterprise-grade decision classification, forensic audit trails, human-in-the-loop gates, and compliance mapping. Built on Anthropic's Model Context Protoco",
+  "author": "knowledgepa3",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gia.aceadvising.com",
+  "repo_url": "https://github.com/knowledgepa3/gia-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250933Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250934Z",
+  "repo_url": {
+   "url": "https://github.com/knowledgepa3/gia-mcp-server",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gia.aceadvising.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-12T21:54:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 785,
+  "comment_author": "knowledgepa3"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "gia-mcp"
+ }
+}

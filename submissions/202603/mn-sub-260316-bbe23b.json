@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260316-bbe23b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shck-dev-notion-mcp",
+  "version": "1.0.0",
+  "description": "Server Info - Name: @shck-dev/notion-mcp - npm: https://www.npmjs.com/package/@shck-dev/notion-mcp - GitHub: https://github.com/shck-dev/notion-mcp - MCP Registry: io.github.shck-dev/notion-mcp Description MCP server for Notion — search, export, and import pages as markdown. Uses Notion's internal API with cookie auth (token_v2). No workspace admin, no OAuth, no page sharing required. Tools | Tool | Description | |------|-------------| | `notion_search` | Full-text search across all pages in yo",
+  "author": "ofcRS",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@shck-dev/notion-mcp",
+  "repo_url": "https://github.com/shck-dev/notion-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250400Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250401Z",
+  "repo_url": {
+   "url": "https://github.com/shck-dev/notion-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@shck-dev/notion-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-16T18:20:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 841,
+  "comment_author": "ofcRS"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shck-dev-notion-mcp"
+ }
+}

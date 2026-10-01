@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-c0f038",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "seedream-bytedance",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MCP Seedream - Description: MCP server for ByteDance Seedream AI image generation and editing via AceDataCloud API. Create and edit images with advanced AI. - Repository: https://github.com/AceDataCloud/MCPSeedream - Server URL: https://seedream.mcp.acedata.cloud/mcp - Website: https://platform.acedata.cloud - PyPI: https://pypi.org/project/mcp-seedream-pro/ MCP Tools 1. generate_image - Generate images from text prompts 2. edit_image - Edit images with text instructi",
+  "author": "acedatacloud-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://seedream.mcp.acedata.cloud/mcp",
+  "repo_url": "https://github.com/AceDataCloud/MCPSeedream",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250066Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250069Z",
+  "repo_url": {
+   "url": "https://github.com/AceDataCloud/MCPSeedream",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://seedream.mcp.acedata.cloud/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T07:31:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 871,
+  "comment_author": "acedatacloud-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "seedream-bytedance"
+ }
+}

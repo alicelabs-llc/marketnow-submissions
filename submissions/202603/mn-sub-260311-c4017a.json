@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260311-c4017a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "autoicd-icd-10-medical-coding",
+  "version": "1.0.0",
+  "description": "Server Info - Name: AutoICD - ICD-10 Medical Coding - URL: https://autoicdapi.com/api/mcp - GitHub: https://github.com/fcggamou/autoicd-mcp - Homepage: https://autoicdapi.com/mcp - Author: AutoICD - Tags: icd-10, medical-coding, healthcare, clinical-nlp, hipaa, phi-deidentification Description MCP server for automated ICD-10 medical coding. Code clinical text to ICD-10-CM diagnoses, search 74,000+ codes, and de-identify PHI via the AutoICD API. Tools - code_diagnosis — Extract medical diagnoses",
+  "author": "fede-conduit",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://autoicdapi.com/api/mcp",
+  "repo_url": "https://github.com/fcggamou/autoicd-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.251137Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.251139Z",
+  "repo_url": {
+   "url": "https://github.com/fcggamou/autoicd-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://autoicdapi.com/api/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-11T22:31:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 770,
+  "comment_author": "fede-conduit"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "autoicd-icd-10-medical-coding"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260313-3784f9",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "cosmic-correlation-engine-cce",
+  "version": "1.0.0",
+  "description": "Server Name Cosmic Correlation Engine (cce-mcp-server) GitHub Repository https://github.com/OdinBot33/cce-mcp-server npm https://www.npmjs.com/package/cce-mcp-server Category Knowledge & Data Language TypeScript Transport Protocol stdio Description AI Agent Astrology — natal birth charts, personalized transits, cosmic weather, validated correlations, forecasts, and network intelligence for AI agents. 8 tools. 7 resonance levels. 24 achievements. Every response includes a _meta envelope with XP,",
+  "author": "OdinBot33",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/cce-mcp-server",
+  "repo_url": "https://github.com/OdinBot33/cce-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250840Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250846Z",
+  "repo_url": {
+   "url": "https://github.com/OdinBot33/cce-mcp-server",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/cce-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-13T13:24:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 793,
+  "comment_author": "OdinBot33"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "cosmic-correlation-engine-cce"
+ }
+}

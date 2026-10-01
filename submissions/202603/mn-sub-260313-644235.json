@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260313-644235",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mikkoparkkola-nab",
+  "version": "1.0.0",
+  "description": "Server Details - Name: nab - GitHub: https://github.com/MikkoParkkola/nab - Category: Search & Data Extraction / Web Fetching - Language: Rust Description Ultra-fast web fetcher and MCP server with HTTP/3, JS rendering, anti-fingerprinting, browser cookie auth, and 1Password integration. Fetches any URL as clean Markdown optimized for AI context windows. Key Features - Single static Rust binary, sub-50ms fetches - MCP server mode for AI assistants - Browser cookie import (Chrome/Firefox/Brave)",
+  "author": "MikkoParkkola",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/MikkoParkkola/nab",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250812Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250814Z",
+  "repo_url": {
+   "url": "https://github.com/MikkoParkkola/nab",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-13T13:41:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 794,
+  "comment_author": "MikkoParkkola"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mikkoparkkola-nab"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260318-6572d7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "rankoracle-seo",
+  "version": "1.0.0",
+  "description": "RankOracle — SEO Intelligence MCP Endpoint: `https://tooloracle.io/mcp/` GitHub: https://github.com/ToolOracle/rankoracle Tools: 13 | Transport: StreamableHTTP Tools `keyword_research` (15u) · `competitor_gap` (8u) · `domain_overview` (5u) · `content_score` (3u) · `rank_tracker` (3u) · `check_ranking` (2u) · `serp_snapshot` (2u) · `heading_analysis` (2u) · `title_optimizer` (2u) · `meta_generator` (2u) · `serp_alert` (2u) · `backlink_check` (2u) · `health_check` (free) Connect ``` npx -y mcp-re",
+  "author": "ToolOracle",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mcp-remote",
+  "homepage": "https://tooloracle.io/mcp/",
+  "repo_url": "https://github.com/ToolOracle/rankoracle",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250017Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250018Z",
+  "repo_url": {
+   "url": "https://github.com/ToolOracle/rankoracle",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mcp-remote",
+   "registry": "npm",
+   "package": "mcp-remote",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://tooloracle.io/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T11:43:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 875,
+  "comment_author": "ToolOracle"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rankoracle-seo"
+ }
+}

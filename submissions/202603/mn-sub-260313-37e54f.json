@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260313-37e54f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "resolve",
+  "version": "1.0.0",
+  "description": "Server Details - Name: Resolve MCP Server - GitHub: https://github.com/unitedideas/resolve-mcp - Website: https://resolve.arflow.io - Category: Monitoring / Error Recovery / Agent Infrastructure - Language: Python - Transport: stdio Description Structured error recovery for AI agents. When an agent hits an API error (429, auth failure, timeout, etc.), Resolve returns a resolution playbook with the exact backoff schedule, retry strategy, and recovery steps for that specific service and error cod",
+  "author": "unitedideas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://resolve.arflow.io",
+  "repo_url": "https://github.com/unitedideas/resolve-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250895Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250896Z",
+  "repo_url": {
+   "url": "https://github.com/unitedideas/resolve-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://resolve.arflow.io",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-13T02:21:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 787,
+  "comment_author": "unitedideas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "resolve"
+ }
+}

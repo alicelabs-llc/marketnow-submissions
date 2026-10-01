@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260319-a67305",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nyc-subway-subwayinfo-nyc",
+  "version": "1.0.0",
+  "description": "Server Submission Name: NYC Subway / SubwayInfo.nyc Type: Server (remote, HTTP Streamable) URL: https://subwayinfo.nyc/mcp GitHub: https://github.com/ckorhonen/mta-mcp Website: https://subwayinfo.nyc Description Real-time NYC subway data via Model Context Protocol. Provides Claude and other AI clients with live train arrivals, service alerts, station search, and trip planning for all 496 NYC subway stations. Features - Real-time train arrivals from MTA GTFS-RT feeds - Live service alerts (delay",
+  "author": "ckorhonen",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://subwayinfo.nyc",
+  "repo_url": "https://github.com/ckorhonen/mta-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249279Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249284Z",
+  "repo_url": {
+   "url": "https://github.com/ckorhonen/mta-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://subwayinfo.nyc",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-19T23:10:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 943,
+  "comment_author": "ckorhonen"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nyc-subway-subwayinfo-nyc"
+ }
+}

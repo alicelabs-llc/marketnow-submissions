@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260313-bee9f7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "scrapercity",
+  "version": "1.0.0",
+  "description": "** B2B lead generation MCP server with 20+ tools - Apollo scraping, Google Maps, email finder, email validator, mobile finder, skip trace, ecommerce store data, and more. All plans include API access.",
+  "author": "scrapercity",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://scrapercity.com/agents",
+  "repo_url": "https://github.com/scrapercity/scrapercity-cli",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250798Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250799Z",
+  "repo_url": {
+   "url": "https://github.com/scrapercity/scrapercity-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://scrapercity.com/agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-13T21:53:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 798,
+  "comment_author": "scrapercity"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "scrapercity"
+ }
+}

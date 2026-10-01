@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260319-c6ed67",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentguard-runtime",
+  "version": "1.0.0",
+  "description": "AgentGuard MCP Server GitHub: https://github.com/bmdhodl/agent47 Website: https://agentguard47.com PyPI: `pip install agentguard47` Description AgentGuard is a runtime budget enforcement and guardrails MCP server for AI agents. It provides real-time cost controls, spending limits, and a remote kill switch for autonomous AI agent workflows. Features - Runtime budget enforcement — Set per-agent and per-session spending limits - Remote kill switch — Instantly halt runaway agents from the cloud das",
+  "author": "bmdhodl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentguard47.com",
+  "repo_url": "https://github.com/bmdhodl/agent47",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249219Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249221Z",
+  "repo_url": {
+   "url": "https://github.com/bmdhodl/agent47",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentguard47.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-19T23:52:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 947,
+  "comment_author": "bmdhodl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentguard-runtime"
+ }
+}

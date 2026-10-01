@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260317-c7ff11",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentwatch",
+  "version": "1.0.0",
+  "description": "Server Information Name: agentwatch npm: https://www.npmjs.com/package/@nicofains1/agentwatch GitHub: https://github.com/nicofains1/agentwatch Author: nicofains1 MCP Registry: io.github.nicofains1/agentwatch Description Multi-agent observability for AI agent fleets. Detects cascade failures (when Agent A's failure spreads to Agent B, C, D), tracks heartbeats across agent fleets, and provides forensic replay of incidents. Works as both an npm library and an MCP server. Tools (13 MCP tools) - das",
+  "author": "nicofains1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@nicofains1/agentwatch",
+  "repo_url": "https://github.com/nicofains1/agentwatch",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250329Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250330Z",
+  "repo_url": {
+   "url": "https://github.com/nicofains1/agentwatch",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@nicofains1/agentwatch",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-17T07:22:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 846,
+  "comment_author": "nicofains1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentwatch"
+ }
+}

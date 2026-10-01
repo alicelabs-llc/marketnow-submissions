@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260315-ad179f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sweet-home-3d",
+  "version": "1.0.0",
+  "description": "Server Name sweethome3d-mcp-server Description A plugin for [Sweet Home 3D](https://www.sweethome3d.com/) that embeds an MCP server directly inside the application. Lets Claude and other AI assistants control Sweet Home 3D over HTTP — create walls, place furniture, apply textures, render photos, and more — without any external proxy or separate server process. 42 commands across 12 categories: walls, rooms, furniture, doors/windows, textures, 3D shapes (CSG booleans), annotations, camera, multi",
+  "author": "grimashevich",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://localhost:9877/mcp",
+  "repo_url": "https://github.com/grimashevich/sweethome3d-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250447Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250449Z",
+  "repo_url": {
+   "url": "https://github.com/grimashevich/sweethome3d-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://localhost:9877/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-15T16:35:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 824,
+  "comment_author": "grimashevich"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sweet-home-3d"
+ }
+}

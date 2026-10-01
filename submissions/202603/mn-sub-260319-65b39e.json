@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260319-65b39e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "marketplace-search",
+  "version": "1.0.0",
+  "description": "Server Details - Name: marketplace-search-mcp - npm: @lulzasaur9192/marketplace-search-mcp - GitHub: https://github.com/lulzasaur9192/marketplace-search-mcp - Smithery: Listed - Glama: https://glama.ai/mcp/servers/@lulzasaur9192/marketplace-search-mcp Description MCP server for searching multiple online marketplaces. Includes 6 tools: - TCGPlayer - Search trading cards (Pokémon, Magic, Yu-Gi-Oh) - Reverb - Search music gear and instruments - Thumbtack - Search local service professionals - Cont",
+  "author": "lulzasaur9192",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/lulzasaur9192/marketplace-search-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249239Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249240Z",
+  "repo_url": {
+   "url": "https://github.com/lulzasaur9192/marketplace-search-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-19T23:24:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 946,
+  "comment_author": "lulzasaur9192"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "marketplace-search"
+ }
+}

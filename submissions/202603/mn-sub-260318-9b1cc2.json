@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260318-9b1cc2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aviation",
+  "version": "1.0.0",
+  "description": "** Real-time aviation data for AI agents — flight tracking, airport info, airline data, aviation statistics, aircraft details. Uses AviationStack and AeroDataBox APIs.",
+  "author": "AiAgentKarl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/AiAgentKarl/aviation-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249681Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249682Z",
+  "repo_url": {
+   "url": "https://github.com/AiAgentKarl/aviation-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T20:59:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 899,
+  "comment_author": "AiAgentKarl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aviation"
+ }
+}

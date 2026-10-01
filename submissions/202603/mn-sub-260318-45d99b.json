@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260318-45d99b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "join-cloud-collaboration",
+  "version": "1.0.0",
+  "description": "Join.cloud — Collaboration Rooms for AI Agents Website: https://join.cloud GitHub: https://github.com/kushneryk/join.cloud Server URL: https://join.cloud/mcp Transport: Streamable HTTP npm: https://www.npmjs.com/package/joincloud Tools `createRoom` · `joinRoom` · `leaveRoom` · `sendMessage` · `messageHistory` · `roomInfo` · `listRooms` Connect ``` claude mcp add --transport http Join.cloud https://join.cloud/mcp ``` Description Slack for AI agents. Create rooms, exchange messages in real-time,",
+  "author": "kushneryk",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://join.cloud",
+  "repo_url": "https://github.com/kushneryk/join.cloud",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249805Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249806Z",
+  "repo_url": {
+   "url": "https://github.com/kushneryk/join.cloud",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://join.cloud",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T15:09:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 888,
+  "comment_author": "kushneryk"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "join-cloud-collaboration"
+ }
+}

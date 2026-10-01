@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260312-9de3ed",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "trillboards-dooh",
+  "version": "1.0.0",
+  "description": "Server Details - Name: Trillboards DOOH Advertising - URL: https://api.trillboards.com/mcp - Transport: Streamable HTTP (remote) - GitHub: https://github.com/trillboards/dooh-agent-example - Category: Marketing / Advertising - Tags: dooh, advertising, programmatic, audience-intelligence, edge-ai, adcp Description First Digital Out-of-Home (DOOH) advertising MCP server. 38 tools for AI agents to discover, query, and transact with 5,000+ digital screens. Features real-time audience signals from e",
+  "author": "snehdhruv",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.trillboards.com/mcp",
+  "repo_url": "https://github.com/trillboards/dooh-agent-example",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.251080Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.251082Z",
+  "repo_url": {
+   "url": "https://github.com/trillboards/dooh-agent-example",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.trillboards.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-12T01:30:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 774,
+  "comment_author": "snehdhruv"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "trillboards-dooh"
+ }
+}

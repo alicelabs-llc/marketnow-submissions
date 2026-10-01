@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260318-347821",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "discolike-b2b",
+  "version": "1.0.0",
+  "description": "Server Name DiscoLike Description B2B company discovery and contact intelligence MCP server. Search 65M+ domains across 180+ countries by similarity or natural language. Enrich with firmographics, technographics, and decision-maker contacts. Server URL https://api.discolike.com/v1/mcp Website https://discolike.com Transport Streamable HTTP Authentication OAuth 2.1 Tools 26 tools across six categories: - Discovery & Search — Describe your ideal customer in natural language and get ranked matches",
+  "author": "yudelevi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.discolike.com/v1/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250260Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250262Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.discolike.com/v1/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-18T00:06:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 855,
+  "comment_author": "yudelevi"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "discolike-b2b"
+ }
+}

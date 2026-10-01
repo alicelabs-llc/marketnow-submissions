@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260317-f76a47",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "uplo-organizational-digital-twin-for-ai",
+  "version": "1.0.0",
+  "description": "Server Information Name: UPLO — Organizational Digital Twin for AI npm Package: @agentdocs/mcp-server Homepage: https://uplo.ai Repository: https://github.com/anthropics/uplo Description 21-tool MCP server for organizational knowledge. Ingest 1,400+ document formats, extract structured data with 195 industry schemas, query via GraphRAG search. Installation ```bash npx -y @agentdocs/mcp-server ``` Or with Docker: ```bash docker pull uplo/mcp-server ``` Claude Desktop Config ```json { \"mcpServers",
+  "author": "RooJenkins",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @agentdocs/mcp-server",
+  "homepage": "https://uplo.ai",
+  "repo_url": "https://github.com/anthropics/uplo",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250312Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250313Z",
+  "repo_url": {
+   "url": "https://github.com/anthropics/uplo",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @agentdocs/mcp-server",
+   "registry": "npm",
+   "package": "@agentdocs/mcp-server",
+   "ok": false,
+   "status": 0
+  },
+  "homepage": {
+   "url": "https://uplo.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-17T08:13:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 847,
+  "comment_author": "RooJenkins"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "uplo-organizational-digital-twin-for-ai"
+ }
+}

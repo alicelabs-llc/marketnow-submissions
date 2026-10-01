@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260314-7e22be",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "government-open",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Government Open Data & Public Records MCP - GitHub: https://github.com/Two-Hundred-OK/API-Factory (under `apis/gov-open-data-mcp`) - MCP Endpoint: https://gov-open-data-mcp.two-hundred-ok.workers.dev/mcp - Health Check: https://gov-open-data-mcp.two-hundred-ok.workers.dev/health - Transport: Streamable HTTP (Cloudflare Workers) - License: MIT Description AI agents get structured access to US government open datasets via data.gov and CKAN portals. Search thousands of federal",
+  "author": "tomer-bdbd",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gov-open-data-mcp.two-hundred-ok.workers.dev/mcp",
+  "repo_url": "https://github.com/Two-Hundred-OK/API-Factory",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.250681Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.250683Z",
+  "repo_url": {
+   "url": "https://github.com/Two-Hundred-OK/API-Factory",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gov-open-data-mcp.two-hundred-ok.workers.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-14T09:25:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 810,
+  "comment_author": "tomer-bdbd"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "government-open"
+ }
+}

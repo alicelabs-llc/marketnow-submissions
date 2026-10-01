@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260319-0ae8e7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "actual-budget-mcp",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission Name: actual-budget-mcp Repository: https://github.com/henfrydls/actual-budget-mcp npm: https://www.npmjs.com/package/actual-budget-mcp Category: Finance / Personal Finance / Budgeting Tags: actual-budget, budgeting, finance, personal-finance, mcp, claude Description MCP server for [Actual Budget](https://actualbudget.org/) — talk to your budget through Claude. 18 tools for reading, analyzing, and managing personal finances with natural language dates, name resolution,",
+  "author": "henfrydls",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y actual-budget-mcp",
+  "homepage": "https://www.npmjs.com/package/actual-budget-mcp",
+  "repo_url": "https://github.com/henfrydls/actual-budget-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:37:54.249584Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:37:54.249586Z",
+  "repo_url": {
+   "url": "https://github.com/henfrydls/actual-budget-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y actual-budget-mcp",
+   "registry": "npm",
+   "package": "actual-budget-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/actual-budget-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-19T02:18:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 908,
+  "comment_author": "henfrydls"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "actual-budget-mcp"
+ }
+}
