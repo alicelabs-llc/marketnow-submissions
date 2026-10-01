@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:07:10.587Z",
+ "updated_at": "2026-10-01T04:07:26.227Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3743,6 +3743,18 @@
    "from": "ip:20fc69af7312",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-7564c7.json"
+  },
+  {
+   "id": "mn-sub-261001-be928d",
+   "name": "dns-doctor-hosted-mcp-server-for-scanning-fixing-and-verifyi",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 48,
+   "submitted_at": "2026-10-01T04:07:25.286Z",
+   "from": "ip:e0fe80bab20a",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-be928d.json"
   }
  ],
  "l2_pass": {
