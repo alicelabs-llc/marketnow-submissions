@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-b84ea6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nudgebell",
+  "version": "1.0.0",
+  "description": "NudgeBell (remote MCP server) Endpoint: https://nudgebell.app/api/v1/mcp Docs: https://nudgebell.app/docs Auth: API key header (X-API-Key or Authorization: Bearer), free account at nudgebell.app Reminders your agent creates across email, WhatsApp, SMS and phone calls, in the steps and timing the user sets. Stops when they acknowledge. Tools: create_reminder, list_reminders, get_reminder, get_reminder_status, pause_reminder, cancel_reminder, get_account.",
+  "author": "Aditya-A-G",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nudgebell.app/api/v1/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:19.129964Z",
+  "duration_ms": 1691,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:19.129990Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://nudgebell.app/api/v1/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:19.129993Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nudgebell"
+ }
+}
