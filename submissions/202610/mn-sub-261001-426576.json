@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-426576",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentfem-mcp",
+  "version": "1.0.0",
+  "description": "Please consider AgentFEM MCP for the directory. I maintain the project. - Repository: https://github.com/haoming-luo/agentfem-mcp - Package: https://pypi.org/project/agentfem-mcp/ - Documentation: https://haoming-luo.github.io/agentfem/agents/mcp/ - Official registry ID: io.github.haoming-luo/agentfem - License: Apache-2.0 - Transport: local stdio (not a hosted HTTP endpoint) AgentFEM MCP exposes seven tools for inspecting the installed numerical runtime, creating and checking finite-element pro",
+  "author": "haoming-luo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://haoming-luo.github.io/agentfem/agents/mcp/",
+  "repo_url": "https://github.com/haoming-luo/agentfem-mcp",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:42.821908Z",
+  "duration_ms": 819,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:42.821959Z",
+  "repo_url": {
+   "url": "https://github.com/haoming-luo/agentfem-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://haoming-luo.github.io/agentfem/agents/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:42.821963Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentfem-mcp"
+ }
+}
