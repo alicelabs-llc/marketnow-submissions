@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-a0d98d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wago-plc-mcp-server",
+  "version": "1.0.0",
+  "description": "# WAGO PLC MCP Server Connects AI agents to WAGO controllers (CC100, PFC100/200/300, Edge Controller, WP400, TP600) through the native WDA REST API over HTTPS. Agents discover, read and monitor PLC parameters, run methods and use watchlists across a fleet. Read-only by default: writes, method calls and file uploads need an explicit opt-in, and reboot/factory-reset/firmware methods stay blocked. Every write and refusal lands in a tamper-evident audit log. - Repository: https://github.com/WagoAlex",
+  "author": "WagoAlex",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/wago-plc-mcp-server/",
+  "repo_url": "https://github.com/WagoAlex/wago-plc-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:11.775774Z",
+  "duration_ms": 800,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:11.775800Z",
+  "repo_url": {
+   "url": "https://github.com/WagoAlex/wago-plc-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/wago-plc-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:11.775803Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wago-plc-mcp-server"
+ }
+}
