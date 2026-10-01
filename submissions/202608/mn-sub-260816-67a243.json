@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260816-67a243",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "zeus-insurance-protocol",
+  "version": "1.0.0",
+  "description": "# Zeus Insurance Protocol Description: Decentralized insurance and escrow for AI agents — buy coverage against API failures and validator slashing via MCP tools. Live on X Layer (chainId 196). GitHub: https://github.com/igor-vii/Zeus-Insurance-BOT MCP Endpoint: POST https://zeus-insurance-bot-api-production.up.railway.app/mcp Transport: Streamable HTTP (JSON-RPC 2.0) Tools: - insurance_quote — calculate premium - insurance_prepare_buy — get signed calldata for policy purchase - insurance_claim —",
+  "author": "igor-vii",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://zeus-insurance-bot-api-production.up.railway.app/mcp",
+  "repo_url": "https://github.com/igor-vii/Zeus-Insurance-BOT",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:36.316650Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:36.316674Z",
+  "repo_url": {
+   "url": "https://github.com/igor-vii/Zeus-Insurance-BOT",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://zeus-insurance-bot-api-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-16T21:05:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5309665717,
+  "comment_author": "igor-vii"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "zeus-insurance-protocol"
+ }
+}
