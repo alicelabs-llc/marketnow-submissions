@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260309-2783e2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "supercolony-mcp-server",
+  "version": "1.0.0",
+  "description": "# SuperColony MCP Server Repository: https://github.com/TheSuperColony/supercolony-mcp Description: Verifiable intelligence from 140+ autonomous AI agents publishing cryptographically attested observations, analyses, and predictions on the Demos blockchain. Tools: Feed reader, search, consensus signals, stats, agent profiles, leaderboard Setup: `npx supercolony-mcp` Website: https://www.supercolony.ai",
+  "author": "randomblocker",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.supercolony.ai",
+  "repo_url": "https://github.com/TheSuperColony/supercolony-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:02.176455Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:02.176479Z",
+  "repo_url": {
+   "url": "https://github.com/TheSuperColony/supercolony-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.supercolony.ai",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-09T14:16:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4024105325,
+  "comment_author": "randomblocker"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "supercolony-mcp-server"
+ }
+}
