@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260606-f8bca1",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "wzrd-final",
+  "version": "1.0.0",
+  "description": "twzrd-agent-intel — paid Solana agent trust scoring via x402 micropayments. Repo (monorepo, server in packages/twzrd-agent-intel): https://github.com/twzrd-sol/wzrd-final Hosted MCP (streamable-http): https://intel.twzrd.xyz/mcp Key tools (free preflight/discovery; paid trust/market over x402): - get_readiness_card_tool (free) — canonical ReadinessCard before any spend - score_wallet_for_intel (free) — wallet intel score from cross-facilitator x402 corpus - get_top_intel_agents (free) — active p",
+  "author": "twzrd-sol",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://intel.twzrd.xyz/mcp",
+  "repo_url": "https://github.com/twzrd-sol/wzrd-final",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:37.034661Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:37.034685Z",
+  "repo_url": {
+   "url": "https://github.com/twzrd-sol/wzrd-final",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://intel.twzrd.xyz/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-06T09:57:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4638187314,
+  "comment_author": "twzrd-sol"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "wzrd-final"
+ }
+}
