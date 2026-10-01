@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-50782d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "4dlivetoday-mcp",
+  "version": "1.0.0",
+  "description": "4D Results (Malaysia, Singapore, Cambodia) — remote MCP server, no key needed: https://4dlivetoday.com/mcp Repo: https://github.com/oddsflowai-team/4dlivetoday-mcp Official 4D lottery results and draw history for Magnum, Da Ma Cai, Sports Toto, Singapore Pools, Sabah 88, STC, Cash Sweep, Grand Dragon, Perdana and 9 Lotto, plus Toto 5D/6D/Star/Power/Supreme, Magnum Life and Singapore Toto. Six read-only tools (latest results, results by date, operator history, number lookup, other games, draw sch",
+  "author": "oddsflowai-team",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://4dlivetoday.com/mcp",
+  "repo_url": "https://github.com/oddsflowai-team/4dlivetoday-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:39.476561Z",
+  "duration_ms": 1274,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:39.476589Z",
+  "repo_url": {
+   "url": "https://github.com/oddsflowai-team/4dlivetoday-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://4dlivetoday.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:39.476592Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "4dlivetoday-mcp"
+ }
+}
