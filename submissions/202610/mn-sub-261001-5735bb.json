@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-5735bb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "quicks3",
+  "version": "1.0.0",
+  "description": "# quickS3 Hosted MCP server that gives AI agents access to S3-compatible storage without handing them access keys. Agents sign in with OAuth, and the storage owner picks which roles (buckets, folders, read or write) each agent gets. Agents can list connections, buckets, and folders, create single-use download links, create expiring share links, and get presigned upload URLs that never overwrite a file by default. File contents go directly between the agent and the storage provider, not through q",
+  "author": "chrisDeFouRire",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://quicks3.com/mcp",
+  "repo_url": "https://github.com/QuickS3-com/skill",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:16.147156Z",
+  "duration_ms": 1037,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:16.147186Z",
+  "repo_url": {
+   "url": "https://github.com/QuickS3-com/skill",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://quicks3.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:16.147189Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "quicks3"
+ }
+}
