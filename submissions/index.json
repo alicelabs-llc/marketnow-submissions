@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:05:48.185Z",
+ "updated_at": "2026-10-01T04:05:55.163Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3527,6 +3527,18 @@
    "from": "ip:407199849397",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-379298.json"
+  },
+  {
+   "id": "mn-sub-261001-ba9b59",
+   "name": "zihin-mcp-server-for-the-zihinaihttpszihinai-agent-platform-",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 48,
+   "submitted_at": "2026-10-01T04:05:54.055Z",
+   "from": "ip:407199849397",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-ba9b59.json"
   }
  ],
  "l2_pass": {
