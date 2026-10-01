@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260324-694ff0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "zerodb-mcp-server",
+  "version": "1.0.0",
+  "description": "ZeroDB MCP Server — Persistent knowledge layer for AI agents Package: `ainative-zerodb-mcp-server` (npm) URL: https://github.com/AINative-Studio/ainative-zerodb-mcp-server npm: https://www.npmjs.com/package/ainative-zerodb-mcp-server Tools: 77 (all annotated with readOnly/destructive/idempotent hints per MCP spec 2025-03-26) Categories: database, vector-search, memory, embeddings, nosql, file-storage, postgres, quantum Features: - Vector search (384/768/1024/1536 dimensions) - Persistent agent m",
+  "author": "urbantech",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/ainative-zerodb-mcp-server",
+  "repo_url": "https://github.com/AINative-Studio/ainative-zerodb-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:39.600631Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:39.600656Z",
+  "repo_url": {
+   "url": "https://github.com/AINative-Studio/ainative-zerodb-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/ainative-zerodb-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-24T05:05:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4115421813,
+  "comment_author": "urbantech"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "zerodb-mcp-server"
+ }
+}
