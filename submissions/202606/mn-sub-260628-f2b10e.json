@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260628-f2b10e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "neuron-whatsapp-automation-platform",
+  "version": "1.0.0",
+  "description": "# Neuron - WhatsApp Automation Platform Server URL: https://mcp.neuron.ng/mcp Website: https://neuron.ng Transport: Streamable HTTP Tools: 120+ Description Neuron is a comprehensive WhatsApp automation platform with an MCP server exposing 120+ tools. It enables AI coding assistants (Claude Code, Cursor, Windsurf) to manage WhatsApp bots, conversations, broadcasts, campaigns, contacts, knowledge bases, newsletters, and more — all through MCP. Key Features - AI chatbot creation and management with",
+  "author": "conquext",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.neuron.ng/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:42.923590Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:42.923618Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.neuron.ng/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-28T08:41:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4825411857,
+  "comment_author": "conquext"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "neuron-whatsapp-automation-platform"
+ }
+}
