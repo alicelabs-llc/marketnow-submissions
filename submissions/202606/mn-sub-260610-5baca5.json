@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260610-5baca5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gulltoppr",
+  "version": "1.0.0",
+  "description": "🐴 Gulltoppr — let any AI agent interact with any smart contract on any EVM chain. Resolves any contract's ABI (even unverified contracts, via heimdall decompilation with provenance tags), reads state, simulates calls, and prepares non-custodial transactions (the user signs in their own wallet). - Remote MCP (Streamable HTTP, no auth): `https://mcp.gulltoppr.dev/mcp` - Repo: https://github.com/portdeveloper/gulltoppr - Site + live demo: https://gulltoppr.dev/ - Logo: https://raw.githubusercontent",
+  "author": "portdeveloper",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.gulltoppr.dev/mcp",
+  "repo_url": "https://github.com/portdeveloper/gulltoppr",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:09.651488Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:09.651512Z",
+  "repo_url": {
+   "url": "https://github.com/portdeveloper/gulltoppr",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.gulltoppr.dev/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-10T11:42:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4669780579,
+  "comment_author": "portdeveloper"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gulltoppr"
+ }
+}
