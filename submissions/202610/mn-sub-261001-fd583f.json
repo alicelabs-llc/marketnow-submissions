@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-fd583f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "magicinterview-plugin",
+  "version": "1.0.0",
+  "description": "MagicInterview — live suggestions for what to say next in job interviews, client calls, and meetings. Remote MCP server (Streamable HTTP): https://magicinterview.app/mcp Official MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.samihalawa%2Fmagicinterview Plugin repository and setup: https://github.com/samihalawa/magicinterview-plugin The server uses OAuth for account access and supports managing conversation context, projects, and debug logs.",
+  "author": "samihalawa",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://magicinterview.app/mcp",
+  "repo_url": "https://github.com/samihalawa/magicinterview-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:44.211471Z",
+  "duration_ms": 1143,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:44.211500Z",
+  "repo_url": {
+   "url": "https://github.com/samihalawa/magicinterview-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://magicinterview.app/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:44.211503Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "magicinterview-plugin"
+ }
+}
