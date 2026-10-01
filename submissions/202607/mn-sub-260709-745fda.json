@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260709-745fda",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "add-fmcsa-new-registration-radar-via-apify-mcp",
+  "version": "1.0.0",
+  "description": "Add FMCSA New-Registration Radar via Apify MCP Adding one newly published Yungsten Tech GTM data actor that was not in my earlier bundle. - FMCSA New-Registration Radar: daily new-carrier registration alerts by state, carrier operation type, and fleet-size band, with filed phone/email fields from public FMCSA census data. Useful for freight factoring, trucking insurance, and sales-agent workflows that need the pre-authority registration moment. https://apify.com/yungstentech/fmcsa-new-authority-",
+  "author": "paulmikulskis",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://apify.com/yungstentech/fmcsa-new-authority-radar/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:24.474801Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:24.474834Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://apify.com/yungstentech/fmcsa-new-authority-radar/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-09T07:38:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4922755742,
+  "comment_author": "paulmikulskis"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "add-fmcsa-new-registration-radar-via-apify-mcp"
+ }
+}
