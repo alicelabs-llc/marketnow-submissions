@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260823-5175c8",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "audiogram-api",
+  "version": "1.0.0",
+  "description": "# Audiogram API Audiogram is a remote MCP server for podcast research. It lets AI assistants search Apple Podcasts, process selected published episodes, retrieve available full transcripts, and use them for research, interview preparation, language learning, and PR clip discovery. - [Website and setup](https://audiogramapi.com/connect/?utm_source=mcpso&utm_medium=directory&utm_campaign=first_50_mcp&utm_content=server_listing) - MCP endpoint: `https://mcp.audiogramapi.com/mcp` - Transport: Stream",
+  "author": "Usman-076",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.audiogramapi.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:48.613370Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:48.613391Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.audiogramapi.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-23T23:44:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5389145103,
+  "comment_author": "Usman-076"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "audiogram-api"
+ }
+}
