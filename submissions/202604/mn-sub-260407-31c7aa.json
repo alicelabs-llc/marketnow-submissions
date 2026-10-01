@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260407-31c7aa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "what-it-does",
+  "version": "1.0.0",
+  "description": "WhichModel MCP Server Repository: https://github.com/simonamsharp/whichmodel-mcp Live endpoint: https://whichmodel.dev/mcp Transport: Streamable HTTP (no auth required for free tier) What it does WhichModel helps AI agents choose the right LLM model for any task at the best price. It tracks real-time pricing across 300+ models from all major providers (OpenAI, Anthropic, Google, Meta, Mistral, etc.), refreshed every 4 hours. Tools - recommend_model — Get the cheapest model for a task type, compl",
+  "author": "simonamsharp",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://whichmodel.dev/mcp",
+  "repo_url": "https://github.com/simonamsharp/whichmodel-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:36.461116Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:36.461154Z",
+  "repo_url": {
+   "url": "https://github.com/simonamsharp/whichmodel-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://whichmodel.dev/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-07T09:28:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4197942855,
+  "comment_author": "simonamsharp"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "what-it-does"
+ }
+}
