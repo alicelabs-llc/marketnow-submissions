@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-83e426",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "invompt",
+  "version": "1.0.0",
+  "description": "Name: Invompt MCP endpoint (Streamable HTTP): https://mcp.invompt.com/mcp Description: Turn AI-host work into invoices you review before send via hosted MCP. Continue anonymously, create the invoice, then claim when you want a saved account. Features: - Continue anonymously / guest — no API key required to start - Hosted MCP: https://mcp.invompt.com/mcp - Review-before-send in the browser - Flow: anonymous → invoice → claim account - Official MCP Registry (LIVE): com.invompt/invompt GitHub: http",
+  "author": "4riel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.invompt.com/mcp",
+  "repo_url": "https://github.com/Invompt/invompt-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:21.641936Z",
+  "duration_ms": 1276,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:21.641963Z",
+  "repo_url": {
+   "url": "https://github.com/Invompt/invompt-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.invompt.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:21.641966Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "invompt"
+ }
+}
