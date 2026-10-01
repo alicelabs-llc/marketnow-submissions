@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260831-79733f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kognite-mcp",
+  "version": "1.0.0",
+  "description": "Kognite — hosted long-term memory for AI agents over MCP (streamable HTTP, nothing to install). Repo/manifest: https://github.com/global-software-development-eu/kognite-mcp Website: https://kognite.dev/ Endpoint: https://mcp.kognite.dev/t/YOUR_API_KEY (free key at https://app.kognite.dev/) Official registry: dev.kognite/memory 12 tools: memory add/search/get/forget, episode logging with automatic fact extraction, knowledge-graph queries, context assembly, and memory-backed skills. Same memory sh",
+  "author": "global-software-development-eu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://kognite.dev/",
+  "repo_url": "https://github.com/global-software-development-eu/kognite-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:14.574486Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:14.574509Z",
+  "repo_url": {
+   "url": "https://github.com/global-software-development-eu/kognite-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://kognite.dev/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-31T09:26:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5476387892,
+  "comment_author": "global-software-development-eu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kognite-mcp"
+ }
+}
