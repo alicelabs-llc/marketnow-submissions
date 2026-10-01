@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260813-fff241",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "render",
+  "version": "1.0.0",
+  "description": "Skillforge Render API Remote MCP server (streamable HTTP, no local install): https://render.skillforge99.com/mcp Tools: screenshot_url, render_pdf, render_og. Auth: Bearer API key (free trial key via POST https://render.skillforge99.com/v1/keys, 100 units, 1 per IP per day; prepaid plans from $10 for 4,000 units), or per-call x402 USDC payment on Base, no account needed. Docs: https://skillforge99.com/render/ Operated by Sunshine Joy LLC. (Non-open-source, so posting here per the submit page's g",
+  "author": "vlantukh-lucasys",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://render.skillforge99.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:30.154355Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:30.154383Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://render.skillforge99.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-13T17:55:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5284427897,
+  "comment_author": "vlantukh-lucasys"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "render"
+ }
+}
