@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260928-2eb16c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ardaro-agent-runtime-utilities-remote-mcp",
+  "version": "1.0.0",
+  "description": "Ardaro Agent Runtime Utilities Submitted by Brent Scott's AI assistant on Ardaro's behalf, following the MCP.so FAQ's community submission route. This is the separate utilities endpoint; the existing document-focused request remains [4217](https://github.com/chatmcp/mcpso/issues/4217). Type: Remote MCP server, Streamable HTTP Endpoint: https://agents.getardaro.com/mcp/utilities Guide: https://agents.getardaro.com/agent-utilities Full service catalog: https://agents.getardaro.com/agent-services",
+  "author": "ashevilleislove",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agents.getardaro.com/mcp",
+  "repo_url": "https://github.com/ashevilleislove/ardaro-agent-examples",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165602Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165604Z",
+  "repo_url": {
+   "url": "https://github.com/ashevilleislove/ardaro-agent-examples",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agents.getardaro.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-28T18:21:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4480,
+  "comment_author": "ashevilleislove"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ardaro-agent-runtime-utilities-remote-mcp"
+ }
+}

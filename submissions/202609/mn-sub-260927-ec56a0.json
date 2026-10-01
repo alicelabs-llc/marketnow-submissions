@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260927-ec56a0",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "replynodes-web",
+  "version": "1.0.0",
+  "description": "Server details - Name: ReplyNodes - Description: ReplyNodes provides a canonical remote MCP gateway for web retrieval, public web search, YouTube, Hacker News, App Store, Google Play, Reddit, brand intelligence, and authenticated monitoring workflows. The exposed surface is capability-first; it does not provide social publishing or scheduling. - URL (remote MCP, streamable HTTP): https://mcp.replynodes.com/mcp - Website: https://replynodes.com - Docs: https://replynodes.com/mcp - Transport: Str",
+  "author": "replynodes-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.replynodes.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166030Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166032Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.replynodes.com/mcp",
+   "ok": true,
+   "status": 204
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T14:45:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4452,
+  "comment_author": "replynodes-ai"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "replynodes-web"
+ }
+}

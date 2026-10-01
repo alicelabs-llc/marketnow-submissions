@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-379194",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mediafast-reddit-marketing-for-ai-agents",
+  "version": "1.0.0",
+  "description": "Server details - Name: MediaFast - Description: Reddit marketing for AI agents. Finds subreddits where a product can be promoted (with karma and account age requirements, the post format each sub accepts and where the product may be mentioned), drafts rule-aware Reddit posts, finds live threads worth commenting on, checks a Reddit account for a shadowban and builds a day-by-day growth plan. Free plan available. - Remote MCP (streamable HTTP): https://api.mediafa.st/mcp - Auth: OAuth (sign in wi",
+  "author": "arthuryuzbashev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.mediafa.st/mcp",
+  "repo_url": "https://github.com/arthuryuzbashev/mediafast-skills",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165972Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165973Z",
+  "repo_url": {
+   "url": "https://github.com/arthuryuzbashev/mediafast-skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.mediafa.st/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T18:03:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4459,
+  "comment_author": "arthuryuzbashev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mediafast-reddit-marketing-for-ai-agents"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260926-ab3bb8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "flightclaw",
+  "version": "1.0.0",
+  "description": "Search ~300 airlines and book flights from chat with a secure checkout link",
+  "author": "jackculpan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.flightclaw.com/mcp",
+  "repo_url": "https://github.com/flightclaw/agents",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166723Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166725Z",
+  "repo_url": {
+   "url": "https://github.com/flightclaw/agents",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.flightclaw.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T16:36:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4417,
+  "comment_author": "jackculpan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "flightclaw"
+ }
+}

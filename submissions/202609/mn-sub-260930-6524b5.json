@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260930-6524b5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "promoshot-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Submission I would like to submit the following MCP server for inclusion on MCP.so: PromoShot - GitHub: https://github.com/GarAlex/promoshot - Website / docs: https://promoshot.app/mcp - Official MCP Registry: `io.github.GarAlex/promoshot` v0.3.2 - Docker / OCI: `docker pull ghcr.io/garalex/promoshot-mcp:v0.3.2` - License: Apache-2.0 - Transport: stdio (local / containerized) - Description: Headless Rust MCP for authoring and rendering PromoShot `.promo` video projects (stills, GIFs,",
+  "author": "GarAlex",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://promoshot.app/mcp",
+  "repo_url": "https://github.com/GarAlex/promoshot",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164685Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164687Z",
+  "repo_url": {
+   "url": "https://github.com/GarAlex/promoshot",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://promoshot.app/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T15:06:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4536,
+  "comment_author": "GarAlex"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "promoshot-mcp"
+ }
+}

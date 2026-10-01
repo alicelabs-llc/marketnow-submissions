@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260930-4d8c12",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "skylit",
+  "version": "1.0.0",
+  "description": "Submit Remote MCP Server: Skylit (options flow, volatility and dealer-positioning market data) — https://github.com/SkylitAI/skylit-mcp",
+  "author": "glitchspx",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.skylit.ai/mcp",
+  "repo_url": "https://github.com/SkylitAI/skylit-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164512Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164514Z",
+  "repo_url": {
+   "url": "https://github.com/SkylitAI/skylit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.skylit.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T22:47:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4547,
+  "comment_author": "glitchspx"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "skylit"
+ }
+}

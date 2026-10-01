@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260930-9c8374",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shopify-change-intelligence",
+  "version": "1.0.0",
+  "description": "Monitor any public Shopify store. Free live snapshot; paid change intelligence (new/removed products, price moves, stock) and competitor reports in USDC via x402 on Base.",
+  "author": "contentforge-press",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://shopify-intel.contentforge-press.workers.dev",
+  "repo_url": "https://github.com/contentforge-press/shopify-change-intelligence",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164703Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164705Z",
+  "repo_url": {
+   "url": "https://github.com/contentforge-press/shopify-change-intelligence",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://shopify-intel.contentforge-press.workers.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T14:33:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4535,
+  "comment_author": "contentforge-press"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shopify-change-intelligence"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260929-6aaade",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "easypdf-edit",
+  "version": "1.0.0",
+  "description": "Please add EasyPDF to the directory (remote server). Demo (21 s): one request, two edits written into the original invoice, fonts and layout kept. https://github.com/user-attachments/assets/7eae0cd7-aea4-478e-b06c-91234c613fa4 - Repository and setup documentation: https://github.com/Lorenzino69/easypdf-mcp - Website and setup guide: https://www.easypdf.fr/ai-assistants - Remote endpoint: https://www.easypdf.fr/mcp - Transport: Streamable HTTP - Authentication: OAuth 2.1 with Google sign-in and d",
+  "author": "Lorenzino69",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.easypdf.fr/mcp",
+  "repo_url": "https://github.com/Lorenzino69/easypdf-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165026Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165028Z",
+  "repo_url": {
+   "url": "https://github.com/Lorenzino69/easypdf-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.easypdf.fr/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T19:43:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4516,
+  "comment_author": "Lorenzino69"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "easypdf-edit"
+ }
+}

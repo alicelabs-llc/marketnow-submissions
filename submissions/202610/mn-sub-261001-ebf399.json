@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-261001-ebf399",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "opc-ua-nodeset-gate",
+  "version": "1.0.0",
+  "description": "OPC UA NodeSet Gate Deterministic static release-compatibility preflight for OPC UA NodeSet2 XML revisions. It reports breaking, review-required and additive structural changes; it does not certify runtime interoperability or machine safety. - Publisher: RegEvidenceHub — https://regevidencehub.com/ - Public connector metadata repository: https://github.com/ChanghuLiu/opc-ua-nodeset-gate-connector - Website: https://nodeset.regevidencehub.com/ - Hosted MCP endpoint: https://nodeset.regevidencehu",
+  "author": "ChanghuLiu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nodeset.regevidencehub.com/mcp",
+  "repo_url": "https://github.com/ChanghuLiu/opc-ua-nodeset-gate-connector",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164349Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164352Z",
+  "repo_url": {
+   "url": "https://github.com/ChanghuLiu/opc-ua-nodeset-gate-connector",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nodeset.regevidencehub.com/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T00:05:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4553,
+  "comment_author": "ChanghuLiu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "opc-ua-nodeset-gate"
+ }
+}

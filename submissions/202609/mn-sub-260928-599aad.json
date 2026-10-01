@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260928-599aad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "internet-radio",
+  "version": "1.0.0",
+  "description": "MCP Server Submission - Name: Internet Radio (internet-radio-mcp) - Repository URL: https://github.com/AlonDrilich/internet-radio-mcp - Website: https://72fm.com - Transport: stdio - Platform: any OS with Node.js 20+ - License: MIT (code); station data from Radio Browser, public domain - Category: Media / Entertainment Description Search internet radio stations worldwide from the public-domain Radio Browser directory (50,000+ stations with working streams): by name, genre, country or language.",
+  "author": "AlonDrilich",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y github",
+  "homepage": "https://72fm.com",
+  "repo_url": "https://github.com/AlonDrilich/internet-radio-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165644Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165645Z",
+  "repo_url": {
+   "url": "https://github.com/AlonDrilich/internet-radio-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y github",
+   "registry": "npm",
+   "package": "github",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://72fm.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-28T14:20:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4478,
+  "comment_author": "AlonDrilich"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "internet-radio"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260929-911fd0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fenbs",
+  "version": "1.0.0",
+  "description": "Name: fenbs Website: https://fenbs.ai Remote MCP endpoint: https://fenbs.ai/api/mcp (streamable HTTP, OAuth sign-in) npm (stdio bridge): `npx -y fenbs-mcp` (https://www.npmjs.com/package/fenbs-mcp) Official MCP Registry: `ai.fenbs/fenbs` Repository: https://github.com/fenbs-ai/fenbs-mcp (MIT) Docs: https://fenbs.ai/docs/mcp Category: Productivity / project management fenbs is a project board where people and AI assistants are both members, each with a role. Over MCP an assistant can list, create",
+  "author": "fenbs-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y fenbs-mcp",
+  "homepage": "https://fenbs.ai",
+  "repo_url": "https://github.com/fenbs-ai/fenbs-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165446Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165448Z",
+  "repo_url": {
+   "url": "https://github.com/fenbs-ai/fenbs-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y fenbs-mcp",
+   "registry": "npm",
+   "package": "fenbs-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://fenbs.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T04:43:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4491,
+  "comment_author": "fenbs-ai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fenbs"
+ }
+}

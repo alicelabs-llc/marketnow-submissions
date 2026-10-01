@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260930-6e81f1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "makeaivideo",
+  "version": "1.0.0",
+  "description": "Submit Remote MCP Server: MakeAIVideo (create AI videos and post them to social accounts) — https://github.com/makeaivideo-ai/mcp",
+  "author": "Partridge12",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @makeaivideo/mcp",
+  "homepage": "https://github.com/makeaivideo-ai/mcp",
+  "repo_url": "https://github.com/makeaivideo-ai/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164532Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164534Z",
+  "repo_url": {
+   "url": "https://github.com/makeaivideo-ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @makeaivideo/mcp",
+   "registry": "npm",
+   "package": "@makeaivideo/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://github.com/makeaivideo-ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T21:46:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4546,
+  "comment_author": "Partridge12"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "makeaivideo"
+ }
+}

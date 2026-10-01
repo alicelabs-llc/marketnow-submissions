@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260927-fd16aa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ply-ui-mcp",
+  "version": "1.0.0",
+  "description": "Submitting an MCP server, as described in the MCP.so FAQ. Name: ply-ui-mcp Type: Local MCP server (stdio) + optional Streamable HTTP Repository: https://github.com/ply-ui-ng/ply (`packages/mcp`) npm: https://www.npmjs.com/package/ply-ui-mcp Install: `npx -y ply-ui-mcp` Homepage / docs: https://ply-ui.com/getting-started/ai-agents-mcp Official MCP Registry: io.github.ply-ui-ng/ply-ui — https://registry.modelcontextprotocol.io/v0.1/servers/io.github.ply-ui-ng%2Fply-ui/versions/latest Smithery: htt",
+  "author": "lussos",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y ply-ui-mcp",
+  "homepage": "https://mcp.ply-ui.com/mcp",
+  "repo_url": "https://github.com/ply-ui-ng/ply",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166013Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166014Z",
+  "repo_url": {
+   "url": "https://github.com/ply-ui-ng/ply",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y ply-ui-mcp",
+   "registry": "npm",
+   "package": "ply-ui-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.ply-ui.com/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T15:03:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4454,
+  "comment_author": "lussos"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ply-ui-mcp"
+ }
+}

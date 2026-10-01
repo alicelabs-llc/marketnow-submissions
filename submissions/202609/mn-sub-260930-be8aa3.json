@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260930-be8aa3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "telofy-ai-phone",
+  "version": "1.0.0",
+  "description": "Telofy - Endpoint: `https://api.telofy.app/mcp` (Streamable HTTP) - Auth: API key as `Authorization: Bearer tlfy_…` (created in the Telofy portal under Integrations) - Website: https://telofy.de - Official MCP Registry: `app.telofy/telofy` - Setup docs: https://github.com/RuJerome/telofy-mcp Telofy is an AI phone receptionist for small businesses in Germany (practices, trades, restaurants, law firms). It answers every call, books and reschedules appointments, takes orders and files a finished s",
+  "author": "RuJerome",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.telofy.app/mcp",
+  "repo_url": "https://github.com/RuJerome/telofy-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164725Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164727Z",
+  "repo_url": {
+   "url": "https://github.com/RuJerome/telofy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.telofy.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T14:26:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4534,
+  "comment_author": "RuJerome"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "telofy-ai-phone"
+ }
+}

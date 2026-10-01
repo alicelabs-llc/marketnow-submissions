@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-390453",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nogpets",
+  "version": "1.0.0",
+  "description": "Submitting a hosted remote MCP server, as described in the MCP.so FAQ. Name: NogPets Type: Hosted remote MCP server (official, run by NogPets) Transport: Streamable HTTP Endpoint: https://mcp.nogpets.com/mcp Authentication: OAuth 2.1 + PKCE, with client ID metadata documents and dynamic client registration (no client id or secret needed) Homepage / docs: https://nogpets.com/developers/mcp Public repository (docs and connect steps): https://github.com/peakxdev/nogpets-mcp Official MCP Registry: c",
+  "author": "peakxdev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.nogpets.com/mcp",
+  "repo_url": "https://github.com/peakxdev/nogpets-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166102Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166104Z",
+  "repo_url": {
+   "url": "https://github.com/peakxdev/nogpets-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.nogpets.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T14:31:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4447,
+  "comment_author": "peakxdev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nogpets"
+ }
+}

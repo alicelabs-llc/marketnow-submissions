@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260930-1652a9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hyperresearch",
+  "version": "1.0.0",
+  "description": "Hyperresearch - Endpoint: `https://mcp.hyperresearch.ai/mcp` (Streamable HTTP) - Auth: OAuth 2.1 with dynamic client registration (RFC 9728 discovery at `/.well-known/oauth-protected-resource`), or an API key with the `mcp` scope as `Authorization: Bearer hr_live_…` - Docs: https://hyperresearch.ai/docs/mcp?utm_source=mcp.so&utm_medium=mcp_directory - Official MCP Registry: `ai.hyperresearch/hyperresearch` - Open-source CLI (separate, MIT): https://github.com/jordan-gibbs/hyperresearch Hosted d",
+  "author": "jordan-gibbs",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.hyperresearch.ai/mcp",
+  "repo_url": "https://github.com/jordan-gibbs/hyperresearch",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164744Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164746Z",
+  "repo_url": {
+   "url": "https://github.com/jordan-gibbs/hyperresearch",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.hyperresearch.ai/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T13:41:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4533,
+  "comment_author": "jordan-gibbs"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hyperresearch"
+ }
+}

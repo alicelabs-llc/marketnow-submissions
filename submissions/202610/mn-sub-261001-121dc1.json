@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-261001-121dc1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "factorytalk-import-preflight",
+  "version": "1.0.0",
+  "description": "FactoryTalk Import Preflight Deterministic preflight of FactoryTalk View tag, digital-alarm and analog-alarm CSV imports. It identifies import-contract exceptions and unsupported inputs; it does not establish runtime correctness, commissioning acceptance or machine safety. - Publisher: RegEvidenceHub — https://regevidencehub.com/ - Public connector metadata repository: https://github.com/ChanghuLiu/factorytalk-import-preflight-connector - Website: https://factorytalk.regevidencehub.com/ - Hoste",
+  "author": "ChanghuLiu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://factorytalk.regevidencehub.com/mcp",
+  "repo_url": "https://github.com/ChanghuLiu/factorytalk-import-preflight-connector",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164387Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164389Z",
+  "repo_url": {
+   "url": "https://github.com/ChanghuLiu/factorytalk-import-preflight-connector",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://factorytalk.regevidencehub.com/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T00:05:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4552,
+  "comment_author": "ChanghuLiu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "factorytalk-import-preflight"
+ }
+}

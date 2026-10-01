@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260927-0aeb1e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "usetested-receipts",
+  "version": "1.0.0",
+  "description": "Server details - Name: UseTested - Description: Receipts-verified reviews of x402 services and paid APIs. UseTested buys and tests paid services with real money, then publishes structured reviews anchored to on-chain purchase receipts: aliveness, real price vs advertised, measured latency, error rates, BUY/CAUTION/AVOID verdicts. 57% of listed x402 services are dead or never settle — check before you spend. - URL (remote MCP, streamable-http): https://usetested.com/mcp - Website: https://usetes",
+  "author": "sharan01x",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://usetested.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166047Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166049Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://usetested.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T14:40:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4451,
+  "comment_author": "sharan01x"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "usetested-receipts"
+ }
+}

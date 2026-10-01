@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-34e167",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "career-page-jobs-on-apify-mcp",
+  "version": "1.0.0",
+  "description": "returns the open jobs of the companies you name, read live from their career pages on Greenhouse, Lever, Ashby, Workday and 18 more job boards, and searches the open jobs of 824 tech, AI and remote-first companies by title, place and date.",
+  "author": "donmangudata-ops",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.apify.com/?tools=fetch-actor-details,conserving_celerytop/live-career-page-jobs-api,conserving_celerytop/tech-jobs-search",
+  "repo_url": "https://github.com/donmangudata-ops/apify-jobs-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166267Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166268Z",
+  "repo_url": {
+   "url": "https://github.com/donmangudata-ops/apify-jobs-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.apify.com/?tools=fetch-actor-details,conserving_celerytop/live-career-page-jobs-api,conserving_celerytop/tec",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T08:38:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4438,
+  "comment_author": "donmangudata-ops"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "career-page-jobs-on-apify-mcp"
+ }
+}

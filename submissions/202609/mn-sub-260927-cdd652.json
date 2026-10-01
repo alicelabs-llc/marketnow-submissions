@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-cdd652",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "spicyapi-mcp-spicyapi-ai",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: SpicyAPI MCP (spicyapi.ai) (image & video generation) — https://github.com/Spicy-API/spicy-mcp",
+  "author": "spicyapi-owner",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://spicyapi.ai",
+  "repo_url": "https://github.com/Spicy-API/spicy-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166185Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166188Z",
+  "repo_url": {
+   "url": "https://github.com/Spicy-API/spicy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://spicyapi.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T12:06:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4443,
+  "comment_author": "spicyapi-owner"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "spicyapi-mcp-spicyapi-ai"
+ }
+}

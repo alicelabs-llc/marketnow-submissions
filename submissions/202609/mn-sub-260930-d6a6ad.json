@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260930-d6a6ad",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "muro-paint-colors",
+  "version": "1.0.0",
+  "description": "Muro Paint Colors - Endpoint: `https://mcp.usemuro.com/mcp` (Streamable HTTP, no auth, free) - Paid endpoint: `https://mcp.usemuro.com/account/mcp` (OAuth or `Authorization: Bearer muro_sk_…`, spends the user's Muro credits) - Docs: https://usemuro.com/en/developers - Official MCP Registry: `com.usemuro/paint-colors` - Server card: https://mcp.usemuro.com/.well-known/mcp.json Real paint colours for AI agents: about 51,000 colours from 35 manufacturer catalogues (Sherwin-Williams, Benjamin Moore",
+  "author": "mszyma",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.usemuro.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164761Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164763Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.usemuro.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T12:21:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4532,
+  "comment_author": "mszyma"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "muro-paint-colors"
+ }
+}

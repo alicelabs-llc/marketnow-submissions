@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260928-89f426",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "noor-governance",
+  "version": "1.0.0",
+  "description": "Server Name noor-governance Description The first covenant-governed trust protocol for AI agents. Screen → Attest → Certify → Verify → Reputation → Revoke. Open-source SDK. MIT license. Repository https://github.com/highriseliving777/noor-governance-protocol PyPI Package https://pypi.org/project/noor-governance/ Hosted Endpoint https://jarvis-bridge-jtuc.onrender.com/api/trustchain/status Categories Security, Compliance, AI/Agents, Developer Tools Tools Exposed - lawful_check: Three-tier screen",
+  "author": "highriseliving777",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/noor-governance/",
+  "repo_url": "https://github.com/highriseliving777/noor-governance-protocol",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165583Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165585Z",
+  "repo_url": {
+   "url": "https://github.com/highriseliving777/noor-governance-protocol",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/noor-governance/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-28T18:22:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4481,
+  "comment_author": "highriseliving777"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "noor-governance"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260927-7b2c84",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "craft-color-codes",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: Craft Color Codes (bead, floss, yarn, LEGO and Minecraft color codes) — https://github.com/makebead/craft-color-codes",
+  "author": "yooumuu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y craft-color-codes",
+  "homepage": "https://makebead.com/",
+  "repo_url": "https://github.com/makebead/craft-color-codes",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166247Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166249Z",
+  "repo_url": {
+   "url": "https://github.com/makebead/craft-color-codes",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y craft-color-codes",
+   "registry": "npm",
+   "package": "craft-color-codes",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://makebead.com/",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T09:29:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4440,
+  "comment_author": "yooumuu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "craft-color-codes"
+ }
+}

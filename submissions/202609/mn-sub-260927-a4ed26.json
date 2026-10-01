@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260927-a4ed26",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "runsheet-mcp",
+  "version": "1.0.0",
+  "description": "Submitting an MCP server, as described in the MCP.so FAQ. Name: runsheet-mcp Type: Local MCP server (stdio), official, run by Runsheet Repository: https://github.com/KalpeshMahida0212/runsheet-mcp npm: https://www.npmjs.com/package/runsheet-mcp Install: `npx -y runsheet-mcp`, with `RUNSHEET_API_KEY` set to a key from Runsheet (Settings, API keys). Node 20 or newer, no dependencies. Homepage / docs: https://runsheet.buildifyapp.in/mcp Official MCP Registry: in.buildifyapp.runsheet/youtube-schedul",
+  "author": "KalpeshMahida0212",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y runsheet-mcp",
+  "homepage": "https://runsheet.buildifyapp.in/mcp",
+  "repo_url": "https://github.com/KalpeshMahida0212/runsheet-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166085Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166086Z",
+  "repo_url": {
+   "url": "https://github.com/KalpeshMahida0212/runsheet-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y runsheet-mcp",
+   "registry": "npm",
+   "package": "runsheet-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://runsheet.buildifyapp.in/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T14:35:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4449,
+  "comment_author": "KalpeshMahida0212"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "runsheet-mcp"
+ }
+}

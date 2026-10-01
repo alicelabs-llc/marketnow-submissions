@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260927-89bfde",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apiguru-amazon",
+  "version": "1.0.0",
+  "description": "Server details - Name: Apiguru Amazon Data - Description: Live Amazon marketplace data for AI agents across 20 country marketplaces: product details (single and batch), reviews, keyword search, best-sellers, deals, live offers and stock, seller profiles, seller products and seller reviews. Data is fetched at request time. Works with no account and no API key: a few free calls, then x402 pay-per-call ($0.003 in USDC on Base, Polygon, Arbitrum or Avalanche), or an Apiguru API key. - GitHub: https",
+  "author": "apiguru-app",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y apiguru-mcp",
+  "homepage": "https://mcp.apiguru.app/mcp",
+  "repo_url": "https://github.com/apiguru-app/agent-kit",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165991Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165992Z",
+  "repo_url": {
+   "url": "https://github.com/apiguru-app/agent-kit",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y apiguru-mcp",
+   "registry": "npm",
+   "package": "apiguru-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.apiguru.app/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T16:57:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4458,
+  "comment_author": "apiguru-app"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apiguru-amazon"
+ }
+}

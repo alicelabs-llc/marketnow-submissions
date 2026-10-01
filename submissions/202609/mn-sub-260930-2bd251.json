@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260930-2bd251",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "proxy-shopping",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/pad01g/proxy-shopping-web/tree/main/packages/mcp Install (stdio, Docker, no API key): `docker run -i --rm -v proxy-shopping-mcp:/data ghcr.io/pad01g/proxy-shopping-mcp:0.1.2` Website / docs (14 languages): https://pad01g.github.io/proxy-shopping-docs/ Browser demo (everything simulated in the page): https://pad01g.github.io/proxy-shopping-web/ Logo (400×400): https://raw.githubusercontent.com/pad01g/proxy-shopping-web/main/packages/mcp/logo.png Buy from shops that",
+  "author": "pad01g",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/pad01g/proxy-shopping-web/tree/main/packages/mcp",
+  "repo_url": null,
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164460Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164462Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/pad01g/proxy-shopping-web/tree/main/packages/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T23:14:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4549,
+  "comment_author": "pad01g"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "proxy-shopping"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260926-3055b3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apify-data-tools-headply",
+  "version": "1.0.0",
+  "description": "Live web data tools: Threads, Yelp, YouTube/TikTok transcripts, Google Trends, Airbnb occupancy and Jumia prices",
+  "author": "headply",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.apify.com/?tools=headply/threads-scraper,headply/threads-keyword-search-scraper,headply/yelp-scraper,headply/yelp-reviews-scraper,headply/tiktok-youtube-transcript-scraper,headply/google-trends-scraper,headply/google-trends-trending-now,headply/airbnb-occupancy-revenue-estimator,headply/airbnb-vrbo-scraper,headply/jumia-price-intelligence",
+  "repo_url": "https://github.com/headply/apify-data-tools-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166708Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166709Z",
+  "repo_url": {
+   "url": "https://github.com/headply/apify-data-tools-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.apify.com/?tools=headply/threads-scraper,headply/threads-keyword-search-scraper,headply/yelp-scraper,headply",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T16:56:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4418,
+  "comment_author": "headply"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apify-data-tools-headply"
+ }
+}

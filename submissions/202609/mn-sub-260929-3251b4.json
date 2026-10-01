@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260929-3251b4",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "proofrail-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server verification and compatibility preflight before deployment, with PASS/FAIL/PARTIAL evidence.",
+  "author": "kaattaallaa-sketch",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://drkdm4jd-8767.uks1.devtunnels.ms/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165209Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165211Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://drkdm4jd-8767.uks1.devtunnels.ms/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T14:50:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4507,
+  "comment_author": "kaattaallaa-sketch"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "proofrail-mcp"
+ }
+}

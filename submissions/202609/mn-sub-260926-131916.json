@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260926-131916",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gemmein",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: Gemmein — https://github.com/gemmeinhq/gemmein-release",
+  "author": "gemmeinhq",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @gemmein/mcp",
+  "homepage": "https://gemmein.com",
+  "repo_url": "https://github.com/gemmeinhq/gemmein-release",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166669Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166671Z",
+  "repo_url": {
+   "url": "https://github.com/gemmeinhq/gemmein-release",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @gemmein/mcp",
+   "registry": "npm",
+   "package": "@gemmein/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://gemmein.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T19:46:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4421,
+  "comment_author": "gemmeinhq"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gemmein"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260929-568e1f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "rf-marketplaces-mcp",
+  "version": "1.0.0",
+  "description": "** Wildberries product analytics by article number with no API token: price, discount, rating, reviews (incl. negative-only), stock, delivery time, price history, competitor comparison, review complaint mining and card audit. Optional seller-account tools via the official WB API (sales, orders, stock, replies to reviews and questions).",
+  "author": "penmadebykisss",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/penmadebykisss/rf-marketplaces-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165191Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165193Z",
+  "repo_url": {
+   "url": "https://github.com/penmadebykisss/rf-marketplaces-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T16:13:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4508,
+  "comment_author": "penmadebykisss"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rf-marketplaces-mcp"
+ }
+}

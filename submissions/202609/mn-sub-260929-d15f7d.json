@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260929-d15f7d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "popcraft",
+  "version": "1.0.0",
+  "description": "Submit Remote MCP Server: Popcraft (AI video, image & audio generation, streamable HTTP) — https://github.com/popcraft-ai/popcraft-mcp",
+  "author": "leoeric",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://popcraft.ai/api/mcp",
+  "repo_url": "https://github.com/popcraft-ai/popcraft-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165488Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165491Z",
+  "repo_url": {
+   "url": "https://github.com/popcraft-ai/popcraft-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://popcraft.ai/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T02:55:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4489,
+  "comment_author": "leoeric"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "popcraft"
+ }
+}

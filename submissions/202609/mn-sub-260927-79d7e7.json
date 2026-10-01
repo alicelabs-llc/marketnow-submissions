@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260927-79d7e7",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "bitterclip",
+  "version": "1.0.0",
+  "description": "Submitting a hosted remote MCP server, as described in the MCP.so FAQ. Name: BitterClip Type: Hosted remote MCP server (official, run by SheetGenius, Inc., the company behind BitterClip) Transport: Streamable HTTP Endpoint: https://app.bitterclip.com/mcp Authentication: OAuth 2.1 + PKCE (S256), with dynamic client registration and client ID metadata documents. The person signs in to BitterClip and approves the connection; there is no key to paste. Homepage / docs: https://bitterclip.com/connect",
+  "author": "ruemic",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.bitterclip.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166066Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166068Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://app.bitterclip.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T14:40:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4450,
+  "comment_author": "ruemic"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "bitterclip"
+ }
+}

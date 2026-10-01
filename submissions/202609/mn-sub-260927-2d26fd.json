@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-2d26fd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "opus-growth",
+  "version": "1.0.0",
+  "description": "Submitting a hosted remote MCP server, as described in the MCP.so FAQ. Name: Opus Growth Type: Hosted remote MCP server (official, run by Opus Growth) Transport: Streamable HTTP Endpoint: https://mcp.opus-growth.com/mcp Authentication: OAuth 2.1 with dynamic client registration (DCR) and PKCE — your client opens a browser to sign in; no API key to paste. Homepage: https://opus-growth.com Public repository (docs and client configs): https://github.com/opusgrowth/Opus-Growth-The-MCP-Connector-for-",
+  "author": "opusgrowth",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://opus-growth.com",
+  "repo_url": "https://github.com/opusgrowth/Opus-Growth-The-MCP-Connector-for-Ad-Platforms",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166141Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166143Z",
+  "repo_url": {
+   "url": "https://github.com/opusgrowth/Opus-Growth-The-MCP-Connector-for-Ad-Platforms",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://opus-growth.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T13:11:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4445,
+  "comment_author": "opusgrowth"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "opus-growth"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-261001-dc61ca",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "eye-art-polyphemus",
+  "version": "1.0.0",
+  "description": "One conversational entry point for artist-guided image creation, reference-image edits, webpage-matched visuals from HTML/CSS, compact art, editable SVG, and supported motion. Conversation IDs support follow-up turns; asynchronous jobs can be polled for results. Longer staged workflows may take several minutes. Prompts, references, and conversations may be retained for up to 30 days. Artist names describe visual direction and do not imply endorsement.",
+  "author": "jacobwell",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://eye.art/api/eye-mcp",
+  "repo_url": null,
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164135Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164161Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://eye.art/api/eye-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:07:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4555,
+  "comment_author": "jacobwell"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "eye-art-polyphemus"
+ }
+}

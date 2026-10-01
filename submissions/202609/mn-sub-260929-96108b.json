@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260929-96108b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "webask-mcp-surveys",
+  "version": "1.0.0",
+  "description": "Please add WebAsk MCP to the directory. - Repository and setup documentation: https://github.com/WebAskio/webask-mcp - Website: https://webask.io - Skills and examples: https://webask.io/skills - Remote endpoint: https://mcp.webask.io/mcp/v1 - Transport: Streamable HTTP - Authentication: a user-created WebAsk API key sent as `Authorization: Bearer YOUR_WEBASK_API_KEY` WebAsk MCP provides 161 tools to create and publish surveys, forms and quizzes, collect and manage responses, analyze results and",
+  "author": "SheriffMD",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://webask.io",
+  "repo_url": "https://github.com/WebAskio/webask-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165043Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165044Z",
+  "repo_url": {
+   "url": "https://github.com/WebAskio/webask-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://webask.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T18:31:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4515,
+  "comment_author": "SheriffMD"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "webask-mcp-surveys"
+ }
+}

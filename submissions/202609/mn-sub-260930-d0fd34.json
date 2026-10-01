@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260930-d0fd34",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nebenkostenpro",
+  "version": "1.0.0",
+  "description": "NebenkostenPro MCP - Endpoint: `https://nebenkostenpro.de/mcp` (Streamable HTTP, stateless JSON-RPC 2.0) - Website / setup guide: https://nebenkostenpro.de/mcp - Official MCP Registry: `de.nebenkostenpro/nebenkosten` - Auth: none, free (fair use: 30 calls/min, 500/day per IP) - Language: German data, answers in German Public data on housing costs in Germany for tenants and landlords. All tools are read-only. | Tool | What it returns | |---|---| | `search_places` | Find German cities and municip",
+  "author": "julianfaalk",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nebenkostenpro.de/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164820Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164822Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://nebenkostenpro.de/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T08:56:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4529,
+  "comment_author": "julianfaalk"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nebenkostenpro"
+ }
+}

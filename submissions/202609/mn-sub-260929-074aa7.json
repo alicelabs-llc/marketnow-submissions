@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260929-074aa7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tradehand-browse",
+  "version": "1.0.0",
+  "description": "Please add Tradehand to the directory (remote server). - Website: https://tradehand.com - Developer docs: https://tradehand.com/developers - Repository: https://github.com/Humanleap/tradehand-claude-plugin - Remote endpoint: https://tradehand.com/api/mcp - Transport: Streamable HTTP - Authentication: none for the public tools - Official MCP Registry: `io.github.Humanleap/tradehand` Browse and book local tradespeople in the UK. Find profiles and services, prepare a quote or booking review, then c",
+  "author": "Blakefolgado",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tradehand.com/api/mcp",
+  "repo_url": "https://github.com/Humanleap/tradehand-claude-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165009Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165011Z",
+  "repo_url": {
+   "url": "https://github.com/Humanleap/tradehand-claude-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://tradehand.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T19:54:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4517,
+  "comment_author": "Blakefolgado"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tradehand-browse"
+ }
+}

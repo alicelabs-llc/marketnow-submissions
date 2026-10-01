@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-0c19bc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "web-company-intelligence",
+  "version": "1.0.0",
+  "description": "Submit Remote MCP Server: Web & Company Intelligence (tech stack, company profile, sitemap monitor, URL indexability, EU fuel prices) — https://github.com/moha-tah/web-intelligence-mcp",
+  "author": "moha-tah",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.apify.com/?tools=moha-tah/tech-stack-detector,moha-tah/website-company-profile,moha-tah/sitemap-extractor,moha-tah/url-status-checker,moha-tah/eu-fuel-prices",
+  "repo_url": "https://github.com/moha-tah/web-intelligence-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165862Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165863Z",
+  "repo_url": {
+   "url": "https://github.com/moha-tah/web-intelligence-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.apify.com/?tools=moha-tah/tech-stack-detector,moha-tah/website-company-profile,moha-tah/sitemap-extractor,mo",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T23:51:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4465,
+  "comment_author": "moha-tah"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "web-company-intelligence"
+ }
+}

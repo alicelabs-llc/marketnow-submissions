@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260927-335737",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fieldproxy",
+  "version": "1.0.0",
+  "description": "Submitting a hosted remote MCP server, as described in the MCP.so FAQ. Name: Fieldproxy Type: Hosted remote MCP server (official, run by Fieldproxy) Transport: Streamable HTTP Endpoint (US East): https://api-us-east-1.fieldproxy.ai/mcp Other regions: https://api-canada.fieldproxy.ai/mcp · https://api-india-1.fieldproxy.ai/mcp · https://api-norway.fieldproxy.ai/mcp · https://api-nz.fieldproxy.ai/mcp Authentication: OAuth 2.0 with dynamic client registration (scopes `data:read`, `data:write`, `bui",
+  "author": "codemycompany",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.fieldproxy.ai/mcp/claude",
+  "repo_url": "https://github.com/Fieldproxy/fieldproxy-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166205Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166207Z",
+  "repo_url": {
+   "url": "https://github.com/Fieldproxy/fieldproxy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.fieldproxy.ai/mcp/claude",
+   "ok": false,
+   "status": 429
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T10:27:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4442,
+  "comment_author": "codemycompany"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fieldproxy"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260929-2b9137",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "liquid-agent",
+  "version": "1.0.0",
+  "description": "x402 money tools for AI agents: a one-signature USDC bridge, tokenized US stocks from $1, and gas paid in USDC.",
+  "author": "LeftyChris13",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.liquidagent.ai",
+  "repo_url": "https://github.com/LiquidAgent/liquidagentx402",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165511Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165513Z",
+  "repo_url": {
+   "url": "https://github.com/LiquidAgent/liquidagentx402",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.liquidagent.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T02:13:27Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4488,
+  "comment_author": "LeftyChris13"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "liquid-agent"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260929-1fed8f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wealthnow",
+  "version": "1.0.0",
+  "description": "** Institutional financial data for AI agents, as 276 read-only tools: corporate bond prints, single-name CDS spreads back to 2005, credit-rating actions and syndicated loans; a private-markets graph of 10.6M companies, 3M deals and 645k investors and funds with IRR, DPI and TVPI; a replayable daily options-chain history with greeks, IV and open interest; 13F holdings, Form 4 insider trades and congressional trades; 1.75M earnings-call transcripts and 41.9M corporate events since 1990; point-in-",
+  "author": "Hlobo-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.wealthnow.io/docs/mcp-and-sdks",
+  "repo_url": "https://github.com/Hlobo-dev/wealthnow-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165080Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165081Z",
+  "repo_url": {
+   "url": "https://github.com/Hlobo-dev/wealthnow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.wealthnow.io/docs/mcp-and-sdks",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T17:13:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4513,
+  "comment_author": "Hlobo-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wealthnow"
+ }
+}

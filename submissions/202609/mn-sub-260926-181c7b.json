@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260926-181c7b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "income-factory-toll-fabric",
+  "version": "1.0.0",
+  "description": "Remote Streamable HTTP MCP server exposing one free discovery tool and eight paid machine-intelligence tools. Paid tool calls return native Apify x402 payment paths with per-unit billing metadata; execution remains on the metered x402/PPE rail.",
+  "author": "DataPunterAU",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://income-factory-utility-gateway-production.up.railway.app/mcp",
+  "repo_url": "https://github.com/DataPunterAU/IncomeFactory-Toll-Fabric",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166534Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166536Z",
+  "repo_url": {
+   "url": "https://github.com/DataPunterAU/IncomeFactory-Toll-Fabric",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://income-factory-utility-gateway-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T22:49:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4430,
+  "comment_author": "DataPunterAU"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "income-factory-toll-fabric"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260926-eda597",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "meld-ephemeral-two-party-context-bridge",
+  "version": "1.0.0",
+  "description": "Server - Name: meld - GitHub: https://github.com/lemonaide152/meld - Homepage / live: https://meld.mergeinc.workers.dev - Docs: https://meld.mergeinc.workers.dev/llms.txt - MCP card: https://meld.mergeinc.workers.dev/.well-known/mcp/server-card.json - Agent card: https://meld.mergeinc.workers.dev/.well-known/agent.json One-liner Ephemeral two-party context bridge. Puts context on a URL so neither side has to paste the block. Then the URL dies. Humans free in the browser; agents use a key or quo",
+  "author": "lemonaide152",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://meld.mergeinc.workers.dev",
+  "repo_url": "https://github.com/lemonaide152/meld",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166613Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166614Z",
+  "repo_url": {
+   "url": "https://github.com/lemonaide152/meld",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://meld.mergeinc.workers.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T21:48:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4425,
+  "comment_author": "lemonaide152"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "meld-ephemeral-two-party-context-bridge"
+ }
+}

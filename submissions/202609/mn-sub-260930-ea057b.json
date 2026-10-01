@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260930-ea057b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "readycode-reader",
+  "version": "1.0.0",
+  "description": "ReadyCode Reader - Repository: https://github.com/ReadycodeAI/readycode-reader - Website: https://readycode.ai/reader - npm: https://www.npmjs.com/package/@readycode/reader - License: Apache-2.0 - Install: `npx -y @readycode/reader` Local-first MCP server for asking specific questions of large PDF, Word and Excel files. It uses TypeSafe's Jev decision model to keep answer-relevant evidence, flag conflicting or instruction-like passages, and decide when spreadsheet questions need exact local cal",
+  "author": "ReadycodeAI",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @readycode/reader",
+  "homepage": "https://readycode.ai/reader",
+  "repo_url": "https://github.com/ReadycodeAI/readycode-reader",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164850Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164852Z",
+  "repo_url": {
+   "url": "https://github.com/ReadycodeAI/readycode-reader",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @readycode/reader",
+   "registry": "npm",
+   "package": "@readycode/reader",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://readycode.ai/reader",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T07:57:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4528,
+  "comment_author": "ReadycodeAI"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "readycode-reader"
+ }
+}

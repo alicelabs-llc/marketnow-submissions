@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260929-9bc325",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "peerkith",
+  "version": "1.0.0",
+  "description": "Please list this MCP server on mcp.so via the free submission path. Repository: https://github.com/BGarofalo1/peerkith-mcp npm: https://www.npmjs.com/package/peerkith-mcp (0.5.0, MIT) Install: npx -y peerkith-mcp Homepage: https://peerkith.com/ Name: peerkith Short description: Peerkith MCP (stdio): verify a hire row, post five fields, cap_preflight before spend/send. Zero deps. Experiment — not a marketplace/score/trust layer. Config: ```json {\"mcpServers\":{\"peerkith\":{\"command\":\"npx\",\"args\":[\"",
+  "author": "BGarofalo1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y peerkith-mcp",
+  "homepage": "https://peerkith.com/",
+  "repo_url": "https://github.com/BGarofalo1/peerkith-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165233Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165235Z",
+  "repo_url": {
+   "url": "https://github.com/BGarofalo1/peerkith-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y peerkith-mcp",
+   "registry": "npm",
+   "package": "peerkith-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://peerkith.com/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-29T14:27:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4506,
+  "comment_author": "BGarofalo1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "peerkith"
+ }
+}

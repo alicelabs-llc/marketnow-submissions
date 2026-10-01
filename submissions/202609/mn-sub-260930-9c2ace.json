@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260930-9c2ace",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "invoiceforge-en-16931-and-peppol-e-invoices",
+  "version": "1.0.0",
+  "description": "InvoiceForge - Endpoint: `https://invoiceforge.agenttoolworks.com/mcp` (Streamable HTTP) - Auth: API key as `Authorization: Bearer atw_live_…` (free key with 100 credits at https://agenttoolworks.com/signup, no card) - Website: https://agenttoolworks.com/servers/invoiceforge - Official MCP Registry: `com.agenttoolworks/invoiceforge` - Setup docs: https://agenttoolworks.com/docs - Repository: https://github.com/agenttoolworks/mcp-servers European e-invoicing for agents: generate UBL invoices in",
+  "author": "KOUYATE",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://invoiceforge.agenttoolworks.com/mcp",
+  "repo_url": "https://github.com/agenttoolworks/mcp-servers",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.164644Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.164646Z",
+  "repo_url": {
+   "url": "https://github.com/agenttoolworks/mcp-servers",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://invoiceforge.agenttoolworks.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-30T17:30:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4540,
+  "comment_author": "KOUYATE"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "invoiceforge-en-16931-and-peppol-e-invoices"
+ }
+}

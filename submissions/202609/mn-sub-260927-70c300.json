@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260927-70c300",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "recordist-gateway",
+  "version": "1.0.0",
+  "description": "** Read-only MCP and A2A bridge to the meetings recorded by Recordist on the user's own computer: transcripts, notes, action items and search. It talks only to the Recordist desktop app on 127.0.0.1, so nothing leaves the machine.",
+  "author": "recordist-bot",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @recordist/gateway",
+  "homepage": "https://recordist.app",
+  "repo_url": "https://github.com/recordist-app/gateway",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.166478Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.166480Z",
+  "repo_url": {
+   "url": "https://github.com/recordist-app/gateway",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @recordist/gateway",
+   "registry": "npm",
+   "package": "@recordist/gateway",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://recordist.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T01:21:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4434,
+  "comment_author": "recordist-bot"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "recordist-gateway"
+ }
+}

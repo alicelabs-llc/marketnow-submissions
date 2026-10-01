@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260927-05f4bf",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "bcd-bridge-control",
+  "version": "1.0.0",
+  "description": "Server details - Name: BCD — Bridge Control Delegate - Description: Use your own Mac from ChatGPT, Claude or Codex. A small agent on the Mac connects out to the BCD relay, so the AI can read and organize files, run commands and long-running processes, read and edit PDFs, Word and Excel files, and drive a browser, from any client including your phone. New Macs start read-only; write, command, UI and clipboard access are turned on per Mac by the owner. No inbound ports. - Remote MCP (streamable H",
+  "author": "mikey92",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://bcd.snack-wrap.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:30.165914Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:30.165915Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://bcd.snack-wrap.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-27T20:44:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4462,
+  "comment_author": "mikey92"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "bcd-bridge-control"
+ }
+}
