@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260823-71c868",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lcf-strain-life",
+  "version": "1.0.0",
+  "description": "https://github.com/dfieser/lcf-strain-life lcf-strain-life — low cycle fatigue analysis of materials over MCP. Reduces raw strain-controlled fatigue test data, fits the standard strain-life models (Basquin, Coffin-Manson, Ramberg-Osgood), counts rainflow cycles per ASTM E1049, applies mean-stress corrections, fits statistical design curves, and predicts life. Every method traces to a published, citable source. Local stdio server, Python 3.11+, MIT licensed. No API key and no account, and nothing",
+  "author": "dfieser",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://dfieser.github.io/lcf-strain-life/",
+  "repo_url": "https://github.com/dfieser/lcf-strain-life",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:49.803252Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:49.803278Z",
+  "repo_url": {
+   "url": "https://github.com/dfieser/lcf-strain-life",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://dfieser.github.io/lcf-strain-life/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-23T23:52:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5389176859,
+  "comment_author": "dfieser"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lcf-strain-life"
+ }
+}
