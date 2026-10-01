@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260307-1837ce",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "calcstack-portfolio",
+  "version": "1.0.0",
+  "description": "Calcstack — AI-Powered Creative Suite https://calcstack.co An all-in-one platform with 5 specialized editors: - AI Diagram Generator — text-to-diagram with 3 canvas engines (Excalidraw, React Flow, Draw.io) - Circuit Simulator — 36+ logic components with real-time simulation - AI Workflow Builder — visual node-based editor for AI agent pipelines - CV & Resume Builder — ATS-optimized with AI suggestions - Mind Map Editor — AI-powered brainstorming Supports multi-model AI (GPT-4o, Claude, OpenRout",
+  "author": "awaisshah228",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://calcstack.co",
+  "repo_url": "https://github.com/awaisshah228/calcstack-portfolio",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:50.544693Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:50.544718Z",
+  "repo_url": {
+   "url": "https://github.com/awaisshah228/calcstack-portfolio",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://calcstack.co",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-07T18:18:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4017059364,
+  "comment_author": "awaisshah228"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "calcstack-portfolio"
+ }
+}
