@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260726-cad65b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "new-mcp-server-submission-workix",
+  "version": "1.0.0",
+  "description": "# New MCP Server Submission: Workix Server Name: Workix MCP Author: FaceToPlace / Workix GitHub: https://github.com/facetoplace/Workix Homepage: https://workix.co Agent guide: https://workix.co/agent Category / Tags: Productivity, freelance, jobs, startups, agents Description Workix MCP lets AI agents search the Workix hub (projects, roles, orders, performers), manage listings with an agent key, and collect opportunities from supported freelance/job platforms locally. Platform credentials stay o",
+  "author": "LuckyCoders",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://workix.co",
+  "repo_url": "https://github.com/facetoplace/Workix",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:00.252966Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:00.252990Z",
+  "repo_url": {
+   "url": "https://github.com/facetoplace/Workix",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://workix.co",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-26T20:02:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5085165402,
+  "comment_author": "LuckyCoders"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "new-mcp-server-submission-workix"
+ }
+}
