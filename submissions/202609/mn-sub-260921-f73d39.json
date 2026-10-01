@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260921-f73d39",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "multicines-ortega",
+  "version": "1.0.0",
+  "description": "Multicines Ortega Remote Streamable HTTP MCP for a cinema in Puertollano (Spain). Answers what is showing, at what time, and returns the exact URL where each screening is bought. Read-only. - MCP: https://multicinesortega.com/mcp - Transport: streamable-http - Tools: `cartelera` (showtimes by day and cinema), `buscar_pelicula` (film details by title), `cines` (addresses, timezone, opening hours) - Registry card: https://multicinesortega.com/.well-known/mcp.json - Official registry: `com.multici",
+  "author": "tartesso26",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://multicinesortega.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545559Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545561Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://multicinesortega.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T17:04:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4286,
+  "comment_author": "tartesso26"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "multicines-ortega"
+ }
+}

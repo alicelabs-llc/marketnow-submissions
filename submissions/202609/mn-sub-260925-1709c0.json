@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260925-1709c0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kinetaios",
+  "version": "1.0.0",
+  "description": "Submit: KinetAios (local-first multi-engine agent dashboard with built-in MCP server, Windows/macOS) — https://github.com/phinn/KinetAios",
+  "author": "phinn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://phinn.github.io/KinetAios/",
+  "repo_url": "https://github.com/phinn/KinetAios",
+  "license": "GPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544591Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544593Z",
+  "repo_url": {
+   "url": "https://github.com/phinn/KinetAios",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://phinn.github.io/KinetAios/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T10:47:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4373,
+  "comment_author": "phinn"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kinetaios"
+ }
+}

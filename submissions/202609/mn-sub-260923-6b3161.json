@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260923-6b3161",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "47620-solana-data",
+  "version": "1.0.0",
+  "description": "** Pay-per-call onchain data for AI agents. Tools cover Solana network health, token price/liquidity, wallet balances, transaction lookup and trending DEX pairs, plus an MCP server trust/security check (reachability, MCP handshake, HTTPS, risky capabilities such as shell/file/exec, prompt-injection signals) returning a 0-100 score and a trusted/review/do-not-trust verdict. Remote, no account needed.",
+  "author": "fito311",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://47620.xyz",
+  "repo_url": "https://github.com/fito311/solana-data-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545198Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545200Z",
+  "repo_url": {
+   "url": "https://github.com/fito311/solana-data-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://47620.xyz",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T16:08:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4321,
+  "comment_author": "fito311"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "47620-solana-data"
+ }
+}

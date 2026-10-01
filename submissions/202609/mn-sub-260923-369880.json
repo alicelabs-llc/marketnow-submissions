@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260923-369880",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "polytranslator",
+  "version": "1.0.0",
+  "description": "** Translate PDFs (including scans), Word, PowerPoint, Excel, EPUB and photos into 474+ languages and get the same file type back with its layout preserved; also plain-text translation. Covers ancient and low-resource languages (Ancient Greek, Coptic, Old English, Aramaic, Akkadian, Sumerian). Files are passed as a public URL or base64; results come back as 24-hour download links.",
+  "author": "enismaxim1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.polytranslator.com/api/mcp",
+  "repo_url": "https://github.com/enismaxim1/polytranslator-api",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545022Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545023Z",
+  "repo_url": {
+   "url": "https://github.com/enismaxim1/polytranslator-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.polytranslator.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T22:35:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4336,
+  "comment_author": "enismaxim1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "polytranslator"
+ }
+}

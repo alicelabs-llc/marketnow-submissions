@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260926-c44383",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "postwire",
+  "version": "1.0.0",
+  "description": "** Give an agent one idea and PostWire writes a different, native post for each social network (hook-first TikTok caption, short Instagram caption, YouTube title + description + tags, long LinkedIn post, sub-300-character Bluesky post) and publishes them, now or scheduled. Live networks: TikTok, Instagram, Facebook Pages, YouTube, LinkedIn (personal profiles), Bluesky, Mastodon, Telegram, Discord. X and Reddit are not available yet. Posts that would fail (e.g. TikTok/YouTube without a video) are",
+  "author": "Perufitlife",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y postwire-mcp",
+  "homepage": "https://www.npmjs.com/package/postwire-mcp",
+  "repo_url": "https://github.com/Perufitlife/postwire-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544230Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544231Z",
+  "repo_url": {
+   "url": "https://github.com/Perufitlife/postwire-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y postwire-mcp",
+   "registry": "npm",
+   "package": "postwire-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/postwire-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T10:00:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4405,
+  "comment_author": "Perufitlife"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "postwire"
+ }
+}

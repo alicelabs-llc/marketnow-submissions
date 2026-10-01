@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260924-94ecf4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vision-driven-design-vdd",
+  "version": "1.0.0",
+  "description": "Submit: vision-driven-design — bi-directional traceability MCP server (TypeScript, local stdio + remote SSE) — https://github.com/simonplmak-cloud/vision-driven-design",
+  "author": "simonplmak-cloud",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @simonmak-ascent/mcp",
+  "homepage": "https://vdd.simonmak.com",
+  "repo_url": "https://github.com/simonplmak-cloud/vision-driven-design",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544790Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544792Z",
+  "repo_url": {
+   "url": "https://github.com/simonplmak-cloud/vision-driven-design",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @simonmak-ascent/mcp",
+   "registry": "npm",
+   "package": "@simonmak-ascent/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://vdd.simonmak.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T16:26:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4356,
+  "comment_author": "simonplmak-cloud"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vision-driven-design-vdd"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260926-386bde",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "doklad-ai",
+  "version": "1.0.0",
+  "description": "Czech invoicing for freelancers and small companies: invoices, customers, expenses, payments and cash flow",
+  "author": "vict0ry",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://doklad.ai/mcp",
+  "repo_url": "https://github.com/vict0ry/doklad-ai-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544105Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544106Z",
+  "repo_url": {
+   "url": "https://github.com/vict0ry/doklad-ai-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://doklad.ai/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T14:48:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4413,
+  "comment_author": "vict0ry"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "doklad-ai"
+ }
+}

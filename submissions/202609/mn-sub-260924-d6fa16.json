@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260924-d6fa16",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "deckodex",
+  "version": "1.0.0",
+  "description": "Gundam Card Game cards, prices, tournament meta, and your Deckodex collection and decks in your AI assistant",
+  "author": "markomatic507",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://deckodex.com/mcp",
+  "repo_url": "https://github.com/markomatic507/deckodex-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544666Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544668Z",
+  "repo_url": {
+   "url": "https://github.com/markomatic507/deckodex-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://deckodex.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T22:32:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4365,
+  "comment_author": "markomatic507"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "deckodex"
+ }
+}

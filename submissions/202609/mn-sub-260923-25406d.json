@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260923-25406d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fluxmail-self",
+  "version": "1.0.0",
+  "description": "Fluxmail Fluxmail is a self-hosted email MCP server for Gmail, Google Workspace, Microsoft 365, Outlook.com, and IMAP/SMTP mailboxes. Agents can search and read mail, work with drafts and attachments, send messages, and organize folders or labels. The same installation also provides a CLI and REST API. - Repository: https://github.com/churichard/fluxmail - Website and setup guide: https://fluxmail.ai/docs/quickstart - Official MCP Registry: `io.github.churichard/fluxmail` - npm package: https:/",
+  "author": "churichard",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y fluxmail",
+  "homepage": "https://fluxmail.ai/docs/quickstart",
+  "repo_url": "https://github.com/churichard/fluxmail",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545055Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545056Z",
+  "repo_url": {
+   "url": "https://github.com/churichard/fluxmail",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y fluxmail",
+   "registry": "npm",
+   "package": "fluxmail",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://fluxmail.ai/docs/quickstart",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T19:57:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4333,
+  "comment_author": "churichard"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fluxmail-self"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260924-f3e5ff",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "crosscheck-independent",
+  "version": "1.0.0",
+  "description": "Independent checks for AI agents: review a draft, accept-check work another agent hands back, scan a skill before install",
+  "author": "maxugc",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y crosscheckapi",
+  "homepage": "https://www.npmjs.com/package/crosscheckapi",
+  "repo_url": "https://github.com/maxugc/crosscheck",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544680Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544682Z",
+  "repo_url": {
+   "url": "https://github.com/maxugc/crosscheck",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y crosscheckapi",
+   "registry": "npm",
+   "package": "crosscheckapi",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/crosscheckapi",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T19:52:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4363,
+  "comment_author": "maxugc"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "crosscheck-independent"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260924-d4b115",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vlada-health",
+  "version": "1.0.0",
+  "description": "Measured US healthcare data on one endpoint: hospital and payer negotiated prices from price-transparency files, Medicare fee-for-service payment, Medicare Advantage benefits, Star ratings and county enrollment, Part D, the ACA Marketplace, Medicaid managed-care enrollment, provider and facility identity, quality measures, and drug pricing. Every answer names its source file, vintage, method and coverage, and carries a hash you can replay. A number the data cannot support comes back as \"not in t",
+  "author": "btenner84",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.vladahealth.com",
+  "repo_url": "https://github.com/btenner84/vlada-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544732Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544734Z",
+  "repo_url": {
+   "url": "https://github.com/btenner84/vlada-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.vladahealth.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T17:39:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4360,
+  "comment_author": "btenner84"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vlada-health"
+ }
+}

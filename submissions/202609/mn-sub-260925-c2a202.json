@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260925-c2a202",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "branco-french",
+  "version": "1.0.0",
+  "description": "BRANCO connects AI assistants to French legal sources: legislation, case law, reading dated sources, citation verification and procedural tools. Created by Juan Branco, lawyer and doctor of law. Research connection: https://droit.juan-branco.fr/api/mcp/oauth (Streamable HTTP, OAuth with PKCE S256, personal BRANCO Research subscription). A separate university profile provides L1–M2 learning paths, private documents, progress tracking and substantive written corrections. It uses a personal key and",
+  "author": "anatolium89",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://droit.juan-branco.fr/api/mcp/oauth",
+  "repo_url": "https://github.com/anatolium89/branco-connectors",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544430Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544431Z",
+  "repo_url": {
+   "url": "https://github.com/anatolium89/branco-connectors",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://droit.juan-branco.fr/api/mcp/oauth",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T19:01:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4386,
+  "comment_author": "anatolium89"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "branco-french"
+ }
+}

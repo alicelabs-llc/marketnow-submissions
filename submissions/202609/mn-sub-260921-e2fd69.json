@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260921-e2fd69",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "web-hygiene-mcp",
+  "version": "1.0.0",
+  "description": "Web Hygiene MCP — live web checks for AI agents Operator: pietrini.luca@gmail.com · Publisher: https://apify.com/bruco3 · Registry namespace: `io.github.Luca-003/web-hygiene-mcp` Remote Streamable HTTP MCP server hosted on Apify. Seven bounded tools that answer from real HTTP requests made at call time — never from a cache or the model's memory: - `site_overview` — robots.txt (sitemaps declared, AI crawlers named, blanket disallow), llms.txt, sitemaps + URL sample, feeds - `list_site_urls` — re",
+  "author": "Luca-003",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://bruco3--web-hygiene-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/Luca-003/web-hygiene-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545607Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545609Z",
+  "repo_url": {
+   "url": "https://github.com/Luca-003/web-hygiene-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://bruco3--web-hygiene-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T09:13:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4280,
+  "comment_author": "Luca-003"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "web-hygiene-mcp"
+ }
+}

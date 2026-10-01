@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260923-612280",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "taivo-eu-web",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: taivo - Remote endpoint: https://taivo.eu/mcp (streamable-http, OAuth 2.1 with PKCE + dynamic client registration) - Website / docs: https://taivo.eu (agent-facing summary at https://taivo.eu/llms.txt) - Official MCP Registry: eu.taivo/hosting - Category: Cloud Platforms / Web hosting - Author: taivo (Netherlands) - Contact: support@taivo.eu What it does taivo is EU-hosted (Germany) web hosting that an AI assistant operates end to end. The assistant builds the site",
+  "author": "arnodrost",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://taivo.eu/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545114Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545116Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://taivo.eu/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T18:43:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4329,
+  "comment_author": "arnodrost"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "taivo-eu-web"
+ }
+}

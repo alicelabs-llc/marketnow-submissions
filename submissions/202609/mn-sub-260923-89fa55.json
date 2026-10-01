@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260923-89fa55",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "oryksa-ai-employees",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: ORYKSA AI Employees - Remote endpoint: https://mcp.oryksa.com (streamable-http, OAuth 2.1 with PKCE + dynamic client registration) - Website / docs: https://mcp.oryksa.com - Live demo: https://mcp.oryksa.com/demo/en - GitHub: https://github.com/oryksa/oryksa-mcp - Official MCP Registry: com.oryksa/ai-employees - Category: Customer support / Developer tools - Author: Weslley Harakawa - Contact: info@oryksa.com What it does Lets Claude Code, Codex, Cursor or VS Code",
+  "author": "oryksa",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.oryksa.com",
+  "repo_url": "https://github.com/oryksa/oryksa-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545229Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545231Z",
+  "repo_url": {
+   "url": "https://github.com/oryksa/oryksa-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.oryksa.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T13:35:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4318,
+  "comment_author": "oryksa"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "oryksa-ai-employees"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260925-eac5c2",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "horse-truth-machine-intelligence",
+  "version": "1.0.0",
+  "description": "﻿ Horse Truth Machine Intelligence Remote MCP endpoint: https://horsetruth.com.au/api/v1/mcp Developer docs: https://horsetruth.com.au/developers Official registry name: `au.com.horsetruth/machine-intelligence` Horse Truth provides machine-readable derived Australian racehorse intelligence for AI agents, MCP clients, software and publishers. Tools Free: - `sandbox_preview` - `discover_purchase_options` Paid: - `horse_intelligence` - `horse_changes` - `horse_rankings` - `resolve_horse` Direct Hor",
+  "author": "DataPunterAU",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://horsetruth.com.au/api/v1/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544351Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544353Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://horsetruth.com.au/api/v1/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T23:26:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4392,
+  "comment_author": "DataPunterAU"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "horse-truth-machine-intelligence"
+ }
+}

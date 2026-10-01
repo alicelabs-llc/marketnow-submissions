@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260926-3da2e4",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agent-deals",
+  "version": "1.0.0",
+  "description": "Name: Agent Deals Homepage: https://agent-deals.gm-tools.workers.dev MCP endpoint: https://agent-deals.gm-tools.workers.dev/mcp Transport: streamable-http (remote, nothing to install, no sign-up) Official MCP Registry: `io.github.gmahar82-stack/agent-deals` Category: Developer Tools Description Helps AI agents pay less for x402 (HTTP 402) paid APIs. Tracks price, uptime and speed of ~25,000 paid agent APIs from the Coinbase, PayAI and Dexter discovery catalogs, re-checked continuously, and finds",
+  "author": "gmahar82-stack",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent-deals.gm-tools.workers.dev",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544199Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544201Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://agent-deals.gm-tools.workers.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T10:49:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4407,
+  "comment_author": "gmahar82-stack"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agent-deals"
+ }
+}

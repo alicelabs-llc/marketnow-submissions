@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260926-6604b6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "shipwork-seo-checks",
+  "version": "1.0.0",
+  "description": "Name: Shipwork SEO Checks Homepage and documentation: https://shipwork.io/api-docs Transport: Streamable HTTP (remote) Public discovery endpoint: https://shipwork.io/mcp Public server card: https://shipwork.io/.well-known/mcp/server-card.json Official MCP Registry: `io.shipwork/seo-checks` — https://registry.modelcontextprotocol.io/v0.1/servers?search=shipwork Category: Developer Tools / SEO Description Shipwork helps AI assistants inspect public websites for technical SEO, indexing, sitemap, re",
+  "author": "7azemaamer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://shipwork.io/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544183Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544184Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://shipwork.io/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T11:54:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4408,
+  "comment_author": "7azemaamer"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "shipwork-seo-checks"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260923-30bbd0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "evc-mesh",
+  "version": "1.0.0",
+  "description": "** EVC Mesh is an open-source task manager built for teams where people and AI agents work side by side. This MCP server connects your agent to a Mesh workspace: it can pick up assigned tasks, check out work, comment, move tasks through your workflow, hand off to teammates, and keep decisions in shared project memory.",
+  "author": "garfieldstoun",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://entire.vc/mesh/",
+  "repo_url": "https://github.com/entire-vc/evc-mesh-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544976Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544978Z",
+  "repo_url": {
+   "url": "https://github.com/entire-vc/evc-mesh-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://entire.vc/mesh/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T23:30:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4339,
+  "comment_author": "garfieldstoun"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "evc-mesh"
+ }
+}

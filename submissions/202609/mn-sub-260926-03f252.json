@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260926-03f252",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "blink-camera",
+  "version": "1.0.0",
+  "description": "[Submit] Blink Camera — pan/tilt control for Amazon Blink cameras (stdio, Python) — https://github.com/AbhijatSaxena/blink-camera-mcp",
+  "author": "AbhijatSaxena",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx blink-camera-mcp",
+  "homepage": "https://pypi.org/project/blink-camera-mcp/",
+  "repo_url": "https://github.com/AbhijatSaxena/blink-camera-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544295Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544297Z",
+  "repo_url": {
+   "url": "https://github.com/AbhijatSaxena/blink-camera-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/blink-camera-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-26T02:25:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4397,
+  "comment_author": "AbhijatSaxena"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "blink-camera"
+ }
+}

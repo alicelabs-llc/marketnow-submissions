@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260921-ddeb00",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "entra-mcp",
+  "version": "1.0.0",
+  "description": "Name: entra-mcp Repo: https://github.com/dubaikseniia-wq/entra-mcp npm: https://www.npmjs.com/package/entra-mcp (`entra-mcp@0.3.1`) Official registry: `io.github.dubaikseniia-wq/entra-mcp` Website: https://entracareers.com/ai-agents Author: ENTRA (https://entracareers.com) Transport: stdio (local, Node 18+) License: MIT What it does Connects Claude, Cursor, Windsurf or any MCP client to ENTRA — a job platform whose listings are ingested straight from company hiring systems (Greenhouse, Lever, As",
+  "author": "dubaikseniia-wq",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y entra-mcp",
+  "homepage": "https://entracareers.com/ai-agents",
+  "repo_url": "https://github.com/dubaikseniia-wq/entra-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545644Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545645Z",
+  "repo_url": {
+   "url": "https://github.com/dubaikseniia-wq/entra-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y entra-mcp",
+   "registry": "npm",
+   "package": "entra-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://entracareers.com/ai-agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T06:58:42Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4278,
+  "comment_author": "dubaikseniia-wq"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "entra-mcp"
+ }
+}

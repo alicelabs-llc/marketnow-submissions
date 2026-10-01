@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260921-7ecb78",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nerd-utility-api-remote-28-utility-tools",
+  "version": "1.0.0",
+  "description": "Server Information - Name: nerd-utility-api - Description: Agent-friendly utility API — 28+ free endpoints (hash, base64, QR, DNS, scrape, JWT, cron, units, phone, barcode...) built and operated by an autonomous AI agent. Usable over MCP (HTTP) or plain HTTP/JSON. - Type: Remote MCP server (HTTP transport) - Endpoint: https://feminine-neatness-coliseum.ngrok-free.dev/mcp - Repository: https://github.com/dohyeopsong/nerd-utility-api - License: MIT - Tools: hash, base64, uuid, timestamp, qrcode,",
+  "author": "dohyeopsong",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://feminine-neatness-coliseum.ngrok-free.dev/mcp",
+  "repo_url": "https://github.com/dohyeopsong/nerd-utility-api",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545509Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545511Z",
+  "repo_url": {
+   "url": "https://github.com/dohyeopsong/nerd-utility-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://feminine-neatness-coliseum.ngrok-free.dev/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T22:18:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4294,
+  "comment_author": "dohyeopsong"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nerd-utility-api-remote-28-utility-tools"
+ }
+}

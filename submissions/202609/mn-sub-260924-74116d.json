@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260924-74116d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-turkiye",
+  "version": "1.0.0",
+  "description": "Name: mcp-turkiye Repo: https://github.com/BerkantACUN/mcp-turkiye Install: `npx -y mcp-turkiye` Docker: `ghcr.io/berkantacun/mcp-turkiye` (Streamable HTTP at `/mcp`) Category: Government / Data Tags: turkey, public-data, finance, weather, earthquake, legislation, transport Türkiye's public data as one MCP server: 21 institutions, 44 tools — central-bank FX and EVDS statistics, AFAD and Kandilli earthquakes, state weather service forecasts and warnings, the Official Gazette and consolidated legi",
+  "author": "BerkantACUN",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mcp-turkiye",
+  "homepage": null,
+  "repo_url": "https://github.com/BerkantACUN/mcp-turkiye",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544915Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544916Z",
+  "repo_url": {
+   "url": "https://github.com/BerkantACUN/mcp-turkiye",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mcp-turkiye",
+   "registry": "npm",
+   "package": "mcp-turkiye",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T10:43:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4346,
+  "comment_author": "BerkantACUN"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-turkiye"
+ }
+}

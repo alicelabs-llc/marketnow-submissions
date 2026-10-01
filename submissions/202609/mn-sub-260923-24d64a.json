@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260923-24d64a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dokutrak",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: DokuTrak - GitHub: https://github.com/Crackx17/dokutrak-mcp - Category: Productivity - Tagline: Let your agent chase the documents: create, chase, read and collect client document requests. - License: MIT - Runtime: Node.js (TypeScript) - Transport: stdio - npm: `dokutrak-mcp` (current 0.1.1) - Official MCP Registry: `io.github.Crackx17/dokutrak-mcp` - Site: https://dokutrak.com Description Official MCP server for DokuTrak, which collects documents from clients on",
+  "author": "Crackx17",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y dokutrak-mcp",
+  "homepage": "https://dokutrak.com",
+  "repo_url": "https://github.com/Crackx17/dokutrak-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545261Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545262Z",
+  "repo_url": {
+   "url": "https://github.com/Crackx17/dokutrak-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y dokutrak-mcp",
+   "registry": "npm",
+   "package": "dokutrak-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://dokutrak.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T09:12:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4314,
+  "comment_author": "Crackx17"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dokutrak"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260923-b3a2f0",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "gramscraper",
+  "version": "1.0.0",
+  "description": "** Look up publicly available Instagram and TikTok data from any MCP client: profiles, posts, reels, stories, highlights, comments, hashtags and places. Responses are trimmed to compact records so they fit in context, and every tool states its credit cost. Only publicly available information is accessible.",
+  "author": "iaminamkhan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gramscraper.com/docs#mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545070Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545073Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://gramscraper.com/docs#mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T19:44:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4332,
+  "comment_author": "iaminamkhan"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "gramscraper"
+ }
+}

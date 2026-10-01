@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260923-57aa03",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cartviral",
+  "version": "1.0.0",
+  "description": "** AI product videos for e-commerce. Agents import products from a store or product URL (Shopify, Amazon, Etsy and most sites), generate TikTok, Reels and Shorts clips (montage, AI story reel, ad creative, avatar reel), fetch download links, browse brand affiliate offers, join an offer and pitch a brand with sample clips.",
+  "author": "artemecom",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://cartviral.com",
+  "repo_url": "https://github.com/artemecom/cartviral-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545008Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545009Z",
+  "repo_url": {
+   "url": "https://github.com/artemecom/cartviral-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://cartviral.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T22:53:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4337,
+  "comment_author": "artemecom"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cartviral"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260925-435868",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wawesome",
+  "version": "1.0.0",
+  "description": "Name: wawesome Remote endpoint: https://api.wawesome.io/v1/mcp (Streamable HTTP, OAuth sign-in) Website: https://wawesome.io/?utm_source=mcp-so Docs: https://wawesome.io/docs/mcp Repository: https://github.com/wawesomeio/claude-plugin Official MCP Registry: io.wawesome/mcp Hosting for the sites you build for clients, deployed from your agent. Ask your agent to put a site up and it deploys the JavaScript handler and the static files together, as one version, then fetches the page back so you both",
+  "author": "arleypadua",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://wawesome.io/?utm_source=mcp-so",
+  "repo_url": "https://github.com/wawesomeio/claude-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544544Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544545Z",
+  "repo_url": {
+   "url": "https://github.com/wawesomeio/claude-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://wawesome.io/?utm_source=mcp-so",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T13:27:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4376,
+  "comment_author": "arleypadua"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wawesome"
+ }
+}

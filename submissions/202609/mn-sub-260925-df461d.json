@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260925-df461d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "quellenkontor",
+  "version": "1.0.0",
+  "description": "Server Name: Quellenkontor GitHub: https://github.com/NicksAdvisory/quellenkontor-sdk Website: https://quellenkontor.dev/en Endpoint: `https://mcp.quellenkontor.dev/v1` (Streamable HTTP, remote) Official MCP Registry: `dev.quellenkontor/hr-daten` One-liner Official German HR and payroll reference values for AI agents, every value with its legal source and effective date. Details Quellenkontor lets an agent look up German HR values instead of quoting them from memory: statutory minimum wage, soc",
+  "author": "NicksAdvisory",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://quellenkontor.dev/en",
+  "repo_url": "https://github.com/NicksAdvisory/quellenkontor-sdk",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544413Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544415Z",
+  "repo_url": {
+   "url": "https://github.com/NicksAdvisory/quellenkontor-sdk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://quellenkontor.dev/en",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T19:53:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4388,
+  "comment_author": "NicksAdvisory"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "quellenkontor"
+ }
+}

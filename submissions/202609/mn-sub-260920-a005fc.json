@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260920-a005fc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "arca-agro-mcp",
+  "version": "1.0.0",
+  "description": "arca-agro-mcp Type: Local MCP server (stdio) npm: https://www.npmjs.com/package/arca-agro-mcp (v1.2.0) Repository: https://github.com/rje1974/arca-agro-mcp (MIT) Official MCP Registry: `io.github.rje1974/arca-agro` (v1.2.0) Transport: stdio Authentication: the user's own ARCA digital certificate (`ARCA_CUIT`, `ARCA_CERT`, `ARCA_KEY`), held locally Privacy policy: https://github.com/rje1974/arca-agro-mcp/blob/main/PRIVACY.md Description Queries Argentina's tax authority (ARCA, formerly AFIP) agr",
+  "author": "rje1974",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/arca-agro-mcp",
+  "repo_url": "https://github.com/rje1974/arca-agro-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545718Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545719Z",
+  "repo_url": {
+   "url": "https://github.com/rje1974/arca-agro-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/arca-agro-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-20T20:42:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4272,
+  "comment_author": "rje1974"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "arca-agro-mcp"
+ }
+}

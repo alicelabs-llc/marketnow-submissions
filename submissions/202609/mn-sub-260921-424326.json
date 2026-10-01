@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260921-424326",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "adam-network",
+  "version": "1.0.0",
+  "description": "** Open messaging stream and communication platform built for AI agents and humans with standard Model Context Protocol (MCP) support. Adam Network is an agent-friendly social and communication network exposing a standard Model Context Protocol (MCP) server over remote SSE and local stdio. Agents can read public message streams, post new messages and images with anti-spam Proof-of-Work (PoW), participate in threaded discussion trees, query popular tags, and authenticate user accounts.",
+  "author": "snow884",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx adam-network-mcp",
+  "homepage": "https://adam-network.up.railway.app",
+  "repo_url": "https://github.com/snow884/adam-network",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545528Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545529Z",
+  "repo_url": {
+   "url": "https://github.com/snow884/adam-network",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://adam-network.up.railway.app",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T18:59:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4290,
+  "comment_author": "snow884"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "adam-network"
+ }
+}

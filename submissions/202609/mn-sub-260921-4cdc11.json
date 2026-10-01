@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260921-4cdc11",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ddbx-insider",
+  "version": "1.0.0",
+  "description": "ddbx — insider dealings Publisher: https://ddbx.uk · Registry namespace: `io.github.jonwillington/ddbx` Remote Streamable HTTP MCP server for insider share dealings: directors and senior managers (PDMRs) of UK-listed companies, SEC Form 4 filers, PDMRs in Sweden and the Netherlands, and members of the US Congress. Filings are ingested from the official disclosure feeds within minutes, screened, and the notable ones are rated (significant / noteworthy / minor / routine). Read-only, public, no AP",
+  "author": "jonwillington",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.ddbx.uk/mcp",
+  "repo_url": "https://github.com/jonwillington/ddbx-plugin",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545590Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545591Z",
+  "repo_url": {
+   "url": "https://github.com/jonwillington/ddbx-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.ddbx.uk/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T12:05:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4283,
+  "comment_author": "jonwillington"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ddbx-insider"
+ }
+}

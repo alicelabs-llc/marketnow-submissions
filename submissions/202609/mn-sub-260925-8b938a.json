@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260925-8b938a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "loomaly",
+  "version": "1.0.0",
+  "description": "Name: Loomaly Remote endpoint: https://loomaly.com/mcp (Streamable HTTP, OAuth 2.1 sign-in with dynamic client registration) Website: https://loomaly.com Docs: https://loomaly.com/docs/mcp Repository: https://github.com/loomaly/loomaly (Claude Code / Cursor / Codex plugin: this server plus three skills) Official MCP Registry: com.loomaly/loomaly SEO audit of every page of a site, handed to your coding agent as a fix list. Loomaly checks every page with code rules and an AI judgment, then ranks t",
+  "author": "dengzhaofun",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://loomaly.com",
+  "repo_url": "https://github.com/loomaly/loomaly",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544623Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544624Z",
+  "repo_url": {
+   "url": "https://github.com/loomaly/loomaly",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://loomaly.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T06:45:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4370,
+  "comment_author": "dengzhaofun"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "loomaly"
+ }
+}

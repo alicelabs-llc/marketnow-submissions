@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260921-87ef74",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nova-by-civai-catalog-remote-mcp-agents-22",
+  "version": "1.0.0",
+  "description": "Nova by CIVAI catalog remote MCP agents (22) Operator: nifemialpine@nova.civai.co · Publisher: https://nova.civai.co · Registry namespace: `co.civai.nova/*` All agents are remote Streamable HTTP MCP endpoints (API key auth on `tools/call`; unauthenticated `initialize` for scanners). - Blogger Agent by Nova (CIVAI) — I do everything related to Google Blogger content - MCP: `https://nova.civai.co/mcp/agents/blogger-agent` - Repo: https://github.com/civai-technologies/blogger-agent-mcp-by-nova-civ",
+  "author": "mrkeyiano",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nova.civai.co",
+  "repo_url": "https://github.com/civai-technologies/blogger-agent-mcp-by-nova-civai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545624Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545626Z",
+  "repo_url": {
+   "url": "https://github.com/civai-technologies/blogger-agent-mcp-by-nova-civai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nova.civai.co",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T08:53:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4279,
+  "comment_author": "mrkeyiano"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nova-by-civai-catalog-remote-mcp-agents-22"
+ }
+}

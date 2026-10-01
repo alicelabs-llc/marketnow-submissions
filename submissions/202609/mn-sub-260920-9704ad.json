@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260920-9704ad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clera",
+  "version": "1.0.0",
+  "description": "** Clera MCP puts 210,000+ vetted startup candidates inside Claude, ChatGPT, Cursor and any MCP client. Describe a role, search candidates who have opted in to hearing about roles, review Clera's picks and request intros from chat. OAuth sign-in, free during beta.",
+  "author": "jsscotty",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.getclera.com",
+  "repo_url": "https://github.com/getclera/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545836Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545839Z",
+  "repo_url": {
+   "url": "https://github.com/getclera/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.getclera.com",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-20T01:22:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4260,
+  "comment_author": "jsscotty"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clera"
+ }
+}

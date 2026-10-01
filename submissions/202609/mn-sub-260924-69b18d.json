@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260924-69b18d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "iminify",
+  "version": "1.0.0",
+  "description": "Name: Iminify Remote endpoint: https://www.iminify.com/mcp (Streamable HTTP) Auth: OAuth 2.1 (dynamic client registration and client ID metadata documents), or an API key as a Bearer token Website: https://www.iminify.com/ai-agents Docs: https://www.iminify.com/docs/mcp Official MCP Registry: com.iminify/iminify Iminify runs an MCP server, so Claude, ChatGPT, Cursor and other AI apps can compress, convert and resize your images and optimize whole web pages. Say what you want in plain words. The",
+  "author": "mozex",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.iminify.com/ai-agents",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544809Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544810Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.iminify.com/ai-agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T16:07:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4355,
+  "comment_author": "mozex"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "iminify"
+ }
+}

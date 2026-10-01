@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260925-922762",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clawfetch",
+  "version": "1.0.0",
+  "description": "Server Name: ClawFetch GitHub: https://github.com/clawfetch/clawfetch-mcp Website: https://clawfetch.ai npm: https://www.npmjs.com/package/@clawfetch/mcp (0.3.2) Official MCP Registry: `ai.clawfetch/mcp` Glama: https://glama.ai/mcp/servers/clawfetch/clawfetch-mcp License: MIT One-liner Web intelligence for AI agents: fetch, render, extract, research. Pay per call in USDC via x402, no API keys. Details Fetch any URL as clean markdown, render JavaScript-heavy pages, extract typed JSON from 17 sit",
+  "author": "mssteuer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://clawfetch.ai",
+  "repo_url": "https://github.com/clawfetch/clawfetch-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544513Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544514Z",
+  "repo_url": {
+   "url": "https://github.com/clawfetch/clawfetch-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://clawfetch.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-25T15:25:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4381,
+  "comment_author": "mssteuer"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clawfetch"
+ }
+}

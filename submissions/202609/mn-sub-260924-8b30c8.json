@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260924-8b30c8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vinktar",
+  "version": "1.0.0",
+  "description": "** Product analytics and error tracking. An agent can set up the SDK in an app, write down what each event means, and check the data arrived. Then it can answer what changed since a deploy, run trends, funnels, retention and read-only SQL over the events, and pull an error with its stack trace and what the user did before it.",
+  "author": "johnvink",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vinktar.com",
+  "repo_url": "https://github.com/vinktarhq/agent",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544897Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544898Z",
+  "repo_url": {
+   "url": "https://github.com/vinktarhq/agent",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vinktar.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-24T11:09:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4347,
+  "comment_author": "johnvink"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vinktar"
+ }
+}

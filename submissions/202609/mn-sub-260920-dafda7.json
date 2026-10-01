@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260920-dafda7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dsail",
+  "version": "1.0.0",
+  "description": "Turn a written policy into rules a program can check, and get the same answer every time.",
+  "author": "gharman",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agents.jaxon.ai/mcp",
+  "repo_url": "https://github.com/JaxonAI/dsail",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545687Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545689Z",
+  "repo_url": {
+   "url": "https://github.com/JaxonAI/dsail",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agents.jaxon.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-20T22:48:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4274,
+  "comment_author": "gharman"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dsail"
+ }
+}

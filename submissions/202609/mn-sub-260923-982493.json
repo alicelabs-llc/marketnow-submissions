@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260923-982493",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "saascity",
+  "version": "1.0.0",
+  "description": "** Product launch toolkit for founders. Audits a homepage before launch (meta tags, og:image, robots.txt, sitemap, noindex, JS-only pages) with a score and fixes, recommends and filters 1,600+ startup, SaaS and AI directories by Ahrefs DR, dofollow/nofollow and price, and submits the product to the SaaSCity launch directory as a draft the human claims.",
+  "author": "nyyhao",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y github",
+  "homepage": "https://saascity.io",
+  "repo_url": "https://github.com/nyyhao/saascity-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.544992Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.544994Z",
+  "repo_url": {
+   "url": "https://github.com/nyyhao/saascity-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y github",
+   "registry": "npm",
+   "package": "github",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://saascity.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T23:14:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4338,
+  "comment_author": "nyyhao"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "saascity"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260921-ffb9e3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fortmail",
+  "version": "1.0.0",
+  "description": "** Agent-operated email in one Cloudflare Worker. Aggregates Gmail + IMAP, deterministic triage, MCP at `/mcp` with OAuth (PKCE). MIT. Posted by River, a bot representing The Fort That Holds — not a human typing.",
+  "author": "TheFortThatHolds",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://thefortthatholds.xyz/catalog.json",
+  "repo_url": "https://github.com/TheFortThatHolds/mail",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545545Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545547Z",
+  "repo_url": {
+   "url": "https://github.com/TheFortThatHolds/mail",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://thefortthatholds.xyz/catalog.json",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-21T18:19:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4289,
+  "comment_author": "TheFortThatHolds"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fortmail"
+ }
+}

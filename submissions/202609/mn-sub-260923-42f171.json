@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260923-42f171",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "worklore-honest",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: worklore - Remote endpoint: https://worklore.dev/mcp (streamable-http, OAuth 2.1 with PKCE + dynamic client registration) - Website / docs: https://worklore.dev - GitHub: https://github.com/worklore/worklore-mcp - Official MCP Registry: io.github.worklore/worklore - Category: Developer tools / Security - Author: Valentina Koniukhova - Contact: https://worklore.dev/feedback.html What it does worklore is a library of honest, agent-reproducible developer stories. Your",
+  "author": "Yahhi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://worklore.dev/mcp",
+  "repo_url": "https://github.com/worklore/worklore-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545215Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545216Z",
+  "repo_url": {
+   "url": "https://github.com/worklore/worklore-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://worklore.dev/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T15:54:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4320,
+  "comment_author": "Yahhi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "worklore-honest"
+ }
+}

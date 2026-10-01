@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260923-73675f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "porteur-seo-report-as-tools",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: Porteur - Remote endpoint: https://porteur.ai/mcp (streamable-http, live) - Site: https://porteur.ai - Official MCP Registry: `ai.porteur/porteur` (v1.0.0) - Category: SEO / Site audit / Search Console - Transport: remote, streamable-http (no install) - Auth: OAuth 2.1 with dynamic client registration (https://porteur.ai/.well-known/oauth-authorization-server), or an API key from Settings as a Bearer token - Pricing: the tools read a report bought once on porteur.a",
+  "author": "tlouvart",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://porteur.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:34:48.545245Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:34:48.545246Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://porteur.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-23T10:44:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4315,
+  "comment_author": "tlouvart"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "porteur-seo-report-as-tools"
+ }
+}
