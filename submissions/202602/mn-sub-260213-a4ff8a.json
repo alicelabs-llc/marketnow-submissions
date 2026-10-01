@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260213-a4ff8a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "artefact-mcp-server",
+  "version": "1.0.0",
+  "description": "Artefact Revenue Intelligence MCP Server Revenue intelligence MCP server with RFM analysis (11-segment classification), 14.5-point ICP scoring, and pipeline health scoring. Embeds Artefact Formula methodology. HubSpot integration. Built-in sample data for testing without API keys. - GitHub: https://github.com/alexboissAV/artefact-mcp-server - PyPI: https://pypi.org/project/artefact-mcp/ - Language: Python - Category: Revenue Intelligence / Business Intelligence",
+  "author": "alexboissAV",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/artefact-mcp/",
+  "repo_url": "https://github.com/alexboissAV/artefact-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:41.769718Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:41.769747Z",
+  "repo_url": {
+   "url": "https://github.com/alexboissAV/artefact-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/artefact-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-13T18:16:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3898628303,
+  "comment_author": "alexboissAV"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "artefact-mcp-server"
+ }
+}
