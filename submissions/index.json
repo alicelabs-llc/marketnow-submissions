@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:01.105Z",
+ "updated_at": "2026-10-01T04:06:03.855Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3563,6 +3563,18 @@
    "from": "ip:407199849397",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-29726f.json"
+  },
+  {
+   "id": "mn-sub-261001-c85d71",
+   "name": "outslide-free-slide-outline-preview-for-mcp-clients",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 39,
+   "submitted_at": "2026-10-01T04:06:03.101Z",
+   "from": "ip:dcba9c7a69e9",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-c85d71.json"
   }
  ],
  "l2_pass": {
