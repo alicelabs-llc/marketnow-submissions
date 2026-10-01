@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260205-5cad72",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "features",
+  "version": "1.0.0",
+  "description": "Gemini DeepSearch & Google \"AI Mode\" web ground MCP - https://github.com/mottysisam/deepsearch.git Gemini DeepSearch MCP is an automated research & AI Mode will provide the agent leverages of Google Gemini models and Google Search to perform deep, multi-step web research. It generates sophisticated queries, synthesizes information from search results, identifies knowledge gaps, and produces high-quality, citation-rich answers. # Features - Automated multi-step research using Gemini models and Go",
+  "author": "mottysisam",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/mottysisam/deepsearch.git",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:27.631478Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:27.631498Z",
+  "repo_url": {
+   "url": "https://github.com/mottysisam/deepsearch.git",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-05T16:32:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3854796690,
+  "comment_author": "mottysisam"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "features"
+ }
+}
