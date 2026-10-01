@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260830-f86c32",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tankerkoenig-mcp",
+  "version": "1.0.0",
+  "description": "https://github.com/fluxionlabsai-ops/tankerkoenig-mcp Tankerkönig MCP — real-time German fuel prices Gives any MCP client live fuel prices from 14,000+ gas stations in Germany. Two read-only tools: `find_fuel` (by place name or address) and `find_fuel_at` (by coordinates), returning the cheapest E5 / E10 / diesel nearby — open stations only, sorted by price. Data comes from the official Markttransparenzstelle für Kraftstoffe (MTS-K) feed at the German Federal Cartel Office, redistributed by Tank",
+  "author": "fluxionlabsai-ops",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/fluxionlabsai-ops/tankerkoenig-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:10.789745Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:10.789770Z",
+  "repo_url": {
+   "url": "https://github.com/fluxionlabsai-ops/tankerkoenig-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-30T14:04:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5469141513,
+  "comment_author": "fluxionlabsai-ops"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tankerkoenig-mcp"
+ }
+}
