@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260317-c13964",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentled-mcp-server",
+  "version": "1.0.0",
+  "description": "# @agentled/mcp-server GitHub: https://github.com/Agentled/mcp-server npm: https://www.npmjs.com/package/@agentled/mcp-server Website: https://www.agentled.app Intelligent AI workflow orchestration with long-term memory, 100+ integrations, unified credits. Agentled is an AI-native workflow automation platform with persistent business memory. 100+ integrations (30 native + Composio), a Knowledge Graph that learns across executions, and a unified credit system replacing 100+ separate API accounts.",
+  "author": "ouadie-agentled",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @agentled/mcp-server",
+  "homepage": "https://www.npmjs.com/package/@agentled/mcp-server",
+  "repo_url": "https://github.com/Agentled/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:14.650228Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:14.650253Z",
+  "repo_url": {
+   "url": "https://github.com/Agentled/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @agentled/mcp-server",
+   "registry": "npm",
+   "package": "@agentled/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@agentled/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-17T00:32:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4071524977,
+  "comment_author": "ouadie-agentled"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentled-mcp-server"
+ }
+}
