@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-0a55a4",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "abyssale-browse-generate-and-import-abyssale-designs-banners",
+  "version": "1.0.0",
+  "description": "Abyssale — Browse, generate and import Abyssale designs — banners, video, PDF — from your AI client [ https://mcp.abyssale.com/mcp](https://mcp.abyssale.com/mcp)",
+  "author": "ismailazdad",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.abyssale.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:22.233Z",
+  "duration_ms": 305,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:22.233Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.abyssale.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:407199849397",
+ "submitted_at": "2026-10-01T04:06:22.233Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "abyssale-browse-generate-and-import-abyssale-designs-banners"
+ }
+}
