@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260228-46a762",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "infershrink",
+  "version": "1.0.0",
+  "description": "# InferShrink MCP Server Type: Server Name: InferShrink URL: https://github.com/MusashiMiyamoto1-cloud/infershrink Category: Developer Tools / Cost Optimization Description: Cut LLM costs 80%+ with smart model routing. Classifies prompt complexity and routes to the cheapest model that can handle it. Zero dependencies for core features. MCP Tools: - `infershrink_classify` — Classify prompt complexity (simple/moderate/complex/security_critical) - `infershrink_optimize` — Classify + route to cheape",
+  "author": "MusashiMiyamoto1-cloud",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://musashi-runtime.musashi-labs.workers.dev/classify",
+  "repo_url": "https://github.com/MusashiMiyamoto1-cloud/infershrink",
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:23.737263Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:23.737291Z",
+  "repo_url": {
+   "url": "https://github.com/MusashiMiyamoto1-cloud/infershrink",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://musashi-runtime.musashi-labs.workers.dev/classify",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-28T01:00:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3975927959,
+  "comment_author": "MusashiMiyamoto1-cloud"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "infershrink"
+ }
+}
