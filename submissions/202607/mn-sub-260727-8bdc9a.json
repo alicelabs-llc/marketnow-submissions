@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260727-8bdc9a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "cipherlux-retail-trust",
+  "version": "1.0.0",
+  "description": "# CipherLux — Agent-Native Crypto Strategy Platform Server Name: CipherLux Retail Trust GitHub: https://github.com/cipherlux/mcp-server Hosted URL: https://mcp.cipherlux.com/mcp Transport: Streamable HTTP (remote, OAuth 2.1) Website: https://cipherlux.com Description: Agent-native crypto strategy platform. Discover certified strategies with multi-attribute ranking, fetch Signed Proof Objects (SPO) and independently verify content_hash + EIP-712 signatures, register durable agent identity, top up",
+  "author": "voicebootix",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.cipherlux.com/mcp",
+  "repo_url": "https://github.com/cipherlux/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:02.659681Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:02.659708Z",
+  "repo_url": {
+   "url": "https://github.com/cipherlux/mcp-server",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.cipherlux.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-27T16:40:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5094083095,
+  "comment_author": "voicebootix"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "cipherlux-retail-trust"
+ }
+}
