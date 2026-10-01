@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260713-728ca8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-mydriverparis",
+  "version": "1.0.0",
+  "description": "MyDriverParis Booking — official MCP server of a licensed Paris chauffeur company (since 2012). - Repo: https://github.com/mydriver-paris/mcp-mydriverparis - Hosted remote endpoint (streamable HTTP, no auth/API key): `https://mcp-mydriverparis.mydriverparis.workers.dev/mcp` - Website: https://www.mydriverparis.com - On the Official MCP Registry as `com.mydriverparis/booking` 9 tools: live all-inclusive quotes, ride booking via secure Stripe payment links, VIP airport Meet & Greet, flight & SNCF ",
+  "author": "skatch",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp-mydriverparis.mydriverparis.workers.dev/mcp",
+  "repo_url": "https://github.com/mydriver-paris/mcp-mydriverparis",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:33.093922Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:33.093956Z",
+  "repo_url": {
+   "url": "https://github.com/mydriver-paris/mcp-mydriverparis",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp-mydriverparis.mydriverparis.workers.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-13T21:26:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4962837962,
+  "comment_author": "skatch"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-mydriverparis"
+ }
+}
