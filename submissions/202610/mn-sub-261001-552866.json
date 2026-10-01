@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-552866",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "site-passport-an-independent-live-verified-index-of-ai-agent",
+  "version": "1.0.0",
+  "description": "Site Passport — an independent, live-verified index of AI-agent readiness for WordPress and other sites (llms.txt, AI-crawler robots.txt directives, schema.org markup, WebMCP manifest — pulled from the site itself, never self-reported). - MCP endpoint (streamable HTTP): https://sitepassport.org/.well-known/mcp.json — tool: `check_wordpress_agent_readiness` - Site / methodology: https://sitepassport.org · https://sitepassport.org/methodology - Repo: https://github.com/renduples/sitepassport-mcp -",
+  "author": "renduples",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sitepassport.org/.well-known/mcp.json",
+  "repo_url": "https://github.com/renduples/sitepassport-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:56.097Z",
+  "duration_ms": 475,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:56.097Z",
+  "repo_url": {
+   "url": "https://github.com/renduples/sitepassport-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sitepassport.org/.well-known/mcp.json",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:217a7483d6ba",
+ "submitted_at": "2026-10-01T04:08:56.097Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "site-passport-an-independent-live-verified-index-of-ai-agent"
+ }
+}
