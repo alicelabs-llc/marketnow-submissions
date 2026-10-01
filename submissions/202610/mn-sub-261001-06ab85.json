@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-06ab85",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-ads-open-source-marketing-mcp-server-3100-actions-across",
+  "version": "1.0.0",
+  "description": "MCP Ads -- open-source marketing MCP server, ~3,100 actions across Google Ads, Meta Ads, GA4, Search Console, Tag Manager, WordPress and more, behind 17 category dispatchers so an agent only loads ~20 tool definitions. https://github.com/RoyAzran/mcp-ads",
+  "author": "RoyAzran",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/RoyAzran/mcp-ads",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:00.417Z",
+  "duration_ms": 542,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:00.417Z",
+  "repo_url": {
+   "url": "https://github.com/RoyAzran/mcp-ads",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:34f292ef4d81",
+ "submitted_at": "2026-10-01T04:08:00.417Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-ads-open-source-marketing-mcp-server-3100-actions-across"
+ }
+}
