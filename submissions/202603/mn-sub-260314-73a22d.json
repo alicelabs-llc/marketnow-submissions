@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260314-73a22d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "connapse-self-hosted",
+  "version": "1.0.0",
+  "description": "# Connapse — Self-hosted Knowledge Backend for AI Agents GitHub: https://github.com/Destrayon/Connapse Docker: `ghcr.io/destrayon/connapse` Transport: Streamable HTTP (`/mcp` endpoint) Language: C# / .NET 10 License: MIT Self-hosted knowledge backend with hybrid vector + keyword search, container-isolated indexes, and 11 MCP tools. Features 4 storage connectors (S3, Azure Blob, MinIO, filesystem), PAT-based agent auth, and multi-arch Docker images. Category: Knowledge & Memory",
+  "author": "Destrayon",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Destrayon/Connapse",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:12.244688Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:12.244713Z",
+  "repo_url": {
+   "url": "https://github.com/Destrayon/Connapse",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-14T19:12:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4061161123,
+  "comment_author": "Destrayon"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "connapse-self-hosted"
+ }
+}
