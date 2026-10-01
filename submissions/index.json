@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:49.166Z",
+ "updated_at": "2026-10-01T04:09:51.942Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -4079,6 +4079,18 @@
    "from": "ip:20fc69af7312",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-1a7256.json"
+  },
+  {
+   "id": "mn-sub-261001-7c1359",
+   "name": "thanks-for-reaching-out-about-aidelly-looks-like-a-solid-too",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:09:51.190Z",
+   "from": "ip:20fc69af7312",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-7c1359.json"
   }
  ],
  "l2_pass": {
