@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-250316-4f14ee",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-server-notify",
+  "version": "1.0.0",
+  "description": "Send system notification when Agent task is done： https://github.com/Cactusinhand/mcp_server_notify",
+  "author": "Cactusinhand",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Cactusinhand/mcp_server_notify",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:03.872811Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:03.872842Z",
+  "repo_url": {
+   "url": "https://github.com/Cactusinhand/mcp_server_notify",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-03-16T08:13:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 2727255908,
+  "comment_author": "Cactusinhand"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-server-notify"
+ }
+}
