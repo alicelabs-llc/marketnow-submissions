@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260331-9e4d50",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "integritypulse",
+  "version": "1.0.0",
+  "description": "UPDATE: Renamed to IntegrityPulse (was OpenClaw FinOps) IntegrityPulse — The Integrity Layer for AI Agents - GitHub: https://github.com/maryadawson-code/integritypulse - Server URL: https://integritypulse.marywomack.workers.dev/mcp - Transport: Streamable HTTP - Auth: API Key (x-api-key header) - Category: DevOps / FinOps / Security - Free tier: 25 ops/month, no credit card Four MCP servers: FinOps (verified cloud pricing), API-Bridge (live OpenAPI specs), Guardrail (IaC security scanning), Fort",
+  "author": "maryadawson-code",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://integritypulse.marywomack.workers.dev/mcp",
+  "repo_url": "https://github.com/maryadawson-code/integritypulse",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:16.412072Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:16.412098Z",
+  "repo_url": {
+   "url": "https://github.com/maryadawson-code/integritypulse",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://integritypulse.marywomack.workers.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-31T21:35:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4165741312,
+  "comment_author": "maryadawson-code"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "integritypulse"
+ }
+}
