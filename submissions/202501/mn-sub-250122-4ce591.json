@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-250122-4ce591",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "eunomia-mcp-server",
+  "version": "1.0.0",
+  "description": "Eunomia is an open-source Python library developed by [What About You](https://whataboutyou.ai/) for data governance in Large Language Model (LLM) applications. It offers precise control over the data entering LLM-based applications by enforcing governance at the token level. Eunomia utilizes a modular set of instruments to address specific challenges, allowing for versatile combinations to support a wide variety of use cases. Today, the integration of Eunomia with the Model Context Protocol (MC",
+  "author": "vincenzopecorella",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://whataboutyou.ai/",
+  "repo_url": "https://github.com/whataboutyou-ai/eunomia-MCP-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:00:56.037157Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:00:56.037186Z",
+  "repo_url": {
+   "url": "https://github.com/whataboutyou-ai/eunomia-MCP-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://whataboutyou.ai/",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-01-22T20:40:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 2608219174,
+  "comment_author": "vincenzopecorella"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "eunomia-mcp-server"
+ }
+}
