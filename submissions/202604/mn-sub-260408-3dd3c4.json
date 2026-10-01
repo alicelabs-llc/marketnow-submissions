@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-3dd3c4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "productsource-mcp",
+  "version": "1.0.0",
+  "description": "Product Source MCP Server Real-time product data across 450+ retailers. Look up any product by UPC — get prices, availability, images, descriptions, SEO data, marketplace sell prices, and margin estimates. - Remote URL: https://mcp.productsource.io/mcp - Website: https://productsource.io - GitHub: https://github.com/MarcPelberg/productsource-mcp - Auth: Bearer token (API key) - Transport: Streamable HTTP - Category: E-commerce & Retail - Free tier: 500 lookups/month, no credit card",
+  "author": "MarcPelberg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.productsource.io/mcp",
+  "repo_url": "https://github.com/MarcPelberg/productsource-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:39.161843Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:39.161866Z",
+  "repo_url": {
+   "url": "https://github.com/MarcPelberg/productsource-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.productsource.io/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T01:33:41Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4203225079,
+  "comment_author": "MarcPelberg"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "productsource-mcp"
+ }
+}
