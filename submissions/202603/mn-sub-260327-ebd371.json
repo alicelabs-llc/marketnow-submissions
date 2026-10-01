@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-ebd371",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "disvr",
+  "version": "1.0.0",
+  "description": "Disvr — Tool Search Engine for AI Agents GitHub: https://github.com/Svanik-yan/disvr Website: https://www.disvr.top MCP Endpoint: https://api.disvr.top/mcp Protocol: Streamable HTTP One API call, your agent finds any tool it needs. 900+ MCP servers indexed. 4-dimensional value ranking. Free tier: 1,000 requests/day.",
+  "author": "Svanik-yan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.disvr.top/mcp",
+  "repo_url": "https://github.com/Svanik-yan/disvr",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:52.494885Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:52.494907Z",
+  "repo_url": {
+   "url": "https://github.com/Svanik-yan/disvr",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.disvr.top/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T04:40:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4140138399,
+  "comment_author": "Svanik-yan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "disvr"
+ }
+}
