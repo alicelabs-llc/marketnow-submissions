@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260228-56ba67",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "0nmcp-universal-ai-api-orchestrator",
+  "version": "1.0.0",
+  "description": "# [0nMCP](https://0nmcp.com) — Universal AI API Orchestrator 564 tools. 26 services. 13 categories. Zero configuration. - Website: https://0nmcp.com - npm: `npx 0nmcp` / `npm install -g 0nmcp` - Source: https://github.com/0nork/0nMCP - License: MIT Highlights - 290 universal catalog tools across 26 services (Stripe, Slack, Discord, SendGrid, GitHub, Shopify, and more) - 245 CRM tools across 12 modules — the deepest CRM integration in any MCP server - 0nVault Container System (Patent Pending) — e",
+  "author": "Crypto-Goatz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://0nmcp.com",
+  "repo_url": "https://github.com/0nork/0nMCP",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:25.015465Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:25.015490Z",
+  "repo_url": {
+   "url": "https://github.com/0nork/0nMCP",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://0nmcp.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-28T08:59:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3976703851,
+  "comment_author": "Crypto-Goatz"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "0nmcp-universal-ai-api-orchestrator"
+ }
+}
