@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260401-d29539",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pellet",
+  "version": "1.0.0",
+  "description": "[@pelletfi/mcp](https://www.npmjs.com/package/@pelletfi/mcp) — Token intelligence on Base x402-native token intelligence on Base. Agents search any Base token — pellet enriches it with market data, contract forensics, creator wallet history, and safety flags. Free tier returns data + flags. Paid tier adds deeper analysis via x402 micropayments on Base mainnet. Tools | Tool | Access | Description | |---|---|---| | `search_token` | Free | Search by symbol or address | | `lookup",
+  "author": "ghost",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @pelletfi/mcp",
+  "homepage": "https://www.npmjs.com/package/@pelletfi/mcp",
+  "repo_url": "https://github.com/pelletfi/pellet",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:18.615576Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:18.615599Z",
+  "repo_url": {
+   "url": "https://github.com/pelletfi/pellet",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @pelletfi/mcp",
+   "registry": "npm",
+   "package": "@pelletfi/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@pelletfi/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-01T03:38:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4167199089,
+  "comment_author": "ghost"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pellet"
+ }
+}
