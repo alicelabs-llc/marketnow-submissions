@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260322-f80358",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "delimit",
+  "version": "1.0.0",
+  "description": "Delimit — One workspace for every AI coding assistant. Shared governance, memory, and tasks across Claude Code, Codex, Cursor, and Gemini CLI. - GitHub: https://github.com/delimit-ai/delimit - npm: https://www.npmjs.com/package/delimit-cli - Website: https://delimit.ai 81 MCP tools: API lint/diff/policy, persistent ledger, security audit, multi-model deliberation, deploy tracking, team management. Installs in 10 seconds: `npx delimit-cli setup`",
+  "author": "infracore",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/delimit-cli",
+  "repo_url": "https://github.com/delimit-ai/delimit",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:28.195427Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:28.195454Z",
+  "repo_url": {
+   "url": "https://github.com/delimit-ai/delimit",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/delimit-cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-22T17:12:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4106617161,
+  "comment_author": "infracore"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "delimit"
+ }
+}
