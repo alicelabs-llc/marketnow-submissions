@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260617-54cbd2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "freellmpool",
+  "version": "1.0.0",
+  "description": "freellmpool MCP server # Name freellmpool # Repository https://github.com/0xzr/freellmpool # Website / docs - https://0xzr.github.io/freellmpool/ - https://github.com/0xzr/freellmpool/blob/main/docs/MCP.md - https://github.com/0xzr/freellmpool/blob/main/server.json # Description freellmpool is a local stdio MCP server that lets MCP clients use pooled free LLM provider tiers. It works with no API keys through keyless providers, and users can add their own free-tier provider ke",
+  "author": "0xzr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://0xzr.github.io/freellmpool/",
+  "repo_url": "https://github.com/0xzr/freellmpool",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:50.159229Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:50.159256Z",
+  "repo_url": {
+   "url": "https://github.com/0xzr/freellmpool",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://0xzr.github.io/freellmpool/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-17T02:53:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4725456286,
+  "comment_author": "0xzr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "freellmpool"
+ }
+}
