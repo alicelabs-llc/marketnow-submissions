@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260713-e4ee39",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "glassfrog-mcp",
+  "version": "1.0.0",
+  "description": "GlassFrog MCP server — connect AI agents to your organization's roles, skills, notes, tensions, and governance (Holacracy / role-based orgs). Remote Streamable HTTP server, no local install needed. https://github.com/GlassFrog/glassfrog-mcp",
+  "author": "gfclyde",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/GlassFrog/glassfrog-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:31.726948Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:31.726975Z",
+  "repo_url": {
+   "url": "https://github.com/GlassFrog/glassfrog-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-13T10:30:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4957004051,
+  "comment_author": "gfclyde"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "glassfrog-mcp"
+ }
+}
