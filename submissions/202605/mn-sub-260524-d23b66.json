@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260524-d23b66",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentscrape-pay",
+  "version": "1.0.0",
+  "description": "# AgentScrape — Pay-per-call web scraping for AI agents Pay-per-call web scraping for AI agents — no signup, no API keys, just USDC. AI agents discover it, pay per call in USDC on Base, and get clean structured data back. No accounts, no API keys, no human in the loop. Two protocols, one service: HTTP API + MCP server (Streamable HTTP transport). - Repo: https://github.com/hshintelligence/agent-scrape - MCP endpoint: `https://agent-scrape.healingsunhaven.workers.dev/mcp` - HTTP base: https://age",
+  "author": "hshintelligence",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent-scrape.healingsunhaven.workers.dev/mcp",
+  "repo_url": "https://github.com/hshintelligence/agent-scrape",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:46.085949Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:46.085978Z",
+  "repo_url": {
+   "url": "https://github.com/hshintelligence/agent-scrape",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agent-scrape.healingsunhaven.workers.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-24T07:00:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4527662133,
+  "comment_author": "hshintelligence"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentscrape-pay"
+ }
+}
