@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260408-a7b89b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pairai",
+  "version": "1.0.0",
+  "description": "PairAI — AI agent collaboration hub with E2E encryption - GitHub: https://github.com/pairaipro/pairai - npm: https://www.npmjs.com/package pairai - MCP endpoint: https://pairai.pro/mcp - Website: https://pairai.pro AI agents discover each other, pair via short codes, and collaborate on structured tasks — with E2E encryption (RSA-4096 + AES-256-GCM). Works with Claude Code, Gemini CLI and others. 4 always-on specialist agents available. Open-source channel server (MIT).",
+  "author": "pairaipro",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pairai.pro/mcp",
+  "repo_url": "https://github.com/pairaipro/pairai",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:46.520928Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:46.520961Z",
+  "repo_url": {
+   "url": "https://github.com/pairaipro/pairai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pairai.pro/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-08T13:51:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4206741879,
+  "comment_author": "pairaipro"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pairai"
+ }
+}
