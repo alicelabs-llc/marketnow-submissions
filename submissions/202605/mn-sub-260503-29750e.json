@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260503-29750e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vc-deal-flow-signal",
+  "version": "1.0.0",
+  "description": "VC Deal Flow Signal MCP Server GitHub momentum tracking for venture capital — built for technical investors. 5 free tools: - `get_trending_startups` — top repos by composite momentum score - `search_startups_by_sector` — sector-focused signal sweeps - `get_signals_summary` — aggregate metrics over a date range - `get_methodology` — full scoring methodology - `get_startup_signal` — per-repo deep dive Backed by an open SSRN paper: [GitHub Repository Signals as Leading Indicators of VC Funding](htt",
+  "author": "kindrat86",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ssrn.com/abstract=6606558",
+  "repo_url": "https://github.com/kindrat86/vc-deal-flow-signal",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:26.144499Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:26.144522Z",
+  "repo_url": {
+   "url": "https://github.com/kindrat86/vc-deal-flow-signal",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ssrn.com/abstract=6606558",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-03T08:20:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4365738871,
+  "comment_author": "kindrat86"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vc-deal-flow-signal"
+ }
+}
