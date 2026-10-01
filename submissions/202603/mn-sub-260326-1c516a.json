@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260326-1c516a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "oasyce-on-chain-economy-for-ai-agents",
+  "version": "1.0.0",
+  "description": "# Oasyce — On-chain economy for AI agents GitHub: https://github.com/Shangri-la-0428/oasyce-sdk PyPI: `pip install oasyce-sdk[mcp]` MCP Name: `io.github.Shangri-la-0428/oasyce` On-chain commerce layer for autonomous AI agents. Provides escrow settlement, data property rights (bonding curve pricing), capability marketplace, reputation scoring, and on-chain dispute resolution. Built on Cosmos SDK. MCP Tools (11 tools) - Marketplace browsing (capabilities, data assets) - Balance & reputation querie",
+  "author": "Shangri-la-0428",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://47.93.32.88:1317",
+  "repo_url": "https://github.com/Shangri-la-0428/oasyce-sdk",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:48.589272Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:48.589296Z",
+  "repo_url": {
+   "url": "https://github.com/Shangri-la-0428/oasyce-sdk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://47.93.32.88:1317",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-26T19:01:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4137490868,
+  "comment_author": "Shangri-la-0428"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "oasyce-on-chain-economy-for-ai-agents"
+ }
+}
