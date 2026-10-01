@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260509-dd2868",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "puckapi",
+  "version": "1.0.0",
+  "description": "# PuckAPI — NHL Data MCP Server Name: PuckAPI GitHub: https://github.com/PuckAPI/mcp Website: https://puckapi.com Live Endpoint: `https://mcp.puckapi.com/mcp` Transport: Streamable HTTP Auth: API key via `?key=` query param Description NHL data for Claude and AI agents. Games, standings, player stats, betting odds, and line movement from 15+ sportsbooks. 12 tools, 16+ seasons of historical data. Details - Free tier: 500 credits, no credit card required - License: MIT - Category: Sports / Data / ",
+  "author": "noahowsh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/PuckAPI/mcp",
+  "repo_url": "https://github.com/PuckAPI/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:35.658570Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:35.658591Z",
+  "repo_url": {
+   "url": "https://github.com/PuckAPI/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/PuckAPI/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-09T14:49:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4412790866,
+  "comment_author": "noahowsh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "puckapi"
+ }
+}
