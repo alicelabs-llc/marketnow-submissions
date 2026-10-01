@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260722-9c6700",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "skilldb-sdk",
+  "version": "1.0.0",
+  "description": "SkillDB — a searchable library of 5,900+ peer-authored agent skills (focused markdown expertise files) that any MCP agent can search and load on demand. 10 tools (search, get, list, recommend, private-skill management). Free tier serves metadata; a free API key unlocks full skill content. - Repository: https://github.com/devchad-cmd/skilldb-sdk - npm: `skilldb` — run with `npx -p skilldb skilldb-mcp` - Remote MCP endpoint (Streamable HTTP): https://mcp.skilldb.dev - Official MCP Registry: `io.gi",
+  "author": "latentsmurf",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.skilldb.dev",
+  "repo_url": "https://github.com/devchad-cmd/skilldb-sdk",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:50.839713Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:50.839739Z",
+  "repo_url": {
+   "url": "https://github.com/devchad-cmd/skilldb-sdk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.skilldb.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-22T22:32:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5052290835,
+  "comment_author": "latentsmurf"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "skilldb-sdk"
+ }
+}
