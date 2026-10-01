@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260525-141b99",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sendblue-browser-use",
+  "version": "1.0.0",
+  "description": "sendblue-browser-mcp - Repo: https://github.com/sendblue-api/sendblue-browser-use - npm: https://www.npmjs.com/package/sendblue-browser-mcp - Official registry: `io.github.sendblue-api/sendblue-browser-mcp` ([listed](https://registry.modelcontextp rotocol.io/v0.1/servers?search=io.github.sendblue-api/sendblue-browser-mcp)) - Tags: `browser-automation`, `chromium`, `patchright`, `stealth`, `playwright`, `cdp` What it does: MCP wrapper around a long-running stealth-patched Chromium daemon. Exposes",
+  "author": "njerschow",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/sendblue-browser-mcp",
+  "repo_url": "https://github.com/sendblue-api/sendblue-browser-use",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:48.694467Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:48.694491Z",
+  "repo_url": {
+   "url": "https://github.com/sendblue-api/sendblue-browser-use",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/sendblue-browser-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-25T22:36:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4537708058,
+  "comment_author": "njerschow"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sendblue-browser-use"
+ }
+}
