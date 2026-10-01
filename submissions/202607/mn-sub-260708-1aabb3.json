@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260708-1aabb3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "senatortrades-mcp",
+  "version": "1.0.0",
+  "description": "senatortrades-mcp — MCP server for the Firmhound Congressional Intelligence API: Senate/House stock trade disclosures (PTR filings), federal lobbying disclosures, and Federal Register rules, cross-joined for information-advantage detection. 4 tools (get_senate_trades, get_lobbying_disclosures, get_federal_register_rules, get_congressional_intelligence_joins), stdio transport. Requires a Firmhound API key (congressapi subscription — pricing at https://senatortrades.com/pricing). Install from git ",
+  "author": "lindonharris",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://senatortrades.com/pricing",
+  "repo_url": "https://github.com/lindonharris/senatortrades-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:19.616813Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:19.616845Z",
+  "repo_url": {
+   "url": "https://github.com/lindonharris/senatortrades-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://senatortrades.com/pricing",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-08T19:43:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4918595892,
+  "comment_author": "lindonharris"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "senatortrades-mcp"
+ }
+}
