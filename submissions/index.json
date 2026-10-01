@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:04:53.802Z",
+ "updated_at": "2026-10-01T04:05:48.185Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3515,6 +3515,18 @@
    "from": "ip:407199849397",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-06c3e8.json"
+  },
+  {
+   "id": "mn-sub-261001-379298",
+   "name": "drgsystem-german-medical-coding-catalogs-remote-server-nothi",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 39,
+   "submitted_at": "2026-10-01T04:05:47.293Z",
+   "from": "ip:407199849397",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-379298.json"
   }
  ],
  "l2_pass": {
