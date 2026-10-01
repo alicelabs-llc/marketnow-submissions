@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260507-acd772",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "repscale-mcp",
+  "version": "1.0.0",
+  "description": "RepScale MCP — sales research and prep tools for B2B reps. Hosted server with OAuth 2.0 (PKCE) + API key auth. 5 tools: research_prospect, get_recommended_angle, explain_confidence, suggest_adjacent_research, cite_source. - Server: https://app.repscale.ai/api/mcp - Setup guide: https://app.repscale.ai/docs/mcp - Reference: https://github.com/kbrayatl/repscale-mcp",
+  "author": "kbrayatl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.repscale.ai/api/mcp",
+  "repo_url": "https://github.com/kbrayatl/repscale-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:31.874003Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:31.874029Z",
+  "repo_url": {
+   "url": "https://github.com/kbrayatl/repscale-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.repscale.ai/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-07T16:50:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4399161709,
+  "comment_author": "kbrayatl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "repscale-mcp"
+ }
+}
