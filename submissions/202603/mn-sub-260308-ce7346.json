@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260308-ce7346",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sentinel-ai-safety-proxy",
+  "version": "1.0.0",
+  "description": "Server Name: Sentinel AI Safety Proxy GitHub: https://github.com/MaxwellCalkin/sentinel-ai Description: Real-time safety scanning MCP server and transparent safety proxy. Scans tool calls for prompt injection, shell injection, data exfiltration, and auto-redacts PII in responses. 9 safety scanners, sub-millisecond latency, 530-case benchmark at 100% accuracy. MCP Tools: `scan_text`, `scan_tool_call`, `check_pii`, `get_risk_report`, `scan_conversation`, `test_robustness`, `generate_rsp_report` In",
+  "author": "MaxwellCalkin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/MaxwellCalkin/sentinel-ai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:54.752425Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:54.752449Z",
+  "repo_url": {
+   "url": "https://github.com/MaxwellCalkin/sentinel-ai",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-08T05:19:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4018373223,
+  "comment_author": "MaxwellCalkin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sentinel-ai-safety-proxy"
+ }
+}
