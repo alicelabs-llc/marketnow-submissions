@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260619-4206ee",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "browser-mcp",
+  "version": "1.0.0",
+  "description": "browser-mcp — drives your real, already-logged-in Chrome (cookies, sessions, 2FA) via 34 tools; works on anti-bot/CSP sites where headless browsers get blocked. CAPTCHA-solving (~80% reCAPTCHA checkbox + human fallback), human-in-the-loop (`browser_ask_user` for 2FA), multi-session color-coded tab groups, 100% local. Works with Claude Code, Cursor, and VS Code agent mode. - GitHub: https://github.com/Agent360dk/browser-mcp - npm: `@agent360/browser-mcp` - Site + demo: https://browsermcp.dev - Li",
+  "author": "GLouv",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://browsermcp.dev",
+  "repo_url": "https://github.com/Agent360dk/browser-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:05.189312Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:05.189336Z",
+  "repo_url": {
+   "url": "https://github.com/Agent360dk/browser-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://browsermcp.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-19T02:13:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4747823440,
+  "comment_author": "GLouv"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "browser-mcp"
+ }
+}
