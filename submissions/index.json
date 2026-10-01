@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:14.093Z",
+ "updated_at": "2026-10-01T04:09:17.151Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3983,6 +3983,18 @@
    "from": "ip:217a7483d6ba",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-c3a339.json"
+  },
+  {
+   "id": "mn-sub-261001-e4b5f8",
+   "name": "tradingcalc-mcp-deterministic-crypto-futures-math-pnl-liquid",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:09:16.396Z",
+   "from": "ip:f518dce52882",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-e4b5f8.json"
   }
  ],
  "l2_pass": {
