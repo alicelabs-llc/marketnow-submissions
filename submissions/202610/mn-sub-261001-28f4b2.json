@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-28f4b2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gitdiagram",
+  "version": "1.0.0",
+  "description": "GitDiagram — architecture diagrams, explanations and Mermaid source for any public GitHub repository, plus one-minute explainer videos. Read-only and free. - Remote MCP server (Streamable HTTP, no auth): https://gitdiagram.com/mcp - Repository: https://github.com/ahmedkhaleel2004/gitdiagram - Website: https://gitdiagram.com - Official MCP Registry: `com.gitdiagram/gitdiagram` - Category: Developer Tools Tools: - `get_repository_diagram`: architecture explanation, main components with their sourc",
+  "author": "ahmedkhaleel2004",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gitdiagram.com/mcp",
+  "repo_url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:34.859021Z",
+  "duration_ms": 708,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:34.859050Z",
+  "repo_url": {
+   "url": "https://github.com/ahmedkhaleel2004/gitdiagram",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gitdiagram.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:34.859052Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gitdiagram"
+ }
+}
