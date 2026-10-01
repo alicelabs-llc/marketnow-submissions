@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-c668f0",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "yappy",
+  "version": "1.0.0",
+  "description": "Server Name: Yappy Remote endpoint: https://yappy.biz/mcp (Streamable HTTP, no auth) Docs endpoint: https://yappy.biz/docs/mcp (Streamable HTTP, no auth) Website: https://yappy.biz Server card: https://yappy.biz/.well-known/mcp/server-card.json Description: Yappy is a computer-use agent for macOS. This read-only remote server answers questions about the product: the current release and download URL, whether a given Mac can run it, features, pricing, the macOS permissions it needs, and export job",
+  "author": "Prakshal-Jain",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://yappy.biz/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:44.340244Z",
+  "duration_ms": 89,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:44.340266Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://yappy.biz/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:44.340269Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "yappy"
+ }
+}
