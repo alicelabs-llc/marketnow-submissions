@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260708-6cf854",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "word-is-bond",
+  "version": "1.0.0",
+  "description": "Word Is Bond — voice agent testing Point a synthetic caller at a voice agent you run; get a scored, reproducible result. - Name: Word Is Bond - Remote URL (streamable-http): `https://api.wordis-bond.com/mcp` - Homepage: https://wordis-bond.com - OpenAPI: https://api.wordis-bond.com/openapi.json · llms.txt: https://wordis-bond.com/llms.txt - Official MCP Registry: `io.github.Latimer-Woods-Tech/wordis-bond` - Auth: `Authorization: Bearer wb_live_…` (create a key after free signup). `run_demo` need",
+  "author": "adrper79-dot",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.wordis-bond.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:18.520118Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:18.520155Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.wordis-bond.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-08T17:44:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4917588771,
+  "comment_author": "adrper79-dot"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "word-is-bond"
+ }
+}
