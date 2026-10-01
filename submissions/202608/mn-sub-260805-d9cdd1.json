@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260805-d9cdd1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "seatswiper-mcp",
+  "version": "1.0.0",
+  "description": "SeatSwiper (com.seatswiper/booking) Remote MCP server (streamable-http). Books hard-to-get restaurant reservations on your own Resy, SevenRooms, or OpenTable account the moment a table opens or someone cancels, on your own account and in your name. Nothing is resold, transferred, or listed. - Repo: https://github.com/gyatesofficial/seatswiper-mcp - Endpoint: https://www.seatswiper.com/api/mcp - Auth: OAuth 2.1 (dynamic client registration + PKCE) - Official MCP registry: com.seatswiper/booking (",
+  "author": "gyatesofficial",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.seatswiper.com/api/mcp",
+  "repo_url": "https://github.com/gyatesofficial/seatswiper-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:16.040018Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:16.040043Z",
+  "repo_url": {
+   "url": "https://github.com/gyatesofficial/seatswiper-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.seatswiper.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-05T01:47:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5186586104,
+  "comment_author": "gyatesofficial"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "seatswiper-mcp"
+ }
+}
