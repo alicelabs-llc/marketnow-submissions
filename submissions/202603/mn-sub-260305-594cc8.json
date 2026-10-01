@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260305-594cc8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vexa-mcp-server-meeting-transcripts-for-ai-agents",
+  "version": "1.0.0",
+  "description": "# Vexa MCP Server - Meeting Transcripts for AI Agents GitHub: https://github.com/Vexa-ai/vexa Website: https://vexa.ai npm: `@anthropic-ai/vexa-mcp` What it does MCP server that gives Claude (and any MCP client) access to your meeting transcripts. Search across all your past meetings, pull action items, find who said what - all through natural language. Key features - Bot joins Google Meet, Microsoft Teams, and Zoom calls - Real-time transcription with speaker diarization - Query transcripts via",
+  "author": "DmitriyG228",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vexa.ai",
+  "repo_url": "https://github.com/Vexa-ai/vexa",
+  "license": "Apache-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:43.784958Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:43.784985Z",
+  "repo_url": {
+   "url": "https://github.com/Vexa-ai/vexa",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vexa.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T10:27:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4004028355,
+  "comment_author": "DmitriyG228"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vexa-mcp-server-meeting-transcripts-for-ai-agents"
+ }
+}
