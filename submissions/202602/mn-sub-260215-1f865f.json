@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260215-1f865f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gibs-mcp-server",
+  "version": "1.0.0",
+  "description": "Name: Gibs MCP Server Description: EU regulatory compliance for AI agents — classify AI systems, check obligations, and get article-level citations across the EU AI Act, GDPR, and DORA (240+ articles, 3 regulations). GitHub: https://github.com/buildsyncinc/gibs-mcp Website: https://gibs.dev SSE Endpoint: https://mcp.gibs.dev/sse Category: Legal",
+  "author": "gibbrdev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gibs.dev",
+  "repo_url": "https://github.com/buildsyncinc/gibs-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:45.519607Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:45.519632Z",
+  "repo_url": {
+   "url": "https://github.com/buildsyncinc/gibs-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gibs.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-15T22:32:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3905303109,
+  "comment_author": "gibbrdev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gibs-mcp-server"
+ }
+}
