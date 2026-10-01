@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-f615fe",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "slidphilabs",
+  "version": "1.0.0",
+  "description": "Slid Phi Labs MCP servers (ceedot-rock): 1. Slid Phi Labs — catalog, quote, compress, warrant - MCP: https://www.slidphilabs.com/mcp - GitHub: https://github.com/ceedot-rock/SlidPhiLabs - Official registry: `io.github.ceedot-rock/slid-phi-labs` - Card: https://www.slidphilabs.com/.well-known/mcp/server-card.json 2. Agent^Rider — signed agent identity, trust, tasks - MCP: https://agentrider.fly.dev/api/mcp - GitHub: https://github.com/ceedot-rock/Agent-Rider - Official registry: `io.github.ceedot",
+  "author": "ceedot-rock",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y json-chamber-mcp",
+  "homepage": "https://www.slidphilabs.com/mcp",
+  "repo_url": "https://github.com/ceedot-rock/SlidPhiLabs",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:01.354074Z",
+  "duration_ms": 1214,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:01.354102Z",
+  "repo_url": {
+   "url": "https://github.com/ceedot-rock/SlidPhiLabs",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y json-chamber-mcp",
+   "registry": "npm",
+   "package": "json-chamber-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.slidphilabs.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:01.354105Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "slidphilabs"
+ }
+}
