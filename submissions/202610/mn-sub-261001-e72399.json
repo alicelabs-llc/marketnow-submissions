@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-261001-e72399",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "uk-premises-licence-mcp",
+  "version": "1.0.0",
+  "description": "UK Premises Licence Preflight MCP Evidence-first deterministic UK premises-licence preflight for AI agents and workflow automation. Repository: https://github.com/ChanghuLiu/uk-premises-licence-mcp Remote MCP endpoint: https://uk-premises-licence-mcp-production.up.railway.app/mcp Discovery: https://uk-premises-licence-mcp-production.up.railway.app/ Agent metadata: https://uk-premises-licence-mcp-production.up.railway.app/.well-known/agent-card.json x402 discovery: https://uk-premises-licence-mcp",
+  "author": "ChanghuLiu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://uk-premises-licence-mcp-production.up.railway.app/mcp",
+  "repo_url": "https://github.com/ChanghuLiu/uk-premises-licence-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:16.845619Z",
+  "duration_ms": 1024,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:16.845642Z",
+  "repo_url": {
+   "url": "https://github.com/ChanghuLiu/uk-premises-licence-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://uk-premises-licence-mcp-production.up.railway.app/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:16.845646Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "uk-premises-licence-mcp"
+ }
+}
