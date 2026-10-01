@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-251207-ef3c9a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "android-mcp-toolkit",
+  "version": "1.0.0",
+  "description": "​I'm an Android Dev using MCP to speed up my build process. I noticed that current tools (like the official Figma MCP) don't fully support Android workflows—specifically, the lack of direct SVG-to-Vector Drawable conversion requires a lot of manual work. ​To fix this, I created android-mcp-toolkit to bridge the gap and streamline Android development with MCP. ​I'd love to share this with the community to get more visibility and feedback. You can check it out here: https://github.com/Nam0101/andr",
+  "author": "Nam0101",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Nam0101/android-mcp-toolkit",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:14.516633Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:14.516659Z",
+  "repo_url": {
+   "url": "https://github.com/Nam0101/android-mcp-toolkit",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-12-07T20:45:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3623226734,
+  "comment_author": "Nam0101"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "android-mcp-toolkit"
+ }
+}
