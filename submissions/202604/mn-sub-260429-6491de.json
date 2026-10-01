@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260429-6491de",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "bonsai-api",
+  "version": "1.0.0",
+  "description": "B.O.N.S.A.I. Health Intelligence API https://github.com/rabyavalla/bonsai-api Evidence-based WFPB lifestyle medicine intelligence for AI agents. 4 paid tiers via x402 micropayments (USDC on Base). 275 knowledge chunks, 637+ peer-reviewed references. Backed by ACLM, AHA, ADA, WHO clinical guidelines. - MCP Registry: `io.github.rabyavalla/bonsai-health` - Live endpoint: https://web-production-ae61.up.railway.app - Transport: streamable-http",
+  "author": "rabyavalla",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://web-production-ae61.up.railway.app",
+  "repo_url": "https://github.com/rabyavalla/bonsai-api",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:21.000512Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:21.000535Z",
+  "repo_url": {
+   "url": "https://github.com/rabyavalla/bonsai-api",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://web-production-ae61.up.railway.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-29T17:53:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4346197681,
+  "comment_author": "rabyavalla"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "bonsai-api"
+ }
+}
