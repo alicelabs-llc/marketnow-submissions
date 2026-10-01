@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-8db7fe",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "pillr",
+  "version": "1.0.0",
+  "description": "Pillr : connecteur MCP public et gratuit sur la donnée immobilière française, la base de l'IA immobilière francaise. Prix au m² d'une commune, synthèse de marché, formalité d'urbanisme d'un projet de travaux. Sans compte, en lecture seule. Serveur : `https://pillr.fr/api/mcp` Documentation : `https://pillr.fr/mcp` Contact : maxime@pillr.fr",
+  "author": "maixmeduret",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pillr.fr/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:52.885423Z",
+  "duration_ms": 552,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:52.885453Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://pillr.fr/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:52.885456Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "pillr"
+ }
+}
