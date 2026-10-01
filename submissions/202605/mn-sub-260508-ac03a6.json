@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260508-ac03a6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "norric-mcp",
+  "version": "1.0.0",
+  "description": "Norric Swedish Business Intelligence https://mcp.norric.io/mcp Real-time insolvency risk, enforcement history, BRF financial health, and procurement signals from five Swedish government registries (Bolagsverket, Skatteverket, Kronofogden, Boverket, Lantmäteriet). Category: Finance & Business Intelligence Auth: Bearer token (trial at norric.io/api) Transport: Streamable HTTP · MCP 2024-11-05 Tools: 19 tools (free tier: `norric_status_v1`) Top tools: `kreditvakt_score_company_v1`, `kreditvakt_batc",
+  "author": "gucceed",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.norric.io/mcp",
+  "repo_url": "https://github.com/gucceed/norric-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:33.019236Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:33.019262Z",
+  "repo_url": {
+   "url": "https://github.com/gucceed/norric-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.norric.io/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-08T05:32:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4403644371,
+  "comment_author": "gucceed"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "norric-mcp"
+ }
+}
