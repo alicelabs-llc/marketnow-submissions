@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-250419-b4854f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fastexcel-mcp-server",
+  "version": "1.0.0",
+  "description": "https://github.com/bengbengbalabalabeng/fastexcel-mcp-server Model Context Protocol (MCP) for Excel. Thank you!",
+  "author": "bengbengbalabalabeng",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/bengbengbalabalabeng/fastexcel-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:06.291002Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:06.291031Z",
+  "repo_url": {
+   "url": "https://github.com/bengbengbalabalabeng/fastexcel-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-04-19T05:41:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 2816552806,
+  "comment_author": "bengbengbalabalabeng"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fastexcel-mcp-server"
+ }
+}
