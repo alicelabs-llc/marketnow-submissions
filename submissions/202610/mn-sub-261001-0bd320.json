@@ -1,0 +1,54 @@
+{
+ "id": "mn-sub-261001-0bd320",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "storage-probe-test",
+  "version": "1.0.0",
+  "description": "Internal storage verification probe for the /api/submit pipeline after the September credential rotation. Not a real skill, safe to delete.",
+  "author": "eddyflores100-lang",
+  "category": "Developer Tools",
+  "runtime": "python",
+  "tags": [
+   "test",
+   "internal"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": null,
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T03:06:17.362Z",
+  "duration_ms": 117,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 40,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T03:06:17.362Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:b52a1bd5fbeb",
+ "submitted_at": "2026-10-01T03:06:17.362Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "storage-probe-test"
+ }
+}
