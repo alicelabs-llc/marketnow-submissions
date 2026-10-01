@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260811-91a8cb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "churnsolution-mcp",
+  "version": "1.0.0",
+  "description": "Churn Solution MCP — subscription retention & revenue recovery analytics for AI agents - Repo: https://github.com/Churnsolution/Churnsolution-MCP - Endpoint: `https://mcp.churnsolution.com` (remote, streamable HTTP, OAuth) - Official MCP Registry: `com.churnsolution/analytics` - Docs: https://churnsolution.com/docs/mcp-server Read-only tools over your [Churn Solution](https://churnsolution.com) data: cancellation-flow metrics, save rates, recovered revenue, offer performance, cancellation reason",
+  "author": "abdulhafeth",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.churnsolution.com",
+  "repo_url": "https://github.com/Churnsolution/Churnsolution-MCP",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:26.071731Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:26.071753Z",
+  "repo_url": {
+   "url": "https://github.com/Churnsolution/Churnsolution-MCP",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.churnsolution.com",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-11T21:12:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5258917419,
+  "comment_author": "abdulhafeth"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "churnsolution-mcp"
+ }
+}
