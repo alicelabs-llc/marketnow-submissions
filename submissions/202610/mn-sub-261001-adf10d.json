@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-261001-adf10d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "benawf",
+  "version": "1.0.0",
+  "description": "BenAwf remote MCP - Name: BenAwf - GitHub (public metadata): https://github.com/islambou/benawf-mcp-metadata - Website: https://benawf.com - Transport: Streamable HTTP - URL: https://api.benawf.com/mcp - Official Registry: `com.benawf/mcp` — https://registry.modelcontextprotocol.io/v0.1/servers/com.benawf%2Fmcp/versions/1.0.0 - Smithery: https://smithery.ai/servers/benawf/mcp Description: BenAwf remote MCP — design and iterate trading strategies in Strategy Lab from your agent. Paper trading GA;",
+  "author": "islambou",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.benawf.com/mcp",
+  "repo_url": "https://github.com/islambou/benawf-mcp-metadata",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:57.936844Z",
+  "duration_ms": 1166,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:57.936874Z",
+  "repo_url": {
+   "url": "https://github.com/islambou/benawf-mcp-metadata",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.benawf.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:57.936877Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "benawf"
+ }
+}
