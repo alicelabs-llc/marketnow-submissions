@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260508-ac6af0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-web-search-mcp",
+  "version": "1.0.0",
+  "description": "Agent Web Search MCP Server — A production-ready MCP server for web search and URL content fetching, designed for AI agents. - npm: `@tiagohanna123/agent-web-search-mcp` - GitHub: https://github.com/tiagohanna123/agent-web-search-mcp - Landing: https://agent-web-search-mcp.pages.dev - License: MIT Features: - 🔍 Web search via web scraping (no API key required) - 📄 URL content fetching with markdown conversion - ⚡ Built on Fastify (TypeScript), runs anywhere Node.js runs - 🧩 MCP stdio + HTTP tran",
+  "author": "tiagohanna123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent-web-search-mcp.pages.dev",
+  "repo_url": "https://github.com/tiagohanna123/agent-web-search-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:34.452016Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:34.452041Z",
+  "repo_url": {
+   "url": "https://github.com/tiagohanna123/agent-web-search-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agent-web-search-mcp.pages.dev",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-08T11:05:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4405917081,
+  "comment_author": "tiagohanna123"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-web-search-mcp"
+ }
+}
