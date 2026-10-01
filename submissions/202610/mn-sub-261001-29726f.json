@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-29726f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "singlefax-send-a-fax-from-claude-chatgpt-or-cursor",
+  "version": "1.0.0",
+  "description": "SingleFax — send a fax from Claude, ChatGPT, or Cursor Type: Remote / hosted MCP server (not stdio) Server URL: https://singlefax.com/mcp Website / install: https://singlefax.com/agents Agent docs: https://singlefax.com/agents.md Privacy: https://singlefax.com/privacy-policy Official MCP registry: `com.singlefax/mcp` v1.0.0 Smithery: https://smithery.ai/servers/singlefax/fax (`@singlefax/fax`) Transport: Streamable HTTP Auth: OAuth 2.1 (PKCE + Dynamic Client Registration) Category / tags: fax, c",
+  "author": "zawasp",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://singlefax.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:00.215Z",
+  "duration_ms": 374,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:00.215Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://singlefax.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:407199849397",
+ "submitted_at": "2026-10-01T04:06:00.215Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "singlefax-send-a-fax-from-claude-chatgpt-or-cursor"
+ }
+}
