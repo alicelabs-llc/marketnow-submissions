@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260308-37243c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "social-media-suite",
+  "version": "1.0.0",
+  "description": "social-media-suite — Complete social media department for Claude Code. 11 agents, 9 skills, 7 hooks, 5 playbooks. https://github.com/idapixl/social-media-suite Features: - 11 specialized agents (content writer, scheduler, analytics, platform-specific posters, etc.) - 9 reusable skills for social media workflows - 7 hooks for quality gates (voice consistency, image checks, engagement hooks) - 5 platform playbooks (X/Twitter, Bluesky, Reddit, Pinterest, YouTube) - Claude Code plugin suite (not a s",
+  "author": "idapixl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/idapixl/social-media-suite",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:51.822577Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:51.822603Z",
+  "repo_url": {
+   "url": "https://github.com/idapixl/social-media-suite",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-08T02:03:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4017963441,
+  "comment_author": "idapixl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "social-media-suite"
+ }
+}
