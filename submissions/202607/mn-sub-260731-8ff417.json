@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260731-8ff417",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gmail-mcp",
+  "version": "1.0.0",
+  "description": "Server Name: gmail-mcp Repository: https://github.com/mkpoli/gmail-mcp Description: Multi-account Gmail on a Cloudflare Worker you deploy yourself. 24 tools: search and read, send, reply-all with quoted history, forward, attachments and inline `cid:` images, drafts, labels, threads. One deployment serves several mailboxes through `/mcp/<label>`, each connection bound to a single Google account, with the Google refresh token kept in your own Cloudflare KV. Each message part is decoded by its own ",
+  "author": "mkpoli",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/mkpoli/gmail-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:10.101733Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:10.101762Z",
+  "repo_url": {
+   "url": "https://github.com/mkpoli/gmail-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-31T03:55:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5139080747,
+  "comment_author": "mkpoli"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gmail-mcp"
+ }
+}
