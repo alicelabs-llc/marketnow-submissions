@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260819-a51d4c",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "whiteintel-os",
+  "version": "1.0.0",
+  "description": "WhiteIntel — Corporate & Offshore Ownership Intelligence - Repository: https://github.com/Hei33enberg/WhiteIntel-OS - Website: https://whiteintel.dev - npm: https://www.npmjs.com/package/@whiteintel/mcp-server (`npx -y @whiteintel/mcp-server`) - Remote server: https://whiteintel.dev/api/mcp (streamable-http, JSON-RPC 2.0, anonymous free tier, no auth required) - Official MCP Registry: dev.whiteintel/whiteintel (v0.7.10) - Licence: MIT - Tools: 23 23 tools for corporate ownership investigation ov",
+  "author": "Hei33enberg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @whiteintel/mcp-server",
+  "homepage": "https://whiteintel.dev/api/mcp",
+  "repo_url": "https://github.com/Hei33enberg/WhiteIntel-OS",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:41.857503Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:41.857528Z",
+  "repo_url": {
+   "url": "https://github.com/Hei33enberg/WhiteIntel-OS",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @whiteintel/mcp-server",
+   "registry": "npm",
+   "package": "@whiteintel/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://whiteintel.dev/api/mcp",
+   "ok": false,
+   "status": 410
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-19T23:12:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5349117799,
+  "comment_author": "Hei33enberg"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "whiteintel-os"
+ }
+}
