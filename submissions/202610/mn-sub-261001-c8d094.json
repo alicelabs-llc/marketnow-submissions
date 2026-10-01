@@ -1,0 +1,54 @@
+{
+ "id": "mn-sub-261001-c8d094",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "vikasny30aletheia-mcp",
+  "version": "1.0.0",
+  "description": "🛡️ vikasny30/aletheia-mcp Deterministic (no-LLM) pre-execution filter that blocks known scope-creep and prompt-injection tool calls before an agent runs them. Aletheia MCP intercepts tool calls from Claude Code, Claude Desktop, and any other MCP-compatible agent, scores them against known Scope-Creep-Beyond-Mandate (S3) and Adversarial-Prompt-Injection (S2b) patterns, and blocks the destructive ones — destructive shell/SQL, credential-file reads, SSRF and cloud-metadata access, out-of-mandate fi",
+  "author": "vikasny30",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:07:38.174Z",
+  "duration_ms": 13,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 38,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:07:38.174Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:e0fe80bab20a",
+ "submitted_at": "2026-10-01T04:07:38.174Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "vikasny30aletheia-mcp"
+ }
+}
