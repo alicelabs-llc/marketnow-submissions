@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260320-d76fb9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentbroker-mcp",
+  "version": "1.0.0",
+  "description": "AgentBroker — API-first crypto exchange for AI agents. Trade 1000+ tokens via MCP tools. Register, deposit, trade, and withdraw — all programmatically. - GitHub: https://github.com/agentbroker-tech/agentbroker-mcp - MCP Server: https://agentbroker.polsia.app/.well-known/mcp-server - Category: Finance / Trading / Crypto - 9 tools: `register_agent`, `get_prices`, `get_balance`, `deposit`, `select_strategy`, `place_order`, `get_order_book`, `get_trades`, `withdraw`",
+  "author": "agentbroker-tech",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agentbroker.polsia.app/.well-known/mcp-server",
+  "repo_url": "https://github.com/agentbroker-tech/agentbroker-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:19.636568Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:19.636595Z",
+  "repo_url": {
+   "url": "https://github.com/agentbroker-tech/agentbroker-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agentbroker.polsia.app/.well-known/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-20T01:20:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4094732088,
+  "comment_author": "agentbroker-tech"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentbroker-mcp"
+ }
+}
