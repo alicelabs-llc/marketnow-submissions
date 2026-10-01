@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260305-100b70",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "proletariat-agent-orchestration-platform",
+  "version": "1.0.0",
+  "description": "# Proletariat - Agent Orchestration Platform Repository: https://github.com/chrismcdermut/proletariat npm package: [@proletariat/cli](https://www.npmjs.com/package/@proletariat/cli) License: Apache-2.0 Description Proletariat is an agent orchestration platform for AI-powered development. It provides 100+ MCP tools for multi-agent spawning, ticket/project management, kanban boards, workflows, Docker container management, and tmux session control. Quick Setup ```json { \"mcpServers\": { \"prlt\": { \"c",
+  "author": "chrismcdermut",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@proletariat/cli",
+  "repo_url": "https://github.com/chrismcdermut/proletariat",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:41.340890Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:41.340916Z",
+  "repo_url": {
+   "url": "https://github.com/chrismcdermut/proletariat",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@proletariat/cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T08:06:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4003128493,
+  "comment_author": "chrismcdermut"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "proletariat-agent-orchestration-platform"
+ }
+}
