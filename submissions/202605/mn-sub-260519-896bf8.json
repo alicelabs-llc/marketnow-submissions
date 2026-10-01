@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260519-896bf8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "losestreak-mcp",
+  "version": "1.0.0",
+  "description": "LoseStreak MCP - Name: LoseStreak - Description: Remote MCP server for the LoseStreak iOS fitness app. 18 tools: log meals (text or image) and weight, query workouts, competitions, AI-generated verdicts, and friends; post comments to competition activity feeds; manage friend requests. Cloudflare Worker, OAuth 2.1 with PKCE, subscription-gated, audit-logged. - Connector URL: https://mcp.losestreak.com/mcp - Repository: https://github.com/timomak/losestreak-mcp - Website: https://losestreak.com - ",
+  "author": "timomak",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.losestreak.com/mcp",
+  "repo_url": "https://github.com/timomak/losestreak-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:21.768932Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:21.768962Z",
+  "repo_url": {
+   "url": "https://github.com/timomak/losestreak-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.losestreak.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-19T16:45:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4489993232,
+  "comment_author": "timomak"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "losestreak-mcp"
+ }
+}
