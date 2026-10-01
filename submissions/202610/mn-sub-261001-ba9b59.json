@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-ba9b59",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "zihin-mcp-server-for-the-zihinaihttpszihinai-agent-platform-",
+  "version": "1.0.0",
+  "description": "Zihin — MCP server for the [Zihin.ai](https://zihin.ai) agent platform: chat with your AI agents, manage them (persona, tools, triggers, budgets, approvals, observability — 96 tools) and load platform skills from any MCP client. - Remote (Streamable HTTP): `https://llm.zihin.ai/mcp` (auth: `X-Api-Key`) - Local (stdio): `npx -y @zihin/mcp-server` with `ZIHIN_API_KEY` set - GitHub: https://github.com/zihin-ai/zihin-mcp - Official MCP Registry: `ai.zihin/mcp-server` Auth, RBAC and tenant isolation ",
+  "author": "oliveiraronan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @zihin/mcp-server",
+  "homepage": "https://llm.zihin.ai/mcp",
+  "repo_url": "https://github.com/zihin-ai/zihin-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:05:54.055Z",
+  "duration_ms": 1102,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:05:54.055Z",
+  "repo_url": {
+   "url": "https://github.com/zihin-ai/zihin-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @zihin/mcp-server",
+   "registry": "npm",
+   "package": "@zihin/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://llm.zihin.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:407199849397",
+ "submitted_at": "2026-10-01T04:05:54.055Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "zihin-mcp-server-for-the-zihinaihttpszihinai-agent-platform"
+ }
+}
