@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260528-1fb81e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "harmony-mcp",
+  "version": "1.0.0",
+  "description": "harmony-mcp — 微信小程序 AI 全流程助手 GitHub: https://github.com/xiaoxuzhu303-prog/harmony-mcp npm: https://www.npmjs.com/package/@yujiamei/harmony-mcp Official Registry: `io.github.xiaoxuzhu303-prog/harmony-mcp` 中国本土化 MCP Server，让 AI 直接操控微信开发者工具。零配置、无需密钥、开箱即用。 16 个工具覆盖完整开发流程： | 层级 | 工具 | |------|------| | 基础操作 | login, preview, upload, build_npm, open/close_project, reset_fileutils | | 分析理解 | project_info, package_size, subpackage_suggest, page_list, config_validate, dependency_check | | 智能流程 | diagnose",
+  "author": "xiaoxuzhu303-prog",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@yujiamei/harmony-mcp",
+  "repo_url": "https://github.com/xiaoxuzhu303-prog/harmony-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:58.595573Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:58.595596Z",
+  "repo_url": {
+   "url": "https://github.com/xiaoxuzhu303-prog/harmony-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@yujiamei/harmony-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-28T07:55:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4561892043,
+  "comment_author": "xiaoxuzhu303-prog"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "harmony-mcp"
+ }
+}
