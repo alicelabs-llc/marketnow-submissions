@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260327-6768d1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sprintra-mcp",
+  "version": "1.0.0",
+  "description": "Sprintra — AI-native project management with persistent memory for coding agents - GitHub: https://github.com/Sprintra-io/sprintra-mcp - npm: https://www.npmjs.com/package/@sprintra/cli - Website: https://sprintra.io - Install: `npm install -g @sprintra/cli` - 17 MCP tools for features, stories, sprints, architecture decisions, knowledge base, and session tracking - Free tier: 2 projects, unlimited stories, all MCP tools",
+  "author": "ravindra240385",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@sprintra/cli",
+  "repo_url": "https://github.com/Sprintra-io/sprintra-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:54.124223Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:54.124249Z",
+  "repo_url": {
+   "url": "https://github.com/Sprintra-io/sprintra-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@sprintra/cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-27T04:42:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4140146152,
+  "comment_author": "ravindra240385"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sprintra-mcp"
+ }
+}
