@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-d5e938",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "voxodds-mcp",
+  "version": "1.0.0",
+  "description": "VoxOdds — Polymarket vs Kalshi odds, all-in executable quotes and forecast track records over remote MCP - Repository: https://github.com/softdevfz/voxodds-mcp (MIT; client configs) - Remote MCP endpoint: https://voxodds.com/mcp - Transport: Streamable HTTP - Authentication: none (read-only, no API key) - Official MCP Registry: `com.voxodds/voxodds` - Glama: https://glama.ai/mcp/connectors/com.voxodds/voxodds - Docs: https://voxodds.com/llms.txt · OpenAPI https://voxodds.com/api/openapi.json - C",
+  "author": "softdevfz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://voxodds.com/mcp",
+  "repo_url": "https://github.com/softdevfz/voxodds-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:36.828336Z",
+  "duration_ms": 684,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:36.828366Z",
+  "repo_url": {
+   "url": "https://github.com/softdevfz/voxodds-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://voxodds.com/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:36.828369Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "voxodds-mcp"
+ }
+}
