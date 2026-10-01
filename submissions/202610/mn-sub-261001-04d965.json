@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-04d965",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "thetickeris",
+  "version": "1.0.0",
+  "description": "thetickeris.ai — remote MCP server for $AI on HyperEVM (chain 999) - Endpoint: https://thetickeris.ai/mcp (Streamable HTTP, stateless) - Tools: ai_market, ai_quote_buy, ai_quote_sell, ai_build_buy_tx, ai_build_sell_tx (read-only data and unsigned transactions; never holds keys) - Docs: https://thetickeris.ai/llms.txt and https://thetickeris.ai/agents.md - Official MCP Registry: ai.thetickeris/agent-rail - Note: the token and bonding-curve contracts are UUPS-upgradeable by their owner; 0% buy fee",
+  "author": "thetickeris-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://thetickeris.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:04.228590Z",
+  "duration_ms": 812,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:04.228619Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://thetickeris.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:04.228622Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "thetickeris"
+ }
+}
