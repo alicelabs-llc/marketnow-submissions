@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260827-4e2329",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nanostudio-mcp",
+  "version": "1.0.0",
+  "description": "Nano Studio Pro — AI product photography over MCP (official, hosted). - Remote server (Streamable HTTP + OAuth 2.1): https://nanostudiopro.com/api/mcp - GitHub: https://github.com/spaceshiplabs1/nanostudio-mcp - Docs: https://nanostudiopro.com/docs/mcp - 31 tools: generate, restyle, cut out, upscale, animate, import, and search product images, organized into projects. Listed in the official MCP Registry as `com.nanostudiopro/studiopro`. Fits the Remote Servers section. Thanks!",
+  "author": "spaceshiplabs1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nanostudiopro.com/api/mcp",
+  "repo_url": "https://github.com/spaceshiplabs1/nanostudio-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:01.404074Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:01.404099Z",
+  "repo_url": {
+   "url": "https://github.com/spaceshiplabs1/nanostudio-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nanostudiopro.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-27T14:24:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5440550444,
+  "comment_author": "spaceshiplabs1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nanostudio-mcp"
+ }
+}
