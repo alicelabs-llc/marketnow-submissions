@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260413-b50a7e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tension-detect",
+  "version": "1.0.0",
+  "description": "# tension-detect Detect contradictions in your AI rules and generate judgment boundaries. Your CLAUDE.md says \"Ship fast\" AND \"Plan before coding.\" Which one wins? tension-detect finds the contradictions and tells you when each rule applies. - GitHub: https://github.com/zunoworks/tension-detect - PyPI: https://pypi.org/project/tension-detect/ - Install: `pip install tension-detect` - MCP: `claude mcp add tension-detect -- python -m tension_detect` Features - Zero-LLM server (detection is heurist",
+  "author": "ozoz5",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/tension-detect/",
+  "repo_url": "https://github.com/zunoworks/tension-detect",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:07.943991Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:07.944019Z",
+  "repo_url": {
+   "url": "https://github.com/zunoworks/tension-detect",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/tension-detect/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-13T04:20:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4233803558,
+  "comment_author": "ozoz5"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tension-detect"
+ }
+}
