@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260702-cd5c44",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sibfly-api",
+  "version": "1.0.0",
+  "description": "SibFly — measured ground motion (subsidence/uplift) for any US address - Name: SibFly Ground Motion - URL: https://sibfly.com - MCP Endpoint: `POST https://sibfly.com/mcp` - Transport: Streamable HTTP (JSON-RPC) - Auth: Bearer API key OR OAuth 2.1 (Dynamic Client Registration + PKCE). `/mcp` returns 401 + `WWW-Authenticate` for connector auth discovery; metadata at `/.well-known/oauth-authorization-server`. - Official MCP registry: `com.sibfly/ground-motion` - Repo: https://github.com/james-sib/",
+  "author": "james-sib",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sibfly.com/mcp",
+  "repo_url": "https://github.com/james-sib/sibfly-api",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:50.746620Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:50.746646Z",
+  "repo_url": {
+   "url": "https://github.com/james-sib/sibfly-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sibfly.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-02T10:42:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4864828639,
+  "comment_author": "james-sib"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sibfly-api"
+ }
+}
