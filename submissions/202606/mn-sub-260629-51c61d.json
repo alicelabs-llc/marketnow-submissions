@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260629-51c61d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "forum-mcp-server",
+  "version": "1.0.0",
+  "description": "# Forum MCP server Website: https://harperz9.github.io/forum.html Repository: https://github.com/HarperZ9/forum PyPI: https://pypi.org/project/forum-engine/1.13.0/ Package: `forum-engine` 1.13.0 Forum is a zero-dependency Python orchestration engine for tool-using agent workflows. It routes work, plans dependency graphs, records human approval gates, checkpoints runs, and writes routing decisions, tool outcomes, and validation results to a replayable causal ledger. The MCP server is local and us",
+  "author": "HarperZ9",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://harperz9.github.io/forum.html",
+  "repo_url": "https://github.com/HarperZ9/forum",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:45.479489Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:45.479510Z",
+  "repo_url": {
+   "url": "https://github.com/HarperZ9/forum",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://harperz9.github.io/forum.html",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-29T06:14:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4829520768,
+  "comment_author": "HarperZ9"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "forum-mcp-server"
+ }
+}
