@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260409-c234f9",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "storkai",
+  "version": "1.0.0",
+  "description": "Stork — AI tool discovery for agents - URL: https://mcp.stork.ai/mcp - npm: `storkai` (`npx -y storkai`) - GitHub: https://github.com/stork-ai/storkai - 11 tools: search 3,500+ AI tools and 14,000+ MCP servers, AI-powered recommendations, side-by-side comparisons, alternatives, full taxonomy browsing - REST API: https://mcp.stork.ai/api/v1/tools - Docs: https://www.stork.ai/developers One line to connect any MCP client: ```json { \"mcpServers\": { \"stork\": { \"url\": \"https://mcp.stork.ai/mcp\" } } }",
+  "author": "jupiterspins",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y storkai",
+  "homepage": "https://mcp.stork.ai/mcp",
+  "repo_url": "https://github.com/stork-ai/storkai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:54.488521Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:54.488546Z",
+  "repo_url": {
+   "url": "https://github.com/stork-ai/storkai",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y storkai",
+   "registry": "npm",
+   "package": "storkai",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.stork.ai/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-09T08:47:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4212844787,
+  "comment_author": "jupiterspins"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "storkai"
+ }
+}
