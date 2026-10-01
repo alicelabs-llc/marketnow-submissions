@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-e352be",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aihawk",
+  "version": "1.0.0",
+  "description": "AIHawk - open-source AI browser agent: browses, clicks, types, and reads real web pages from plain-English instructions. - Repo: https://github.com/feder-cr/AIHawk - Install: `uvx aihawk` (MCP server, works with Claude Code, Codex, Gemini CLI) - Also ships a standalone web UI: `uvx aihawk ui`",
+  "author": "feder-cr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/feder-cr/AIHawk",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:54.131237Z",
+  "duration_ms": 844,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:54.131261Z",
+  "repo_url": {
+   "url": "https://github.com/feder-cr/AIHawk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:54.131264Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aihawk"
+ }
+}
