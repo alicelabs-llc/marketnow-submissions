@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260331-ae1870",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "openclaw-finops",
+  "version": "1.0.0",
+  "description": "OpenClaw FinOps — Cloud deployment cost forecasting for AI agents - GitHub: https://github.com/maryadawson-code/openclaw-finops - Server URL: https://openclaw-finops.marywomack.workers.dev/mcp - Transport: Streamable HTTP - Auth: API Key (x-api-key header) - Category: DevOps / FinOps - Free tier: 25 ops/month, no credit card Verified pricing for AWS, GCP, and Azure. Prevents LLM cost hallucinations with a deterministic pricing matrix. Revenue-gated MCP pattern. Published on the Official MCP Regi",
+  "author": "maryadawson-code",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://openclaw-finops.marywomack.workers.dev/mcp",
+  "repo_url": "https://github.com/maryadawson-code/openclaw-finops",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:15.297509Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:15.297536Z",
+  "repo_url": {
+   "url": "https://github.com/maryadawson-code/openclaw-finops",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://openclaw-finops.marywomack.workers.dev/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-31T16:43:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4163981576,
+  "comment_author": "maryadawson-code"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "openclaw-finops"
+ }
+}
