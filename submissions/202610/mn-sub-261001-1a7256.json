@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-1a7256",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aidelly-hosted-mcp-server-for-social-media-content-operation",
+  "version": "1.0.0",
+  "description": "Aidelly — hosted MCP server for social media content operations. Repository: https://github.com/Aidelly/claude-plugin Description: Create, schedule, approve, and analyze social media content across Instagram, Facebook, LinkedIn, X, TikTok, YouTube, Pinterest, Bluesky, Threads, Mastodon, and Google Business. MCP URL: https://app.aidelly.ai/api/mcp/public-api Transport: Streamable HTTP Authentication: OAuth 2.1 with PKCE (API-key header supported for scripted use) Homepage: https://aidelly.ai",
+  "author": "wilzer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.aidelly.ai/api/mcp/public-api",
+  "repo_url": "https://github.com/Aidelly/claude-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:48.387Z",
+  "duration_ms": 549,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:48.387Z",
+  "repo_url": {
+   "url": "https://github.com/Aidelly/claude-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.aidelly.ai/api/mcp/public-api",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:20fc69af7312",
+ "submitted_at": "2026-10-01T04:09:48.387Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aidelly-hosted-mcp-server-for-social-media-content-operation"
+ }
+}
