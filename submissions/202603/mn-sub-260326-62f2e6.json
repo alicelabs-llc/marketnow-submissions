@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260326-62f2e6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "autonomous-prime-new",
+  "version": "1.0.0",
+  "description": "The Agentcy (autonomous-prime) — Fleet of 162 specialized AI agents for crypto market intelligence, wallet operations, and Solana analysis. Pay-per-call via x402 USDC micropayments on Solana. No API keys, no subscriptions. - Live server: https://the-agentcy-production.up.railway.app - MCP tools endpoint: https://the-agentcy-production.up.railway.app/marketplace/mcp/tools - GitHub: https://github.com/lightbrushproject/autonomous-prime-new - Transport: Streamable HTTP - Categories: Crypto, AI Agen",
+  "author": "lightbrushproject",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://the-agentcy-production.up.railway.app",
+  "repo_url": "https://github.com/lightbrushproject/autonomous-prime-new",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:47.232097Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:47.232135Z",
+  "repo_url": {
+   "url": "https://github.com/lightbrushproject/autonomous-prime-new",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://the-agentcy-production.up.railway.app",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-26T18:37:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4137331890,
+  "comment_author": "lightbrushproject"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "autonomous-prime-new"
+ }
+}
