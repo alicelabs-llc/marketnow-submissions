@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260221-4506a5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bastion-risk-intelligence",
+  "version": "1.0.0",
+  "description": "# BASTION — Risk Intelligence MCP Server for Crypto Agents Repository: https://github.com/bastionfintech-spec/bastion-mcp-server SSE Endpoint: Description: Cloud-hosted MCP server with 52 tools that turns any Claude agent into a professional crypto trading desk. Features a fine-tuned 72B parameter AI model analyzing 560+ real-time signals per evaluation. Categories: Risk Intelligence, Derivatives Analytics, On-Chain Intelligence, Macro/Sentiment, Portfolio Management, Trade Execution, Autonomous",
+  "author": "bastionfintech-spec",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://bastionfi.tech/agents",
+  "repo_url": "https://github.com/bastionfintech-spec/bastion-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:59.805577Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:59.805607Z",
+  "repo_url": {
+   "url": "https://github.com/bastionfintech-spec/bastion-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://bastionfi.tech/agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-21T05:17:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3938194677,
+  "comment_author": "bastionfintech-spec"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bastion-risk-intelligence"
+ }
+}
