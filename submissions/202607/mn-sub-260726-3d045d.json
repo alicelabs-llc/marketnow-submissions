@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260726-3d045d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "suize",
+  "version": "1.0.0",
+  "description": "Suize - https://github.com/Sceat/suize MCP server that lets coding agents (Claude Code, Cursor, Codex) publish static sites to Walrus (decentralized storage on Sui) in one tool call, paid with a single gasless USDC payment. Non-custodial: it signs with the user's own key locally, and the payer owns the site on-chain. npm: `@suize/mcp`.",
+  "author": "Sceat",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/Sceat/suize",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:57.266793Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:57.266819Z",
+  "repo_url": {
+   "url": "https://github.com/Sceat/suize",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-26T03:45:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5081847915,
+  "comment_author": "Sceat"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "suize"
+ }
+}
