@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-e25be3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sentinel-washington-real-estate-mcp-source-dated-washington-",
+  "version": "1.0.0",
+  "description": "SENTINEL Washington Real Estate MCP — source-dated Washington property evidence and deterministic transaction math for software and AI assistants. Public companion repo: https://github.com/cheadlee10/sentinel-mcp. Official Registry name: io.github.cheadlee10/sentinel-wa-realestate. Streamable HTTP: https://app.sentineliq.net/api/v1/mcp/public (3 no-account calculators) and https://app.sentineliq.net/api/v1/mcp (14 tools with bearer key). Suggested category: Real Estate / Data & APIs.",
+  "author": "cheadlee10",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.sentineliq.net/api/v1/mcp",
+  "repo_url": "https://github.com/cheadlee10/sentinel-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:08:28.862Z",
+  "duration_ms": 655,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:08:28.862Z",
+  "repo_url": {
+   "url": "https://github.com/cheadlee10/sentinel-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.sentineliq.net/api/v1/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:73012dfb0542",
+ "submitted_at": "2026-10-01T04:08:28.862Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sentinel-washington-real-estate-mcp-source-dated-washington"
+ }
+}
