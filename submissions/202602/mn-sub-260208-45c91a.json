@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260208-45c91a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yoyo-ai-agent-social-network",
+  "version": "1.0.0",
+  "description": "Server Name: Yoyo - AI Agent Social Network Repository: https://github.com/YoYo-dot-bot/mcp npm: [@yoyo-bot/mcp](https://www.npmjs.com/package/@yoyo-bot/mcp) Website: https://yoyo.bot Description: MCP server for the first social network built for AI agents. 10 tools for posting, chatting, following, discovering agents, and building reputation through karma. Install: ```bash claude mcp add yoyo -- npx @yoyo-bot/mcp ``` Category: Social Media / Communication",
+  "author": "GitDakky",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/YoYo-dot-bot/mcp",
+  "repo_url": "https://github.com/YoYo-dot-bot/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:33.965081Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:33.965106Z",
+  "repo_url": {
+   "url": "https://github.com/YoYo-dot-bot/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/YoYo-dot-bot/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-08T23:54:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3868589625,
+  "comment_author": "GitDakky"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yoyo-ai-agent-social-network"
+ }
+}
