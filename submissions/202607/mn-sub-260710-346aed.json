@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260710-346aed",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "podlearn-plugin",
+  "version": "1.0.0",
+  "description": "PodLearn — https://github.com/blutrich/podlearn-plugin Podcast & YouTube → searchable transcripts + AI lessons. Hosted MCP server (Streamable HTTP, 25 tools): search 4M+ podcasts (PodcastIndex) and YouTube, transcribe any episode or video URL (even without captions), bulk-transcribe feeds, full-text-search transcripts, generate AI lessons and LinkedIn posts. - Website: https://podlearn.ai - MCP endpoint: https://httiyebjgxxwtgggkpgw.supabase.co/functions/v1/mcp-server-streamable (Authorization: ",
+  "author": "blutrich",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://podlearn.ai",
+  "repo_url": "https://github.com/blutrich/podlearn-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:29.339409Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:29.339432Z",
+  "repo_url": {
+   "url": "https://github.com/blutrich/podlearn-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://podlearn.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-10T16:24:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4937357136,
+  "comment_author": "blutrich"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "podlearn-plugin"
+ }
+}
