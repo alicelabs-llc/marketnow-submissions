@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260304-9fe95e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "resonance-reward",
+  "version": "1.0.0",
+  "description": "# Resonance Reward Agent — Loyalty, Rewards & Commerce MCP Server Link: https://github.com/RSNCNetwork/resonance-agent Category: Loyalty / Rewards / Commerce Description: Cross-brand cashback and loyalty rewards network MCP server. 26+ tools for earning cashback, browsing deals, redeeming perks, and managing reward programs across retail, dining, travel, and gaming brands. Features brand discovery, analytics, leaderboards, and program management. - Live endpoint: https://agent.rsnc.network/mcp -",
+  "author": "TRC-Crypto",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent.rsnc.network/mcp",
+  "repo_url": "https://github.com/RSNCNetwork/resonance-agent",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:37.736856Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:37.736880Z",
+  "repo_url": {
+   "url": "https://github.com/RSNCNetwork/resonance-agent",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agent.rsnc.network/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-04T02:18:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3994808454,
+  "comment_author": "TRC-Crypto"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "resonance-reward"
+ }
+}
