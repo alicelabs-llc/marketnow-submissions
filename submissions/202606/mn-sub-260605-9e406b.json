@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260605-9e406b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "com-savvly-savvly",
+  "version": "1.0.0",
+  "description": "Name: `com.savvly/savvly` (Savvly — Longevity Benefit Fund) Repo: https://github.com/Savvly/savvly-mcp Official MCP Registry: https://registry.modelcontextprotocol.io/v0.1/servers?search=com.savvly/savvly Remote (public, unauthenticated, streamable-http): https://api.savvly.com/mcp Also published: npm `@savvly/mcp-server`, PyPI `savvly-mcp-server`, NuGet `Savvly.McpServer`, OCI `ghcr.io/savvly/savvly-mcp-server`, MCPB. Read-only (all 8 tools `readOnlyHint: true`): product info, Savvly-vs-alterna",
+  "author": "schwabr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.savvly.com/mcp",
+  "repo_url": "https://github.com/Savvly/savvly-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153171Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153172Z",
+  "repo_url": {
+   "url": "https://github.com/Savvly/savvly-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.savvly.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-05T05:01:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2643,
+  "comment_author": "schwabr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "com-savvly-savvly"
+ }
+}

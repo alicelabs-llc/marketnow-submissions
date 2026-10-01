@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260610-c308ad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "overlayqa",
+  "version": "1.0.0",
+  "description": "MCP Server Submission: @overlayqa/mcp Name: OverlayQA Repository: https://github.com/OverlayQA/mcp npm: https://www.npmjs.com/package/@overlayqa/mcp Official MCP Registry: `com.overlayqa/mcp` Website: https://overlayqa.com Category: developer-tools Description Run WCAG accessibility and color-contrast audits on any URL and file dev-ready QA issues, straight from Claude Code, Cursor, or Windsurf. 9 tools: scan_accessibility (axe-core mapped to WCAG criteria), scan_contrast, scan_and_create_issue",
+  "author": "emviedv",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://overlayqa.com",
+  "repo_url": "https://github.com/OverlayQA/mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152839Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152841Z",
+  "repo_url": {
+   "url": "https://github.com/OverlayQA/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://overlayqa.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-10T03:03:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2695,
+  "comment_author": "emviedv"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "overlayqa"
+ }
+}

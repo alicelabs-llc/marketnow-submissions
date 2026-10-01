@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260611-64be5f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialgpt-social",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: SocialGPT Your social media analytics inside any MCP client — deep video analysis (hooks, themes, transcripts, scene breakdowns), account metrics over time, and public/competitor creator intel for TikTok, Instagram, and YouTube. Hosted remote server: no install, no API keys. Server details: - Repository: https://github.com/scrollmark/socialgpt-mcp - MCP Endpoint (hosted, streamable-HTTP): `https://mcp.gpt.social/mcp` - Authentication: OAuth 2.1 + PKCE (sign in with a free Soc",
+  "author": "ennsharma",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.gpt.social/mcp",
+  "repo_url": "https://github.com/scrollmark/socialgpt-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152659Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152661Z",
+  "repo_url": {
+   "url": "https://github.com/scrollmark/socialgpt-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.gpt.social/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-11T01:31:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2712,
+  "comment_author": "ennsharma"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialgpt-social"
+ }
+}

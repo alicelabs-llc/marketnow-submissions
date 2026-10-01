@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260603-314313",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "orcool-studio-mcp",
+  "version": "1.0.0",
+  "description": "Creative intelligence as a tool call. Orcool gives your agent three live feeds from your category: Alerts (a competitor shipped new creative this morning, not a week late), Patterns (the winning move plus why it works, structured so your agent can use it), and Reports (the week in your market, ready to drop into a brief or a scoring step). Self-service through one MCP your team and your agent already use. Sold as Time-to-Winner: the days from a market signal to an ad that clears your own KPI gat",
+  "author": "ryss30",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://get.orcool.com?utm_source=mcpso&utm_medium=mcp-listing&utm_campaign=mcp-distrib",
+  "repo_url": "https://github.com/ryss30/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153397Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153399Z",
+  "repo_url": {
+   "url": "https://github.com/ryss30/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://get.orcool.com?utm_source=mcpso&utm_medium=mcp-listing&utm_campaign=mcp-distrib",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-03T01:27:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2611,
+  "comment_author": "ryss30"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "orcool-studio-mcp"
+ }
+}

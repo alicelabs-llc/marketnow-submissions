@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260529-48ef66",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fox-davidson-property-mortgage-mcp",
+  "version": "1.0.0",
+  "description": "Fox Davidson Property Mortgage MCP UK mortgage calculators exposed as an MCP server, from Fox Davidson, FCA-authorised UK mortgage brokers (FRN 600427). Tools - `uk_stamp_duty_calculator` — UK stamp duty across England/NI (SDLT), Scotland (LBTT) and Wales (LTT), with first-time buyer relief, additional dwelling surcharge, non-UK resident surcharge, corporate flat rate and commercial/mixed-use. - `fd_hnw_mortgage_qualification` — FCA MCOB 3A high net worth mortgage customer test (£300k income OR",
+  "author": "fdcommercial",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://fd-property-mortgage-mcp.fdcommercial-uk.workers.dev/mcp",
+  "repo_url": "https://github.com/foxdavidson/property-mortgage-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153732Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153735Z",
+  "repo_url": {
+   "url": "https://github.com/foxdavidson/property-mortgage-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://fd-property-mortgage-mcp.fdcommercial-uk.workers.dev/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-29T09:04:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2561,
+  "comment_author": "fdcommercial"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fox-davidson-property-mortgage-mcp"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260529-d5b9f6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "petro-mcp-1-0-0-please-re-scrape-listing",
+  "version": "1.0.0",
+  "description": "The current mcp.so listing for petro-mcp at https://mcp.so/server/petro-mcp/Groundwork%20Analytics is showing stale content from an earlier release. The README and tool list shown do not match the current published package. Current state (v1.0.0 on PyPI): - Package: https://pypi.org/project/petro-mcp/1.0.0/ - Repository: https://github.com/petropt/petro-mcp - Latest release: v1.0.0 (2026-05-26) - Tool groups: 7 (`las`, `production`, `decline`, `pvt`, `petrophysics`, `reservoir`, `units`) - MCP t",
+  "author": "shirangi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/petro-mcp/1.0.0/",
+  "repo_url": "https://github.com/petropt/petro-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153603Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153604Z",
+  "repo_url": {
+   "url": "https://github.com/petropt/petro-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/petro-mcp/1.0.0/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-29T16:07:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2567,
+  "comment_author": "shirangi"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "petro-mcp-1-0-0-please-re-scrape-listing"
+ }
+}

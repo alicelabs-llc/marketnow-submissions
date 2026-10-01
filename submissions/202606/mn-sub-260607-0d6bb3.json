@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260607-0d6bb3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "revettr",
+  "version": "1.0.0",
+  "description": "** Counterparty risk scoring API for agentic commerce. Scores wallets, domains, IPs, and company names 0–100 with per-signal breakdown, JWS attestation, and x402 micropayment gating.",
+  "author": "AlexanderLawson17",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://revettr.com/mcp",
+  "repo_url": "https://github.com/AlexanderLawson17/revettr-python",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153003Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153005Z",
+  "repo_url": {
+   "url": "https://github.com/AlexanderLawson17/revettr-python",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://revettr.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-07T17:19:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2672,
+  "comment_author": "AlexanderLawson17"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "revettr"
+ }
+}

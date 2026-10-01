@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260527-7e53bf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sregym-incident-replay-gate",
+  "version": "1.0.0",
+  "description": "MCP server SREGym Incident Replay Gate Description SREGym Incident Replay Gate is a paid hosted remote MCP for SREGym. It exposes Streamable HTTP tool calls, bearer-token access, public server-card metadata, usage logs, and receipt-oriented JSON for AI agent workflows. Links - Website: https://sregymgate.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605r27 - Endpoint: https://sregymgate.clauxel.com/mcp - Public docs: https://github.com/clauxel/sregym-incident-replay-gat",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://sregymgate.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/sregym-incident-replay-gate-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153990Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153992Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/sregym-incident-replay-gate-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://sregymgate.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-27T16:07:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2532,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sregym-incident-replay-gate"
+ }
+}

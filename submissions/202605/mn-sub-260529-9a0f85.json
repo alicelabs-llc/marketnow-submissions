@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260529-9a0f85",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "signaliz",
+  "version": "1.0.0",
+  "description": "B2B lead generation, email verification, company enrichment, and governed GTM Ops for AI agents.",
+  "author": "joshwhitfield",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @signaliz/mcp-server",
+  "homepage": "https://signaliz.com",
+  "repo_url": "https://github.com/signaliz/signaliz-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153787Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153788Z",
+  "repo_url": {
+   "url": "https://github.com/signaliz/signaliz-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @signaliz/mcp-server",
+   "registry": "npm",
+   "package": "@signaliz/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://signaliz.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-29T00:02:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2553,
+  "comment_author": "joshwhitfield"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "signaliz"
+ }
+}

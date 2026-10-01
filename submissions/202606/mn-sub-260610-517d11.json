@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260610-517d11",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gpt55-x402-agent-tools",
+  "version": "1.0.0",
+  "description": "** Remote MCP and x402 API gateway for OpenAI-compatible chat request shape plus deterministic URL, HTTP, JSON, text, and seller utilities. It exposes MCP tools for chat-request handling, summarization, translation, rewriting, Q&A, code review, JSON extraction, URL metadata/text/links, HTTP status checks, JSON validation, hashing, Base64, timestamps, regex, UUID, seller intelligence, and x402 discovery utilities. Paid execution routes through x402 USDC on Base.",
+  "author": "go165",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gpt55.558686.xyz",
+  "repo_url": "https://github.com/go165/gpt55-x402-gateway",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152768Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152769Z",
+  "repo_url": {
+   "url": "https://github.com/go165/gpt55-x402-gateway",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gpt55.558686.xyz",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-10T19:25:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2704,
+  "comment_author": "go165"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gpt55-x402-agent-tools"
+ }
+}

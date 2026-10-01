@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260609-b93d40",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lobby-ai-receptionist-toolkit-lobbyvoices",
+  "version": "1.0.0",
+  "description": "[Submit] lobbyvoices — AI Receptionist Toolkit: free phone scripts, IVR menus (EN+ES), ElevenLabs prompts, missed-call math — https://github.com/bodyegypt/lobbyvoices-mcp",
+  "author": "bodyegypt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://lobbyvoices.com/api/mcp",
+  "repo_url": "https://github.com/bodyegypt/lobbyvoices-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152874Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152876Z",
+  "repo_url": {
+   "url": "https://github.com/bodyegypt/lobbyvoices-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://lobbyvoices.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-09T21:59:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2691,
+  "comment_author": "bodyegypt"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lobby-ai-receptionist-toolkit-lobbyvoices"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260602-1f3db6",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "com-worldcitisim-mcp",
+  "version": "1.0.0",
+  "description": "Travel eSIMs for 193 countries. Stripe + Bitcoin checkout. QR by email in 30s. No API key.",
+  "author": "isabellaliebgott",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/easyname889/worldcitisim-frontend",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153428Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 38,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153430Z",
+  "repo_url": {
+   "url": "https://github.com/easyname889/worldcitisim-frontend",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-02T16:57:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2609,
+  "comment_author": "isabellaliebgott"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "com-worldcitisim-mcp"
+ }
+}

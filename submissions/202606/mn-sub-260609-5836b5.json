@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260609-5836b5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "skill-audit-mcp",
+  "version": "1.0.0",
+  "description": "** A static security scanner for MCP servers, agent skills and plugins — 68 attack patterns (command injection, path traversal, SSRF, secret exposure, prompt-injection sinks, etc.). Three tools: `audit`, `audit_file`, `audit_directory`.",
+  "author": "eltociear",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx skill-audit-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/eltociear/skill-audit-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152925Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152926Z",
+  "repo_url": {
+   "url": "https://github.com/eltociear/skill-audit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-09T10:03:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2685,
+  "comment_author": "eltociear"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "skill-audit-mcp"
+ }
+}

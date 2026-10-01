@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260604-43d3a0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "co-tempguru-event",
+  "version": "1.0.0",
+  "description": "W-2 event staffing data for AI agents — 300+ US and Canadian markets, brand ambassadors, registration, hospitality, setup/breakdown, and more. Read-only, no auth required.",
+  "author": "kissmyabs32",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.tempguru.co/mcp",
+  "repo_url": "https://github.com/kissmyabs32/tempguru-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153333Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153335Z",
+  "repo_url": {
+   "url": "https://github.com/kissmyabs32/tempguru-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.tempguru.co/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-04T04:14:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2625,
+  "comment_author": "kissmyabs32"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "co-tempguru-event"
+ }
+}

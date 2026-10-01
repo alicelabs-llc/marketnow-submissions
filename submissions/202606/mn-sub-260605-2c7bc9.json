@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260605-2c7bc9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "drillr-please-re-scrape-tools-tab-8-9-tools",
+  "version": "1.0.0",
+  "description": "The current mcp.so listing for drillr at https://mcp.so/server/drillr-—-the-financial-mcp-for-ai-agents/Little-Grebe-Inc shows 8 tools in the Tools tab, but the live server now exposes 9. The cached tools list does not match what the MCP endpoint returns. Current state: - Listing URL: https://mcp.so/server/drillr-—-the-financial-mcp-for-ai-agents/Little-Grebe-Inc - MCP endpoint: https://gateway.drillr.ai/mcp/data (Streamable HTTP) - Repository: https://github.com/Little-Grebe-Inc/drillr-mcp-serv",
+  "author": "huluwa2026",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gateway.drillr.ai/mcp/data",
+  "repo_url": "https://github.com/Little-Grebe-Inc/drillr-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153117Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153119Z",
+  "repo_url": {
+   "url": "https://github.com/Little-Grebe-Inc/drillr-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://gateway.drillr.ai/mcp/data",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-05T08:11:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2646,
+  "comment_author": "huluwa2026"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "drillr-please-re-scrape-tools-tab-8-9-tools"
+ }
+}

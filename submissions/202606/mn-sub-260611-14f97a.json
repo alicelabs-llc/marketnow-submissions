@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260611-14f97a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fda-approvals-recalls",
+  "version": "1.0.0",
+  "description": "FDA drug approvals, device 510(k) clearances, recalls, adverse-event reports via openFDA. Hosted on Cloudflare Workers. Free anonymous tier (~100 calls/month per IP). Paid tiers from $5-19/mo for higher quotas.",
+  "author": "guptaprakhariitr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://fda-approvals-mcp.atlasword.workers.dev/",
+  "repo_url": "https://github.com/guptaprakhariitr/fda-approvals-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152590Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152592Z",
+  "repo_url": {
+   "url": "https://github.com/guptaprakhariitr/fda-approvals-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://fda-approvals-mcp.atlasword.workers.dev/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-11T08:25:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2735,
+  "comment_author": "guptaprakhariitr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fda-approvals-recalls"
+ }
+}

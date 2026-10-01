@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260602-31ff8e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "keel-trade-hyperliquid-trading-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server for AI-driven Hyperliquid trading strategy development. Compose typed strategy graphs from a versioned component library, run deterministic backtests against real Hyperliquid funding + price history, and (with explicit two-step opt-in) deploy live with bit-for-bit backtest-to-live parity — same compiled artifact runs both backtest and production.",
+  "author": "keel-trade",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/keel-trade/",
+  "repo_url": "https://github.com/keel-trade/keel-trade",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153445Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153447Z",
+  "repo_url": {
+   "url": "https://github.com/keel-trade/keel-trade",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/keel-trade/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-02T12:50:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2608,
+  "comment_author": "keel-trade"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "keel-trade-hyperliquid-trading-mcp"
+ }
+}

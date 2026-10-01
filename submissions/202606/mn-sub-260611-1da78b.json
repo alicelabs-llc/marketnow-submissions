@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260611-1da78b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "oxidize-pdf",
+  "version": "1.0.0",
+  "description": "[Submit] oxidize-pdf — Rust-powered PDF toolkit (create, parse, RAG-extract, manipulate, encrypt) — https://github.com/bzsanti/oxidize-python",
+  "author": "bzsanti",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx oxidize-mcp",
+  "homepage": "https://pypi.org/project/oxidize-pdf/",
+  "repo_url": "https://github.com/bzsanti/oxidize-python",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152319Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152320Z",
+  "repo_url": {
+   "url": "https://github.com/bzsanti/oxidize-python",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/oxidize-pdf/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-11T18:30:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2758,
+  "comment_author": "bzsanti"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "oxidize-pdf"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260607-4175dc",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "taxcompass",
+  "version": "1.0.0",
+  "description": "Sourced Italian tax & company-law tools for AI agents. Search primary sources (Normattiva, Agenzia delle Entrate, INPS, the ATECO 2025 catalogue, EU & double-taxation-treaty law) with citations, and run a deterministic forfettario / IRPEF / INPS tax engine — grounded, citable answers instead of guesses, inside your agent.",
+  "author": "janwan2003",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://taxcompass.it/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152987Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152989Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://taxcompass.it/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-07T17:55:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2673,
+  "comment_author": "janwan2003"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "taxcompass"
+ }
+}

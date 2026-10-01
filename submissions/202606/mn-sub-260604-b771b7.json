@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260604-b771b7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialloop",
+  "version": "1.0.0",
+  "description": "** A remote (Streamable HTTP) MCP server for the SocialLoop events platform. Unlike most servers it takes real-world action: from any AI assistant you can create and publish a live event page with ticketing, guest lists, promo codes, affiliates, registration forms, and a full production OS — all on the host's behalf. No API keys (OAuth).",
+  "author": "socialloopai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://socialloop.ai/mcp",
+  "repo_url": "https://github.com/socialloopai/socialloop-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153317Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153319Z",
+  "repo_url": {
+   "url": "https://github.com/socialloopai/socialloop-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://socialloop.ai/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-04T05:38:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2626,
+  "comment_author": "socialloopai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialloop"
+ }
+}

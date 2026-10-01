@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260526-8a184d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shipswift-component-mcp",
+  "version": "1.0.0",
+  "description": "MCP server ShipSwift Component MCP Description Paid remote MCP for ShipSwift, structured receipts, usage logs, and audit-ready JSON evidence. Links - Website: https://shipswiftcomponents.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605r26_224703 - Endpoint: https://shipswiftcomponents.clauxel.com/mcp - Public docs: https://github.com/clauxel/shipswift-component-mcp-mcp - Server card: https://shipswiftcomponents.clauxel.com/server-card.json Access Paid hosted remote MCP",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://shipswiftcomponents.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/shipswift-component-mcp-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.154113Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.154114Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/shipswift-component-mcp-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://shipswiftcomponents.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-26T15:48:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2521,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shipswift-component-mcp"
+ }
+}

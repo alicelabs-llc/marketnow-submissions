@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260604-85948b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kubernetes-manifest-audit",
+  "version": "1.0.0",
+  "description": "[Submit] UnbearableDev/k8s-manifest-audit — kube-linter-powered static audit for Kubernetes manifests, MCP-native — https://github.com/UnbearableDev/k8s-manifest-audit",
+  "author": "UnbearableDev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://unbearable-dev--k8s-manifest-audit.apify.actor/mcp",
+  "repo_url": "https://github.com/UnbearableDev/k8s-manifest-audit",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153299Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153303Z",
+  "repo_url": {
+   "url": "https://github.com/UnbearableDev/k8s-manifest-audit",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://unbearable-dev--k8s-manifest-audit.apify.actor/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-04T16:53:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2632,
+  "comment_author": "UnbearableDev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kubernetes-manifest-audit"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260602-a81693",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mdvp-cli-design-quality-scoring",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MDVP CLI - GitHub: https://github.com/Tixo-Digital/mdvp-cli - npm: https://www.npmjs.com/package/@mdvp/cli - Version: 1.32.1 - License: MIT Description MDVP (Machine Design Vision Protocol) gives agents deterministic, explainable design-quality measurement for any live URL. It exposes six tools over the Model Context Protocol that let an agent audit, compare, perceive, and crawl websites for design metrics — CSS health, Oklab/APCA color science, Shannon entropy, AI-UI",
+  "author": "EtnDiaz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@mdvp/cli",
+  "repo_url": "https://github.com/Tixo-Digital/mdvp-cli",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153414Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153416Z",
+  "repo_url": {
+   "url": "https://github.com/Tixo-Digital/mdvp-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@mdvp/cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-02T17:09:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2610,
+  "comment_author": "EtnDiaz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mdvp-cli-design-quality-scoring"
+ }
+}

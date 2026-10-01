@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260608-5ce74e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "scavio",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Scavio - GitHub: https://github.com/scavio-ai/scavio-mcp - Website: https://scavio.dev - MCP Endpoint: https://mcp.scavio.dev/mcp - Install: `npx @scavio/mcp-server` Description Unified real-time search API for AI agents. 21 tools giving AI agents access to Google, YouTube, Amazon, Walmart, Reddit, and TikTok through a single HTTP endpoint. Free tier included. Categories - Search & Data Extraction - E-Commerce - Social Media",
+  "author": "scavio-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.scavio.dev/mcp",
+  "repo_url": "https://github.com/scavio-ai/scavio-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152953Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152955Z",
+  "repo_url": {
+   "url": "https://github.com/scavio-ai/scavio-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.scavio.dev/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-08T19:58:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2682,
+  "comment_author": "scavio-ai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "scavio"
+ }
+}

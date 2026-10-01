@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260601-d2f362",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "qorami-mcp-server-email-guardrail",
+  "version": "1.0.0",
+  "description": "Server Information - Name: qorami - GitHub: https://github.com/loicfontaine-max/qorami-sdk - Website: https://qorami.fr - Docs: https://qorami.fr/docs Description A control point between AI agents and sending email. Before an agent sends, it calls Qorami and gets back one decision it must obey: send, request_human_confirmation, or do_not_send — with machine reason codes and, when an email is risky only because of removable content, a cleaned safe-to-send version. Detects leaked secrets, payment",
+  "author": "loicfontaine-max",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://qorami.fr",
+  "repo_url": "https://github.com/loicfontaine-max/qorami-sdk",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153513Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153514Z",
+  "repo_url": {
+   "url": "https://github.com/loicfontaine-max/qorami-sdk",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://qorami.fr",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-01T12:36:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2602,
+  "comment_author": "loicfontaine-max"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "qorami-mcp-server-email-guardrail"
+ }
+}

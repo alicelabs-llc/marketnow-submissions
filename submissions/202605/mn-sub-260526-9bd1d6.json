@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260526-9bd1d6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialdatax-douyin-mcp",
+  "version": "1.0.0",
+  "description": "SocialDataX 抖音 Douyin MCP is a hosted read-only streamable HTTP MCP service for Douyin / 抖音 social media research workflows. It supports hot search, work search, work details, comments, comment replies, creator profiles, creator works, and creator short-drama / series lists.",
+  "author": "DevinChen2014",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.52choujiang.com/douyin/mcp",
+  "repo_url": "https://github.com/DevinChen2014/douyin-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.154236Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.154237Z",
+  "repo_url": {
+   "url": "https://github.com/DevinChen2014/douyin-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.52choujiang.com/douyin/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-26T04:34:49Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2513,
+  "comment_author": "DevinChen2014"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialdatax-douyin-mcp"
+ }
+}

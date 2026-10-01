@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260601-40682c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yield-intelligence",
+  "version": "1.0.0",
+  "description": "Server Information - Name: YIELD INTELLIGENCE - GitHub: https://github.com/thebrierfox/intuitek-ace - Website: https://api.intuitek.ai - Docs: https://github.com/thebrierfox/intuitek-acereadme Description Hosted remote MCP server for passive income analysis. Scans Treasury bonds, dividend ETFs, REITs, and preferred stocks across asset classes to identify yield opportunities. Builds portfolios targeting a user-specified monthly income goal. No authentication required — works immediately in any M",
+  "author": "KyleMillion",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.intuitek.ai/yield/mcp",
+  "repo_url": "https://github.com/thebrierfox/intuitek-ace",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153496Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153498Z",
+  "repo_url": {
+   "url": "https://github.com/thebrierfox/intuitek-ace",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.intuitek.ai/yield/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-01T15:32:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2603,
+  "comment_author": "KyleMillion"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yield-intelligence"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260610-7e5327",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aegis-governance",
+  "version": "1.0.0",
+  "description": "Quantitative governance gate for AI agents and engineering decisions. Proposals are evaluated through six gates — Risk, Profit, Novelty, Complexity, Quality, Utility — and return a structured decision (PROCEED / PAUSE / HALT / ESCALATE) with confidence scores, rationale, and a hash-chained, tamper-evident audit trail. Generates NIST AI RMF and EU AI Act Annex IV compliance artifacts.",
+  "author": "ThermoclineLeviathan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.aegis.undercurrentholdings.com/mcp",
+  "repo_url": "https://github.com/undercurrentai/aegis-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152749Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152750Z",
+  "repo_url": {
+   "url": "https://github.com/undercurrentai/aegis-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.aegis.undercurrentholdings.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-10T20:17:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2706,
+  "comment_author": "ThermoclineLeviathan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aegis-governance"
+ }
+}

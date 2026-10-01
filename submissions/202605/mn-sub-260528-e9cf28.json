@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260528-e9cf28",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "val-qa-agent-for-vibecoded-apps",
+  "version": "1.0.0",
+  "description": "MCP Server val Description Val is the QA agent for vibecoded apps. Drives a real browser (Playwright + Chromium) to catch broken links, dead buttons, busted layouts, console errors, broken images, layout overflow on mobile, CLS jank, and accessibility violations. Built specifically for apps generated with Lovable, Bolt, Cursor, Claude Code, v0, and other AI coding tools. GitHub https://github.com/Wakizara/val-action Homepage https://val.nyx-intelligence.com Installation ```json { \"mcpServers\":",
+  "author": "Wakizara",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://val.nyx-intelligence.com",
+  "repo_url": "https://github.com/Wakizara/val-action",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153817Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153818Z",
+  "repo_url": {
+   "url": "https://github.com/Wakizara/val-action",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://val.nyx-intelligence.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-28T07:49:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2543,
+  "comment_author": "Wakizara"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "val-qa-agent-for-vibecoded-apps"
+ }
+}

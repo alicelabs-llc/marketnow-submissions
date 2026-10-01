@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260611-1369df",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wikipedia-recent-changes",
+  "version": "1.0.0",
+  "description": "Live Wikipedia edit feed, page summaries, trending pages, Wikidata search. Hosted on Cloudflare Workers. Free anonymous tier (~100 calls/month per IP). Paid tiers from $5-19/mo for higher quotas.",
+  "author": "guptaprakhariitr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://wikipedia-recent-changes-mcp.atlasword.workers.dev/",
+  "repo_url": "https://github.com/guptaprakhariitr/wikipedia-recent-changes-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152406Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152407Z",
+  "repo_url": {
+   "url": "https://github.com/guptaprakhariitr/wikipedia-recent-changes-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://wikipedia-recent-changes-mcp.atlasword.workers.dev/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-11T08:25:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2747,
+  "comment_author": "guptaprakhariitr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wikipedia-recent-changes"
+ }
+}

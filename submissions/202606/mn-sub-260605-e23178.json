@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260605-e23178",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "iflow-search",
+  "version": "1.0.0",
+  "description": "Server submission Name: iflow-search Title: iFlow Search Author: zhengyanglsun Repo: https://github.com/zhengyanglsun/iflow-search-js npm package: [`@iflow-ai/search-mcp@0.1.0`](https://www.npmjs.com/package/@iflow-ai/search-mcp) Official MCP Registry name: `io.github.zhengyanglsun/iflow-search` Transport: stdio (npx) Runtime: Node.js >= 18 License: MIT Tool count: 3 Auth: `IFLOW_API_KEY` env var — users obtain their own key from https://platform.iflow.cn Description An MCP stdio server that pr",
+  "author": "zhengyanglsun",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@iflow-ai/search-mcp",
+  "repo_url": "https://github.com/zhengyanglsun/iflow-search-js",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153086Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153088Z",
+  "repo_url": {
+   "url": "https://github.com/zhengyanglsun/iflow-search-js",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@iflow-ai/search-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-05T16:53:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2653,
+  "comment_author": "zhengyanglsun"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "iflow-search"
+ }
+}

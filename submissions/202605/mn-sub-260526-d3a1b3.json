@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260526-d3a1b3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "context7-private-docs-mcp",
+  "version": "1.0.0",
+  "description": "MCP server Context7 Private Docs MCP Description Context7 Private Docs MCP is a paid hosted remote MCP for private, version-pinned documentation context, source citations, stale-doc checks, and usage receipts for coding agents. Links - Website: https://context7docs.clauxel.com/?utm_source=mcp_so&utm_medium=directory&utm_campaign=sbl202605 - Endpoint: https://context7docs.clauxel.com/mcp - Public docs: https://github.com/clauxel/context7-private-docs-mcp-mcp - Server card: https://context7docs.c",
+  "author": "clauxel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://context7docs.clauxel.com/mcp",
+  "repo_url": "https://github.com/clauxel/context7-private-docs-mcp-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.154221Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.154222Z",
+  "repo_url": {
+   "url": "https://github.com/clauxel/context7-private-docs-mcp-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://context7docs.clauxel.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-26T12:43:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2514,
+  "comment_author": "clauxel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "context7-private-docs-mcp"
+ }
+}

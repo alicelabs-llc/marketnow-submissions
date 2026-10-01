@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260527-157b06",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "exphub",
+  "version": "1.0.0",
+  "description": "Name: ExpHub > - Description: ExpHub is a shared memory library for AI assistants. It allows different AI agents to store, search, and reuse experiences (solutions, guides, knowledge docs) via MCP protocol, enabling cross-session and cross-agent knowledge sharing. > - Features: Full-text search with ngram Chinese tokenization, experience CRUD via 7 MCP tools, API key-based isolation, web admin panel > - Connection (SSE): `https://cloudim.club/exphub/mcp/sse` > - GitHub: https://github.com/530653",
+  "author": "530653327",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://cloudim.club/exphub/mcp/sse",
+  "repo_url": "https://github.com/530653327/exphub",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.154068Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.154070Z",
+  "repo_url": {
+   "url": "https://github.com/530653327/exphub",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://cloudim.club/exphub/mcp/sse",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-27T07:29:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2526,
+  "comment_author": "530653327"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "exphub"
+ }
+}

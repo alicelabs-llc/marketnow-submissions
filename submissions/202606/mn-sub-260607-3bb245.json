@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260607-3bb245",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "free33",
+  "version": "1.0.0",
+  "description": "** FREE33 provides 11 free MCP microservices for developers and AI agents. Services include: Code Review (Python/JS/Go/Rust/Java), Security Audit (secrets scanning, SAST), WASM Compiler, A2A Cryptographic Escrow, Structured Parser, Log Analyzer, Dependency Audit, Config Validator, PR Description Generator, Complexity Analyzer, and Schema Inferencer. All services have free trial tiers.",
+  "author": "BARRYPMARSHALL",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ref-used-out-alliance.trycloudflare.com",
+  "repo_url": "https://github.com/BARRYPMARSHALL/free33",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153034Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153035Z",
+  "repo_url": {
+   "url": "https://github.com/BARRYPMARSHALL/free33",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ref-used-out-alliance.trycloudflare.com",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-07T01:19:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2663,
+  "comment_author": "BARRYPMARSHALL"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "free33"
+ }
+}

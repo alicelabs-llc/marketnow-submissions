@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260611-9fb4f7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "numertel-polish",
+  "version": "1.0.0",
+  "description": "Server URL (streamable HTTP): https://numertel.pl/api/mcp Tools: - `check_phone_number` — who called, spam/scam verdict, UKE DNO registry, official-hotline whitelist - `pogoda_spamowa` — daily phone-phishing stats for Poland (CERT Polska data) Repo: https://github.com/AMR-DEV-PS/numertel-mcp Docs: https://numertel.pl/dla-deweloperow Official MCP registry: `pl.numertel/numertel` Read-only, no personal data returned. Backed by NumerTel.pl (130M Polish numbers).",
+  "author": "AMR-DEV-PS",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://numertel.pl/dla-deweloperow",
+  "repo_url": "https://github.com/AMR-DEV-PS/numertel-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152285Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152286Z",
+  "repo_url": {
+   "url": "https://github.com/AMR-DEV-PS/numertel-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://numertel.pl/dla-deweloperow",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-11T22:07:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2761,
+  "comment_author": "AMR-DEV-PS"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "numertel-polish"
+ }
+}

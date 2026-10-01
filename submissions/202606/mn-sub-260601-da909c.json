@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260601-da909c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "seaworthy-insurance-mcp-io-seaworthy-mcp",
+  "version": "1.0.0",
+  "description": "** an agent-callable `quote_request` action that submits a disability insurance quote-comparison request to the broker team on a user's behalf, plus read-only carrier comparison, benefit-cap math, and rider/coverage research tools. Built by Seaworthy Insurance Agency.",
+  "author": "tobylason",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.seaworthy.io/mcp",
+  "repo_url": "https://github.com/seaworthy-io/seaworthy-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.153460Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.153462Z",
+  "repo_url": {
+   "url": "https://github.com/seaworthy-io/seaworthy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.seaworthy.io/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-01T23:30:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2606,
+  "comment_author": "tobylason"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "seaworthy-insurance-mcp-io-seaworthy-mcp"
+ }
+}

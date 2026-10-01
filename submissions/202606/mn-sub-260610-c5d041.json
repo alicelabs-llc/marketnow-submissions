@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260610-c5d041",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "glim-sh",
+  "version": "1.0.0",
+  "description": "Name: glim.sh Endpoint URL: https://glim.sh/mcp Homepage: https://glim.sh Repo (manifests + docs): https://github.com/glim-sh/glim-mcp Transport: Streamable HTTP (remote/hosted - nothing to install) Auth: OAuth 2.0 (browser sign-in with prepaid balance), or no account at all - pay per call with crypto (x402 USDC on Base/Solana, MPP on Tempo) Category: Hosted MCP Servers / Data & Search Tags: twitter, reddit, web, github, search, amazon, youtube, data, research Short description: Give your agent",
+  "author": "tenequm",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://glim.sh",
+  "repo_url": "https://github.com/glim-sh/glim-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:35.152784Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:35.152786Z",
+  "repo_url": {
+   "url": "https://github.com/glim-sh/glim-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://glim.sh",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-10T17:44:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 2701,
+  "comment_author": "tenequm"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "glim-sh"
+ }
+}
