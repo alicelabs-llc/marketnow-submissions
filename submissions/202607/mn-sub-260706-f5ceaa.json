@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260706-f5ceaa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "server-name",
+  "version": "1.0.0",
+  "description": "# Server name PreviewShip MCP # Repository https://github.com/blockdancez/PreviewShip # Package / command `npx -y previewship-mcp` # Homepage https://previewship.com/?utm_source=mcp_directory&utm_medium=directory&utm_campaign=external_links_0706 # Description PreviewShip MCP deploys React/Vue/Vite/Next static build output, single HTML files, Markdown, and AI-generated HTML artifacts to fixed PreviewShip preview URLs from MCP-compatible coding agents. It is useful when Claude Code, Cursor, Windsu",
+  "author": "fubb-github",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y previewship-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/blockdancez/PreviewShip",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:08.324026Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:08.324053Z",
+  "repo_url": {
+   "url": "https://github.com/blockdancez/PreviewShip",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y previewship-mcp",
+   "registry": "npm",
+   "package": "previewship-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T11:16:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4892157496,
+  "comment_author": "fubb-github"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "server-name"
+ }
+}
