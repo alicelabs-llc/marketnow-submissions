@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:56.592Z",
+ "updated_at": "2026-10-01T04:06:59.703Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3695,6 +3695,18 @@
    "from": "ip:73012dfb0542",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-2847f3.json"
+  },
+  {
+   "id": "mn-sub-261001-a7c52c",
+   "name": "apple-mcps-httpsgithubcomjonathanrreedapple-mcps",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:06:58.755Z",
+   "from": "ip:b52a1bd5fbeb",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-a7c52c.json"
   }
  ],
  "l2_pass": {
