@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260811-a5a4b8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "electron-live-i18n",
+  "version": "1.0.0",
+  "description": "electron-live-i18n — live-translate any packaged Electron app, no rebuild and no API key Repo: https://github.com/dee0917/electron-live-i18n Lets an agent read a shipped Electron app's `app.asar`, patch a ~900 byte loader into one entry in place (padded to the original byte length, per-file SHA256 and macOS `ElectronAsarIntegrity` rewritten so no repacking is needed), and then translate the UI at runtime through a local server. Also translates ordinary JSON locale files, preserving manual fixes.",
+  "author": "dee0917",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/dee0917/electron-live-i18n",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:24.652052Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:24.652078Z",
+  "repo_url": {
+   "url": "https://github.com/dee0917/electron-live-i18n",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-11T19:22:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5257781839,
+  "comment_author": "dee0917"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "electron-live-i18n"
+ }
+}
