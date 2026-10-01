@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-020301",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wingfoil",
+  "version": "1.0.0",
+  "description": "WingFoil — the repo-native intent layer for AI-native software engineering - Repository: https://github.com/wingfoil/wingfoil - npm: https://www.npmjs.com/package/wingfoil - License: MIT · Transport: stdio · Language: TypeScript WingFoil keeps a project's intent and engineering state in git (Memory, DNA, Directives, Workflow) and exposes it to AI agents over MCP: read-only Resources for the project's DNA, Memory documents and workflows, plus one Prompt per role that embeds that role's directives",
+  "author": "robypomper",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/wingfoil",
+  "repo_url": "https://github.com/wingfoil/wingfoil",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:32.596802Z",
+  "duration_ms": 530,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:32.596839Z",
+  "repo_url": {
+   "url": "https://github.com/wingfoil/wingfoil",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/wingfoil",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:32.596842Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wingfoil"
+ }
+}
