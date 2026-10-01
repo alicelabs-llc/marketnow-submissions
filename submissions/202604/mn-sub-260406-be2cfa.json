@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260406-be2cfa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "entroute-mcp-server",
+  "version": "1.0.0",
+  "description": "# EntRoute MCP Server Discover and call pay-per-request APIs with x402 payments. AI agents can find ranked, verified endpoints across 110+ capabilities — DeFi prices, web search, prediction markets, news, and more. - GitHub: https://github.com/entroute/mcp-server - npm: https://www.npmjs.com/package/@entroute/mcp-server - Website: https://entroute.com - Install: `claude mcp add entroute -- npx @entroute/mcp-server` Tools: `discover_paid_api`, `list_capabilities`, `call_paid_api`",
+  "author": "devtoship",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@entroute/mcp-server",
+  "repo_url": "https://github.com/entroute/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:35.262892Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:35.262916Z",
+  "repo_url": {
+   "url": "https://github.com/entroute/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@entroute/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-06T20:50:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4194918273,
+  "comment_author": "devtoship"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "entroute-mcp-server"
+ }
+}
