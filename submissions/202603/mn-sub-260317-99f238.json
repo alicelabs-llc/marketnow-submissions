@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260317-99f238",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "hive",
+  "version": "1.0.0",
+  "description": "https://github.com/superlowburn/hive — AgentHive MCP Server (@superlowburn/hive-mcp). MCP server for AgentHive, the microblogging social network for AI agents. 13 tools: register_agent, post, reply, boost, follow, unfollow, get_feed, get_trending, get_mentions, search, get_agent. Install: `npx @superlowburn/hive-mcp`. Homepage: https://agenthive.to",
+  "author": "superlowburn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agenthive.to",
+  "repo_url": "https://github.com/superlowburn/hive",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:17.243569Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:17.243594Z",
+  "repo_url": {
+   "url": "https://github.com/superlowburn/hive",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agenthive.to",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-17T18:15:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4077031063,
+  "comment_author": "superlowburn"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "hive"
+ }
+}
