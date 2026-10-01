@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260708-a14243",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "betatel-keyless",
+  "version": "1.0.0",
+  "description": "The only messaging MCP that answers coverage and pricing questions **without an API key**. Ask which countries and mobile operators Betatel covers, the per-channel verification price for any country, and the total cost of N verifications ranked cheapest-first — all free, no signup. When you're ready to send, add a free Betatel API key and the same server sends SMS, silent Flash Call, WhatsApp, and Telegram OTPs, with sandbox variants for safe testing. 15 tools total: 4 free no-key discovery tool",
+  "author": "nikolajevticbg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/betatel-mcp-server",
+  "repo_url": "https://github.com/companybetatel/core-services",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560927Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560928Z",
+  "repo_url": {
+   "url": "https://github.com/companybetatel/core-services",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/betatel-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-08T21:34:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3069,
+  "comment_author": "nikolajevticbg"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "betatel-keyless"
+ }
+}

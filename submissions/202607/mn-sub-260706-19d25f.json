@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260706-19d25f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "filtrous-mcp-catalog",
+  "version": "1.0.0",
+  "description": "Add server: Filtrous MCP Catalog Server — https://filtrous-mcp-catalog.filtrous.workers.dev/mcp",
+  "author": "FiltrousC",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://filtrous.com",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561188Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561189Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://filtrous.com",
+   "ok": false,
+   "status": 429
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T18:36:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3042,
+  "comment_author": "FiltrousC"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "filtrous-mcp-catalog"
+ }
+}

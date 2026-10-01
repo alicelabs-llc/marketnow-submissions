@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260712-e009c2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "amenbo-japanese",
+  "version": "1.0.0",
+  "description": "amenbo - GitHub: https://github.com/Rererr/amenbo - npm: https://www.npmjs.com/package/amenbo (`npm install -g amenbo`) - Official MCP Registry: `io.github.Rererr/amenbo` - Description: Japanese-web-native MCP server for low-load, token-efficient web fetching. Auto-detects Shift_JIS/EUC-JP, strips furigana, progressive-disclosure outline mode (75-97% fewer tokens), robots.txt-aware, SSRF-safe, no anti-bot circumvention. - Tags: fetch, web, japanese, markdown, screenshot - Transport: stdio - Lic",
+  "author": "Rererr",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/amenbo",
+  "repo_url": "https://github.com/Rererr/amenbo",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560318Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560320Z",
+  "repo_url": {
+   "url": "https://github.com/Rererr/amenbo",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/amenbo",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-12T15:40:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3129,
+  "comment_author": "Rererr"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "amenbo-japanese"
+ }
+}

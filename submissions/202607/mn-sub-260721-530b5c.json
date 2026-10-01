@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260721-530b5c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ai-proof-of-us-aipou",
+  "version": "1.0.0",
+  "description": "** An open-source MCP server for AI agents and humans to create privacy-preserving, cryptographically signed work receipts. AIPOU stores hashes and task metadata rather than raw prompts or outputs, rejects replayed nonces/evidence, and can optionally settle validated rewards on Base.",
+  "author": "0xddneto",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y aipou-mcp-server",
+  "homepage": "https://0xddneto.github.io/AI-Proof-of-Us/",
+  "repo_url": "https://github.com/0xddneto/AI-Proof-of-Us",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559310Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559312Z",
+  "repo_url": {
+   "url": "https://github.com/0xddneto/AI-Proof-of-Us",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y aipou-mcp-server",
+   "registry": "npm",
+   "package": "aipou-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://0xddneto.github.io/AI-Proof-of-Us/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-21T13:50:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3255,
+  "comment_author": "0xddneto"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ai-proof-of-us-aipou"
+ }
+}

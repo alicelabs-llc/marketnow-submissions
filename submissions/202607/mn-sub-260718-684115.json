@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260718-684115",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "swen-ai",
+  "version": "1.0.0",
+  "description": "** Brazilian portal for AI news, model benchmarks and an AI tools directory. 7 tools:",
+  "author": "luisroquette",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://swen.ia.br/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559654Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559656Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://swen.ia.br/api/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-18T00:26:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3210,
+  "comment_author": "luisroquette"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "swen-ai"
+ }
+}

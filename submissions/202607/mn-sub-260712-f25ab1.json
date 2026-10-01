@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260712-f25ab1",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cgraphy-code-knowledge-graph-over-mcp",
+  "version": "1.0.0",
+  "description": "cgraphy - GitHub: https://github.com/pmgarg/cgraphy - PyPI: https://pypi.org/project/cgraphy (`uvx cgraphy`) - Official MCP Registry: `io.github.pmgarg/cgraphy` - Description: Code knowledge graph over MCP: token-budgeted context, blast-radius impact analysis, diff review, and hybrid semantic search for AI coding agents. Any language via tree-sitter; zero infrastructure (one SQLite file). - Tags: code, knowledge-graph, tree-sitter, python, sqlite - Transport: stdio",
+  "author": "pmgarg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx cgraphy",
+  "homepage": "https://pypi.org/project/cgraphy",
+  "repo_url": "https://github.com/pmgarg/cgraphy",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560359Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560360Z",
+  "repo_url": {
+   "url": "https://github.com/pmgarg/cgraphy",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/cgraphy",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-12T14:13:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3126,
+  "comment_author": "pmgarg"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cgraphy-code-knowledge-graph-over-mcp"
+ }
+}

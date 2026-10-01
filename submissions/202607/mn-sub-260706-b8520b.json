@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-b8520b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "continuewith-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for installing the ContinueWith AI-native continuation layer from coding agents",
+  "author": "DanielAdamFR",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/continuewith-ai/mcp",
+  "repo_url": "https://github.com/continuewith-ai/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561141Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561143Z",
+  "repo_url": {
+   "url": "https://github.com/continuewith-ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/continuewith-ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T21:08:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3047,
+  "comment_author": "DanielAdamFR"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "continuewith-mcp"
+ }
+}

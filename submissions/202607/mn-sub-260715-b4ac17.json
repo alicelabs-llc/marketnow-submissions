@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260715-b4ac17",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "proxyllm",
+  "version": "1.0.0",
+  "description": "Submitting ProxyLLM, an MCP server, to the mcp.so directory. Disclosure: submitting our own server on behalf of ProxyLLM. No third-party endorsement implied. - Name: ProxyLLM - Description: Tools for the ProxyLLM OpenAI-compatible LLM gateway: live model catalog, plan-savings calculator, routing-key introspection and provisioning, and an email-OTP account signup an agent can complete autonomously (answers HTTP 402 with a checkout link until a human activates the membership). - Website: https://p",
+  "author": "ericslab",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y proxyllm-mcp",
+  "homepage": "https://proxyllm.ai",
+  "repo_url": "https://github.com/proxyllm-ai/proxyllm-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560110Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560111Z",
+  "repo_url": {
+   "url": "https://github.com/proxyllm-ai/proxyllm-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y proxyllm-mcp",
+   "registry": "npm",
+   "package": "proxyllm-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://proxyllm.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-15T05:58:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3161,
+  "comment_author": "ericslab"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "proxyllm"
+ }
+}

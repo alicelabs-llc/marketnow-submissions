@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260707-6c54f4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clipy-agent-readable",
+  "version": "1.0.0",
+  "description": "Type MCP Server Name Clipy Primary URL https://github.com/manovagyanik1/clipy-mcp Website https://clipy.online/mcp Server config ```json { \"mcpServers\": { \"clipy\": { \"command\": \"npx\", \"args\": [\"-y\", \"@clipy/mcp\"], \"env\": { \"CLIPY_API_KEY\": \"clipy_sk_live_xxx\" } } } } ``` Description Clipy is an agent-readable screen recorder (free, no watermark — Mac, Chrome, web). This MCP server gives Claude, Cursor, Cline, and other agents read-only access to your Clipy recordings: search your library, fetch",
+  "author": "manovagyanik1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://clipy.online/mcp",
+  "repo_url": "https://github.com/manovagyanik1/clipy-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561034Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561035Z",
+  "repo_url": {
+   "url": "https://github.com/manovagyanik1/clipy-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://clipy.online/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-07T07:55:27Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3055,
+  "comment_author": "manovagyanik1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clipy-agent-readable"
+ }
+}

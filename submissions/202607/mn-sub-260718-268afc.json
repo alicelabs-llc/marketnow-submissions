@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260718-268afc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "cipher-row",
+  "version": "1.0.0",
+  "description": "Please add the Cipher & Row MCP server to mcp.so. - Name: Cipher & Row - Type: official, remote (Streamable HTTP) - Server URL: https://mcp.cipherandrow.com/mcp - Auth: OAuth 2.1 + PKCE with dynamic client registration; bearer API keys also supported - Repo (docs + JSON schemas, MIT): https://github.com/cipherandrowhq/cipherandrow-mcp - Website / setup guide: https://www.cipherandrow.com/mcp/setup - Server card: https://mcp.cipherandrow.com/.well-known/mcp - Description: US/Canada freight carrie",
+  "author": "CipherandRow",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.cipherandrow.com/mcp",
+  "repo_url": "https://github.com/cipherandrowhq/cipherandrow-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559603Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559605Z",
+  "repo_url": {
+   "url": "https://github.com/cipherandrowhq/cipherandrow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.cipherandrow.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-18T20:39:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3218,
+  "comment_author": "CipherandRow"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "cipher-row"
+ }
+}

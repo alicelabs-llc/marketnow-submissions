@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260716-01ae0f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "string-web-access",
+  "version": "1.0.0",
+  "description": "Gives agents reliable access to the protected web: rotating residential proxies, TLS/browser fingerprinting, and CAPTCHA handling are automatic, and failed requests are never billed. In the open-source Web Data Frontier Benchmark (90 heavily bot-protected sites × 5 attempts, 15 providers head to head, July 2026 run) String passed 95.8% of requests vs an industry average of 60% — full methodology and re-runnable code at https://github.com/usestring/web-data-frontier-benchmark.",
+  "author": "bruceandrewmag",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @usestring/mcp",
+  "homepage": "https://mcp.usestring.ai/v1/mcp",
+  "repo_url": "https://github.com/usestring/string-ai-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559986Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559988Z",
+  "repo_url": {
+   "url": "https://github.com/usestring/string-ai-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @usestring/mcp",
+   "registry": "npm",
+   "package": "@usestring/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.usestring.ai/v1/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-16T02:41:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3171,
+  "comment_author": "bruceandrewmag"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "string-web-access"
+ }
+}

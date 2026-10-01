@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260707-c714d4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "forkmind-llm",
+  "version": "1.0.0",
+  "description": "Server Name ForkMind Server Description Local-first MCP server that gives AI agents access to their own LLM call history and encrypted context storage. ForkMind's proxy records every LLM call as a node in a content-addressed DAG; the MCP server exposes that history (recent turns, lineage, branches, substring search, stats) plus context capsules — immutable, AES-256-GCM-encrypted DAG snapshots of conversation context that agents can save, verify, restore (full or per segment), and crypto-shred.",
+  "author": "Medhovarsh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y forkmind",
+  "homepage": null,
+  "repo_url": "https://github.com/Medhovarsh/forkmind",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561069Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561071Z",
+  "repo_url": {
+   "url": "https://github.com/Medhovarsh/forkmind",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y forkmind",
+   "registry": "npm",
+   "package": "forkmind",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-07T03:48:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3053,
+  "comment_author": "Medhovarsh"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "forkmind-llm"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260717-c9f575",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "satssignal-x402",
+  "version": "1.0.0",
+  "description": "SatsSignal — x402 Demand Radar and Bitcoin Product Intelligence SatsSignal is a remote, hosted MCP server for agent builders deciding what x402 product to launch next. It tracks public Bazaar demand, category changes, buyers, competitors, and opportunity concentration. Paid tools settle per call in USDC on Base through x402; no account or API key is required. Current proof signal At `2026-07-17T20:53:50Z`, a deterministic comparison with the July 12 Bazaar snapshot found that the search categor",
+  "author": "Chepenik",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://srv1334799.hstgr.cloud/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559673Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559675Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://srv1334799.hstgr.cloud/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-17T21:14:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3209,
+  "comment_author": "Chepenik"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "satssignal-x402"
+ }
+}

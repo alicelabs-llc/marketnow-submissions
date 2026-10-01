@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260706-4ed929",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "defi-guard-mcp",
+  "version": "1.0.0",
+  "description": "** Real-time DeFi risk tools for AI agents on Base L2, read from live chain state — no API keys, no accounts. Three tools: `aave_position_health` (live Aave V3 health factor, collateral/debt in USD, plain risk level), `quote_swap` (executable exact-input price via Uniswap V3 QuoterV2, best of 4 fee tiers, with gas estimate — an executable price, not an oracle), and `token_risk_snapshot` (honest exit-liquidity check: measures real market depth with round-trip quotes WETH → token → WETH at two siz",
+  "author": "iinniitt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @iniit/defi-guard-mcp",
+  "homepage": "https://www.npmjs.com/package/@iniit/defi-guard-mcp",
+  "repo_url": "https://github.com/iinniitt/defi-guard-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561101Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561103Z",
+  "repo_url": {
+   "url": "https://github.com/iinniitt/defi-guard-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @iniit/defi-guard-mcp",
+   "registry": "npm",
+   "package": "@iniit/defi-guard-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@iniit/defi-guard-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T23:39:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3050,
+  "comment_author": "iinniitt"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "defi-guard-mcp"
+ }
+}

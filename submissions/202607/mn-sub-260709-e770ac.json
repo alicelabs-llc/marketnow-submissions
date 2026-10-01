@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260709-e770ac",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "chathome-luxembourg-real-estate",
+  "version": "1.0.0",
+  "description": "Luxembourg real estate for AI agents: natural-language (vibe) and structured property search across live rental and for-sale listings, commune market intelligence, AI price estimates, mortgage affordability, commute times, lease analysis, and agency inquiries.",
+  "author": "Amrit-Gill",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://chathome.lu",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560845Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560846Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://chathome.lu",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-09T22:14:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3080,
+  "comment_author": "Amrit-Gill"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "chathome-luxembourg-real-estate"
+ }
+}

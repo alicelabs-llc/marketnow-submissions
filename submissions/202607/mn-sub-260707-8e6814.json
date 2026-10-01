@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260707-8e6814",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "gst-cranes-public-discovery-mcp",
+  "version": "1.0.0",
+  "description": "Type MCP Server Name GST Cranes Public Discovery MCP Primary URL https://gstcranes.com/.well-known/mcp Server config ```json { \"mcpServers\": { \"gstcranes-public-discovery\": { \"type\": \"streamable-http\", \"url\": \"https://gstcranes.com/.well-known/mcp\" } } } ``` Description GST Cranes Public Discovery MCP is a read-only public discovery server for GST Cranes, a worldwide B2B marketplace for used mobile and crawler cranes. It exposes public documentation, OpenAPI, marketplace, wanted-ad, and Crane W",
+  "author": "gkmex75",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://gstcranes.com/.well-known/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561050Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561051Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://gstcranes.com/.well-known/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-07T05:20:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3054,
+  "comment_author": "gkmex75"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "gst-cranes-public-discovery-mcp"
+ }
+}

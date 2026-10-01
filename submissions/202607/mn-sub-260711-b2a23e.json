@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260711-b2a23e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "wechat-dev-mcp-ai",
+  "version": "1.0.0",
+  "description": "Name wechat-dev-mcp Short description (one line) 让任意 AI 客户端自动调试微信小程序/小游戏：截图、模拟触控、读日志、一键重开；配合 wechat-dev-skill 自动巡检四来源报错。 Tags wechat, miniprogram, minigame, wechat-devtools, mcp, ai-agent, automation, debugging GitHub repo https://github.com/jiawei686/wechat-dev-mcp Server Config { \"mcpServers\": { \"wechat-dev-mcp\": { \"command\": \"npx\", \"args\": [\"-y\", \"wechat-dev-mcp\"] } } } Content wechat-dev-mcp 是一个 MCP Server，让 Claude Code / Cursor / WorkBuddy / Cline / Zed 等任意支持 MCP 的客户端，用自然语言直接调试微信小程序和微信小游戏：",
+  "author": "jiawei686",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y wechat-dev-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/jiawei686/wechat-dev-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560577Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560579Z",
+  "repo_url": {
+   "url": "https://github.com/jiawei686/wechat-dev-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y wechat-dev-mcp",
+   "registry": "npm",
+   "package": "wechat-dev-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-11T04:38:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3101,
+  "comment_author": "jiawei686"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "wechat-dev-mcp-ai"
+ }
+}

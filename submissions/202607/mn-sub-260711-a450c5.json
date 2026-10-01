@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260711-a450c5",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "nexez-agentic-commerce",
+  "version": "1.0.0",
+  "description": "** Search merchants, inspect structured offers, and validate checkout or negotiation before buying.",
+  "author": "Flyger1an",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nexez.ai",
+  "repo_url": "https://github.com/Flyger1an/nexez",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560473Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560474Z",
+  "repo_url": {
+   "url": "https://github.com/Flyger1an/nexez",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nexez.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-11T15:23:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3111,
+  "comment_author": "Flyger1an"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "nexez-agentic-commerce"
+ }
+}

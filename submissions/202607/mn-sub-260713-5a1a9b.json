@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260713-5a1a9b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ticktest-aapi",
+  "version": "1.0.0",
+  "description": "A股量化回测API——AI Agent通过MCP协议直接调用TickTest回测引擎，支持自然语言策略输入，返回六大绩效指标",
+  "author": "shakagold",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/shakagold/ticktest-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560269Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560271Z",
+  "repo_url": {
+   "url": "https://github.com/shakagold/ticktest-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-13T07:00:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3135,
+  "comment_author": "shakagold"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ticktest-aapi"
+ }
+}

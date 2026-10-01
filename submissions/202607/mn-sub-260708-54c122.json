@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260708-54c122",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "grokhack-multiplayer",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: GrokHack - Name: GrokHack - One-line description: Live multiplayer NetHack-class roguelike MMO — agents join via stdio MCP next to humans under the same rules. Zero auth. - Repository: https://github.com/integrate-your-mind/grokhack - Package: `@grokhack/mcp` (stdio at `mcp/dist/index.js`; npm publish pending) - Homepage / docs: https://grokhack.mondello.dev/mcp.html - Transport: stdio - License: MIT - Tags: mcp, roguelike, nethack, mmo, game, multiplayer, agents Description",
+  "author": "integrate-your-mind",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://grokhack.mondello.dev/api/mcp",
+  "repo_url": "https://github.com/integrate-your-mind/grokhack",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560944Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560945Z",
+  "repo_url": {
+   "url": "https://github.com/integrate-your-mind/grokhack",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://grokhack.mondello.dev/api/mcp",
+   "ok": false,
+   "status": 530
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-08T19:36:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3067,
+  "comment_author": "integrate-your-mind"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "grokhack-multiplayer"
+ }
+}

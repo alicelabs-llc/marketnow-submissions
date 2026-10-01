@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260716-50fc22",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bananabanana",
+  "version": "1.0.0",
+  "description": "** Generate AI images (Google Nano Banana 2 Lite / 2 / Pro, up to 4K, from $0.03) and videos (Veo 3.1 family up to 4K, and Omni Flash with sound and conversational editing, from $0.10) from any MCP client. Pay per generation from an account balance — no subscription, no credit card (crypto / Telegram Stars top-ups).",
+  "author": "bananabanana-pro",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://bananabanana.pro/api/mcp",
+  "repo_url": "https://github.com/bananabanana-pro-mcp/bananabanana-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559915Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559917Z",
+  "repo_url": {
+   "url": "https://github.com/bananabanana-pro-mcp/bananabanana-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://bananabanana.pro/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-16T17:11:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3183,
+  "comment_author": "bananabanana-pro"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bananabanana"
+ }
+}

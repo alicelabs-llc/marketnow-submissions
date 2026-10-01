@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-630edf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "socialdatax-wechat-channels-mcp",
+  "version": "1.0.0",
+  "description": "SocialDataX 微信视频号 WeChat Channels MCP is a hosted read-only streamable HTTP MCP service for WeChat Channels / 微信视频号 social media research workflows. It supports hot search, video search, video details, comments, comment replies, user profiles, user posted videos, and speech-to-text transcript workflows.",
+  "author": "DevinChen2014",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.socialdatax.com/wechat/mcp",
+  "repo_url": "https://github.com/DevinChen2014/wechat-channels-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561265Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561266Z",
+  "repo_url": {
+   "url": "https://github.com/DevinChen2014/wechat-channels-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.socialdatax.com/wechat/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T08:04:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3035,
+  "comment_author": "DevinChen2014"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "socialdatax-wechat-channels-mcp"
+ }
+}

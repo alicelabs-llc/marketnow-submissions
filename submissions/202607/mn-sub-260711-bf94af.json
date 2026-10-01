@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260711-bf94af",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "uizze",
+  "version": "1.0.0",
+  "description": "** UIZZE provides a free anti-ui-slop Skill for coding agents. Optional authenticated access provides focused UI references and hosted design materials grounded in 800,000+ real web and iOS screens. The free Skill is local and separate from the hosted service.",
+  "author": "samuelbushi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://uizze.com",
+  "repo_url": "https://github.com/uizze/uizze",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560442Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560443Z",
+  "repo_url": {
+   "url": "https://github.com/uizze/uizze",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://uizze.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-11T20:58:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3117,
+  "comment_author": "samuelbushi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "uizze"
+ }
+}

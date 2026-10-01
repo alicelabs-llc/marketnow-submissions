@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260715-312b13",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "asap-french-invoicing-contacts-e-signature",
+  "version": "1.0.0",
+  "description": "ASAP is an invoicing, contacts and e-signature platform for French freelancers and micro-agencies. This MCP server exposes quotes and invoices (devis/factures), deposits, credit notes, recurring schedules, e-signature envelopes and document PDFs as tools — with French compliance (NF203 gapless sealing, VAT regimes) enforced server-side. Multi-tenant and keyless: each user connects with their own ASAP API key.",
+  "author": "Sycatle",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://asap.cool",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560075Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560077Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://asap.cool",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-15T18:16:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3165,
+  "comment_author": "Sycatle"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "asap-french-invoicing-contacts-e-signature"
+ }
+}

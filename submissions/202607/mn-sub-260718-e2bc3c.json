@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260718-e2bc3c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "geomelon-cities",
+  "version": "1.0.0",
+  "description": "Geomelon MCP Server MCP server for the [Geomelon](https://geomelon.dev) geographic API — cities, countries, regions, and languages with multilingual names across 50 languages. 22 tools total, including compound tools that chain multiple lookups (e.g. resolve a country by name, then fetch its regions and top cities in one call). Includes a free keyless autocomplete tool (`search_cities_autocomplete`) backed by pre-built static files — no signup or API key required. Full tool access needs a free",
+  "author": "hom3chuk",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y geomelon-mcp",
+  "homepage": "https://mcp.geomelon.dev/mcp",
+  "repo_url": "https://github.com/930m310n/geomelon-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559624Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559626Z",
+  "repo_url": {
+   "url": "https://github.com/930m310n/geomelon-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y geomelon-mcp",
+   "registry": "npm",
+   "package": "geomelon-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.geomelon.dev/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-18T11:02:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3213,
+  "comment_author": "hom3chuk"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "geomelon-cities"
+ }
+}

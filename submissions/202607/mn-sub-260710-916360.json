@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260710-916360",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sonovault-music",
+  "version": "1.0.0",
+  "description": "MCP server for the SonoVault music metadata API. Search across 90M+ tracks, artists, labels, and releases, with genre, label, release dates, ISRC and ISWC codes, and cross-platform IDs (Spotify, Apple Music, Tidal, Beatport, Discogs, MusicBrainz, YouTube) per result. 15 read-only tools. Use cases: royalty-report play-log enrichment, publishing workflows (recording to composition), music library cleanup, cross-platform availability checks.",
+  "author": "Christilut",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y sonovault-mcp",
+  "homepage": "https://www.npmjs.com/package/sonovault-mcp",
+  "repo_url": "https://github.com/rekordcloud/sonovault-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560790Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560791Z",
+  "repo_url": {
+   "url": "https://github.com/rekordcloud/sonovault-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y sonovault-mcp",
+   "registry": "npm",
+   "package": "sonovault-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/sonovault-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-10T08:02:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3085,
+  "comment_author": "Christilut"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sonovault-music"
+ }
+}

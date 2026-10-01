@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260721-eaeb6a",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "notepad-page",
+  "version": "1.0.0",
+  "description": "Agent-first hosting for AI-generated single-file HTML pages. Agents publish, semantically recall, update in place, and share pages that live at a personal address (name.notepad.page). Pages are private by default and keep server-side state (living pages): checkboxes and inputs persist and sync across devices and agent sessions.",
+  "author": "edtadros",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://notepad.page",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559327Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559329Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://notepad.page",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-21T08:52:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3253,
+  "comment_author": "edtadros"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "notepad-page"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260713-7d94bc",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "boardcheck-agent",
+  "version": "1.0.0",
+  "description": "Repo: https://github.com/Echolonius/agent-market-signals Site / in-browser demo: https://echolonius.github.io/agent-market-signals/ License: MIT · Language: Python (standard library only, no dependencies) · Transport: local stdio Boardcheck (package: `agent-market-signals`) is an open auditability standard + dependency-free reference implementation + local stdio MCP server that checks whether an AI-agent marketplace's own published numbers are honest — flagging fabricated engagement, batch-seede",
+  "author": "Echolonius",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://echolonius.github.io/agent-market-signals/",
+  "repo_url": "https://github.com/Echolonius/agent-market-signals",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560288Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560289Z",
+  "repo_url": {
+   "url": "https://github.com/Echolonius/agent-market-signals",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://echolonius.github.io/agent-market-signals/",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-13T01:48:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3134,
+  "comment_author": "Echolonius"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "boardcheck-agent"
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260709-b9b0fc",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "llm-hosting-pricing-llmhosting-ai",
+  "version": "1.0.0",
+  "description": "Submit MCP Server: LLM Hosting Pricing (llmhosting.ai) — https://github.com/zayedAlmansoori/llmhosting-ai",
+  "author": "zayedAlmansoori",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://llmhosting.ai/mcp",
+  "repo_url": "https://github.com/zayedAlmansoori/llmhosting-ai",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560879Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560881Z",
+  "repo_url": {
+   "url": "https://github.com/zayedAlmansoori/llmhosting-ai",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://llmhosting.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-09T19:53:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3077,
+  "comment_author": "zayedAlmansoori"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "llm-hosting-pricing-llmhosting-ai"
+ }
+}

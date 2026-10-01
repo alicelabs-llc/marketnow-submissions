@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260720-976572",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vibekit",
+  "version": "1.0.0",
+  "description": "** MCP server for VibeKit — build, deploy, and host full web apps (each with its own persistent AI coding agent) from any MCP client. Create an app from a template or a GitHub repo, get a live URL at `<subdomain>.vibekit.bot`, read logs, manage env vars and Postgres, run QA, roll back deploys, and chat with the app's agent to change its code.",
+  "author": "609NFT",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.vibekit.bot/mcp?api_key=vk_",
+  "repo_url": "https://github.com/VibeKit-Bot/vibekit-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559390Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559392Z",
+  "repo_url": {
+   "url": "https://github.com/VibeKit-Bot/vibekit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.vibekit.bot/mcp?api_key=vk_",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-20T16:41:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3247,
+  "comment_author": "609NFT"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vibekit"
+ }
+}

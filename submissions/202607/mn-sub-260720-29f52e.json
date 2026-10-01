@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260720-29f52e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "llms-txt-checker-ai-readiness-audit",
+  "version": "1.0.0",
+  "description": "** Checks websites for llms.txt, AI crawler access in robots.txt (GPTBot, ClaudeBot, PerplexityBot and more), and sitemap - with a 0-100 AI readiness score and plain-English fixes. ~$5 per 1,000 sites, billed through your Apify account.",
+  "author": "apifymcpfactory-droid",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.apify.com?tools=apifmcpfactory/llms-txt-checker",
+  "repo_url": "https://github.com/apifymcpfactory-droid/mcp-factory-servers",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559426Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559427Z",
+  "repo_url": {
+   "url": "https://github.com/apifymcpfactory-droid/mcp-factory-servers",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.apify.com?tools=apifmcpfactory/llms-txt-checker",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-20T11:00:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3241,
+  "comment_author": "apifymcpfactory-droid"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "llms-txt-checker-ai-readiness-audit"
+ }
+}

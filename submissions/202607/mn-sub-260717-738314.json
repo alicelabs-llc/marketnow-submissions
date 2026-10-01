@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260717-738314",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "resumeai-ats",
+  "version": "1.0.0",
+  "description": "** Which ATS does a company use? Portal-verified answers for 743 large employers (Fortune 500 / Global 2000 / late-stage private) — 713 of 743 verified by hand against each company's live careers portal (June 2026). Tools:",
+  "author": "Kayvan-Zahiri",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://withresumeai.com/api/mcp",
+  "repo_url": "https://github.com/Kayvan-Zahiri/state-of-ats-2026",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559720Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559722Z",
+  "repo_url": {
+   "url": "https://github.com/Kayvan-Zahiri/state-of-ats-2026",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://withresumeai.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-17T19:34:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3206,
+  "comment_author": "Kayvan-Zahiri"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "resumeai-ats"
+ }
+}

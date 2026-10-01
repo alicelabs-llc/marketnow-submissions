@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260720-d23d94",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "central-command",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Central Command — x402 Trading Intelligence - Repository: https://github.com/tlefko/central-command - Transport: Remote (Streamable HTTP) - MCP URL: https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/mcp - Category: Finance / Trading - Auth: `X-Api-Key` (register at `/x402-gateway/register` or Tasks → Connect) Description 39-endpoint crypto trading intelligence API for AI agents. Real-time derivatives data (funding rates, open interest, liquidation heatmaps, orderf",
+  "author": "tlefko",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/mcp",
+  "repo_url": "https://github.com/tlefko/central-command",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559371Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559373Z",
+  "repo_url": {
+   "url": "https://github.com/tlefko/central-command",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://rtcelwjnrbmfmrywacky.supabase.co/functions/v1/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-20T23:10:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3250,
+  "comment_author": "tlefko"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "central-command"
+ }
+}

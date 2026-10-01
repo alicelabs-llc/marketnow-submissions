@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260716-bd4153",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "state-of-web-vitals-mcp",
+  "version": "1.0.0",
+  "description": "** Free remote MCP for Core Web Vitals metrics by CMS, CDN, and framework (Chrome field data + multi-site crawl). Same data as the public State of Web Vitals explorer. Tools: get_metrics, get_histogram, list_options.",
+  "author": "corewebvitals",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.corewebvitals.io/state-of-cwv",
+  "repo_url": "https://github.com/corewebvitals/state-of-cwv-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559899Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559901Z",
+  "repo_url": {
+   "url": "https://github.com/corewebvitals/state-of-cwv-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.corewebvitals.io/state-of-cwv",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-16T17:42:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3185,
+  "comment_author": "corewebvitals"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "state-of-web-vitals-mcp"
+ }
+}

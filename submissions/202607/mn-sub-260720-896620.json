@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260720-896620",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "swath-api",
+  "version": "1.0.0",
+  "description": "Radar-verified hail/wind storm detection + affected-property intelligence for the continental US. Ingests NOAA MRMS radar to detect hail and damaging-wind swaths as they happen, then maps each swath to the properties inside it — from \"did it hail in Plano last night?\" to a ranked list of affected addresses in one conversation. Built for roofing/restoration sales, insurance claims, and real-estate diligence.",
+  "author": "vibecodebeast",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://swathapi.com",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559461Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559463Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://swathapi.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-20T03:23:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3234,
+  "comment_author": "vibecodebeast"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "swath-api"
+ }
+}

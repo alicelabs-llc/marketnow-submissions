@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-05e56b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "convertrilo",
+  "version": "1.0.0",
+  "description": "Name: Convertrilo Package: `@convertrilo/sdk` MCP server command: `convertrilo-mcp` Transport: `stdio` Repository: `https://github.com/serkandrgn/convertrilo-js` npm: `https://www.npmjs.com/package/@convertrilo/sdk` Website: `https://convertrilo.com` Category: Video, media, automation, developer tools Short description: Create and monitor video encoding jobs from MCP clients, agents, scripts, and workflow tools. Long description: Convertrilo provides an MCP server for automating video encoding w",
+  "author": "serkandrgn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@convertrilo/sdk",
+  "repo_url": "https://github.com/serkandrgn/convertrilo-js",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561119Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561120Z",
+  "repo_url": {
+   "url": "https://github.com/serkandrgn/convertrilo-js",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@convertrilo/sdk",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T22:10:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3048,
+  "comment_author": "serkandrgn"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "convertrilo"
+ }
+}

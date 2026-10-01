@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260708-6313c9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "artifacts-self",
+  "version": "1.0.0",
+  "description": "** Self-hosted artifact publishing for AI agents. Publish HTML, a single JSX/TSX React component, Markdown, or a zipped static site via one MCP tool call and get back an unguessable, non-indexed public URL on your own domain. Full lifecycle tools: publish, update, rename, disable/enable, set expiry, list, delete. One Docker container, no database — artifacts are plain files.",
+  "author": "kuyazee",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://artifacts.example.com/mcp",
+  "repo_url": "https://github.com/kuyazee/artifacts",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560963Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560965Z",
+  "repo_url": {
+   "url": "https://github.com/kuyazee/artifacts",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://artifacts.example.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-08T15:09:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3064,
+  "comment_author": "kuyazee"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "artifacts-self"
+ }
+}

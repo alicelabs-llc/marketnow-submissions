@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260717-ba906e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "grey-ridge-signals",
+  "version": "1.0.0",
+  "description": "Grey Ridge Signals — Base-native x402 Data (remote/hosted) Agent-native, pay-per-call data on Base (USDC via x402 — no account, no API key). A 20-tool remote MCP server (`streamable-http`). Most x402 data sellers are Ethereum-only; this is Base-first, with USD values on chain reads. - Base RPC: block number, gas price (EIP-1559 + `gas_price_usd`), ETH/ERC-20 balances (+ `balance_usd`), tx, receipt (+ Base L1-fee breakdown), wallet bundle, EIP-7702 detection. - Crypto signals: spot prices, cross",
+  "author": "rezearcher",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://x402-data-api.sigrunner.workers.dev/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559840Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559843Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://x402-data-api.sigrunner.workers.dev/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-17T03:25:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3190,
+  "comment_author": "rezearcher"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "grey-ridge-signals"
+ }
+}

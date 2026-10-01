@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260711-719f11",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aioproductos-studio",
+  "version": "1.0.0",
+  "description": "** Turns your AI host into a product videographer — scripted screen recordings of your own web app (visible gliding cursor, camera zooms, highlight callouts, captions, designed scene transitions) plus marketing-grade screenshots, with automatic dark-frame cleanup and MP4/GIF export. The demo videos and explainer clips PMs hate making become one prompt. Free, MIT, 100% local.",
+  "author": "businesstalksnetwork",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @aioproductoscom/mcp-studio",
+  "homepage": "https://www.npmjs.com/package/@aioproductoscom/mcp-studio",
+  "repo_url": "https://github.com/AIOProductOS/studio-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560508Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560509Z",
+  "repo_url": {
+   "url": "https://github.com/AIOProductOS/studio-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @aioproductoscom/mcp-studio",
+   "registry": "npm",
+   "package": "@aioproductoscom/mcp-studio",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@aioproductoscom/mcp-studio",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-11T11:31:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3107,
+  "comment_author": "businesstalksnetwork"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aioproductos-studio"
+ }
+}

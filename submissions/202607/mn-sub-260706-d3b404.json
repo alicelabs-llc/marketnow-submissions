@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-d3b404",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-office",
+  "version": "1.0.0",
+  "description": "** Live coordination channel between AI agent sessions (Claude Code or Codex) working on the same project at the same time: presence, per-agent inbox with mentions, and advisory resource claims. Optional beta add-on — the underlying file-based collaboration protocol works fully without it. 8 tools. MIT license.",
+  "author": "Anjos2",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://oficina.itelsystems.pe",
+  "repo_url": "https://github.com/Anjos2/la-oficina",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.561173Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.561174Z",
+  "repo_url": {
+   "url": "https://github.com/Anjos2/la-oficina",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://oficina.itelsystems.pe",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T20:53:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3045,
+  "comment_author": "Anjos2"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-office"
+ }
+}

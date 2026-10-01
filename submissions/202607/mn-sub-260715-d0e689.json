@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260715-d0e689",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agentee-by-allover",
+  "version": "1.0.0",
+  "description": "Submitting AgenTee, a remote MCP server, to the mcp.so directory. Disclosure: submitting our own server on behalf of allover.art. No third-party endorsement implied. - Name: AgenTee by allover.art - Description: The first print-on-demand store your AI agent can run for you. Search 30,000+ all-over print cotton tees, build carts, apply promo codes and prepare checkout — the human only pays. Agents can also generate custom prints from a text prompt (or the user's own image) and put them on a tee.",
+  "author": "alloverart",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://allover.art/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560094Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560096Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://allover.art/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-15T15:28:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3163,
+  "comment_author": "alloverart"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agentee-by-allover"
+ }
+}

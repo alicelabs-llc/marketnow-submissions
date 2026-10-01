@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260713-fadf3d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-gatehouse",
+  "version": "1.0.0",
+  "description": "- Website: https://nickgeorgeai.com/mcp - GitHub: https://github.com/nickgeorgeseo/mcp-gatehouse - Official MCP registry name: `io.github.nickgeorgeseo/gatehouse` - PyPI: https://pypi.org/project/mcp-gatehouse/ - Description: Permission tiers, approval gates, and audit logging for MCP servers — the server is the gatekeeper. A Python library wrapping the official SDK's FastMCP: every tool is declared READ / WRITE / DESTRUCTIVE (emitting honest spec ToolAnnotations), gated tiers require sign-off f",
+  "author": "nickgeorgeseo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx mcp-gatehouse",
+  "homepage": "https://nickgeorgeai.com/mcp",
+  "repo_url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560254Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560255Z",
+  "repo_url": {
+   "url": "https://github.com/nickgeorgeseo/mcp-gatehouse",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nickgeorgeai.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-13T18:03:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3138,
+  "comment_author": "nickgeorgeseo"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-gatehouse"
+ }
+}

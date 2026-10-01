@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260714-04be1b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ditto",
+  "version": "1.0.0",
+  "description": "** Ditto mines local Claude Code, Codex, and OpenCode session history into an evidence-backed profile of how the operator works, then exposes the generated private profile to agents through MCP.",
+  "author": "ohad6k",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx ditto-cli",
+  "homepage": "https://pypi.org/project/ditto-cli/",
+  "repo_url": "https://github.com/ohad6k/ditto",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560185Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560187Z",
+  "repo_url": {
+   "url": "https://github.com/ohad6k/ditto",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/ditto-cli/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-14T18:51:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3156,
+  "comment_author": "ohad6k"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ditto"
+ }
+}

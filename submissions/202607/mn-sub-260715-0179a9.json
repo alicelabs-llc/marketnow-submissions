@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260715-0179a9",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "asohawk-aso-analytics",
+  "version": "1.0.0",
+  "description": "ASOHawk is an agent-first ASO (App Store Optimization) platform for indie iOS developers. The MCP server is the primary interface: an AI agent can run the full ASO loop — track keyword rankings, estimate keyword difficulty/popularity, watch competitors and reviews, diagnose acquisition/retention/revenue, and propose metadata or screenshot changes that a human approves before anything ships. Every tool returns a uniform envelope with data freshness, limitations and recommended next steps, so agen",
+  "author": "prodocik",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://asohawk.cc",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560056Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560057Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://asohawk.cc",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-15T19:27:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3166,
+  "comment_author": "prodocik"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "asohawk-aso-analytics"
+ }
+}

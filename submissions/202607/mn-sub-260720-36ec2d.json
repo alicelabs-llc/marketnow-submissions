@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260720-36ec2d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bizmuse-ai-music",
+  "version": "1.0.0",
+  "description": "MCP Server Submission: BizMuse AI Music Video Publisher: [BizMuse AI](https://bizmuse.ai) Official product: https://bizmuse.ai MCP documentation: https://bizmuse.ai/mcp Package: [`bizmuse-mcp`](https://www.npmjs.com/package/bizmuse-mcp) Official MCP Registry name: `ai.bizmuse/bizmuse` Current version: `0.1.6` Description The official BizMuse MCP server gives Claude, Cursor, Codex, Windsurf, and other MCP-compatible agents a complete AI music video workflow. It prepares local or public audio, up",
+  "author": "Oliver-Silas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y bizmuse-mcp",
+  "homepage": "https://bizmuse.ai/mcp",
+  "repo_url": "https://github.com/BizMuse-AI/skills",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559408Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559410Z",
+  "repo_url": {
+   "url": "https://github.com/BizMuse-AI/skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y bizmuse-mcp",
+   "registry": "npm",
+   "package": "bizmuse-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://bizmuse.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-20T13:49:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3245,
+  "comment_author": "Oliver-Silas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bizmuse-ai-music"
+ }
+}

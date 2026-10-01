@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260716-6b0ce8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nose-for-leads-com-noseforleads-leads-mcp",
+  "version": "1.0.0",
+  "description": "** Nose for Leads is an MCP server that finds, filters, and verifies local-business leads on demand: agents get back a send-ready list of contacts, not raw scrape data. Every email carries a machine-readable verification receipt (verifier, verdict, timestamp) so an agent can act on it without a human double-checking. Access is credit-based with per-key spend budgets and daily caps, so an agent can be handed a key without a blank check.",
+  "author": "LongJeongS",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.noseforleads.com/mcp",
+  "repo_url": "https://github.com/NoseForLeads/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559879Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559882Z",
+  "repo_url": {
+   "url": "https://github.com/NoseForLeads/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.noseforleads.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-16T20:04:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3187,
+  "comment_author": "LongJeongS"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nose-for-leads-com-noseforleads-leads-mcp"
+ }
+}

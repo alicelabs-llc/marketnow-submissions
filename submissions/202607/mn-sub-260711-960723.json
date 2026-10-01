@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260711-960723",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "verity-score-geo-audit-for-shopify-stores",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Verity Score - Registry name: `io.verityscore/geo-audit` (published and active on the official MCP Registry) - Description: GEO (Generative Engine Optimization) audit for Shopify stores: AI readiness score, revenue-focused recommendations, and checklists for 15 e-commerce verticals. - Website: https://verityscore.io - Repository: https://github.com/Milka974/verityscore-mcp (MIT) - Logo: https://verityscore.io/logo.svg Connection - Remote server (hosted, recommended):",
+  "author": "dimjohn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.verityscore.io/mcp",
+  "repo_url": "https://github.com/Milka974/verityscore-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560560Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560562Z",
+  "repo_url": {
+   "url": "https://github.com/Milka974/verityscore-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.verityscore.io/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-11T06:21:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3102,
+  "comment_author": "dimjohn"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "verity-score-geo-audit-for-shopify-stores"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260717-0208a0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vairogs",
+  "version": "1.0.0",
+  "description": "** Latvian law reader (vairogs.lv). Full-text search across all in-force Latvian laws and regulations (likumi.lv corpus, 61k+ acts, ~1M articles, daily sync), verbatim article text for citation, law overviews by category, and human-verified labour-law Q&A with exact article citations. Latvian-first tool descriptions; every tool annotated `readOnlyHint`.",
+  "author": "mivins",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vairogs.lv/mcp",
+  "repo_url": "https://github.com/mivins/vairogs-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559771Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559772Z",
+  "repo_url": {
+   "url": "https://github.com/mivins/vairogs-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vairogs.lv/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-17T11:49:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3194,
+  "comment_author": "mivins"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vairogs"
+ }
+}

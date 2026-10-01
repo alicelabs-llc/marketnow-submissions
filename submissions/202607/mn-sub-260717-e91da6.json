@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260717-e91da6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-pool-mcp-key-pool-proxy",
+  "version": "1.0.0",
+  "description": "mcp-pool: MCP Key Pool Proxy mcp-pool is a proxy MCP server that lets you pool multiple API keys for rate-limited upstream MCP servers. It spawns one subprocess per pool, rotates keys on rate-limit/error with lazy failover, and prefixes tool names to avoid collisions. Links - GitHub: https://github.com/yuzu-octopus/mcp-pool - npm: https://www.npmjs.com/package/mcp-pool Tags `mcp`, `proxy`, `pool`, `api-keys`, `rate-limiting`, `model-context-protocol` Category Developer Tools / Infrastructure",
+  "author": "yuzu-octopus",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/mcp-pool",
+  "repo_url": "https://github.com/yuzu-octopus/mcp-pool",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559861Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559862Z",
+  "repo_url": {
+   "url": "https://github.com/yuzu-octopus/mcp-pool",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mcp-pool",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-17T01:29:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3189,
+  "comment_author": "yuzu-octopus"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-pool-mcp-key-pool-proxy"
+ }
+}

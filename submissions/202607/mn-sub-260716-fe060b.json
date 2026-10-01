@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260716-fe060b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "serpmantics-french",
+  "version": "1.0.0",
+  "description": "SERPmantics turns Claude or ChatGPT into an SEO content workstation, with a French-market specialty (SERP data for French queries, French E-E-A-T auditing). Create semantic optimization guides from live SERP analysis, score existing content against top competitors, generate outlines, metas and internal-linking suggestions — all without leaving the conversation. Guides can target classic Google SEO or generative engines (ChatGPT, Claude) for GEO workflows.",
+  "author": "AmauryDvl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.serpmantics.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.559964Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.559966Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://app.serpmantics.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-16T03:24:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3172,
+  "comment_author": "AmauryDvl"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "serpmantics-french"
+ }
+}

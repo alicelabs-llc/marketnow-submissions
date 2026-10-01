@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260711-bc86d5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "certindex",
+  "version": "1.0.0",
+  "description": "** Certificate Transparency search for AI agents. CertIndex indexes the public CT-log corpus and exposes 6 MCP tools: search_certificates, get_certificate, get_domain_certificates, get_subdomains, get_latest_cert, get_expiring_certs. Use it for attack-surface discovery, subdomain enumeration, cert-expiry monitoring, and issuance-history forensics.",
+  "author": "certindex",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx certindex-mcp",
+  "homepage": "https://ctindex.io?ref=mcpso",
+  "repo_url": "https://github.com/certindex/certindex-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560488Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560490Z",
+  "repo_url": {
+   "url": "https://github.com/certindex/certindex-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ctindex.io?ref=mcpso",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-11T12:47:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3109,
+  "comment_author": "certindex"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "certindex"
+ }
+}

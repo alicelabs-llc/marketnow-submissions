@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260710-1e651b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aioproductos",
+  "version": "1.0.0",
+  "description": "** Product management over a shared product spine — link customer feedback and insights to features, tasks, sprints, releases and objectives, then read closed-loop analytics (customer 360, funnels, retention, NRR) on the same records, from any MCP client.",
+  "author": "businesstalksnetwork",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://aioproductos.com",
+  "repo_url": "https://github.com/AIOProductOS/claude-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:36:08.560626Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:36:08.560627Z",
+  "repo_url": {
+   "url": "https://github.com/AIOProductOS/claude-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://aioproductos.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-10T20:41:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3096,
+  "comment_author": "businesstalksnetwork"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aioproductos"
+ }
+}
