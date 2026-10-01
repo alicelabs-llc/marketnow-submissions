@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260323-d988e7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "propamp-ai-for-amazon-sellers-mcp",
+  "version": "1.0.0",
+  "description": "PROPAMP AI — MCP Server for Amazon FBA Sellers Connects your Amazon Seller Central data to Claude Cowork or IDE like Antigravity, VS Code and others. GitHub: https://github.com/PropampAI/Propamp.ai-for-Amazon-Sellers-MCP MCP URL: https://mcp.propamp.ai/mcp/sse",
+  "author": "Genyasam",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.propamp.ai/mcp/sse",
+  "repo_url": "https://github.com/PropampAI/Propamp.ai-for-Amazon-Sellers-MCP",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:31.840650Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:31.840676Z",
+  "repo_url": {
+   "url": "https://github.com/PropampAI/Propamp.ai-for-Amazon-Sellers-MCP",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.propamp.ai/mcp/sse",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T10:47:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4109682336,
+  "comment_author": "Genyasam"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "propamp-ai-for-amazon-sellers-mcp"
+ }
+}
