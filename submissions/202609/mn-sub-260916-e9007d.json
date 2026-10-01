@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260916-e9007d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "signalraven",
+  "version": "1.0.0",
+  "description": "SignalRaven MCP Server Ask your assistant which prospects are showing buying intent on LinkedIn this week, why each one matters, and what to say to them. SignalRaven monitors LinkedIn conversations, qualifies the people who engage against your ideal customer profile through 14 review gates, scores urgency from 1 to 10, and drafts an opener from what the person actually posted. | Field | Value | |---|---| | Name | SignalRaven | | Remote endpoint | `https://api.signalraven.ai/mcp` (Streamable HTT",
+  "author": "signalraven",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.signalraven.ai/mcp",
+  "repo_url": "https://github.com/SignalRaven-ai/signalraven-open",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327469Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327471Z",
+  "repo_url": {
+   "url": "https://github.com/SignalRaven-ai/signalraven-open",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.signalraven.ai/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-16T13:20:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4173,
+  "comment_author": "signalraven"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "signalraven"
+ }
+}

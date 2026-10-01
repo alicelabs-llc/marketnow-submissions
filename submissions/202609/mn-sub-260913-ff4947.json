@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260913-ff4947",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apify-public",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Apify Public Data Scrapers - GitHub: https://github.com/jlucasmcrell/apify-scrapers - Release: https://github.com/jlucasmcrell/apify-scrapers/releases/tag/v1.1.0 - PyPI: https://pypi.org/project/apify-data-scrapers/1.1.0/ - Install: `uvx apify-data-scrapers` (stdio; set `APIFY_TOKEN`) - Also on: MCP registry `io.github.jlucasmcrell/apify-scrapers`, Smithery `jlucasmcrell/apify-scrapers` Description 30 publicly available data tools, each running an Apify Actor on the c",
+  "author": "jlucasmcrell",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx apify-data-scrapers",
+  "homepage": "https://pypi.org/project/apify-data-scrapers/1.1.0/",
+  "repo_url": "https://github.com/jlucasmcrell/apify-scrapers",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328534Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328535Z",
+  "repo_url": {
+   "url": "https://github.com/jlucasmcrell/apify-scrapers",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/apify-data-scrapers/1.1.0/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-13T16:37:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4095,
+  "comment_author": "jlucasmcrell"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apify-public"
+ }
+}

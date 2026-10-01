@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260917-bb1720",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "everyinfra",
+  "version": "1.0.0",
+  "description": "One remote MCP server for AI agents: structured public data from 88 platforms (social, e-commerce, reviews, jobs), web search with source cross-checking, CAPTCHA solving, and source-bound data cleanup. USD pay-per-use; failed calls are never charged.",
+  "author": "xiaoxihexiaoyu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://everyinfra.com",
+  "repo_url": "https://github.com/everyinfra/everyinfra-agent-plugins",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.326966Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.326968Z",
+  "repo_url": {
+   "url": "https://github.com/everyinfra/everyinfra-agent-plugins",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://everyinfra.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-17T15:39:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4216,
+  "comment_author": "xiaoxihexiaoyu"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "everyinfra"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260916-48442e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "s2-netbox-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server for LenelS2 S2 NetBox, a physical access-control system (door locks, badge readers, cardholders). Exposes the NBAPI as tools for persons/credentials, access levels, portals/readers, time specs, holidays, portal/reader groups, threat levels, and event/access history. **Read-only by default** -- write tools (lock/unlock, add/modify) and destructive tools (delete/remove) are both opt-in via separate environment variables, so a default install cannot change anything on the controller.",
+  "author": "J-MaFf",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y s2-netbox-mcp",
+  "homepage": "https://www.npmjs.com/package/s2-netbox-mcp",
+  "repo_url": "https://github.com/J-MaFf/s2-netbox-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327613Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327615Z",
+  "repo_url": {
+   "url": "https://github.com/J-MaFf/s2-netbox-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y s2-netbox-mcp",
+   "registry": "npm",
+   "package": "s2-netbox-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/s2-netbox-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-16T00:19:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4163,
+  "comment_author": "J-MaFf"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "s2-netbox-mcp"
+ }
+}

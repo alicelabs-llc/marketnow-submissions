@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260914-108ea4",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "microburbs-australian-property-data",
+  "version": "1.0.0",
+  "description": "Microburbs Australian Property Data Website: https://www.microburbs.com.au Docs: https://www.microburbs.com.au/developers/api-docs Pricing: https://www.microburbs.com.au/developers/api-docs/pricing Official MCP registry: `au.com.microburbs/property-data` Glama connector: https://glama.ai/mcp/connectors/au.com.microburbs/property-data Smithery: https://smithery.ai/servers/microburbs/property-data Endpoint: `https://api.microburbs.com.au/mcp` Transport: Streamable HTTP (remote, hosted — no instal",
+  "author": "David-Mib",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.microburbs.com.au",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328053Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328055Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.microburbs.com.au",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T09:30:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4126,
+  "comment_author": "David-Mib"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "microburbs-australian-property-data"
+ }
+}

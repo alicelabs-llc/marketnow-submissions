@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260918-7e1761",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "markovo-pdf-docx-pptx-xlsx",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: Markovo - GitHub: https://github.com/fisher-byte/markovo - Category: File Systems / Documents - Tagline: Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean, structured Markdown for agent context. - License: MIT - Runtime: Python - Transport: Streamable HTTP (remote, OAuth 2.1) + stdio (local, API key) - PyPI: `markovo` (0.1.1) - Official MCP Registry: `io.github.fisher-byte/markovo` - Site: https://markovo.net - Docs: https://markovo.net/doc",
+  "author": "fisher-byte",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx --from",
+  "homepage": "https://markovo.net/docs/mcp",
+  "repo_url": "https://github.com/fisher-byte/markovo",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.326662Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.326664Z",
+  "repo_url": {
+   "url": "https://github.com/fisher-byte/markovo",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://markovo.net/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-18T22:47:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4243,
+  "comment_author": "fisher-byte"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "markovo-pdf-docx-pptx-xlsx"
+ }
+}

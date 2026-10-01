@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260918-00a624",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apimodels-mcp",
+  "version": "1.0.0",
+  "description": "Image, video, chat and text-to-speech models behind one API key (GPT Image, Gemini Image, Seedream, Veo, Kling, Seedance, Claude, GPT, Gemini, DeepSeek, MiniMax speech …). Built so the assistant can check its own work: `generate_image` returns the URL plus a downscaled preview the model can look at, and `review_image` has a vision model critique a result against the brief and propose a corrected prompt — so \"make a 16:9 banner that says SAVE 10%, fix it if the text is off\" runs as a loop, includ",
+  "author": "stimQQ",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/apimodels-mcp",
+  "repo_url": "https://github.com/stimQQ/apimodels-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.326718Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.326720Z",
+  "repo_url": {
+   "url": "https://github.com/stimQQ/apimodels-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/apimodels-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-18T20:37:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4239,
+  "comment_author": "stimQQ"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apimodels-mcp"
+ }
+}

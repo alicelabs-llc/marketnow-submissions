@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260915-8efa06",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bestprice-shopping-mcp",
+  "version": "1.0.0",
+  "description": "** Official public BestPrice MCP for Greek shopping: read-only product search, offer comparison with shipping/delivered totals, and price history. No API key.",
+  "author": "phaistonian",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.bestprice.gr/mcp",
+  "repo_url": "https://github.com/TheBestCo/bestprice-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327632Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327634Z",
+  "repo_url": {
+   "url": "https://github.com/TheBestCo/bestprice-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.bestprice.gr/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-15T19:33:00Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4160,
+  "comment_author": "phaistonian"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bestprice-shopping-mcp"
+ }
+}

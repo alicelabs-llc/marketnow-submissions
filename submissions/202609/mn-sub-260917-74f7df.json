@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260917-74f7df",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "zarla",
+  "version": "1.0.0",
+  "description": "** Zarla is an AI website builder with a hosted MCP server. 36 tools let any MCP client build a website from one sentence, add pages, edit blocks and copy, change the design (1,200+ templates), set a logo, upload images, add products, preview the site and publish it. Free to build and preview; a paid plan to publish.",
+  "author": "eddiemachaalani",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.zarla.com/api/mcp",
+  "repo_url": "https://github.com/zarlahq/website-builder-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327354Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327356Z",
+  "repo_url": {
+   "url": "https://github.com/zarlahq/website-builder-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.zarla.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-17T02:56:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4183,
+  "comment_author": "eddiemachaalani"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "zarla"
+ }
+}

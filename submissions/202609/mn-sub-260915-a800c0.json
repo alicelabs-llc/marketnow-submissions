@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260915-a800c0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "toolc",
+  "version": "1.0.0",
+  "description": "** toolc is an optimizing compiler for agent tool surfaces. Point it at multiple MCP servers and REST APIs (composed from OpenAPI specs, or drafted straight from a docs URL) and get back one lean MCP endpoint. Compile passes prune dead tools, rewrite descriptions for tool selection with cross-server disambiguation, consolidate near-duplicate tool families into deterministically routed facades, and optionally compress large surfaces behind a search interface. The gateway adds serve-time result co",
+  "author": "healeyb",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://toolc.dev",
+  "repo_url": "https://github.com/toolc-dev/toolc",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327729Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327730Z",
+  "repo_url": {
+   "url": "https://github.com/toolc-dev/toolc",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://toolc.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-15T13:31:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4149,
+  "comment_author": "healeyb"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "toolc"
+ }
+}

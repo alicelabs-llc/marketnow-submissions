@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260914-7e6f50",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "rankjot-real-google-rankings-as-an-mcp-tool",
+  "version": "1.0.0",
+  "description": "RankJot — real Google rankings as an MCP tool Website: https://rankjot.com GitHub: https://github.com/epolat/rankjot-mcp PyPI: https://pypi.org/project/rankjot-mcp/ Official MCP registry: `io.github.epolat/rankjot-mcp` Transport: stdio (`uvx rankjot-mcp`) Auth: `RANKJOT_API_KEY` environment variable — free accounts include 25 lookups a month Category: SEO / search License: MIT Ask your assistant \"where does example.com rank for *best running shoes* in the UK?\" and it makes a live Google lookup",
+  "author": "epolat",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx rankjot-mcp",
+  "homepage": "https://rankjot.com",
+  "repo_url": "https://github.com/epolat/rankjot-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327857Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327858Z",
+  "repo_url": {
+   "url": "https://github.com/epolat/rankjot-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://rankjot.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T21:23:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4137,
+  "comment_author": "epolat"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rankjot-real-google-rankings-as-an-mcp-tool"
+ }
+}

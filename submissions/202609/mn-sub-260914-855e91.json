@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260914-855e91",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "indeed-mcp-server-hasdata",
+  "version": "1.0.0",
+  "description": "Indeed MCP Server Website: https://hasdata.com/apis/indeed-api GitHub: https://github.com/HasData/indeed-mcp npm: https://www.npmjs.com/package/@hasdata/indeed-mcp PyPI: https://pypi.org/project/hasdata-indeed-mcp/ Official MCP registry: `com.hasdata/indeed` Transport: streamable HTTP (remote, hosted by HasData), or stdio through the npm launcher Auth: `x-api-key` header, or OAuth 2.1 sign-in with a HasData account Category: Jobs License: MIT Search Indeed job listings by keyword and location,",
+  "author": "sergey-ermakovich",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://hasdata.com/apis/indeed-api",
+  "repo_url": "https://github.com/HasData/indeed-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328181Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328183Z",
+  "repo_url": {
+   "url": "https://github.com/HasData/indeed-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://hasdata.com/apis/indeed-api",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T08:54:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4119,
+  "comment_author": "sergey-ermakovich"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "indeed-mcp-server-hasdata"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260915-099e6a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "plopino",
+  "version": "1.0.0",
+  "description": "** Publish an HTML page, a document, a file, or a folder and get a public link. Documents render as readable pages — Word (doc/docx), Excel (xls/xlsx) and Markdown; code and data files get syntax-highlighted previews; images and video display inline. Two tools: `publish_html` (a page as a string) and `publish_path` (a file, zip, or whole directory — structure preserved). Anonymous by default: no account or API key. An optional token adds private boards and in-place updates that keep the same lin",
+  "author": "plopino",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y plopino",
+  "homepage": "https://www.npmjs.com/package/plopino",
+  "repo_url": "https://github.com/plopino/plopino-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327812Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327814Z",
+  "repo_url": {
+   "url": "https://github.com/plopino/plopino-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y plopino",
+   "registry": "npm",
+   "package": "plopino",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/plopino",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-15T02:58:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4141,
+  "comment_author": "plopino"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "plopino"
+ }
+}

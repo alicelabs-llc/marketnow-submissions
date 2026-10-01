@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260916-9f6539",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "claudeusage",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/syk8015/claudeusage Name: claudeusage What it does Measures whether a Claude subscription is paying off, from the logs Claude Code already writes on disk. Three questions it answers that token counters don't: - How much of the code Claude wrote is still in your files. Edits are folded in time order, so only lines that survived to the end of the session count — code rewritten three turns later drops out. You can't game the score by idling. - What actually drives the",
+  "author": "syk8015",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/syk8015/claudeusage",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327384Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327386Z",
+  "repo_url": {
+   "url": "https://github.com/syk8015/claudeusage",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-16T21:11:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4179,
+  "comment_author": "syk8015"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "claudeusage"
+ }
+}

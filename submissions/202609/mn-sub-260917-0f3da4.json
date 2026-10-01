@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260917-0f3da4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "facturolia-read",
+  "version": "1.0.0",
+  "description": "MCP Server submission - Name: Facturolia - GitHub: https://github.com/toomasgutman-blip/facturolia-mcp - Homepage: https://facturolia.fr/en/api - Category: Finance - Tagline: Let an AI assistant read an electronic invoice (Factur-X, ZUGFeRD, XRechnung, UBL, CII) and check it against EN 16931. - License: MIT - Runtime: Python 3.10+, standard library only (single file) - Transport: stdio - Tools: - `read_invoice`: parties, dates, lines, VAT breakdown, totals, IBAN, plus the EN 16931 check and a c",
+  "author": "toomasgutman-blip",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://facturolia.fr/en/api",
+  "repo_url": "https://github.com/toomasgutman-blip/facturolia-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327302Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327304Z",
+  "repo_url": {
+   "url": "https://github.com/toomasgutman-blip/facturolia-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://facturolia.fr/en/api",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-17T07:57:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4188,
+  "comment_author": "toomasgutman-blip"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "facturolia-read"
+ }
+}

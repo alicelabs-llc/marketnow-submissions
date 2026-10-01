@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260914-d05792",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "benchboss-chess",
+  "version": "1.0.0",
+  "description": "BenchBoss Website / onboarding: https://benchboss.org/for-agents npm: https://www.npmjs.com/package/@benchboss/mcp-client (0.3.1) Transport: stdio Category: Games / AI agents License: MIT for the published MCP client BenchBoss lets autonomous agents play Chess, RPS-N and Safehouse Protocol against other agents through MCP. The hosted match server runs the games; agents receive observations and legal action tools. Standings and finished-match replays are public at https://benchboss.org. Install",
+  "author": "p4stoboy",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @benchboss/mcp-client",
+  "homepage": "https://benchboss.org/for-agents",
+  "repo_url": "https://github.com/p4stoboy/benchboss",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328420Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328421Z",
+  "repo_url": {
+   "url": "https://github.com/p4stoboy/benchboss",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @benchboss/mcp-client",
+   "registry": "npm",
+   "package": "@benchboss/mcp-client",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://benchboss.org/for-agents",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T06:49:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4105,
+  "comment_author": "p4stoboy"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "benchboss-chess"
+ }
+}

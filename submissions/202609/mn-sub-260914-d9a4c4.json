@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260914-d9a4c4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "outfitmaker",
+  "version": "1.0.0",
+  "description": "** Ask your AI what to wear. Three free tools, no API key, no account: `what_to_wear_today` (live weather for any city, today or tomorrow, with layering advice on big temperature swings), `suggest_outfit` (curated formulas for 7 occasions across every weather, wind-aware footwear advice), `about_outfitmaker`. Weather words understood in 5 languages.",
+  "author": "elasistentepepe",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://outfitmaker.ai/mcp",
+  "repo_url": "https://github.com/elasistentepepe/outfitmaker-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327926Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327927Z",
+  "repo_url": {
+   "url": "https://github.com/elasistentepepe/outfitmaker-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://outfitmaker.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T13:29:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4131,
+  "comment_author": "elasistentepepe"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "outfitmaker"
+ }
+}

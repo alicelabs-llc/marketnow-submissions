@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260914-f5b890",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tegas",
+  "version": "1.0.0",
+  "description": "Name: Tegas Repo: https://github.com/ITtegasai/tegas-mcp Website: https://tegas.ai Docs: https://docs.tegas.ai Remote endpoint: https://api.tegas.ai/mcp (Streamable HTTP, stateless) Auth: static bearer API key from the Tegas cabinet (Authorization: Bearer tg_live_...) Official: yes (published by the Tegas team) Tegas turns an idea into a finished short video. An agent writes a scenario with Tessa, optionally attaches reference images, generates a 5-60 s video with voice-over, subtitles and music",
+  "author": "aitegas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tegas.ai",
+  "repo_url": "https://github.com/ITtegasai/tegas-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327892Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327893Z",
+  "repo_url": {
+   "url": "https://github.com/ITtegasai/tegas-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://tegas.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T16:21:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4134,
+  "comment_author": "aitegas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tegas"
+ }
+}

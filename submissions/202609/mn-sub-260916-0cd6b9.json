@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260916-0cd6b9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "brianbooms-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server exposing the Brian Booms x402 product catalog as 4 tools — search_catalog, get_product, buy_product (live 402 requirements + signing instructions), get_market. Read-only by design: it never signs or pays. 33 products, $0.05–$999 USDC on Base, Polygon, Arbitrum, Avalanche, Solana. Music made with Suno (disclosed).",
+  "author": "brianbooms",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y brianbooms-mcp",
+  "homepage": "https://www.npmjs.com/package/brianbooms-mcp",
+  "repo_url": "https://github.com/brianbooms/brianbooms-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327521Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327523Z",
+  "repo_url": {
+   "url": "https://github.com/brianbooms/brianbooms-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y brianbooms-mcp",
+   "registry": "npm",
+   "package": "brianbooms-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/brianbooms-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-16T10:33:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4170,
+  "comment_author": "brianbooms"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "brianbooms-mcp"
+ }
+}

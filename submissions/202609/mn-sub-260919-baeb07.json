@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260919-baeb07",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hotelscasa-hotels",
+  "version": "1.0.0",
+  "description": "HotelsCasa Repository: https://github.com/hotelscasa/hotelscasa-mcp Hosted MCP: https://mcp.hotelscasa.com/mcp Website: https://hotelscasa.com/ Transport: Streamable HTTP (remote, nothing to install) Authentication: none Official MCP Registry: `com.hotelscasa/hotelscasa-mcp` Video: https://youtu.be/gHR8DM62KB0 Category: Travel HotelsCasa is a travel marketplace for Europe, Turkey, the Caucasus, Central Asia and Latin America. The server lets an AI assistant search more than 1.3 million hotels a",
+  "author": "huespedescasas-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://hotelscasa.com/",
+  "repo_url": "https://github.com/hotelscasa/hotelscasa-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.326647Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.326648Z",
+  "repo_url": {
+   "url": "https://github.com/hotelscasa/hotelscasa-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://hotelscasa.com/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-19T01:16:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4245,
+  "comment_author": "huespedescasas-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hotelscasa-hotels"
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260914-95f5ed",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "stravue",
+  "version": "1.0.0",
+  "description": "Name: Stravue Type: Local MCP server (stdio, npm package) Repository: https://github.com/wulfsagedev/stravue-platform (server in `packages/mcp`) Installation: `npx -y @stravue/mcp`, with `STRAVUE_API_KEY` set Official MCP registry name: com.stravue/mcp Website: https://stravue.com/platform Category: Media & Design Description Stravue does competitor research for AI agents, and hands back something a person can present. Give your assistant a question, such as how three competitors show their pric",
+  "author": "wulfsagedev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @stravue/mcp",
+  "homepage": "https://stravue.com/platform",
+  "repo_url": "https://github.com/wulfsagedev/stravue-platform",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328401Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328403Z",
+  "repo_url": {
+   "url": "https://github.com/wulfsagedev/stravue-platform",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @stravue/mcp",
+   "registry": "npm",
+   "package": "@stravue/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://stravue.com/platform",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T07:01:38Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4106,
+  "comment_author": "wulfsagedev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "stravue"
+ }
+}

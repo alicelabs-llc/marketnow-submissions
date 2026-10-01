@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260915-71113e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "auraspay-merchant-mcp",
+  "version": "1.0.0",
+  "description": "** Connect an AurasPay merchant account to compatible AI applications to review payment activity and prepare shareable payment links. OAuth permissions are scoped, and creating a payment link or changing merchant data requires separate authenticated merchant approval. A payment link is a payment request, not proof of payment or a transfer of funds.",
+  "author": "AurasPayAdmin",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://auraspay.com/mcp",
+  "repo_url": "https://github.com/AurasPayOfficial/auraspay-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327711Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327712Z",
+  "repo_url": {
+   "url": "https://github.com/AurasPayOfficial/auraspay-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://auraspay.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-15T13:32:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4150,
+  "comment_author": "AurasPayAdmin"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "auraspay-merchant-mcp"
+ }
+}

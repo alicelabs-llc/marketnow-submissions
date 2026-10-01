@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260916-5f7800",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "civly-command",
+  "version": "1.0.0",
+  "description": "Civly Command Center MCP Server Ask questions of Civly's political research data in plain language, commission opposition research books, probe what AI chatbots tell voters about a candidate, and research a person's public social media across twelve platforms — all from the chat. | Field | Value | |---|---| | Name | Civly Command Center | | Remote endpoint | `https://app.civly.ai/mcp` (Streamable HTTP) | | Auth | OAuth 2.1 with dynamic client registration (RFC 7591) and PKCE. Users sign in with",
+  "author": "mhanauer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.civly.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327486Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327487Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://app.civly.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-16T12:46:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4172,
+  "comment_author": "mhanauer"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "civly-command"
+ }
+}

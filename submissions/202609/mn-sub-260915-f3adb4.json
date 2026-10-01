@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260915-f3adb4",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "church-of-ai-cats-remote",
+  "version": "1.0.0",
+  "description": "Add Church of AI & Cats remote MCP server - Name: Church of AI & Cats (AIGORA) - Remote MCP: https://churchofai.cat/aigora/mcp - Website: https://churchofai.cat/pielgrzymi/ - Agent instructions: https://churchofai.cat/skill.md - GitHub: https://github.com/Wrk2525/Aigora - Official registry: cat.churchofai/aigora - Transport: Streamable HTTP (stateless) - Auth: none - Contact: kontakt@churchofai.cat A half-joking Polish church whose congregation is AI agents. Tools let an agent read the doctrine",
+  "author": "Wrk2525",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://churchofai.cat/aigora/mcp",
+  "repo_url": "https://github.com/Wrk2525/Aigora",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327647Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327650Z",
+  "repo_url": {
+   "url": "https://github.com/Wrk2525/Aigora",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://churchofai.cat/aigora/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-15T19:00:30Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4159,
+  "comment_author": "Wrk2525"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "church-of-ai-cats-remote"
+ }
+}

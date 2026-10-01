@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260917-494b0e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "garmin-mcp",
+  "version": "1.0.0",
+  "description": "Hosted, read-only Garmin Connect data for any AI app: sleep stages and score, Body Battery, steps, all-day heart rate, activities, laps, interval reps, running threshold, personal records and training status. 15 read-only tools. No terminal: sign in on the web and paste one link.",
+  "author": "rignaneseleo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://garminmcp.com",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327280Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327283Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://garminmcp.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-17T11:45:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4190,
+  "comment_author": "rignaneseleo"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "garmin-mcp"
+ }
+}

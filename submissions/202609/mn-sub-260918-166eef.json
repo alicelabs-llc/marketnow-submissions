@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260918-166eef",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "rankfabrik-4",
+  "version": "1.0.0",
+  "description": "A proxy MCP that federates 4 production REST APIs behind a single `rf_` key — local business / points-of-interest search (places), job listings (jobs), YouTube caption transcription (captions) and email verification (verify). One tool = one REST call. If a key doesn't yet cover a product, the tool returns an actionable activation message instead of crashing, so the server stays usable product by product.",
+  "author": "finalburner",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y rankfabrik-mcp",
+  "homepage": "https://rankfabrik.com/tarifs",
+  "repo_url": "https://github.com/finalburner/rankfabrik-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.326684Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.326686Z",
+  "repo_url": {
+   "url": "https://github.com/finalburner/rankfabrik-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y rankfabrik-mcp",
+   "registry": "npm",
+   "package": "rankfabrik-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://rankfabrik.com/tarifs",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-18T22:44:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4242,
+  "comment_author": "finalburner"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rankfabrik-4"
+ }
+}

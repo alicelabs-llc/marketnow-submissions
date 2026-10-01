@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260914-c6aabf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "proxycove-proxies",
+  "version": "1.0.0",
+  "description": "ProxyCove MCP Server Website: https://proxycove.com/en/ai-agents/ GitHub: https://github.com/proxycove/mcp-server Official MCP registry: `com.proxycove/mcp-server` Endpoint: `https://mcp.proxycove.com/mcp` Transport: streamable HTTP (remote, hosted) Auth: `Authorization: Bearer pc_live_…`, or OAuth 2.1 + PKCE. Pricing, locations and account creation answer with no auth at all. Category: Web Scraping / Cloud Service License: MIT Residential, mobile and datacenter proxies in 170+ countries, prepa",
+  "author": "modeler11",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://proxycove.com/en/ai-agents/",
+  "repo_url": "https://github.com/proxycove/mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327875Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327878Z",
+  "repo_url": {
+   "url": "https://github.com/proxycove/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://proxycove.com/en/ai-agents/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T17:06:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4135,
+  "comment_author": "modeler11"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "proxycove-proxies"
+ }
+}

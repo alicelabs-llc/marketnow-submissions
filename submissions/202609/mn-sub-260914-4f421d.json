@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260914-4f421d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fee-optimizer",
+  "version": "1.0.0",
+  "description": "Fee Optimizer MCP Repository: https://github.com/gaokai258/feemcp npm: fee-optimizer-mcp Transport: stdio License: MIT Description Compare crypto exchange trading fees across 18 venues (Binance, OKX, Gate, Bybit, MEXC, Kraken, Coinbase, Hyperliquid, etc.) with VIP tier resolution, funding rates, spread/slippage, fiat on/off-ramp costs, and crypto withdrawal fees. Recommends the cheapest venue for spot or futures trading by country. Install ```bash npx fee-optimizer-mcp ``` Tools (19) - compare_",
+  "author": "gaokai258",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/gaokai258/feemcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328449Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328451Z",
+  "repo_url": {
+   "url": "https://github.com/gaokai258/feemcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T02:34:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4103,
+  "comment_author": "gaokai258"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fee-optimizer"
+ }
+}

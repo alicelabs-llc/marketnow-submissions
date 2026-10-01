@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260913-73afca",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "hilead",
+  "version": "1.0.0",
+  "description": "Name: Hilead Type: Remote MCP server (Streamable HTTP) Endpoint: https://api.app.hilead.co/mcp Authentication: OAuth 2.1 with PKCE and dynamic client registration (sign in with a Hilead account). Scopes: `read`, `read_write`. Official MCP registry name: co.hilead/hilead Website: https://hilead.co Category: Sales and B2B prospecting Description Hilead is a signal-based B2B prospecting platform. Over MCP, an assistant can discover fresh leads from buying signals such as funding rounds, key hires,",
+  "author": "4Mathleu",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://hilead.co",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328485Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328487Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://hilead.co",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-13T23:08:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4099,
+  "comment_author": "4Mathleu"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "hilead"
+ }
+}

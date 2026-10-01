@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260913-a3c63c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hiringindex-job",
+  "version": "1.0.0",
+  "description": "Repository: https://github.com/starnikov-oleg-org/hiringindex-mcp npm: https://www.npmjs.com/package/hiringindex-mcp Registry name: io.github.starnikovoleg/hiringindex-mcp What it does Search job postings that are live on the employer's board, read from thirteen applicant tracking systems: Workday, SmartRecruiters, Greenhouse, Workable, Lever, Ashby, Recruitee, Teamtailor, Breezy, Hireology, Personio, PageUp and Zoho Recruit. Postings come from the employer's own careers page through the catalog",
+  "author": "starnikovoleg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y hiringindex-mcp",
+  "homepage": "https://www.npmjs.com/package/hiringindex-mcp",
+  "repo_url": "https://github.com/starnikov-oleg-org/hiringindex-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.328549Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.328550Z",
+  "repo_url": {
+   "url": "https://github.com/starnikov-oleg-org/hiringindex-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y hiringindex-mcp",
+   "registry": "npm",
+   "package": "hiringindex-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/hiringindex-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-13T15:13:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4094,
+  "comment_author": "starnikovoleg"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hiringindex-job"
+ }
+}

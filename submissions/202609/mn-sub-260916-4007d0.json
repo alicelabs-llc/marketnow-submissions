@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260916-4007d0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pixeltable-developer",
+  "version": "1.0.0",
+  "description": "Please add this MCP server to https://mcp.so. Name: Pixeltable Developer Repository: https://github.com/pixeltable/mcp-server-pixeltable-developer Registry name: `io.github.pixeltable/mcp-server-pixeltable-developer` (official MCP Registry server.json) License: Apache-2.0 Language: Python 3.11+ Transport: stdio (local) Category: Databases / AI & Data Engineering Description A local Model Context Protocol server for building, inspecting, and operating [Pixeltable](https://pixeltable.com/) applica",
+  "author": "pierrebrunelle",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx --from",
+  "homepage": "https://pixeltable.com/",
+  "repo_url": "https://github.com/pixeltable/mcp-server-pixeltable-developer",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327434Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327436Z",
+  "repo_url": {
+   "url": "https://github.com/pixeltable/mcp-server-pixeltable-developer",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pixeltable.com/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-16T18:42:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4176,
+  "comment_author": "pierrebrunelle"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pixeltable-developer"
+ }
+}

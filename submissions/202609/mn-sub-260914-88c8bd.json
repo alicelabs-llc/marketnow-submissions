@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260914-88c8bd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "jetapi",
+  "version": "1.0.0",
+  "description": "Official MCP server for https://jetapi.io — send WhatsApp, Telegram (personal account or bot), SMS, VK/OK and MAX messages from AI agents. - GitHub: https://github.com/jetapi/jetapi-mcp-server - npm: https://www.npmjs.com/package/jetapi-mcp-server (`npx -y jetapi-mcp-server`) - Claude Desktop extension: https://github.com/jetapi/jetapi-mcp-server/releases/latest (`jetapi-mcp-server.mcpb`) - Official MCP Registry: `io.github.jetapi/jetapi-mcp-server` v1.0.1 - Transport: stdio (local) - Auth: JetA",
+  "author": "jetapi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y jetapi-mcp-server",
+  "homepage": "https://jetapi.io",
+  "repo_url": "https://github.com/jetapi/jetapi-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327907Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327912Z",
+  "repo_url": {
+   "url": "https://github.com/jetapi/jetapi-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y jetapi-mcp-server",
+   "registry": "npm",
+   "package": "jetapi-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://jetapi.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-14T14:09:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4132,
+  "comment_author": "jetapi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "jetapi"
+ }
+}

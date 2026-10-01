@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260917-8a5c49",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "io-github-forgemeshlabs-library",
+  "version": "1.0.0",
+  "description": "A paid public-domain knowledge base for AI agents: full-text search, book metadata, chapters.",
+  "author": "clawdbotworker",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/forgemeshlabs/library-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:01.327059Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:01.327060Z",
+  "repo_url": {
+   "url": "https://github.com/forgemeshlabs/library-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-17T15:11:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 4207,
+  "comment_author": "clawdbotworker"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "io-github-forgemeshlabs-library"
+ }
+}
