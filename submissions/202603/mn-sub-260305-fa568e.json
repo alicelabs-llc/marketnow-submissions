@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260305-fa568e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "andru-revenue-intelligence-mcp-server",
+  "version": "1.0.0",
+  "description": "# Andru Revenue Intelligence MCP Server npm: [`mcp-server-andru-intelligence`](https://www.npmjs.com/package/mcp-server-andru-intelligence) GitHub: https://github.com/geter-andru/mcp-server-andru-intelligence Website: https://platform.andru-ai.com Category: B2B Sales Intelligence / GTM / Revenue Operations License: MIT 19 buyer intelligence tools for technical founders who sell to enterprises — know who to target, what to say, and when to walk away. Built on 20 years of B2B sales pattern data. W",
+  "author": "geter-andru",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mcp-server-andru-intelligence",
+  "homepage": "https://mcp-server-andru-intelligence.onrender.com/mcp",
+  "repo_url": "https://github.com/geter-andru/mcp-server-andru-intelligence",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:42.646597Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:42.646622Z",
+  "repo_url": {
+   "url": "https://github.com/geter-andru/mcp-server-andru-intelligence",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mcp-server-andru-intelligence",
+   "registry": "npm",
+   "package": "mcp-server-andru-intelligence",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp-server-andru-intelligence.onrender.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T08:15:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4003185356,
+  "comment_author": "geter-andru"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "andru-revenue-intelligence-mcp-server"
+ }
+}
