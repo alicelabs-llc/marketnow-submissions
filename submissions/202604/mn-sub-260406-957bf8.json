@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260406-957bf8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "moltrust-api",
+  "version": "1.0.0",
+  "description": "MolTrust MCP Server Repository: https://github.com/MoltyCel/moltrust-api PyPI: https://pypi.org/project/moltrust-mcp-server/ W3C DID-based trust infrastructure for AI agents. Verify agent identity, check trust scores, issue Verifiable Credentials, and anchor interaction proofs on Base L2. Tools: register_agent, get_trust_score, verify_delegation, issue_vc, submit_ipr, check_sas, get_graph_score Transport: Streamable HTTP — `pip install moltrust-mcp-server` Live endpoint: https://api.moltrust.ch/",
+  "author": "MoltyCel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.moltrust.ch/mcp",
+  "repo_url": "https://github.com/MoltyCel/moltrust-api",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:33.968691Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:33.968722Z",
+  "repo_url": {
+   "url": "https://github.com/MoltyCel/moltrust-api",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.moltrust.ch/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-06T03:31:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4190171500,
+  "comment_author": "MoltyCel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "moltrust-api"
+ }
+}
