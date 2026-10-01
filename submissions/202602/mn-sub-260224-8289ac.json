@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260224-8289ac",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "intelligence-aeternum-mcp",
+  "version": "1.0.0",
+  "description": "Intelligence Aeternum MCP AI training dataset marketplace exposed as MCP servers. 2M+ museum artworks across 7 world-class institutions with on-demand 111-field Golden Codex AI enrichment. x402 USDC micropayments on Base L2. Data Portal MCP (13 tools — search, metadata, enrichment, compliance, delivery): - URL: `https://data-portal-172867820131.us-west1.run.app/mcp` - Transport: streamable-http Fluora MCP (MonetizedMCP broker — 3 tools): - URL: `https://fluora-mcp-172867820131.us-west1.run.app/m",
+  "author": "codex-curator",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://data-portal-172867820131.us-west1.run.app/mcp",
+  "repo_url": "https://github.com/codex-curator/intelligence-aeternum-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:15.515433Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:15.515470Z",
+  "repo_url": {
+   "url": "https://github.com/codex-curator/intelligence-aeternum-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://data-portal-172867820131.us-west1.run.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-24T20:25:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3954525824,
+  "comment_author": "codex-curator"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "intelligence-aeternum-mcp"
+ }
+}
