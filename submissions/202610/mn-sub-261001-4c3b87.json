@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-4c3b87",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "clip-studio-mcp",
+  "version": "1.0.0",
+  "description": "Clip Studio MCP (hosted / remote) - Name: Clip Studio MCP - - Docs: https://clipstudio.ai/mcp - - - Endpoint (Streamable HTTP): https://clipstudio.ai/api/mcp - - - - Auth: OAuth 2.1 + PKCE + dynamic client registration. Sign in once with a Clip Studio account. No pasted API key. - - - - - What it does: Agents quote, generate, and poll the same public jobs as the website: Video Lab, Image Lab, Audio Lab, Last Frame, Topic Shorts, Talking Shorts, Ad Studio, Ad Lab, Story (continue my story, then r",
+  "author": "j-acks0n",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://clipstudio.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:55.460816Z",
+  "duration_ms": 1175,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:55.460849Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://clipstudio.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:55.460852Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "clip-studio-mcp"
+ }
+}
