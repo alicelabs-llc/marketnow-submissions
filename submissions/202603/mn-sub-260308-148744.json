@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260308-148744",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "rpgmais-mcp-n8n",
+  "version": "1.0.0",
+  "description": "[RPGMais/mcp-n8n](https://github.com/RPGMais/mcp-n8n) The most complete MCP server for [n8n](https://n8n.io) — 43 tools covering workflows, executions, data tables, tags, credentials, users, variables, projects, audit, and webhooks. - npm: `npx -y @nextoolsolutions/mcp-n8n` - License: MIT - Transport: stdio - Key feature: Only MCP with full Data Tables support (CRUD, filters, upsert, dry-run)",
+  "author": "RPGMais",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @nextoolsolutions/mcp-n8n",
+  "homepage": "https://n8n.io",
+  "repo_url": "https://github.com/RPGMais/mcp-n8n",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:57.187479Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:57.187503Z",
+  "repo_url": {
+   "url": "https://github.com/RPGMais/mcp-n8n",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @nextoolsolutions/mcp-n8n",
+   "registry": "npm",
+   "package": "@nextoolsolutions/mcp-n8n",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://n8n.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-08T11:47:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4018904399,
+  "comment_author": "RPGMais"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rpgmais-mcp-n8n"
+ }
+}
