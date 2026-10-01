@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260906-0d48c2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vikasny30-aletheia-mcp",
+  "version": "1.0.0",
+  "description": "# 🛡️ vikasny30/aletheia-mcp Deterministic (no-LLM) pre-execution filter that blocks known scope-creep and prompt-injection tool calls before an agent runs them. Aletheia MCP intercepts tool calls from Claude Code, Claude Desktop, and any other MCP-compatible agent, scores them against known Scope-Creep-Beyond-Mandate (S3) and Adversarial-Prompt-Injection (S2b) patterns, and blocks the destructive ones — destructive shell/SQL, credential-file reads, SSRF and cloud-metadata access, out-of-mandate ",
+  "author": "vikasny30",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y aletheia-mcp",
+  "homepage": "https://www.npmjs.com/package/aletheia-mcp",
+  "repo_url": "https://github.com/vikasny30/aletheia-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:13:20.155887Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:13:20.155915Z",
+  "repo_url": {
+   "url": "https://github.com/vikasny30/aletheia-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y aletheia-mcp",
+   "registry": "npm",
+   "package": "aletheia-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/aletheia-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-09-06T13:44:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5559622360,
+  "comment_author": "vikasny30"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vikasny30-aletheia-mcp"
+ }
+}
