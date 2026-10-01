@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260309-8c611c",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "crashstory-mcp",
+  "version": "1.0.0",
+  "description": "** Colorado's most comprehensive car accident data platform as an MCP server. Search 594K+ crash records from CDOT and Denver PD, compare 600+ personal injury attorneys with AI-analyzed review intelligence from 25K+ client reviews, and access real-time traffic incidents. Free, public, read-only.",
+  "author": "DavidMelamed",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://crashstory.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766200Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766201Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://crashstory.com/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-09T23:43:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 747,
+  "comment_author": "DavidMelamed"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "crashstory-mcp"
+ }
+}

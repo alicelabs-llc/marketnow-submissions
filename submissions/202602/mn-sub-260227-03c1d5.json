@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260227-03c1d5",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "nutrient-document-engine",
+  "version": "1.0.0",
+  "description": "MCP Server Name Nutrient Document Engine MCP Server Repository https://github.com/PSPDFKit/nutrient-document-engine-mcp-server Description Self-hosted Model Context Protocol (MCP) server for Nutrient Document Engine. Enables AI agents to run document workflows (extract, OCR, redact, transform, export) against a private/on-prem Document Engine deployment. Why list this server - Built for teams that need private/self-hosted document processing. - Complements cloud MCP offerings with enterprise/on",
+  "author": "jdrhyne",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @nutrient-sdk/document-engine-mcp-server",
+  "homepage": "http://localhost:5000",
+  "repo_url": "https://github.com/PSPDFKit/nutrient-document-engine-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767480Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767482Z",
+  "repo_url": {
+   "url": "https://github.com/PSPDFKit/nutrient-document-engine-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @nutrient-sdk/document-engine-mcp-server",
+   "registry": "npm",
+   "package": "@nutrient-sdk/document-engine-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "http://localhost:5000",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T20:02:43Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 602,
+  "comment_author": "jdrhyne"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "nutrient-document-engine"
+ }
+}

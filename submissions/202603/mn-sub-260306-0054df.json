@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260306-0054df",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "prediction-market",
+  "version": "1.0.0",
+  "description": "Server Name prediction-market-mcp npm Package https://www.npmjs.com/package/prediction-market-mcp GitHub Repository https://github.com/illgottengainsss/prediction-market-mcp Description MCP server that gives AI agents access to real-time prediction market data from Polymarket and Kalshi. 4,800+ markets, arbitrage detection, cross-platform matching, and strategy signals. Tools (8 total) - search_markets - Search 4,800+ markets by query, platform, category, volume - - get_market - Get a specific",
+  "author": "illgottengainsss",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/prediction-market-mcp",
+  "repo_url": "https://github.com/illgottengainsss/prediction-market-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766590Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766592Z",
+  "repo_url": {
+   "url": "https://github.com/illgottengainsss/prediction-market-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/prediction-market-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-06T01:01:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 692,
+  "comment_author": "illgottengainsss"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "prediction-market"
+ }
+}

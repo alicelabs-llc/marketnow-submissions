@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260305-9f96ce",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ink-mcp-deploy",
+  "version": "1.0.0",
+  "description": "Server Name Ink MCP Repository https://github.com/mldotink/mcp Server URL https://mcp.ml.ink/mcp Category Cloud Platforms Overview MCP server for Ink, a cloud platform that lets you deploy services, provision databases, manage domains and DNS, and collaborate via workspaces — all through MCP. Deploy from Docker images or git repos, provision Postgres/MySQL/Redis databases, configure custom domains, and manage DNS records directly from your AI assistant. Available Tools (7 total) | Tool | Descri",
+  "author": "gluonfield",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/mldotink/mcp",
+  "repo_url": "https://github.com/mldotink/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766677Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766678Z",
+  "repo_url": {
+   "url": "https://github.com/mldotink/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/mldotink/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T04:09:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 682,
+  "comment_author": "gluonfield"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ink-mcp-deploy"
+ }
+}

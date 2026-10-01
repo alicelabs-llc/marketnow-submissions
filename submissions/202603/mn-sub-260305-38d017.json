@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260305-38d017",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "measure-events",
+  "version": "1.0.0",
+  "description": "Measure.events MCP Server GitHub: https://github.com/Turbo-Puffin/measure-mcp-server Website: https://measure.events Category: Monitoring / Analytics Description Privacy-first web analytics with a native MCP server. AI agents can query pageviews, referrers, top pages, and get natural language summaries of site traffic — all through standard MCP protocol. MCP Tools - `get_site_analytics` — Pageviews, visitors, bounce rate by period - `get_site_summary` — Natural language traffic summary - `get_i",
+  "author": "meetclawdius",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://measure.events",
+  "repo_url": "https://github.com/Turbo-Puffin/measure-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766641Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766642Z",
+  "repo_url": {
+   "url": "https://github.com/Turbo-Puffin/measure-mcp-server",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://measure.events",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T08:16:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 685,
+  "comment_author": "meetclawdius"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "measure-events"
+ }
+}

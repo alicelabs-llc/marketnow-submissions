@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260227-88c9ce",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "iz-tolk-mcp-tolk",
+  "version": "1.0.0",
+  "description": "- Name: iz-tolk-mcp - GitHub URL: https://github.com/izzzzzi/izTolkMcp - npm: https://www.npmjs.com/package/iz-tolk-mcp - Description: MCP server integrating the Tolk smart contract compiler for TON blockchain. Enables writing, compiling, syntax-checking, and deployment of TON smart contracts directly from AI assistants like Claude, Cursor, Windsurf, and any MCP-compatible client. - Features: - 4 tools: compile contracts, check syntax, get compiler version, generate deployment deeplinks - 6 reso",
+  "author": "izzzzzi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/iz-tolk-mcp",
+  "repo_url": "https://github.com/izzzzzi/izTolkMcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767601Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767602Z",
+  "repo_url": {
+   "url": "https://github.com/izzzzzi/izTolkMcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/iz-tolk-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T06:23:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 588,
+  "comment_author": "izzzzzi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "iz-tolk-mcp-tolk"
+ }
+}

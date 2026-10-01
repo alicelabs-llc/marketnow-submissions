@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260310-80aca6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "envelope-u1f4e7",
+  "version": "1.0.0",
+  "description": "Name: Envelope (📧 U1F4E7) Repository: https://github.com/tymrtn/U1F4E7 Category: Communication / Email BYO mailbox email API with native MCP server. Connect any IMAP/SMTP account and get agent-native email with: - Draft previews + human-in-the-loop approval gates - Domain policies (per-domain rules governing agent behavior) - Action audit log (full provenance trail) - Open tracking, signatures, thread reconstruction - REST API + MCP server Stack: Python 3.11+ / FastAPI / MCP SDK License: FSL-1.1",
+  "author": "tymrtn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/tymrtn/U1F4E7",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766120Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766121Z",
+  "repo_url": {
+   "url": "https://github.com/tymrtn/U1F4E7",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-10T08:38:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 752,
+  "comment_author": "tymrtn"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "envelope-u1f4e7"
+ }
+}

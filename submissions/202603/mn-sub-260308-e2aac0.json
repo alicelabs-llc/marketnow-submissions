@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260308-e2aac0",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "seedflip-mcp",
+  "version": "1.0.0",
+  "description": "Submit: seedflip-mcp — 100+ curated design systems for AI agents — https://github.com/bockenstette1/seedflip",
+  "author": "bockenstette1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y seedflip-mcp",
+  "homepage": "https://www.npmjs.com/package/seedflip-mcp",
+  "repo_url": "https://github.com/bockenstette1/seedflip",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766407Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766412Z",
+  "repo_url": {
+   "url": "https://github.com/bockenstette1/seedflip",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y seedflip-mcp",
+   "registry": "npm",
+   "package": "seedflip-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/seedflip-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-08T00:51:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 722,
+  "comment_author": "bockenstette1"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "seedflip-mcp"
+ }
+}

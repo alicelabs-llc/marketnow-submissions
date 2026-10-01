@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260308-6f2b7d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "402-bot-discovery-oracle",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission: 402.bot Discovery Oracle Links - Homepage: https://402.bot - Remote MCP runtime: https://api.402.bot/mcp - GitHub repository: https://github.com/sam00101011/402.bot - Setup guide: https://api.402.bot/mcp/setup - Setup markdown: https://api.402.bot/mcp/setup.md - llms.txt: https://402.bot/llms.txt - Directory kit JSON: https://api.402.bot/directory-kit.json - Logo: https://api.402.bot/brand/402bot-logo.jpg Description Discover and inspect live agent APIs. Search ranked",
+  "author": "sam00101011",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.402.bot/mcp",
+  "repo_url": "https://github.com/sam00101011/402.bot",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766391Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766393Z",
+  "repo_url": {
+   "url": "https://github.com/sam00101011/402.bot",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.402.bot/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-08T04:53:19Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 723,
+  "comment_author": "sam00101011"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "402-bot-discovery-oracle"
+ }
+}

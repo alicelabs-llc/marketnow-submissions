@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260310-08ce13",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-proxmox-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Submission - Name: mcp-proxmox - GitHub: https://github.com/antonio-mello-ai/mcp-proxmox - PyPI: https://pypi.org/project/mcp-proxmox/ - Description: MCP server for managing Proxmox VE clusters through AI assistants. 22 tools for provisioning, lifecycle, snapshots, backup/restore, storage, network, resize, monitoring, and command execution. - Language: Python - Install: `uvx mcp-proxmox` or `pip install mcp-proxmox` Thanks!",
+  "author": "antonio-mello-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx mcp-proxmox",
+  "homepage": "https://pypi.org/project/mcp-proxmox/",
+  "repo_url": "https://github.com/antonio-mello-ai/mcp-proxmox",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766185Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766187Z",
+  "repo_url": {
+   "url": "https://github.com/antonio-mello-ai/mcp-proxmox",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/mcp-proxmox/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-10T00:12:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 748,
+  "comment_author": "antonio-mello-ai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-proxmox-mcp"
+ }
+}

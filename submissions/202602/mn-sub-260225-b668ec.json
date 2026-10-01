@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260225-b668ec",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "shipswift-ai",
+  "version": "1.0.0",
+  "description": "Server Information - Name: ShipSwift - Type: Server (Remote HTTP) - URL: https://api.shipswift.app/mcp - GitHub: https://github.com/signerlabs/ShipSwift - Website: https://shipswift.app Description AI-native SwiftUI recipe library with 40+ production-ready, copy-paste-ready code modules for building full-stack iOS apps. Covers animations (shimmer, mesh gradient, typewriter), charts (bar, donut, radar, heatmap), UI components (onboarding, alerts, tabs, settings), and full-stack modules (AWS Cogn",
+  "author": "w-zhong",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.shipswift.app/mcp",
+  "repo_url": "https://github.com/signerlabs/ShipSwift",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767934Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767935Z",
+  "repo_url": {
+   "url": "https://github.com/signerlabs/ShipSwift",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.shipswift.app/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-25T11:31:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 561,
+  "comment_author": "w-zhong"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "shipswift-ai"
+ }
+}

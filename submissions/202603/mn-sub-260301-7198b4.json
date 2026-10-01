@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260301-7198b4",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "cloudclaw-ai",
+  "version": "1.0.0",
+  "description": "CloudClaw MCP Server CloudClaw is an AI agent hosting platform that provides a hosted MCP server with 65+ connectors and 181+ tools, enabling any AI agent to connect to popular services in seconds. Details - Name: CloudClaw - Website: https://mycloudclaw.com - MCP Discovery Endpoint: https://mycloudclaw.com/.well-known/mcp.json - MCP Tenant Endpoint: https://mycloudclaw.com/api/mcp (tenant-mcp) - MCP Agent Endpoint: https://mycloudclaw.com/api/agents/{agent_id}/mcp (agent-mcp) - MCP Connector D",
+  "author": "mkc909",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mycloudclaw.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767082Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767083Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://mycloudclaw.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-01T15:20:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 632,
+  "comment_author": "mkc909"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "cloudclaw-ai"
+ }
+}

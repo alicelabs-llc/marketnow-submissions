@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260309-e43388",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "uncorreotemporal",
+  "version": "1.0.0",
+  "description": "- Name: uncorreotemporal-mcp - Description: Disposable email infrastructure for autonomous AI agents. Provides 5 high-level workflow tools that handle the full email verification flow — from inbox creation to OTP/link extraction — without any manual polling or CRUD. - Category: Developer Tools - Website: https://uncorreotemporal.com - Docs: https://uncorreotemporal.com/docs/mcp - Transport: Streamable HTTP (MCP protocol 2024-11-05) at `https://uncorreotemporal.com/mcp` - Install (remote, no loca",
+  "author": "francofuji",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx uncorreotemporal-mcp",
+  "homepage": "https://uncorreotemporal.com/docs/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766322Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766324Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://uncorreotemporal.com/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-09T01:24:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 734,
+  "comment_author": "francofuji"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "uncorreotemporal"
+ }
+}

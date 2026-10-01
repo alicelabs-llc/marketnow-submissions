@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260302-095040",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "opendirectories",
+  "version": "1.0.0",
+  "description": "Server Information - Name: OpenDirectories Business Data - Package: `opendirectories-mcp` ([PyPI](https://pypi.org/project/opendirectories-mcp/)) - Homepage: https://opendirectories.ai - Repository: https://github.com/BigJai/opendirectories-mcp - Hosted Endpoint: https://secure-wave--opendirectories-business-data.apify.actor/mcp - License: MIT Description Search 12M+ verified businesses across 10 countries via government registers. Data sourced from official government business registries (ABN,",
+  "author": "BigJai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx opendirectories-mcp",
+  "homepage": "https://secure-wave--opendirectories-business-data.apify.actor/mcp",
+  "repo_url": "https://github.com/BigJai/opendirectories-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766997Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766998Z",
+  "repo_url": {
+   "url": "https://github.com/BigJai/opendirectories-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://secure-wave--opendirectories-business-data.apify.actor/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-02T07:19:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 641,
+  "comment_author": "BigJai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "opendirectories"
+ }
+}

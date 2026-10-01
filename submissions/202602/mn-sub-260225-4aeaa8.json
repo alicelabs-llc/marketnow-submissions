@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260225-4aeaa8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "rollhub-dice",
+  "version": "1.0.0",
+  "description": "rollhub-dice-mcp npm: `rollhub-dice-mcp` GitHub: https://github.com/rollhub-dev/rollhub-dice-mcp Website: https://agent.rollhub.com Description MCP server for Agent Casino — provably fair dice, coinflip, and roulette gambling for AI agents. Real cryptocurrency deposits/withdrawals (70+ chains), zero-trust verification, 99% RTP dice, 97.3% RTP roulette. Category Gaming / Finance Tools - `rollhub_dice` — Place a dice bet - `rollhub_coinflip` — Place a coinflip bet - `rollhub_roulette` — Place a r",
+  "author": "rollhub-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent.rollhub.com",
+  "repo_url": "https://github.com/rollhub-dev/rollhub-dice-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767917Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767919Z",
+  "repo_url": {
+   "url": "https://github.com/rollhub-dev/rollhub-dice-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agent.rollhub.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-25T11:51:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 562,
+  "comment_author": "rollhub-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "rollhub-dice"
+ }
+}

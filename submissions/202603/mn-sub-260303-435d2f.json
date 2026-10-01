@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260303-435d2f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "scite",
+  "version": "1.0.0",
+  "description": "Server Details Name: Scite URL: https://scite.ai/mcp Server Endpoint: `https://api.scite.ai/mcp` Transport: Streamable HTTP (remote) Authentication: OAuth 2.1 Description Scite is a remote MCP server that grounds AI answers in scientific literature. It provides: - Full-text search across 280M+ scientific articles - Smart Citations classified as supporting, contrasting, or mentioning - Citation trust evaluation - Full-text article access Registry Published on the official MCP Registry: [ai.scite",
+  "author": "coreyrab",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://scite.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766899Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766900Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://scite.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-03T17:15:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 659,
+  "comment_author": "coreyrab"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "scite"
+ }
+}

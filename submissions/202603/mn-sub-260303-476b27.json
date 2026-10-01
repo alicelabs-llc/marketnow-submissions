@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260303-476b27",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "superscalar-mcp",
+  "version": "1.0.0",
+  "description": "superscalar-mcp MCP server for [SuperScalar](https://github.com/8144225309/SuperScalar) — Bitcoin Lightning channel factories that onboard N users in one shared UTXO. No soft fork required. Repository: https://github.com/8144225309/superscalar-mcp npm: `npx superscalar-mcp` Website: https://SuperScalar.win License: MIT Tools | Tool | Description | |------|-------------| | `superscalar_overview` | Protocol overview — what SuperScalar is, how it works, key properties | | `superscalar_estimate_sav",
+  "author": "8144225309",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://SuperScalar.win",
+  "repo_url": "https://github.com/8144225309/SuperScalar",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766830Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766833Z",
+  "repo_url": {
+   "url": "https://github.com/8144225309/SuperScalar",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://SuperScalar.win",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-03T21:22:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 663,
+  "comment_author": "8144225309"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "superscalar-mcp"
+ }
+}

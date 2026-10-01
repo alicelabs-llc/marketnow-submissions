@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260225-e18457",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clawmoat-security",
+  "version": "1.0.0",
+  "description": "ClawMoat — Open-source security for AI agents and MCP tool servers npm: https://www.npmjs.com/package/clawmoat Repo: https://github.com/darfaz/clawmoat Website: https://clawmoat.com License: MIT Relevance to MCP: ClawMoat provides host-level security controls for environments running MCP tool servers: - Permission tiers for MCP tool execution (observer/worker/standard/full) - Forbidden zones — prevents MCP tools from accessing sensitive host directories - Skill/tool auditing — hash-based integri",
+  "author": "darfaz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/clawmoat",
+  "repo_url": "https://github.com/darfaz/clawmoat",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767949Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767950Z",
+  "repo_url": {
+   "url": "https://github.com/darfaz/clawmoat",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/clawmoat",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-25T08:08:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 560,
+  "comment_author": "darfaz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clawmoat-security"
+ }
+}

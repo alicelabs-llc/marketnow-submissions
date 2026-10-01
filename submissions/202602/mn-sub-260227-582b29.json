@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260227-582b29",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kalshi",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Kalshi MCP Server URL: https://github.com/joinQuantish/kalshi-mcp npm: @quantish/kalshi-server Type: MCP Server (TypeScript) Description Self-hosted MCP server for Kalshi prediction market trading via DFlow on Solana. 40 tools for market discovery, order management, position tracking, wallet management, and Jupiter swaps (SOL/USDC). Server Config ```json { \"mcpServers\": { \"kalshi\": { \"command\": \"npx\", \"args\": [\"-y\", \"@quantish/kalshi-server\"] } } } ``` Tool Categorie",
+  "author": "boshjerns",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/joinQuantish/kalshi-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767550Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767552Z",
+  "repo_url": {
+   "url": "https://github.com/joinQuantish/kalshi-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T13:39:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 594,
+  "comment_author": "boshjerns"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kalshi"
+ }
+}

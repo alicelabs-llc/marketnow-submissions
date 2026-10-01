@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260307-76501b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aipaygen-88-ai-tools-as-one",
+  "version": "1.0.0",
+  "description": "Server Name AiPayGen Description 88 AI-powered tools as one MCP server. Research, write, code, translate, analyze, summarize, vision, RAG, web scraping, agent memory, marketplace, and more. GitHub Repository https://github.com/Damien829/aipaygen Installation PyPI (local stdio) ```bash pip install aipaygen-mcp ``` Remote (streamable-http) ``` https://mcp.aipaygen.com/mcp ``` Official MCP Registry Listed at: https://registry.modelcontextprotocol.io/servers/io.github.Damien829/aipaygen Features -",
+  "author": "Damien829",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.aipaygen.com/mcp",
+  "repo_url": "https://github.com/Damien829/aipaygen",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766460Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766462Z",
+  "repo_url": {
+   "url": "https://github.com/Damien829/aipaygen",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.aipaygen.com/mcp",
+   "ok": false,
+   "status": 530
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-07T18:51:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 716,
+  "comment_author": "Damien829"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aipaygen-88-ai-tools-as-one"
+ }
+}

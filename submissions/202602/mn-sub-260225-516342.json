@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260225-516342",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "codeseeker",
+  "version": "1.0.0",
+  "description": "CodeSeeker Type: MCP Server Name: CodeSeeker GitHub: https://github.com/jghiringhelli/codeseeker npm: codeseeker Category: Developer Tools / Code Intelligence Description Graph-powered code intelligence MCP server with semantic search, knowledge graph, and dependency analysis. Provides hybrid search (vector + text + path with Reciprocal Rank Fusion), dependency mapping, duplicate/dead code detection, and auto-detected coding standards. Works with Claude Code, Cursor, VS Code (Copilot), Windsurf",
+  "author": "jghiringhelli",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y codeseeker",
+  "homepage": null,
+  "repo_url": "https://github.com/jghiringhelli/codeseeker",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767854Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767855Z",
+  "repo_url": {
+   "url": "https://github.com/jghiringhelli/codeseeker",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y codeseeker",
+   "registry": "npm",
+   "package": "codeseeker",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-25T15:14:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 567,
+  "comment_author": "jghiringhelli"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "codeseeker"
+ }
+}

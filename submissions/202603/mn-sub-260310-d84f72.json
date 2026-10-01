@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260310-d84f72",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "phantom-connect-sdk",
+  "version": "1.0.0",
+  "description": "** Official Phantom Connect SDK documentation MCP server. Provides real-time API reference for building wallet-connected apps using `@phantom/react-sdk`, `@phantom/react-native-sdk`, and `@phantom/browser-sdk` — covering social login, transaction signing, token gating, and NFT minting on Solana.",
+  "author": "Th3Ya0vi",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://docs.phantom.com/mcp",
+  "repo_url": "https://github.com/phantom/phantom-connect-cursor-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766103Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766104Z",
+  "repo_url": {
+   "url": "https://github.com/phantom/phantom-connect-cursor-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://docs.phantom.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-10T16:16:29Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 759,
+  "comment_author": "Th3Ya0vi"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "phantom-connect-sdk"
+ }
+}

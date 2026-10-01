@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260226-ae4318",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lastsaas-admin",
+  "version": "1.0.0",
+  "description": "Server Information - Name: LastSaaS Admin - Description: Read-only admin MCP server for LastSaaS — an open-source SaaS platform foundation with multi-tenant auth, Stripe billing, white-label branding, API keys, webhooks, and a full admin interface. 26 tools for monitoring dashboards, users, tenants, financials, logs, health, and system configuration. - Repository: https://github.com/jonradoff/lastsaas - Homepage: https://metavert.io/lastsaas - Category: Admin / Monitoring / SaaS - Transport: st",
+  "author": "jonradoff",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://metavert.io/lastsaas",
+  "repo_url": "https://github.com/jonradoff/lastsaas",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767670Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767672Z",
+  "repo_url": {
+   "url": "https://github.com/jonradoff/lastsaas",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://metavert.io/lastsaas",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-26T21:39:31Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 582,
+  "comment_author": "jonradoff"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lastsaas-admin"
+ }
+}

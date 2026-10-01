@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260308-a37aaa",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "system-r-risk",
+  "version": "1.0.0",
+  "description": "MCP Server Submission - Name: System R Risk Intelligence - GitHub: https://github.com/System-R-AI/systemr-python - Description: Pre-trade risk validation and position sizing for AI trading agents. G-formula position sizing, Iron Fist risk rules, and System R Score evaluation. - Features: - G-formula optimal position sizing ($0.003/call) - Iron Fist pre-trade risk validation ($0.004/call) - System R Score from R-multiples ($0.10-$1.00/call) - Operation pricing lookup (free) - Install: `pip insta",
+  "author": "ashimnandi-trika",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agents.systemr.ai/mcp/sse",
+  "repo_url": "https://github.com/System-R-AI/systemr-python",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766354Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766356Z",
+  "repo_url": {
+   "url": "https://github.com/System-R-AI/systemr-python",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agents.systemr.ai/mcp/sse",
+   "ok": false,
+   "status": 410
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-08T14:05:25Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 730,
+  "comment_author": "ashimnandi-trika"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "system-r-risk"
+ }
+}

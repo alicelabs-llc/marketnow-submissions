@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260224-5b6fab",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "moltrust",
+  "version": "1.0.0",
+  "description": "Add moltrust-mcp-server — https://github.com/MoltyCel/moltrust-mcp-server",
+  "author": "MoltyCel",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx moltrust-mcp-server",
+  "homepage": "https://pypi.org/project/moltrust-mcp-server/",
+  "repo_url": "https://github.com/MoltyCel/moltrust-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767999Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.768000Z",
+  "repo_url": {
+   "url": "https://github.com/MoltyCel/moltrust-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/moltrust-mcp-server/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-24T19:57:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 551,
+  "comment_author": "MoltyCel"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "moltrust"
+ }
+}

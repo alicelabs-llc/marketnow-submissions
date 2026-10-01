@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260305-0bcfb7",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "frostbyte-mcp",
+  "version": "1.0.0",
+  "description": "Server Details - Name: Frostbyte MCP - URL: https://github.com/OzorOwn/frostbyte-mcp - Category: Developer Tools / API Aggregator - Type: MCP Server (stdio transport) Description Frostbyte MCP gives AI agents access to 40+ real-world APIs through a single MCP server: - IP Geolocation — locate any IP address - Crypto Prices — real-time prices for 500+ tokens - Screenshots — capture any URL as PNG - Web Scraping — extract content from web pages - DNS Lookup — query DNS records - Code Execution —",
+  "author": "Robocular",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/OzorOwn/frostbyte-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766626Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 38,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766627Z",
+  "repo_url": {
+   "url": "https://github.com/OzorOwn/frostbyte-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T13:43:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 687,
+  "comment_author": "Robocular"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "frostbyte-mcp"
+ }
+}

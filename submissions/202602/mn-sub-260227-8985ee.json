@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260227-8985ee",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "13-us-government-cybersecurity-mcp-servers",
+  "version": "1.0.0",
+  "description": "MCP Server Submissions I'd like to submit 13 production MCP servers that provide real-time access to US government data. All servers are live on Apify and use Streamable HTTP transport. GitHub Repository: https://github.com/martc03/gov-mcp-servers Servers Cybersecurity | Name | URL | Description | |------|-----|-------------| | cybersecurity-vuln-mcp | https://cybersecurity-vuln-mcp.apify.actor/mcp | CVE lookup via NIST NVD 2.0, CISA KEV alerts, EPSS exploitation probability, MITRE ATT&CK mappi",
+  "author": "martc03",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://cybersecurity-vuln-mcp.apify.actor/mcp",
+  "repo_url": "https://github.com/martc03/gov-mcp-servers",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767621Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767623Z",
+  "repo_url": {
+   "url": "https://github.com/martc03/gov-mcp-servers",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://cybersecurity-vuln-mcp.apify.actor/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T04:43:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 587,
+  "comment_author": "martc03"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "13-us-government-cybersecurity-mcp-servers"
+ }
+}

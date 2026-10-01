@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260307-e87e9d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "hashanchor-mcp",
+  "version": "1.0.0",
+  "description": "** Anchor and verify data on the blockchain from any AI agent. One command gives Claude (or any MCP client) the ability to create tamper-proof, timestamped records on Polygon.",
+  "author": "linyao0177",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y hashanchor-mcp",
+  "homepage": "https://www.npmjs.com/package/hashanchor-mcp",
+  "repo_url": "https://github.com/linyao0177/hashanchor-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766493Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766494Z",
+  "repo_url": {
+   "url": "https://github.com/linyao0177/hashanchor-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y hashanchor-mcp",
+   "registry": "npm",
+   "package": "hashanchor-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/hashanchor-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-07T12:45:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 712,
+  "comment_author": "linyao0177"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "hashanchor-mcp"
+ }
+}

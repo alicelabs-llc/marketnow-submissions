@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260310-5ec0d2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "moltalyzer",
+  "version": "1.0.0",
+  "description": "Server Name Moltalyzer MCP Server Description The only intelligence API that bundles token signals, prediction markets, GitHub trends, and narrative tracking in one call. 10 tools for AI agents. x402 micropayments on Base. npm Package `moltalyzer-mcp` — https://www.npmjs.com/package/moltalyzer-mcp Features / Tools - get_moltbook_digest — Latest hourly community sentiment digest ($0.005) - get_moltbook_history — Historical hourly digests ($0.02) - get_github_digest — Daily trending repos digest",
+  "author": "jcislo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/moltalyzer-mcp",
+  "repo_url": "https://github.com/jcislo/moltalyzer-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766083Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766085Z",
+  "repo_url": {
+   "url": "https://github.com/jcislo/moltalyzer-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/moltalyzer-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-10T18:00:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 760,
+  "comment_author": "jcislo"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "moltalyzer"
+ }
+}

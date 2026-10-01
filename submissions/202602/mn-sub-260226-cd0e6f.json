@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260226-cd0e6f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "gia-mcp-server-enterprise-ai-governance",
+  "version": "1.0.0",
+  "description": "Server Details - Name: GIA MCP Server (Governance Intelligence Architecture) - GitHub: https://github.com/knowledgepa3/gia-mcp-server - npm: https://www.npmjs.com/package/gia-mcp-server - Website: https://gia.aceadvising.com - Category: Security / Governance / Compliance Description Enterprise governance layer for Claude AI agents with 29 MCP tools: - MAI Decision Classification — Mandatory / Advisory / Informational framework - Forensic Audit Trail — Hash-chained, tamper-evident ledger - Human",
+  "author": "knowledgepa3",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y gia-mcp-server",
+  "homepage": "https://www.npmjs.com/package/gia-mcp-server",
+  "repo_url": "https://github.com/knowledgepa3/gia-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767761Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767763Z",
+  "repo_url": {
+   "url": "https://github.com/knowledgepa3/gia-mcp-server",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y gia-mcp-server",
+   "registry": "npm",
+   "package": "gia-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/gia-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-26T02:59:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 574,
+  "comment_author": "knowledgepa3"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "gia-mcp-server-enterprise-ai-governance"
+ }
+}

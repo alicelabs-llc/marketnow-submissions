@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260301-284797",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "api-bridge-lite-free-rest-api",
+  "version": "1.0.0",
+  "description": "MCP API Bridge Lite GitHub: https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite Description Free, minimal REST API wrapper as an MCP server. Let AI agents call any REST API with one tool. Supports Bearer token auth. Key Features - 1 MCP tool: `api_request` (GET/POST/PUT/DELETE) - Point at any base URL and go - Bearer token auth support - Clean JSON responses - Works with Claude Desktop, Cline, and any MCP client Connection Info - Transport: stdio - Command: `python server.py` - Env: `MCP",
+  "author": "tiranmoskovitch-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.example.com",
+  "repo_url": "https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767013Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767016Z",
+  "repo_url": {
+   "url": "https://github.com/tiranmoskovitch-dev/mcp-api-bridge-lite",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.example.com",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-01T23:53:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 639,
+  "comment_author": "tiranmoskovitch-dev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "api-bridge-lite-free-rest-api"
+ }
+}

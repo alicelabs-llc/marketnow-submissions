@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260309-2b9a68",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "contentrain-cms",
+  "version": "1.0.0",
+  "description": "Server Information - Name: @contentrain/mcp - GitHub: https://github.com/Contentrain/mcp - npm: https://www.npmjs.com/package/@contentrain/mcp - Type: MCP Server Description MCP server for [Contentrain](https://contentrain.io) CMS — model, content & asset management with automatic git branch synchronization. Provides 14 tools for AI agents to manage headless CMS content. Server Config ```json { \"mcpServers\": { \"contentrain\": { \"command\": \"npx\", \"args\": [\"-y\", \"@contentrain/mcp\"], \"env\": { \"CONT",
+  "author": "ABB65",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/Contentrain/mcp",
+  "repo_url": "https://github.com/Contentrain/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766251Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766252Z",
+  "repo_url": {
+   "url": "https://github.com/Contentrain/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/Contentrain/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-09T15:49:05Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 742,
+  "comment_author": "ABB65"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "contentrain-cms"
+ }
+}

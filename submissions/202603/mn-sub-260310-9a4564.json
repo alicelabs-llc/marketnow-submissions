@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260310-9a4564",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "radzen-blazor-mcp",
+  "version": "1.0.0",
+  "description": "Server Information - Name: Radzen Blazor MCP - URL: https://app.radzen.com/mcp - Transport: Streamable HTTP - Website: https://www.radzen.com/blazor-mcp - Registry: https://registry.modelcontextprotocol.io/?q=radzen Description AI coding assistant for Radzen Blazor — docs, APIs, code samples, and templates for 100+ components including DataGrid, Charts, Forms, Scheduler, and more. Semantic search over always-up-to-date documentation. Features - Single `search` tool with semantic doc search over",
+  "author": "akorchev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.radzen.com/mcp",
+  "repo_url": "https://github.com/radzenhq/radzen-blazor",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766145Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766151Z",
+  "repo_url": {
+   "url": "https://github.com/radzenhq/radzen-blazor",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.radzen.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-10T08:16:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 751,
+  "comment_author": "akorchev"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "radzen-blazor-mcp"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260303-4c020f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "metrx-ai-agent",
+  "version": "1.0.0",
+  "description": "Metrx MCP Server The cost intelligence layer for AI agents. Know what every agent costs, find waste, optimize models, and prove ROI — before your AI spend becomes a problem. Why Metrx? Most teams have no idea what their AI agents actually cost. Metrx gives agents self-awareness about their own economics: real-time cost tracking, automatic waste detection, model A/B testing, budget enforcement, and revenue attribution. Works with OpenAI, Anthropic, Google, Cohere, Mistral, and any OpenAI-compati",
+  "author": "ckpark123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://metrxbot.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766867Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766868Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://metrxbot.com/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-03T19:04:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 661,
+  "comment_author": "ckpark123"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "metrx-ai-agent"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260228-6e1b5f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "memorymesh-persistent-ai-memory",
+  "version": "1.0.0",
+  "description": "Server Information - Name: MemoryMesh - Description: Persistent, intelligent memory for any LLM application. Zero-dependency, local-first, cross-tool portable. The SQLite of AI Memory. - Repository: https://github.com/sparkvibe-io/memorymesh - PyPI: https://pypi.org/project/memorymesh/ - Category: Memory / Knowledge Management - Transport: stdio (JSON-RPC over stdin/stdout) Installation ```bash pip install memorymesh or uvx memorymesh-mcp ``` Tools Provided | Tool | Description | |------|------",
+  "author": "sparkvibe-io",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "uvx memorymesh-mcp",
+  "homepage": "https://pypi.org/project/memorymesh/",
+  "repo_url": "https://github.com/sparkvibe-io/memorymesh",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767315Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767316Z",
+  "repo_url": {
+   "url": "https://github.com/sparkvibe-io/memorymesh",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/memorymesh/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-28T03:41:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 610,
+  "comment_author": "sparkvibe-io"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "memorymesh-persistent-ai-memory"
+ }
+}

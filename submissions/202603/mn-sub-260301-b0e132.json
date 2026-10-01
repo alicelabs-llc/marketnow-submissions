@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260301-b0e132",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "eren-security-auditor",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Eren Security Auditor GitHub: https://github.com/eren-solutions/mcp-security-audit Category: Security Description AI-powered MCP server that performs code security audits on GitHub repositories using LLM-powered analysis. Returns structured findings with OWASP Top 10 and CWE references, risk scores, and actionable remediation guidance. Tools | Tool | Description | |------|-------------| | `security_scan` | Scan a GitHub repository for security vulnerabilities | | `au",
+  "author": "JarvisOnM4",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "http://your-host:8200/mcp",
+  "repo_url": "https://github.com/eren-solutions/mcp-security-audit",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767148Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767149Z",
+  "repo_url": {
+   "url": "https://github.com/eren-solutions/mcp-security-audit",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "http://your-host:8200/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-01T12:06:01Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 628,
+  "comment_author": "JarvisOnM4"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "eren-security-auditor"
+ }
+}

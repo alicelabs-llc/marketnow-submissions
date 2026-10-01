@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260301-30386e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hive-memory-cross",
+  "version": "1.0.0",
+  "description": "Server Info - Name: Hive Memory - GitHub: https://github.com/moonx010/hive-memory - npm: https://www.npmjs.com/package/hive-memory - Category: Knowledge & Memory Description MCP server that gives AI coding agents persistent memory across projects. Stores decisions, learnings, session progress, and project context in a local knowledge base — so agents can pick up where they left off, even across different workspaces. Features - 14 MCP tools: project management, memory store/recall, session save,",
+  "author": "moonx010",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/hive-memory",
+  "repo_url": "https://github.com/moonx010/hive-memory",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767096Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767098Z",
+  "repo_url": {
+   "url": "https://github.com/moonx010/hive-memory",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/hive-memory",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-01T15:18:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 631,
+  "comment_author": "moonx010"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hive-memory-cross"
+ }
+}

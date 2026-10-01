@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260228-604b46",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentwallet",
+  "version": "1.0.0",
+  "description": "AgentWallet MCP Server Name: AgentWallet Type: MCP Server (TypeScript) npm: [agentwallet-mcp](https://www.npmjs.com/package/agentwallet-mcp) GitHub: [hifriendbot/agentwallet-mcp](https://github.com/hifriendbot/agentwallet-mcp) Category: Finance / Blockchain Description Server-side wallet infrastructure for AI agents. Create wallets, sign transactions, and broadcast on-chain — on any EVM chain and Solana. Supports x402 payments (pay and accept). No KYC, no approval process, no transaction monito",
+  "author": "hifriendbot",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/agentwallet-mcp",
+  "repo_url": "https://github.com/hifriendbot/agentwallet-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767214Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767216Z",
+  "repo_url": {
+   "url": "https://github.com/hifriendbot/agentwallet-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/agentwallet-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-28T20:35:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 619,
+  "comment_author": "hifriendbot"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentwallet"
+ }
+}

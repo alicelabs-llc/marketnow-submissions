@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260303-2bd81a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "birdproxies-agent",
+  "version": "1.0.0",
+  "description": "Add BirdProxies Agent Skills Repository: https://github.com/luis2404123/birdproxies-skills Description BirdProxies Agent Skills is a collection of 44 production-ready AI agent skills for web scraping, proxy management, and automation. These skills enable AI agents to perform complex web operations including residential proxy rotation, anti-detection browsing, data extraction, and business intelligence gathering. Key Details - Number of skills: 44 - Categories: - Web Scraping & Data Extraction -",
+  "author": "luis2404123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/luis2404123/birdproxies-skills",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766849Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766850Z",
+  "repo_url": {
+   "url": "https://github.com/luis2404123/birdproxies-skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-03T20:17:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 662,
+  "comment_author": "luis2404123"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "birdproxies-agent"
+ }
+}

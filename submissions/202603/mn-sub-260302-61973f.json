@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260302-61973f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "doubletick-email-read-tracking",
+  "version": "1.0.0",
+  "description": "Server Name doubletick-cli GitHub Repository https://github.com/cseguinlz/doubletick-cli npm Package https://www.npmjs.com/package/doubletick-cli Description CLI and MCP server for email read tracking via Gmail. Send tracked emails and check if they were opened — with open count, device, and timing. Category Communication Tools | Tool | Description | |------|-------------| | `send_tracked_email` | Send an email with read tracking. Body accepts markdown (auto-converted to HTML) | | `check_tracki",
+  "author": "cseguinlz",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/doubletick-cli",
+  "repo_url": "https://github.com/cseguinlz/doubletick-cli",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.766966Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.766967Z",
+  "repo_url": {
+   "url": "https://github.com/cseguinlz/doubletick-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/doubletick-cli",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-02T12:21:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 645,
+  "comment_author": "cseguinlz"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "doubletick-email-read-tracking"
+ }
+}

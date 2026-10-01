@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260227-f616fa",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "polymarket",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: Polymarket MCP Server URL: https://github.com/joinQuantish/polymarket-mcp npm: @quantish/polymarket-server Type: MCP Server (TypeScript) Description Self-hosted MCP server for AI agent trading on Polymarket prediction markets. 42 tools covering market discovery, order placement, position management, wallet intelligence, copy trading, reward discovery, and cross-chain bridging. Polygon/Gnosis Safe integration with gasless transactions. Server Config ```json { \"mcpServ",
+  "author": "boshjerns",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/joinQuantish/polymarket-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767564Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767566Z",
+  "repo_url": {
+   "url": "https://github.com/joinQuantish/polymarket-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T13:39:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 593,
+  "comment_author": "boshjerns"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "polymarket"
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260227-02b66d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "polyfire",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: PolyFire URL: https://polyfire.co/agents MCP Endpoint: `https://api.polyfire.co/mcp` Transport: Streamable HTTP Auth: Bearer token (API key) Description PolyFire is an MCP server that gives AI agents full access to Polymarket — the largest prediction market. Agents can pull alpha signals, analyze smart money wallets, execute trades, and track their portfolio — all via 8 MCP tools over Streamable HTTP. Includes a 3-tier agent referral program: agents earn 15/10/5% of",
+  "author": "obviouslyiam",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.polyfire.co/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767522Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767523Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.polyfire.co/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-27T14:44:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 596,
+  "comment_author": "obviouslyiam"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "polyfire"
+ }
+}

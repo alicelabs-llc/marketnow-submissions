@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260225-d7e726",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "theme-picker",
+  "version": "1.0.0",
+  "description": "Server Info - Name: theme-picker - Repository: https://github.com/toddamerrill/theme-picker - Author: Todd Merrill Description MCP server for Claude Desktop that lets you browse WordPress.org themes visually and match them to shadcn/ui color specs for building modern web apps. Features - Visual theme picker with browser UI - Browse popular, new, and featured WordPress themes - Auto-extract colors from theme screenshots - Match to shadcn/ui color themes automatically - Generate spec files for th",
+  "author": "toddamerrill",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/toddamerrill/theme-picker",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767833Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767835Z",
+  "repo_url": {
+   "url": "https://github.com/toddamerrill/theme-picker",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-25T15:23:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 568,
+  "comment_author": "toddamerrill"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "theme-picker"
+ }
+}

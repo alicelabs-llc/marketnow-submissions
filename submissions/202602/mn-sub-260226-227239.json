@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260226-227239",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lightcms-ai-native",
+  "version": "1.0.0",
+  "description": "Server Information - Name: LightCMS - Repository: https://github.com/jonradoff/lightcms - Website: https://metavert.io - Language: Go - Transport: stdio - License: MIT - Author: Jon Radoff Description AI-native content management system with 41 MCP tools for managing websites through natural language. Built with Go and MongoDB Atlas. Create pages, manage assets, customize themes, handle redirects, search-and-replace across an entire site, version content, and more — all through Claude Code or o",
+  "author": "jonradoff",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://metavert.io",
+  "repo_url": "https://github.com/jonradoff/lightcms",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:08.767693Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:08.767695Z",
+  "repo_url": {
+   "url": "https://github.com/jonradoff/lightcms",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://metavert.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-26T21:29:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 581,
+  "comment_author": "jonradoff"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lightcms-ai-native"
+ }
+}
