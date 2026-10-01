@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260501-c94b57",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "joy-trust-network",
+  "version": "1.0.0",
+  "description": "# Joy Trust Network URL: https://joy-connect.fly.dev/mcp Transport: HTTP/SSE GitHub: https://github.com/tlkc888-Jenkins/Joy Website: https://joy-connect.fly.dev The independent trust network for AI agents. Platform-neutral trust infrastructure that works with any AI agent framework. Features - Trust Scores (JTS 0-5) - Multi-factor reputation scoring - Agent Discovery - Find agents by capability or search - Portable Identity Passports - JWT-based, verifiable offline - Reputation Staking - Stake J",
+  "author": "tlkc888-Jenkins",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://joy-connect.fly.dev/mcp",
+  "repo_url": "https://github.com/tlkc888-Jenkins/Joy",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:22.493334Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:22.493361Z",
+  "repo_url": {
+   "url": "https://github.com/tlkc888-Jenkins/Joy",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://joy-connect.fly.dev/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-01T01:49:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4357346024,
+  "comment_author": "tlkc888-Jenkins"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "joy-trust-network"
+ }
+}
