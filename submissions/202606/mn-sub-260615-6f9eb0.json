@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260615-6f9eb0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "world-cup-2026-mcp-server",
+  "version": "1.0.0",
+  "description": "World Cup 2026 Tour MCP Server - Repository: https://github.com/abaiii168/world-cup-2026-mcp-server - Official MCP Registry name: `io.github.abaiii168/world-cup-2026` - Public app / docs: https://ay-worldcup2026.zeabur.app/developers - Description: Free MCP server for World Cup 2026 fixtures, local kickoff times, calendar links, and dataset metadata. - Transport/package: stdio via `ghcr.io/abaiii168/world-cup-2026-mcp-server:0.1.1` Safety note: this MCP server intentionally excludes live scores,",
+  "author": "abaiii168",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ay-worldcup2026.zeabur.app/developers",
+  "repo_url": "https://github.com/abaiii168/world-cup-2026-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:38.436571Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:38.436598Z",
+  "repo_url": {
+   "url": "https://github.com/abaiii168/world-cup-2026-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://ay-worldcup2026.zeabur.app/developers",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-15T10:47:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4707105627,
+  "comment_author": "abaiii168"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "world-cup-2026-mcp-server"
+ }
+}
