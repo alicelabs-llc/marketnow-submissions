@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260531-8c93b8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vsos-guard",
+  "version": "1.0.0",
+  "description": "VSOS Guard — Zero-dependency AI agent safety guard (pip install vsos-guard) - What it does: Runtime input validation for AI agents — intercepts and blocks prompt injection, jailbreak attempts, and malicious instructions before they reach the LLM - Key differentiator: Pure rule engine, zero external dependencies, zero API calls, sub-5ms latency. No LLM-in-the-loop for safety checks. - Install: `pip install vsos-guard` - GitHub: https://github.com/woshilaohei/vsos-guard - PyPI: https://pypi.org/pr",
+  "author": "woshilaohei",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/vsos-guard/",
+  "repo_url": "https://github.com/woshilaohei/vsos-guard",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:09.429306Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:09.429336Z",
+  "repo_url": {
+   "url": "https://github.com/woshilaohei/vsos-guard",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/vsos-guard/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-31T03:58:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4585646908,
+  "comment_author": "woshilaohei"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vsos-guard"
+ }
+}
