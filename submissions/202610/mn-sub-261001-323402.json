@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-323402",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fidelis-memory",
+  "version": "1.0.0",
+  "description": "My MCP Server Name: Fidelis Memory Description: Zero-LLM local-first agent memory (BM25 + dense vector + reciprocal rank fusion retrieval). Returns original stored passages verbatim by default — no LLM in the default retrieval path. Benchmarked on LongMemEval-S (73.0% end-to-end QA). Link: https://github.com/hermes-labs-ai/fidelis Category: Memory / RAG Stack: Python, ChromaDB, SQLite Package: PyPI `fidelis-memory` — also listed on the official MCP Registry (`io.github.hermes-labs-ai/fidelis-mem",
+  "author": "roli-lpci",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/hermes-labs-ai/fidelis",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:13.846766Z",
+  "duration_ms": 505,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:13.846789Z",
+  "repo_url": {
+   "url": "https://github.com/hermes-labs-ai/fidelis",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:13.846792Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fidelis-memory"
+ }
+}
