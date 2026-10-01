@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-ec6886",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "soundcheck",
+  "version": "1.0.0",
+  "description": "Soundcheck — hosted MCP (live event staffing) Please list Soundcheck on https://mcp.so - Name: Soundcheck - Description: Staff live events: gigs, crew, setlists, call lists, ingest. Hosted MCP with OAuth. - GitHub: https://github.com/soundchecklive/soundcheck-plugin - Homepage: https://soundchecklive.io - Docs: https://docs.soundchecklive.io/integrations/mcp-server - Privacy: https://soundchecklive.io/privacy - Member MCP (OAuth / Streamable HTTP): https://mcp.soundchecklive.io/mcp - Public MCP ",
+  "author": "steventt07",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.soundchecklive.io/mcp",
+  "repo_url": "https://github.com/soundchecklive/soundcheck-plugin",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:32.654225Z",
+  "duration_ms": 1443,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:32.654250Z",
+  "repo_url": {
+   "url": "https://github.com/soundchecklive/soundcheck-plugin",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.soundchecklive.io/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:32.654253Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "soundcheck"
+ }
+}
