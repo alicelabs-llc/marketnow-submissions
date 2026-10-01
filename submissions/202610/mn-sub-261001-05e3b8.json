@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-05e3b8",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "api",
+  "version": "1.0.0",
+  "description": "Engagemii MCP server (remote, HTTP) - Name: Engagemii - URL: https://api.engagemii.com/api/mcp - Transport: remote / HTTP (JSON-RPC, protocol 2025-03-26), no key needed for the free tools - What it does: AI visibility scores and brand profiles for 60M+ companies (`aeo_score`, `brand_profile`, `dataset_sample`), plus a live feed of which brands ChatGPT is recommending right now (`citation_watch`) and which AI crawlers are reading the web (`ai_readstream`). - Docs: https://engagemii.com/live/embed",
+  "author": "engagemii",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.engagemii.com/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:28:50.930641Z",
+  "duration_ms": 916,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:28:50.930670Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.engagemii.com/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:28:50.930673Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "api"
+ }
+}
