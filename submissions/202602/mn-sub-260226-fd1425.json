@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260226-fd1425",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "powersun-tron-energy-bandwidth-mcp-server",
+  "version": "1.0.0",
+  "description": "PowerSun — TRON Energy & Bandwidth MCP Server Repository: https://github.com/Hovsteder/powersun-tron-mcp Remote MCP Endpoint: `https://powersun.vip/mcp` (Streamable HTTP — no installation required) Website: https://powersun.vip/agents TRON Energy & Bandwidth marketplace for AI agents. 16 MCP tools for buying and selling TRON network resources via MCP, REST API, or HTTP 402/x402. Key highlights: - 16 tools: market data, energy purchasing, seller pool management - 3 payment methods: API key + TRX,",
+  "author": "Hovsteder",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://powersun.vip/mcp",
+  "repo_url": "https://github.com/Hovsteder/powersun-tron-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:18.129879Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:18.129901Z",
+  "repo_url": {
+   "url": "https://github.com/Hovsteder/powersun-tron-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://powersun.vip/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-26T17:35:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3968131642,
+  "comment_author": "Hovsteder"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "powersun-tron-energy-bandwidth-mcp-server"
+ }
+}
