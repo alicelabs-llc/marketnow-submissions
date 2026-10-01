@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260818-823d2f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "atl-autonomous-verifier",
+  "version": "1.0.0",
+  "description": "# ATL Autonomous Verifier & AI Agent Micro-Utility Suite Zero-install, read-only Model Context Protocol (MCP) server providing deterministic LLM schema sanitization, token-optimized HTML cleaning, and EVM contract proxy inspection. - MCP Streamable HTTP: `https://asked-games-methodology-graduates.trycloudflare.com/mcp?ref=acq_mcpso_001` - Authentication: None (Free, zero-install, read-only informational) - Repository: https://github.com/Arafel187/atl-token-evidence-verifier - Smithery Listing: h",
+  "author": "Arafel187",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://asked-games-methodology-graduates.trycloudflare.com/mcp?ref=acq_mcpso_001",
+  "repo_url": "https://github.com/Arafel187/atl-token-evidence-verifier",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:12:38.960842Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:12:38.960868Z",
+  "repo_url": {
+   "url": "https://github.com/Arafel187/atl-token-evidence-verifier",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://asked-games-methodology-graduates.trycloudflare.com/mcp?ref=acq_mcpso_001",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-18T16:03:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5330820265,
+  "comment_author": "Arafel187"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "atl-autonomous-verifier"
+ }
+}
