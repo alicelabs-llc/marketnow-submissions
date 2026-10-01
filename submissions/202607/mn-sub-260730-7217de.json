@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260730-7217de",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "doc-bridge-deterministic",
+  "version": "1.0.0",
+  "description": "[Submit] Doc Bridge — deterministic repository handoffs for coding agents Doc Bridge Doc Bridge is an open-source MCP server that turns repository documentation into deterministic instructions a coding agent can follow before it edits code. Instead of asking an agent to infer ownership and project conventions, `handoff.resolve` returns the relevant starting documents, allowed edit roots, required checks, and human handoff points. The same contract works from MCP, the `ak-docs` CLI, and CI witho",
+  "author": "EmersonBraun",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://doc-bridge.agentskit.io/",
+  "repo_url": "https://github.com/AgentsKit-io/doc-bridge",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799642Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799643Z",
+  "repo_url": {
+   "url": "https://github.com/AgentsKit-io/doc-bridge",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://doc-bridge.agentskit.io/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-30T22:43:03Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3370,
+  "comment_author": "EmersonBraun"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "doc-bridge-deterministic"
+ }
+}

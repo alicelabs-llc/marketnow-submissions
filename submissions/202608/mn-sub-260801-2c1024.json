@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260801-2c1024",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "perlerbeadai-mcp",
+  "version": "1.0.0",
+  "description": "Server Info Name: PerlerBeadAI MCP Server URL: https://perlerbeadai.com/wp-json/pba/v1/mcp GitHub: https://github.com/luotwo/perlerbeadai-mcp Transport: Streamable HTTP (JSON-RPC 2.0) Auth: Bearer token (free account at perlerbeadai.com) Description Fuse bead pattern tools for AI clients — convert images to bead patterns, generate AI pattern art, look up bead color charts, match colors across brands using CIEDE2000, and estimate bead costs. Tools 1. pba_convert — Convert an image (URL or base64",
+  "author": "luotwo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://perlerbeadai.com/wp-json/pba/v1/mcp",
+  "repo_url": "https://github.com/luotwo/perlerbeadai-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799440Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799442Z",
+  "repo_url": {
+   "url": "https://github.com/luotwo/perlerbeadai-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://perlerbeadai.com/wp-json/pba/v1/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-01T04:20:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3389,
+  "comment_author": "luotwo"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "perlerbeadai-mcp"
+ }
+}

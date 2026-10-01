@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260802-b41ae7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "llmintel-model-lifecycle",
+  "version": "1.0.0",
+  "description": "** Tells a coding agent whether an LLM model id is still safe to use — deprecated, retiring, or retired — and what the provider says to migrate to. Normalized across OpenAI, Anthropic, Azure AI Foundry, AWS Bedrock, Google, and Cohere, parsed from each provider's own deprecation pages. No API key, no signup.",
+  "author": "hivemindunit",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @llmintel/mcp",
+  "homepage": "https://llmintel.ai/v1/mcp",
+  "repo_url": "https://github.com/hivemindunit/llmintel-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799307Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799309Z",
+  "repo_url": {
+   "url": "https://github.com/hivemindunit/llmintel-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @llmintel/mcp",
+   "registry": "npm",
+   "package": "@llmintel/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://llmintel.ai/v1/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-02T19:00:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3411,
+  "comment_author": "hivemindunit"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "llmintel-model-lifecycle"
+ }
+}

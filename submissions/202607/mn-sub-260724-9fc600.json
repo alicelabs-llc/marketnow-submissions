@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260724-9fc600",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "skills-loader",
+  "version": "1.0.0",
+  "description": "The knowledge layer your AI is missing. Skills Loader indexes community skills from curated open-source repositories, security-reviews every one (multi-model consensus panel — flagged skills never enter the catalog), and recommends the right 3-5 for whatever your agent is working on. Deterministic, no LLM calls in the recommendation path, typically under 50ms.",
+  "author": "rudedoggg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://skills.agentsandswarms.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800471Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800473Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://skills.agentsandswarms.ai/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-24T05:14:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3293,
+  "comment_author": "rudedoggg"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "skills-loader"
+ }
+}

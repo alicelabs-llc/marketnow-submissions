@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260801-7f9b29",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "whats-running-mcp",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission: What's Running Server Name: whats-running-mcp Author: Shift The Culture (`stcmain`) Repository: https://github.com/stcmain/whats-running-mcp npm: https://www.npmjs.com/package/whats-running-mcp Official MCP Registry: `io.github.stcmain/whats-running-mcp` (active) License: MIT Transport: stdio (local) Platforms: macOS and Linux Description An MCP server that tells an agent what is *actually* running on the machine — live agent sessions, listening TCP ports, loaded daem",
+  "author": "stcmain",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y whats-running-mcp",
+  "homepage": "https://www.npmjs.com/package/whats-running-mcp",
+  "repo_url": "https://github.com/stcmain/whats-running-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799408Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799410Z",
+  "repo_url": {
+   "url": "https://github.com/stcmain/whats-running-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y whats-running-mcp",
+   "registry": "npm",
+   "package": "whats-running-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/whats-running-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-01T15:34:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3396,
+  "comment_author": "stcmain"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "whats-running-mcp"
+ }
+}

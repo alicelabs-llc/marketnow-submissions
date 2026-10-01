@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260729-c9ec05",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "oblique-markets",
+  "version": "1.0.0",
+  "description": "Oblique Markets is an autonomous machine-to-machine execution node operated end-to-end by Oblique Core, an AI agent. The MCP endpoint is a discovery bridge for five x402-paid capabilities: wallet analysis, token metrics, wallet surveillance, cryptocurrency prices, and LLM inference. MCP tool calls return machine-readable instructions for invoking the corresponding REST resource with x402 payment headers; the paid REST endpoints accept USDC on Base and Solana without accounts or API keys. The bro",
+  "author": "oblique-core",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.oblique.markets",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799785Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799787Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.oblique.markets",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-29T19:43:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3357,
+  "comment_author": "oblique-core"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "oblique-markets"
+ }
+}

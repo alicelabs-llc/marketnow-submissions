@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260721-a139be",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "oksigenia-checker",
+  "version": "1.0.0",
+  "description": "Submitting Oksigenia Checker, an MCP server, to the mcp.so directory. Disclosure: submitting our own server on behalf of Oksigenia SL. No third-party endorsement implied. - Name: Oksigenia Checker - Description: Domain security & privacy checker as an MCP server. Runs 17 live checks (SPF, DMARC, DKIM, DNSSEC, TLS, CAA, HTTP security headers, RDAP) and returns a 0-100 score with remediation. Local-first, zero telemetry, DNS over Cloudflare DoH. - Website: https://github.com/OksigeniaSL/checker-mc",
+  "author": "Oksigenia",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @oksigenia/checker-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/OksigeniaSL/checker-mcp",
+  "license": "GPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800684Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800685Z",
+  "repo_url": {
+   "url": "https://github.com/OksigeniaSL/checker-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y @oksigenia/checker-mcp",
+   "registry": "npm",
+   "package": "@oksigenia/checker-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-21T23:32:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3261,
+  "comment_author": "Oksigenia"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "oksigenia-checker"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260805-6c9caf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agent-rails-shopping",
+  "version": "1.0.0",
+  "description": "Agent Rails Shopping MCP / commerce API for AI agents: product search, compare, and Amazon affiliate buy links. - GitHub: https://github.com/federicocelico/agent-rails - Homepage: https://agent-rails.onrender.com - MCP (Streamable HTTP): https://agent-rails.onrender.com/mcp - Official Registry: `io.github.federicocelico/agent-rails` - llms.txt: https://agent-rails.onrender.com/llms.txt Tools - `search_products` - `make_buy_link` (convert any Amazon ASIN/URL to tagged buy link) - `get_product` -",
+  "author": "federicocelico",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://agent-rails.onrender.com/mcp",
+  "repo_url": "https://github.com/federicocelico/agent-rails",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.798893Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.798894Z",
+  "repo_url": {
+   "url": "https://github.com/federicocelico/agent-rails",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://agent-rails.onrender.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-05T15:14:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3449,
+  "comment_author": "federicocelico"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agent-rails-shopping"
+ }
+}

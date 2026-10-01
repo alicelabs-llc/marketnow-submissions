@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260730-26975b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tokenscope-wartzar-bee-tokenscope-mcp",
+  "version": "1.0.0",
+  "description": "Please add Tokenscope to mcp.so — it's absent (404 at https://mcp.so/server/tokenscope) today. | Field | Value | |---|---| | Name | Tokenscope | | GitHub | https://github.com/wartzar-bee/tokenscope | | npm | `@wartzar-bee/tokenscope-mcp` (v0.2.3) | | Install | `npx @wartzar-bee/tokenscope-mcp` (stdio) | | Description | Analyze Claude Code session cost & context attribution: output, cached re-reads, cache writes. | | Tools | `analyze_claude_cost`, `get_cost_benchmark`, `tokenscope_share_summary`",
+  "author": "wartzar-bee",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/wartzar-bee/tokenscope",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799691Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799693Z",
+  "repo_url": {
+   "url": "https://github.com/wartzar-bee/tokenscope",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-30T17:44:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3367,
+  "comment_author": "wartzar-bee"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tokenscope-wartzar-bee-tokenscope-mcp"
+ }
+}

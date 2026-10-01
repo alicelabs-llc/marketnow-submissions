@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260724-c58f38",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "ais-memory-persistent",
+  "version": "1.0.0",
+  "description": "Give your AI agent memory that survives every session. AIS stores what your agent learns — facts, lessons, decisions, context — and serves it back via semantic search in any future session. Agents get a portable W3C DID identity that travels across tools: what Claude learns, Cursor remembers.",
+  "author": "rudedoggg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://ais.agentsandswarms.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800489Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800492Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://ais.agentsandswarms.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-24T05:14:45Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3292,
+  "comment_author": "rudedoggg"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "ais-memory-persistent"
+ }
+}

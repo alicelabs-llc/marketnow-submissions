@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260724-0fd911",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentic-memory",
+  "version": "1.0.0",
+  "description": "Persistent memory for AI agents — ordered conversation history, key-value context, and semantic search across sessions, plus FIFO queues for agent-to-agent work handoff. Redis on the hot path (sub-ms reads) with durable storage behind it, and per-tenant isolation so a whole fleet of agents can share one memory space. 17 MCP tools (store, recall, search, bootstrap, context, entries, spaces, queues). Unlike most memory servers it's hosted with a remote SSE endpoint — zero local install, works from",
+  "author": "jyswee",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y agmry",
+  "homepage": "https://mcp.agenticmemory.ai/sse",
+  "repo_url": "https://github.com/jyswee/agenticmemory",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800438Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800440Z",
+  "repo_url": {
+   "url": "https://github.com/jyswee/agenticmemory",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y agmry",
+   "registry": "npm",
+   "package": "agmry",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.agenticmemory.ai/sse",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-24T23:28:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3295,
+  "comment_author": "jyswee"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentic-memory"
+ }
+}

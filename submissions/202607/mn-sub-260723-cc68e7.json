@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260723-cc68e7",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "depix-app-gateway",
+  "version": "1.0.0",
+  "description": "** A non-custodial Pix payment gateway on the Liquid Network. An AI agent can create checkouts and products, read transaction status, and manage support tickets — 22 tools over MCP. Non-custodial by design: the server holds no funds and no keys and never signs a transaction. Already published on the official MCP Registry and listed on Glama.",
+  "author": "dadafros",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y @depixapp/mcp",
+  "homepage": "https://mcp.depixapp.com/mcp",
+  "repo_url": "https://github.com/depixapp/depix-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800544Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800545Z",
+  "repo_url": {
+   "url": "https://github.com/depixapp/depix-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y @depixapp/mcp",
+   "registry": "npm",
+   "package": "@depixapp/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://mcp.depixapp.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-23T12:14:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3285,
+  "comment_author": "dadafros"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "depix-app-gateway"
+ }
+}

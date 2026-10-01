@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260728-490524",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tavily-hub-tavily-credit-mcp",
+  "version": "1.0.0",
+  "description": "Server name Tavily Hub One-line description Self-hosted aggregation gateway pooling N Tavily keys behind one MCP endpoint, with invite-driven pool growth and credit-based rate recovery. Server type Remote (Streamable HTTP + SSE) Endpoint - Streamable HTTP (default): `https://tavily.sharyuke.com/api/mcp` - SSE (legacy): `https://tavily.sharyuke.com/api/mcp/sse` Auth `Authorization: Bearer thb-<hub-key>` header Repository https://github.com/sharyuke/tavily-hub Homepage https://tavily.sharyuke.com",
+  "author": "sharyuke",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tavily.sharyuke.com/api/mcp",
+  "repo_url": "https://github.com/sharyuke/tavily-hub",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800072Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800075Z",
+  "repo_url": {
+   "url": "https://github.com/sharyuke/tavily-hub",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://tavily.sharyuke.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-28T06:40:11Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3327,
+  "comment_author": "sharyuke"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tavily-hub-tavily-credit-mcp"
+ }
+}

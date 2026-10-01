@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260730-3612d2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "verifieddr-website",
+  "version": "1.0.0",
+  "description": "** Website authority and AI visibility tools for agents. VerifiedDR exposes 61 tools for Domain Rating, TrueDR, backlink trust, AI visibility, keyword research, growth plans, Search Console, marketplace workflows, publisher earnings, and partnership outreach.",
+  "author": "thijssmudde",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://verifieddr.com",
+  "repo_url": "https://github.com/VerifiedDR/verifieddr-cli",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799738Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799740Z",
+  "repo_url": {
+   "url": "https://github.com/VerifiedDR/verifieddr-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://verifieddr.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-30T10:45:17Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3363,
+  "comment_author": "thijssmudde"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "verifieddr-website"
+ }
+}

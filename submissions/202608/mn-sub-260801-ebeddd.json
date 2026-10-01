@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260801-ebeddd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "a1-yandex-kit",
+  "version": "1.0.0",
+  "description": "Server name A1 Yandex KIT MCP Description MCP-сервер для управления магазином на Яндекс KIT через API из Claude, Cursor, Codex и других AI-клиентов. Покрывает каталог, цены и остатки, заказы, скидки, промокоды, подарки и вебхуки. Сервер работает локально через stdio. Токен Яндекс KIT остаётся в конфигурации пользователя; отдельный удалённый сервис не используется. Repository and distribution - Repository: https://github.com/ztemerbekov/a1-yandex-kit-skills - npm: https://www.npmjs.com/package/m",
+  "author": "ztemerbekov",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/mcp-yandex-kit",
+  "repo_url": "https://github.com/ztemerbekov/a1-yandex-kit-skills",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799425Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799426Z",
+  "repo_url": {
+   "url": "https://github.com/ztemerbekov/a1-yandex-kit-skills",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mcp-yandex-kit",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-01T13:52:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3395,
+  "comment_author": "ztemerbekov"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "a1-yandex-kit"
+ }
+}

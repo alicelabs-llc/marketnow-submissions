@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260727-0a7548",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fulcru-ai-search",
+  "version": "1.0.0",
+  "description": "Please list Fulcru on mcp.so (remote server). - Name: Fulcru - Endpoint URL: `https://little-orca-977.convex.site/mcp` - Transport: Remote Streamable HTTP (stateless JSON-RPC POST) - Authentication: Bearer token from the Integrations page at https://fulcru.app. `initialize` and `tools/list` are public; auth is required only on `tools/call`. - Website: https://fulcru.app - Repository: https://github.com/gsmmediaro/fulcru-agent (AGPL-3.0) - Server card: https://www.fulcru.app/.well-known/mcp/serve",
+  "author": "gsmmediaro",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://little-orca-977.convex.site/mcp",
+  "repo_url": "https://github.com/gsmmediaro/fulcru-agent",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800246Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800248Z",
+  "repo_url": {
+   "url": "https://github.com/gsmmediaro/fulcru-agent",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://little-orca-977.convex.site/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-27T05:48:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3318,
+  "comment_author": "gsmmediaro"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fulcru-ai-search"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260725-b1dce6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tendfeed-bid-no",
+  "version": "1.0.0",
+  "description": "Please list TendFeed on mcp.so. - Name: TendFeed - Server / endpoint URL: https://tendfeed.eu/api/mcp/tendfeed (Streamable HTTP) - Transport: Remote Streamable HTTP, stateless — zero setup, no key needed for guest use - GitHub: https://github.com/tendfeed-eu/tendfeed-mcp - Description: Bid/no-bid intelligence for EU public tenders, built on 592,000 real TED contract awards: observed competition density, price corridor, SME fit and beachhead ranking for every open tender. Free guest access on the",
+  "author": "analysthaus",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://tendfeed.eu",
+  "repo_url": "https://github.com/tendfeed-eu/tendfeed-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800376Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800377Z",
+  "repo_url": {
+   "url": "https://github.com/tendfeed-eu/tendfeed-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://tendfeed.eu",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-25T12:58:08Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3300,
+  "comment_author": "analysthaus"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tendfeed-bid-no"
+ }
+}

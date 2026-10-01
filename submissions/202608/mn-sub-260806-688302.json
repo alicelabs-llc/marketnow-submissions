@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260806-688302",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "autonomous-intelligence",
+  "version": "1.0.0",
+  "description": "** Non-custodial, rug-gated crypto swaps + token safety + discovery for AI agents. 7 tools: get_quote, check_token_safety (honeypot / mint & freeze authority / LP lock / holder concentration), find_gems, get_token_info, list_tradeable_tokens, build_swap*, submit_swap*. build_swap returns an UNSIGNED transaction the agent signs locally with the user's own wallet — keys never leave the environment. Discovery tools need no key; a free self-serve key (https://autonomousintelligence.io/keys) is only ",
+  "author": "mmahdiahamed92-png",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y autonomousintelligence-mcp",
+  "homepage": "https://raw.githubusercontent.com/mmahdiahamed92-png/autonomous-intelligence-mcp/main/logo.png",
+  "repo_url": "https://github.com/mmahdiahamed92-png/autonomous-intelligence-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.798783Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.798785Z",
+  "repo_url": {
+   "url": "https://github.com/mmahdiahamed92-png/autonomous-intelligence-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y autonomousintelligence-mcp",
+   "registry": "npm",
+   "package": "autonomousintelligence-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://raw.githubusercontent.com/mmahdiahamed92-png/autonomous-intelligence-mcp/main/logo.png",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-06T18:28:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3459,
+  "comment_author": "mmahdiahamed92-png"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "autonomous-intelligence"
+ }
+}

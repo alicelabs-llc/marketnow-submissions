@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260806-2b4bee",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "unrealmcp",
+  "version": "1.0.0",
+  "description": "** Drive a running Unreal Engine 5 editor from any MCP client. Blueprint graphs, materials, Niagara systems, actors, data tables and Insights profiling — 288 commands across 15 categories. Because the bridge reads editor state back (compile a material, list the resulting errors, inspect a Niagara stack), the assistant can verify and correct its own work instead of guessing.",
+  "author": "aadeshrao123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://codefizz.dev",
+  "repo_url": "https://github.com/aadeshrao123/Unreal-MCP",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.798816Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.798817Z",
+  "repo_url": {
+   "url": "https://github.com/aadeshrao123/Unreal-MCP",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://codefizz.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-06T06:20:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3457,
+  "comment_author": "aadeshrao123"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "unrealmcp"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260729-7d2b39",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "getagentictools",
+  "version": "1.0.0",
+  "description": "** Search 41,000+ agentic coding tools — agent skills (SKILL.md), MCP servers, Claude Code plugins, and agentic loops — with real install counts and GitHub stars, refreshed weekly. Free remote server: no auth, no tracking, deterministic (no LLM between the agent and the data).",
+  "author": "dmoka",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://getagentictools.com/mcp-server",
+  "repo_url": "https://github.com/dmoka/getagentictools-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799888Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799890Z",
+  "repo_url": {
+   "url": "https://github.com/dmoka/getagentictools-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://getagentictools.com/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-29T07:47:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3346,
+  "comment_author": "dmoka"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "getagentictools"
+ }
+}

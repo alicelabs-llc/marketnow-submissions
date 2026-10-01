@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260805-9c8406",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "project-parva",
+  "version": "1.0.0",
+  "description": "** Read-only Nepali temporal tools for AI agents. Project Parva converts BS and AD dates, checks holidays and working days, returns fiscal periods, resolves supported festival dates, summarizes Panchanga data, and checks temporal claims while preserving source, confidence, uncertainty, and human-review fields.",
+  "author": "dantwoashim",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/dantwoashim/Project_Parva",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.798957Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.798958Z",
+  "repo_url": {
+   "url": "https://github.com/dantwoashim/Project_Parva",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-05T12:53:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3442,
+  "comment_author": "dantwoashim"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "project-parva"
+ }
+}

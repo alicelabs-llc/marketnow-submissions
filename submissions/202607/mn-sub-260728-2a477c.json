@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260728-2a477c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "webintel",
+  "version": "1.0.0",
+  "description": "WebIntel MCP Server Repository: https://github.com/1036007003-wq/webintel-mcp Category: Web Scraping / Search / Data Extraction Description Web Intelligence MCP Server with 8 powerful tools for AI agents to interact with the web. Built with FastMCP. Free Tools (6) 1. scrape_page - Clean content extraction 2. web_search - DuckDuckGo search, no API key 3. extract_metadata - SEO/OG/Twitter Card 4. extract_links - Categorized link extraction 5. extract_structured - JSON-LD/tables/CSS selectors 6. e",
+  "author": "1036007003-wq",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/1036007003-wq/webintel-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800042Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800044Z",
+  "repo_url": {
+   "url": "https://github.com/1036007003-wq/webintel-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-28T11:13:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3330,
+  "comment_author": "1036007003-wq"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "webintel"
+ }
+}

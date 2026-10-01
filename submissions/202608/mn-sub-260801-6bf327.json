@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260801-6bf327",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "saor-mcp-your-ai-remembers-now",
+  "version": "1.0.0",
+  "description": "Server Information - Name: saor-mcp - Display Name: saor.io — Your AI remembers now - Author: Jeff Jack - Repository: https://github.com/ubajxn/saor-mcp - npm: https://www.npmjs.com/package/saor-mcp - Homepage: https://saor.io - License: MIT Description Your AI remembers now. saor.io gives every AI agent a persistent brain — identity, voice, memories, constraints — that compounds across sessions. Memories auto-link by tags across all projects into a knowledge graph. One line to connect any AI t",
+  "author": "ubajxn",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/saor-mcp",
+  "repo_url": "https://github.com/ubajxn/saor-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799373Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799376Z",
+  "repo_url": {
+   "url": "https://github.com/ubajxn/saor-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/saor-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-01T19:38:20Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3400,
+  "comment_author": "ubajxn"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "saor-mcp-your-ai-remembers-now"
+ }
+}

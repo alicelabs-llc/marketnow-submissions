@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260803-00b448",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ableton-auto-mix-mcp",
+  "version": "1.0.0",
+  "description": "** MCP server that lets an AI agent (opencode, Claude Code, Claude Desktop) auto-mix and auto-master Ableton Live tracks across 11 genre style profiles. Offline analysis + mastered preview renders, release checks vs top-label targets.",
+  "author": "HighVoltSound",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/ableton-auto-mix-mcp/",
+  "repo_url": "https://github.com/HighVoltSound/ableton-auto-mix-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799240Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799242Z",
+  "repo_url": {
+   "url": "https://github.com/HighVoltSound/ableton-auto-mix-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/ableton-auto-mix-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-03T11:25:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3415,
+  "comment_author": "HighVoltSound"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ableton-auto-mix-mcp"
+ }
+}

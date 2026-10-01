@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260725-75d179",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vk-vkontakte",
+  "version": "1.0.0",
+  "description": "** VK is the largest social network in Russian-speaking countries, and it is not represented in the directory. 19 tools: read and search walls, users, communities, members and reactions; read community statistics; publish, edit, delete and comment on posts; upload photos as post attachments.",
+  "author": "bulatko",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/vk-mcp-server",
+  "repo_url": "https://github.com/bulatko/vk-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800343Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800344Z",
+  "repo_url": {
+   "url": "https://github.com/bulatko/vk-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/vk-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-25T18:36:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3303,
+  "comment_author": "bulatko"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vk-vkontakte"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260731-df5ec0",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "accessibility-check-nexaaly-a11y",
+  "version": "1.0.0",
+  "description": "** Audit a web page against WCAG in a real browser. Runs axe-core, then adds the checks axe cannot make from the accessibility tree alone. The main one is controls that are styled and wired as buttons but are not focusable, so a mouse user can click them and a keyboard user cannot reach them at all. In the accessibility tree those are just divs with text, which is why rule engines do not flag them. Returns the specific code change for each finding rather than a rule id.",
+  "author": "AccessNexaaly",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://nexaaly.com/mcp",
+  "repo_url": "https://github.com/AccessNexaaly/nexaaly-a11y",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799492Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799494Z",
+  "repo_url": {
+   "url": "https://github.com/AccessNexaaly/nexaaly-a11y",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://nexaaly.com/mcp",
+   "ok": false,
+   "status": 410
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-31T14:44:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3383,
+  "comment_author": "AccessNexaaly"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "accessibility-check-nexaaly-a11y"
+ }
+}

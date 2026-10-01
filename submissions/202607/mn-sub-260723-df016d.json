@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260723-df016d",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "meltema-weather",
+  "version": "1.0.0",
+  "description": "Please list Meltema Weather on mcp.so. - Name: Meltema Weather - Server / endpoint URL: https://meltema.com/mcp - Transport: Streamable HTTP (remote, stateless) - Auth: none (public; 60 req/min per IP) - Website: https://meltema.com - Docs: https://meltema.com/llms.txt (and https://meltema.com/docs for the REST contract) - Tools (5): list_sources, list_runs, point_forecast, compare_models, describe_grid — typed results with outputSchema - Description: Multi-source weather forecasts as agent tool",
+  "author": "anticode-dev",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://meltema.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800507Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800509Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://meltema.com/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-23T19:30:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3289,
+  "comment_author": "anticode-dev"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "meltema-weather"
+ }
+}

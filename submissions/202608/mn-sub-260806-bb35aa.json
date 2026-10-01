@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260806-bb35aa",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "svtr-aidb-ai-venture-database",
+  "version": "1.0.0",
+  "description": "** SVTR (svtr.ai) is a curated & traceable AI venture database. This MCP server exposes its public tier: profiles of 5,800+ AI companies and 5,600+ investors, 7,500+ human-verified funding rounds (each with source links), founder/investor profiles, sector funding landscapes, and 400+ original research articles. Bilingual (English/Chinese) and covers both the US and China AI ecosystems — the only free venture-data MCP with cross-border China+US AI coverage.",
+  "author": "capmapt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://svtr.ai/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.798854Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.798856Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://svtr.ai/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-06T00:27:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3454,
+  "comment_author": "capmapt"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "svtr-aidb-ai-venture-database"
+ }
+}

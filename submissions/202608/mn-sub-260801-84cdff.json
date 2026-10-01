@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260801-84cdff",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "whats-loaded-mcp",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission: whats-loaded-mcp Server Name: whats-loaded-mcp Author: Shift The Culture (`stcmain`) Repository: https://github.com/stcmain/whats-loaded-mcp npm: https://www.npmjs.com/package/whats-loaded-mcp Official MCP Registry: `io.github.stcmain/whats-loaded-mcp` (active) License: MIT Transport: stdio (local) Platforms: macOS, Windows, Linux Description Measures what is loaded into your agent's context *before* you type anything: always-loaded skill descriptions ranked by token",
+  "author": "stcmain",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y whats-loaded-mcp",
+  "homepage": "https://www.npmjs.com/package/whats-loaded-mcp",
+  "repo_url": "https://github.com/stcmain/whats-loaded-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799391Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799393Z",
+  "repo_url": {
+   "url": "https://github.com/stcmain/whats-loaded-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y whats-loaded-mcp",
+   "registry": "npm",
+   "package": "whats-loaded-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/whats-loaded-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-01T18:30:47Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3398,
+  "comment_author": "stcmain"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "whats-loaded-mcp"
+ }
+}

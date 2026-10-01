@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260729-d76efb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "emem",
+  "version": "1.0.0",
+  "description": "** Shared, verifiable Earth memory for AI agents — content-addressed, ed25519-signed facts for any place on Earth. 104 MCP tools covering elevation, air quality, NDVI, surface water, weather, soil, flood extent, deforestation, and more. No API key required for reads.",
+  "author": "kumari-jaya",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://emem.dev",
+  "repo_url": "https://github.com/Vortx-AI/emem",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799870Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799871Z",
+  "repo_url": {
+   "url": "https://github.com/Vortx-AI/emem",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://emem.dev",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-29T10:40:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3347,
+  "comment_author": "kumari-jaya"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "emem"
+ }
+}

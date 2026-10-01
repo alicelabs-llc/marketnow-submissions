@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260724-ffe38a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "polystrike",
+  "version": "1.0.0",
+  "description": "** Live Elon Musk & Ted Cruz tweet feed and real-time tweet counters for Polymarket's tweet-count markets. The free tier serves recent tweets (text, referenced tweets, reply/quote/retweet flags) classified against the actual settlement rules, plus three counters side by side — the real count (X polled every ~60s), the XTracker oracle count, the UI count — and the deltas between them.",
+  "author": "dizpers",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://polystrike.xyz/mcp/sse",
+  "repo_url": "https://github.com/dizpers/polystrike-examples",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.800456Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.800458Z",
+  "repo_url": {
+   "url": "https://github.com/dizpers/polystrike-examples",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://polystrike.xyz/mcp/sse",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-24T18:25:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3294,
+  "comment_author": "dizpers"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "polystrike"
+ }
+}

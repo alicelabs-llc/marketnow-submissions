@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260731-528d23",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bomly",
+  "version": "1.0.0",
+  "description": "** Give your coding agent the dependency graph it is about to change. Scan a source tree, SBOM, Git ref, or container image; explain why a package is present; diff two graphs; check findings against policy.",
+  "author": "bomly-guy",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y bomly-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/bomly-dev/bomly-cli",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799539Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 49,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799540Z",
+  "repo_url": {
+   "url": "https://github.com/bomly-dev/bomly-cli",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y bomly-mcp",
+   "registry": "npm",
+   "package": "bomly-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-31T08:22:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3380,
+  "comment_author": "bomly-guy"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bomly"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260803-3e95ea",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vet-contact-data",
+  "version": "1.0.0",
+  "description": "remote MCP server for contact-data verification: email, phone, domain. Deterministic checks (DNS + numbering plans + curated datasets). No LLM in the request path.",
+  "author": "dev55acc-ai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://laptop-8rpn8799-1.tail806ba2.ts.net/vet/mcp",
+  "repo_url": "https://github.com/dev55acc-ai/vet-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799153Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799155Z",
+  "repo_url": {
+   "url": "https://github.com/dev55acc-ai/vet-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://laptop-8rpn8799-1.tail806ba2.ts.net/vet/mcp",
+   "ok": false,
+   "status": 502
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-03T22:30:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3421,
+  "comment_author": "dev55acc-ai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vet-contact-data"
+ }
+}

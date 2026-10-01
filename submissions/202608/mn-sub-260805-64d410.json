@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260805-64d410",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "yapitalism-voice",
+  "version": "1.0.0",
+  "description": "Server Name Yapitalism Description Local MCP server for driving terminal coding agents (Codex, Claude Code, Kimi) by voice, with a receipt for every send that says what was actually proven — GREEN only when the agent demonstrably processed the text, YELLOW when delivery landed but processing was not proven, RED when the write was refused. GitHub https://github.com/AytuncYildizli/yapitalism Homepage https://yapitalism.com Official Registry `io.github.AytuncYildizli/yapitalism` Package PyPI: `yap",
+  "author": "AytuncYildizli",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://yapitalism.com",
+  "repo_url": "https://github.com/AytuncYildizli/yapitalism",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.798877Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.798879Z",
+  "repo_url": {
+   "url": "https://github.com/AytuncYildizli/yapitalism",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://yapitalism.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-05T19:15:22Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3450,
+  "comment_author": "AytuncYildizli"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "yapitalism-voice"
+ }
+}

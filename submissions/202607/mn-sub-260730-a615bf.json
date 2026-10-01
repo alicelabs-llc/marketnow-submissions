@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260730-a615bf",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "afterlaunch",
+  "version": "1.0.0",
+  "description": "** growth marketing, SEO and GEO as agent tools. 41 tools: AI answer visibility across ChatGPT, Gemini, Perplexity and Google AI Overviews; a ranked backlog of growth moves; drafted deliverables; ship actions.",
+  "author": "shreyasnivas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://afterlaunch.io/api/mcp",
+  "repo_url": "https://github.com/afterlaunch/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799676Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799678Z",
+  "repo_url": {
+   "url": "https://github.com/afterlaunch/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://afterlaunch.io/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-30T19:25:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3368,
+  "comment_author": "shreyasnivas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "afterlaunch"
+ }
+}

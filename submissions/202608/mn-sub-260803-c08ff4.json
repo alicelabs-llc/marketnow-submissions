@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260803-c08ff4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-xxl-job",
+  "version": "1.0.0",
+  "description": "name: mcp-xxl-job github: https://github.com/shaguocgl/mcp-xxl-job author: shaguocgl category: Developer Tools, DevOps, Scheduling transport: stdio language: TypeScript / Node.js short_description: A Model Context Protocol server for XXL-JOB open-source distributed task scheduler. Enables AI clients (Cursor, Claude Desktop) to fully manage XXL-JOB tasks via natural language: query, create, edit, start/stop, trigger jobs & view execution logs. full_description: | This MCP server connects AI assis",
+  "author": "shaguocgl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://registry.npmjs.org",
+  "repo_url": "https://github.com/shaguocgl/mcp-xxl-job",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799257Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799259Z",
+  "repo_url": {
+   "url": "https://github.com/shaguocgl/mcp-xxl-job",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://registry.npmjs.org",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-08-03T10:02:40Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3414,
+  "comment_author": "shaguocgl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-xxl-job"
+ }
+}

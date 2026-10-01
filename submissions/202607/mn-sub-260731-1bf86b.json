@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260731-1bf86b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "namewhisper",
+  "version": "1.0.0",
+  "description": "** ENS intelligence for AI agents — 44 tools covering natural-language search across 3.5M+ indexed ENS names, comparable-sales valuations, live market data (sales, listings, offers), wallet portfolios, and unsigned-transaction building for registration, renewal, records, and Seaport marketplace actions (list, buy, offer, sweep). No API key required. AGPL-3.0.",
+  "author": "eggybug42069",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://namewhisper.ai",
+  "repo_url": "https://github.com/eggybug42069/namewhisper-mcp",
+  "license": "AGPL-3.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:35:55.799523Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:35:55.799525Z",
+  "repo_url": {
+   "url": "https://github.com/eggybug42069/namewhisper-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://namewhisper.ai",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-31T08:58:52Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 3381,
+  "comment_author": "eggybug42069"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "namewhisper"
+ }
+}
