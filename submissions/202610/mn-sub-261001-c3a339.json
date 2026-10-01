@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-c3a339",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "synapselayersynapse-layer-httpsgithubcomsynapselayersynapse-",
+  "version": "1.0.0",
+  "description": "# SynapseLayer/synapse-layer — https://github.com/SynapseLayer/synapse-layer Persistent, encrypted long-term memory layer for autonomous AI agents and LLM workflows. Enables multi-session continuity, cross-agent memory sharing, and semantic recall with client-side AES-256-GCM encryption. - Repository: https://github.com/SynapseLayer/synapse-layer - Documentation: https://forge.synapselayer.com - Core Features: 13 MCP tools for persistent memory storage, semantic vector retrieval (pgvector), auto",
+  "author": "SynapseLayer",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://forge.synapselayer.com",
+  "repo_url": "https://github.com/SynapseLayer/synapse-layer",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:13.116Z",
+  "duration_ms": 626,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:13.116Z",
+  "repo_url": {
+   "url": "https://github.com/SynapseLayer/synapse-layer",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://forge.synapselayer.com",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:217a7483d6ba",
+ "submitted_at": "2026-10-01T04:09:13.116Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "synapselayersynapse-layer-httpsgithubcomsynapselayersynapse"
+ }
+}
