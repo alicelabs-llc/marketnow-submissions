@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260612-fb95b7",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dakera-deploy",
+  "version": "1.0.0",
+  "description": "Dakera — self-hosted AI agent memory server with native MCP interface. Gives AI agents persistent, session-aware memory with vector search, hybrid retrieval (BM25 + HNSW), knowledge graphs, and decay-weighted importance. Built for multi-agent systems where agents need to share and recall context across sessions. - GitHub: https://github.com/dakera-ai/dakera-deploy - MCP server: https://github.com/dakera-ai/dakera-cli (includes `dakera-mcp` binary) - Docs: https://dakera.ai/docs Single Docker con",
+  "author": "ferhimedamine",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://dakera.ai/docs",
+  "repo_url": "https://github.com/dakera-ai/dakera-deploy",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:19.816488Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:19.816509Z",
+  "repo_url": {
+   "url": "https://github.com/dakera-ai/dakera-deploy",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://dakera.ai/docs",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-12T06:35:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4688116988,
+  "comment_author": "ferhimedamine"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dakera-deploy"
+ }
+}
