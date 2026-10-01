@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260321-7dae1b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "instadomain",
+  "version": "1.0.0",
+  "description": "# InstaDomain URL: https://instadomain.fly.dev/mcp/ Smithery: https://smithery.ai/servers/nach-dakwale/instadomain MCP server that lets AI agents register domains instantly. Check availability and pricing, buy via Stripe or USDC crypto (x402 protocol), manage DNS, renewals, and transfers. Supports bulk checks and smart domain suggestions. 9 tools: check_domain, check_domains_bulk, suggest_domains, buy_domain, buy_domain_crypto, get_domain_status, get_transfer_code, unlock_domain, renew_domain Tr",
+  "author": "nach-dakwale",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://instadomain.fly.dev/mcp/",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:20.797811Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:20.797841Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://instadomain.fly.dev/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-21T03:44:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4102125446,
+  "comment_author": "nach-dakwale"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "instadomain"
+ }
+}
