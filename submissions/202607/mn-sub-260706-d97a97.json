@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260706-d97a97",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "revenue-dojo-x402",
+  "version": "1.0.0",
+  "description": "Revenue Dojo — x402 paid MCP gateway for agent-payment receipts and market data GitHub: https://github.com/AmitabhainArunachala/revenue-swarm-x402 Live URL: https://x402.167-172-95-184.nip.io Discovery manifest: https://x402.167-172-95-184.nip.io/.well-known/x402 OpenAPI: https://x402.167-172-95-184.nip.io/openapi.json MCP-style tools: `GET /mcp/tools`, `POST /mcp/call` What it does: A live x402 seller/gateway for wallet-equipped AI agents. Agents can discover tools, receive standard HTTP `402 P",
+  "author": "AmitabhainArunachala",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://x402.167-172-95-184.nip.io",
+  "repo_url": "https://github.com/AmitabhainArunachala/revenue-swarm-x402",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:04.436867Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:04.436894Z",
+  "repo_url": {
+   "url": "https://github.com/AmitabhainArunachala/revenue-swarm-x402",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://x402.167-172-95-184.nip.io",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-06T04:08:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4888984622,
+  "comment_author": "AmitabhainArunachala"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "revenue-dojo-x402"
+ }
+}
