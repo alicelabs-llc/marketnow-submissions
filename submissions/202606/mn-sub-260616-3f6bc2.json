@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260616-3f6bc2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "connection",
+  "version": "1.0.0",
+  "description": "Atlarium Habitat Database MCP Structured aquarium, marine, terrarium and paludarium data for AI agents. Atlarium MCP is a public read-only MCP server that gives AI agents structured access to data for aquariums, marine tanks, coldwater systems, terrariums, paludariums and vivariums. It includes animals, plants, products, care requirements, environmental parameters, compatibility information, guides and habitat planning tools. # Connection Transport: Streamable HTTP Endpoint: https://mcp.atlarium",
+  "author": "techgardeners",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.atlarium.bio/mcp",
+  "repo_url": "https://github.com/techgardeners/atlarium-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:09:47.691672Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:09:47.691698Z",
+  "repo_url": {
+   "url": "https://github.com/techgardeners/atlarium-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.atlarium.bio/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-16T19:06:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4722425013,
+  "comment_author": "techgardeners"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "connection"
+ }
+}
