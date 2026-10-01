@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:07:02.619Z",
+ "updated_at": "2026-10-01T04:07:06.670Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3719,6 +3719,18 @@
    "from": "ip:73012dfb0542",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-60d9ca.json"
+  },
+  {
+   "id": "mn-sub-261001-7e15ae",
+   "name": "lbrain-local-first-memory-for-ai-agents-source-date-bindabst",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:07:05.756Z",
+   "from": "ip:b52a1bd5fbeb",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-7e15ae.json"
   }
  ],
  "l2_pass": {
