@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260628-6f42bb",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "x402-endpoints",
+  "version": "1.0.0",
+  "description": "x402-endpoints — 28 paid x402 data tools for AI agents (USDC on Base, no signup) - Remote MCP server (Streamable HTTP): https://x402-endpoints.onrender.com/mcp/ - Repo: https://github.com/digitalweb33333-creator/x402-endpoints - Official MCP registry: io.github.digitalweb33333-creator/x402-endpoints (status: active) Each tool wraps an authoritative source and is payable per-call via x402 (USDC on Base mainnet, CDP facilitator): official EU/global registries — GLEIF LEI, EU VIES VAT, BODACC, EUR-",
+  "author": "digitalweb33333-creator",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://x402-endpoints.onrender.com/mcp/",
+  "repo_url": "https://github.com/digitalweb33333-creator/x402-endpoints",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:41.668316Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:41.668342Z",
+  "repo_url": {
+   "url": "https://github.com/digitalweb33333-creator/x402-endpoints",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://x402-endpoints.onrender.com/mcp/",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-28T07:46:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4825288175,
+  "comment_author": "digitalweb33333-creator"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "x402-endpoints"
+ }
+}
