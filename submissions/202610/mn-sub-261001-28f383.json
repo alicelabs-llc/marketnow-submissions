@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-28f383",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clearsigned-mcp",
+  "version": "1.0.0",
+  "description": "Clearsigned MCP server — calibrated claim verification for AI agents: SUPPORTED / REFUTED / UNVERIFIABLE with a measured confidence and an Ed25519-signed receipt verified offline, paid per call over x402 ($0.05 USDC on Base). https://github.com/diawest82/clearsigned-mcp",
+  "author": "diawest82",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/diawest82/clearsigned-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:01.972364Z",
+  "duration_ms": 458,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:01.972391Z",
+  "repo_url": {
+   "url": "https://github.com/diawest82/clearsigned-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:01.972394Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clearsigned-mcp"
+ }
+}
