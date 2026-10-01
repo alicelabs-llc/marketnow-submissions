@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260603-07a94c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "adwhispr-meta-competitor-ad-research-cloning",
+  "version": "1.0.0",
+  "description": "AdWhispr — Meta competitor-ad research & cloning Description: Chat with any brand's Meta (Facebook/Instagram) ads inside Claude — research a competitor's ad library, surface their longest-running winners, extract hooks/formats, and clone winning ads for your own brand. - Connection (streamable-http): `https://adwhispr.com/api/mcp` (OAuth 2.0) - Homepage: https://adwhispr.com - Repo: https://github.com/adwhispr/mcp-server - npm: `npx adwhispr-mcp-server config` - Tools: 7 (search_brands, get_bran",
+  "author": "basilnas",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://adwhispr.com/api/mcp",
+  "repo_url": "https://github.com/adwhispr/mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:20.674540Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:20.674564Z",
+  "repo_url": {
+   "url": "https://github.com/adwhispr/mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://adwhispr.com/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-03T03:12:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4608756101,
+  "comment_author": "basilnas"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "adwhispr-meta-competitor-ad-research-cloning"
+ }
+}
