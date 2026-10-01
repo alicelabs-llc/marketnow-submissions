@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260214-445741",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "markupr",
+  "version": "1.0.0",
+  "description": "Server Name: markupr GitHub: https://github.com/eddiesanjuan/markupr npm: markupr (run via `npx markupr-mcp`) Description: Screen capture and voice recording MCP server for AI coding agents. Capture screenshots with voice narration, analyze video, and generate structured Markdown feedback documents for code review. Tools: capture_screenshot, capture_with_voice, analyze_video, analyze_screenshot, start_recording, stop_recording Category: Developer Tools",
+  "author": "eddiesanjuan",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/eddiesanjuan/markupr",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:42.880441Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:42.880462Z",
+  "repo_url": {
+   "url": "https://github.com/eddiesanjuan/markupr",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-14T20:51:51Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3902502841,
+  "comment_author": "eddiesanjuan"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "markupr"
+ }
+}
