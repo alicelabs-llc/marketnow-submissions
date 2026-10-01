@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-d100c2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "grabbit",
+  "version": "1.0.0",
+  "description": "Submit: Grabbit (hosted screenshot MCP) Name: Grabbit One-liner: Hosted screenshot MCP for AI agents — POST a URL, get a pixel-perfect image. No local Chromium. Description: Grabbit is a hosted screenshot MCP for Claude Code, Cursor, and Claude Desktop. Agents call grab / get_grab / list_grabs (plus get_usage, get_pricing) over Streamable HTTP at mcp.grabbit.live. OAuth and API key auth. Disambiguation: Screenshot product at grabbit.live / https://mcp.grabbit.live — NOT grabbit.sh (Reddit leads)",
+  "author": "acossta",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.grabbit.live",
+  "repo_url": "https://github.com/BrainGridAI/grabbit-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:09.745387Z",
+  "duration_ms": 1147,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:09.745414Z",
+  "repo_url": {
+   "url": "https://github.com/BrainGridAI/grabbit-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.grabbit.live",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:09.745417Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "grabbit"
+ }
+}
