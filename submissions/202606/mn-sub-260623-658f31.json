@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260623-658f31",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "agentry-observability-agentry-sh",
+  "version": "1.0.0",
+  "description": "# Agentry Observability (agentry.sh) GitHub: https://github.com/fr33dr4g0n/agentry-public NPM: https://www.npmjs.com/package/@agentrysh/mcp Official MCP Registry: `io.github.fr33dr4g0n/agentry-observability` Website: https://agentry.sh Skill: https://agentry.sh/skill/agentry/SKILL.md Agentry gives AI coding agents product analytics, error logging, and deploy attribution through one HTTP API, so agents can answer what users did, what broke, and what changed from real production data. This MCP ser",
+  "author": "fr33dr4g0n",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@agentrysh/mcp",
+  "repo_url": "https://github.com/fr33dr4g0n/agentry-public",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:22.437082Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:22.437108Z",
+  "repo_url": {
+   "url": "https://github.com/fr33dr4g0n/agentry-public",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@agentrysh/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-23T12:32:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4779212148,
+  "comment_author": "fr33dr4g0n"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "agentry-observability-agentry-sh"
+ }
+}
