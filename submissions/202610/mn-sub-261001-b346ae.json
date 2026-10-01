@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-b346ae",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "china-context-mcp",
+  "version": "1.0.0",
+  "description": "china-context-mcp — https://github.com/mouseart2025/china-context-mcp Credential-free China data for AI agents: annual aggregation of statutory holidays, 调休 make-up workdays and 3x/2x pay days (), single-day holiday lookups (), historical events for any date (), classical Chinese poetry (), and offline ISO 7064 MOD 11-2 ID-card checksum parsing (). Python + stdio, MIT, no API keys. Listed in the official MCP Registry as .",
+  "author": "mouseart2025",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/mouseart2025/china-context-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:28:52.921671Z",
+  "duration_ms": 496,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:28:52.921695Z",
+  "repo_url": {
+   "url": "https://github.com/mouseart2025/china-context-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:28:52.921698Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "china-context-mcp"
+ }
+}
