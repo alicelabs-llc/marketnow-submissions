@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-250508-17b751",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "file-convert-mcp",
+  "version": "1.0.0",
+  "description": "https://github.com/convertguru/file-convert-mcp File Convert MCP",
+  "author": "convertguru",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/convertguru/file-convert-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:07.589514Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:07.589539Z",
+  "repo_url": {
+   "url": "https://github.com/convertguru/file-convert-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-05-08T11:27:36Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 2862710160,
+  "comment_author": "convertguru"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "file-convert-mcp"
+ }
+}
