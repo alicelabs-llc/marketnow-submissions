@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-251208-02df0f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "contextstream-mcp-server",
+  "version": "1.0.0",
+  "description": "# ContextStream MCP Server npm: [@contextstream/mcp-server](https://www.npmjs.com/package/@contextstream/mcp-server) Website: https://contextstream.io Docs: https://contextstream.io/docs/mcp Description Your AI's permanent brain — across every tool, every conversation, everywhere you go. Persistent memory that works with Cursor, Claude Code, Windsurf, and any MCP client. Never re-explain your codebase again. Key Features - Persistent Memory — Decisions preserved forever - Semantic Code Search — ",
+  "author": "escott-",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://contextstream.io/docs/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:15.632911Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:15.632935Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://contextstream.io/docs/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-12-08T21:53:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3629156665,
+  "comment_author": "escott-"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "contextstream-mcp-server"
+ }
+}
