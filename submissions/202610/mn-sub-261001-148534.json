@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-148534",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "dropthehassle",
+  "version": "1.0.0",
+  "description": "Server Name: DropTheHassle Description: Lets your AI publish a built static site to a free HTTPS link or your own domain, check domain availability and prices, and attach a domain to a site. No tool spends money: purchases return a payment link for the human. GitHub URL: https://github.com/bosmdavid-gif/dropthehassle-mcp Homepage: https://dropthehassle.com Transport: Streamable HTTP (remote: https://dropthehassle.com/mcp) and stdio (`npx -y dropthehassle-mcp`) Registry: io.github.bosmdavid-gif/d",
+  "author": "bosmdavid-gif",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y dropthehassle-mcp",
+  "homepage": "https://dropthehassle.com/mcp",
+  "repo_url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:23.724695Z",
+  "duration_ms": 1321,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 48,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:23.724722Z",
+  "repo_url": {
+   "url": "https://github.com/bosmdavid-gif/dropthehassle-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y dropthehassle-mcp",
+   "registry": "npm",
+   "package": "dropthehassle-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://dropthehassle.com/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:23.724729Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "dropthehassle"
+ }
+}
