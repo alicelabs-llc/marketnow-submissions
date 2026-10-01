@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260703-ef3459",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "final-pos-mcp",
+  "version": "1.0.0",
+  "description": "Final Flows — Build point-of-sale, kiosk, self-checkout & in-person payment apps on the Final platform from any AI agent. - Remote MCP server (Streamable HTTP): `https://build.finalpos.com/api/mcp` - Auth: OAuth 2.1 (authorization code + PKCE, dynamic client registration) or org API key - GitHub: https://github.com/Final-Commerce/final-pos-mcp - Official registry: `com.finalpos.build/final-flows` (https://registry.modelcontextprotocol.io/v0/servers?search=finalpos) - Website: https://finalpos.co",
+  "author": "thebeijinger",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://build.finalpos.com/api/mcp",
+  "repo_url": "https://github.com/Final-Commerce/final-pos-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:54.343391Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:54.343416Z",
+  "repo_url": {
+   "url": "https://github.com/Final-Commerce/final-pos-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://build.finalpos.com/api/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-03T14:27:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4877241976,
+  "comment_author": "thebeijinger"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "final-pos-mcp"
+ }
+}
