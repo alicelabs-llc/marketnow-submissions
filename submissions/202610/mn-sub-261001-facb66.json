@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-facb66",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "chorus-host",
+  "version": "1.0.0",
+  "description": "Name: chorus.host Type: Remote MCP server (Streamable HTTP), hosted Endpoint: https://chorus.host/mcp (no auth required; optional `Authorization: Bearer chk_...` to publish to an account) Repository: https://github.com/chorus-host/skill (MIT) Website: https://chorus.host Docs: https://chorus.host/docs Official MCP Registry: `host.chorus/mcp` Description: Publish HTML, static sites and files to `<slug>.chorus.host`, and deploy Cloudflare Workers backends to `<slug>.worker.chorus.host`, from any a",
+  "author": "ansh",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://chorus.host/mcp",
+  "repo_url": "https://github.com/chorus-host/skill",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:29:51.489056Z",
+  "duration_ms": 981,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:29:51.489080Z",
+  "repo_url": {
+   "url": "https://github.com/chorus-host/skill",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://chorus.host/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:29:51.489083Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "chorus-host"
+ }
+}
