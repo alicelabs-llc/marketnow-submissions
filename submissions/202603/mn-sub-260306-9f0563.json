@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260306-9f0563",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fatihai-tools-mcp-server",
+  "version": "1.0.0",
+  "description": "# FatihAI Tools MCP Server Repository: https://github.com/fatihdagustu20-hub/fatihai-mcp-server Remote URL: `https://fatihai.app/mcp` (Streamable HTTP) 13 tools in 3 categories: Email Verification - `verify_email` — Verify single email (syntax, MX, SMTP, disposable detection) - `verify_emails_bulk` — Batch verify up to 10 emails - `check_email_domain` — Check domain MX records Domain Intelligence - `whois_lookup` — WHOIS registrar, dates, nameservers - `dns_lookup` — A, MX, NS, TXT, AAAA records",
+  "author": "fatihdagustu20-hub",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://fatihai.app/mcp",
+  "repo_url": "https://github.com/fatihdagustu20-hub/fatihai-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:49.029727Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:49.029753Z",
+  "repo_url": {
+   "url": "https://github.com/fatihdagustu20-hub/fatihai-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://fatihai.app/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-06T21:03:21Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4014147916,
+  "comment_author": "fatihdagustu20-hub"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fatihai-tools-mcp-server"
+ }
+}
