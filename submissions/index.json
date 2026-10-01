@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:07:38.939Z",
+ "updated_at": "2026-10-01T04:07:52.580Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3767,6 +3767,18 @@
    "from": "ip:e0fe80bab20a",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-c8d094.json"
+  },
+  {
+   "id": "mn-sub-261001-1ab822",
+   "name": "patlas-ai-assisted-patent-prior-art-search-over-real-uspto-a",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+   "trust": 39,
+   "submitted_at": "2026-10-01T04:07:51.804Z",
+   "from": "ip:73012dfb0542",
+   "eligible": false,
+   "path": "submissions/202610/mn-sub-261001-1ab822.json"
   }
  ],
  "l2_pass": {
