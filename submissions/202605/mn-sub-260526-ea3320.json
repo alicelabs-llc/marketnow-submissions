@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260526-ea3320",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "risk-awareness-week",
+  "version": "1.0.0",
+  "description": "Risk Awareness Week (RAW2026) — risk management & AI conference Endpoint: https://mcp.riskawarenessweek.com Transport: Streamable HTTP (MCP 2025-03-26) Auth: none (read-only public) Repo: https://github.com/riskacademy/RAW-website Website: https://www.riskawarenessweek.com Event: 12-16 October 2026, fully virtual Read-only MCP server for Risk Awareness Week (RAW), the world's largest virtual conference on decision-centric risk management, quantitative risk analysis, and AI-applied risk methods. ",
+  "author": "TerekhinAndrei",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.riskawarenessweek.com",
+  "repo_url": "https://github.com/riskacademy/RAW-website",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:49.799322Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:49.799347Z",
+  "repo_url": {
+   "url": "https://github.com/riskacademy/RAW-website",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.riskawarenessweek.com",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-26T13:27:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4544454676,
+  "comment_author": "TerekhinAndrei"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "risk-awareness-week"
+ }
+}
