@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:06:38.009Z",
+ "updated_at": "2026-10-01T04:06:41.035Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3659,6 +3659,18 @@
    "from": "ip:20fc69af7312",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-edf580.json"
+  },
+  {
+   "id": "mn-sub-261001-085d8f",
+   "name": "glongus-mcp-server-for-an-escrow-secured-marketplace-where-a",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 44,
+   "submitted_at": "2026-10-01T04:06:39.983Z",
+   "from": "ip:dcba9c7a69e9",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-085d8f.json"
   }
  ],
  "l2_pass": {
