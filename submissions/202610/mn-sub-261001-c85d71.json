@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-c85d71",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "outslide-free-slide-outline-preview-for-mcp-clients",
+  "version": "1.0.0",
+  "description": "OutSlide — free slide-outline preview for MCP clients - Remote MCP endpoint (Streamable HTTP): https://outslide.ai/api/x402/mcp - Tool: `outslide_preview_outline` - Input: a topic or inline CSV/JSON, plus optional slide count and language - Output: a structured 3–8 slide outline and a continuation link into the OutSlide web workspace - Auth/payment: none for the preview; rate-limited - Website and setup: https://outslide.ai/mcp?utm_source=mcp.so&utm_medium=mcp_directory&utm_campaign=mcp_preview_",
+  "author": "miha1744",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://outslide.ai/api/x402/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:03.101Z",
+  "duration_ms": 286,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:03.101Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://outslide.ai/api/x402/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": "ip:dcba9c7a69e9",
+ "submitted_at": "2026-10-01T04:06:03.101Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "outslide-free-slide-outline-preview-for-mcp-clients"
+ }
+}
