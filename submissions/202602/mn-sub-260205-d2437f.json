@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260205-d2437f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vibe-slashvibe-mcp",
+  "version": "1.0.0",
+  "description": "# /vibe (slashvibe-mcp) The social layer for AI-assisted coding. Repository: https://github.com/VibeCodingInc/vibe-mcp npm: https://www.npmjs.com/package/slashvibe-mcp Docs: https://slashvibe.dev Features - Real-time presence (see who's online and what they're building) - Direct messaging between developers - Context sharing and handoffs - Session management and journaling - Builder discovery - First MCP server with live presence widget (MCP Apps) Install ```bash npx slashvibe-mcp install ``` Wo",
+  "author": "brightseth",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/slashvibe-mcp",
+  "repo_url": "https://github.com/VibeCodingInc/vibe-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:28.757854Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:28.757880Z",
+  "repo_url": {
+   "url": "https://github.com/VibeCodingInc/vibe-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/slashvibe-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-05T18:14:44Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3855366030,
+  "comment_author": "brightseth"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vibe-slashvibe-mcp"
+ }
+}
