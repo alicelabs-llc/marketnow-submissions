@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260527-d28f6f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "logicnodes-mcp-server",
+  "version": "1.0.0",
+  "description": "# LogicNodes MCP Server GitHub: https://github.com/cmdenney/logicnodes Homepage: https://logicnodes.io MCP JSON: https://logicnodes.io/.well-known/mcp.json Contact: contact@htsnavigator.com LogicNodes provides 2,316 deterministic blockchain utility workers for AI agents — gas estimation, USDC balances, ETH prices, signature verification. Pay-per-call via HTTP 402 on Base. No subscriptions required. Tags: blockchain, defi, base, ethereum, gas, usdc, mcp, x402, ai-agent",
+  "author": "cmdenney",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://logicnodes.io",
+  "repo_url": "https://github.com/cmdenney/logicnodes",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:53.542923Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:53.542950Z",
+  "repo_url": {
+   "url": "https://github.com/cmdenney/logicnodes",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://logicnodes.io",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-27T18:40:59Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4557561827,
+  "comment_author": "cmdenney"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "logicnodes-mcp-server"
+ }
+}
