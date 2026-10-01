@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-251231-2abbc8",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-factorialhr",
+  "version": "1.0.0",
+  "description": "# MCP FactorialHR Repository: https://github.com/t4dhg/mcp-factorial npm: `@t4dhg/mcp-factorial` Language: TypeScript Description The definitive MCP server for FactorialHR - a comprehensive HR management platform. Provides 85+ tools for managing employees, teams, time off, attendance, projects, training, recruiting (ATS), and payroll. Features - Full CRUD operations for all major HR entities - Safety guardrails for high-risk operations (terminate, delete) - MCP Resources (org chart, directories,",
+  "author": "t4dhg",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/t4dhg/mcp-factorial",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:17.098402Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:17.098424Z",
+  "repo_url": {
+   "url": "https://github.com/t4dhg/mcp-factorial",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-12-31T01:19:56Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3701031643,
+  "comment_author": "t4dhg"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-factorialhr"
+ }
+}
