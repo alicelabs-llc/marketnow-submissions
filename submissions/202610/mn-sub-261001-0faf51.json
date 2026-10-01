@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-0faf51",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "hermes-commerce-control-hcc",
+  "version": "1.0.0",
+  "description": "# Hermes Commerce Control (HCC) Repository: https://github.com/EchoEe247/hermes-commerce-control Hermes Commerce Control is a local-first Node.js 24 CLI and stdio MCP server for agent-commerce discovery, ranking, evidence capture, and preparation-only workflows. - Apache-2.0 licensed - local stdio MCP transport - exactly 11 MCP tools - zero-secret normal startup - no live payment/value-movement or production-publish tools - bounded adapters for x402/CDP Bazaar, Agent402.Tools, PipRail, Agent Bou",
+  "author": "EchoEe247",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/EchoEe247/hermes-commerce-control",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:06:16.251Z",
+  "duration_ms": 711,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:06:16.251Z",
+  "repo_url": {
+   "url": "https://github.com/EchoEe247/hermes-commerce-control",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:dcba9c7a69e9",
+ "submitted_at": "2026-10-01T04:06:16.251Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "hermes-commerce-control-hcc"
+ }
+}
