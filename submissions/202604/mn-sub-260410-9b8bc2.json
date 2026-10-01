@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260410-9b8bc2",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "platfone-mcp-server",
+  "version": "1.0.0",
+  "description": "# Platfone MCP Server MCP server for virtual phone number verification — rent numbers, receive SMS, manage activations via AI agents (Claude, Cursor, VS Code Copilot, Codex). - GitHub: https://github.com/platfone-com/mcp - npm: https://www.npmjs.com/package/@platfone/mcp - Docs: https://platfone.com/docs/mcp/ - Hosted endpoint: `https://mcp.platfone.com/mcp` - Transport: stdio + streamable HTTP - Auth: API key via `x-api-key` header Tools: `get_balance`, `check_price`, `order_number`, `check_sms",
+  "author": "TempDev123",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://github.com/platfone-com/mcp",
+  "repo_url": "https://github.com/platfone-com/mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:05:02.396597Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:05:02.396622Z",
+  "repo_url": {
+   "url": "https://github.com/platfone-com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://github.com/platfone-com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-10T10:43:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4222928849,
+  "comment_author": "TempDev123"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "platfone-mcp-server"
+ }
+}
