@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-16db4d",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "kleo-mcp",
+  "version": "1.0.0",
+  "description": "Kleo — narrated 4K 60 fps films from a brief, inside Claude, ChatGPT, Cursor or any MCP client. Remote server (Streamable HTTP, OAuth 2.1): https://mcp.kleooai.com/mcp Site: https://kleooai.com · Code: https://github.com/tonnooooo/kleo-mcp · Registry: com.kleooai/kleo",
+  "author": "tonnooooo",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.kleooai.com/mcp",
+  "repo_url": "https://github.com/tonnooooo/kleo-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:28:31.029579Z",
+  "duration_ms": 729,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:28:31.029602Z",
+  "repo_url": {
+   "url": "https://github.com/tonnooooo/kleo-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.kleooai.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:28:31.029606Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "kleo-mcp"
+ }
+}
