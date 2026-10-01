@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-541f55",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "redditapis-mcp-official-mcp-server-for-redditapiscom-search-",
+  "version": "1.0.0",
+  "description": "redditapis-mcp — Official MCP server for redditapis.com. Search Reddit posts, comments, communities, users and media; read subreddits, comment trees, top posts and profiles; create and manage monitors and webhooks. Native tools for Claude, Cursor and any MCP client. GitHub: https://github.com/redditapis/redditapis-mcp npm: https://www.npmjs.com/package/redditapis-mcp Homepage: https://www.redditapis.com",
+  "author": "Emma-RedditAPI",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/redditapis-mcp",
+  "repo_url": "https://github.com/redditapis/redditapis-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:09:24.922Z",
+  "duration_ms": 24,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:09:24.922Z",
+  "repo_url": {
+   "url": "https://github.com/redditapis/redditapis-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/redditapis-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:e0fe80bab20a",
+ "submitted_at": "2026-10-01T04:09:24.922Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "redditapis-mcp-official-mcp-server-for-redditapiscom-search"
+ }
+}
