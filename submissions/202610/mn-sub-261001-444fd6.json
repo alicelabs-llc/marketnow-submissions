@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-444fd6",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "aziel-runtime",
+  "version": "1.0.0",
+  "description": "New MCP Server Submission: aziel-runtime Server Name: aziel-runtime Author: Aziel Eliab GitHub: https://github.com/AzielEliab/aziel-runtime License: Apache-2.0 Official MCP Registry: `io.github.AzielEliab/aziel-runtime` (v2.0.0-rc1) Glama: https://glama.ai/mcp/servers/AzielEliab/aziel-runtime # Description Governed MCP: agent audit, provenance, deterministic checks, and receipt-backed FragGate execution. # Features - 36 MCP tools - Remote Streamable HTTP (no install required) - Local stdio also ",
+  "author": "AzielEliab",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://aziel-runtime.vibelock.workers.dev/mcp",
+  "repo_url": "https://github.com/AzielEliab/aziel-runtime",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:28:34.404084Z",
+  "duration_ms": 543,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:28:34.404106Z",
+  "repo_url": {
+   "url": "https://github.com/AzielEliab/aziel-runtime",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://aziel-runtime.vibelock.workers.dev/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:28:34.404109Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "aziel-runtime"
+ }
+}
