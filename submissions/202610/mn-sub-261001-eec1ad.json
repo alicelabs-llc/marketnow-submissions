@@ -1,0 +1,57 @@
+{
+ "id": "mn-sub-261001-eec1ad",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "token-optimizer-mcp",
+  "version": "1.0.0",
+  "description": "token-optimizer-mcp Context-window optimization: caching, compression & smart file tools that cut tokens 60-90%. - Repository: https://github.com/ooples/token-optimizer-mcp - npm: `@ooples/token-optimizer-mcp` - Registry name: `io.github.ooples/token-optimizer-mcp` - Transport: stdio - License: MIT ```json { \"mcpServers\": { \"token-optimizer\": { \"command\": \"npx\", \"args\": [\"-y\", \"@ooples/token-optimizer-mcp@latest\"] } } } ``` Nineteen tools for reading, searching and editing without spending the c",
+  "author": "ooples",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/ooples/token-optimizer-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:27:40.523806Z",
+  "duration_ms": 437,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:27:40.523840Z",
+  "repo_url": {
+   "url": "https://github.com/ooples/token-optimizer-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:27:40.523844Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "token-optimizer-mcp"
+ }
+}
