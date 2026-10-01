@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260217-22c4ab",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "drain",
+  "version": "1.0.0",
+  "description": "drain-mcp — MCP Server for autonomous AI payments via DRAIN Protocol Pay for AI inference (GPT-4o, Claude, etc.) with USDC micropayments on Polygon. No API keys, no subscriptions. Agents pay per use via off-chain payment channels. Tools: `drain_providers`, `drain_balance`, `drain_approve`, `drain_open_channel`, `drain_close_channel`, `drain_channel_status`, `drain_chat` - npm: https://www.npmjs.com/package/drain-mcp - GitHub: https://github.com/kimbo128/DRAIN - Website: https://handshake58.com",
+  "author": "kimbo128",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/drain-mcp",
+  "repo_url": "https://github.com/kimbo128/DRAIN",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:47.852602Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:47.852624Z",
+  "repo_url": {
+   "url": "https://github.com/kimbo128/DRAIN",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/drain-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-17T15:36:57Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3915428605,
+  "comment_author": "kimbo128"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "drain"
+ }
+}
