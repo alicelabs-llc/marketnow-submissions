@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260714-6291b3",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "wireflow",
+  "version": "1.0.0",
+  "description": "Add server: Wireflow - Name: Wireflow - Description: Build and run AI image, video, and audio generation workflows on Wireflow from any MCP client. Browse your workflows and templates, inspect nodes and inputs, check available models and credit balance, then execute a workflow to generate output. - Homepage: https://www.wireflow.ai?utm_source=mcp_registry&utm_medium=mcpso - Docs: https://www.wireflow.ai/docs/mcp?utm_source=mcp_registry&utm_medium=mcpso - Server card: https://www.wireflow.ai/.wel",
+  "author": "a1adams",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.wireflow.ai/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:34.405672Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:34.405697Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://www.wireflow.ai/api/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-14T01:12:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4964442994,
+  "comment_author": "a1adams"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "wireflow"
+ }
+}
