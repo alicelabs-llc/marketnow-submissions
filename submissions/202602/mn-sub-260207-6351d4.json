@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260207-6351d4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "gtm-mcp-server-google-tag-manager-for-ai",
+  "version": "1.0.0",
+  "description": "Server Information - Name: GTM MCP Server - Description: Let AI manage your Google Tag Manager containers. Create tags, triggers, variables, audit configurations, generate tracking plans, and publish changes — all through natural conversation with Claude or ChatGPT. - URL: https://mcp.gtmeditor.com - GitHub: https://github.com/paolobietolini/gtm-mcp-server - Author: Paolo Bietolini Features - Full CRUD for tags, triggers, variables, templates, folders - Server-side container support (clients, t",
+  "author": "paolobietolini",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.gtmeditor.com",
+  "repo_url": "https://github.com/paolobietolini/gtm-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617893Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617895Z",
+  "repo_url": {
+   "url": "https://github.com/paolobietolini/gtm-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.gtmeditor.com",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-07T07:51:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 425,
+  "comment_author": "paolobietolini"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "gtm-mcp-server-google-tag-manager-for-ai"
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260216-98b967",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-ssh-bridge",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: mcp-ssh-bridge Repository: https://github.com/muchiny/mcp-ssh-bridge Language: Rust License: MIT Description MCP server for secure SSH remote management with 197 tools across 38 groups. Enables Claude Code (or any MCP client) to execute commands on air-gapped environments via SSH. Key Features - 197 tools in 38 groups (Linux + Windows) - 123 Linux tools: Docker, Kubernetes, Helm, Ansible, systemd, databases, git, Terraform, Vault, nginx, Redis, certificates, firewall",
+  "author": "muchiny",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/muchiny/mcp-ssh-bridge",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617430Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617432Z",
+  "repo_url": {
+   "url": "https://github.com/muchiny/mcp-ssh-bridge",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-16T01:38:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 486,
+  "comment_author": "muchiny"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-ssh-bridge"
+ }
+}

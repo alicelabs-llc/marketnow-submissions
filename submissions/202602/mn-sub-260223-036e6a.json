@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260223-036e6a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "srclight-deep",
+  "version": "1.0.0",
+  "description": "Server Details - Name: Srclight - GitHub: https://github.com/srclight/srclight - PyPI: [srclight](https://pypi.org/project/srclight/) - Website: https://srclight.dev Description Deep code indexing MCP server for AI agents. SQLite FTS5 + tree-sitter + embeddings for hybrid keyword/semantic search. 25 MCP tools covering symbol intelligence, call graphs, git change intelligence, build system awareness, and semantic search with RRF fusion. - 7 languages: Python, C, C++, C, JavaScript, TypeScript, R",
+  "author": "tofutim",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/srclight/",
+  "repo_url": "https://github.com/srclight/srclight",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617103Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617105Z",
+  "repo_url": {
+   "url": "https://github.com/srclight/srclight",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/srclight/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-23T22:06:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 538,
+  "comment_author": "tofutim"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "srclight-deep"
+ }
+}

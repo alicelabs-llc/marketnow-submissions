@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260213-de3983",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "apistatuscheck",
+  "version": "1.0.0",
+  "description": "MCP Server: apistatuscheck-mcp-server npm: https://www.npmjs.com/package/apistatuscheck-mcp-server GitHub: https://github.com/shibley/apistatuscheck-mcp-server Website: https://apistatuscheck.com Description MCP server that provides real-time status monitoring for 188+ third-party APIs including OpenAI, Stripe, AWS, GitHub, Vercel, Anthropic, and more. Allows AI agents to check if APIs are currently up, down, or degraded. Features - Check status of 188+ APIs in real-time - Get uptime statistics",
+  "author": "shibley",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/apistatuscheck-mcp-server",
+  "repo_url": "https://github.com/shibley/apistatuscheck-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617639Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617641Z",
+  "repo_url": {
+   "url": "https://github.com/shibley/apistatuscheck-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/apistatuscheck-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-13T09:37:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 460,
+  "comment_author": "shibley"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "apistatuscheck"
+ }
+}

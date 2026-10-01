@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260214-7683d9",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "agentpmt-ai-agent-marketplace",
+  "version": "1.0.0",
+  "description": "Server Details - Name: AgentPMT - URL: `https://api.agentpmt.com/mcp` - Transport: Streamable HTTP - Repository: https://github.com/Apoth3osis-ai/agentpmt-mcp-public - Homepage: https://agentpmt.com - Category: Aggregators / Marketplace - License: Proprietary - Language: Python Description AgentPMT is the AI agent marketplace that turns any MCP-compatible AI assistant into an autonomous employee. Connect once and your agents gain access to a growing ecosystem of tools, workflows, and skills spa",
+  "author": "firef1ie",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.agentpmt.com/mcp",
+  "repo_url": "https://github.com/Apoth3osis-ai/agentpmt-mcp-public",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617603Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617605Z",
+  "repo_url": {
+   "url": "https://github.com/Apoth3osis-ai/agentpmt-mcp-public",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.agentpmt.com/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-14T04:52:09Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 465,
+  "comment_author": "firef1ie"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "agentpmt-ai-agent-marketplace"
+ }
+}

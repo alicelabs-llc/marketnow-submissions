@@ -1,0 +1,71 @@
+{
+ "id": "mn-sub-260217-2394b9",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcpwall-rule",
+  "version": "1.0.0",
+  "description": "MCP Server Submission - Name: mcpwall - GitHub: https://github.com/behrensd/mcp-firewall - npm: https://www.npmjs.com/package/mcpwall - Website: https://mcpwall.dev - Category: Security Description mcpwall is a transparent stdio proxy that sits between your AI client (Claude Code, Claude Desktop, Cursor, etc.) and any MCP server. It enforces YAML-based security policies on every JSON-RPC tool call — no LLM, no cloud, pure rule-based filtering. Think \"iptables for MCP.\" Key Features - Transparen",
+  "author": "behrensd",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y mcpwall",
+  "homepage": "https://www.npmjs.com/package/mcpwall",
+  "repo_url": "https://github.com/behrensd/mcp-firewall",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617358Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 50,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617359Z",
+  "repo_url": {
+   "url": "https://github.com/behrensd/mcp-firewall",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y mcpwall",
+   "registry": "npm",
+   "package": "mcpwall",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mcpwall",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-17T18:18:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 496,
+  "comment_author": "behrensd"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcpwall-rule"
+ }
+}

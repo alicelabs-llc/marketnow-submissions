@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260214-18439c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "promptspeak-mcp",
+  "version": "1.0.0",
+  "description": "promptspeak-mcp-server Pre-execution governance for AI agents. Intercepts MCP tool calls before execution with deterministic blocking, human-in-the-loop holds, and behavioral drift detection. GitHub: https://github.com/chrbailey/promptspeak-mcp-server npm: https://www.npmjs.com/package/promptspeak-mcp-server License: MIT Install ```json { \"mcpServers\": { \"promptspeak\": { \"command\": \"npx\", \"args\": [\"promptspeak-mcp-server\"] } } } ``` What it does - 8-stage validation pipeline blocks dangerous to",
+  "author": "chrbailey",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/promptspeak-mcp-server",
+  "repo_url": "https://github.com/chrbailey/promptspeak-mcp-server",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617525Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617526Z",
+  "repo_url": {
+   "url": "https://github.com/chrbailey/promptspeak-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/promptspeak-mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-14T23:09:06Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 470,
+  "comment_author": "chrbailey"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "promptspeak-mcp"
+ }
+}

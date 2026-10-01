@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260224-ab1a83",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "silicon-friendly",
+  "version": "1.0.0",
+  "description": "Check if any website on the internet is AI-agent-friendly. Rates websites on 30 criteria across 5 levels (L1-L5).",
+  "author": "unlikefraction",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://siliconfriendly.com/mcp",
+  "repo_url": "https://github.com/unlikefraction/silicon-friendly",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617034Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617035Z",
+  "repo_url": {
+   "url": "https://github.com/unlikefraction/silicon-friendly",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://siliconfriendly.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-24T14:50:42Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 548,
+  "comment_author": "unlikefraction"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "silicon-friendly"
+ }
+}

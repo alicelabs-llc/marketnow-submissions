@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260216-13326f",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "debtstack-ai",
+  "version": "1.0.0",
+  "description": "Server Info - Name: DebtStack.ai - GitHub: https://github.com/debtstack-ai/debtstack-python - PyPI: https://pypi.org/project/debtstack-ai/ - Website: https://debtstack.ai - Docs: https://docs.debtstack.ai - MCP Registry: https://registry.modelcontextprotocol.io/servers/io.github.marcellusgreen/debtstack-ai - Smithery: https://smithery.ai/servers/debtstack/debtstack-ai - License: Apache-2.0 Server Config ```json { \"mcpServers\": { \"debtstack-ai\": { \"command\": \"debtstack-mcp\", \"env\": { \"DEBTSTACK_",
+  "author": "marcellusgreen",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/debtstack-ai/",
+  "repo_url": "https://github.com/debtstack-ai/debtstack-python",
+  "license": "APACHE-2.0",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617445Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617447Z",
+  "repo_url": {
+   "url": "https://github.com/debtstack-ai/debtstack-python",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/debtstack-ai/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-16T00:29:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 484,
+  "comment_author": "marcellusgreen"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "debtstack-ai"
+ }
+}

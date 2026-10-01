@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260223-e46d27",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sovereign-mcp-servers",
+  "version": "1.0.0",
+  "description": "** 11 MCP servers providing 33 developer tools for AI agents:",
+  "author": "ryudi84",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/ryudi84/sovereign-mcp-servers",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617157Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617159Z",
+  "repo_url": {
+   "url": "https://github.com/ryudi84/sovereign-mcp-servers",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-23T08:03:37Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 535,
+  "comment_author": "ryudi84"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sovereign-mcp-servers"
+ }
+}

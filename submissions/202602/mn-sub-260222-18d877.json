@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260222-18d877",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vigile-mcp-security",
+  "version": "1.0.0",
+  "description": "Server Name vigile-mcp Description MCP server for Vigile AI Security — query trust scores for MCP servers and agent skills directly from Claude Code, Cursor, and other AI agents. Check if a tool is safe before you install it. npm Package https://www.npmjs.com/package/vigile-mcp GitHub Repository https://github.com/Vigile-ai/vigile-mcp Installation ```json { \"mcpServers\": { \"vigile\": { \"command\": \"npx\", \"args\": [\"-y\", \"vigile-mcp\"] } } } ``` Tools | Tool | Description | |------|-------------| |",
+  "author": "Dakotas07",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/vigile-mcp",
+  "repo_url": "https://github.com/Vigile-ai/vigile-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617209Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617210Z",
+  "repo_url": {
+   "url": "https://github.com/Vigile-ai/vigile-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/vigile-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-22T03:22:26Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 530,
+  "comment_author": "Dakotas07"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vigile-mcp-security"
+ }
+}

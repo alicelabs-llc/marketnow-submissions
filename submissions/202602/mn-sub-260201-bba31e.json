@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260201-bba31e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "pastemd",
+  "version": "1.0.0",
+  "description": "Server Information - Name: PasteMD - Website: https://pastemd.io - GitHub Repository: https://github.com/jini-tw/claude-plugin-pastemd - MCP Endpoint: `https://api.pastemd.io/mcp` - Transport: Streamable HTTP - Authentication: OAuth 2.1 (PKCE) Description Instant markdown sharing. Create, manage, and share markdown documents with password protection and project organization. Tools (7) | Tool | Description | |------|-------------| | `get_document` | Fetch a document by its slug | | `list_documen",
+  "author": "jini-tw",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.pastemd.io/mcp",
+  "repo_url": "https://github.com/jini-tw/claude-plugin-pastemd",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617981Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617982Z",
+  "repo_url": {
+   "url": "https://github.com/jini-tw/claude-plugin-pastemd",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://api.pastemd.io/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-01T07:44:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 411,
+  "comment_author": "jini-tw"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "pastemd"
+ }
+}

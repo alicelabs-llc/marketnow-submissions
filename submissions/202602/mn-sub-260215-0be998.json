@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260215-0be998",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sui-agent-mcp",
+  "version": "1.0.0",
+  "description": "Sui Agent MCP Name: Sui Agent MCP Type: MCP Server Repository: https://github.com/EasonC13-agent/sui-mcp npm: https://www.npmjs.com/package/sui-agent-mcp Description MCP server providing 14 Sui blockchain tools for AI agents: wallet control, Move smart contract development, on-chain queries, and contract decompilation. Server Config ```json { \"mcpServers\": { \"sui\": { \"command\": \"npx\", \"args\": [\"-y\", \"sui-agent-mcp\"] } } } ``` Category Blockchain / Web3",
+  "author": "EasonC13-agent",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/sui-agent-mcp",
+  "repo_url": "https://github.com/EasonC13-agent/sui-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617469Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617470Z",
+  "repo_url": {
+   "url": "https://github.com/EasonC13-agent/sui-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/sui-agent-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-15T17:53:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 482,
+  "comment_author": "EasonC13-agent"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sui-agent-mcp"
+ }
+}

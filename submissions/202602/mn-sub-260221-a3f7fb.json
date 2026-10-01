@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260221-a3f7fb",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "playwright-autopilot",
+  "version": "1.0.0",
+  "description": "Server Info - Name: playwright-autopilot - Repository: https://github.com/kaizen-yutani/playwright-autopilot - Language: TypeScript - Category: Browser Automation / Testing Description Playwright E2E test debugging and interactive browser exploration via MCP. Two tool families: E2E Test Debugging (21 tools) Run Playwright tests with full action capture — DOM snapshots, network requests, console output, screenshots — then investigate failures through the captured data. Includes flow memory (lear",
+  "author": "nikolarss0n",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/kaizen-yutani/playwright-autopilot",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617231Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617232Z",
+  "repo_url": {
+   "url": "https://github.com/kaizen-yutani/playwright-autopilot",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-21T20:40:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 528,
+  "comment_author": "nikolarss0n"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "playwright-autopilot"
+ }
+}

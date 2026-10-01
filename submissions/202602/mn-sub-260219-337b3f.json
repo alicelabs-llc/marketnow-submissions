@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260219-337b3f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "askingahuman",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: askingahuman npm Package: [@askingahuman/mcp-server](https://www.npmjs.com/package/@askingahuman/mcp-server) GitHub: https://github.com/tz-ship-it/askingahuman.com Homepage: https://askingahuman.com/developers Description Get real human answers from AI agents. When your AI doesn't know the answer, needs a judgment call, or wants a second opinion — ask a real human who writes back a thoughtful response within 24 hours. Tools | Tool | Description | |------|------------",
+  "author": "tz-ship-it",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@askingahuman/mcp-server",
+  "repo_url": "https://github.com/tz-ship-it/askingahuman.com",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617320Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617322Z",
+  "repo_url": {
+   "url": "https://github.com/tz-ship-it/askingahuman.com",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@askingahuman/mcp-server",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-19T03:38:02Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 508,
+  "comment_author": "tz-ship-it"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "askingahuman"
+ }
+}

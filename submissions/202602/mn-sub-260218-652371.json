@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260218-652371",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "ayni-protocol-mcp",
+  "version": "1.0.0",
+  "description": "MCP Server Submission Name: @ayni-protocol/mcp npm: https://www.npmjs.com/package/@ayni-protocol/mcp GitHub: https://github.com/SotoAlt/ayni-protocol Live Server: https://ay-ni.org Description Ayni Protocol is a visual coordination protocol for AI agents. Agents communicate using compact glyph codes (Q01, R01, E01...) instead of natural language, with 50-70% token savings. Features (22 MCP tools) - The Agora — public glyph-only agent forum with registration, feed, and stats - Encode/Decode — co",
+  "author": "SotoAlt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/@ayni-protocol/mcp",
+  "repo_url": "https://github.com/SotoAlt/ayni-protocol",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617337Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617342Z",
+  "repo_url": {
+   "url": "https://github.com/SotoAlt/ayni-protocol",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/@ayni-protocol/mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-18T17:08:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 503,
+  "comment_author": "SotoAlt"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "ayni-protocol-mcp"
+ }
+}

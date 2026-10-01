@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260208-fb2b5e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "chaos-rig-chaos",
+  "version": "1.0.0",
+  "description": "MCP Chaos Rig Repository: https://github.com/Typewise/mcp-chaos-rig npm: https://www.npmjs.com/package/mcp-chaos-rig License: MIT Description A local MCP server that breaks on demand. Test your client against auth failures, disappearing tools, flaky responses, and token expiry — all from a web UI. Key Features - Auth chaos: Toggle between None / Bearer / OAuth 2.1, force 401s and 500s mid-session, expire tokens on demand, reject refresh tokens - Tool chaos: Disable tools to trigger `tools/chang",
+  "author": "victor-ca",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/mcp-chaos-rig",
+  "repo_url": "https://github.com/Typewise/mcp-chaos-rig",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617838Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617840Z",
+  "repo_url": {
+   "url": "https://github.com/Typewise/mcp-chaos-rig",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/mcp-chaos-rig",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-08T06:12:35Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 429,
+  "comment_author": "victor-ca"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "chaos-rig-chaos"
+ }
+}

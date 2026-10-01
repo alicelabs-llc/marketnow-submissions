@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-260209-d2090f",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "partstable-it-hardware-parts",
+  "version": "1.0.0",
+  "description": "Server Information - Name: PartsTable - URL: https://mcp.partstable.com/mcp - GitHub: https://github.com/partstable/partstable - Transport: Streamable HTTP (Cloudflare Workers) - Category: Data & Search Description PartsTable is an MCP server for IT hardware part number intelligence. It provides programmatic access to part number normalization, OEM validation, cross-reference lookups, vendor trust scoring, and historical pricing — backed by a database of 101K+ records. Built for IT hardware bro",
+  "author": "partstable",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.partstable.com/mcp",
+  "repo_url": "https://github.com/partstable/partstable",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617778Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617780Z",
+  "repo_url": {
+   "url": "https://github.com/partstable/partstable",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.partstable.com/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-09T20:53:55Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 437,
+  "comment_author": "partstable"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "partstable-it-hardware-parts"
+ }
+}

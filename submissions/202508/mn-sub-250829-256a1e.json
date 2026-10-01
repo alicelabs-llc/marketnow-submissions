@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-250829-256a1e",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "new-linked-api",
+  "version": "1.0.0",
+  "description": "Hi, want to submit our Linked API MCP server, as on the website sign in/submit option is broken. Thanks! Linked API MCP URL: https://linkedapi.io/mcp/ GitHub: https://github.com/Linked-API/linkedapi-mcp.git Short description: Linked API MCP server that lets AI assistants control LinkedIn accounts and retrieve real-time data. Long description: Linked API MCP server connects your LinkedIn account to AI assistants like Claude, Cursor, and VS Code. Ask them to search for leads, send messages, analyz",
+  "author": "dpetruchik",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://linkedapi.io/mcp/",
+  "repo_url": "https://github.com/Linked-API/linkedapi-mcp.git",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.618196Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.618198Z",
+  "repo_url": {
+   "url": "https://github.com/Linked-API/linkedapi-mcp.git",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://linkedapi.io/mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-08-29T11:26:32Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 352,
+  "comment_author": "dpetruchik"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "new-linked-api"
+ }
+}

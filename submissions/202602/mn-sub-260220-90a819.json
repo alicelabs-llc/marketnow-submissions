@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260220-90a819",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-ragchat-rag-chat-for-any-website-via-mcp",
+  "version": "1.0.0",
+  "description": "mcp-ragchat GitHub: https://github.com/gogabrielordonez/mcp-ragchat npm: mcp-ragchat License: MIT Language: TypeScript Description MCP server that adds RAG-powered AI chat to any website with one command from Claude Code. Tell your AI tool \"add AI chat to mysite.com\" and it handles everything: seeds a local vector store from markdown, starts a chat server, generates an embeddable widget. Features - 5 MCP tools: ragchat_setup, ragchat_test, ragchat_serve, ragchat_widget, ragchat_status - Local J",
+  "author": "gogabrielordonez",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/gogabrielordonez/mcp-ragchat",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617280Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617281Z",
+  "repo_url": {
+   "url": "https://github.com/gogabrielordonez/mcp-ragchat",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-20T01:00:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 515,
+  "comment_author": "gogabrielordonez"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-ragchat-rag-chat-for-any-website-via-mcp"
+ }
+}

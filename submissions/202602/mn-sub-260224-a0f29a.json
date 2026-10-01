@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260224-a0f29a",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "qubitsok-quantum",
+  "version": "1.0.0",
+  "description": "Server Name qubitsok Description Quantum computing jobs, arXiv papers & researcher profiles. 7 read-only MCP tools for searching 500+ quantum computing job listings, browsing daily arXiv papers, discovering 1000+ researcher profiles, and exploring the quantum computing market landscape. Tools (7) - `searchJobs` — AI-powered natural language quantum job search - `getJobDetails` — Full details for a specific job by ID - `searchPapers` — Search arXiv quantum papers by topic, author, date - `getLat",
+  "author": "navaro1",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://qubitsok.com/mcp",
+  "repo_url": "https://github.com/navaro1/qubitsok-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617087Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617089Z",
+  "repo_url": {
+   "url": "https://github.com/navaro1/qubitsok-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://qubitsok.com/mcp",
+   "ok": false,
+   "status": 400
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-24T11:46:16Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 543,
+  "comment_author": "navaro1"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "qubitsok-quantum"
+ }
+}

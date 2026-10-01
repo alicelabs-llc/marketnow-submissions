@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260220-614017",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "bear-mcp-mcp-server-for-bear-notes-on-macos",
+  "version": "1.0.0",
+  "description": "Server Name bear-mcp Repository https://github.com/zmainen/bear-mcp Description MCP server + Python library for [Bear](https://bear.app) on macOS. Gives AI assistants full access to Bear notes — search, read, create, edit, tag, and lock/unlock notes. Features - 10 tools: search, get, recent, tags, create, prepend, append, replace, trash, lock - Fast reads via direct SQLite access (silent, works with Bear closed) - Writes via Bear's x-callback-url scheme - Lock/unlock via AppleScript UI automati",
+  "author": "zmainen",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://bear.app",
+  "repo_url": "https://github.com/zmainen/bear-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617248Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617249Z",
+  "repo_url": {
+   "url": "https://github.com/zmainen/bear-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://bear.app",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-20T10:30:14Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 519,
+  "comment_author": "zmainen"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "bear-mcp-mcp-server-for-bear-notes-on-macos"
+ }
+}

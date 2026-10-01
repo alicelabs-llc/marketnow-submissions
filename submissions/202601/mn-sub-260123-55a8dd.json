@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260123-55a8dd",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "marceausolutions-mcp-servers",
+  "version": "1.0.0",
+  "description": "MCP Server Submissions I would like to submit the following MCP servers for inclusion on MCP.so: 1. md-to-pdf-mcp - GitHub: https://github.com/MarceauSolutions/md-to-pdf-mcp - PyPI: https://pypi.org/project/md-to-pdf-mcp/ - Description: Convert Markdown to professional PDFs with customizable themes - Category: Document Processing 2. amazon-seller-mcp - GitHub: https://github.com/MarceauSolutions/amazon-seller-mcp - PyPI: https://pypi.org/project/amazon-seller-mcp/ - Description: Amazon Seller C",
+  "author": "wmarceau",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://pypi.org/project/md-to-pdf-mcp/",
+  "repo_url": "https://github.com/MarceauSolutions/md-to-pdf-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.618059Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.618061Z",
+  "repo_url": {
+   "url": "https://github.com/MarceauSolutions/md-to-pdf-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://pypi.org/project/md-to-pdf-mcp/",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-01-23T20:55:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 401,
+  "comment_author": "wmarceau"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "marceausolutions-mcp-servers"
+ }
+}

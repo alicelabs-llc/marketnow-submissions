@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-260211-f71c0c",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "memory-nexus",
+  "version": "1.0.0",
+  "description": "Memory Nexus MCP Server Persistent semantic memory for AI agents with four intelligence layers and pre-built domain expertise. npm: `nexus-memory-mcp` Install: `npx -y nexus-memory-mcp` GitHub: https://github.com/KairosMobius/nexus-memory-mcp Features - Semantic search - Vector embeddings, meaning-based recall - Knowledge graph - Automatic relationship discovery between memories - Temporal awareness - Recency-weighted relevance - Pattern detection - Emerging themes identified automatically - Aw",
+  "author": "KairosMobius",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y nexus-memory-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/KairosMobius/nexus-memory-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617727Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617729Z",
+  "repo_url": {
+   "url": "https://github.com/KairosMobius/nexus-memory-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y nexus-memory-mcp",
+   "registry": "npm",
+   "package": "nexus-memory-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-11T03:12:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 448,
+  "comment_author": "KairosMobius"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "memory-nexus"
+ }
+}

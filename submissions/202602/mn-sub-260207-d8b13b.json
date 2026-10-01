@@ -1,0 +1,72 @@
+{
+ "id": "mn-sub-260207-d8b13b",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "gravity-swarm-mcp",
+  "version": "1.0.0",
+  "description": "gravity-swarm-mcp MCP server for the [Gravity Swarm](https://gravity-swarm.org) agent reputation network. GitHub: https://github.com/antoinedelorme/gravity-swarm-mcp npm: https://www.npmjs.com/package/gravity-swarm-mcp Install: `npx -y gravity-swarm-mcp` Tools - `swarm_enlist` — Register as a contributor (auto-generates Nostr identity) - `swarm_get_work` — Fetch next available task - `swarm_process` — Compute result locally (FFT, SHA chain, Monte Carlo, etc.) - `swarm_submit` — Submit signed re",
+  "author": "antoinedelorme",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y gravity-swarm-mcp",
+  "homepage": "https://gravity-swarm.org",
+  "repo_url": "https://github.com/antoinedelorme/gravity-swarm-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.617858Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.617860Z",
+  "repo_url": {
+   "url": "https://github.com/antoinedelorme/gravity-swarm-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": {
+   "command": "npx -y gravity-swarm-mcp",
+   "registry": "npm",
+   "package": "gravity-swarm-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://gravity-swarm.org",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-07T12:26:58Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 427,
+  "comment_author": "antoinedelorme"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "gravity-swarm-mcp"
+ }
+}

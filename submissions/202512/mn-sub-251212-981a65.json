@@ -1,0 +1,66 @@
+{
+ "id": "mn-sub-251212-981a65",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "polyglot-db-mcp",
+  "version": "1.0.0",
+  "description": "** One MCP server for 16 databases. Access PostgreSQL, MongoDB, Neo4j, Redis/Dragonfly, SurrealDB, SQLite, DuckDB, MariaDB, Elasticsearch, InfluxDB, Qdrant, Meilisearch, XTDB, Memcached, LMDB, and iTop through a single MCP interface.",
+  "author": "hyperpolymath",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://raw.githubusercontent.com/hyperpolymath/polyglot-db-mcp/main/index.js",
+  "repo_url": "https://github.com/hyperpolymath/polyglot-db-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.618144Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 41,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.618146Z",
+  "repo_url": {
+   "url": "https://github.com/hyperpolymath/polyglot-db-mcp",
+   "ok": false,
+   "status": 404
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://raw.githubusercontent.com/hyperpolymath/polyglot-db-mcp/main/index.js",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-12-12T10:32:15Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 373,
+  "comment_author": "hyperpolymath"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "polyglot-db-mcp"
+ }
+}

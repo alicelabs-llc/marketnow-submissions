@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-250910-72b744",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "fail",
+  "version": "1.0.0",
+  "description": "My MCP Server Info - name mybatis-mapper2sql - repo https://github.com/handsomestWei/mybatis-mapper2sql-mcp-server - config https://github.com/handsomestWei/mybatis-mapper2sql-mcp-server/blob/main/mcp-config-example.json Phenomenon In https://mcp.so/my-servers, After submitting the MCP service information on the page, the page prompts that the submission is successful. `However, the submitted service information cannot be seen after refreshing the page.` Interface Response post https://mcp.so/z",
+  "author": "handsomestWei",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/handsomestWei/mybatis-mapper2sql-mcp-server",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.618177Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.618179Z",
+  "repo_url": {
+   "url": "https://github.com/handsomestWei/mybatis-mapper2sql-mcp-server",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2025-09-10T01:44:24Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 353,
+  "comment_author": "handsomestWei"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "fail"
+ }
+}

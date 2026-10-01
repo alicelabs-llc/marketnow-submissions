@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260127-bbbbab",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "idealift",
+  "version": "1.0.0",
+  "description": "Server Information Name: IdeaLift Type: Remote (HTTP) URL: https://idealift.startvest.ai/api/mcp Transport: streamable-http (MCP 2025-03-26 protocol) Description IdeaLift MCP Server enables AI assistants to manage product ideas, decisions, and customer signals. Perfect for product managers using Claude Desktop or other MCP-compatible AI tools. Features 13 Tools: - `list_ideas` - List ideas with optional filters - `get_idea` - Get detailed idea information - `create_idea` - Create new ideas - `u",
+  "author": "tjpinder",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://idealift.startvest.ai/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:38:22.618044Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:38:22.618046Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://idealift.startvest.ai/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-01-27T01:13:50Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 404,
+  "comment_author": "tjpinder"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "idealift"
+ }
+}
