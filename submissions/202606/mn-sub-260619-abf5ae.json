@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260619-abf5ae",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-iquesta",
+  "version": "1.0.0",
+  "description": "https://github.com/iQuesta/MCP-iQuesta iQuesta MCP — Recherche d'offres de stage et d'alternance en France via le réseau iQuesta.com. Endpoint: https://mcp.iquesta.com/api/mcp Transport: Streamable HTTP Tools: search_jobs, get_job, get_similar_jobs, list_filters",
+  "author": "iQuesta",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.iquesta.com/api/mcp",
+  "repo_url": "https://github.com/iQuesta/MCP-iQuesta",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:07.679138Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:07.679166Z",
+  "repo_url": {
+   "url": "https://github.com/iQuesta/MCP-iQuesta",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.iquesta.com/api/mcp",
+   "ok": false,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-19T09:41:28Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4750399441,
+  "comment_author": "iQuesta"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-iquesta"
+ }
+}
