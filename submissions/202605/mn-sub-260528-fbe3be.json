@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260528-fbe3be",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "logicnodes-agent-infrastructure",
+  "version": "1.0.0",
+  "description": "# LogicNodes — Agent Infrastructure MCP Server URL: https://logicnodes.io/mcp SSE Fallback: https://logicnodes.io/sse GitHub: https://github.com/cmdenney/logicnodes-mcp-bridge Website: https://logicnodes.io Description: Agent-to-agent payment, identity, and compliance infrastructure for autonomous AI on Base. 9 deterministic services payable via x402 USDC. Tools: - `logicnodes_gas_oracle` — Real-time gas price oracle for Base - `logicnodes_sig_verify` — On-chain signature verification - `logicno",
+  "author": "cmdenney",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://logicnodes.io/mcp",
+  "repo_url": "https://github.com/cmdenney/logicnodes-mcp-bridge",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:01.082725Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:01.082753Z",
+  "repo_url": {
+   "url": "https://github.com/cmdenney/logicnodes-mcp-bridge",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://logicnodes.io/mcp",
+   "ok": false,
+   "status": 0
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-28T19:46:23Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4567627321,
+  "comment_author": "cmdenney"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "logicnodes-agent-infrastructure"
+ }
+}
