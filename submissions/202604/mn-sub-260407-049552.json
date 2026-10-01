@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260407-049552",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "acornonaut-mcp-server",
+  "version": "1.0.0",
+  "description": "# Acornonaut MCP Server GitHub: https://github.com/zerolve-io/acornonaut-mcp URL: https://acornonaut.app/api/mcp Docs: https://acornonaut.app/docs/mcp Transport: Streamable HTTP Description: Turn YouTube playlists into AI-generated flashcards with spaced repetition. Acornonaut MCP lets AI agents create playlists, generate flashcards, search across your learning library, and export decks (APKG/CSV/JSON) — all through the MCP protocol. Tools: - `list_playlists` — List playlists with status and pag",
+  "author": "pihelix",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://acornonaut.app/api/mcp",
+  "repo_url": "https://github.com/zerolve-io/acornonaut-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:04:37.744291Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:04:37.744315Z",
+  "repo_url": {
+   "url": "https://github.com/zerolve-io/acornonaut-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://acornonaut.app/api/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-04-07T11:38:18Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4198669316,
+  "comment_author": "pihelix"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "acornonaut-mcp-server"
+ }
+}
