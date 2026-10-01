@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260305-752908",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vtimestamp-mcp-write",
+  "version": "1.0.0",
+  "description": "vtimestamp-mcp-write — https://github.com/vdappdev2/vtimestamp-mcp-write Category: Blockchain / Timestamps Description: MCP server for creating document timestamps on the Verus blockchain. Writes SHA-256 hashes and metadata to a VerusID via a local or remote Verus daemon. Companion to the read-only https://www.npmjs.com/package/vtimestamp-mcp. Features: - Create document timestamps on any VerusID - Store title, description, filename, and filesize on-chain - Duplicate hash detection with existing",
+  "author": "vdappdev2",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://www.npmjs.com/package/vtimestamp-mcp",
+  "repo_url": "https://github.com/vdappdev2/vtimestamp-mcp-write",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:40.227489Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:40.227513Z",
+  "repo_url": {
+   "url": "https://github.com/vdappdev2/vtimestamp-mcp-write",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://www.npmjs.com/package/vtimestamp-mcp",
+   "ok": false,
+   "status": 403
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T03:37:33Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4001898154,
+  "comment_author": "vdappdev2"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vtimestamp-mcp-write"
+ }
+}
