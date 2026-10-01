@@ -1,0 +1,62 @@
+{
+ "id": "mn-sub-260219-20281e",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "phos-ai-marketing-sales-platform-4-mcp-servers",
+  "version": "1.0.0",
+  "description": "# Phos — AI Marketing & Sales Platform (4 MCP Servers) Four production MCP servers from [Phos](https://phos.nz), an AI marketing and sales automation platform for SMBs. All use Streamable HTTP transport and are live now. 1. Marketing Engine - URL: `https://api.phos.nz/mcp` - Manifest: `https://api.phos.nz/.well-known/agent.json` - Tools: `generate_content`, `analyze_competitor`, `publish_content`, `get_content_suggestions` - Description: Autonomous AI marketing with 7 specialized agents — conten",
+  "author": "albermm",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://api.phos.nz/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:01:51.817588Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:01:51.817617Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://api.phos.nz/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-02-19T04:19:10Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 3924603930,
+  "comment_author": "albermm"
+ },
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "phos-ai-marketing-sales-platform-4-mcp-servers"
+ }
+}
