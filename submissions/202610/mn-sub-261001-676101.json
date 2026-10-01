@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-261001-676101",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "goodleads-mcp",
+  "version": "1.0.0",
+  "description": "GoodLeads — https://github.com/Goproductmgt/goodleads-mcp Reach the owner of a newly formed business the morning after the state posts it. Remote MCP, Streamable HTTP, no auth needed: https://mcp.goodleads.club/mcp 13 tools · Docs: https://app.goodleads.club/connect.html · Homepage: https://goodleads.club",
+  "author": "Goproductmgt",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.goodleads.club/mcp",
+  "repo_url": "https://github.com/Goproductmgt/goodleads-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:26:34.877555Z",
+  "duration_ms": 1331,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:26:34.877577Z",
+  "repo_url": {
+   "url": "https://github.com/Goproductmgt/goodleads-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.goodleads.club/mcp",
+   "ok": false,
+   "status": 406
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:26:34.877581Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "goodleads-mcp"
+ }
+}
