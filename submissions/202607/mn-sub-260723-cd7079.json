@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260723-cd7079",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "sapience",
+  "version": "1.0.0",
+  "description": "https://github.com/allenc84/sapience Sapience — human-like memory and a judgment ledger for AI. An MCP server for Claude Code with two parts: semantic memory that consolidates into durable patterns across sessions, and a judgment ledger — log a prediction with a probability, resolve it against the real outcome, and get an honest calibration read (Brier score, confidence-band reliability with Wilson CIs, a bias map) instead of just remembering what was said. Local-first (Chroma + SQLite), MIT, pu",
+  "author": "allenc84",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/allenc84/sapience",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:11:54.647758Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 45,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:11:54.647785Z",
+  "repo_url": {
+   "url": "https://github.com/allenc84/sapience",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-23T22:27:34Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 5064152768,
+  "comment_author": "allenc84"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "sapience"
+ }
+}
