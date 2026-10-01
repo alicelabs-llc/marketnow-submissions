@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260605-d7f656",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "threadminder-mcp",
+  "version": "1.0.0",
+  "description": "Threadminder — https://github.com/pluralityworks/threadminder-mcp Threadminder gives your AI persistent context across every chat and session, so your AI always knows what's going on - where your projects stand, what's in progress, and what's next. No re-explaining. No starting from scratch. Just open Claude and keep going. - Transport: Remote / Streamable HTTP - Auth: OAuth - MCP URL: https://mcp.threadminder.ai/mcp - Homepage: https://threadminder.ai - Categories: Memory, Productivity, Project",
+  "author": "pluralityworks",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://mcp.threadminder.ai/mcp",
+  "repo_url": "https://github.com/pluralityworks/threadminder-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:08:32.980698Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:08:32.980721Z",
+  "repo_url": {
+   "url": "https://github.com/pluralityworks/threadminder-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://mcp.threadminder.ai/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-06-05T19:01:46Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4634596286,
+  "comment_author": "pluralityworks"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "threadminder-mcp"
+ }
+}
