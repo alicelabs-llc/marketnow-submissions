@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260323-472581",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "visus-mcp",
+  "version": "1.0.0",
+  "description": "https://github.com/visus-mcp/visus-mcp Visus-MCP — Prompt-injection-safe web content fetcher for AI agents. Sanitizes external URLs through 43-pattern injection detection and PII redaction before content reaches your LLM. Runs as both a remote (SSE/HTTP) and local (stdio) MCP server. Part of the Lateos security-by-design platform, built on AWS serverless (Lambda + Bedrock Guardrails). Tags: security, web-fetch, prompt-injection, typescript, aws, mcp-server",
+  "author": "leochong",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/visus-mcp/visus-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:03:29.498925Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:03:29.498951Z",
+  "repo_url": {
+   "url": "https://github.com/visus-mcp/visus-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-23T04:23:54Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4107887669,
+  "comment_author": "leochong"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "visus-mcp"
+ }
+}
