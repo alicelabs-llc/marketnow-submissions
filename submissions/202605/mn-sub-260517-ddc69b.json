@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260517-ddc69b",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lemoncake-evidai-mcp-servers",
+  "version": "1.0.0",
+  "description": "# LemonCake / EvidAI MCP servers - agent-payment-mcp — USDC micropayments for AI agents. Pay-per-call any HTTP API. Kill switch + spend limits. https://github.com/evidai/agent-payment-mcp - alpaca-guard-mcp — Alpaca trading API with hard daily USD cap guard. Paper trading default. https://github.com/evidai/lemon-cake/tree/main/alpaca-guard-mcp - xstocks-mcp — Buy tokenized US stocks (xStocks) on Solana via Jupiter DEX in USDC. https://github.com/evidai/lemon-cake/tree/main/xstocks-mcp - polymark",
+  "author": "evidai",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/evidai/agent-payment-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:07:15.992798Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:07:15.992829Z",
+  "repo_url": {
+   "url": "https://github.com/evidai/agent-payment-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-05-17T13:49:12Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4470874409,
+  "comment_author": "evidai"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lemoncake-evidai-mcp-servers"
+ }
+}
