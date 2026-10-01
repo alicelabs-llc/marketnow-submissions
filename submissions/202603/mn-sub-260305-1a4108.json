@@ -1,0 +1,61 @@
+{
+ "id": "mn-sub-260305-1a4108",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "mcp-starter-kit",
+  "version": "1.0.0",
+  "description": "MCP Starter Kit — Production-ready TypeScript template for building MCP servers. Includes 4 example tools (URL fetching, file reading, directory listing, data transformation), Zod validation, 19 tests, and Claude Desktop/Code integration docs. https://github.com/idapixl/mcp-starter-kit Tools: fetch_url, read_file, list_directory, transform_data Transport: stdio Runtime: Node.js 18+",
+  "author": "idapixl",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": null,
+  "repo_url": "https://github.com/idapixl/mcp-starter-kit",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:02:45.119516Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:02:45.119543Z",
+  "repo_url": {
+   "url": "https://github.com/idapixl/mcp-starter-kit",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-03-05T22:26:39Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4008212155,
+  "comment_author": "idapixl"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "mcp-starter-kit"
+ }
+}
