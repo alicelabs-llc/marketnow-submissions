@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-260703-430c27",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "vaaya-mcp",
+  "version": "1.0.0",
+  "description": "Vaaya — https://vaaya.ai Remote MCP server: `https://vaaya.ai/mcp` (Streamable HTTP, OAuth 2.1) · npm stdio shim: [`@vaaya/mcp`](https://www.npmjs.com/package/@vaaya/mcp) · repo: https://github.com/MaruPelkar/vaaya-mcp Pay-per-call agent superpowers, no API keys: media & video generation, product demo videos, web search & scraping, deep/market/competitive research, GTM & sales lead enrichment, code sandboxes, browser automation, email, memory. Server config: ```json { \"mcpServers\": { \"vaaya\": { ",
+  "author": "MaruPelkar",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://vaaya.ai/mcp",
+  "repo_url": "https://github.com/MaruPelkar/vaaya-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T05:10:55.722436Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T05:10:55.722461Z",
+  "repo_url": {
+   "url": "https://github.com/MaruPelkar/vaaya-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://vaaya.ai/mcp",
+   "ok": false,
+   "status": 401
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-07-03T22:28:13Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso#1",
+  "comment_id": 4879649215,
+  "comment_author": "MaruPelkar"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "vaaya-mcp"
+ }
+}
