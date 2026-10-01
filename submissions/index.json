@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T04:09:51.942Z",
+ "updated_at": "2026-10-01T04:20:46.667Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -4091,6 +4091,18 @@
    "from": "ip:20fc69af7312",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-7c1359.json"
+  },
+  {
+   "id": "mn-sub-261001-f2a802",
+   "name": "storelens-insights-for-woocommerce",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 43,
+   "submitted_at": "2026-10-01T04:20:45.701Z",
+   "from": "ip:85de2a47c860",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-f2a802.json"
   }
  ],
  "l2_pass": {
