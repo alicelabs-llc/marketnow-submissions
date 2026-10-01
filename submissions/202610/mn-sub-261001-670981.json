@@ -1,0 +1,58 @@
+{
+ "id": "mn-sub-261001-670981",
+ "verdict": "accepted",
+ "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
+ "skill": {
+  "name": "yodu-ai-employees-mcp",
+  "version": "1.0.0",
+  "description": "# Yodu AI Employees MCP Please consider Yodu for the remote MCP directory. It connects MCP clients to a Yodu workspace so users can work with AI employees, tasks, conversations, files and recurring workflows. Per-workspace permissions and approval rules apply. - Website: https://yodu.ai - Transport: Streamable HTTP (hosted) - OAuth endpoint: https://app.yodu.ai/api/mcp/oauth - API-key endpoint: https://app.yodu.ai/api/mcp — workspace-bound Bearer token - Setup documentation: https://docs.yodu.ai",
+  "author": "imshashank",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.yodu.ai/api/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-01T04:28:55.018659Z",
+  "duration_ms": 622,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 39,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-01T04:28:55.018683Z",
+  "repo_url": null,
+  "install": null,
+  "homepage": {
+   "url": "https://app.yodu.ai/api/mcp",
+   "ok": false,
+   "status": 404
+  },
+  "substance": "none (description-only)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T04:28:55.018686Z",
+ "submitted_by": "bulk-import",
+ "merge": {
+  "eligible": false,
+  "why_not": "description-only: no files, no code, no verifiable repo_url, no working test url",
+  "catalog_slug": "yodu-ai-employees-mcp"
+ }
+}
