@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-01T03:06:18.337Z",
+ "updated_at": "2026-10-01T03:26:01.052Z",
  "entries": [
   {
    "id": "mn-sub-260911-84bfbf",
@@ -3491,6 +3491,18 @@
    "from": "ip:b52a1bd5fbeb",
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-0bd320.json"
+  },
+  {
+   "id": "mn-sub-261001-08bf75",
+   "name": "post-reset-e2e-probe",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 47,
+   "submitted_at": "2026-10-01T03:26:00.096Z",
+   "from": "ip:da528cc7cb87",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261001-08bf75.json"
   }
  ],
  "l2_pass": {
