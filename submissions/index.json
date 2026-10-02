@@ -1,56 +1,8 @@
 {
- "updated_at": "2026-10-02T03:17:12Z",
+ "updated_at": "2026-10-02T03:23:31.797Z",
  "regenerated_by": "scripts/regen-submission-index.mjs (M-09 recovery)",
  "regenerated_from_tree_count": 2936,
  "entries": [
-  {
-   "id": "mn-sub-260925-88e2dc",
-   "name": "viewportwitness",
-   "version": "1.0.0",
-   "author": "Baffles78",
-   "verdict": "accepted",
-   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
-   "trust": 44,
-   "submitted_at": "2026-09-25T01:55:49Z",
-   "eligible": true,
-   "path": "submissions/202609/mn-sub-260925-88e2dc.json"
-  },
-  {
-   "id": "mn-sub-260925-8b938a",
-   "name": "loomaly",
-   "version": "1.0.0",
-   "author": "dengzhaofun",
-   "verdict": "accepted",
-   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
-   "trust": 44,
-   "submitted_at": "2026-09-25T06:45:45Z",
-   "eligible": true,
-   "path": "submissions/202609/mn-sub-260925-8b938a.json"
-  },
-  {
-   "id": "mn-sub-260925-8d8659",
-   "name": "quotebill",
-   "version": "1.0.0",
-   "author": "auto1225",
-   "verdict": "accepted",
-   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
-   "trust": 44,
-   "submitted_at": "2026-09-25T09:10:34Z",
-   "eligible": true,
-   "path": "submissions/202609/mn-sub-260925-8d8659.json"
-  },
-  {
-   "id": "mn-sub-260925-1709c0",
-   "name": "kinetaios",
-   "version": "1.0.0",
-   "author": "phinn",
-   "verdict": "accepted",
-   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
-   "trust": 46,
-   "submitted_at": "2026-09-25T10:47:05Z",
-   "eligible": true,
-   "path": "submissions/202609/mn-sub-260925-1709c0.json"
-  },
   {
    "id": "mn-sub-260925-284e94",
    "name": "dsh-cua-windows-computer-use",
@@ -6314,6 +6266,18 @@
    "submitted_at": "2026-10-01T23:42:53Z",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-0593f4.json"
+  },
+  {
+   "id": "mn-sub-261002-6247f3",
+   "name": "queue-author-pipeline-test",
+   "version": "1.0.0",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 47,
+   "submitted_at": "2026-10-02T03:23:30.900Z",
+   "from": "ip:217a7483d6ba",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261002-6247f3.json"
   }
  ],
  "note_author": "author field added to every entry — each skill in the queue now shows who made it"
