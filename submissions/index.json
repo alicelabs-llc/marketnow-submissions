@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-02T03:37:44.907Z",
+ "updated_at": "2026-10-02T03:47:50.033Z",
  "regenerated_by": "scripts/regen-submission-index.mjs (M-09 recovery)",
  "regenerated_from_tree_count": 2937,
  "entries": [
@@ -6489,6 +6489,19 @@
    "from": "ip:217a7483d6ba",
    "eligible": true,
    "path": "submissions/202610/mn-sub-261002-6247f3.json"
+  },
+  {
+   "id": "mn-sub-261002-42ab03",
+   "name": "queue-author-e2e-verify2",
+   "version": "1.0.0",
+   "author": "eddyflores100-lang",
+   "verdict": "accepted",
+   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+   "trust": 47,
+   "submitted_at": "2026-10-02T03:47:48.992Z",
+   "from": "ip:217a7483d6ba",
+   "eligible": true,
+   "path": "submissions/202610/mn-sub-261002-42ab03.json"
   }
  ]
 }
