@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-261001-c45f54",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "clino-swiss-household-employment",
+  "version": "1.0.0",
+  "description": "Name: Clino: Swiss household employment Type: Remote MCP server (Streamable HTTP), hosted, read-only Endpoint: https://clino.ch/mcp (no auth, no API key) Website and docs: https://clino.ch/en/mcp Repository (docs, examples, open data under CC BY 4.0): https://github.com/salvador-creator/clino-mcp Official MCP Registry: `ch.clino/household-employment` Description: Rules, costs and deadlines for employing a cleaner, nanny or carer in a Swiss private household, for all 26 cantons: a hiring plan wit",
+  "author": "salvador-creator",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://clino.ch/mcp",
+  "repo_url": "https://github.com/salvador-creator/clino-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-02T02:48:44.658609Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 44,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-02T02:48:44.658629Z",
+  "repo_url": {
+   "url": "https://github.com/salvador-creator/clino-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://clino.ch/mcp",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T15:00:48Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 5934124712,
+  "comment_author": "salvador-creator"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "clino-swiss-household-employment"
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-261001-5fa293",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "tab-mcp",
+  "version": "1.0.0",
+  "description": "Name: tab (app.tabwork/tab) Type: Remote MCP server (streamable HTTP, OAuth 2.1 with dynamic client registration) Endpoint: https://app.tabwork.app/mcp Repository: https://github.com/rinohed/tab-mcp Website: https://tabwork.app/ai/ License: MIT Time tracking for freelancers who bill by the hour, from your AI assistant: start/stop the timer, log hours you forgot, see each client's unbilled time and who owes you money. Runs as the signed-in freelancer inside their own tab account; it can't send in",
+  "author": "rinohed",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://app.tabwork.app/mcp",
+  "repo_url": "https://github.com/rinohed/tab-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-02T02:48:44.658840Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-02T02:48:44.658842Z",
+  "repo_url": {
+   "url": "https://github.com/rinohed/tab-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://app.tabwork.app/mcp",
+   "ok": true,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T21:19:04Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 5940814168,
+  "comment_author": "rinohed"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "tab-mcp"
+ }
+}

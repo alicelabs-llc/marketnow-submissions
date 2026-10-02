@@ -1,0 +1,67 @@
+{
+ "id": "mn-sub-261001-0593f4",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "lodestar-stamp-mcp",
+  "version": "1.0.0",
+  "description": "Read-only MCP server for Lodestar Stamp receipts. Dated, source-linked public-record receipts for Chicago restaurants. Remote endpoint https://api.lodestarindex.com/mcp; npm lodestar-stamp-mcp; official MCP Registry io.github.Banjo-Ventures/lodestar-stamp.",
+  "author": "mybrainonfire",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "npx -y lodestar-stamp-mcp",
+  "homepage": "https://api.lodestarindex.com/mcp",
+  "repo_url": null,
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-02T02:48:44.658872Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 43,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-02T02:48:44.658874Z",
+  "repo_url": null,
+  "install": {
+   "command": "npx -y lodestar-stamp-mcp",
+   "registry": "npm",
+   "package": "lodestar-stamp-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": {
+   "url": "https://api.lodestarindex.com/mcp",
+   "ok": true,
+   "status": 405
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T23:42:53Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 5942816417,
+  "comment_author": "mybrainonfire"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "lodestar-stamp-mcp"
+ }
+}

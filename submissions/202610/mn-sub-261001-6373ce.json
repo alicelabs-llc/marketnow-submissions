@@ -1,0 +1,65 @@
+{
+ "id": "mn-sub-261001-6373ce",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "therealcost-mcp",
+  "version": "1.0.0",
+  "description": "Name: The Real Cost (therealcost-mcp) Type: MCP Server (local, stdio, Python) Repository: https://github.com/NoBanks/therealcost-mcp Website: https://therealcost.nohumannearby.com License: MIT Free money calculators for AI agents from The Real Cost by NoBanks Nearby: credit card payoff, debt consolidation, loan cost by term, crypto trade cost and emergency fund, with the math shown and links to pre-filled calculators. Education only, not financial advice. Tools: credit_card_payoff, debt_consolid",
+  "author": "NoBanks",
+  "category": "Developer Tools",
+  "runtime": "other",
+  "tags": [
+   "mcp",
+   "community-submission"
+  ],
+  "install": "(not provided)",
+  "homepage": "https://therealcost.nohumannearby.com",
+  "repo_url": "https://github.com/NoBanks/therealcost-mcp",
+  "license": "MIT",
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-02T02:48:44.658805Z",
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 46,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-02T02:48:44.658810Z",
+  "repo_url": {
+   "url": "https://github.com/NoBanks/therealcost-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": null,
+  "homepage": {
+   "url": "https://therealcost.nohumannearby.com",
+   "ok": true,
+   "status": 200
+  },
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": null,
+ "submitted_at": "2026-10-01T19:15:07Z",
+ "submitted_by": "bulk-import",
+ "source": {
+  "issue": "chatmcp/mcpso",
+  "comment_id": 5938727954,
+  "comment_author": "NoBanks"
+ },
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "therealcost-mcp"
+ }
+}
