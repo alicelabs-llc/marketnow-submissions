@@ -1,0 +1,64 @@
+{
+ "id": "mn-sub-261002-6247f3",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "queue-author-pipeline-test",
+  "version": "1.0.0",
+  "description": "Smoke test del pipeline de submissions: verifica que cada skill nueva en la cola publica /api/submissions muestra su author. Test interno de AliceLabs.",
+  "author": "eddyflores100-lang",
+  "category": "Developer Tools",
+  "runtime": "node",
+  "tags": [
+   "mcp",
+   "community-submission",
+   "internal-test"
+  ],
+  "install": "npx -y marketnow-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/eddyflores100-lang/marketnow-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-02T03:23:30.900Z",
+  "duration_ms": 923,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-02T03:23:30.900Z",
+  "repo_url": {
+   "url": "https://github.com/eddyflores100-lang/marketnow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y marketnow-mcp",
+   "registry": "npm",
+   "package": "marketnow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:217a7483d6ba",
+ "submitted_at": "2026-10-02T03:23:30.900Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "queue-author-pipeline-test"
+ }
+}
