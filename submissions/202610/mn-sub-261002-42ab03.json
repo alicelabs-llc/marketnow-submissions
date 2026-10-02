@@ -1,0 +1,64 @@
+{
+ "id": "mn-sub-261002-42ab03",
+ "verdict": "accepted",
+ "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
+ "skill": {
+  "name": "queue-author-e2e-verify2",
+  "version": "1.0.0",
+  "description": "Segunda prueba end-to-end del pipeline: valida que las submissions nuevas registran author en el indice publico de la cola /api/submissions tras el deploy del fix. Test interno de AliceLabs.",
+  "author": "eddyflores100-lang",
+  "category": "Developer Tools",
+  "runtime": "node",
+  "tags": [
+   "mcp",
+   "community-submission",
+   "internal-test"
+  ],
+  "install": "npx -y marketnow-mcp",
+  "homepage": null,
+  "repo_url": "https://github.com/eddyflores100-lang/marketnow-mcp",
+  "license": null,
+  "pricing": null,
+  "price": 0,
+  "doc": null,
+  "capabilities": null,
+  "test": null,
+  "files": null,
+  "code": null
+ },
+ "sentinel": {
+  "scan_version": "L1.5-sub/1.1",
+  "scanned_at": "2026-10-02T03:47:48.992Z",
+  "duration_ms": 1074,
+  "findings": {
+   "blockers": [],
+   "warnings": []
+  },
+  "trust_score_100": 47,
+  "risk_level": "yellow"
+ },
+ "claims_verified": {
+  "checked_at": "2026-10-02T03:47:48.992Z",
+  "repo_url": {
+   "url": "https://github.com/eddyflores100-lang/marketnow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "install": {
+   "command": "npx -y marketnow-mcp",
+   "registry": "npm",
+   "package": "marketnow-mcp",
+   "ok": true,
+   "status": 200
+  },
+  "homepage": null,
+  "substance": "attached (files/code/repo/test)"
+ },
+ "submitted_from": "ip:217a7483d6ba",
+ "submitted_at": "2026-10-02T03:47:48.992Z",
+ "submitted_by": "public-api",
+ "merge": {
+  "eligible": true,
+  "catalog_slug": "queue-author-e2e-verify2"
+ }
+}
