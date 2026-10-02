@@ -1,20 +1,8 @@
 {
- "updated_at": "2026-10-02T03:55:00Z",
+ "updated_at": "2026-10-02T03:37:44.907Z",
  "regenerated_by": "scripts/regen-submission-index.mjs (M-09 recovery)",
- "regenerated_from_tree_count": 2936,
+ "regenerated_from_tree_count": 2937,
  "entries": [
-  {
-   "id": "mn-sub-260925-284e94",
-   "name": "dsh-cua-windows-computer-use",
-   "version": "1.0.0",
-   "author": "Hutusion",
-   "verdict": "accepted",
-   "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
-   "trust": 46,
-   "submitted_at": "2026-09-25T11:41:17Z",
-   "eligible": true,
-   "path": "submissions/202609/mn-sub-260925-284e94.json"
-  },
   {
    "id": "mn-sub-260925-cee8cc",
    "name": "clipwright",
@@ -24,6 +12,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-25T12:29:13Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-cee8cc.json"
   },
@@ -36,6 +25,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-25T13:27:31Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-435868.json"
   },
@@ -48,6 +38,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-25T14:07:21Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-f02632.json"
   },
@@ -60,6 +51,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-25T15:25:53Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-922762.json"
   },
@@ -72,6 +64,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-25T17:51:53Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-e57a1a.json"
   },
@@ -84,6 +77,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-25T17:55:16Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-85a4e0.json"
   },
@@ -96,6 +90,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-25T18:17:24Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-d44cb9.json"
   },
@@ -108,6 +103,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-09-25T18:33:05Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-a54f06.json"
   },
@@ -120,6 +116,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-25T19:01:22Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-c2a202.json"
   },
@@ -132,6 +129,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-25T19:53:51Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-df461d.json"
   },
@@ -144,6 +142,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-25T20:05:14Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260925-2604c0.json"
   },
@@ -156,6 +155,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-25T22:28:10Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-73bcc6.json"
   },
@@ -168,6 +168,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-25T22:40:23Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-178951.json"
   },
@@ -180,6 +181,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-25T23:26:17Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260925-eac5c2.json"
   },
@@ -192,6 +194,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-25T23:42:05Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260925-e87930.json"
   },
@@ -204,6 +207,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T00:41:27Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-b63b32.json"
   },
@@ -216,6 +220,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-26T02:25:34Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-03f252.json"
   },
@@ -228,6 +233,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T03:51:16Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-198811.json"
   },
@@ -240,6 +246,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-26T06:08:47Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-30f36d.json"
   },
@@ -252,6 +259,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-26T09:12:43Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-9bf673.json"
   },
@@ -264,6 +272,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-09-26T10:00:30Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-c44383.json"
   },
@@ -276,6 +285,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T10:14:13Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-9cc77e.json"
   },
@@ -288,6 +298,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T10:49:40Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-3da2e4.json"
   },
@@ -300,6 +311,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T11:54:03Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-6604b6.json"
   },
@@ -312,6 +324,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T12:29:40Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-f0f275.json"
   },
@@ -324,6 +337,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-26T14:21:38Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-c79de4.json"
   },
@@ -336,6 +350,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T14:40:29Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-bdcd34.json"
   },
@@ -348,6 +363,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T14:48:56Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-386bde.json"
   },
@@ -360,6 +376,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T14:51:28Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-99b886.json"
   },
@@ -372,6 +389,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T16:36:26Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-ab3bb8.json"
   },
@@ -384,6 +402,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T16:56:23Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-3055b3.json"
   },
@@ -396,6 +415,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T19:35:37Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-8672bc.json"
   },
@@ -408,6 +428,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-26T19:46:17Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-131916.json"
   },
@@ -420,6 +441,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-26T20:12:51Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-597a07.json"
   },
@@ -432,6 +454,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T20:34:10Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-ac7d56.json"
   },
@@ -444,6 +467,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T21:48:17Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-eda597.json"
   },
@@ -456,6 +480,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T22:11:14Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-ec4fb3.json"
   },
@@ -468,6 +493,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T22:11:15Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-862474.json"
   },
@@ -480,6 +506,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T22:24:21Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-26e401.json"
   },
@@ -492,6 +519,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T22:41:41Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-3833a8.json"
   },
@@ -504,6 +532,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-26T22:49:57Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-181c7b.json"
   },
@@ -516,6 +545,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-26T23:13:55Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260926-2b03e7.json"
   },
@@ -528,6 +558,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-26T23:28:11Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260926-976293.json"
   },
@@ -540,6 +571,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-27T01:21:30Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-70c300.json"
   },
@@ -552,6 +584,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T01:51:15Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-fd788e.json"
   },
@@ -564,6 +597,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T04:09:02Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-c1747d.json"
   },
@@ -576,6 +610,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T08:38:23Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-34e167.json"
   },
@@ -588,6 +623,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-09-27T09:29:04Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-7b2c84.json"
   },
@@ -600,6 +636,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T10:22:41Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-5bcc10.json"
   },
@@ -612,6 +649,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T10:27:17Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-335737.json"
   },
@@ -624,6 +662,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-27T12:06:29Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-cdd652.json"
   },
@@ -636,6 +675,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T12:58:35Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-ee560b.json"
   },
@@ -648,6 +688,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T13:11:49Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-2d26fd.json"
   },
@@ -660,6 +701,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T14:31:50Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-390453.json"
   },
@@ -672,6 +714,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-09-27T14:35:57Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-a4ed26.json"
   },
@@ -684,6 +727,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-27T14:40:47Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260927-79d7e7.json"
   },
@@ -696,6 +740,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-27T14:40:52Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260927-0aeb1e.json"
   },
@@ -708,6 +753,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-27T14:45:06Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260927-ec56a0.json"
   },
@@ -720,6 +766,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-27T15:03:52Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-fd16aa.json"
   },
@@ -732,6 +779,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-27T16:57:25Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-89bfde.json"
   },
@@ -744,6 +792,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-27T18:03:28Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-379194.json"
   },
@@ -756,6 +805,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-27T18:52:30Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-cb72f9.json"
   },
@@ -768,6 +818,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-27T19:27:12Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-7b8212.json"
   },
@@ -780,6 +831,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-27T20:44:03Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260927-05f4bf.json"
   },
@@ -792,6 +844,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-27T21:19:56Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260927-bb56f3.json"
   },
@@ -804,6 +857,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-27T22:32:47Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-a7990c.json"
   },
@@ -816,6 +870,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-27T23:51:43Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260927-0c19bc.json"
   },
@@ -828,6 +883,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-28T02:52:55Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-d53c5d.json"
   },
@@ -840,6 +896,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-28T03:10:53Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260928-30a9e1.json"
   },
@@ -852,6 +909,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-28T03:36:45Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-a6a1d3.json"
   },
@@ -864,6 +922,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-28T05:21:53Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260928-82c4b5.json"
   },
@@ -876,6 +935,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-28T08:49:38Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260928-7296c3.json"
   },
@@ -888,6 +948,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-28T09:19:00Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-cfeb4d.json"
   },
@@ -900,6 +961,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-28T10:29:04Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-5e89ff.json"
   },
@@ -912,6 +974,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-28T12:50:57Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260928-3e86ca.json"
   },
@@ -924,6 +987,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-28T13:40:47Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-24a459.json"
   },
@@ -936,6 +1000,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-28T14:20:44Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-599aad.json"
   },
@@ -948,6 +1013,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-28T17:08:32Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-b32cb5.json"
   },
@@ -960,6 +1026,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-28T18:21:34Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-2eb16c.json"
   },
@@ -972,6 +1039,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-28T18:22:34Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-89f426.json"
   },
@@ -984,6 +1052,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-28T20:01:10Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260928-e946c5.json"
   },
@@ -996,6 +1065,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T00:55:09Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-bc7cfc.json"
   },
@@ -1008,6 +1078,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-29T01:35:52Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-6f4437.json"
   },
@@ -1020,6 +1091,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T02:13:27Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-2b9137.json"
   },
@@ -1032,6 +1104,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-29T02:55:21Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-d15f7d.json"
   },
@@ -1044,6 +1117,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T03:55:11Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-0fe837.json"
   },
@@ -1056,6 +1130,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-29T04:43:49Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-911fd0.json"
   },
@@ -1068,6 +1143,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T05:41:08Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-756788.json"
   },
@@ -1080,6 +1156,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T06:07:33Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-2054c2.json"
   },
@@ -1092,6 +1169,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 41,
    "submitted_at": "2026-09-29T10:36:00Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-ceeed6.json"
   },
@@ -1104,6 +1182,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T11:49:39Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-713778.json"
   },
@@ -1116,6 +1195,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-29T12:04:22Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-8be6b9.json"
   },
@@ -1128,6 +1208,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-29T12:25:29Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-396219.json"
   },
@@ -1140,6 +1221,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-29T12:38:51Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-1843f6.json"
   },
@@ -1152,6 +1234,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 49,
    "submitted_at": "2026-09-29T13:55:04Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-76d622.json"
   },
@@ -1164,6 +1247,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-29T14:17:21Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-172439.json"
   },
@@ -1176,6 +1260,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-29T14:27:38Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-9bc325.json"
   },
@@ -1188,6 +1273,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-29T14:50:59Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-3251b4.json"
   },
@@ -1200,6 +1286,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-29T16:13:06Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-568e1f.json"
   },
@@ -1212,6 +1299,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-29T16:13:08Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-b7f6c4.json"
   },
@@ -1224,6 +1312,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-29T16:13:09Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-65967c.json"
   },
@@ -1236,6 +1325,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-29T16:13:09Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-a42bc7.json"
   },
@@ -1248,6 +1338,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-09-29T16:13:10Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-b44f0a.json"
   },
@@ -1260,6 +1351,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T17:13:06Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-1fed8f.json"
   },
@@ -1272,6 +1364,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T17:17:55Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-9b3c6d.json"
   },
@@ -1284,6 +1377,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-29T18:31:55Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-96108b.json"
   },
@@ -1296,6 +1390,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-29T19:43:50Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-6aaade.json"
   },
@@ -1308,6 +1403,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T19:54:09Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-074aa7.json"
   },
@@ -1320,6 +1416,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-29T20:26:37Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260929-c3ca5c.json"
   },
@@ -1332,6 +1429,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-29T23:50:04Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260929-79570f.json"
   },
@@ -1344,6 +1442,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-30T00:19:48Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-25565b.json"
   },
@@ -1356,6 +1455,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-30T01:04:43Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-e147c3.json"
   },
@@ -1368,6 +1468,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-30T03:00:24Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-5139b6.json"
   },
@@ -1380,6 +1481,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 45,
    "submitted_at": "2026-09-30T05:04:50Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-7f6a2a.json"
   },
@@ -1392,6 +1494,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T05:52:30Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-1ea8d5.json"
   },
@@ -1404,6 +1507,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-30T07:57:47Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-ea057b.json"
   },
@@ -1416,6 +1520,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-30T08:56:55Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-d0fd34.json"
   },
@@ -1428,6 +1533,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 49,
    "submitted_at": "2026-09-30T09:51:14Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-bd0549.json"
   },
@@ -1440,6 +1546,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T10:43:02Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-eab174.json"
   },
@@ -1452,6 +1559,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-30T12:21:10Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-d6a6ad.json"
   },
@@ -1464,6 +1572,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T13:41:07Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-1652a9.json"
   },
@@ -1476,6 +1585,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-30T14:26:23Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-be8aa3.json"
   },
@@ -1488,6 +1598,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-30T14:33:18Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-9c8374.json"
   },
@@ -1500,6 +1611,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T15:06:53Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-6524b5.json"
   },
@@ -1512,6 +1624,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T15:57:16Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-3192e0.json"
   },
@@ -4501,6 +4614,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-09-30T17:30:10Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-9c2ace.json"
   },
@@ -4513,6 +4627,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-30T17:34:55Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-14c43b.json"
   },
@@ -4525,6 +4640,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-30T17:40:36Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-d4b397.json"
   },
@@ -4537,6 +4653,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T20:22:04Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-e85b36.json"
   },
@@ -4549,6 +4666,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-30T21:32:11Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-d682ea.json"
   },
@@ -4561,6 +4679,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-09-30T21:46:05Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-6e81f1.json"
   },
@@ -4573,6 +4692,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-09-30T22:47:25Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202609/mn-sub-260930-4d8c12.json"
   },
@@ -4585,6 +4705,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-09-30T23:13:03Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-07c505.json"
   },
@@ -4597,6 +4718,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 41,
    "submitted_at": "2026-09-30T23:14:28Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202609/mn-sub-260930-2bd251.json"
   },
@@ -4609,6 +4731,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T00:05:43Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-5b49db.json"
   },
@@ -4621,6 +4744,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T00:05:45Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-e99129.json"
   },
@@ -4633,6 +4757,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T00:05:47Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-121dc1.json"
   },
@@ -4645,6 +4770,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T00:05:49Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ebf399.json"
   },
@@ -4917,6 +5043,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 41,
    "submitted_at": "2026-10-01T04:07:43Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-dc61ca.json"
   },
@@ -5280,6 +5407,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:10.424488Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-b05193.json"
   },
@@ -5292,6 +5420,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:12.679476Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-621dd3.json"
   },
@@ -5304,6 +5433,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 43,
    "submitted_at": "2026-10-01T04:26:14.584778Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ee96e1.json"
   },
@@ -5316,6 +5446,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:16.845646Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-e72399.json"
   },
@@ -5328,6 +5459,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:26:19.002886Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-e44ef6.json"
   },
@@ -5340,6 +5472,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-10-01T04:26:22.173368Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ee6117.json"
   },
@@ -5352,6 +5485,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:24.929845Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-b33d3e.json"
   },
@@ -5364,6 +5498,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:26:27.161142Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-3ba632.json"
   },
@@ -5376,6 +5511,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:29.344776Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-d5ae0b.json"
   },
@@ -5388,6 +5524,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:26:32.094246Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-5b3523.json"
   },
@@ -5400,6 +5537,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:26:34.877581Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-676101.json"
   },
@@ -5412,6 +5550,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:26:37.690989Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-2bd23a.json"
   },
@@ -5424,6 +5563,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:39.616027Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-70a194.json"
   },
@@ -5436,6 +5576,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:26:41.489578Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-b69a7d.json"
   },
@@ -5448,6 +5589,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:26:44.017929Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-3d5582.json"
   },
@@ -5460,6 +5602,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-10-01T04:26:47.124512Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-4cb222.json"
   },
@@ -5472,6 +5615,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:26:49.314580Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-129e89.json"
   },
@@ -5484,6 +5628,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:26:51.816384Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-7669bf.json"
   },
@@ -5496,6 +5641,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 43,
    "submitted_at": "2026-10-01T04:26:54.131264Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-e352be.json"
   },
@@ -5508,6 +5654,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:26:57.056305Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-83e4a8.json"
   },
@@ -5520,6 +5667,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 38,
    "submitted_at": "2026-10-01T04:26:58.724603Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-b4ba64.json"
   },
@@ -5532,6 +5680,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-10-01T04:27:01.354105Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-f615fe.json"
   },
@@ -5544,6 +5693,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 50,
    "submitted_at": "2026-10-01T04:27:03.638881Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-5b2056.json"
   },
@@ -5556,6 +5706,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-10-01T04:27:05.382022Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-2af262.json"
   },
@@ -5568,6 +5719,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:07.220360Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-bbe174.json"
   },
@@ -5580,6 +5732,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:09.319667Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-efbc36.json"
   },
@@ -5592,6 +5745,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:11.775803Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-a0d98d.json"
   },
@@ -5604,6 +5758,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 43,
    "submitted_at": "2026-10-01T04:27:13.846792Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-323402.json"
   },
@@ -5616,6 +5771,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:27:16.147189Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-5735bb.json"
   },
@@ -5628,6 +5784,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:19.129993Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-b84ea6.json"
   },
@@ -5640,6 +5797,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:21.641966Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-83e426.json"
   },
@@ -5652,6 +5810,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:24.919551Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-bcb189.json"
   },
@@ -5664,6 +5823,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:27.974419Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-10879e.json"
   },
@@ -5676,6 +5836,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:29.681178Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-8a7926.json"
   },
@@ -5688,6 +5849,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:32.654253Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ec6886.json"
   },
@@ -5700,6 +5862,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:27:35.756856Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-5377a5.json"
   },
@@ -5712,6 +5875,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:38.694148Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-a6b574.json"
   },
@@ -5724,6 +5888,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-10-01T04:27:40.523844Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-eec1ad.json"
   },
@@ -5736,6 +5901,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:27:42.821963Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-426576.json"
   },
@@ -5748,6 +5914,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:44.340269Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-c668f0.json"
   },
@@ -5760,6 +5927,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:27:47.033706Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-9dde52.json"
   },
@@ -5772,6 +5940,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:50.937428Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-40c139.json"
   },
@@ -5784,6 +5953,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:52.885456Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-8db7fe.json"
   },
@@ -5796,6 +5966,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:55.460852Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-4c3b87.json"
   },
@@ -5808,6 +5979,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:27:57.936877Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-adf10d.json"
   },
@@ -5820,6 +5992,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:28:31.029606Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-16db4d.json"
   },
@@ -5832,6 +6005,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:28:32.560922Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-2a75ad.json"
   },
@@ -5844,6 +6018,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:28:34.404109Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-444fd6.json"
   },
@@ -5856,6 +6031,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:28:44.633425Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ccaf50.json"
   },
@@ -5868,6 +6044,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 43,
    "submitted_at": "2026-10-01T04:28:46.483031Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-f73980.json"
   },
@@ -5880,6 +6057,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:28:48.701392Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-b9c6d6.json"
   },
@@ -5892,6 +6070,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:28:50.930673Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-05e3b8.json"
   },
@@ -5904,6 +6083,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-10-01T04:28:52.921698Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-b346ae.json"
   },
@@ -5916,6 +6096,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:28:55.018686Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-670981.json"
   },
@@ -5928,6 +6109,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:28:57.628456Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-12c2b9.json"
   },
@@ -5940,6 +6122,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:00.289146Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ad7341.json"
   },
@@ -5952,6 +6135,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 43,
    "submitted_at": "2026-10-01T04:29:01.972394Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-28f383.json"
   },
@@ -5964,6 +6148,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:29:04.228622Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-04d965.json"
   },
@@ -5976,6 +6161,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:07.186630Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-bc4c19.json"
   },
@@ -5988,6 +6174,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:09.745417Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-d100c2.json"
   },
@@ -6000,6 +6187,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:12.111431Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-a5d1eb.json"
   },
@@ -6012,6 +6200,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 45,
    "submitted_at": "2026-10-01T04:29:14.055338Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-77e2c9.json"
   },
@@ -6024,6 +6213,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:15.968176Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-34fd79.json"
   },
@@ -6036,6 +6226,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:29:17.856009Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-25ac8d.json"
   },
@@ -6048,6 +6239,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:29:20.945181Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-91382a.json"
   },
@@ -6060,6 +6252,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-10-01T04:29:23.724729Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-148534.json"
   },
@@ -6072,6 +6265,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 48,
    "submitted_at": "2026-10-01T04:29:26.263934Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-f8f521.json"
   },
@@ -6084,6 +6278,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:28.335706Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-ed6bb4.json"
   },
@@ -6096,6 +6291,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:29:30.558859Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-7a4cfa.json"
   },
@@ -6108,6 +6304,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:29:32.596842Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-020301.json"
   },
@@ -6120,6 +6317,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:34.859052Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-28f4b2.json"
   },
@@ -6132,6 +6330,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:29:36.828369Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-d5e938.json"
   },
@@ -6144,6 +6343,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:39.476592Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-50782d.json"
   },
@@ -6156,6 +6356,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:29:41.618743Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-84e176.json"
   },
@@ -6168,6 +6369,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:44.211503Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-fd583f.json"
   },
@@ -6180,6 +6382,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:46.769031Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-502b7e.json"
   },
@@ -6192,6 +6395,7 @@
    "status": "pending-L2: description-only (attach files, code, or a verifiable repo_url to become merge-eligible)",
    "trust": 39,
    "submitted_at": "2026-10-01T04:29:49.103879Z",
+   "from": null,
    "eligible": false,
    "path": "submissions/202610/mn-sub-261001-c63fdf.json"
   },
@@ -6204,6 +6408,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T04:29:51.489083Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-facb66.json"
   },
@@ -6216,6 +6421,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T04:29:53.489296Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-6d71e0.json"
   },
@@ -6228,6 +6434,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 44,
    "submitted_at": "2026-10-01T15:00:48Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-c45f54.json"
   },
@@ -6240,6 +6447,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T19:15:07Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-6373ce.json"
   },
@@ -6252,6 +6460,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 46,
    "submitted_at": "2026-10-01T21:19:04Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-5fa293.json"
   },
@@ -6264,6 +6473,7 @@
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 43,
    "submitted_at": "2026-10-01T23:42:53Z",
+   "from": null,
    "eligible": true,
    "path": "submissions/202610/mn-sub-261001-0593f4.json"
   },
@@ -6271,15 +6481,14 @@
    "id": "mn-sub-261002-6247f3",
    "name": "queue-author-pipeline-test",
    "version": "1.0.0",
+   "author": "eddyflores100-lang",
    "verdict": "accepted",
    "status": "certified-L1.5 (auto-scan + claims verified) — pending L2 review",
    "trust": 47,
    "submitted_at": "2026-10-02T03:23:30.900Z",
    "from": "ip:217a7483d6ba",
    "eligible": true,
-   "path": "submissions/202610/mn-sub-261002-6247f3.json",
-   "author": "eddyflores100-lang"
+   "path": "submissions/202610/mn-sub-261002-6247f3.json"
   }
- ],
- "note_author": "author field added to every entry — each skill in the queue now shows who made it"
+ ]
 }
