@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-02T03:23:31.797Z",
+ "updated_at": "2026-10-02T03:55:00Z",
  "regenerated_by": "scripts/regen-submission-index.mjs (M-09 recovery)",
  "regenerated_from_tree_count": 2936,
  "entries": [
@@ -6277,7 +6277,8 @@
    "submitted_at": "2026-10-02T03:23:30.900Z",
    "from": "ip:217a7483d6ba",
    "eligible": true,
-   "path": "submissions/202610/mn-sub-261002-6247f3.json"
+   "path": "submissions/202610/mn-sub-261002-6247f3.json",
+   "author": "eddyflores100-lang"
   }
  ],
  "note_author": "author field added to every entry — each skill in the queue now shows who made it"
